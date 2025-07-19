@@ -1,23 +1,23 @@
 state={
 	id=28
-	name="STATE_29"
+	name="STATE_28"
 	provinces={
 		10776 
 	}
 	history={
-	    owner = RAS
-	    add_core_of = RAS
+		owner = RAS
+		add_core_of = RAS
 		add_core_of = DAG
 		victory_points = { 10776 40 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			10776 = {
-			    naval_base = 4
+				naval_base = 4
 			}	
 		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=324726
-        state_category = town
+	manpower=324726
+	state_category = town
 }

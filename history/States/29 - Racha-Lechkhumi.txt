@@ -1,22 +1,24 @@
 state={
 	id=29
-	name="STATE_30"
+	name="STATE_29"
 	provinces={
 		120 242 375 468 681 831 1162 1183 1397 1519 1883 1895 2055 2193 2264 2326 2466 2680 2745 3023 3083 3406 3463 3836 3848 3854 4189 4302 4442 4496 4599 4620 4923 5063 5129 5135 5161 5377 5653 5728 6007 6117 6122 6181 6185 6405 6430 6757 6846 6959 7079 7406 7563 8271 8417 8540 8663 8707 8721 8770 9405 10837 10871 10879 10884 10892 10893 10899 10903 10906 10908 10910 10913 10915 10919 10921 10932 10936 10942 10948 10950 10951 10956 10960 10973 10978 
 	}
+
 	history={
-	owner = SAK
-	add_core_of = SAK
-	victory_points = { 4442 25 }
-	victory_points = { 8540 10 }
-	victory_points = { 2264 10 }
-	victory_points = { 10906 20 }
-	    buildings = {
+		owner = SAK
+		add_core_of = SAK
+		victory_points = { 4442 25 }
+		victory_points = { 8540 10 }
+		victory_points = { 2264 10 }
+		victory_points = { 10906 20 }
+		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
 		}
 	}
+
 	manpower=28500
 	buildings_max_level_factor=1.000
 	state_category=rural
