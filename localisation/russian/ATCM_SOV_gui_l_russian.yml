@@ -1,0 +1,10 @@
+﻿l_russian:
+ CHE_separatism_value_text:0 "[CHE_separatism_value]%"
+ SAK_separatism_value_text:0 "[SAK_separatism_value]%"
+ ARM_separatism_value_text:0 "[AZR_separatism_value]%"
+ AZR_separatism_value_text:0 "[ARM_separatism_value]%"
+ DAG_separatism_value_text:0 "[DAG_separatism_value]%"
+ RAS_soviet_separatism_decision:0 "Сепаратизм на Кавказе"
+ SOV_add_minus_5_to_DAG_tt:0 "Немного снизит уровень сепаратизма в регионе" 
+ SOV_add_minus_5_to_AZR_tt:0 "Немного снизит уровень сепаратизма в Азербайджане"
+ SOV_end_of_the_ussr:0 "Конец СССР"

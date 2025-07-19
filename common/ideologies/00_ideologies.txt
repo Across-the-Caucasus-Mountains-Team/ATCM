@@ -73,6 +73,9 @@ ideologies = {
 		    
 			generic_conservatism = {
 			}
+
+			ozalism = {
+			}
 		}
 
 		dynamic_faction_names = {

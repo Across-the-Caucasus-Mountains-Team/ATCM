@@ -1,0 +1,16 @@
+﻿l_russian:
+  sp_event_SOV_August_Coup_title:0 "Августовский путч"
+  sp_event_SOV_August_Coup_quote:0 "“СССР как государство, как единое целое, как геополитическая единица — прекратит своё существование». \n- §YГеннадий Янаев§!"
+  sp_event_SOV_August_Coup_remark:0 "Конец Советского Союза близок..."
+
+  sp_event_SOV_End_Of_The_Ussr_title:0 "Распад СССР"
+  sp_event_SOV_End_Of_The_Ussr_quote:0 "“Мы не строили то, что нужно было народу. Пришло время создать другое государство — свободное и демократическое». \n- §YБорис Ельцин§!"
+  sp_event_SOV_End_Of_The_Ussr_remark:0 "Конец целой эпохи"
+
+  sp_event_RAS_Black_October_title:0 "Чёрный Октябрь"
+  sp_event_RAS_Black_October_quote:0 "“Это был государственный переворот. Ельцин распустил парламент — это и был переворот». \n- §YСторонники парламента§!"
+  sp_event_RAS_Black_October_remark:0 "Начало заката демократии в России"
+
+  sp_event_RAS_First_Chechen_War_title:0 "Первая Чеченская война"
+  sp_event_RAS_First_Chechen_War_quote:0 "“У меня нет злобы к России, только отвращение, как к мёртвому скоту». \n- §YДжохар Дудаев§!"
+  sp_event_RAS_First_Chechen_War_remark:0 "Начало кровавой бойни"

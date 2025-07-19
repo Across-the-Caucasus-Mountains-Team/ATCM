@@ -1,0 +1,17 @@
+characters={
+	TUR_turgut_ozal={
+		name="Turgut Özal"
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/portrait_TUR_turgut_ozal.png"
+			}
+		}
+		country_leader={
+			ideology=ozalism
+			traits={ TUR_turgut_ozal_T1 TUR_turgut_ozal_T2 TUR_turgut_ozal_T3 }
+			expire="1993.4.17.1"
+			id=-1
+		}
+	}
+
+}	

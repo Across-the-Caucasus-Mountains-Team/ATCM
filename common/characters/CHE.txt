@@ -97,4 +97,31 @@ characters={
 			id=-1
 		}
 	}
-}	
+
+	CHE_aslan_maskhadov = {
+		name = "Aslan Maskhadov"
+		portraits = {
+			army = {
+				large="gfx/leaders/CHE/portrait_CHE_aslan_maskhadov.png"
+			}
+			army = {
+				large="gfx/leaders/CHE/portrait_CHE_aslan_maskhadov.png"
+			}
+		}
+		country_leader={
+			ideology= all_national_congress_of_the_chechen_people
+			traits={ SWE_close_ties_to_the_military }
+			expire="1996.4.21.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = { guerilla_fighter superior_tactician urban_assault_specialist }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = 1203
+		}
+	}
+}
