@@ -41,14 +41,14 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 10
+			add_political_power = 10
 			country_event = chechnya.3
 		}	
 	}
 
 	focus = {
 		id = CHE_propaganda_of_nationalism
-		icon = GFX_CHE_Future_of_the_Chechen_ingush_republic
+		icon = GFX_CHE_propaganda_of_nationalism
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
@@ -75,13 +75,13 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_popularity = {ideology = Nationalism Popularity = 0.075}
+			add_popularity = {ideology = Nationalism Popularity = 0.075}
 		}	
 	}
 
 	focus = {
 		id = CHE_2nd_session_of_the_firs_chechen_national_congress
-		icon = GFX_CHE_Future_of_the_Chechen_ingush_republic
+		icon = GFX_CHE_2nd_session_of_the_firs_chechen_national_congress
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
@@ -94,7 +94,7 @@ focus_tree = {
 		}
 		
 		available = {
-            date > 1991.05.1
+			date > 1991.05.1
 		}
 		
 		bypass = {
@@ -108,7 +108,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_popularity = {ideology = Nationalism Popularity = 0.05}
+			add_popularity = {ideology = Nationalism Popularity = 0.05}
 		}	
 	}
 
@@ -127,7 +127,7 @@ focus_tree = {
 		}
 		
 		available = {
-            date > 1991.08.18
+			date > 1991.08.18
 		}
 		
 		bypass = {
@@ -141,18 +141,18 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 10
+			add_political_power = 10
 			hidden_effect = {
 				country_event = {
-                    id = chechnya.1
-                    days = 269
-                }
+					id = chechnya.1
+					days = 269
+				}
 				country_event = {
-                    id = chechnya.4
-                    days = 54
-                }
+					id = chechnya.4
+					days = 54
+				}
 				add_stability = -0.05
-			    add_war_support = -0.25
+				add_war_support = -0.25
 			}
 		}	
 	}
@@ -185,7 +185,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.075
 			add_war_support = 0.05
 		}	
@@ -206,20 +206,20 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 
 		offset = {
-            x = -4
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = CHE_build_islamic_state
-            }
-        }
+			x = -4
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = CHE_build_islamic_state
+			}
+		}
 
 		allow_branch = {
 			if = {
@@ -246,7 +246,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.075
 			add_war_support = 0.05
 			add_popularity = {ideology = islam Popularity = 0.05}
@@ -269,7 +269,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -303,7 +303,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -337,7 +337,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -371,7 +371,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -405,7 +405,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -439,7 +439,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -475,7 +475,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -511,7 +511,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -527,38 +527,38 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {ideology = islam Popularity = 0.05}
 			add_war_support = 0.05
-		    add_political_power = 50
-		    add_stability = -0.1
-		    custom_effect_tooltip = 4_CHE_tt
-		    128 = {
-			    add_manpower = -5000
-		    }
-		    127 = {
-			    add_manpower = -6000
-		    }
-            126 = {
-		        add_manpower = -4000
-		    }
-		    125 = {
-			    add_manpower = -300
-		    }
-		    124 = {
+			add_political_power = 50
+			add_stability = -0.1
+			custom_effect_tooltip = 4_CHE_tt
+			128 = {
+				add_manpower = -5000
+			}
+			127 = {
+				add_manpower = -6000
+			}
+			126 = {
+				add_manpower = -4000
+			}
+			125 = {
+				add_manpower = -300
+			}
+			124 = {
 			   add_manpower = -200
-		    }
-		    21 = {
-			    add_manpower = -9250
-		    }
-		    20 = {
-			    add_manpower = -50
-		    }
-		    16 = {
-			    add_manpower = -780
-		    }
-		    hidden_effect = { 
-		        RAS = {
-			        country_event = russia.2
-		        }
-		    }
+			}
+			21 = {
+				add_manpower = -9250
+			}
+			20 = {
+				add_manpower = -50
+			}
+			16 = {
+				add_manpower = -780
+			}
+			hidden_effect = { 
+				RAS = {
+					country_event = russia.2
+				}
+			}
 		}	
 	}
 	
@@ -581,16 +581,16 @@ focus_tree = {
 		}
 
 		offset = {
-            x = 4
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = CHE_build_secular_state
-            }
-        }
+			x = 4
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = CHE_build_secular_state
+			}
+		}
 
 		allow_branch = {
 			if = {
@@ -617,7 +617,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.035
 			add_war_support = 0.05
 			mark_focus_tree_layout_dirty = yes
@@ -683,7 +683,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = OpenAccessInNextUpdates
 		}
 		
 		bypass = {
@@ -702,13 +702,13 @@ focus_tree = {
 			add_war_support = -0.25
 			add_stability = -0.25
 			RAS = {
-                set_autonomy = {
-                target = CHE
-                autonomous_state = autonomy_puppet
-                end_wars = yes
-                end_civil_wars = yes
-                }
-            }
+				set_autonomy = {
+				target = CHE
+				autonomous_state = autonomy_puppet
+				end_wars = yes
+				end_civil_wars = yes
+				}
+			}
 		}	
 	}
 
@@ -744,51 +744,51 @@ focus_tree = {
 			custom_effect_tooltip = 2_CHE_tt
 			load_oob = CHE_war_1991_1
 			21 = {
-                add_building_construction = {
-                    type = bunker
-                    level = 3
-                    province = {
-                        id = 10609
-                        id = 17367
-                        id = 17366
-                        id = 8281
-                        id = 17370
-                        id = 10593
-                        id = 10581
-                        id = 17368
-                    }
-                    instant_build = yes
-                }
-            }
-            20 = {
-                add_building_construction = {
-                    type = bunker
-                    level = 3
-                    province = {
-                        id = 2044
-                        id = 7018
-                        id = 5484
-                        id = 10633
-                        id = 6901
-                        id = 10612
-                        id = 17371
-                        id = 8731
-                        id = 10596
-                        id = 4807
-                        id = 10560
-                        id = 8086
-                        id = 10569
-                        id = 10551
-                        id = 79
-                        id = 10556
-                        id = 10592
-                        id = 10582
-                        id = 4141
-                        id = 10601
-                        id = 2422
-                    }
-                    instant_build = yes
-                }
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = {
+						id = 10609
+						id = 17367
+						id = 17366
+						id = 8281
+						id = 17370
+						id = 10593
+						id = 10581
+						id = 17368
+					}
+					instant_build = yes
+				}
+			}
+			20 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = {
+						id = 2044
+						id = 7018
+						id = 5484
+						id = 10633
+						id = 6901
+						id = 10612
+						id = 17371
+						id = 8731
+						id = 10596
+						id = 4807
+						id = 10560
+						id = 8086
+						id = 10569
+						id = 10551
+						id = 79
+						id = 10556
+						id = 10592
+						id = 10582
+						id = 4141
+						id = 10601
+						id = 2422
+					}
+					instant_build = yes
+				}
 			}	
 		}	
 	}
@@ -992,9 +992,9 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 4950
 			add_timed_idea = {
-                idea = CHE_volunteers_from_muslim_world_idea
-                days = 280
-            }
+				idea = CHE_volunteers_from_muslim_world_idea
+				days = 280
+			}
 			remove_ideas = CHE_manpower_shortage_idea
 		}	
 	}
@@ -1314,7 +1314,7 @@ focus_tree = {
 		}
 		
 		available = {
-            date > 1995.01.05
+			date > 1995.01.05
 			has_global_flag = Dudayev_is_dead
 		}
 		
@@ -1404,7 +1404,7 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 2500 
 			}
-            add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = artillery_equipment_1 
 				amount = 150 
 			}
@@ -1444,7 +1444,7 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1500 
 			}
-            add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = artillery_equipment_1 
 				amount = 50 
 			}
@@ -1491,7 +1491,7 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1500 
 			}
-            add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = artillery_equipment_1 
 				amount = 75
 			}
@@ -1547,8 +1547,8 @@ focus_tree = {
 		
 		available = {
 			OR = {
-			    has_global_flag = Dudayev_is_dead
-                date > 1995.05.05
+				has_global_flag = Dudayev_is_dead
+				date > 1995.05.05
 			}
 		}
 		
@@ -1755,8 +1755,8 @@ focus_tree = {
 		
 		available = {
 			OR = { 
-			    has_completed_focus = CHE_irregular_forces
-                casualties > 30000
+				has_completed_focus = CHE_irregular_forces
+				casualties > 30000
 			}
 		}
 		
@@ -2336,9 +2336,9 @@ focus_tree = {
 		
 		completion_reward = {
 			swap_ideas = {
-                remove_idea = CHE_wartime_propaganda
-                add_idea = CHE_wartime_propaganda_two
-            }
+				remove_idea = CHE_wartime_propaganda
+				add_idea = CHE_wartime_propaganda_two
+			}
 		}	
 	}
 
@@ -2528,7 +2528,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_completed_focus = CHE_Aftermath_of_Chechen_revolution
+			has_completed_focus = CHE_Aftermath_of_Chechen_revolution
 		}
 		
 		bypass = {
@@ -2562,7 +2562,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2578,7 +2578,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    army_experience = 25
+			army_experience = 25
 			add_war_support = 0.025
 			add_manpower = 5500
 		}	
@@ -2599,7 +2599,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2616,14 +2616,14 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-		    add_to_variable = { CHE_wcaf_war_support_factor = 0.02 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.005 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.03 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.01 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.03 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.04 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.02 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.005 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.03 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.01 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.03 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.04 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2643,7 +2643,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2660,14 +2660,14 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-		    add_to_variable = { CHE_wcaf_war_support_factor = 0.1 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.005 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.07 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.07 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.1 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.1 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.10 }
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.1 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.005 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.07 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.07 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.1 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.1 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.10 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2687,7 +2687,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2704,14 +2704,14 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-		    add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.002 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.07 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.02 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.06 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.002 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.07 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.02 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.06 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2731,7 +2731,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2747,16 +2747,16 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -100
+			add_political_power = -100
 			add_stability = -0.1
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.02 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.001 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.01 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.02 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.03 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.01 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.02 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.01 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.01 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.02 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.03 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.01 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.02 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.01 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2777,7 +2777,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2793,7 +2793,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    army_experience = 50
+			army_experience = 50
 			add_war_support = 0.025
 		}	
 	}
@@ -2812,7 +2812,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2829,14 +2829,14 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-		    add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.001 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.1 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.1 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2855,7 +2855,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2872,14 +2872,14 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-		    add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.005 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.02 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.09 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.1 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.1 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.1 }
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.005 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.02 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.09 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.1 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.1 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.1 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2898,7 +2898,7 @@ focus_tree = {
 		}
 
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2915,14 +2915,14 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-		    add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.001 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.1 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.01 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.15 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.15 }
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.1 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.01 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.15 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.15 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2941,7 +2941,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -2958,14 +2958,14 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-		    add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_Conscription = 0.003 }
-            add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
-            add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
-            add_to_variable = { CHE_wcaf_army_org_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_army_speed_factor = 0.02 }
-            add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
-            add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.003 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
+			add_to_variable = { CHE_wcaf_army_org_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_army_speed_factor = 0.02 }
+			add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}
@@ -2999,7 +2999,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 10
+			add_political_power = 10
 			add_stability = 0.075
 		}	
 	}
@@ -3033,7 +3033,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.05
 		}	
 	}
@@ -3067,7 +3067,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.05
 		}	
 	}
@@ -3101,7 +3101,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    army_experience = 50
+			army_experience = 50
 			add_timed_idea = {
 				idea = CHE_Military_Training
 				days = 365
@@ -3138,13 +3138,13 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.05
 			add_war_support = 0.025
 		}	
 	}
 
-    focus = {
+	focus = {
 		id = CHE_Deport_Russians
 		icon = GFX_CHE_Deport_Russians
 		x = 0
@@ -3175,7 +3175,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 10
+			add_political_power = 10
 			country_event = chechnya.11
 		}	
 	}
@@ -3209,7 +3209,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 65
+			add_political_power = 65
 			add_stability = 0.075
 		}	
 	}
@@ -3243,7 +3243,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    army_experience = 50
+			army_experience = 50
 			add_ideas = CHE_National_Guard
 		}	
 	}
@@ -3277,7 +3277,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_manpower = 20000
+			add_manpower = 20000
 			add_popularity = {
 				ideology = nationalism
 				popularity = 0.05
@@ -3349,7 +3349,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_manpower = -1700
+			add_manpower = -1700
 			add_stability = -0.05
 		}	
 	}
@@ -3385,7 +3385,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 15
+			add_political_power = 15
 			add_stability = 0.10
 			add_war_support = 0.05
 		}	
@@ -3406,7 +3406,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -3422,7 +3422,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 50
+			add_political_power = 50
 			add_stability = 0.075
 		}	
 	}
@@ -3442,7 +3442,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -3458,10 +3458,10 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    21 = {
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 2
+			21 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
 					instant_build = yes
 				}	
 				add_extra_state_shared_building_slots = 2
@@ -3484,7 +3484,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -3500,24 +3500,24 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    125 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
+			125 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
 					instant_build = yes
 				}	
 			}	
 			126 = {
-                add_building_construction = {
-                    type = infrastructure
-                    level = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
 					instant_build = yes
 				}	
 			}	
 			127 = {
-                add_building_construction = {
-                    type = infrastructure 
-                    level = 1
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
 					instant_build = yes
 				}	
 			}	
@@ -3539,7 +3539,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -3555,7 +3555,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -100
+			add_political_power = -100
 			add_stability = 0.075
 		}	
 	}
@@ -3575,7 +3575,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -3591,28 +3591,28 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		     125 = {
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
+			 125 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
 					instant_build = yes
 				}	
 				add_building_construction = {
-                    type = arms_factory
-                    level = 1
+					type = arms_factory
+					level = 1
 					instant_build = yes
 				}	
 				add_extra_state_shared_building_slots = 2
 			}	
 			126 = {
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
 					instant_build = yes
 				}	
 				add_building_construction = {
-                    type = arms_factory
-                    level = 1
+					type = arms_factory
+					level = 1
 					instant_build = yes
 				}	
 				add_extra_state_shared_building_slots = 2
@@ -3635,7 +3635,7 @@ focus_tree = {
 		}
 		
 		available = {
-            NOT = {
+			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
@@ -3651,7 +3651,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -150
+			add_political_power = -150
 			add_stability = 0.075
 		}	
 	}
@@ -3685,7 +3685,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -25
+			add_political_power = -25
 			add_popularity = {ideology = Nationalism Popularity = 0.05}
 			add_stability = -0.075
 		}	
@@ -3720,7 +3720,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -50
+			add_political_power = -50
 			add_stability = -0.05
 			add_war_support = -0.05
 			add_popularity = {
@@ -3775,7 +3775,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -25
+			add_political_power = -25
 			add_stability = -0.05
 			add_war_support = -0.05
 			add_popularity = {
@@ -3831,7 +3831,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -150
+			add_political_power = -150
 			add_stability = -0.10
 			add_war_support = -0.15
 			add_popularity = {
@@ -3854,7 +3854,7 @@ focus_tree = {
 				ideology = populism
 				popularity = -0.075
 			}
-		    hidden_effect = {
+			hidden_effect = {
 				add_war_support = -0.15
 			}
 		}	
@@ -3889,7 +3889,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.05
 			add_war_support = 0.05
 		}	
@@ -3924,7 +3924,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.075
 			add_popularity = {ideology = Nationalism Popularity = 0.05}
 		}	
@@ -3959,7 +3959,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 45
+			add_political_power = 45
 			add_war_support = 0.05
 			add_popularity = {ideology = Nationalism Popularity = 0.025}
 		}	
@@ -3995,7 +3995,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_ideas = CHE_Young_patriots_idea
+			add_ideas = CHE_Young_patriots_idea
 			add_manpower = 1000
 			add_popularity = { ideology = Nationalism Popularity = 0.05 }
 		}	
@@ -4030,7 +4030,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_popularity = {ideology = Nationalism Popularity = 0.1}
 			add_timed_idea = {
 				idea = CHE_Nationalist_Propagandas_idea
@@ -4070,7 +4070,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_war_support = 0.05
+			add_war_support = 0.05
 			add_political_power = 50
 		}	
 	}

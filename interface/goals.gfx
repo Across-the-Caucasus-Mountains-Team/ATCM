@@ -127,6 +127,16 @@ spriteTypes = {
 		name = "GFX_CHE_build_secular_state"
 		texturefile = "gfx/interface/goals/CHE/CHE_build_secular_state.png"
 	}
+
+	SpriteType = {
+		name = "GFX_CHE_2nd_session_of_the_firs_chechen_national_congress"
+		texturefile = "gfx/interface/goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_propaganda_of_nationalism"
+		texturefile = "gfx/interface/goals/CHE/CHE_propaganda_of_nationalism.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_CHE_operations_outside_of_chechnya"
@@ -1725,36 +1735,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Goal_SAK_Gamsakhurdia"
 		texturefile = "gfx/interface/goals/Goal_SAK_Gamsakhurdia.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_goal_shine_test"
-		texturefile = "gfx/interface/goals/goal_generic_production.dds"
-		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = yes			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 1.0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = yes			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 1.0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
 	}
 }	
