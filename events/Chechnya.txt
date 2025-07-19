@@ -1,0 +1,336 @@
+add_namespace = chechnya
+
+#Ingushetia is separating from us
+country_event = {
+	id = chechnya.1
+	title = chechnya.1.t
+	desc = chechnya.1.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.1.a
+		add_political_power = -75
+		hidden_effect = {
+			RAS = {
+				add_stability = 0.025
+				transfer_state = 17
+				country_event = chechnya.2
+			}
+		}
+		news_event = { 
+			id = news.8 
+			days = 3
+		}
+	}
+}
+
+#Russian event about Ingushetia
+country_event = {
+	id = chechnya.2
+	title = chechnya.2.t
+	desc = chechnya.2.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.2.a
+		hidden_effect = {
+			RAS = {
+				country_event = {
+					id = russia.15
+					days = 148
+				}
+			}
+		}	
+	}
+}
+
+#Current situation in Ingushetia-Chechna ASSR
+country_event = {
+	id = chechnya.3
+	title = chechnya.3.t
+	desc = chechnya.3.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.3.a
+	}
+}
+
+#INDEPENDENCE
+country_event = {
+	id = chechnya.4
+	title = chechnya.4.t
+	desc = chechnya.4.d
+	picture = GFX_Report_event_CHE_INDEPENDENCE
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.4.a
+		drop_cosmetic_tag = yes
+		set_politics = { 
+			ruling_party = nationalism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = nationalism
+			popularity = 0.05
+		}
+		RAS = {
+			set_autonomy = {
+				target = CHE
+				autonomous_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+		unlock_national_focus = CHE_Aftermath_of_Chechen_revolution
+		add_ideas = CHE_abandoned_MIC
+		add_ideas = CHE_destroyed_economy
+		news_event = { id = news.10 }
+	}
+}
+
+#Gamsakhurdia in Chechnya
+country_event = {
+	id = chechnya.5
+	title = chechnya.5.t
+	desc = chechnya.5.d
+	picture = GFX_RReport_event_CHE_Gamsakhurdia_in_chechnya
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.5.a
+		22 = { transfer_state_to = GOM }	
+	}
+}
+
+#The Battle is in here
+country_event = {
+	id = chechnya.6
+	title = chechnya.6.t
+	desc = chechnya.6.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.6.a
+		activate_mission = CHE_hold_Grozny
+		activate_mission = CHE_hold_Shali
+		activate_mission = CHE_hold_Gudermes
+		activate_mission = CHE_hold_UrusMartan
+		activate_mission = CHE_hold_Argun
+		set_country_flag = FirstChechenWar
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+#Russia supports chechen opposition
+country_event = {
+	id = chechnya.7
+	title = chechnya.7.t
+	desc = chechnya.7.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.7.a
+		add_war_support = -0.025
+		add_political_power = -25
+	}
+}
+
+#manpower shortage
+country_event = {
+	id = chechnya.8
+	title = chechnya.8.t
+	desc = chechnya.8.d
+	picture = GFX_Report_event_CHE_manpower_shortage
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.8.a
+		add_ideas = CHE_manpower_shortage_idea
+	}
+}
+
+#russian blitz has been failed
+country_event = {
+	id = chechnya.9
+	title = chechnya.9.t
+	desc = chechnya.9.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.9.a
+		add_war_support = 0.075
+		add_political_power = 50
+		custom_effect_tooltip = 5_CHE_tt
+		hidden_effect = {
+			set_country_flag = AftermatchOfFirstWave
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+
+#Zviad Gamsakhurdia funeral
+country_event = {
+	id = chechnya.10
+	title = chechnya.10.t
+	desc = chechnya.10.d
+	picture = GFX_Report_event_CHE_Funeral_of_Zviad
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.10.a
+		add_war_support = 0.075
+		add_political_power = 50
+	}
+}
+
+#Questions of Russians
+country_event = {
+	id = chechnya.11
+	title = chechnya.11.t
+	desc = chechnya.11.d
+	picture = GFX_Report_event_CHE_Funeral_of_Zviad
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.11.a
+		add_stability = 0.1
+		add_war_support = -0.05
+	}
+
+	option = {
+		name = chechnya.11.b
+		add_war_support = 0.05
+		add_political_power = 50
+		add_stability = -0.1
+		custom_effect_tooltip = 4_CHE_tt
+		128 = {
+			add_manpower = -5000
+		}
+		127 = {
+			add_manpower = -6000
+		}
+		126 = {
+			add_manpower = -4000
+		}
+		125 = {
+			add_manpower = -300
+		}
+		124 = {
+			add_manpower = -200
+		}
+		21 = {
+			add_manpower = -9250
+		}
+		20 = {
+			add_manpower = -50
+		}
+		16 = {
+			add_manpower = -780
+		}
+		hidden_effect = { 
+			RAS = {
+				country_event = russia.2
+			}
+		}
+	}
+}
+
+#Russia has imposed an embargo on us
+country_event = {
+	id = chechnya.12
+	title = chechnya.12.t
+	desc = chechnya.12.d
+	picture = GFX_Report_event_CHE_Funeral_of_Zviad
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.12.a
+		add_stability = -0.05
+	}
+
+	option = {
+		name = chechnya.12.b
+		add_war_support = 0.05
+	}
+}
+
+#Dudayev is dead
+country_event = {
+	id = chechnya.13
+	title = chechnya.13.t
+	desc = chechnya.13.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			retire_character = CHE_Dzhokhar_Dudaev
+			set_global_flag = Dudayev_is_dead
+			news_event = {
+				id = news.20
+				days = 2
+			}
+		}
+	}
+
+	option = {
+		name = chechnya.13.a
+		add_stability = -0.15
+		add_country_leader_role = {
+			character = CHE_Zelimkhan_Yandarbiev
+			promote_leader = yes		
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = all_national_congress_of_the_chechen_people
+				traits = {  
+					#	
+				}
+			}
+		}
+	}
+}
+
+#Russia staged an assassination attempt on Dudayev
+country_event = {
+	id = chechnya.14
+	title = chechnya.14.t
+	desc = chechnya.14.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.14.a
+		add_war_support = 0.05
+		add_political_power = 25
+	}
+}

@@ -1,0 +1,416 @@
+add_namespace = russia
+
+#Creation of CSTO
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia.1.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.1.a
+		create_faction = Collective_Security_Treaty_Organization
+	}
+}
+
+#Chechnya deports Russians
+country_event = {
+	id = russia.2
+	title = russia.2.t
+	desc = russia.2.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.2.a
+		add_war_support = 0.025
+	}
+}
+
+#the Congress of Peoples Deputies and the Supreme Soviet dissolved
+country_event = {
+	id = russia.3
+	title = russia.3.t
+	desc = russia.3.d
+	picture = GFX_Report_event_congress
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.3.a
+		add_war_support = 0.025
+		add_stability = 0.025
+		add_political_power = 25
+		add_popularity = {
+			ideology = communism
+			popularity = -0.10
+		}
+		country_event = {
+			id = russia.8
+			hours = 1
+		}
+	}
+}
+
+#The Russian army is losing its combat capability
+country_event = {
+	id = russia.4
+	title = russia.4.t
+	desc = russia.4.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.4.a
+		add_war_support = -0.025
+		add_ideas = RAS_plundered_army
+	}
+}
+
+#Communism is gaining popularity again
+country_event = {
+	id = russia.5
+	title = russia.5.t
+	desc = russia.5.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.5.a
+		add_stability = -0.025
+		add_popularity = {
+			ideology = communism
+			popularity = 0.10
+		}
+	}
+}
+
+#Fail blitz first chechen war
+country_event = {
+	id = russia.6
+	title = russia.6.t
+	desc = russia.6.d
+	picture = GFX_Report_event_RAS_failed_blitz
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.6.a
+		add_war_support = -0.05
+		add_popularity = {
+			ideology = liberalism
+			popularity = -0.05
+		}
+		custom_effect_tooltip = 6_RAS_tt
+		mark_focus_tree_layout_dirty = yes
+		set_global_flag = Fail_Blitz_First_ChechenWar
+		complete_national_focus = {
+			focus = RAS_failed_blitz
+			use_side_message = yes
+		}
+	}
+}
+
+#Triumph in Chechnya
+country_event = {
+	id = russia.7
+	title = russia.7.t
+	desc = russia.7.d
+	picture = GFX_Report_event_RAS_failed_blitz
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.7.a
+		add_war_support = 0.15
+		add_stability = 0.10
+		add_political_power = 50
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.075
+		}
+	}
+}
+
+#Mass Protest
+country_event = {
+	id = russia.8
+	title = russia.8.t
+	desc = russia.8.d
+	picture = GFX_Report_event_mass_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.8.a
+		add_war_support = -0.05
+		add_stability = -0.10
+		add_political_power = -75
+		add_popularity = {
+			ideology = communism
+			popularity = 0.10
+		}
+		country_event = {
+			id = russia.9
+			hours = 7
+		}
+	}
+}
+
+#First bloody clashes
+country_event = {
+	id = russia.9
+	title = russia.9.t
+	desc = russia.9.d
+	picture = GFX_Report_event_first_clashes
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.9.a
+		add_war_support = -0.15
+		add_stability = -0.10
+		add_political_power = -150
+		add_popularity = {
+			ideology = liberalism
+			popularity = -0.15
+		}
+		country_event = {
+			id = russia.10
+			days = 1
+		}
+	}
+}
+
+#Barricades around the parliament
+country_event = {
+	id = russia.10
+	title = russia.10.t
+	desc = russia.10.d
+	picture = GFX_Report_event_Barricades
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.10.a
+		complete_national_focus = RAS_black_october
+		add_political_power = -20
+		country_event = {
+			id = russia.11
+			days = 1
+		}
+	}
+}
+
+#Storm on Police cordon
+country_event = {
+	id = russia.11
+	title = russia.11.t
+	desc = russia.11.d
+	picture = GFX_Report_event_police_cordon
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.11.a
+		add_political_power = -20
+		add_stability = -0.025
+		country_event = {
+			id = russia.12
+			days = 1
+		}
+	}
+}
+
+#Storming the parliament
+country_event = {
+	id = russia.12
+	title = russia.12.t
+	desc = russia.12.d
+	picture = GFX_Report_event_RAS_shooting_at_parliament
+
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = { 
+			id = superevent.3
+			days = 2
+		}
+	} 
+
+	option = {
+		name = russia.12.a
+		add_political_power = -350
+		add_stability = -0.45
+		add_war_support = -0.45
+		add_popularity = {
+			ideology = liberalism
+			popularity = -0.35
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
+		add_manpower = -147
+		news_event = { id = news.19 }
+	}
+}
+
+#peace with chechnya (To chechnya)
+country_event = {
+	id = russia.13
+	title = russia.13.t
+	desc = russia.13.d
+	picture = GFX_Report_event_RAS_shooting_at_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.13.a
+		add_stability = 0.25
+		add_political_power = 50
+		white_peace = RAS
+		hidden_effect = {
+			RAS = {
+				country_event = russia.18
+			}
+			news_event = {
+				id = news.21
+				days = 3
+			}
+		}
+	}
+
+	option = {
+		name = russia.13.b
+		add_stability = -0.175
+		add_political_power = -150
+		hidden_effect = {
+			RAS = { 
+				country_event = russia.19
+			}
+		}
+	}
+}
+
+#Failed assassination attempt on Dudayev
+country_event = {
+	id = russia.14
+	title = russia.14.t
+	desc = russia.14.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.14.a
+		add_political_power = -50
+		custom_effect_tooltip = 10_RAS_tt
+	}
+}
+
+#ingush rebels in east Prigorodny
+country_event = {
+	id = russia.15
+	title = russia.15.t
+	desc = russia.15.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.15.a
+		add_political_power = -50
+		add_stability = -0.05
+		24 = {
+			set_demilitarized_zone = yes
+		}	
+		RAS = {
+			country_event = {
+				id = russia.16
+				days = 2
+			}
+		}
+	}
+}
+
+#clashes in east Prigorodny
+country_event = {
+	id = russia.16
+	title = russia.16.t
+	desc = russia.16.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.16.a
+		add_political_power = -50
+		add_stability = -0.05
+		add_manpower = -67
+		24 = {
+			add_manpower = -607
+		}
+		RAS = {
+			country_event = {
+				id = russia.17
+				days = 4
+			}
+		}
+	}
+}
+
+#ceasefire with ingush rebels
+country_event = {
+	id = russia.17
+	title = russia.17.t
+	desc = russia.17.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.17.a
+		add_political_power = 25
+		add_stability = 0.025
+		24 = {
+			set_demilitarized_zone = no
+		}	
+	}
+}
+
+#Chechnya accepted peace
+country_event = {
+	id = russia.18
+	title = russia.18.t
+	desc = russia.18.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.18.a
+		add_stability = 0.075	
+	}
+}
+
+#Chechnya has refused peace
+country_event = {
+	id = russia.19
+	title = russia.19.t
+	desc = russia.19.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.19.a
+		add_stability = -0.05	
+		add_war_support = -0.05
+	}
+}

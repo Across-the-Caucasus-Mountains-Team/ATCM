@@ -1,0 +1,32 @@
+state={
+	id=49
+	name="STATE_52"
+	provinces={
+		1720 11347 11372 11393 
+	}
+	
+	resources={
+		Oil=12
+		Aluminium=23
+	}
+	
+	history={
+	owner = SAK
+	add_core_of = SAK
+	add_core_of = ADJ
+	victory_points = { 1720 30 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			1720 = {
+			    naval_base = 4
+			}	
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=120000
+        state_category = large_city
+		local_supplies=0.7
+}

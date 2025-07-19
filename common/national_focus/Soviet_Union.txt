@@ -1,0 +1,793 @@
+focus_tree = {
+	id = Soviet_union_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 15
+			tag = RAS
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 3000 y = 500 }
+	
+	focus = {
+		id = RAS_seventieth_years_of_the_union
+		icon = GFX_RAS_Seventh_years_of_the_Union
+		x = 15
+		y = 0
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			country_event = { id = soviet_union.1 }
+		}	
+	}
+
+	focus = {
+		id = RAS_continue_perestroika
+		icon = GFX_RAS_continue_perestroika
+		x = 15
+		y = 1
+		prerequisite = { focus = RAS_seventieth_years_of_the_union }
+		
+		cost = 40
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.025
+			add_political_power = 35
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+		}	
+	}
+
+	focus = {
+		id = RAS_hold_a_referendum
+		icon = GFX_RAS_Held_Referendum
+		x = 15
+		y = 2
+		prerequisite = { focus = RAS_continue_perestroika }
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			country_event = { id = soviet_union.3 }
+			add_stability = 0.05
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			hidden_effect = {
+				country_event = {
+                    id = soviet_union.4
+                    days = 155
+                }
+
+				country_event = {
+                    id = soviet_union.7
+                    days = 154
+                }
+			}
+		}	
+	}
+
+	focus = {
+		id = RAS_Economic_Question
+		icon = GFX_SOV_Economic_Question
+		x = 15
+		y = 3
+		prerequisite = { focus = RAS_hold_a_referendum }
+
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+        
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.025
+		}	
+	}
+
+	focus = {
+		id = RAS_Fund_Daghestani_Farmers
+		icon = GFX_SOV_Daghenstani_Farmers
+		x = 16
+		y = 4
+		prerequisite = { focus = RAS_Economic_Question }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.075
+		}	
+	}
+
+	focus = {
+		id = RAS_Industralize_Krasnodar
+		icon = GFX_SOV_Industralize_krasnodar
+		x = 14
+		y = 4
+		prerequisite = { focus = RAS_Economic_Question }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			1 = {
+			    add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+					add_extra_state_shared_building_slots = 2
+                }
+			}
+		}	
+	}
+
+	focus = {
+		id = RAS_after_of_the_gkhp
+		icon = GFX_RAS_after_coup
+		x = 15
+		y = 6
+		prerequisite = { focus = RAS_Industralize_Krasnodar }
+		prerequisite = { focus = RAS_Fund_Daghestani_Farmers }
+
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_country_flag = Coup_Happened
+		}
+
+		allow_branch = {
+			has_country_flag = Coup_Happened
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = -25
+		    add_popularity = {
+				ideology = communism
+				popularity = -0.075
+			}
+		}	
+	}
+
+	focus = {
+		id = RAS_Problems_in_the_west
+		icon = GFX_RAS_problems_in_the_west
+		x = 10
+		y = 3
+		prerequisite = { focus = RAS_hold_a_referendum }
+		
+		cost = 24
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = -0.05
+		}	
+	}
+
+	focus = {
+		id = RAS_Slavic_Unrest
+		icon = GFX_RAS_Slavic_unrest
+		x = 9
+		y = 4
+		prerequisite = { focus = RAS_Problems_in_the_west }
+		
+		cost = 39
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = RAS_Rise_of_rukh_in_ukraine
+		icon = GFX_RAS_rise_of_Rukh
+		x = 9
+		y = 6
+		prerequisite = { focus = RAS_Slavic_Unrest }
+		
+		cost = 39
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = RAS_Clashes_in_baltics
+		icon = GFX_RAS_Clashes
+		x = 11
+		y = 4
+		prerequisite = { focus = RAS_Problems_in_the_west }
+		
+		cost = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			country_event = { id = soviet_union.2 }
+			add_political_power = -50
+		}	
+	}
+
+	focus = {
+		id = RAS_Recognize_Baltic_independence
+		icon = GFX_RAS_recognize_their_independence
+		x = 12
+		y = 5
+		prerequisite = { focus = RAS_Clashes_in_baltics }
+		
+		cost = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_HISTORICAL }
+		
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = RAS_Retreat_from_baltics
+		icon = GFX_RAS_Retreat_from_baltics
+		x = 11
+		y = 6
+		prerequisite = { focus = RAS_Clashes_in_baltics }
+		
+		cost = 39
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.025
+			custom_effect_tooltip = 2_SOV_tt
+			hidden_effects = {
+                Replace_idea = {
+					remove_ideas = RAS_hardliners_protest
+					add_ideas = RAS_hardliners_protest_2
+				}
+			}
+		}	
+	}
+
+	focus = {
+		id = RAS_problems_in_the_south
+		icon = GFX_RAS_problems_in_the_south
+		x = 20
+		y = 3
+		prerequisite = { focus = RAS_hold_a_referendum }
+		
+		cost = 24
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_war_support = -0.05
+		}	
+	}
+
+	focus = {
+		id = RAS_Karabakh_issue
+		icon = GFX_RAS_Karabakh_issue
+		x = 21
+		y = 4
+		prerequisite = { focus = RAS_problems_in_the_south }
+		
+		cost = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = RAS_Protest_in_Chechnya
+		icon = GFX_RAS_Chechen_protest
+		x = 21
+		y = 6
+		prerequisite = { focus = RAS_Karabakh_issue }
+		
+		cost = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = RAS_Clashes_in_south_ossetia
+		icon = GFX_RAS_SO
+		x = 19
+		y = 4
+		prerequisite = { focus = RAS_problems_in_the_south }
+		
+		cost = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = RAS_Secret_aid_to_ossetians
+		icon = GFX_RAS_SO
+		x = 18
+		y = 5
+		prerequisite = { focus = RAS_Clashes_in_south_ossetia }
+		
+		cost = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_HISTORICAL }
+		
+		completion_reward = {
+			send_equipment = {
+				target = OST
+				type = infantry_equipment
+				amount = 5000
+			}
+			send_equipment = {
+				target = OST
+				type = artillery_equipment
+				amount = 500
+			}
+			add_manpower = -7800
+			OST = {
+				add_manpower = 7800
+				load_oob = OST_russian_support_1991
+			}
+		}	
+	}
+
+	focus = {
+		id = RAS_Rise_of_RTFR_in_Georgia
+		icon = GFX_RAS_RIP_Communist_Georgia
+		x = 19
+		y = 6
+		prerequisite = { focus = RAS_Clashes_in_south_ossetia }
+		
+		cost = 14
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = RAS_treaty_of_union
+		icon = GFX_RAS_New_Union_Treaty
+		x = 15
+		y = 8
+		prerequisite = { focus = RAS_Rise_of_RTFR_in_Georgia }
+		prerequisite = { focus = RAS_Rise_of_rukh_in_ukraine }
+		prerequisite = { focus = RAS_Protest_in_Chechnya }
+		prerequisite = { focus = RAS_Retreat_from_baltics}
+		
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			if = { 
+				limit = {
+                    has_country_flag = Coup_Happened
+				}
+				has_completed_focus = RAS_after_of_the_gkhp
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			
+		}	
+	}
+
+	focus = {
+		id = RAS_end_of_the_ussr
+		icon = GFX_RAS_end_of_the_Ussr
+		x = 15
+		y = 9
+		prerequisite = { focus = RAS_treaty_of_union }
+		
+		cost = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+
+		allow_branch = {
+			has_country_flag = Coup_Happened
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			country_event = { id = soviet_union.5 }
+			add_political_power = -350
+			add_popularity = {
+				ideology = communism
+				popularity = -0.25
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.35
+			}
+			set_politics = { 
+			    ruling_party = liberalism
+			    elections_allowed = yes
+		    }
+			hidden_effect = {
+				remove_dynamic_modifier = { modifier = RAS_Separatism }
+			    load_focus_tree = Russian_Federation_focus
+                remove_ideas = {
+					RAS_Memories_of_afhganistan_war
+					RAS_Failed_perestroika
+					RAS_hardliners_protest
+					RAS_Boris_Yeltsin_idea
+					RAS_reformists_protest
+				}
+				add_ideas = {
+					RAS_large_external_debt
+				}
+				country_event = {
+                    id = russia.4
+                    days = 165
+                }
+				country_event = {
+                    id = russia.5
+                    days = 485
+                }
+				country_event = superevent.2
+				set_global_flag = USSR_Colapsed
+			}
+		}	
+	}
+}	

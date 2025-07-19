@@ -1,0 +1,35 @@
+state={
+	id=27
+	name="STATE_28"
+	provinces={
+		506 5054 6043 10740 10753 10761 10771 
+	}
+	
+	resources={
+		oil=15
+		Steel=13
+		aluminium=14
+	}
+	
+	history={
+	owner = SAK
+	add_core_of = ABK
+	victory_points = { 10771 30 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 4
+			dockyard = 2
+			10771 = {
+			    naval_base = 5
+			}	
+		}
+		start_resistance = yes
+		set_resistance = 45
+	}
+	buildings_max_level_factor=1.000
+        manpower=120000
+        state_category = metropolis
+		local_supplies=0.9
+}

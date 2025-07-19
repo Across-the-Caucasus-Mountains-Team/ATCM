@@ -1,0 +1,986 @@
+RAS_soviet_separatism_decision = {
+
+    SOV_suppres_the_chechen_opposition = {
+
+		icon = GFX_decision_generic_Guns_from_communists
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = yes
+
+		cost = 35
+
+		complete_effect = {
+			add_war_support = -0.015
+			add_stability = -0.015
+            add_to_variable = { 
+                SOV_separatism_CHE_value = -5 
+                tooltip = SOV_add_minus_5_to_CHE_tt
+            }
+		}
+
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+
+    SOV_suppres_the_georgian_opposition = {
+
+		icon = GFX_decision_generic_Guns_from_communists
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }		
+		}
+		
+		fire_only_once = yes
+
+		cost = 35
+
+		complete_effect = {
+			add_war_support = -0.015
+			add_stability = -0.015
+            add_to_variable = { 
+                SOV_separatism_SAK_value = -5 
+                tooltip = SOV_add_minus_5_to_SAK_tt
+            }
+		}
+
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+
+    SOV_suppres_the_armenian_opposition = {
+
+		icon = GFX_decision_generic_Guns_from_communists
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = yes
+
+		cost = 35
+
+		complete_effect = {
+			add_war_support = -0.015
+			add_stability = -0.015
+            add_to_variable = { 
+                SOV_separatism_ARM_value = -5 
+                tooltip = SOV_add_minus_5_to_ARM_tt
+            }
+		}
+
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+
+    SOV_suppres_the_azerbajani_opposition = {
+
+		icon = GFX_decision_generic_Guns_from_communists
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = yes
+
+		cost = 35
+
+		complete_effect = {
+			add_war_support = -0.015
+			add_stability = -0.015
+            add_to_variable = { 
+                SOV_separatism_AZR_value = -5 
+                tooltip = SOV_add_minus_5_to_AZR_tt
+            }
+		}
+
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+
+    SOV_suppres_the_dagestani_opposition = {
+
+		icon = GFX_decision_generic_Guns_from_communists
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = yes
+
+		cost = 35
+
+
+		complete_effect = {
+			add_war_support = -0.015
+			add_stability = -0.015
+            add_to_variable = { 
+                var = SOV_separatism_DAG_value
+                value = -5 
+                tooltip = SOV_add_minus_5_to_DAG_tt
+            }
+		}
+
+		ai_will_do = {
+		    factor = 10
+		}
+	}
+
+	SOV_fund_local_communist_party_in_chechnya = {
+
+		icon = GFX_decision_generic_fund
+		
+		available = {	
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 45
+
+		complete_effect = {
+			add_stability = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.05
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_fund_local_communist_party_in_dagestan = {
+
+		icon = GFX_decision_generic_fund
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 45
+
+		complete_effect = {
+			add_stability = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.05
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_fund_local_communist_party_in_georgia = {
+
+		icon = GFX_decision_generic_fund
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 45
+
+		complete_effect = {
+			add_stability = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.05
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_fund_local_communist_party_in_armenia = {
+
+		icon = GFX_decision_generic_fund
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 45
+
+		complete_effect = {
+			add_stability = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.05
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_fund_local_communist_party_in_azerbaijan = {
+
+		icon = GFX_decision_generic_fund
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 45
+
+		complete_effect = {
+			add_stability = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.05
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_spread_communist_propaganda_in_chechnya = {
+
+		icon = GFX_decision_generic_propaganda
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 25
+
+		complete_effect = {
+			add_war_support = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.025
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_spread_communist_propaganda_in_dagestan = {
+
+		icon = GFX_decision_generic_propaganda
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 25
+
+		complete_effect = {
+			add_war_support = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.025
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_spread_communist_propaganda_in_georgia = {
+
+		icon = GFX_decision_generic_propaganda
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 25
+
+		complete_effect = {
+			add_war_support = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.025
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_spread_communist_propaganda_in_armenia = {
+
+		icon = GFX_decision_generic_propaganda
+		
+		available = {
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = no
+		days_re_enable = 25
+
+		cost = 25
+		
+		complete_effect = {
+			add_war_support = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.025
+            }
+		}
+		
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	SOV_spread_communist_propaganda_in_azerbaijan = {
+
+		icon = GFX_decision_generic_propaganda
+		
+		available = {		
+		    tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+	    
+		visible = {
+			tag = RAS
+			NOT = {
+			    has_global_flag = USSR_Colapsed
+		    }			
+		}
+		
+		fire_only_once = yes
+		days_re_enable = 25	
+
+		cost = 25
+
+		complete_effect = {
+			add_war_support = 0.025
+			add_popularity = {
+                ideology = communism
+                popularity = 0.025
+            }
+		}
+
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+
+	SOV_end_of_the_ussr = {
+
+		icon = GFX_decision_generic_soldier
+		is_good = no
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 124
+        
+		#Fail trigger
+		available = {
+			has_global_flag = USSR_Colapsed
+		}
+
+		activation = {
+			always = no
+		}
+
+		complete_effect = {
+			complete_national_focus = RAS_end_of_the_ussr
+		}
+
+		timeout_effect = {
+			complete_national_focus = RAS_end_of_the_ussr
+	    }
+	}
+}
+
+RAS_first_chechen_war_decision = {
+
+    RAS_failed_blitzkrieg_decision = {
+
+		icon = GFX_decision_generic_soldier
+		is_good = no
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 25
+        
+		#Fail trigger
+		available = {
+			CHE = { 
+				NOT = {
+					controls_state = 20
+			        controls_state = 21
+					controls_state = 11
+					controls_state = 128
+					controls_state = 16
+					controls_state = 126
+					controls_state = 125
+					controls_state = 124
+					controls_state = 127
+				}
+			}
+		}
+
+		activation = {
+			always = no
+		}
+
+		complete_effect = {
+			country_event = russia.7
+		}
+
+		timeout_effect = {
+			country_event = russia.6
+			hidden_effect = {
+				CHE = {
+                    country_event = { id = chechnya.9 }
+                } 
+			}
+	    }
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 20
+				state = 21
+				state = 128
+				state = 11
+				state = 16
+				state = 22
+				state = 126
+				state = 127
+				state = 125
+				state = 124
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
+	RAS_additional_supplies_to_the_front = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = no
+		days_re_enable = 30	
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_reorganize_our_frontline
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_reorganize_our_frontline
+		}
+
+		complete_effect = {
+		    add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 750
+			}
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+
+	RAS_additional_artillery_to_the_front = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = no
+		days_re_enable = 30
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_reorganize_our_frontline
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_reorganize_our_frontline
+		}
+
+		complete_effect = {
+            add_equipment_to_stockpile = { 
+				type = artillery_equipment_1 
+				amount = 75 
+			}	
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+
+	
+	RAS_additional_manpower_in_the_kto = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 50
+		fire_only_once = no
+		days_re_enable = 30
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_additional_shipments_to_the_cto_zone
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_additional_shipments_to_the_cto_zone
+		}
+
+		complete_effect = {
+            add_manpower = 2500	
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+}
+
+RAS_special_services_decision = {
+
+	RAS_start_operations_wolf_hunting = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 50
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = SecondChechenWar
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = SecondChechenWar
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = 8_RAS_tt
+            add_war_support = 0.075
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+
+	RAS_strengthen_the_patrol_of_awacs_aircraft = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 50
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_strengthen_awacs_reconnaissance
+			NOT = {
+				has_idea = RAS_awacs_reconnaissance
+			}
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_strengthen_awacs_reconnaissance
+		}
+
+		complete_effect = {
+            add_war_support = 0.05
+			add_timed_idea = {
+                idea = RAS_awacs_reconnaissance
+                days = 125
+			}
+			custom_effect_tooltip = 9_RAS_tt
+			hidden_effect = {
+				set_country_flag = EnhancedAWACSreconnaissance
+			}
+		}
+
+		ai_will_do = {
+			factor = 350	
+		}
+	}
+
+	RAS_liquidation_of_dudayev = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 75
+		fire_only_once = no
+		days_re_enable = 65
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_liquidation_of_the_main_terrorist
+			has_country_flag = EnhancedAWACSreconnaissance
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_liquidation_of_the_main_terrorist
+			NOT = {
+				has_global_flag = Dudayev_is_dead
+			}
+		}
+
+		complete_effect = {
+			retire_character = с
+			random_list = {
+                60 = {
+                    CHE = {
+                        country_event = chechnya.13
+					}
+					add_war_support = 0.075
+                }
+                40 = {
+                    CHE = {
+                        country_event = chechnya.14
+					}
+					country_event = russia.14
+                }
+            }
+			hidden_effect = {
+				CHE = {
+					country_event = 1
+				}
+			}
+
+		}
+
+		ai_will_do = {
+			factor = 350	
+		}
+	}
+}
+
+RAS_peace_negotiations_first_chechen_war_decision = {
+
+	RAS_find_communication_channels_with_chechnya = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 25
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+		}
+
+		complete_effect = {
+            add_stability = 0.05
+			add_to_variable = {
+                var = RAS_negotiation_process_fcw_value
+                value = 10
+                tooltip = add_10_to_negotation_progress_fcw_tt
+            }
+			set_country_flag = FoundChannelWithChechnya
+		}
+
+		ai_will_do = {
+			factor = 175		
+		}
+	}
+
+	RAS_meeting_of_delegations_of_countries = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 25
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+			has_country_flag = FoundChannelWithChechnya
+		}
+
+		complete_effect = {
+            add_stability = 0.05
+			add_to_variable = {
+                var = RAS_negotiation_process_fcw_value
+                value = 20
+                tooltip = add_20_to_negotation_progress_fcw_tt
+            }
+			clr_country_flag = FoundChannelWithChechnya
+			set_country_flag = NegotationRound2
+		}
+
+		ai_will_do = {
+			factor = 175		
+		}
+	}
+
+	RAS_meeting_of_delegations_of_countries_2 = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 25
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+			has_country_flag = NegotationRound2
+		}
+
+		complete_effect = {
+            add_stability = 0.05
+			add_to_variable = {
+                var = RAS_negotiation_process_fcw_value
+                value = 20
+                tooltip = add_20_to_negotation_progress_fcw_tt
+            }
+			clr_country_flag = NegotationRound2
+			set_country_flag = RASCeaseFire
+		}
+
+		ai_will_do = {
+			factor = 175		
+		}
+	}
+
+	RAS_cease_fire = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 25
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_start_negotiation_processes
+			has_country_flag = RASCeaseFire
+		}
+
+		complete_effect = {
+            add_stability = 0.05
+			add_to_variable = {
+                var = RAS_negotiation_process_fcw_value
+                value = 30
+                tooltip = add_20_to_negotation_progress_fcw_tt
+            }
+		}
+
+		ai_will_do = {
+			factor = 175		
+		}
+	}
+	
+}

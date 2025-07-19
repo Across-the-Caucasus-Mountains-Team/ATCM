@@ -1,0 +1,681 @@
+focus_tree = {
+	id = Georgia_ethnicity_war
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SAK
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 4500 y = 500 }
+
+	focus = {
+		id = SAK_Our_Actions
+		icon = GFX_Goal_SAK_Our_Actions
+		x = 20
+		y = 0
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+            
+		}
+
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			hidden_effect = {
+			    country_event = { 
+				    id = Georgia.18
+				    days = 88
+			    }
+			}
+		}	
+	}
+
+	focus = {
+		id = SAK_Little_fish
+		icon = GFX_Goal_SAK_Little_Fish
+		prerequisite = { focus = SAK_Our_Actions }
+		x = 10
+		y = 0
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+           
+		}
+		
+		bypass = {
+            OR = {
+				OST = {
+					exists = no
+				}
+				owns_state = 36
+				owns_state = 33
+				has_war_with = OST
+			}
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			declare_war_on = {
+            target = OST
+            type = annex_everything
+            }
+			news_event = { id = news.15 }
+		}	
+	}
+
+	focus = {
+		id = SAK_Our_eyes_In_Tbilisi
+		icon = GFX_Goal_SAK_Eyes_On_Tbilisi
+		prerequisite = { focus = SAK_Our_Actions }
+		x = 30
+		y = 0
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+           
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_ideas = SAK_State_of_emergency
+			set_country_flag = SAK_Emergency
+			News_event = { id = news.2 }
+		}	
+	}
+
+	focus = {
+		id = SAK_Arrest_Oppositions
+		icon = GFX_Goal_Generic_Arresting
+		prerequisite = { focus = SAK_Our_eyes_In_Tbilisi }
+		x = 28
+		y = 1
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+           
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = -0.05
+		}	
+	}
+
+	focus = {
+		id = SAK_Raid_their_offices
+		icon = GFX_Goal_Generic_Raid
+		prerequisite = { focus = SAK_Our_eyes_In_Tbilisi }
+		x = 32
+		y = 1
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+   
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = -75
+			add_stability = -0.1
+		}	
+	}
+
+	focus = {
+		id = Sak_Arrest_bandits
+		icon = GFX_Goal_Generic_Arrest_bandits
+		prerequisite = { focus = SAK_Arrest_Oppositions }
+		x = 28
+		y = 2
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			remove_ideas = SAK_Mkhedrioni
+		}	
+	}
+
+	focus = {
+		id = SAK_Fortify_Political_Prisons
+		icon = GFX_SAK_fortify_Prisons
+		prerequisite = { focus = SAK_Raid_their_offices }
+		x = 32
+		y = 2
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+         
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.025
+		}	
+	}
+
+	focus = {
+		id = SAK_Crackdown_kitovani_national_guard
+		icon = GFX_SAK_crackdown_kitovani_ng
+		prerequisite = { focus = SAK_Fortify_Political_Prisons }
+		prerequisite = { focus = Sak_Arrest_bandits }
+		x = 30
+		y = 3
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+         
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_manpower = -300
+			add_stability = 0.05
+            add_war_support = -0.05
+			add_political_power = 50
+		}	
+	}
+
+	focus = {
+		id = SAK_Our_National_Speechs
+		icon = GFX_GOAL_GAM_Speec_for_zviadists
+		prerequisite = { focus = SAK_Crackdown_kitovani_national_guard }
+		x = 29
+		y = 4
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+        
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.15
+		}	
+	}
+
+	focus = {
+		id = SAK_Interview_with_foreign_journalists
+		icon = GFX_Goal_SAK_Interview_with_journalists
+		prerequisite = { focus = SAK_Crackdown_kitovani_national_guard }
+		x = 31
+		y = 4
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+        
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = SAK_Ban_Communism
+		icon = GFX_Goal_Generic_Decommunization
+		prerequisite = { focus = SAK_Raid_their_offices }
+		x = 34
+		y = 2
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+        
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_popularity = {
+				ideology = communism
+				popularity = -1.0
+			}
+			add_stability = 0.15
+			add_war_support = 0.15
+		}	
+	}
+
+	focus = {
+		id = SAK_Send_National_Guard
+		icon = GFX_Goal_SAK_National_Guard
+		prerequisite = { focus = SAK_Little_fish }
+		x = 10
+		y = 1
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+			OR = {
+				OST = {
+					exists = no
+				}
+				owns_state = 36
+				owns_state = 33
+			}
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			load_oob = SAK_ng
+		}	
+	}
+
+	focus = {
+		id = SAK_Battle_of_tskhinvali
+		icon = GFX_Goal_SAK_Battle_of_tskhinvali
+		prerequisite = { focus = SAK_Send_National_Guard }
+		x = 8
+		y = 2
+		
+		cost = 7
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+			OR = {
+				OST = {
+					exists = no
+				}
+				owns_state = 36
+				owns_state = 33
+			}
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = SAK_Battle_of_Tskhinvali
+				days = 21
+			}	
+		}
+	}
+
+	focus = {
+		id = SAK_Close_Rock_mountain_pass
+		icon = GFX_SAK_Close_Roki_Tunnel
+		prerequisite = { focus = SAK_Send_National_Guard }
+		x = 12
+		y = 2
+		
+		cost = 7
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+			OR = {
+				OST = {
+					exists = no
+				}
+				owns_state = 36
+				owns_state = 33
+			}
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			country_event = { id = Georgia.19 }
+		}	
+	}
+
+	focus = {
+		id = SAK_negotiate_with_Abkhazia
+		icon = GFX_SAK_Negotiation_with_abkhazian_officials
+		prerequisite = { focus = SAK_Battle_of_tskhinvali }
+		prerequisite = { focus = SAK_Close_Rock_mountain_pass }
+		mutually_exclusive = { focus = SAK_Crackdown_Abkhazians }
+		x = 11
+		y = 4
+		
+		cost = 7
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			27 = {
+				add_compliance = 30
+			}
+			25 = {
+				add_compliance = 30
+			}
+			19 = {
+				add_compliance = 30
+			}
+			18 = {
+				add_compliance = 30
+			}
+			add_popularity = {
+				ideology = nationalism
+				popularity = -0.1
+			}
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = SAK_Crackdown_Abkhazians
+		icon = GFX_SAK_Crackdown_Abkhazia
+		prerequisite = { focus = SAK_Battle_of_tskhinvali }
+		prerequisite = { focus = SAK_Close_Rock_mountain_pass }
+		mutually_exclusive = { focus = SAK_negotiate_with_Abkhazia }
+		x = 9
+		y = 4
+		
+		cost = 7
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			27 = {
+				add_resistance = -30
+				add_manpower = -50
+			}
+			25 = {
+				add_resistance = -30
+				add_manpower = -50
+			}
+			19 = {
+				add_resistance = -30
+				add_manpower = -50
+			}
+			18 = {
+				add_resistance = -30
+				add_manpower = -50
+			}
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.1
+			}
+			add_stability = -0.05
+		}	
+	}
+
+	focus = {
+		id = SAK_Take_Sukhumi
+		icon = GFX_SAK_control_sukhumi
+		prerequisite = { focus = SAK_Crackdown_Abkhazians }
+		x = 8
+		y = 5
+		
+		cost = 7
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = SAK_Integrate_Abkhazia
+		icon = GFX_SAK_integrate_Sukhumi
+		prerequisite = { focus = SAK_negotiate_with_Abkhazia }
+		x = 12
+		y = 5
+		
+		cost = 7
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+}	

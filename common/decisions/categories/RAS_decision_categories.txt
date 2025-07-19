@@ -1,0 +1,112 @@
+################
+##### RAS ######
+################
+# kaja is good man
+
+RAS_soviet_separatism_decision = {
+
+	priority = 85
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		NOT = {
+			has_global_flag = USSR_Colapsed
+		}
+	}
+	scripted_gui = SOV_caucasian_separatism
+	visible_when_empty = yes
+}
+
+RAS_eltsin_support_decision = {
+
+	priority = 105
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_completed_focus = RAS_presidency_of_eltsin
+	}
+	visible_when_empty = yes
+}
+
+RAS_first_chechen_war_decision = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_global_flag = FirstChechenWar
+	}
+	visible_when_empty = yes
+}
+
+RAS_special_services_decision = {
+
+	priority = 92
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_global_flag = FirstChechenWar
+	}
+	visible_when_empty = yes
+}
+
+RAS_peace_negotiations_first_chechen_war_decision = {
+
+	priority = 90
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_global_flag = FirstChechenWar
+	}
+	visible_when_empty = no
+}
+
+RAS_second_chechen_war_decision = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_global_flag = SecondChechenWar
+	}
+	visible_when_empty = yes
+}
+
+RAS_third_chechen_war_decision = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_global_flag = ThirdChechenWar
+	}
+	visible_when_empty = yes
+}

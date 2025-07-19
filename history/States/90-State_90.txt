@@ -1,0 +1,17 @@
+state={
+	id=87
+	name="STATE_90"
+	provinces={
+		11115 
+	}
+	history={
+	owner = SAK
+	add_core_of = SAK
+	add_core_of = OST
+	victory_points = { 11115 1 }
+	}
+	manpower=415
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

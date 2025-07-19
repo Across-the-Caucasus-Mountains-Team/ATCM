@@ -1,0 +1,69 @@
+SAK = {
+	color = rgb { 192 192 192 }
+	color_ui = rgb { 192 192 192 }
+}
+
+AZR = {
+	color = rgb { 69 151 49 }
+	color_ui = rgb { 69 151 49 }
+}
+
+TUR = {
+	color = rgb { 127 0 0 }
+	color_ui = rgb { 0 100 49 }
+}	
+
+ARM = {
+	color = rgb { 255 178 0 }
+	color_ui = rgb { 42 100 100 }
+}	
+
+ARS = {
+	color = rgb { 255 178 0 }
+	color_ui = rgb { 42 100 100 }
+}	
+
+RAS = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 126 100 49 }
+}
+
+OST = {
+	color = rgb { 255 174 1 }
+	color_ui = rgb { 255 174 1 }
+}	
+
+CHE = {
+	color = rgb { 27 80 26 }
+	color_ui = rgb { 27 80 26 }
+}
+
+ABK = {
+	color = rgb { 34 156 67 }
+	color_ui = rgb { 34 156 67 }
+}
+	
+PER = {
+	color = rgb { 148 84 19 }
+	color_ui = rgb { 148 84 19 }
+}
+
+KAZ = {
+	color = rgb { 66 135 245 }
+	color_ui = rgb { 66 135 245 }
+}
+
+TKM = {
+	color = rgb { 83 158 33 }
+	color_ui = rgb { 83 158 33 }
+}
+
+ADJ = {
+	color = rgb { 0 0 117 }
+	color_ui = rgb { 0 0 117 }
+}
+
+GOM = {
+	color = rgb { 127 0 0 }
+	color_ui = rgb { 127 0 0 }
+}

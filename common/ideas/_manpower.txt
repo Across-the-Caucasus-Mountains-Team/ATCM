@@ -1,0 +1,409 @@
+ideas = {
+
+	mobilization_laws = {
+		law = yes
+		use_list_view = yes
+
+		disarmed_nation = {
+
+			cost = 150
+			removal_cost = -1
+			level = 7
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+				conscription = 0.01
+                conscription_factor = -0.75				
+			}
+
+			cancel_if_invalid = no
+		}
+
+		volunteer_only = {
+
+			cost = 150
+			removal_cost = -1
+			level = 6
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
+
+			}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 60 # being disarmed is bad in a wargame yo
+					has_idea = disarmed_nation
+				}
+			}
+
+			modifier = {
+				conscription = 0.015
+                army_org_factor = 0.1           
+                conscription_factor = -0.65
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		limited_conscription = {
+
+			cost = 150
+			removal_cost = -1
+			level = 5
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
+				has_war_support > 0.1
+			}
+
+			modifier = {
+				conscription = 0.03
+                conscription_factor = -0.58
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					# Ignore if high on manpower
+					factor = 0.5
+					manpower_per_military_factory > 5000
+				}
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory < 2000
+				}
+				modifier = {
+					tag = ENG
+					has_idea_with_trait = military_theorist
+					factor = 20
+				}
+				modifier = {
+					tag = ENG
+					AND = {
+						is_historical_focus_on = yes
+						has_game_rule = {
+							rule = ENG_ai_behavior
+							option = DEFAULT
+						}
+					}
+					date > 1939.1.1
+					date < 1939.9.1
+					has_war = no
+					NOT = { has_guaranteed = POL }
+					factor = 0
+				}
+				modifier = {
+					tag = SOV
+					threat > 0.8
+					factor = 3
+				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = volunteer_only }
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+
+		extensive_conscription = {
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
+				OR = {
+					has_government = junta
+					has_government = authoritarianism
+					has_government = communism
+					SWE_rapid_mob_manpower_law_trigger = yes 
+					else = {
+						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
+					}
+					AND = {
+						has_war = yes
+						enemies_strength_ratio > 0.5
+						#any_enemy_country = {
+						#	strength_ratio = {
+						#		tag = ROOT
+						#		ratio > 0.5
+						#	}
+						#}
+					}
+
+					if = {
+						limit = {
+							has_dlc = "Arms Against Tyranny"
+							has_autonomy_state = autonomy_aat_defense_council_member
+							is_subject_of = SWE
+						}
+					}
+					else = {
+						hidden_trigger = { always = no }  #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
+					}
+				}
+				has_war_support > 0.2
+				#Special rules AST in TFV
+				
+			}
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+					# Ignore if high on manpower
+					factor = 0.5
+					manpower_per_military_factory > 3000
+				}
+
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  800
+				}
+
+				# soviet also relies a lot on throwing bodies at the enemy
+				modifier = {
+					factor = 3
+
+					original_tag = RAS
+					has_manpower < 300000
+				}
+
+				modifier = {
+					factor = 5
+
+					original_tag = RAS
+					has_war = yes
+					has_manpower < 1000000
+				}
+
+				modifier = {
+					factor = 0
+					NOT = { has_idea = limited_conscription }
+				}
+
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 4
+
+			modifier = {
+				conscription = 0.05
+				#industrial_capacity_factory = -0.1
+				#production_speed_buildings_factor = -0.1
+				training_time_factor = 0.1
+                conscription_factor = -0.55
+			}
+
+			cancel_if_invalid = no
+		}
+
+		service_by_requirement = {
+
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
+				OR = {
+					has_government = junta
+					has_government = authoritarianism
+					has_government = communism
+					SWE_rapid_mob_manpower_law_trigger = yes
+					AND = {
+						has_war = yes
+						enemies_strength_ratio > 0.6
+						#any_enemy_country = {
+						#	strength_ratio = {
+						#		tag = ROOT
+						#		ratio > 0.6
+						#	}
+						#}
+					}
+				}
+				OR = {
+					has_war_support > 0.6
+					surrender_progress > 0
+				}
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  700
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					#Block has plenty manpower
+					factor = 0
+					NOT = { tag = RAS }
+					manpower_per_military_factory >  3000
+				}
+
+				modifier = {
+					factor = 5
+
+					original_tag = RAS
+					has_manpower < 400000
+				}
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				conscription = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.2
+                                conscription_factor = -0.45
+			}
+
+			cancel_if_invalid = no
+		}
+
+		all_adults_serve = {
+
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
+				has_war = yes
+				OR = {
+					has_war_support > 0.7
+					surrender_progress > 0
+				}
+				enemies_strength_ratio > 0.75
+				#any_enemy_country = {
+				#	strength_ratio = {
+				#		tag = ROOT
+				#		ratio > 0.75
+				#	}
+				#}
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  600
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					factor = 10
+					original_tag = RAS
+					date > 1943.1.1
+					has_manpower < 2000000
+				}
+
+				modifier = {
+					factor = 0
+					NOT = { has_idea = service_by_requirement }
+				}
+
+			}
+
+			on_add = {
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			modifier = {
+				conscription = 0.2
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				production_speed_buildings_factor = -0.3
+				#XP from reinforcement penalty (small)
+				training_time_factor = 0.3
+                                conscription_factor = -0.3
+			}
+
+			cancel_if_invalid = no
+		}
+
+		scraping_the_barrel = {
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
+				has_war = yes
+				OR = {
+					has_war_support > 0.85
+					surrender_progress > 0.25
+				}
+				enemies_strength_ratio > 1
+				#any_enemy_country = {
+				#	strength_ratio = {
+				#		tag = ROOT
+				#		ratio > 1
+				#	}
+				#}
+				}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					#Prio if low on manpower
+					factor = 20
+					manpower_per_military_factory <  500
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 0.5
+					manpower_per_military_factory >  1000
+				}
+				modifier = {
+					#Block has plenty manpower
+					factor = 0
+					manpower_per_military_factory >  5000
+				}
+
+				modifier = {
+					factor = 0
+					NOT = { has_idea = all_adults_serve }
+				}
+
+			}
+
+			on_add = {
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			modifier = {
+				conscription = 0.25
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4
+				training_time_factor = 0.5
+                conscription_factor = -0.15
+			}
+
+			cancel_if_invalid = no
+		}
+
+	}
+
+
+}

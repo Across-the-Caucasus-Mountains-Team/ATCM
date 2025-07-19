@@ -1,0 +1,16 @@
+characters={
+	GOM_Zviad_Gamsakhurdia={ #IMain Guy
+		name="Zviad Gamsakhurdia"
+		portraits={
+			civilian={
+				large="gfx/leaders/GOM/portrait_GOM_Zviad_Gamsakhurdia.png"
+			}
+		}
+		country_leader={
+			ideology=round_table_free_georgia
+			traits={ exiled }
+			expire="1993.4.21.1"
+			id=-1
+		}
+	}
+}	

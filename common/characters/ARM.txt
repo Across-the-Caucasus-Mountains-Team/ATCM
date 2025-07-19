@@ -1,0 +1,16 @@
+characters={
+	ARM_levon_ter_Petrosyan={ #Independence Leader
+		name="Levon Ter-Petrosyan"
+		portraits={
+			civilian={
+				large="gfx/leaders/ARM/portrait_arm_Levon_Ter_Petrosyan.png"
+			}
+		}
+		country_leader={
+			ideology=pan_armenian_national_movement
+			traits={ stout_defender }
+			expire="2060.12.31.1"
+			id=-1
+		}
+	}
+}

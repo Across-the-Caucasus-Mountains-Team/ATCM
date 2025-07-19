@@ -1,0 +1,25 @@
+unique_id = ATCM_achievements
+achievement_first_chechen_war = {
+	possible = {
+		OR = {
+		    original_tag = RAS
+            original_tag = CHE
+		}
+
+	}
+	happened = {
+		has_global_flag = FirstChechenWar
+	}
+}
+
+achievement_zviadists_uprised = {
+	possible = {
+		OR = {
+		    original_tag = SAK
+            original_tag = GOM
+		}
+	}
+	happened = {
+		has_global_flag = zviadists_uprised
+	}
+}

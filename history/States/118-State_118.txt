@@ -1,0 +1,14 @@
+state={
+	id=115
+	name="STATE_118"
+	provinces={
+		798 1015 1759 1768 2176 2671 5872 7014 7338 7714 7796 7818 8567 13456 13499 13558 13612 
+	}
+	history={
+	owner = PER
+	add_core_of = PER
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,59 @@
+add_namespace = gamsakhurdia
+
+#Economic Mobilization
+country_event = {
+	id = gamsakhurdia.1
+	title = gamsakhurdia.1.t
+	desc = gamsakhurdia.1.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+
+	option = {
+		name = gamsakhurdia.1.a
+		upgrade_economy_law = yes
+		country_event = {
+			id = gamsakhurdia.2
+			days = 3
+		}
+	}
+}
+
+#Military Mobilization
+country_event = {
+	id = gamsakhurdia.2
+	title = gamsakhurdia.2.t
+	desc = gamsakhurdia.2.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+
+	option = {
+		name = gamsakhurdia.2.a
+		add_manpower = 50000
+		add_ideas = service_by_requirement
+		country_event = {
+			id = gamsakhurdia.3
+			days = 3
+		}
+	}
+}
+
+#Rally Zviadists
+country_event = {
+	id = gamsakhurdia.3
+	title = gamsakhurdia.3.t
+	desc = gamsakhurdia.3.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+
+	option = {
+		name = gamsakhurdia.3.a
+		SAK = {
+			Remove_ideas = SAK_Zviadists_in_the_west
+			add_ideas = SAK_Zviadists_in_the_west_two
+			country_event = { id = Georgia.41 }
+		}	
+	}
+}

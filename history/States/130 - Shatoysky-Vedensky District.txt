@@ -1,0 +1,27 @@
+state={
+	id=127
+	name="STATE_130"
+	provinces={
+		104 460 850 1399 1533 1596 2481 2696 2753 2960 3271 3616 3731 3922 4158 4230 4307 4998 5091 5263 5308 5469 5622 5896 6551 6620 6626 7064 7200 7286 7872 8599 8767 8797 9074 9191 9274 9281 9418 9475 10718 10743 10745 10764 10789 10794 10804 10806 10819 10820 10828 10834 10835 10842 10844 10845 10852 10856 10862 
+	}
+	
+	resources = {
+	    Tungsten = 39
+		Chromium = 10
+	}	
+	
+	history={
+	    owner = CHE
+	    add_core_of = CHE
+		victory_points = { 6626 5 }
+		buildings = {
+		    industrial_complex = 3
+			arms_factory = 1
+			infrastructure = 4
+		}
+	}
+	manpower=653201
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

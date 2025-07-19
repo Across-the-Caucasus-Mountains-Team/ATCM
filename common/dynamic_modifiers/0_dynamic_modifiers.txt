@@ -1,0 +1,76 @@
+SAK_Anarchy_in_Georgia = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Anarchism_in_Georgia
+
+	war_support_factor = SAK_aig_war_support_factor #-0.5
+	stability_factor = SAK_aig_stability_factor #-0.5
+	consumer_goods_factor = SAK_aig_consumer_goods_factor #0.5
+	Anarchist_drift = SAK_aig_Anarchist_drift #0.1
+	drift_defence_factor = SAK_aig_drift_defence_factor #-0.4
+	political_power_gain = SAK_aig_political_power_gain #-0.1
+	Research_speed_factor = SAK_aig_Research_speed_factor #-0.35
+	monthly_population = SAK_aig_monthly_population #-0.25
+	weekly_manpower = SAK_aig_weekly_manpower #-25
+	party_popularity_stability_factor = SAK_aig_party_popularity_stability_factor #-0.3
+}
+
+SAK_Weak_Georgian_Armed_forces = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Weak_Armed_Forces
+
+	war_support_factor = SAK_wgaf_war_support_factor #-0.15
+	Conscription = SAK_wgaf_Conscription #-0.02
+	army_attack_factor = SAK_wdaf_army_attack_factor #-0.25
+	army_defence_factor = SAK_wdaf_army_defence_factor #-0.25
+	army_org_factor = SAK_wdaf_army_org_factor #-0.5
+	army_speed_factor = SAK_wdaf_army_speed_factor #-0.15
+	war_stability_factor = SAK_wdaf_war_stability_factor #-0.4
+	army_org_regain = SAK_wdaf_army_org_regain #-0.25
+	
+}
+
+SAK_Poor_Agricultural_economy = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Starving
+
+	Research_speed_factor = SAK_pac_Research_speed_factor #-0.5
+	consumer_goods_factor = SAK_pac_consumer_goods_factor #0.5
+	stability_factor =  SAK_pac_stability_factor #-0.3
+    production_factory_efficiency_gain_factor = SAK_pac_production_factory_efficiency_gain_factor #-0.15
+    production_factory_max_efficiency_factor = SAK_pac_production_factory_max_efficiency_factor #-0.15
+	production_speed_industrial_complex_factor = SAK_pac_production_speed_industrial_complex_factor #-0.35
+	
+}
+
+RAS_Separatism = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_SOV_Separatism
+
+	war_support_factor = RAS_sep_war_support_factor #-0.1
+	stability_factor = RAS_sep_stability_factor #-0.1
+	army_attack_factor = RAS_sep_army_attack_factor #-0.15
+	army_defence_factor = RAS_sep_army_defence_factor #-0.15
+	consumer_goods_factor = RAS_sep_consumer_good_factor #0.2
+	communism_drift = RAS_sep_communism_drift #-0.01
+	
+}
+
+CHE_Weak_Chechen_armed_forces = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_CHE_weak_army
+
+	war_support_factor = CHE_wcaf_war_support_factor #-0.15
+	Conscription = CHE_wcaf_Conscription #-0.02
+	army_attack_factor = CHE_wcaf_army_attack_factor #-0.25
+	army_defence_factor = CHE_wcaf_army_defence_factor #-0.25
+	army_org_factor = CHE_wcaf_army_org_factor #-0.5
+	army_speed_factor = CHE_wcaf_army_speed_factor #-0.15
+	war_stability_factor = CHE_wcaf_war_stability_factor #-0.4
+	army_org_regain = CHE_wcaf_army_org_regain #-0.25
+	
+}

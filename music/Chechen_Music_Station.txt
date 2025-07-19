@@ -1,0 +1,70 @@
+music_station = "Chechen_Music_Station_MMCT"
+    music = {
+	    song = "city_of_mine"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }
+
+	music = {
+	    song = "Czeczenia"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }
+
+	music = {
+	    song = "death_or_freedom"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }
+	
+	music = {
+	    song = "gazavat"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }
+
+	music = {
+	    song = "The_Death_of_Russia"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }
+
+	music = {
+	    song = "Αllаhu_Αkbаr"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }
+
+	music = {
+	    song = "ShamilBasayevMusic"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }

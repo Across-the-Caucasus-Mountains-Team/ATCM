@@ -1,0 +1,33 @@
+spriteTypes = {
+	#Caucasian separatism gui
+
+	spriteType = {
+		name = "GFX_SOV_CHE_icon"
+		textureFile = "gfx/interface/scripted_guis/USSR_guis/separatism_gui/CHE.png"
+	}
+
+	spriteType = {
+		name = "GFX_SOV_SAK_icon"
+		textureFile = "gfx/interface/scripted_guis/USSR_guis/separatism_gui/SAK.png"
+	}
+
+	spriteType = {
+		name = "GFX_SOV_AZR_icon"
+		textureFile = "gfx/interface/scripted_guis/USSR_guis/separatism_gui/AZR.png"
+	}
+
+	spriteType = {
+		name = "GFX_SOV_ARM_icon"
+		textureFile = "gfx/interface/scripted_guis/USSR_guis/separatism_gui/ARM.png"
+	}
+
+	spriteType = {
+		name = "GFX_SOV_DAG_icon"
+		textureFile = "gfx/interface/scripted_guis/USSR_guis/separatism_gui/DAG.png"
+	}
+
+	spriteType = {
+		name = "GFX_Power_of_central_government_icon"
+		textureFile = "gfx/interface/scripted_guis/USSR_guis/separatism_gui/Power_of_central_government.png"
+	}
+}

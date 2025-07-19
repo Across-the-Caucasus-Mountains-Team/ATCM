@@ -1,0 +1,407 @@
+focus_tree = {
+	id = Exiled_Gamsakhurdia
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 30
+			tag = GOM
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 6000 y = 500 }
+
+	focus = {
+		id = GUM_Talks_with_chechnya
+		icon = GFX_Goal_GAM_talks_with_Chechnya
+		x = 4
+		y = 0
+		
+		cost = 45
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 300
+			add_war_support = 0.1
+			add_stability = 0.1
+		}	
+	}
+
+	focus = {
+		id = GUM_Speechs_for_zviadists_in_Georgia
+		icon = GFX_GOAL_GAM_Speec_for_zviadists
+		x = 4
+		y = 1
+		prerequisite = { focus = GUM_Talks_with_chechnya }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_stability = 0.1
+			SAK = {
+				add_stability = -0.05
+				add_war_support = -0.05
+				add_political_power = -100
+			}
+		}	
+	}
+
+	focus = {
+		id = GUM_send_guns_to_zviadists
+		icon = GFX_Goal_GAM_Guns_For_Zviadists
+		x = 4
+		y = 2
+		prerequisite = { focus = GUM_Speechs_for_zviadists_in_Georgia }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+
+		}	
+	}
+
+	focus = {
+		id = GUM_ask_for_money_and_guns_from_chechnya
+		icon = GFX_Goal_GAM_Support_from_chechnya
+		x = 4
+		y = 3
+		prerequisite = { focus = GUM_send_guns_to_zviadists }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 500
+			add_war_support = 0.1
+			add_stability = 0.1
+		}	
+	}
+
+	focus = {
+		id = GUM_Sabotage_military_council
+		icon = GFX_Goal_GAM_sabotage_military_council
+		x = 4
+		y = 4
+		prerequisite = { focus = GUM_ask_for_money_and_guns_from_chechnya }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = GUM_blame_Shevardnadze_Russophilia
+		icon = GFX_Goal_GAM_Shevardnadze_is_russophili
+		x = 2
+		y = 5
+		prerequisite = { focus = GUM_Sabotage_military_council }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    SAK = {
+				add_stability = -0.05
+				add_political_power = -100
+			}
+		}	
+	}
+
+	focus = {
+		id = GUM_sabotages_in_mestia
+		icon = GFX_Goal_SAK_Aftermath_of_Coup
+		x = 6
+		y = 5
+		prerequisite = { focus = GUM_Sabotage_military_council }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			26 = {
+			    damage_building = {
+                    type = infrastructure
+                    damage = 1
+				}	
+				damage_building = {
+                    type = industrial_complex
+                    damage = 1
+				}	
+            }
+		    SAK = {
+				add_stability = -0.1
+				add_popularity = {
+					ideology = authoritarianism
+					popularity = -0.15
+				}
+			}
+		}	
+	}
+
+	focus = {
+		id = GUM_Collaboration_in_the_military
+		icon = GFX_Goal_GAM_Corruption_in_the_army
+		x = 6
+		y = 6
+		prerequisite = { focus = GUM_sabotages_in_mestia }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_manpower = 980
+		    SAK = {
+				add_manpower = -980
+			}
+		}	
+	}
+
+	focus = {
+		id = GUM_explain_why_military_council_is_traitor
+		icon = GFX_Goal_GAM_Explain_why_they_are_traitors
+		x = 2
+		y = 6
+		prerequisite = { focus = GUM_blame_Shevardnadze_Russophilia }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    SAK = {
+				add_stability = -0.05
+				add_war_support = -0.05
+			}
+		}	
+	}
+
+	focus = {
+		id = GUM_Last_steps_before_crossing_border
+		icon = GFX_Goal_GAM_Last_Steps
+		x = 4
+		y = 7
+		prerequisite = { focus = GUM_explain_why_military_council_is_traitor }
+		prerequisite = { focus = GUM_Collaboration_in_the_military }
+		
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 500
+			add_war_support = 0.1
+			add_stability = 0.1
+		}	
+	}
+
+	focus = {
+		id = GUM_Now_or_never
+		icon = GFX_GOM_now_or_never
+		x = 4
+		y = 8
+		prerequisite = { focus = GUM_Last_steps_before_crossing_border }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			date > 1993.08.18
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    37 = { transfer_state_to = GOM }
+			22 = { transfer_state_to = CHE }
+			goto_state = 37
+			load_focus_tree = Gamsakhurdia_in_georgia
+		}	
+	}
+}	

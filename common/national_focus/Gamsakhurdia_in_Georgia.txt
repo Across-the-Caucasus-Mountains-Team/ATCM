@@ -1,0 +1,740 @@
+focus_tree = {
+	id = Gamsakhurdia_in_georgia
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GOM
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 6000 y = 500 }
+
+	focus = {
+		id = GOM_Final_Round
+		icon = GFX_SAK_the_last_round
+		x = 7
+		y = 0
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    declare_war_on = {
+                target = SAK
+                type = annex_everything
+            }
+			SAK = {
+                country_event = { id = Georgia.42 }
+			}
+			load_oob = GOM_war_1991
+			add_war_support = 0.15
+			add_state_core = 37
+			add_state_core = 48
+			add_state_core = 42
+			add_state_core = 87
+			add_state_core = 49
+			add_state_core = 86
+			add_state_core = 46
+			add_state_core = 45
+			add_state_core = 43
+			add_state_core = 41
+			add_state_core = 39
+			add_state_core = 38
+			add_state_core = 36
+			add_state_core = 35
+			add_state_core = 34
+			add_state_core = 33
+			add_state_core = 31
+			add_state_core = 32
+			add_state_core = 30
+			add_state_core = 27
+			add_state_core = 26
+			add_state_core = 25
+			add_state_core = 23
+			add_state_core = 19
+			add_state_core = 18
+		}	
+	}
+
+	focus = {
+		id = GOM_Towards_tbilisi
+		icon = GFX_GOM_To_Tbilisi
+		x = 7
+		y = 1
+		prerequisite = { focus = GOM_Final_Round }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_manpower = 50000
+		}	
+	}
+
+	focus = {
+		id = GOM_Regroup
+		icon = GFX_GOM_Regroup
+		x = 7
+		y = 2
+		prerequisite = { focus = GOM_Towards_tbilisi }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_timed_idea = {
+				idea = GOM_Regroup_idea
+                days = 45
+			}
+		}	
+	}
+
+	focus = {
+		id = GOM_Attack_South
+		icon = GFX_GOM_Attack_South
+		x = 6
+		y = 3
+		prerequisite = { focus = GOM_Regroup }
+		
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_ideas = GOM_Attack_South_idea
+		}	
+	}
+
+	focus = {
+		id = GOM_Contact_Loyalists
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		prerequisite = { focus = GOM_Regroup }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 25
+			add_manpower = 25000
+			add_command_power = 50
+		}	
+	}
+
+	focus = {
+		id = GOM_to_East
+		icon = GFX_GOM_To_East
+		x = 7
+		y = 4
+		prerequisite = { focus = GOM_Regroup }
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 25
+			add_war_support = 0.06
+		}	
+	}
+
+	focus = {
+		id = GOM_Uprising_in_Imereti
+		icon = GFX_GOM_Uprising_in_Imereti
+		x = 7
+		y = 5
+		prerequisite = { focus = GOM_to_East }
+		
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 57000
+		}	
+	}
+
+	focus = {
+		id = GOM_To_Gori
+		icon = GFX_GOM_To_Gori
+		x = 7
+		y = 6
+		prerequisite = { focus = GOM_Uprising_in_Imereti }
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_war_support = 0.06
+			add_political_power = 50
+		}	
+	}
+
+	focus = {
+		id = GOM_Cross_Mtkavri
+		icon = GFX_GOM_Cross_Mtkvari
+		x = 6
+		y = 7
+		prerequisite = { focus = GOM_To_Gori }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    
+		}	
+	}
+
+	focus = {
+		id = GOM_The_last_battle
+		icon = GFX_GOM_The_Last_battle
+		x = 8
+		y = 7
+		prerequisite = { focus = GOM_To_Gori }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    
+		}	
+	}
+
+	focus = {
+		id = GOM_Victory
+		icon = GFX_goal_unknown
+		x = 7
+		y = 8
+		prerequisite = { focus = GOM_To_Gori focus = GOM_Cross_Mtkavri focus = GOM_The_last_battle }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			always = no
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 500
+			add_war_support = 0.1
+			add_stability = 0.1
+		}	
+	}
+
+	focus = {
+		id = GOM_Recruitment
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		prerequisite = { focus = GOM_Towards_tbilisi }
+		
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = GOM_Zviadists_from_Samegrelo
+		icon = GFX_GOM_Samegrelo
+		x = 13
+		y = 3
+		prerequisite = { focus = GOM_Recruitment }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_full_control_of_state = 30
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 50000
+			load_oob = GOM_samegrelo
+		}	
+	}
+
+	focus = {
+		id = GOM_Zviadists_from_Imereti
+		icon = GFX_GOM_Imereti
+		x = 13
+		y = 4
+		prerequisite = { focus = GOM_Zviadists_from_Samegrelo }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_full_control_of_state = 38
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 50000
+			load_oob = GOM_imereti
+		}	
+	}
+
+	focus = {
+		id = GOM_Zviadists_from_Guria
+		icon = GFX_GOM_Guria
+		x = 17
+		y = 3
+		prerequisite = { focus = GOM_Recruitment }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_full_control_of_state = 42
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 50000
+			load_oob = GOM_guria
+		}	
+	}
+
+	focus = {
+		id = GOM_Zviadists_from_Adjara
+		icon = GFX_GOM_Adjara
+		x = 17
+		y = 4
+		prerequisite = { focus = GOM_Zviadists_from_Guria }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_full_control_of_state = 45
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 50000
+			load_oob = GOM_adjara
+		}	
+	}
+
+	focus = {
+		id = GOM_Zviadists_from_Svaneti
+		icon = GFX_GOM_Svaneti
+		x = 15
+		y = 3
+		prerequisite = { focus = GOM_Recruitment }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_full_control_of_state = 26
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 50000
+			load_oob = GOM_svaneti
+		}	
+	}
+
+	focus = {
+		id = GOM_Zviadists_from_Racha_lechkumi
+		icon = GFX_GOM_Racha
+		x = 15
+		y = 4
+		prerequisite = { focus = GOM_Zviadists_from_Svaneti }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_full_control_of_state = 29
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 50000
+			load_oob = GOM_racha
+		}	
+	}
+
+	focus = {
+		id = GOM_lost_lands
+		icon = GFX_GOM_Lost_Lands
+		x = 0
+		y = 2
+		prerequisite = { focus = GOM_Towards_tbilisi }
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = GOM_Attack_abkhazia
+		icon = GFX_GOM_Attack_Abkhazia
+		x = -1
+		y = 3
+		prerequisite = { focus = GOM_lost_lands }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    declare_war_on = {
+                target = ABK
+                type = annex_everything
+            }
+		}	
+	}
+
+	focus = {
+		id = GOM_Attack_Samachablo
+		icon = GFX_GOM_Attack_Samachablo
+		x = 1
+		y = 3
+		prerequisite = { focus = GOM_lost_lands }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    declare_war_on = {
+                target = OST
+                type = annex_everything
+            }
+		}	
+	}
+}	

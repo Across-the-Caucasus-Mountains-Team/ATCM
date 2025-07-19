@@ -1,0 +1,14 @@
+state={
+	id=116
+	name="STATE_119"
+	provinces={
+		154 254 770 872 926 1668 2614 3494 3618 3619 3674 4196 5083 5086 5130 5253 5336 7485 7592 7786 8433 8491 9268 13573 13584 13591 13593 13614 
+	}
+	history={
+	owner = TUR
+	add_core_of = TUR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

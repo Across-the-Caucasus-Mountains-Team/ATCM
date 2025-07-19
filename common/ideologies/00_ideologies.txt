@@ -1,0 +1,530 @@
+ideologies = {
+
+    liberalism = {
+	
+	    types = {
+		    
+			generic_liberalism = {
+			}
+			
+			pan_armenian_national_movement = {
+			    can_be_randomly_selected = no
+			}
+			
+			democratic_russia = {
+			    can_be_randomly_selected = no
+			}
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
+		}
+
+		color = { 57 93 204 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+	
+	conservatism = {
+	
+	    types = {
+		    
+			generic_conservatism = {
+			}
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_CONSERVAT_1"
+			"FACTION_NAME_CONSERVAT_2"
+			"FACTION_NAME_CONSERVAT_3"
+			"FACTION_NAME_CONSERVAT_4"
+			"FACTION_NAME_CONSERVAT_5"
+			"FACTION_NAME_CONSERVAT_6"
+		}
+
+		color = { 105 102 205 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+
+	authoritarianism = {
+	
+	    types = {
+		    
+			generic_authoritarianism = {
+			}
+			
+			georgian_authoritarianism = {
+			    can_be_randomly_selected = no
+			}
+			
+			democratic_union_for_revival = {
+			    can_be_randomly_selected = no
+			}
+			
+			azerbaijani_Authoritarianism = {
+			    can_be_randomly_selected = no
+			}
+			
+			abkhazian_government = {
+			    can_be_randomly_selected = no
+			}
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_AUTHORITARIANISM_1"
+			"FACTION_NAME_AUTHORITARIANISM_2"
+			"FACTION_NAME_AUTHORITARIANISM_3"
+			"FACTION_NAME_AUTHORITARIANISM_4"
+			"FACTION_NAME_AUTHORITARIANISM_5"
+			"FACTION_NAME_AUTHORITARIANISM_6"
+		}
+
+		color = { 75 114 142 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_fascist = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+
+	junta = {
+	
+	    types = {
+		    
+			generic_junta = {
+			}
+			
+			georgia_military_councile = {
+			    can_be_randomly_selected = no
+			}
+			
+			gkchp = {
+			    can_be_randomly_selected = no
+			}	
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_JUNTA_1"
+			"FACTION_NAME_JUNTA_2"
+			"FACTION_NAME_JUNTA_3"
+			"FACTION_NAME_JUNTA_4"
+			"FACTION_NAME_JUNTA_5"
+			"FACTION_NAME_JUNTA_6"
+		}
+
+		color = { 91 91 91 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_fascist = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+	
+	communism = {
+	
+	    types = {
+		    
+			generic_communism = {
+			}
+			
+			cpotsu = {
+			    can_be_randomly_selected = no
+			}
+			
+			chechen_communist_party = {
+			    can_be_randomly_selected = no
+			}
+			
+			azerbaijani_communist_party = {
+			    can_be_randomly_selected = no
+			}
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_COMMUNISTEN_1"
+			"FACTION_NAME_COMMUNISTEN_2"
+			"FACTION_NAME_COMMUNISTEN_3"
+			"FACTION_NAME_COMMUNISTEN_4"
+			"FACTION_NAME_COMMUNISTEN_5"
+			"FACTION_NAME_COMMUNISTEN_6"
+		}
+
+		color = { 165 0 0 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_communist = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+	
+	nationalism = {
+	
+	    types = {
+		    
+			generic_nationalism = {
+			}
+			
+			round_table_free_georgia = {
+			    can_be_randomly_selected = no
+			}
+			
+			all_national_congress_of_the_chechen_people = {
+			    can_be_randomly_selected = no
+			}	
+			
+			ossetian_government = {
+			    can_be_randomly_selected = no
+			}
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_NATIONALISM_1"
+			"FACTION_NAME_NATIONALISM_2"
+			"FACTION_NAME_NATIONALISM_3"
+			"FACTION_NAME_NATIONALISM_4"
+			"FACTION_NAME_NATIONALISM_5"
+			"FACTION_NAME_NATIONALISM_6"
+		}
+
+		color = { 142 92 58 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_fascist = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+	
+	anarchism = {
+	
+	    types = {
+		    
+			generic_anarchism = {
+			}
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+			"FACTION_NAME_ANARCHIST_3"
+			"FACTION_NAME_ANARCHIST_4"
+			"FACTION_NAME_ANARCHIST_5"
+			"FACTION_NAME_ANARCHIST_6"
+		}
+
+		color = { 64 0 0 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_communist = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+	
+	islam = {
+	
+	    types = {
+		    
+			generic_islam = {
+			}
+		}
+
+		dynamic_faction_names = {
+		    "FACTION_NAME_ISLAMIST_1"
+			"FACTION_NAME_ISLAMIST_2"
+			"FACTION_NAME_ISLAMIST_3"
+			"FACTION_NAME_ISLAMIST_4"
+			"FACTION_NAME_ISLAMIST_5"
+			"FACTION_NAME_ISLAMIST_6"
+		}
+
+		color = { 0 166 0 }
+		
+		rules = {
+		    can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+			embargo_cost_factor = -0.5
+			embargo_threshold_factor = -0.5
+		}
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_communist = yes # uses the democratic AI behaviour
+		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
+		
+		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
+	}
+}	

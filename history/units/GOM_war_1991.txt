@@ -1,0 +1,490 @@
+division_template = {
+	name = "Zviadistebis-danakofi"
+
+	division_names_group = GAM_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Satanko-danakofi"
+
+	division_names_group = GAM_Arm_01
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+        modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mtis-Kveiti-danakofi"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = GAM_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorizebuli-danakofi"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = GAM_Mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Nationaluri-gvardiis-danakofi"
+
+	division_names_group = GAM_ngd_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+	    engineer = { x = 0 y = 2 }
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7183
+		division_template = "Nationaluri-gvardiis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7183
+		division_template = "Nationaluri-gvardiis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6813
+		division_template = "Satanko-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11030
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11030
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11030
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6813
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6813
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10907
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10907
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 10930
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 10930
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 10955
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 6813
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 6813
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 6813
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 11125
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 11146
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 6960
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 4341
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 5552
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 5552
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 6764
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}
+		location = 10925
+		division_template = "Zviadistebis-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10955
+		division_template = "Satanko-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10955
+		division_template = "Satanko-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10955
+		division_template = "Mtis-Kveiti-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10955
+		division_template = "Mtis-Kveiti-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10955
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10955
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10955
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10955
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.9
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 10955
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.9
+	}
+}	

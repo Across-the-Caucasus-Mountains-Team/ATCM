@@ -1,0 +1,34 @@
+music = {
+	name = "city_of_mine"
+	file = "city_of_mine.ogg"
+}
+
+music = {
+	name = "Czeczenia"
+	file = "Czeczenia.ogg"
+}
+
+music = {
+	name = "death_or_freedom"
+	file = "death_or_freedom.ogg"
+}
+
+music = {
+	name = "gazavat"
+	file = "gazavat.ogg"
+}
+
+music = {
+	name = "The_Death_of_Russia"
+	file = "The_Death_of_Russia.ogg"
+}
+
+music = {
+	name = "Αllаhu_Αkbаr"
+	file = "Αllаhu_Αkbаr.ogg"
+}
+
+music = {
+	name = "ShamilBasayevMusic"
+	file = "Chechen_music/ShamilBasayevMusic.ogg"
+}

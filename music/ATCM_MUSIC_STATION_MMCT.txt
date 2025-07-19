@@ -1,0 +1,60 @@
+music_station = "ATCM_MUSIC_STATION_MMCT"
+music = {
+	song = "maintheme"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Abkhazetis_mitsaze"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Our_Fatherland"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Zartir_lao"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Dideba"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Gandagana"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

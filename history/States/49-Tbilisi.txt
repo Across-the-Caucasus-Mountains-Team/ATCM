@@ -1,0 +1,35 @@
+state={
+	id=48
+	name="STATE_49"
+	provinces={
+		2649 4518 5650 5711 7668 8377 11353 11357 11370 
+	}
+	
+	resources = {
+	    oil = 15
+		Aluminium = 16
+		Steel = 39
+	}
+	
+	history={
+	owner = SAK
+	add_core_of = SAK
+	victory_points = { 5711 50 }
+	victory_points = { 7668 1 }
+	victory_points = { 5650 1 }
+	victory_points = { 8377 1 }
+	victory_points = { 11357 1 }
+	victory_points = { 11370 1 }
+	victory_points = { 11353 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 10
+		}
+	}
+	manpower=1485293
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.9
+}

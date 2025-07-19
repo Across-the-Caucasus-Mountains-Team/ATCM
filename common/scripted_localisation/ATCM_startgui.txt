@@ -1,0 +1,100 @@
+defined_text = {
+    name = STARTGUI_COUNTRYINFO
+
+    text = {
+        trigger = {
+            tag = RAS
+        }
+        localization_key = "country_info_startgui_sov"
+    }
+
+    text = {
+        trigger = {
+            tag = SAK
+        }
+        localization_key = "country_info_startgui_sak"
+    }
+
+    text = {
+        trigger = {
+            tag = CHE
+        }
+        localization_key = "country_info_startgui_che"
+    }
+}
+
+defined_text = {
+    name = get_background_startgui
+
+    text = {
+        trigger = { original_tag = RAS }
+        localization_key = "GFX_Startgui_SOV_background"
+    }
+
+    text = {
+        trigger = { original_tag = SAK }
+        localization_key = "GFX_Startgui_SAK_background"
+    }
+
+    text = {
+        trigger = { original_tag = CHE }
+        localization_key = "GFX_Startgui_CHE_background"
+    }
+}
+
+defined_text = {
+    name = get_country_name
+
+    text = {
+        trigger = { original_tag = RAS }
+        localization_key = "[ROOT.GetFlag]Soviet Union"
+    }
+
+    text = {
+        trigger = { original_tag = SAK }
+        localization_key = "[ROOT.GetFlag]Georgia"
+    }
+
+    text = {
+        trigger = { original_tag = CHE }
+        localization_key = "[ROOT.GetFlag]Chechen Ingush ASSR"
+    }
+}
+
+defined_text = {
+    name = get_leader_name_startgui
+
+    text = {
+        trigger = { original_tag = RAS }
+        localization_key = "Mikhail Gorbachev"
+    }
+
+    text = {
+        trigger = { original_tag = SAK }
+        localization_key = "Zviad Gamsakhurdia"
+    }
+
+    text = {
+        trigger = { original_tag = CHE }
+        localization_key = "Doku Zavgaev"
+    }
+}
+
+defined_text = {
+    name = get_country_leader_startgui
+
+    text = {
+        trigger = { original_tag = RAS }
+        localization_key = "GFX_Startgui_Mikhail_Gorbachev"
+    }
+
+    text = {
+        trigger = { original_tag = SAK }
+        localization_key = "GFX_Startgui_Zviad_Gamsakhurdia"
+    }
+
+    text = {
+        trigger = { original_tag = CHE }
+        localization_key = "GFX_Startgui_Duko_Zavgayev"
+    }
+}

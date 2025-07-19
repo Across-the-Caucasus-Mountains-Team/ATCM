@@ -1,0 +1,47 @@
+
+add_namespace = adjara
+
+#Shevardnadze send demand
+country_event = {
+	id = adjara.1
+	title = adjara.1.t
+	desc = adjara.1.d
+	picture = GFX_Report_event_SAK_Shevardnadze
+
+	is_triggered_only = yes
+
+	option = {
+	    name = adjara.1.a
+		custom_effect_tooltip = 1_ADJ_tt
+		ai_chance = { factor = 50 }
+	}		
+
+    option = {
+	    name = adjara.1.b
+		49 = { transfer_state_to = SAK }
+		45 = { transfer_state_to = SAK }
+		ai_chance = { factor = 50 }
+	}		
+}
+
+#Shevardnadze Militia crossed the border
+country_event = {
+	id = adjara.2
+	title = adjara.2.t
+	desc = adjara.2.d
+	picture = GFX_Report_event_SAK_Shevardnadze
+
+	is_triggered_only = yes
+
+	option = {
+	    name = adjara.2.a
+		add_threat = 10
+		add_manpower = 50000
+		SAK = {
+		    declare_war_on = {
+            target = ADJ
+            type = annex_everything
+        }
+		load_oob = ADJ_1991
+	}	
+}

@@ -1,0 +1,456 @@
+ideas = {
+
+	country = {
+
+
+        CHE_abandoned_MIC = {
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Unrecognized_Country
+			
+			modifier = {
+				war_support_Factor = -0.15
+				production_factory_efficiency_gain_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25
+				production_speed_arms_factory_factor = -0.45
+			}
+		}
+
+		CHE_destroyed_economy = {
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Unrecognized_Country
+			
+			modifier = {
+				consumer_goods_factor = 0.35
+				production_speed_buildings_factor = -0.25
+				global_building_slots_factor = -0.15
+				production_speed_industrial_complex_factor = -0.25
+			}
+		}
+
+        CHE_Unrecognized_Country = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Unrecognized_Country
+			
+			modifier = {
+				stability_Factor = -0.15
+				war_support_Factor = -0.15
+				political_power_cost = 0.3
+			}
+		}
+		
+		CHE_Military_Training = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknow
+			
+			modifier = {
+				training_time_factor = -0.5
+				experience_gain_army_factor = 0.15
+			}
+		}
+		
+		CHE_Islamic_Conservatism_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Muslim_conservatism_idea
+			
+			modifier = {
+				stability_Factor = 0.15
+				war_support_Factor = 0.2
+				nationalism_drift = 0.03
+				islam_drift = 0.02
+			}
+		}
+		
+		CHE_Young_patriots_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Young_patriots
+			
+			modifier = {
+				war_support_Factor = 0.2
+				conscription = 0.03
+				nationalism_drift = 0.01
+			}
+		}
+		
+		CHE_National_Guard = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_National_Guard
+			
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+		}
+		
+		CHE_Nationalist_Propagandas_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Nationalist_Propaganda
+			
+			modifier = {
+			    war_support_Factor = 0.3
+				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.15
+				nationalism_drift = 0.01
+				surrender_limit = 0.5
+			}
+		}
+
+		CHE_volunteers_from_muslim_world_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Volunteers
+			
+			modifier = {
+			    war_support_factor = 0.05
+				islam_drift = 0.01
+				weekly_manpower = 250
+			}
+		}
+		
+		CHE_hold_the_line_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Tbilisi_Syndrome
+			
+			modifier = {
+			    army_defence_factor = 0.45
+				army_speed_factor = 0.2
+			}
+		}
+		
+		CHE_State_of_emergency_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+			    army_defence_factor = 0.15
+				army_attack_factor = 0.15
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				conscription = 0.15
+				weekly_manpower = 550
+				consumer_goods_factor = -0.25
+				communism_drift = -0.1
+				liberalism_drift = -0.1
+				Conservatism_drift = -0.1
+				Junta_drift = -0.1
+				populism_drift = -0.1
+				anarchism_drift = -0.1
+				authoritarianism_drift = -0.1
+			}
+		}
+		
+		CHE_general_staff = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_General_staff_of_chechnya
+			
+			modifier = {
+			    army_defence_factor = 0.15
+				army_attack_factor = 0.15
+				planning_speed_factor = 0.15
+			}
+		}
+		
+		CHE_manpower_shortage_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Tbilisi_Syndrome
+			
+			modifier = {
+			    manpower_weekly_factor = -80
+			}
+		}
+		
+		CHE_hit_and_run_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Tbilisi_Syndrome
+			
+			modifier = {
+			    army_attack_factor = 0.1
+				army_speed_factor = 0.15
+			}
+		}
+		
+		CHE_wartime_propaganda = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_war_time_propaganda
+			
+			modifier = {
+			    army_attack_factor = 0.1
+				war_support_weekly_factor = 0.01
+				weekly_manpower = 10
+			}
+		}
+		
+		CHE_wartime_propaganda_two = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_war_time_propaganda
+			
+			modifier = {
+			    army_attack_factor = 0.15
+				war_support_weekly_factor = 0.05
+				weekly_manpower = 50
+			}
+		}
+		
+		CHE_memories_of_deportations = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_memories_of_deportation
+			
+			modifier = {
+			    communism_drift = -0.1
+			}
+		}
+		
+		CHE_language_issue = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Language_issue
+			
+			modifier = {
+			    political_power_cost = 0.5
+				stability_factor = -0.15
+			}
+		}
+
+		CHE_engineer_squads = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Language_issue
+			
+			modifier = {
+	            army_defence_factor = 0.15
+	            dig_in_speed_factor = 0.15
+				max_dig_in_factor = 0.10
+			}
+		}
+
+		CHE_use_their_weapons_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Language_issue
+			
+			modifier = {
+	            equipment_capture_factor = 0.075
+				army_org_factor = 0.05
+			}
+		}
+
+		CHE_operation_jihad_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				army_attack_factor = 0.15
+			    army_defence_factor = 0.15
+				weekly_manpower = 150
+			}
+
+			targeted_modifier = {
+                tag = RAS
+                attack_bonus_against = 0.1
+            }
+		}
+	}
+}	

@@ -1,0 +1,22 @@
+state={
+	id=86
+	name="STATE_89"
+	provinces={
+		187 549 909 1431 2337 2406 2487 3153 4063 5334 6078 6429 6873 7400 8292 8712 8733 8755 10996 10998 11013 11040 11041 11043 11080 11094 11100 11103 11159 11175 
+	}
+	history={
+	owner = SAK
+	add_core_of = SAK
+	add_core_of = OST
+	victory_points = { 6429 10 }
+	    buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=1783
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

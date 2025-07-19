@@ -1,0 +1,229 @@
+ideas = {
+
+	country = {
+		RAS_hyperinflation = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_hyperinflation
+			
+			modifier = {
+				stability_factor = -0.35
+				consumer_goods_factor = 0.25
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_industrial_complex_factor = -0.45
+			}
+		}
+
+		RAS_large_external_debt = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_large_external_debt
+			
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = 0.35
+			}
+		}
+
+		RAS_call_for_air_strikes_idea = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_Hardliners_protest
+			
+			modifier = {
+				air_cas_efficiency = 0.15
+				air_cas_present_factor = 0.15
+                breakthrough_factor = 0.15
+			}
+
+			targeted_modifier = {
+                tag = CHE
+                attack_bonus_against = 0.05
+            }
+		}
+
+		RAS_reorganize_our_frontline_idea = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_reorganize_our_frontline_idea
+			
+			modifier = {
+				army_speed_factor = 0.075
+				army_defence_factor = 0.15
+	            dig_in_speed_factor = 0.15
+			}
+		}
+
+		RAS_emergency_redeployment_idea = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_reorganize_our_frontline_idea
+			
+			modifier = {
+				army_speed_factor = 0.35
+			}
+		}
+
+		RAS_plundered_army = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_military_propaganda_idea
+			
+			modifier = {
+				war_support_Factor = -0.15
+				army_attack_factor = -0.25
+				army_morale_factor = -0.25
+				army_org_factor = -0.15
+				army_org_regain = -0.15
+				breakthrough_factor = -0.15
+				army_defence_factor = -0.15
+				army_speed_factor = -0.15
+			}
+		}
+
+		RAS_big_criminality = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_military_propaganda_idea
+			
+			modifier = {
+				stability_Factor = -0.15
+				political_power_gain = -0.25
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		RAS_awacs_reconnaissance = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_awacs_reconnaissance_idea
+			
+			modifier = {
+				army_speed_factor = 0.05
+				decryption_power_factor = 0.15
+				crypto_strength = 3
+			}
+		}
+		
+		RAS_disrupted_supply_lines = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_disrupted_supply_lines
+			
+			modifier = {
+				army_speed_factor = -0.25
+				out_of_supply_factor = 0.15
+				supply_node_range = -0.15
+			}
+		}
+
+		RAS_blitz_chechnya_idea = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				army_attack_factor = 0.15
+				breakthrough_factor = 0.10
+				army_speed_factor = 0.10
+			    army_defence_factor = 0.05				
+			}
+
+			targeted_modifier = {
+                tag = CHE
+                attack_bonus_against = 0.15
+            }
+		}
+	}
+}	

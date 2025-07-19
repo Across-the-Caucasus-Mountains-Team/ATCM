@@ -1,0 +1,33 @@
+state={
+	id=41
+	name="STATE_42"
+	provinces={
+		44 217 554 1028 1205 1306 1335 1359 1441 1571 1673 1777 2063 2518 2584 2611 2738 2838 2988 3006 3146 3151 3180 3204 3553 3623 3885 3950 4126 4545 4704 4795 4875 4880 4996 5347 5358 5396 5425 5483 5495 5519 5709 5801 5838 5868 5873 5885 5938 6130 6345 6666 7525 7620 7634 7664 7814 8015 8075 8223 8256 8699 8824 8950 9309 11113 11127 11148 11154 11155 11164 11168 11172 11177 11182 11186 11187 11191 11194 11204 11208 11215 11217 11218 11219 11223 11227 11236 11248 11250 11254 11260 11261 11269 11277 11279 11280 11286 11288 11292 11293 11294 11298 11300 11309 11316 11322 
+	}
+	resources={
+		steel=31
+		tungsten=21
+	}
+	
+	history={
+	owner = SAK
+	add_core_of = SAK
+	victory_points = { 1205 10 }
+	victory_points = { 7664 15 }
+	victory_points = { 7634 9 }
+	victory_points = { 5938 7 }
+	victory_points = { 1777 1 }
+	victory_points = { 5425 1 }
+	victory_points = { 11164 1 }
+	victory_points = { 11155 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+        manpower=321598
+        state_category = large_city
+	    local_supplies=0.000
+}

@@ -1,0 +1,332 @@
+ARM_Recruitment_category = {
+	
+	ARM_Recruit_from_Yerevan = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 89 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Gegharkunik = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 72 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Lori = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 57 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Shirak = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 60 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Aragatsotn = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 71 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Kotayk = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 73 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Tavush = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 56 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Ararat = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 90 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Vayots_Dzor = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 94 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	ARM_Recruit_from_Syunik = {
+
+		icon = GFX_decision_generic_soldier
+		on_map_mode = map_only
+		highlight_states = { State = 96 }
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = ARM
+		}
+	    
+		visible = {
+			tag = ARM
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 60	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 90		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_manpower = 7000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+}	

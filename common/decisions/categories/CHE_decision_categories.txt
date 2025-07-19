@@ -1,0 +1,51 @@
+################
+##### RAS ######
+################
+# kaja is good man
+
+
+CHE_first_chechen_war_decision = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_global_flag = FirstChechenWar
+	}
+	visible_when_empty = yes
+}
+
+CHE_peace_negotiations_first_chechen_war_decision = {
+
+	priority = 90
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_global_flag = FirstChechenWar
+	}
+	visible_when_empty = no
+}
+
+CHE_counteroffensives_decision = {
+
+	priority = 90
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_global_flag = FirstChechenWar
+		has_completed_focus = CHE_counter_offensive
+	}
+	visible_when_empty = yes
+}

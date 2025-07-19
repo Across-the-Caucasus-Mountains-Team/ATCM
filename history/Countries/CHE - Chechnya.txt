@@ -1,0 +1,72 @@
+capital = 21
+
+set_research_slots = 2
+
+load_oob = CHE_1991
+
+set_country_flag = StartguiOpen
+
+set_cosmetic_tag = SOV_CHE
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1990.9.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberalism = 4
+	communism = 30
+	nationalism = 49
+	conservatism = 17
+}	
+
+add_ideas = {
+	limited_conscription
+	CHE_memories_of_deportations
+	CHE_language_issue
+}	
+
+add_dynamic_modifier = { modifier = CHE_Weak_Chechen_armed_forces }
+set_variable = { CHE_wcaf_war_support_factor = -0.15 }
+set_variable = { CHE_wcaf_Conscription = -0.02 }
+set_variable = { CHE_wcaf_army_attack_factor = -0.25 }
+set_variable = { CHE_wcaf_army_defence_factor = -0.25 }
+set_variable = { CHE_wcaf_army_org_factor = -0.5 }
+set_variable = { CHE_wcaf_army_speed_factor = -0.25 }
+set_variable = { CHE_wcaf_war_stability_factor = -0.4 }
+set_variable = { CHE_wcaf_army_org_regain = -0.25 }
+
+recruit_character = CHE_Duko_Zavgayev
+recruit_character = CHE_Dzhokhar_Dudaev
+recruit_character = CHE_Ruslan_Gelayev
+recruit_character = CHE_Shamil_Basayev
+recruit_character = CHE_Zelimkhan_Yandarbiev
+recruit_character = CHE_Abalaev_Khadzhievich
+
+1996.1.1 = {
+	drop_cosmetic_tag = yes
+}

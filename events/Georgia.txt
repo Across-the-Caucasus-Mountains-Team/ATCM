@@ -1,0 +1,1089 @@
+
+add_namespace = Georgia
+
+#gamsakhurdia speechs
+country_event = {
+	id = Georgia.1
+	title = Georgia.1.t
+	desc = Georgia.1.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.1.a
+	}
+}
+
+#New constitution
+country_event = {
+	id = Georgia.2
+	title = Georgia.2.t
+	desc = Georgia.2.d
+	picture = GFX_Report_event_SAK_Constitution
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.2.a
+	}
+}
+
+#reform schools
+country_event = {
+	id = Georgia.3
+	title = Georgia.3.t
+	desc = Georgia.3.d
+	picture = GFX_Report_event_SAK_Flag
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.3.a
+	}
+}
+
+#churches
+country_event = {
+	id = Georgia.4
+	title = Georgia.4.t
+	desc = Georgia.4.d
+	picture = GFX_Report_event_SAK_Church
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.4.a
+	}
+}
+
+#April Tragedy
+country_event = {
+	id = Georgia.5
+	title = Georgia.5.t
+	desc = Georgia.5.d
+	picture = GFX_Report_event_SAK_April_tragedy
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.5.a
+	}
+}
+
+#Ossetians
+country_event = {
+	id = Georgia.6
+	title = Georgia.6.t
+	desc = Georgia.6.d
+	picture = GFX_Report_event_SAK_ossetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.6.a
+	}
+}
+
+#abkhazians
+country_event = {
+	id = Georgia.7
+	title = Georgia.7.t
+	desc = Georgia.7.d
+	picture = GFX_Report_event_SAK_abkhazia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.7.a
+	}
+}
+
+#Whats Going On In Georgia
+country_event = {
+	id = Georgia.8
+	title = Georgia.8.t
+	desc = Georgia.8.d
+	picture = GFX_Report_event_SAK_Flag
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.8.a
+	}
+}
+
+#Conflitct in South Ossetia
+country_event = {
+	id = Georgia.9
+	title = Georgia.9.t
+	desc = Georgia.9.d
+	picture = GFX_Report_event_SAK_Clashses_in_ossetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.9.a
+		ai_chance = { factor = 10 }
+		add_manpower = -500
+		army_experience = 50
+		add_war_support = -0.05
+		activate_mission = SAK_Take_tskhinvali_decision
+	}
+	
+	option = {
+		name = Georgia.9.b
+		ai_chance = { factor = 90 }
+		army_experience = 25
+		add_stability = 0.05
+		white_peace = OST
+	}
+}
+
+#INDEPENDENCE REFERENDUM
+country_event = {
+	id = Georgia.10
+	title = Georgia.10.t
+	desc = Georgia.10.d
+	picture = GFX_Report_event_SAK_INDEPENDENCE
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.10.a
+		drop_cosmetic_tag = yes
+		RAS = {
+			set_autonomy = {
+				target = SAK
+				autonomous_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+		news_event = { id = news.1 }
+		remove_ideas = SAK_Gamsakhurdias_Speechs
+		hidden_effect = {
+			load_focus_tree = Independent_Georgia_focus
+		}		
+	}
+}
+
+#ABOUT GEORGIA
+country_event = {
+	id = Georgia.11
+	title = Georgia.11.t
+	desc = Georgia.11.d
+	picture = GFX_Report_event_SAK_Flag
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.11.a
+		hidden_effect = {
+			load_focus_tree = Georgia_focus
+		}
+	}					 
+}
+
+#The Power struggle
+country_event = {
+	id = Georgia.12
+	title = Georgia.12.t
+	desc = Georgia.12.d
+	picture = GFX_Report_event_SAK_Flag
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.12.a
+		hidden_effect = {
+			load_focus_tree = Georgia_ethnicity_war
+		}
+	}					 
+}
+
+#Adjara Question
+country_event = {
+	id = Georgia.13
+	title = Georgia.13.t
+	desc = Georgia.13.d
+	picture = GFX_Report_event_SAK_Adjara_Question
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.13.a
+		ai_chance = { factor = 90 }
+	}		
+
+	option = {
+		name = Georgia.13.b
+		ADJ = {
+			country_event = { id = adjara.1	}
+		}	
+		ai_chance = { factor = 10 }
+	}		
+}
+
+#where is Gamsakhurdia
+country_event = {
+	id = Georgia.14
+	title = Georgia.14.t
+	desc = Georgia.14.d
+	picture = GFX_Report_event_SAK_Adjara_Question
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.14.a
+	}		
+
+	option = {
+		name = Georgia.14.b
+	}		
+}
+
+#Shevardnadze becomes the president
+country_event = {
+	id = Georgia.15
+	title = Georgia.15.t
+	desc = Georgia.15.d
+	picture = GFX_Report_event_SAK_Shevardnadze
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.15.a
+		add_to_variable = { SAK_aig_war_support_factor = 0.05 }
+		add_to_variable = { SAK_aig_stability_factor = 0.05 }
+		add_to_variable = { SAK_aig_consumer_goods_factor = -0.05 }
+		add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
+		add_to_variable = { SAK_aig_drift_defence_factor = 0.05 }
+		add_to_variable = { SAK_aig_political_power_gain = 0.01 }
+		add_to_variable = { SAK_aig_Research_speed_factor = 0.05 }
+		add_to_variable = { SAK_aig_monthly_population = 0.05 }
+		add_to_variable = { SAK_aig_weekly_manpower = 5 }
+		add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.05 }
+		custom_effect_tooltip = 1_SAK_tt
+		set_politics = { 
+			ruling_party = authoritarianism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.80
+		}
+	}
+}
+
+#Coup is over Opposition won
+country_event = {
+	id = Georgia.16
+	title = Georgia.16.t
+	desc = Georgia.16.d
+	picture = GFX_Report_event_SAK_Aftermath_of_Coup
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.16.a
+		add_ideas = SAK_Zviadists_in_the_west
+		37 = {
+			set_demilitarized_zone = yes
+		}	
+		add_ideas = SAK_Overcrowded_Hospitals
+		add_ideas = SAK_Ruins_of_central_tbilisi
+		add_ideas = SAK_Mkhedrioni
+		add_dynamic_modifier = { modifier = SAK_Anarchy_in_Georgia }
+		add_to_variable = { SAK_aig_war_support_factor = -0.5 }
+		add_to_variable = { SAK_aig_stability_factor = -0.5 }
+		add_to_variable = { SAK_aig_consumer_goods_factor = 0.5 }
+		add_to_variable = { SAK_aig_Anarchist_drift = 0.1 }
+		add_to_variable = { SAK_aig_drift_defence_factor = -0.4 }
+		add_to_variable = { SAK_aig_political_power_gain = -0.1 }
+		add_to_variable = { SAK_aig_Research_speed_factor = -0.35 }
+		add_to_variable = { SAK_aig_monthly_population = -0.25 }
+		add_to_variable = { SAK_aig_weekly_manpower = -25 }
+		add_to_variable = { SAK_aig_party_popularity_stability_factor = -0.3 }
+		load_focus_tree = Aftermath_of_Coup_Georgia
+	}
+}
+
+#Jaba ioseliani is arrested
+country_event = {
+	id = Georgia.17
+	title = Georgia.17.t
+	desc = Georgia.17.d
+	picture = GFX_Report_event_SAK_Jaba_ioseliani_arrest
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.17.a
+	}
+}
+
+#Kitovani Forces open fire at Parliament Guard
+country_event = {
+	id = Georgia.18
+	title = Georgia.18.t
+	desc = Georgia.18.d
+	picture = GFX_Report_event_SAK_hotel
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.18.a
+		add_stability = -0.05
+		add_manpower = -2
+		country_event = { 
+			id = Georgia.23 
+			hour = 1 
+		}
+	}
+}
+
+#Clashes near roki tunnel
+country_event = {
+	id = Georgia.19
+	title = Georgia.19.t
+	desc = Georgia.19.d
+	picture = GFX_Report_event_SAK_Roki_Tunnel
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.19.a
+		add_manpower = -34
+		OST = {
+			add_manpower = -12
+		}	
+	}
+}
+
+#anarchy continues in Georgia
+country_event = {
+	id = Georgia.20
+	title = Georgia.20.t
+	desc = Georgia.20.d
+	picture = GFX_Report_event_SAK_Parliament_Shootout
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.20.a
+		add_political_power = -50	
+		add_stability = -0.05		
+		country_event = { id = Georgia.21 }
+	}
+}
+
+#Police Situation
+country_event = {
+	id = Georgia.21
+	title = Georgia.21.t
+	desc = Georgia.21.d
+	picture = GFX_Report_event_SAK_Parliament_Shootout
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.21.a
+		add_ideas = SAK_curropted_police
+		add_ideas = SAK_crime_skyrocketing
+		country_event = { id = Georgia.22 }
+	}
+}
+
+#Mkhedrioni Situation
+country_event = {
+	id = Georgia.22
+	title = Georgia.22.t
+	desc = Georgia.22.d
+	picture = GFX_Report_event_SAK_Parliament_Shootout
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.22.a
+		Replace_idea = {
+		remove_ideas = SAK_Mkhedrioni
+		add_ideas = SAK_Mkhedrioni_2
+		}
+	}
+}
+
+#White eagle leave the post
+country_event = {
+	id = Georgia.23
+	title = Georgia.23.t
+	desc = Georgia.23.d
+	picture = GFX_Report_event_SAK_post_in_south_ossetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.23.a
+		add_war_support = -0.05
+		country_event = { 
+			id = Georgia.24 
+			days = 1 
+		}
+	}
+}
+
+#two Government officials got kidnapped
+country_event = {
+	id = Georgia.24
+	title = Georgia.24.t
+	desc = Georgia.24.d
+	picture = GFX_Report_event_SAK_sigua
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.24.a
+		add_manpower = -2
+		add_stability = -0.01
+		country_event = { 
+			id = Georgia.25 
+			hours = 7 
+		}
+	}
+}
+
+#First attack
+country_event = {
+	id = Georgia.25
+	title = Georgia.25.t
+	desc = Georgia.25.d
+	picture = GFX_Report_event_SAK_first_attack
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.25.a
+		add_stability = -0.1
+		add_war_support = -0.1
+		add_manpower = -15
+		country_event = { 
+			id = Georgia.26 
+			hours = 1 
+		}
+	}
+}
+
+#two Government officials betray
+country_event = {
+	id = Georgia.26
+	title = Georgia.26.t
+	desc = Georgia.26.d
+	picture = GFX_Report_event_SAK_opposition_in_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.26.a
+		add_stability = -0.01
+		add_war_support = -0.01
+		add_manpower = -2
+		country_event = { 
+			id = Georgia.27 
+			days = 1 
+		}
+	}
+}
+
+#second attack and fire in art museum
+country_event = {
+	id = Georgia.27
+	title = Georgia.27.t
+	desc = Georgia.27.d
+	picture = GFX_Report_event_SAK_fire_in_art_museum
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.27.a
+		add_stability = -0.04
+		add_war_support = -0.01
+		add_manpower = -7
+		country_event = { 
+			id = Georgia.28 
+			days = 4 
+		}
+	}
+}
+
+#Opposition forces in parliament
+country_event = {
+	id = Georgia.28
+	title = Georgia.28.t
+	desc = Georgia.28.d
+	picture = GFX_Report_event_SAK_Parliament_Shootout
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.28.a
+		add_stability = -0.05
+		add_war_support = -0.04
+		add_manpower = -3
+		country_event = { 
+			id = Georgia.29 
+			days = 1 
+		}
+	}
+}
+
+#Jaba is free
+country_event = {
+	id = Georgia.29
+	title = Georgia.29.t
+	desc = Georgia.29.d
+	picture = GFX_Report_event_SAK_jaba
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.29.a
+		add_stability = -0.05
+		add_war_support = -0.05
+		add_political_power = -100
+		country_event = { 
+			id = Georgia.30 
+			hours = 11 
+		}
+	}
+}
+
+#betrayal from deputy
+country_event = {
+	id = Georgia.30
+	title = Georgia.30.t
+	desc = Georgia.30.d
+	picture = GFX_Report_event_SAK_opposition_in_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.30.a
+		add_manpower = -1
+		country_event = { 
+			id = Georgia.32 
+			days = 4 
+		}
+	}
+}
+
+#events outside of tbilisi
+country_event = {
+	id = Georgia.31
+	title = Georgia.31.t
+	desc = Georgia.31.d
+	picture = GFX_Report_event_SAK_opposition_in_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.31.a
+		add_stability = -0.01
+		add_war_support = 0.01
+		add_manpower = 300
+		country_event = { 
+			id = Georgia.33 
+			days = 1 
+		}
+	}
+}
+
+#repressing demonstration
+country_event = {
+	id = Georgia.32
+	title = Georgia.32.t
+	desc = Georgia.32.d
+	picture = GFX_Report_event_SAK_Zviadists_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.32.a
+		add_stability = -0.05
+		add_war_support = 0.01
+		48 = {
+		  add_manpower = -4
+		}
+		country_event = { 
+			id = Georgia.31 
+			days = 2 
+		}
+	}
+}
+
+#president escaped
+country_event = {
+	id = Georgia.33
+	title = Georgia.33.t
+	desc = Georgia.33.d
+	picture = GFX_Report_event_SAK_over
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.33.a
+		set_politics = { 
+			ruling_party = junta
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = junta
+			popularity = 0.80
+		}
+		news_event = { id = news.3 }
+		remove_ideas = SAK_State_of_emergency
+		remove_ideas = SAK_National_Gurad_Split_in_two
+		hidden_effect = {
+			CHE = {
+				country_event = { id = Chechnya.5 }
+			}
+			country_event = { 
+			id = Georgia.16 
+			hours = 1 
+			}
+		}
+	}
+}
+
+#Georgia joined the UN
+country_event = {
+	id = Georgia.34
+	title = Georgia.34.t
+	desc = Georgia.34.d
+	picture = GFX_Report_event_UN
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.34.a
+		add_political_power = 25
+		add_stability = 0.05
+	}
+}
+
+#Kitovani refuses to step down
+country_event = {
+	id = Georgia.35
+	title = Georgia.35.t
+	desc = Georgia.35.d
+	picture = GFX_Report_event_SAK_Tengiz_kitovani
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.35.a
+		add_political_power = -50
+		add_ideas = SAK_National_Gurad_Split_in_two
+	}
+}
+
+#Abkhazia Declared Independence
+country_event = {
+	id = Georgia.36
+	title = Georgia.36.t
+	desc = Georgia.36.d
+	picture = GFX_Report_event_SAK_Abkhazia_declared_independence
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.36.a
+		add_political_power = -60
+		add_stability = -0.1
+		18 = { transfer_state_to = ABK }
+		27 = { transfer_state_to = ABK }
+		25 = { transfer_state_to = ABK }
+		19 = { transfer_state_to = ABK }
+		news_event = { id = news.7 }
+		set_country_flag = Preparation_for_war
+		country_event = { id = Georgia.38 days = 22 }
+	}
+}
+
+#Karkarasvhilis Speech
+country_event = {
+	id = Georgia.37
+	title = Georgia.37.t
+	desc = Georgia.37.d
+	picture = GFX_Report_event_SAK_Karkarashvili
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.37.a
+		add_manpower = 98000
+		add_war_support = 0.1
+	}
+}
+
+#War declaration
+country_event = {
+	id = Georgia.38
+	title = Georgia.38.t
+	desc = Georgia.38.d
+	picture = GFX_Report_event_SAK_War
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.38.a
+		declare_war_on = {
+			target = ABK
+			type = annex_everything
+		}
+		news_event = { id = news.9 }
+		set_country_flag = war_in_abkhazia
+		add_timed_idea = {
+			idea = SAK_Blitz_in_Abkhazia
+			days = 45
+		}	
+		ABK = {
+			load_oob = ABK_1991
+		}	
+		add_threat = 10
+	}
+	
+	option = {
+		name = Georgia.38.b
+		declare_war_on = {
+			target = ABK
+			type = annex_everything
+		}
+		news_event = { id = news.9 }
+		set_country_flag = war_in_abkhazia
+		add_timed_idea = {
+			idea = SAK_Blitz_in_Abkhazia
+			days = 45
+		}	
+		ABK = {
+			load_oob = ABK_1991
+		}	
+		ABK = { 
+			change_tag_from = ROOT 
+		}
+		add_threat = 10
+	}
+}
+
+#Ossetians Uprising
+country_event = {
+	id = Georgia.39
+	title = Georgia.39.t
+	desc = Georgia.39.d
+	picture = GFX_Report_event_SAK_Clashses_in_ossetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.39.a
+		33 = { transfer_state_to = OST }
+		36 = { transfer_state_to = OST }
+		hidden_effect = {
+			country_event = {
+			id = Georgia.40
+			days = 2
+			}
+		}		
+	}
+}
+
+#Attack Ossetians
+country_event = {
+	id = Georgia.40
+	title = Georgia.40.t
+	desc = Georgia.40.d
+	picture = GFX_Report_event_SAK_Clashses_in_ossetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.40.a
+		declare_war_on = {
+			target = OST
+			type = annex_everything
+		}
+		add_ideas = SAK_Clashes_in_south_ossetia
+		news_event = { id = news.11 }
+		hidden_effect = {
+			OST = {
+				load_oob = OST_1991
+			}
+		}	
+		OST = {
+			add_ideas = OST_fight_for_independence
+		}
+		add_threat = 10
+	}
+	
+	option = {
+		name = Georgia.40.b
+		declare_war_on = {
+			target = OST
+			type = annex_everything
+		}
+		add_ideas = SAK_Clashes_in_south_ossetia
+		news_event = { id = news.11 }
+		hidden_effect = {
+			OST = {
+				load_oob = OST_1991
+			}
+		}	
+		OST = { 
+			change_tag_from = ROOT 
+		}
+		OST = {
+			add_ideas = OST_fight_for_independence
+		}
+		add_threat = 10
+	}
+}
+
+#Zviadists activity increased
+country_event = {
+	id = Georgia.41
+	title = Georgia.41.t
+	desc = Georgia.41.d
+	picture = GFX_Report_event_SAK_Clashses_in_ossetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.41.a
+	}
+}
+
+#Zviad Launched Uprising
+country_event = {
+	id = Georgia.42
+	title = Georgia.42.t
+	desc = Georgia.42.d
+	picture = GFX_Report_event_SAK_Clashses_in_ossetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.42.a
+		complete_national_focus = SAK_Civil_war_is_started
+		news_event = { id = news.17 }
+		set_global_flag = zviadists_uprised
+	}
+}
+
+#Adjara is separating from us
+country_event = {
+	id = Georgia.43
+	title = Georgia.43.t
+	desc = Georgia.43.d
+	picture = GFX_Report_event_SAK_Adjara_Question
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.43.a
+		set_country_flag = Adjara_is_semiindependent
+		49 = { transfer_state_to = ADJ }
+		45 = { transfer_state_to = ADJ }
+	}
+}
+
+#Wanna play as exiled zviad gamsakhurdia
+country_event = {
+	id = Georgia.44
+	title = Georgia.44.t
+	desc = Georgia.44.d
+	picture = GFX_Report_event_SAK_over
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.44.a
+		GOM = {
+			change_tag_from = ROOT 
+		}
+	}
+	
+	option = {
+		name = Georgia.44.b
+	}
+}
+
+#Abashidze Refuses the demand
+country_event = {
+	id = Georgia.45
+	title = Georgia.45.t
+	desc = Georgia.45.d
+	picture = GFX_Report_event_SAK_Adjara_Question
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.45.a
+		add_political_power = -50
+		add_stability = 0.025
+		add_war_support = -0.05
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = Georgia.45.b
+		custom_effect_tooltip = 4_SAK_tt
+		hidden_effect = {
+			ADJ = {
+				country_event = {
+					id = adjara.2
+					days = 45
+				}
+			}
+		}	
+		ai_chance = { factor = 10 }
+	}
+}
+
+#Abashidze Accepted our demands
+country_event = {
+	id = Georgia.46
+	title = Georgia.46.t
+	desc = Georgia.46.d
+	picture = GFX_Report_event_SAK_Adjara_Question
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.46.a
+		add_political_power = 90
+		add_stability = 0.15
+		add_war_support = 0.15
+	}
+}
+
+#Protest
+country_event = {
+	id = Georgia.47
+	title = Georgia.47.t
+	desc = Georgia.47.d
+	picture = GFX_Report_event_SAK_Protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.47.a
+		add_political_power = -25
+		add_stability = -0.05
+		add_war_support = -0.05
+		hidden_effect = {
+			country_event = {
+				id = Georgia.48
+				days = 35
+			}	
+		}	
+	}
+}
+
+#NG is supporting antizviad protest
+country_event = {
+	id = Georgia.48
+	title = Georgia.48.t
+	desc = Georgia.48.d
+	picture = GFX_Report_event_SAK_NG_supports_Protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.48.a
+		add_political_power = -55
+		add_stability = -0.05
+		add_war_support = -0.05
+		add_popularity = {
+			ideology = nationalism
+			popularity = -0.025
+		}	
+		hidden_effect = {
+			country_event = {
+				id = Georgia.49
+				days = 25
+			}	
+		}
+	}
+}
+
+#Clashes in tbilisi
+country_event = {
+	id = Georgia.49
+	title = Georgia.49.t
+	desc = Georgia.49.d
+	picture = GFX_Report_event_SAK_clashes_in_tbilisi
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.49.a
+		add_political_power = -55
+		add_stability = -0.05
+		add_war_support = -0.05
+		add_manpower = -23
+		48 = {
+			set_demilitarized_zone = yes
+		}	
+	}
+}
+
+#Army is reorganized
+country_event = {
+	id = Georgia.50
+	title = Georgia.50.t
+	desc = Georgia.50.d
+	picture = GFX_Report_event_SAK_reorganized_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.50.a
+		add_political_power = 50
+		add_to_variable = { SAK_wdaf_army_org_factor = 0.1 }
+	}
+}
+
+#Failed to take tskhinvali
+country_event = {
+	id = Georgia.51
+	title = Georgia.51.t
+	desc = Georgia.51.d
+	picture = GFX_Report_event_SAK_reorganized_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.51.a
+		add_political_power = -50
+		add_war_support = -0.05
+	}
+}
+
+#Successfully capturing tskhinvali
+country_event = {
+	id = Georgia.52
+	title = Georgia.52.t
+	desc = Georgia.52.d
+	picture = GFX_Report_event_SAK_reorganized_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.52.a
+		add_political_power = 50
+		add_war_support = 0.05
+		add_popularity = {
+			ideology = nationalism
+			popularity = 0.15
+		}	
+	}
+}

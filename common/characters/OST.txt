@@ -1,0 +1,16 @@
+characters={
+	OST_provisional_government={ #first Leader
+		name="South Ossetias provisional government"
+		portraits={
+			civilian={
+				large="gfx/leaders/OST/portrait_OST_government.png"
+			}
+		}
+		country_leader={
+			ideology=ossetian_government
+			traits={ }
+			expire="5022.8.30.1"
+			id=-1
+		}
+    }
+}	

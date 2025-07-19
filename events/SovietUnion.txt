@@ -1,0 +1,384 @@
+add_namespace = soviet_union
+
+#72 years of the Union
+country_event = {
+	id = soviet_union.1
+	title = soviet_union.1.t
+	desc = soviet_union.1.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+
+	option = {
+		name = soviet_union.1.a
+	}
+}
+
+#Clash in the Baltic Republics
+country_event = {
+	id = soviet_union.2
+	title = soviet_union.2.t
+	desc = soviet_union.2.d
+	picture = GFX_Report_event_SOV_january_events
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RAS
+		
+	}
+
+	option = {
+		name = soviet_union.2.a
+		add_manpower = -2
+		add_political_power = -50
+	}
+}
+
+#Referendum results
+country_event = {
+	id = soviet_union.3
+	title = soviet_union.3.t
+	desc = soviet_union.3.d
+	picture = GFX_Report_event_SOV_Referendum
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	option = {
+		name = soviet_union.3.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
+
+#Tanks in moscow
+country_event = {
+	id = soviet_union.4
+	title = soviet_union.4.t
+	desc = soviet_union.4.d
+	picture = GFX_Report_event_SOV_Coup
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	option = {
+		name = soviet_union.4.a
+		add_stability = -0.1
+		add_war_support = -0.1
+		add_political_power = -100
+		custom_effect_tooltip = 1_SOV_tt
+		country_event = {
+			id = soviet_union.6
+			hours = 6
+		}	
+	}
+}
+
+#Collapse of the ussr
+country_event = {
+	id = soviet_union.5
+	title = soviet_union.5.t
+	desc = soviet_union.5.d
+	picture = GFX_Report_event_SOV_rip_ussr
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	option = {
+		name = soviet_union.5.a
+		drop_cosmetic_tag = yes
+		add_war_support = -0.075
+		hidden_effect = {
+			news_event = { id = news.12 }
+		}
+	}
+}
+
+#disobeience
+country_event = {
+	id = soviet_union.6
+	title = soviet_union.6.t
+	desc = soviet_union.6.d
+	picture = GFX_Report_event_RAS_Disobeience
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = soviet_union.8
+				hours = 4
+			}
+		}
+	}
+
+	option = {
+		name = soviet_union.6.a
+		add_stability = -0.01
+		add_war_support = -0.05
+		add_political_power = -50
+	}
+}
+
+#President is in house arrest
+country_event = {
+	id = soviet_union.7
+	title = soviet_union.7.t
+	desc = soviet_union.7.d
+	picture = GFX_Report_event_RAS_House_Arrest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	option = {
+		name = soviet_union.7.a
+		add_political_power = -50
+		add_stability = -0.05
+	}
+}
+
+#Rallies and call for General strike
+country_event = {
+	id = soviet_union.8
+	title = soviet_union.8.t
+	desc = soviet_union.8.d
+	picture = GFX_Report_event_RAS_Rallies
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = soviet_union.9
+				hours = 1
+			}
+		}
+	}
+
+	option = {
+		name = soviet_union.8.a
+		add_political_power = -25
+		add_stability = -0.05
+	}
+}
+
+#Polls
+country_event = {
+	id = soviet_union.9
+	title = soviet_union.9.t
+	desc = soviet_union.9.d
+	picture = GFX_Report_event_RAS_Poll
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = soviet_union.10
+				hours = 4
+			}
+		}
+	}
+
+	option = {
+		name = soviet_union.9.a
+		add_political_power = 25
+		add_stability = 0.01
+	}
+}
+
+#Protesters around white house
+country_event = {
+	id = soviet_union.10
+	title = soviet_union.10.t
+	desc = soviet_union.10.d
+	picture = GFX_Report_event_RAS_Rallies
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = soviet_union.11
+				hours = 5
+			}
+		}
+	}
+
+	option = {
+		name = soviet_union.10.a
+		add_political_power = -25
+		add_stability = -0.05
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}
+	}
+}
+
+#Massive Defection in the army
+country_event = {
+	id = soviet_union.11
+	title = soviet_union.11.t
+	desc = soviet_union.11.d
+	picture = GFX_Report_event_RAS_Defection
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = soviet_union.12
+				hours = 10
+			}
+		}
+	}
+
+	option = {
+		name = soviet_union.11.a
+		add_manpower = -890
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
+		}
+	}
+}
+
+#Tensions rising
+country_event = {
+	id = soviet_union.12
+	title = soviet_union.12.t
+	desc = soviet_union.12.d
+	picture = GFX_Report_event_RAS_Tensions
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = soviet_union.13
+				hours = 9
+			}
+		}
+	}
+
+	option = {
+		name = soviet_union.12.a
+		add_stability = -0.15
+	}
+}
+
+#Fire near the white house
+country_event = {
+	id = soviet_union.13
+	title = soviet_union.13.t
+	desc = soviet_union.13.d
+	picture = GFX_Report_event_RAS_fire_near_white_house
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = soviet_union.14
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = soviet_union.13.a
+		add_manpower = -3
+		add_stability = -0.15
+		add_war_support = -0.15
+		country_event = {
+			id = soviet_union.14
+			days = 1
+		}
+	}
+}
+
+#day four
+country_event = {
+	id = soviet_union.14
+	title = soviet_union.14.t
+	desc = soviet_union.14.d
+	picture = GFX_Report_event_RAS_Day_Four
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+	immediate = {
+		country_event = {
+			id = superevent.1
+			days = 3
+		}
+		activate_mission = SOV_end_of_the_ussr
+		hidden_effect = {
+			set_country_flag = Coup_Happened
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	option = {
+		name = soviet_union.14.a
+		add_manpower = -2
+		news_event = { id = news.13 }
+		remove_ideas = RAS_hardliners_protest
+	}
+}

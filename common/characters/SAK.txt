@@ -1,0 +1,293 @@
+characters={
+	SAK_zviad_gamsakhurdia={ #Independence Leader
+		name="Zviad Gamsakhurdia"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAK/portrait_sak_Zviad_Gamsakhurdia.png"
+			}
+		}
+		country_leader={
+			ideology=round_table_free_georgia
+			traits={ dislikes_russia anti_communist }
+			expire="1993.12.31.1"
+			id=-1
+		}
+	}
+	
+	SAK_Military_council={ #junta
+		name="Military Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAK/portrait_sak_military_council.png"
+			}
+		}
+		country_leader={
+			ideology=georgia_military_councile
+			traits={ military_modernizer }
+			expire="1992.3.10.1"
+			id=-1
+		}
+	}
+	
+	SAK_Eduard_Shevardnadze={ #authoritarian mf
+		name="Eduard Shevardnadze"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAK/portrait_sak_eduard_shevardnadze.png"
+			}
+		}
+		country_leader={
+			ideology=georgian_authoritarianism
+			traits={ military_modernizer }
+			expire="2014.12.10.1"
+			id=-1
+		}
+	}
+	
+	SAK_Tengiz_Kitovani = {
+		name = "Tengiz Kitovani"
+		portraits = {
+		    army = {
+			    large = "gfx/leaders/SAK/portrait_sak_Tengiz_kitovani.png"
+				small = "gfx/interface/ideas/portrait_SAK_Tengiz_Kitovani_Small.png"
+			}
+		}
+
+		corps_commander = { 
+			traits = { infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		
+		advisor = {
+			slot = high_command
+			idea_token = Tengiz_Kitovani
+			ledger = army
+			allowed = {
+				original_tag = SAK
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 150
+		}
+	}	
+	
+	SAK_Avtandil_Tskitishvili = {
+		name = "Avtandil Tskitishvili"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SAK/portrait_sak_Georgian_armed_forces_flag.png"
+				small = "gfx/interface/ideas/portrait_SAK_Georgian_Armed_Forces_flag_Small.png"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = SAK_Avtandil_Tskitishvili
+			allowed = {
+				original_tag = SAK
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 150
+		}
+
+		field_marshal = {
+			traits = { career_officer inflexible_strategist trait_reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 0
+		}	
+	}
+	
+	SAK_Geno_Adamia = {
+		name = "Geno Adamia"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/SAK/portrait_sak_Geno_Adamia.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	SAK_Boris_Grigolashvili = {
+		name = "Boris Grigolashvili"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/SAK/portrait_sak_Boris_Grigolashvili.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	
+	SAK_Giorgi_Karkarashvili = {
+		name = "Giorgi Karkarashvili"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/SAK/portrait_sak_giorgi_karkarashvili.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 1206
+		}
+	}
+	
+	SAK_Jaba_Ioseliani = {
+		name = "Jaba Ioseliani"
+		portraits = {
+			army = {
+			    large = "gfx/leaders/SAK/portrait_sak_Jaba_ioseliani.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 1207
+		}
+	}
+	
+	SAK_Tamar_ckheidze={
+		advisor={
+			slot = political_advisor
+			idea_token = SAK_Tamar_ckheidze
+			allowed  = {
+					original_tag  = SAK
+				}
+				traits  = {
+					prince_of_terror 
+				}
+		}
+		name = "Tamar Ckheidze"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_SAK_Tamar_Ckheidze_small.png"
+			}
+		}
+	}
+	
+	SAK_Besarion_Gugushvili={
+		advisor={
+			slot = political_advisor
+			idea_token = SAK_Besarion_Gugushvili
+			allowed  = {
+					original_tag  = SAK
+				}
+				traits  = {
+					economic_reformer 
+				}
+		}
+		name = "Besarion Gugushvili"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_SAK_Besarion_Gugushvili_small.png"
+			}
+		}
+	}
+	
+	SAK_Akaki_Asatiani={
+		advisor={
+			slot = political_advisor
+			idea_token = SAK_Akaki_Asatiani
+			allowed  = {
+					original_tag  = SAK
+				}
+				traits  = {
+					SWE_minor_opposition_party_in_power 
+				}
+		}
+		name = "Akaki Asatiani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_SAK_Akaki_Asatiani_small.png"
+			}
+		}
+	}
+	
+	SAK_Tengiz_Sigua={
+		advisor={
+			slot = political_advisor
+			idea_token = SAK_Tengiz_Sigua
+			allowed  = {
+					original_tag  = SAK
+				}
+				traits  = {
+					priestly_prime_minister 
+				}
+		}
+		name = "Tengiz Sigua"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_SAK_Tengiz_Sigua_small.png"
+			}
+		}
+	}
+	
+	SAK_Giorgi_Chanturia={
+		advisor={
+			slot = political_advisor
+			idea_token = SAK_Giorgi_Chanturia
+			allowed  = {
+					original_tag  = SAK
+				}
+				traits  = {
+					SWE_minor_opposition_party_in_power 
+				}
+		}
+		name = "Giorgi Chanturia"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_SAK_Giorgi_Chanturia_small.png"
+			}
+		}
+	}
+	
+	SAK_Ilia_II={
+		advisor={
+			slot = political_advisor
+			idea_token = SAK_Ilia_II
+			allowed  = {
+					original_tag  = SAK
+				}
+				traits  = {
+					catholic_patriarch_of_all_georgia 
+				}
+		}
+		name = "Ilia II"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_SAK_ilia_II_small.png"
+			}
+		}
+	}
+}	

@@ -1,0 +1,24 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+leader_traits = {
+
+    catholic_patriarch_of_all_georgia = {
+	    random = no
+	    sprite = 13
+	    stability_factor = 0.15
+	    war_support_factor = 0.05
+	    army_morale_factor = 0.1
+	    conservatism_drift = 0.01
+	    compliance_growth_on_our_occupied_states = -0.5
+    }
+}

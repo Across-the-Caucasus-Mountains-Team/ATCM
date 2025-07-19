@@ -1,0 +1,409 @@
+focus_tree = {
+	id = Independent_Armenia_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ARM
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 6000 y = 500 }
+	
+	focus = {
+		id = ARM_tensions_in_karabakh
+		icon = GFX_ARM_Tenisions_in_karabakh
+		x = 15
+		y = 0
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 150
+			add_war_support = 0.15
+			add_stability = 0.15
+			add_manpower = 50000
+		}	
+	}
+
+	focus = {
+		id = ARM_demand_referendum_in_karabakh
+		icon = GFX_ARM_referendum
+		prerequisite = { focus = ARM_tensions_in_karabakh }
+		x = 15
+		y = 2
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+		    AZR = {
+				country_event = { id = Azerbaijan.2 }
+			}
+		}	
+	}
+
+	focus = {
+		id = ARM_nintheen_days_preparations
+		icon = GFX_ARM_nintheen_days_deadblock
+		prerequisite = { focus = ARM_demand_referendum_in_karabakh }
+		x = 15
+		y = 3
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			always = no
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = ARM_Ground_force
+		icon = GFX_ARM_Ground_Force
+		prerequisite = { focus = ARM_nintheen_days_preparations }
+		x = 11
+		y = 4
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_army_experience = 100
+		}	
+	}
+
+	focus = {
+		id = ARM_search_for_old_guns
+		icon = GFX_ARM_nintheen_days_deadblock
+		prerequisite = { focus = ARM_Ground_force }
+		x = 9
+		y = 5
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = ARM_Rally_paramilitaries
+		icon = GFX_ARM_Paramilitaries
+		prerequisite = { focus = ARM_Ground_force }
+		x = 11
+		y = 5
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 78000
+			add_political_power = 25
+		}	
+	}
+
+	focus = {
+		id = ARM_calls_for_Armenians_in_karabakh
+		icon = GFX_ARM_ARMENIANS
+		prerequisite = { focus = ARM_Ground_force }
+		x = 13
+		y = 5
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 47000
+			add_war_support = 0.05
+		}	
+	}
+
+	focus = {
+		id = ARM_air_force
+		icon = GFX_ARM_air_force
+		prerequisite = { focus = ARM_nintheen_days_preparations }
+		x = 19
+		y = 4
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    air_experience = 100
+		}	
+	}
+
+	focus = {
+		id = ARM_Soviet_Jets
+		icon = GFX_ARM_Soviet_jets
+		prerequisite = { focus = ARM_air_force }
+		x = 21
+		y = 5
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = ARM_steal_Azer_jets
+		icon = GFX_ARM_nintheen_days_deadblock
+		prerequisite = { focus = ARM_air_force }
+		x = 19
+		y = 5
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+    focus = {
+		id = ARM_Recruit_the_pilots
+		icon = GFX_ARM_Recruit_pilots
+		prerequisite = { focus = ARM_air_force }
+		x = 17
+		y = 5
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_manpower = 250
+			add_war_support = 0.05
+			air_experience = 25
+		}	
+	}
+
+	focus = {
+		id = ARM_War_is_in_here
+		icon = GFX_ARM_War_is_in_here
+		prerequisite = { focus = ARM_Recruit_the_pilots }
+		prerequisite = { focus = ARM_steal_Azer_jets }
+		prerequisite = { focus = ARM_Soviet_Jets }
+		prerequisite = { focus = ARM_Rally_paramilitaries }
+        prerequisite = { focus = ARM_calls_for_Armenians_in_karabakh }
+		prerequisite = { focus = ARM_search_for_old_guns }
+		x = 15
+		y = 7
+		
+		cost = 2
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+}	

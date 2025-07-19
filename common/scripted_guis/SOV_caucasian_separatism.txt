@@ -1,0 +1,22 @@
+scripted_gui = {
+
+    SOV_caucasian_separatism = {
+       context_type = decision_category
+	   window_name = "SOV_caucasian_separatism"
+ 
+        visible = {
+            tag = RAS
+        }
+ 
+		effects = {
+		}
+
+        triggers = {
+
+        }
+		
+		properties = {
+			
+		}
+    }
+}

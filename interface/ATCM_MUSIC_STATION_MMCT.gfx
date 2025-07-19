@@ -1,0 +1,17 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_radio_station_cover_ATCM_MUSIC_MMCT"
+		textureFile = "gfx/ATCM_MUSIC_MMCT.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_radio_station_cover_Russian_Music_MMCT"
+		textureFile = "gfx/Russian_Music_MMCT.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_radio_station_cover_Chechen_Music_MMCT"
+		textureFile = "gfx/Chechen_Music_MMCT.dds"
+		noOfFrames = 2
+	}
+}

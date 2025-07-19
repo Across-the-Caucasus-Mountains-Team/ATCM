@@ -1,0 +1,100 @@
+characters={
+	CHE_Dzhokhar_Dudaev={ #Independence Leader
+		name="Dzhokhar Dudaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHE/portrait_che_dzhokhora_dudayev.png"
+			}
+		}
+		country_leader={
+			ideology= all_national_congress_of_the_chechen_people
+			traits={ Military_aviator }
+			expire="1996.4.21.1"
+			id=-1
+		}
+	}
+	
+	CHE_Duko_Zavgayev={ #Communist leader
+		name="Doku Zavgayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHE/portrait_che_duko_zavgayev.png"
+			}
+		}
+		country_leader={
+			ideology= chechen_communist_party
+			traits={ Military_aviator }
+			expire="2040.4.21.1"
+			id=-1
+		}
+	}
+	
+	CHE_Shamil_Basayev = {
+		name = "Shamil Basayev"
+		portraits = {
+			army = {
+			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 1201
+		}
+	}
+	
+	CHE_Ruslan_Gelayev = {
+		name = "Ruslan Gelayev"
+		portraits = {
+			army = {
+			    large="gfx/leaders/CHE/portrait_CHE_Ruslan_Gelayev.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 1200
+		}
+	}
+
+	CHE_Abalaev_Khadzhievich = {
+		name = "Abalaev Khadzhievich"
+		portraits = {
+			army = {
+			    large="gfx/leaders/CHE/portrait_CHE_Abalaev_Khadzhievich.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 1202
+		}
+	}
+
+	CHE_Zelimkhan_Yandarbiev={ #Leader after Dydayev's dead
+		name="Zelimkhan Yandarbiev"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHE/portrait_CHE_Zelimkhan_Yandarbiev.png"
+			}
+		}
+		country_leader={
+			ideology= all_national_congress_of_the_chechen_people
+			traits={ }
+			expire="1996.4.21.1"
+			id=-1
+		}
+	}
+}	

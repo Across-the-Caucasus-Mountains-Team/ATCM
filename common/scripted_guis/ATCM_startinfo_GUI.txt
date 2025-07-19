@@ -1,0 +1,144 @@
+scripted_gui = {
+	
+	Start_gui = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "Start_gui"
+		dirty = show_startgui
+
+		visible = {
+			has_country_flag = StartguiOpen
+		    NOT = {
+                check_variable = {
+                    var = show_startgui
+                    value = 1
+                    compare = greater_than_or_equals
+                }
+				has_country_flag = open_country_info
+				has_country_flag = open_information_mod
+			}
+		}
+		
+		effects = {
+			close_startgui_button_click = {
+				set_variable = {
+                    var = show_startgui
+                    value = 1
+                }
+		    }
+
+			play_startgui_button_click = {
+				set_variable = {
+                    var = show_startgui
+                    value = 1
+                }
+		    }
+
+			startgui_infocountry_button_click = {
+				set_country_flag = open_country_info
+		    }
+
+			startgui_modinfo_button_click = {
+				set_country_flag = open_information_mod
+			}
+		}
+		
+		dynamic_lists = {
+
+		}
+		
+		properties = {
+
+		}
+	}
+
+	Start_gui_country_info = {
+		context_type = player_context
+		parent_window_token = Start_gui
+		window_name = "Start_gui_country_info"
+		parent_window_name = Start_gui
+		dirty = show_startgui
+
+		visible = {
+		    NOT = {
+                check_variable = {
+                    var = show_startgui
+                    value = 1
+                    compare = greater_than_or_equals
+                }
+				has_country_flag = open_information_mod
+			}
+            has_country_flag = open_country_info
+		}
+		
+		effects = {
+			close_startgui_button_click = {
+				set_variable = {
+                    var = show_startgui
+                    value = 1
+                }
+		    }
+
+			startgui_modinfo_button_click = {
+				set_country_flag = open_information_mod
+				clr_country_flag = open_country_info
+			}
+		}
+		
+		dynamic_lists = {
+
+		}
+		
+		properties = {
+            startgui_country_background = {
+				image = "[get_background_startgui]"
+			}
+			startgui_country_leader = {
+				image = "[get_country_leader_startgui]"
+			}
+		}
+	}
+
+	Start_gui_mod_info = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "Start_gui_mod_info"
+		parent_window_name = Start_gui
+		dirty = show_startgui
+
+		visible = {
+		    NOT = {
+                check_variable = {
+                    var = show_startgui
+                    value = 1
+                    compare = greater_than_or_equals
+                }
+			}
+            has_country_flag = open_information_mod
+		}
+		
+		effects = {
+			
+			close_startgui_button_click = {
+				set_variable = {
+                    var = show_startgui
+                    value = 1
+                }
+		    }
+
+			startgui_infocountry_button_click = {
+				set_country_flag = open_country_info
+				clr_country_flag = open_information_mod
+			}
+		}
+		
+		dynamic_lists = {
+
+		}
+		
+		properties = {
+
+		}
+	}
+	
+}

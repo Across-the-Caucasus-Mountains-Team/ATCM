@@ -1,0 +1,26 @@
+state={
+	id=125
+	name="STATE_128"
+	provinces={
+		449 1865 2432 2911 4127 4266 6356 6613 6995 8617 10883 
+	}
+	
+	resources = {
+	    Tungsten = 36
+		Chromium = 20
+	}	
+	
+	history={
+	    owner = CHE
+		add_core_of = CHE
+		victory_points = { 8617 3 }
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}	
+	manpower=5483
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

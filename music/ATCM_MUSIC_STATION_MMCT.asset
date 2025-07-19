@@ -1,0 +1,34 @@
+music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+}
+
+music = {
+	name = "Abkhazetis_mitsaze"
+	file = "Abkhazetis_mitsaze.ogg"
+}
+
+music = {
+	name = "Pocledni_geroi"
+	file = "Pocledni_geroi.ogg"
+}
+
+music = {
+	name = "Our_Fatherland"
+	file = "Our_Fatherland.ogg"
+}
+
+music = {
+	name = "Zartir_lao"
+	file = "Zartir_lao.ogg"
+}
+
+music = {
+	name = "Dideba"
+	file = "Dideba.ogg"
+}
+
+music = {
+	name = "Gandagana"
+	file = "Gandagana.ogg"
+}

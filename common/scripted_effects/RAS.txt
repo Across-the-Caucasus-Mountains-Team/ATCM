@@ -1,0 +1,18 @@
+
+## Eltsin value support
+RAS_eltsin_support_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_eltsin_support_value
+		min = 0
+		max = 100
+	}
+}
+
+## Negotiation process First Chechen War (fcw is First Chechen War)
+RAS_negotiation_process_fcw_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_negotiation_process_fcw_value
+		min = 0
+		max = 100
+	}
+}

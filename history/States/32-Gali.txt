@@ -1,0 +1,27 @@
+state={
+	id=31
+	name="STATE_32"
+	provinces={
+		678 1213 2786 3100 3256 3267 3502 3537 3815 3914 4191 4748 4914 4942 4990 5902 6736 6836 7015 7096 7327 7351 7914 8106 8190 8510 8925 9359 9513 10855 10865 10873 10875 10876 10878 10882 10887 10891 10895 10896 10898 10900 10901 10904 10912 10923 10931 10945 10961 10981 
+	}
+	
+	resources = {
+	    Tungsten = 10
+		Chromium = 10
+	}
+	
+	history={
+	owner = SAK
+	add_core_of = SAK
+	victory_points = { 3914 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+	manpower=46285
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

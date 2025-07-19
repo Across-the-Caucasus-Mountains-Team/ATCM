@@ -1,0 +1,57 @@
+capital = 88
+
+set_research_slots = 3
+
+set_cosmetic_tag = SOV_ARM
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1990.5.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberalism = 63
+	communism = 7
+	nationalism = 20
+	conservatism = 10
+}
+
+add_ideas = {
+	ARM_memories_of_Spitak_earthquake
+	ARM_The_Armenian_National_movement
+}	
+
+recruit_character = ARM_levon_ter_Petrosyan
+
+1996.1.1 = {
+	drop_cosmetic_tag = yes
+
+	set_autonomy = {
+		target = ARS
+		autonomous_state = autonomy_collaboration_government
+		freedom_level = 0.15
+	}
+}

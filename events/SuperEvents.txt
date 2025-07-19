@@ -1,0 +1,117 @@
+################
+# SUPER EVENTS #
+################
+
+add_namespace = superevent
+#August Coup
+country_event = {
+	id = superevent.1
+	title = superevent.1.t
+	desc = superevent.1.d
+	#picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+	}
+
+	option = {
+		name = superevent.1.a
+		
+        set_global_flag = SOV_august_coup_supervent_flag
+		set_global_flag = Visbile_sp_events
+		play_song = "SummerWillEnd"
+	}
+}
+
+#End of the USSR
+country_event = {
+	id = superevent.2
+	title = superevent.2.t
+	desc = superevent.2.d
+	#picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+	}
+
+	option = {
+		name = superevent.2.a
+		
+        set_global_flag = SOV_end_of_ussr_supervent_flag
+		set_global_flag = Visbile_sp_events
+		play_song = "Pocledni_geroi"
+	}
+}
+
+#Black october
+country_event = {
+	id = superevent.3
+	title = superevent.3.t
+	desc = superevent.3.d
+	#picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+	}
+
+	option = {
+		name = superevent.3.a
+		
+        set_global_flag = RAS_black_october_supervent_flag
+		set_global_flag = Visbile_sp_events
+		play_song = "maintheme"
+	}
+}
+
+#First Chechen War
+country_event = {
+	id = superevent.4
+	title = superevent.4.t
+	desc = superevent.4.d
+	#picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+	}
+
+	option = {
+		name = superevent.4.a
+		
+        set_global_flag = RAS_First_Chechen_War_supervent_flag
+		set_global_flag = Visbile_sp_events
+		if = {
+			limit = {
+				NOT = {
+					tag = CHE
+				}
+			}
+		    play_song = "HelloMyDearBaby"			
+		}
+		if = {
+			limit = {
+				tag = CHE
+			}
+		    play_song = "The_Death_of_Russia"			
+		}
+	}
+}

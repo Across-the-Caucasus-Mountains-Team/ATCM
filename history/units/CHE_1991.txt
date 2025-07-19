@@ -1,0 +1,236 @@
+division_template = {
+	name = "Pekhotniy-batalyon"
+
+	division_names_group = CHE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Tankoviy-batalyon"
+
+	division_names_group = CHE_Arm_01
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gornostrelkoviy-batalyon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorizebuli-danakofi"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_Mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10609
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10609
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10609
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10581
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 8281
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6744
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7335
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 6828
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 6828
+		division_template = "Pekhotniy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2964
+		division_template = "Gornostrelkoviy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 2964
+		division_template = "Gornostrelkoviy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 8617
+		division_template = "Gornostrelkoviy-batalyon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5606
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 5606
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 5606
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 5606
+		division_template = "Motorizebuli-danakofi"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9308
+		division_template = "Tankoviy-batalyon"
+		start_experience_factor = 0.5
+	}
+}	

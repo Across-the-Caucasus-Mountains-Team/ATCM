@@ -1,0 +1,50 @@
+
+add_namespace = Azerbaijan
+
+#independence
+country_event = {
+	id = Azerbaijan.1
+	title = Azerbaijan.1.t
+	desc = Azerbaijan.1.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = Azerbaijan.1.a
+		drop_cosmetic_tag = yes
+		set_politics = { 
+			ruling_party = authoritarianism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = authoritarianism
+			popularity = 0.65
+		}
+		RAS = {
+			set_autonomy = {
+				target = AZR
+				autonomous_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+		}	
+	}
+}
+
+#Armenia Wants referendum in Karabakh
+country_event = {
+	id = Azerbaijan.2
+	title = Azerbaijan.2.t
+	desc = Azerbaijan.2.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = Azerbaijan.2.a
+		ARM = {
+			country_event = { id = armenia.2 }
+		}
+	}
+}

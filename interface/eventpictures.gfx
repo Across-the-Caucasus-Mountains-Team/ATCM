@@ -1,0 +1,407 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_Report_event_SOV_january_events"
+		texturefile = "gfx/event_pictures/Report_event_SOV_january_events.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_clashes_in_tbilisi"
+		texturefile = "gfx/event_pictures/Report_event_SAK_clashes_in_tbilisi.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_reorganized_army"
+		texturefile = "gfx/event_pictures/Report_event_SAK_reorganized_army.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Protest"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Protest.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_NG_supports_Protest"
+		texturefile = "gfx/event_pictures/Report_event_SAK_NG_supports_Protest.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Black_october"
+		texturefile = "gfx/event_pictures/news_event_Black_october.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_Barricades"
+		texturefile = "gfx/event_pictures/Report_event_Barricades.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_police_cordon"
+		texturefile = "gfx/event_pictures/Report_event_police_cordon.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_shooting_at_parliament"
+		texturefile = "gfx/event_pictures/Report_event_RAS_shooting_at_parliament.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_congress"
+		texturefile = "gfx/event_pictures/Report_event_congress.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_mass_protest"
+		texturefile = "gfx/event_pictures/Report_event_mass_protest.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_first_clashes"
+		texturefile = "gfx/event_pictures/Report_event_first_clashes.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_chechen_first_war"
+		texturefile = "gfx/event_pictures/news_event_chechen_first_war.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_CHE_Funeral_of_Zviad"
+		texturefile = "gfx/event_pictures/Report_event_CHE_Funeral_of_Zviad.png"
+	}
+	
+	spriteType = {
+		name = "GFX_RReport_event_CHE_Gamsakhurdia_in_chechnya"
+		texturefile = "gfx/event_pictures/Report_event_CHE_Gamsakhurdia_in_chechnya.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_CHE_battle_is_in_here"
+		texturefile = "gfx/event_pictures/Report_event_CHE_battle_is_in_here.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_CHE_manpower_shortage"
+		texturefile = "gfx/event_pictures/Report_event_CHE_manpower_shortage.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_CHE_INDEPENDENCE"
+		texturefile = "gfx/event_pictures/Report_event_CHE_INDEPENDENCE.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SOV_Referendum"
+		texturefile = "gfx/event_pictures/Report_event_SOV_Referendum.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Aftermath_of_Coup"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Aftermath_of_Coup.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Zviadists_Uprised"
+		texturefile = "gfx/event_pictures/news_event_Zviadists_Uprised.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GAF_in_Samchablo_again"
+		texturefile = "gfx/event_pictures/news_event_GAF_in_Samchablo_again.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Peace_in_samachablo"
+		texturefile = "gfx/event_pictures/news_event_Peace_in_samachablo.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_august_coup"
+		texturefile = "gfx/event_pictures/news_event_august_coup.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Disolution_of_the_ussr"
+		texturefile = "gfx/event_pictures/news_event_Disolution_of_the_ussr.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Ossetia_war"
+		texturefile = "gfx/event_pictures/news_event_Ossetia_war.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_Day_Four"
+		texturefile = "gfx/event_pictures/Report_event_RAS_Day_Four.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_fire_near_white_house"
+		texturefile = "gfx/event_pictures/Report_event_RAS_fire_near_white_house.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_Tensions"
+		texturefile = "gfx/event_pictures/Report_event_RAS_Tensions.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_Defection"
+		texturefile = "gfx/event_pictures/Report_event_RAS_Defection.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_Poll"
+		texturefile = "gfx/event_pictures/Report_event_RAS_Poll.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_Rallies"
+		texturefile = "gfx/event_pictures/Report_event_RAS_Rallies.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_Disobeience"
+		texturefile = "gfx/event_pictures/Report_event_RAS_Disobeience.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_RAS_House_Arrest"
+		texturefile = "gfx/event_pictures/Report_event_RAS_House_Arrest.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Shevardnadze"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Shevardnadze.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Roki_Tunnel"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Roki_Tunnel.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_War"
+		texturefile = "gfx/event_pictures/Report_event_SAK_War.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Karkarashvili"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Karkarashvili.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Abkhazia_declared_independence"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Abkhazia_declared_independence.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Tengiz_kitovani"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Tengiz_kitovani.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_UN"
+		texturefile = "gfx/event_pictures/Report_event_UN.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Georgia_Protest"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Georgia_Protest.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Chechnya_Independence"
+		texturefile = "gfx/event_pictures/news_event_Chechnya_Independence.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Ingushetia"
+		texturefile = "gfx/event_pictures/news_event_Ingushetia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Georgia_abkhazia_war"
+		texturefile = "gfx/event_pictures/news_event_Georgia_abkhazia_war.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Abkhazia_declared_independence"
+		texturefile = "gfx/event_pictures/news_event_Abkhazia_declared_independence.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Azerbaijan_is_independent"
+		texturefile = "gfx/event_pictures/news_event_Azerbaijan_is_independent.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GEORGIA"
+		texturefile = "gfx/event_pictures/news_event_GEORGIA.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_over"
+		texturefile = "gfx/event_pictures/Report_event_SAK_over.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_first_attack"
+		texturefile = "gfx/event_pictures/Report_event_SAK_first_attack.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_post_in_south_ossetia"
+		texturefile = "gfx/event_pictures/Report_event_SAK_post_in_south_ossetia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Zviadists_protest"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Zviadists_protest.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_jaba"
+		texturefile = "gfx/event_pictures/Report_event_SAK_jaba.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_fire_in_art_museum"
+		texturefile = "gfx/event_pictures/Report_event_SAK_fire_in_art_museum.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_sigua"
+		texturefile = "gfx/event_pictures/Report_event_SAK_sigua.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_hotel"
+		texturefile = "gfx/event_pictures/Report_event_SAK_hotel.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_opposition_in_parliament"
+		texturefile = "gfx/event_pictures/Report_event_SAK_opposition_in_parliament.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Armenia_is_independent"
+		texturefile = "gfx/event_pictures/news_event_Armenia_is_independent.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_ARM_INDEPENDENCE"
+		texturefile = "gfx/event_pictures/Report_event_ARM_INDEPENDENCE.png"
+	}
+
+    spriteType = {
+		name = "GFX_Report_event_SOV_Coup"
+		texturefile = "gfx/event_pictures/Report_event_SOV_Coup.png"
+	}
+
+    spriteType = {
+		name = "GFX_Report_event_SOV_seventheen_years_of_the_union"
+		texturefile = "gfx/event_pictures/Report_event_SOV_seventheen_years_of_the_union.png"
+	}
+
+    spriteType = {
+		name = "GFX_Report_event_SOV_rip_ussr"
+		texturefile = "gfx/event_pictures/Report_event_SOV_rip_ussr.png"
+	}
+
+    spriteType = {
+		name = "GFX_Report_event_SAK_Parliament_Shootout"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Parliament_Shootout.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Jaba_ioseliani_arrest"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Jaba_ioseliani_arrest.png"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Opposition_won_coup"
+		texturefile = "gfx/event_pictures/news_event_Opposition_won_coup.png"
+	}
+
+    spriteType = {
+		name = "GFX_news_event_Georgia_State_Emergency"
+		texturefile = "gfx/event_pictures/news_event_Georgia_State_Emergency.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_liquidation_of_dudayev"
+		texturefile = "gfx/event_pictures/news_event_liquidation_of_dudayev.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Adjara_Question"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Adjara_Question.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Zviad_Speech"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Zviad_Speech.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Constitution"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Constitution.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Clashses_in_ossetia"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Clashses_in_ossetia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_abkhazia"
+		texturefile = "gfx/event_pictures/Report_event_SAK_abkhazia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_INDEPENDENCE"
+		texturefile = "gfx/event_pictures/Report_event_SAK_INDEPENDENCE.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_ossetia"
+		texturefile = "gfx/event_pictures/Report_event_SAK_ossetia.png"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Flag"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_April_tragedy"
+		texturefile = "gfx/event_pictures/Report_event_SAK_April_tragedy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Report_event_SAK_Church"
+		texturefile = "gfx/event_pictures/Report_event_SAK_Church.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Georgia_independence"
+		texturefile = "gfx/event_pictures/news_event_Georgia_independence.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_RAS_failed_blitz"
+		texturefile = "gfx/event_pictures/Report_event_RAS_failed_blitz.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_dudayev_is_dead"
+		texturefile = "gfx/event_pictures/Report_event_CHE_dudayev_is_dead.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_RAS_fsb_report"
+		texturefile = "gfx/event_pictures/Report_event_RAS_fsb_report.png"
+	}
+}	

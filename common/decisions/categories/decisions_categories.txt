@@ -1,0 +1,75 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+#####################################################################################################################
+
+SAK_fight_back_zviadists_category = {
+	priority = 9
+	icon = GFX_decision_cat_SAK_emergency
+	
+	allowed = {
+		tag = SAK
+	}
+	visible = {	
+	    tag = SAK
+		has_completed_focus = SAK_Fight_back_Zviadists_Resistance
+	}
+}
+
+SAK_State_emergency_category = {
+	priority = 10
+	icon = GFX_decision_cat_SAK_emergency
+	
+	allowed = {
+		tag = SAK
+	}
+	visible = {	
+	    tag = SAK
+		has_completed_focus = SAK_Our_eyes_In_Tbilisi
+		NOT = { has_completed_focus = SAK_Aftermath_of_Coup }
+	}
+}
+
+SAK_Preparations_for_Abkhazia_war_category = {
+	priority = 15
+	icon = GFX_decision_cat_SAK_War_preparation
+	
+	allowed = {
+		tag = SAK
+	}
+	visible = {	
+	    tag = SAK
+		has_country_flag = Preparation_for_war
+		NOT = { has_country_flag = war_in_abkhazia }
+	}
+}
+
+ARM_Recruitment_category = {		#ID of category
+	priority = 10		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+	icon = GFX_decision_cat_SAK_tbilisi_war	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+	
+	allowed = {
+		tag = ARM
+	}
+	visible = {	
+	    tag = ARM
+	}
+	
+	visible_when_empty = yes
+	
+	on_map_area = {		#Determiens the states the map will zoom to when the magnifying glass icon is clicked.
+		state = 96
+		state = 94
+		state = 72
+		state = 90
+		state = 89
+		state = 73
+		state = 56
+		state = 57
+		state = 60
+		state = 71
+		state = 85
+		name = map_icon_strip_localisation		#A localisation entry for the magnifying glass strip, defined in a localisation file.
+		zoom = 150		#Determines how closely the camera will zoom to the state, the lower the number the closer it will zoom in.
+	}
+}

@@ -1,0 +1,57 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_Startgui_background"
+		texturefile = "gfx/interface/startgui/Startgui_background.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_country_background"
+		texturefile = "gfx/interface/startgui/Startgui_country_background.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_btn"
+		texturefile = "gfx/interface/startgui/Startgui_Button.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_close_btn"
+		texturefile = "gfx/interface/startgui/close_Button.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_CHE_background"
+		texturefile = "gfx/interface/startgui/Startgui_CHE_background.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_SAK_background"
+		texturefile = "gfx/interface/startgui/Startgui_SAK_background.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_developers_background"
+		texturefile = "gfx/interface/startgui/Startgui_developers_background.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_SOV_background"
+		texturefile = "gfx/interface/startgui/Startgui_SOV_background.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_Mikhail_Gorbachev"
+		texturefile = "gfx/interface/startgui/portrait_rus_mikheil_gorbachev.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_Zviad_Gamsakhurdia"
+		texturefile = "gfx/interface/startgui/portrait_sak_Zviad_Gamsakhurdia.png"
+	}
+
+	spriteType = { 
+		name = "GFX_Startgui_Duko_Zavgayev"
+		texturefile = "gfx/interface/startgui/portrait_che_duko_zavgayev.png"
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=12
+	name="STATE_13"
+	provinces={
+		1003 9261
+	}
+	victory_points = { 9261 3 }
+	history={
+	owner = RAS
+	add_core_of = RAS
+	    buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+    manpower=2576531
+    state_category = large_city
+}
+

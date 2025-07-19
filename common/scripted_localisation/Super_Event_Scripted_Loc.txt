@@ -1,0 +1,88 @@
+#Titles
+defined_text = {
+    name = get_super_event_title
+	
+    text = {
+        trigger = {
+            has_global_flag = SOV_august_coup_supervent_flag
+        }
+        localization_key = "sp_event_SOV_August_Coup_title"
+    }
+     text = { 
+		trigger = {
+			has_global_flag = SOV_end_of_ussr_supervent_flag
+		}
+		localization_key = "sp_event_SOV_End_Of_The_Ussr_title"
+	}
+    text = { 
+		trigger = {
+			has_global_flag = RAS_black_october_supervent_flag
+		}
+		localization_key = "sp_event_RAS_Black_October_title"
+	} 
+    text = { 
+		trigger = {
+			has_global_flag = RAS_First_Chechen_War_supervent_flag
+		}
+		localization_key = "sp_event_RAS_First_Chechen_War_title"
+	} 
+}
+
+#Quotes
+defined_text = {
+    name = get_super_event_quote
+
+	text = { 
+		trigger = {
+			has_global_flag = SOV_august_coup_supervent_flag
+		}
+		localization_key = "sp_event_SOV_August_Coup_quote"
+	}
+    text = { 
+		trigger = {
+			has_global_flag = SOV_end_of_ussr_supervent_flag
+		}
+		localization_key = "sp_event_SOV_End_Of_The_Ussr_quote"
+	}
+    text = { 
+		trigger = {
+			has_global_flag = RAS_black_october_supervent_flag
+		}
+		localization_key = "sp_event_RAS_Black_October_quote"
+	}
+    text = { 
+		trigger = {
+			has_global_flag = RAS_First_Chechen_War_supervent_flag
+		}
+		localization_key = "sp_event_RAS_First_Chechen_War_quote"
+	}
+}
+
+#Remarks
+defined_text = {
+    name = get_super_event_remark
+	text = { 
+		trigger = {
+			has_global_flag = SOV_august_coup_supervent_flag
+		}
+		localization_key = "sp_event_SOV_August_Coup_remark"
+	}
+    text = { 
+		trigger = {
+			has_global_flag = SOV_end_of_ussr_supervent_flag
+		}
+		localization_key = "sp_event_SOV_End_Of_The_Ussr_remark"
+	}
+    text = { 
+		trigger = {
+			has_global_flag = RAS_black_october_supervent_flag
+		}
+		localization_key = "sp_event_RAS_Black_October_remark"
+	}
+    text = { 
+		trigger = {
+			has_global_flag = RAS_First_Chechen_War_supervent_flag
+		}
+		localization_key = "sp_event_RAS_First_Chechen_War_remark"
+	} 
+}

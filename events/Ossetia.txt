@@ -1,0 +1,17 @@
+add_namespace = ossetia
+
+#Georgia is asking for Peace
+country_event = {
+	id = ossetia.1
+	title = ossetia.1.t
+	desc = ossetia.1.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = ossetia.1.a
+		white_peace = SAK
+		news_event = { id = news.16 }
+	}
+}

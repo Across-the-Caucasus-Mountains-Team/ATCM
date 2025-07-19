@@ -1,0 +1,602 @@
+focus_tree = {
+	id = Armenia_Focus_Tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 30
+			tag = ARM
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 6000 y = 500 }
+	
+	focus = {
+		id = ARM_Strengthen_our_national_identity
+		icon = GFX_ARM_Strengthen_our_identity
+		x = 10
+		y = 0
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 150
+			add_war_support = 0.15
+		}	
+	}
+
+	focus = {
+		id = ARM_Fan_The_Flames
+		icon = GFX_ARM_Fan_the_flames
+		x = 10
+		y = 2
+		prerequisite = { focus = ARM_Strengthen_our_national_identity }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+            add_ideas = ARM_Angry_People
+		}	
+	}
+
+	focus = {
+		id = ARM_Reach_out_to_the_media
+		icon = GFX_ARM_Reach_out_to_the_Media
+		x = 8
+		y = 3
+		prerequisite = { focus = ARM_Fan_The_Flames }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = -25
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = ARM_Gain_International_Support
+		icon = GFX_ARM_International
+		x = 10
+		y = 4
+		prerequisite = { focus = ARM_Fan_The_Flames }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.01
+		}	
+	}
+
+	focus = {
+		id = ARM_Armenia_first
+		icon = GFX_ARM_Armenia_First
+		x = 10
+		y = 8
+		prerequisite = { focus = ARM_Discredit_The_USSR }
+		
+		cost = 17
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.80
+			}
+			country_event = { id = armenia.1 }
+			news_event = { id = news.4 }
+		}	
+	}
+
+	focus = {
+		id = ARM_Discredit_The_USSR
+		icon = GFX_ARM_Armenia_First
+		x = 10
+		y = 6
+		prerequisite = { focus = ARM_Gain_International_Support }
+		prerequisite = { focus = ARM_Promote_Pro_Armenian_Propaganda }
+		prerequisite = { focus = ARM_Rally_the_people }
+		
+		cost = 17
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = -150
+			add_popularity = {
+				ideology = communism
+				popularity = -0.10
+			}
+		}	
+	}
+
+	focus = {
+		id = ARM_Nagarno_karabakh_problem
+		icon = GFX_ARM_Nagarno_Karabakh_problem
+		x = 20
+		y = 0
+		
+		cost = 17
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+            has_completed_focus = ARM_Armenia_first
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 50
+		}	
+	}
+
+	focus = {
+		id = ARM_Set_up_defence
+		icon = GFX_ARM_Defencive_Line
+		x = 18
+		y = 1
+		prerequisite = { focus = ARM_Nagarno_karabakh_problem }
+		
+		cost = 17
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 50
+		}	
+	}
+
+	focus = {
+		id = ARM_Recruitment_effort
+		icon = GFX_ARM_Recruitment_Effort
+		x = 18
+		y = 4
+		prerequisite = { focus = ARM_Set_up_defence }
+		
+		cost = 17
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 50
+		}	
+	}
+
+	focus = {
+		id = ARM_Prepare_for_the_inevitable
+		icon = GFX_ARM_prepare_for_inavitable
+		x = 20
+		y = 5
+		prerequisite = { focus = ARM_Recruitment_effort }
+		prerequisite = { focus = ARM_Develop_for_the_War }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+            has_completed_focus = ARM_Armenia_first
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 50
+			custom_effect_tooltip = 1_ARM_tt
+			hidden_effect = {
+			    load_focus_tree = Independent_Armenia_focus_tree
+			}
+		}	
+	}
+
+	focus = {
+		id = ARM_Appeal_to_the_world_Stage
+		icon = GFX_ARM_International
+		x = 22
+		y = 1
+		prerequisite = { focus = ARM_Nagarno_karabakh_problem }
+		
+		cost = 17
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 50
+		}	
+	}
+
+	focus = {
+		id = ARM_Develop_for_the_War
+		icon = GFX_ARM_Develop_to_war
+		x = 22
+		y = 4
+		prerequisite = { focus = ARM_Appeal_to_the_world_Stage }
+		
+		cost = 17
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_command_power = 25
+			army_experience = 50
+		}	
+	}
+
+	focus = {
+		id = ARM_Promote_Pro_Armenian_Propaganda
+		icon = GFX_Goal_Unknown
+		x = 6
+		y = 4
+		prerequisite = { focus = ARM_Reach_out_to_the_media }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = ARM_Pro_Armenian_Propaganda
+				days = 30
+			}	
+		}	
+	}
+
+	focus = {
+		id = ARM_Industrialize_Gegharkunik
+		icon = GFX_Goal_Unknown
+		x = 4
+		y = 6
+		prerequisite = { focus = ARM_Promote_Pro_Armenian_Propaganda }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = ARM_Pro_Armenian_Propaganda
+				days = 30
+			}	
+		}	
+	}
+
+	focus = {
+		id = ARM_Begin_the_hunger_strike
+		icon = GFX_ARM_Start_Hunger_strikes
+		x = 12
+		y = 3
+		prerequisite = { focus = ARM_Fan_The_Flames }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = -75
+			add_war_support = 0.05
+			add_timed_idea = {
+			idea = ARM_Hunger_Strikes_idea
+			days = 30
+			}
+		}	
+	}
+
+	focus = {
+		id = ARM_Rally_the_people
+		icon = GFX_ARM_Rally_The_People
+		x = 14
+		y = 4
+		prerequisite = { focus = ARM_Begin_the_hunger_strike }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_popularity = {
+				ideology = Communism
+				popularity = -0.15
+			}
+		}	
+	}
+
+	focus = {
+		id = ARM_Sieze_Soviet_Guns
+		icon = GFX_ARM_Rally_The_People
+		x = 15
+		y = 6
+		prerequisite = { focus = ARM_Rally_the_people }
+		
+		cost = 16
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_war_support = 0.1
+			add_popularity = {
+				ideology = Communism
+				popularity = -0.01
+			}
+		}	
+	}
+}	

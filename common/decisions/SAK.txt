@@ -1,0 +1,330 @@
+SAK_State_emergency_category = {
+	
+	SAK_raid_opposition_hq_decision = {
+
+		icon = GFX_decision_generic_soldier
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = SAK
+			has_completed_focus = SAK_Raid_their_offices
+		}
+	    
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 25	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_stability = -0.05
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = authoritarianism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = populism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.05
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	SAK_censore_the_press = {
+
+		icon = GFX_decision_generic_censored
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+            tag = SAK
+		}
+		
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 25	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	SAK_rally_the_people = {
+
+		icon = GFX_decision_SAK_mobilize_people
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+            tag = SAK
+		}
+		
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 25	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_stability = -0.05
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.05
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	SAK_discredit_the_opposition = {
+
+		icon = GFX_decision_SAK_discredit_opposition
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+            tag = SAK
+		}
+		
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 25	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	SAK_Arrest_Jaba_Ioseliani = {
+
+		icon = GFX_decision_SAK_arrest_Jaba
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+            tag = SAK
+			has_completed_focus = Sak_Arrest_bandits
+		}
+		
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+}
+
+SAK_Preparations_for_Abkhazia_war_category = {
+	
+	SAK_Call_Mkhedrioni = {
+
+		icon = GFX_decision_SAK_Mkhedrioni
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = SAK
+		}
+	    
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = yes
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_war_support = -0.05
+			load_oob = 
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	SAK_Karkarashvilis_Speech = {
+
+		icon = GFX_decision_generic_soldier
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = SAK
+		}
+	    
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = yes
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			country_event = { id = Georgia.37 }
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+	
+	SAK_Mobilize_socity = {
+
+		icon = GFX_decision_generic_soldier
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    tag = SAK
+		}
+	    
+		visible = {
+			tag = SAK
+		}
+		
+		fire_only_once = yes
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_manpower = 20000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10		
+		}
+	}
+}	
+
+operations = {
+    
+	SAK_Take_tskhinvali_decision = {
+
+		icon = GFX_decision_generic_soldier
+		is_good = no
+		selectable_mission = no
+		fire_only_once = yes
+		days_mission_timeout = 25
+        
+		#Fail trigger
+		available = {
+			OST = { 
+				NOT = {
+					controls_province = 545
+				}
+			}
+		}
+
+		activation = {
+			always = no
+		}
+
+		complete_effect = {
+			country_event = Georgia.52
+		}
+
+		timeout_effect = {
+			country_event = Georgia.51
+			white_peace = OST
+			if = {
+                limit = {
+                    SAK = {
+                        controls_state = 36
+                    }
+                }
+                36 = { transfer_state_to = SAK}
+            }
+	    }
+	}
+}	
+	

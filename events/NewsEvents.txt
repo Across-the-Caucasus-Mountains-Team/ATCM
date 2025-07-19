@@ -1,0 +1,489 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# Georgia independence
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_Georgia_independence
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = SAK
+				TAG = RUS
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = SAK }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = RUS }
+	}
+}
+
+# Georgia State of Emergency
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_Georgia_State_Emergency
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = SAK
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = SAK }
+	}
+}
+
+#Opposition won the coup in Georgia
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_Opposition_won_coup
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			NOT = {
+				TAG = SAK
+			}
+		}
+	}
+	option = {
+		name = news.3.b
+		trigger = { TAG = SAK }
+	}
+}
+
+#Armenia is independent
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_Armenia_is_independent
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				TAG = ARM
+				TAG = SAK
+			}
+		}
+	}
+	
+	option = {
+		name = news.4.b
+		trigger = { TAG = ARM }
+	}
+	
+	option = {
+		name = news.4.g
+		trigger = { TAG = SAK }
+	}
+}
+
+#Mod Supports Current Pro Western Protest in Georgia
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_GEORGIA
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.a
+	}
+}
+
+#Independent Azerbaijan
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_Azerbaijan_is_independent
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.a
+		trigger = {
+			NOT = {
+				TAG = AZR
+				TAG = RAS
+			}
+		}
+	}
+	
+	option = {
+		name = news.6.b
+		trigger = { TAG = AZR }
+	}
+	
+	option = {
+		name = news.6.g
+		trigger = { TAG = RAS }
+	}
+}
+
+#Abkhazia Declared Independence
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_Abkhazia_declared_independence
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.a
+		trigger = {
+			NOT = {
+				TAG = SAK
+				TAG = RAS
+				TAG = ABK
+			}
+		}
+	}	
+		
+	option = {
+		name = news.7.b
+		trigger = { TAG = SAK }
+	}
+	
+	option = {
+		name = news.7.g
+		trigger = { TAG = RAS }
+	}
+	
+	option = {
+		name = news.7.c
+		trigger = { TAG = ABK }
+	}
+}
+
+#Ingushetia Seperated From Chechnya
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_news_event_Ingushetia
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.8.a
+		trigger = {
+			NOT = {
+				TAG = CHE
+				TAG = RAS
+			}
+		}
+	}
+	
+	option = {
+		name = news.8.b
+		trigger = { TAG = CHE }
+	}
+	
+	option = {
+		name = news.8.g
+		trigger = { TAG = RAS }
+	}
+}
+
+#Georgia Abkhazia war
+news_event = {
+	id = news.9
+	title = news.9.t
+	desc = news.9.d
+	picture = GFX_news_event_Georgia_abkhazia_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.9.a
+	}
+}
+
+#Chechnya declared independence
+news_event = {
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = GFX_news_event_Chechnya_Independence
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.10.a
+		trigger = {
+			NOT = {
+				TAG = CHE
+				TAG = RAS
+			}
+		}
+	}
+	
+	option = {
+		name = news.10.b
+		trigger = { TAG = CHE }
+	}
+	
+	option = {
+		name = news.10.g
+		trigger = { TAG = RAS }
+	}
+}
+
+#Ossetians Uprising
+news_event = {
+	id = news.11
+	title = news.11.t
+	desc = news.11.d
+	picture = GFX_news_event_Ossetia_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.11.a
+	}
+}
+
+#Collapse of the Soviet union
+news_event = {
+	id = news.12
+	title = news.12.t
+	desc = news.12.d
+	picture = GFX_news_event_Disolution_of_the_ussr
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.12.a
+		trigger = {
+			NOT = {
+				TAG = RAS
+			}
+		}	
+	}
+	
+	option = {
+		name = news.12.b
+		trigger = { TAG = RAS }
+	}
+}
+
+#August Coup
+news_event = {
+	id = news.13
+	title = news.13.t
+	desc = news.13.d
+	picture = GFX_news_event_august_coup
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.13.a
+	}
+}
+
+#Georgian Armed forces Retreated from Ossetia
+news_event = {
+	id = news.14
+	title = news.14.t
+	desc = news.14.d
+	picture = GFX_news_event_august_coup
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.14.a
+	}
+}
+
+#GAF Entered in South Ossetia again
+news_event = {
+	id = news.15
+	title = news.15.t
+	desc = news.15.d
+	picture = GFX_news_event_GAF_in_Samchablo_again
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.15.a
+	}
+}
+
+#Junta Made peace with the Ossetians
+news_event = {
+	id = news.16
+	title = news.16.t
+	desc = news.16.d
+	picture = GFX_news_event_Peace_in_samachablo
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.16.a
+	}
+}
+
+#Zviadists Uprised in Georgia
+news_event = {
+	id = news.17
+	title = news.17.t
+	desc = news.17.d
+	picture = GFX_news_event_Zviadists_Uprised
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.17.a
+	}
+}
+
+#First Chechen War
+news_event = {
+	id = news.18
+	title = news.18.t
+	desc = news.18.d
+	picture = GFX_news_event_chechen_first_war
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.18.a
+	}
+}
+
+#Black october
+news_event = {
+	id = news.19
+	title = news.19.t
+	desc = news.19.d
+	picture = GFX_news_event_Black_october
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.19.a
+	}
+}
+
+#Dudayev is dead
+news_event = {
+	id = news.20
+	title = news.20.t
+	desc = news.20.d
+	picture = GFX_news_event_liquidation_of_dudayev
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.20.a
+		trigger = { TAG = RAS }
+	}
+	option = {
+		name = news.20.b
+		trigger = { TAG = CHE }
+	}
+
+	option = {
+		name = news.20.c
+		trigger = {
+		    NOT = { 
+                tag = RAS
+				tag = CHE
+		    }
+		}
+	}
+}
+
+#Peace with Chechnya
+news_event = {
+	id = news.21
+	title = news.21.t
+	desc = news.21.d
+	picture = GFX_news_event_liquidation_of_dudayev
+	
+	major = yes
+
+	immediate = {
+		clr_global_flag = FirstChechenWar
+		clr_global_flag = Fail_Blitz_First_ChechenWar
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.21.a
+	}
+}

@@ -1,0 +1,53 @@
+characters={
+	AZR_Ayaz_Mutallibov={ #Communist, independent
+		name="Ayaz Mutallibov"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/portrait_azr_Ayaz_Mutallibov.png"
+			}
+		}
+		country_leader={
+			ideology= azerbaijani_communist_party
+			traits={ }
+			expire="2022.3.27.1"
+			id=-1
+		}
+		country_leader={
+			ideology= azerbaijani_Authoritarianism
+			traits={ }
+			expire="2022.3.27.1"
+			id=-1
+		}
+	}
+
+	AZR_heydar_aliyev={ #independent
+		name="Heydar Aliyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/portrait_AZR_heydar_aliyev.png"
+			}
+		}
+		country_leader={
+			ideology= azerbaijani_Authoritarianism
+			traits={ }
+			expire="2003.12.12.1"
+			id=-1
+		}
+	}
+
+	AZR_ilham_aliyev={ #independent
+		name="Ilham Aliyev"
+		portraits={
+			civilian={
+				large="gfx/leaders/AZR/portrait_AZR_ilham_aliyev_young.png"
+			}
+		}
+		country_leader={
+			ideology= azerbaijani_Authoritarianism
+			traits={ }
+			expire="2034.12.31.1"
+			id=-1
+		}
+	}
+
+}	

@@ -1,0 +1,70 @@
+ideas = {
+
+	country = {
+	
+	    GOM_Chechen_Support = {
+			
+			allowed = {
+				original_tag = GOM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GFX_idea_GOM_Regroup
+			
+			modifier = {
+			    political_power_factor = 0.05
+				war_support_factor = 0.05
+				stability_factor = 0.05
+				weekly_manpower = 250
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		GOM_Regroup_idea = {
+			
+			allowed = {
+				original_tag = GOM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			    army_defence_factor = 0.15
+				army_attack_factor = 0.15
+				army_speed_factor = 0.2
+			}
+		}
+		
+		GOM_Attack_South_idea = {
+			
+			allowed = {
+				original_tag = GOM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknown
+			
+			targeted_modifier = {
+				tag = ADJ
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+		}
+	}
+}	

@@ -1,0 +1,112 @@
+ideas = {
+
+	country = {
+	
+	    ARM_The_Armenian_National_movement = {
+			
+			allowed = {
+				original_tag = ARM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			    political_power_gain = 1
+				Stability_Factor = 0.15
+				War_support_Factor = 0.1
+				Nationalism_drift = 0.1
+				Conservatism_drift = 0.1
+				liberalism_drift = 0.2
+			}
+		}
+
+
+        ARM_Angry_People = {
+			
+			allowed = {
+				original_tag = ARM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+				communisten_drift = -0.1
+				Stability_Factor = -0.25
+				War_Support_factor = 0.2
+			}
+		}
+		
+		ARM_Hunger_Strikes_idea = {
+			
+			allowed = {
+				original_tag = ARM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+				Stability_Factor = -0.1
+				Consumer_goods_factor = 0.3
+			}
+		}
+		
+		ARM_Pro_Armenian_Propaganda = {
+			
+			allowed = {
+				original_tag = ARM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+				Weekly_Stability_factor = 0.01
+				Weekly_War_Support_factor = 0.01
+			}
+		}
+		
+		ARM_memories_of_Spitak_earthquake = {
+			
+			allowed = {
+				original_tag = ARM
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = unknown
+			
+			modifier = {
+			    Stability_Factor = -0.05
+				communism_drift = -0.1
+			}
+		}
+	}
+}	
+		

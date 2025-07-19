@@ -1,0 +1,78 @@
+capital = 48
+
+set_research_slots = 3
+
+load_oob = SAK_1991
+
+set_country_flag = StartguiOpen
+
+set_cosmetic_tag = SOV_SAK
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	modern_tank_1 = 1
+	IFV_1 = 1
+	APC_1 = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+add_ideas = {
+	SAK_Gamsakhurdias_Speechs
+	SAK_Tbilisi_syndrome
+	SAK_Mkhedrioni
+	SAK_lack_of_fuel_and_ammo
+}	
+
+add_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
+set_variable = { SAK_wgaf_war_support_factor = -0.1 }
+set_variable = { SAK_wgaf_Conscription = -0.02 }
+set_variable = { SAK_wdaf_army_attack_factor = -0.2 }
+set_variable = { SAK_wdaf_army_defence_factor = -0.2 }
+set_variable = { SAK_wdaf_army_org_factor = -0.45 }
+set_variable = { SAK_wdaf_army_speed_factor = -0.15 }
+set_variable = { SAK_wdaf_war_stability_factor = -0.4 }
+set_variable = { SAK_wdaf_army_org_regain = -0.25 }
+
+add_dynamic_modifier = { modifier = SAK_Poor_Agricultural_economy }
+set_variable = { SAK_pac_Research_speed_factor = -0.5 }
+set_variable = { SAK_pac_consumer_goods_factor = 0.6 }
+set_variable = { SAK_pac_stability_factor = -0.4 }
+set_variable = { SAK_pac_production_factory_efficiency_gain_factor = -0.25 }
+set_variable = { SAK_pac_production_factory_max_efficiency_factor = -0.25 }
+set_variable = { SAK_pac_production_speed_industrial_complex_factor = -0.35 }
+
+recruit_character = SAK_zviad_gamsakhurdia
+recruit_character = SAK_Giorgi_Karkarashvili
+recruit_character = SAK_Tengiz_Kitovani
+recruit_character = SAK_Jaba_Ioseliani
+recruit_character = SAK_Tamar_ckheidze
+recruit_character = SAK_Besarion_Gugushvili
+recruit_character = SAK_Military_council
+recruit_character = SAK_Eduard_Shevardnadze
+recruit_character = SAK_Akaki_Asatiani
+recruit_character = SAK_Tengiz_Sigua
+recruit_character = SAK_Giorgi_Chanturia
+recruit_character = SAK_Ilia_II
+recruit_character = SAK_Avtandil_Tskitishvili
+recruit_character = SAK_Geno_Adamia
+recruit_character = SAK_Boris_Grigolashvili
+
+1996.1.1 = {
+	drop_cosmetic_tag = yes
+}

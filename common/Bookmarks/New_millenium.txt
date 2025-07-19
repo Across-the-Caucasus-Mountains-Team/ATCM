@@ -1,0 +1,40 @@
+bookmarks = {
+	bookmark = {
+		name = "Across_the_Caucasus_NAME"
+		desc = "Across_the_Caucasus_DESC"
+		date = 1996.1.1.12
+		picture = "GFX_2000_date"
+		default_country = "SAK"
+		default = yes
+		
+		"SAK"={
+			history = "SAK_Across_the_Caucasus_DESC"
+			ideology = nationalism
+			ideas = {
+			    SAK_Clashes_in_south_ossetia
+				SAK_No_To_Soviet_Russia
+				SAK_Poor_Agricultural_economy
+			}
+			focuses = {
+			    SAK_Last_Steps_Towards_independence
+				SAK_Tenisions_in_south_ossetia
+				SAK_Independence_Referendum
+			}
+		}
+		
+	    "RAS"={
+			history = "RAS_Across_the_Caucasus_DESC"
+			ideology = Communisten
+			ideas = {
+			    RAS_hardliners_protest
+				RAS_Memories_of_afhganistan_war
+			    
+			}
+			focuses = {
+			    RAS_seventieth_years_of_the_union
+				RAS_problems_in_the_south
+				RAS_Treaty_of_Union
+			}
+		}
+	}
+}	

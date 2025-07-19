@@ -1,0 +1,49 @@
+## CHE separatism value
+
+SOV_CHE_separatism_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = CHE_separatism_value
+		min = 0
+		max = 100
+	}
+}
+
+## SAK separatism value
+
+SOV_SAK_separatism_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = SAK_separatism_value
+		min = 0
+		max = 100
+	}
+}
+
+## AZR separatism value
+
+SOV_AZR_separatism_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = AZR_separatism_value
+		min = 0
+		max = 100
+	}
+}
+
+## ARM separatism value
+
+SOV_ARM_separatism_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = ARM_separatism_value
+		min = 0
+		max = 100
+	}
+}
+
+## DAG separatism value
+
+SOV_DAG_separatism_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = DAG_separatism_value
+		min = 0
+		max = 100
+	}
+}

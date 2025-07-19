@@ -1,0 +1,424 @@
+focus_tree = {
+	id = Georgia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 30
+			tag = SAK
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 3000 y = 500 }
+	
+	focus = {
+		id = SAK_Gamsakhurdia_Speechs
+		icon = GFX_Goal_SAK_Gamsakhurdia
+		x = 7
+		y = 0
+		
+		cost = 3
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_popularity = { ideology = communism popularity = -0.05 }
+			country_event = { id = Georgia.1 }
+			hidden_effect = {
+				country_event = { 
+					id = Georgia.39 
+			        days = 2
+			    }
+			}
+		}	
+	}
+
+	focus = {
+		id = SAK_Last_Steps_Towards_independence
+		icon = GFX_SAK_Last_steps_Before_independence
+		prerequisite = { focus = SAK_Gamsakhurdia_Speechs }
+		x = 7
+		y = 2
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 75
+		}	
+	}
+
+	focus = {
+		id = SAK_Consolidate_Nationalist_power
+		icon = GFX_SAK_Nationalists_Power
+		prerequisite = { focus = SAK_Last_Steps_Towards_independence }
+		x = 7
+		y = 4
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.05
+			add_popularity ={ ideology = Nationalism Popularity = 0.1 }
+		}	
+	}
+
+	focus = {
+		id = SAK_internal_conflict
+		icon = GFX_SAK_Internal_crisis
+		prerequisite = { focus = SAK_Consolidate_Nationalist_power }
+		x = 4
+		y = 6
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+			country_event = { id = Georgia.8 }
+		}	
+	}
+
+	focus = {
+		id = SAK_Reinforce_National_Guard
+		icon = GFX_SAK_Reinforce_National_Guard
+		prerequisite = { focus = SAK_internal_conflict }
+		x = 4
+		y = 7
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_manpower = 500
+			army_experience = 20
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 1500 
+			}
+		}	
+	}
+
+	focus = {
+		id = SAK_Tenisions_in_south_ossetia
+		icon = GFX_SAK_Conflict_in_Ossetia
+		prerequisite = { focus = SAK_internal_conflict }
+		x = 2
+		y = 7
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			country_event = { id = Georgia.9 }
+		}	
+	}
+
+	focus = {
+		id = SAK_mobilize_Economy
+		icon = GFX_SAK_Mobilize_Economy
+		prerequisite = { focus = SAK_internal_conflict }
+		x = 6
+		y = 7
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		
+		completion_reward = {
+			add_ideas = low_economic_mobilisation
+		}	
+	}
+
+	focus = {
+		id = SAK_diplomacy
+		icon = GFX_SAK_Diplomacy
+		prerequisite = { focus = SAK_Consolidate_Nationalist_power }
+		x = 10
+		y = 6
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = SAK_Ask_for_The_Recognition
+		icon = GFX_SAK_Ask_For_The_Recognition
+		prerequisite = { focus = SAK_diplomacy }
+		x = 8
+		y = 7
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+			add_political_power = 25
+
+		}	
+	}
+
+	focus = {
+		id = SAK_Diplomacy_with_west
+		icon = GFX_SAK_Diplomacy_with_West
+		prerequisite = { focus = SAK_diplomacy }
+		x = 10
+		y = 7
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+			add_political_power = 25
+
+		}	
+	}
+
+	focus = {
+		id = SAK_claim_independence_in_diplomacy
+		icon = GFX_SAK_Independence_in_diplomacy
+		prerequisite = { focus = SAK_diplomacy }
+		x = 12
+		y = 7
+		
+		cost = 9
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		
+		}	
+	}
+
+	focus = {
+		id = SAK_Independence_Referendum
+		icon = GFX_Goal_SAK_INDEPENDENCE
+		prerequisite = { focus = SAK_Ask_for_The_Recognition }
+		prerequisite = { focus = SAK_mobilize_Economy }
+		prerequisite = { focus = SAK_Reinforce_National_Guard }
+		prerequisite = { focus = SAK_Tenisions_in_south_ossetia }
+		prerequisite = { focus = SAK_Diplomacy_with_west }
+		prerequisite = { focus = SAK_claim_independence_in_diplomacy }
+		x = 7
+		y = 9
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
+		
+		completion_reward = {
+			country_event = { id = Georgia.10 }
+		}	
+	}
+}

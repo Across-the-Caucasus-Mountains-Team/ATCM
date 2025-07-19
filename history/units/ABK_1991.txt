@@ -1,0 +1,376 @@
+division_template = {
+	name = "pekhota-divizion"
+
+	division_names_group = ABK_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+	}
+	
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}	
+
+division_template = {
+	name = "militia-divizion"
+
+	division_names_group = ABK_Inf_02
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+        irregular_infantry = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+}	
+	
+division_template = {
+	name = "Gory-pekhota-divizion"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = ABK_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Artilleron-divizion"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = ABK_Art_01
+
+	regiments = {
+		artillery_brigade  = { x = 0 y = 0 }
+	    artillery_brigade  = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Volunteers"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = ABK_Vol_01
+
+	regiments = {
+		irregular_infantry  = { x = 0 y = 0 }
+	    irregular_infantry  = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8944
+		division_template = "pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 8944
+		division_template = "pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 8437
+		division_template = "pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10791
+		division_template = "pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1752
+		division_template = "pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1752
+		division_template = "pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10869
+		division_template = "militia-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10860
+		division_template = "militia-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10859
+		division_template = "militia-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10849
+		division_template = "militia-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6336
+		division_template = "militia-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10810
+		division_template = "militia-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8166
+		division_template = "Artilleron-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6251
+		division_template = "Artilleron-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10807
+		division_template = "Artilleron-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9217
+		division_template = "Artilleron-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1752
+		division_template = "Artilleron-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10754
+		division_template = "Gory-pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10703
+		division_template = "Gory-pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2514
+		division_template = "Gory-pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 225
+		division_template = "Gory-pekhota-divizion"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10771
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10761
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10753
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10740
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 506
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 6043
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 5054
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1752
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 1752
+		division_template = "Volunteers"
+		start_experience_factor = 0.7
+	}
+}	

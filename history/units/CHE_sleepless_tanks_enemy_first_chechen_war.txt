@@ -1,0 +1,62 @@
+division_template = {
+	name = "Tanks-hunters"
+
+	division_names_group = CHE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		anti_artillery = { x = 0 y = 2 }
+	}
+	is_locked = yes
+}
+
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8617
+		division_template = "Tanks-hunters"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 8617
+		division_template = "Tanks-hunters"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 8617
+		division_template = "Tanks-hunters"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 8617
+		division_template = "Tanks-hunters"
+		start_experience_factor = 0.5
+	}
+}	

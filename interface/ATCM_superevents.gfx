@@ -1,0 +1,40 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_super_event_picture"
+		textureFile = "/gfx/super_events.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_event_window"
+		textureFile = "/gfx/Super_Event_Window.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_close_button"
+		textureFile = "/gfx/Super_Event_Close_Button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_underlay"
+		textureFile = "/gfx/Super_Event_Underlay.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sp_event_SOV_August_Coup"
+		textureFile = "/gfx/sp_events/Super_Event_August_Coup.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_SOV_End_Of_The_Ussr"
+		textureFile = "/gfx/sp_events/Super_Event_End_Of_USSR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_RAS_Black_October"
+		textureFile = "/gfx/sp_events/Super_Event_Black_October.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War"
+		textureFile = "/gfx/sp_events/Super_Event_First_Chechen_War.dds"
+	}
+}

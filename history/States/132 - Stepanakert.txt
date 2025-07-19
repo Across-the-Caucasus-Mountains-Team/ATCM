@@ -1,0 +1,23 @@
+state={
+	id=129
+	name="STATE_132"
+	provinces={
+		1712 7372 12571 12588 
+	}
+	history={
+	owner = ARS
+	add_core_of = AZR
+	add_core_of = ARM
+	add_core_of = ARS
+	buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 3
+		}
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

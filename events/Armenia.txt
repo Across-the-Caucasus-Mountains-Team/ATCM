@@ -1,0 +1,62 @@
+add_namespace = armenia
+
+#Independent Armenia
+country_event = {
+	id = armenia.1
+	title = armenia.1.t
+	desc = armenia.1.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = armenia.1.a
+		drop_cosmetic_tag = yes
+		RAS = {
+			set_autonomy = {
+				target = ARM
+				autonomous_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+		}	
+		RAS = {
+			set_autonomy = {
+				target = ARS
+				autonomous_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+		}
+	}
+}
+
+#Azerbaijan Refused Referendum
+country_event = {
+	id = armenia.2
+	title = armenia.2.t
+	desc = armenia.2.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = armenia.2.a
+		complete_national_focus = ARM_nintheen_days_preparations
+	}
+}
+
+#Address Nagorno karabakh issue
+country_event = {
+	id = armenia.3
+	title = armenia.3.t
+	desc = armenia.3.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = armenia.3.a
+		complete_national_focus = ARM_Nagarno_karabakh_problem
+	}
+}

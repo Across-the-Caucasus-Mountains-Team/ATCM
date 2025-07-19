@@ -1,0 +1,595 @@
+ideas = {
+
+	country = {
+
+
+        SAK_Tbilisi_syndrome = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Tbilisi_Syndrome
+			
+			modifier = {
+				communism_drift = -0.1
+			}
+		}
+		
+		SAK_Tbilisi_syndrome_2 = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Tbilisi_Syndrome
+			
+			modifier = {
+			    war_support_factor = 0.15
+				communism_drift = -0.1
+			}
+		}
+		
+		SAK_Decommunization_idea = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Anti_communism
+			
+			modifier = {
+				communism_drift = -0.1
+			}
+		}
+		
+		SAK_Clashes_in_south_ossetia = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_war_in_samachablo
+			
+			modifier = {
+			    stability_factor = -0.05
+				war_support_factor = -0.05
+				army_attack_factor = 0.05
+			}
+		}
+		
+		SAK_Gamsakhurdias_Speechs = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Gamsakhurdias_Speechs
+			
+			modifier = {
+			    political_power_gain = 1
+				war_support_Factor = 0.15
+				Nationalism_drift = 0.2
+				Conservatism_drift = 0.1
+			}
+		}
+		
+		SAK_Mkhedrioni = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+			    political_power_gain = -0.5
+				stability_factor = -0.05
+				war_support_Factor = -0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				conscription = 0.05
+			}
+		}
+		
+		SAK_Mkhedrioni_2 = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+			    political_power_gain = -0.7
+				stability_factor = -0.15
+				war_support_Factor = -0.15
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				conscription = 0.05
+			}
+		}
+		
+		SAK_National_Gurad_Split_in_two = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_National_Guard_problems
+			
+			modifier = {
+				war_support_Factor = -0.15
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				army_org_factor = -0.25
+			}
+		}
+		
+		SAK_Reinforce_Militia_idea = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_National_Guard_problems
+			
+			modifier = {
+				army_org_factor = -0.5
+			}
+		}
+		
+		SAK_lack_of_fuel_and_ammo = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_armor_speed_factor = -0.15
+				fuel_gain_factor = -0.15
+			}
+		}
+		
+		SAK_lack_of_fuel_and_ammo_2 = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_armor_speed_factor = -0.05
+				fuel_gain_factor = -0.05
+			}
+		}
+		
+		SAK_Drafting_New_constitution = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_drafting_new_constitution
+			
+			modifier = {
+				political_power_gain = -0.40
+			}
+		}
+		
+		SAK_New_Currency = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Lari
+			
+			modifier = {
+				political_power_gain = -0.20
+                consumer_goods_factor = 0.4
+			}
+		}
+		
+		SAK_State_of_emergency = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Emergency_of_State
+			
+			modifier = {
+				stability_factor = -0.35
+				war_support_factor = -0.35
+				consumer_goods_factor = -0.45
+				communism_drift = -0.1
+				liberalism_drift = -0.1
+				Conservatism_drift = -0.1
+				Junta_drift = -0.1
+				populism_drift = -0.1
+				anarchism_drift = -0.1
+				authoritarianism_drift = -0.1
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
+		
+		SAK_military_propaganda = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_military_propaganda_idea
+			
+			modifier = {
+				war_support_factor = 0.05
+				conscription = 0.1
+				mobilization_speed = 0.25
+				training_time_factor = -0.15
+			}
+		}
+
+		SAK_mobilization_idea = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_military_propaganda_idea
+			
+			modifier = {
+				war_support_Factor = -0.15
+				conscription = 0.05
+				conscription_factor = 0.10
+				mobilization_speed = 0.25
+			}
+		}
+		
+		SAK_Zviadists_in_the_west = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Zviadists_in_the_West
+			
+			modifier = {
+			    political_power_gain = -0.1
+				war_support_factor = -0.15
+				stability_factor = -0.05
+				nationalism_drift = 0.1
+				resistance_activity = 0.5
+			}
+		}
+		
+		SAK_Zviadists_in_the_west_two = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Zviadists_in_the_West
+			
+			modifier = {
+			    political_power_gain = -0.1
+				war_support_factor = -0.25
+				stability_factor = -0.25
+				nationalism_drift = 0.2
+				resistance_activity = 0.7
+			}
+		}
+		
+		SAK_Overcrowded_Hospitals = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_overcrowded_hospital
+			
+			modifier = {
+			    political_power_gain = -0.1
+				war_support_factor = -0.15
+				stability_factor = -0.05
+				monthly_population = -0.15
+				weekly_manpower = -500
+			}
+		}
+		
+		SAK_Ruins_of_central_tbilisi = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+				war_support_factor = -0.3
+				stability_factor = -0.3
+				consumer_goods_factor = 0.65
+				party_popularity_stability_factor = -0.15
+			}
+		}
+		
+		SAK_Blitz_in_Abkhazia = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_blitz_Abkhazia
+			
+			modifier = {
+				war_support_factor = 0.3
+				consumer_goods_factor = -0.5
+				army_armor_speed_factor = 0.15
+				army_attack_factor = 0.3
+				army_defence_factor = 0.3
+				army_org_factor = -0.25
+			}
+		}
+		
+		SAK_Battle_of_Tskhinvali = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Battle_of_tskhinvali
+			
+			modifier = {
+				army_armor_speed_factor = 0.15
+				army_attack_factor = 0.3
+				army_defence_factor = 0.3
+			}
+		}
+		
+		SAK_curropted_police = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+				stability_factor = -0.1
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				political_power_gain = 0.8
+			}
+		}
+		
+		SAK_crime_skyrocketing = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = -5
+				consumer_goods_factor = 0.2
+			}
+		}
+		
+		SAK_Funding_Pro_Government_Media = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_fund_pro_government_channels
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_weekly_factor = 0.005
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		SAK_Propaganda_Campaign = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_Mkhedrioni
+			
+			modifier = {
+				political_power_gain = -0.25
+				stability_weekly_factor = 0.005
+				war_support_weekly_factor = 0.005
+			}
+		}
+		
+		SAK_disrupted_supply_lines = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_disrupted_supply_lines
+			
+			modifier = {
+				army_speed_factor = -0.25
+				out_of_supply_factor = 0.15
+				supply_node_range = -0.15
+			}
+		}
+	}
+}	

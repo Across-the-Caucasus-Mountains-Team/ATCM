@@ -1,0 +1,1760 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+	
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_additonal_armor"
+		texturefile = "gfx/interface/goals/RAS_additonal_armor.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_additonal_airforce"
+		texturefile = "gfx/interface/goals/RAS_additonal_airforce.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_emergency_state"
+		texturefile = "gfx/interface/goals/RAS_emergency_state.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Accept_new_constitution"
+		texturefile = "gfx/interface/goals/RAS_Accept_new_constitution.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_crackdown_kitovani_ng"
+		texturefile = "gfx/interface/goals/SAK_crackdown_kitovani_ng.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/goals/goal_generic_trade.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_in_progress_of_economic_reforms"
+		texturefile = "gfx/interface/goals/RAS_in_progress_of_economic_reforms.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Free_trade_marketing"
+		texturefile = "gfx/interface/goals/RAS_Free_trade_marketing.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Reduction_of_government_Spending"
+		texturefile = "gfx/interface/goals/RAS_Reduction_of_government_Spending.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Shock_economic_reforms"
+		texturefile = "gfx/interface/goals/RAS_Shock_economic_reforms.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Vouchers"
+		texturefile = "gfx/interface/goals/RAS_Vouchers.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Save_economy"
+		texturefile = "gfx/interface/goals/RAS_Save_economy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Surrender"
+		texturefile = "gfx/interface/goals/CHE_Surrender.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Fanatical_Resistance"
+		texturefile = "gfx/interface/goals/CHE_Fanatical_Resistance.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Disrupt_Supply_lines"
+		texturefile = "gfx/interface/goals/CHE_Disrupt_Supply_lines.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Elite_command"
+		texturefile = "gfx/interface/goals/CHE_Elite_command.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_counter_attack"
+		texturefile = "gfx/interface/goals/CHE_counter_attack.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_fight_back_disloyal_elements"
+		texturefile = "gfx/interface/goals/CHE_fight_back_disloyal_elements.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Guns_for_everyone"
+		texturefile = "gfx/interface/goals/CHE_Guns_for_everyone.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_inside_remaining_lands"
+		texturefile = "gfx/interface/goals/CHE_inside_remaining_lands.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Quantity_over_quality"
+		texturefile = "gfx/interface/goals/CHE_Quantity_over_quality.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_homeland_above_all"
+		texturefile = "gfx/interface/goals/CHE_homeland_above_all.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Death_or_freedom"
+		texturefile = "gfx/interface/goals/CHE_Death_or_freedom.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_build_secular_state"
+		texturefile = "gfx/interface/goals/CHE/CHE_build_secular_state.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_operations_outside_of_chechnya"
+		texturefile = "gfx/interface/goals/CHE_operations_outside_of_chechnya.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_roads_in_mountains"
+		texturefile = "gfx/interface/goals/CHE_roads_in_mountains.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Economy_question"
+		texturefile = "gfx/interface/goals/CHE_Economy_question.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_fund_north"
+		texturefile = "gfx/interface/goals/CHE_fund_north.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_factories_in_grozny"
+		texturefile = "gfx/interface/goals/CHE_factories_in_grozny.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_fight_back"
+		texturefile = "gfx/interface/goals/CHE_fight_back.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_War_correspondents"
+		texturefile = "gfx/interface/goals/CHE_War_correspondents.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_internet"
+		texturefile = "gfx/interface/goals/CHE_internet.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Deny_our_war_crimes"
+		texturefile = "gfx/interface/goals/CHE_Deny_our_war_crimes.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Money_in_return_of_good_propaganda"
+		texturefile = "gfx/interface/goals/CHE_Money_in_return_of_good_propaganda.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Hold_the_line"
+		texturefile = "gfx/interface/goals/CHE_Hold_the_line.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_State_of_emergency"
+		texturefile = "gfx/interface/goals/CHE_State_of_emergency.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_ads_about_military"
+		texturefile = "gfx/interface/goals/SAK_ads_about_military.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Ask_For_Negotiations"
+		texturefile = "gfx/interface/goals/SAK_Ask_For_Negotiations.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Aftermath_coup"
+		texturefile = "gfx/interface/goals/SAK_Aftermath_coup.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_fortify_Prisons"
+		texturefile = "gfx/interface/goals/SAK_fortify_Prisons.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Close_Roki_Tunnel"
+		texturefile = "gfx/interface/goals/SAK_Close_Roki_Tunnel.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_Daghenstani_Farmers"
+		texturefile = "gfx/interface/goals/SOV/SOV_Daghenstani_Farmers.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_Economic_Question"
+		texturefile = "gfx/interface/goals/SOV/SOV_Economic_Question.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_Industralize_krasnodar"
+		texturefile = "gfx/interface/goals/SOV/SOV_Industralize_krasnodar.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_AZR_Independence"
+		texturefile = "gfx/interface/goals/AZR_Independence.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Guria"
+		texturefile = "gfx/interface/goals/GOM_Guria.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Svaneti"
+		texturefile = "gfx/interface/goals/GOM_Svaneti.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Samegrelo"
+		texturefile = "gfx/interface/goals/GOM_Samegrelo.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Racha"
+		texturefile = "gfx/interface/goals/GOM_Racha.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Imereti"
+		texturefile = "gfx/interface/goals/GOM_Imereti.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Adjara"
+		texturefile = "gfx/interface/goals/GOM_Adjara.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_The_Last_battle"
+		texturefile = "gfx/interface/goals/GOM_The_Last_battle.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_To_East"
+		texturefile = "gfx/interface/goals/GOM_To_East.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_To_Gori"
+		texturefile = "gfx/interface/goals/GOM_To_Gori.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Uprising_in_Imereti"
+		texturefile = "gfx/interface/goals/GOM_Uprising_in_Imereti.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Attack_Samachablo"
+		texturefile = "gfx/interface/goals/GOM_Attack_Samachablo.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Attack_Abkhazia"
+		texturefile = "gfx/interface/goals/GOM_Attack_Abkhazia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Lost_Lands"
+		texturefile = "gfx/interface/goals/GOM_Lost_Lands.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Attack_South"
+		texturefile = "gfx/interface/goals/GOM_Attack_South.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Cross_Mtkvari"
+		texturefile = "gfx/interface/goals/GOM_Cross_Mtkvari.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_To_Tbilisi"
+		texturefile = "gfx/interface/goals/GOM_To_Tbilisi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_Regroup"
+		texturefile = "gfx/interface/goals/GOM_Regroup.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Elite_Divisions"
+		texturefile = "gfx/interface/goals/CHE_Elite_Divisions.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Mountains_ghosts"
+		texturefile = "gfx/interface/goals/CHE_Mountains_ghosts.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_for_Chechnya"
+		texturefile = "gfx/interface/goals/CHE_for_Chechnya.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Tanks_Nigthmare"
+		texturefile = "gfx/interface/goals/CHE_Tanks_Nigthmare.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Iron_Ghosts"
+		texturefile = "gfx/interface/goals/CHE_Iron_Ghosts.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOM_now_or_never"
+		texturefile = "gfx/interface/goals/GOM_now_or_never.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_defend_ozurgeti"
+		texturefile = "gfx/interface/goals/SAK_defend_ozurgeti.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_defend_tbilisi"
+		texturefile = "gfx/interface/goals/SAK_defend_tbilisi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_defend_batumi"
+		texturefile = "gfx/interface/goals/SAK_defend_batumi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_defend_Gori"
+		texturefile = "gfx/interface/goals/SAK_defend_Gori.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_defend_Kutaisi"
+		texturefile = "gfx/interface/goals/SAK_defend_Kutaisi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_the_last_round"
+		texturefile = "gfx/interface/goals/SAK_the_last_round.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Lari_currency"
+		texturefile = "gfx/interface/goals/SAK_Lari_currency.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_New_Union_Treaty"
+		texturefile = "gfx/interface/goals/RAS_New_Union_Treaty.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Retreat_from_baltics"
+		texturefile = "gfx/interface/goals/RAS_Retreat_from_baltics.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Intervantion"
+		texturefile = "gfx/interface/goals/RAS_Intervantion.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_For_God"
+		texturefile = "gfx/interface/goals/CHE_For_God.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_for_Dudayev"
+		texturefile = "gfx/interface/goals/CHE_for_Dudayev.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_end_of_the_Ussr"
+		texturefile = "gfx/interface/goals/RAS_end_of_the_Ussr.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Heavy_equiped"
+		texturefile = "gfx/interface/goals/CHE_Heavy_equiped.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Tank_Training"
+		texturefile = "gfx/interface/goals/CHE_Tank_Training.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Elite_armed_forces"
+		texturefile = "gfx/interface/goals/CHE_Elite_armed_forces.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_fund_warlords"
+		texturefile = "gfx/interface/goals/CHE_fund_warlords.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Urban_training"
+		texturefile = "gfx/interface/goals/CHE_Urban_training.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_irregular_forces"
+		texturefile = "gfx/interface/goals/CHE_irregular_forces.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Weak_army"
+		texturefile = "gfx/interface/goals/CHE_Weak_army.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Operations"
+		texturefile = "gfx/interface/goals/CHE_Operations.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Deport_Russians"
+		texturefile = "gfx/interface/goals/CHE_Deport_Russians.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_AZR_Operation_ring"
+		texturefile = "gfx/interface/goals/AZR_Operation_ring.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_AZR_Operations"
+		texturefile = "gfx/interface/goals/AZR_Operations.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_AZR_Purge_popular_front"
+		texturefile = "gfx/interface/goals/AZR_Purge_popular_front.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_AZR_internal_order"
+		texturefile = "gfx/interface/goals/AZR_internal_order.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_AZR_Consolidate_the_power"
+		texturefile = "gfx/interface/goals/AZR_Consolidate_the_power.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_AZR_Black_January"
+		texturefile = "gfx/interface/goals/AZR_Black_January.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Support_Chechen_oppositon"
+		texturefile = "gfx/interface/goals/RAS_Support_Chechen_oppositon.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Emergency"
+		texturefile = "gfx/interface/goals/RAS_Emergency.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_War_is_in_here"
+		texturefile = "gfx/interface/goals/ARM_War_is_in_here.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Soviet_jets"
+		texturefile = "gfx/interface/goals/ARM_Soviet_jets.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_ARMENIANS"
+		texturefile = "gfx/interface/goals/ARM_ARMENIANS.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Recruit_pilots"
+		texturefile = "gfx/interface/goals/ARM_Recruit_pilots.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Paramilitaries"
+		texturefile = "gfx/interface/goals/ARM_Paramilitaries.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Ground_Force"
+		texturefile = "gfx/interface/goals/ARM_Ground_Force.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_air_force"
+		texturefile = "gfx/interface/goals/ARM_air_force.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_RIP"
+		texturefile = "gfx/interface/goals/RAS_RIP.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_defeated"
+		texturefile = "gfx/interface/goals/RAS_defeated.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_like_this_mf"
+		texturefile = "gfx/interface/goals/RAS_like_this_mf.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Held_Referendum"
+		texturefile = "gfx/interface/goals/RAS_Held_Referendum.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_GKCHP"
+		texturefile = "gfx/interface/goals/RAS_GKCHP.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Dislike_this_mf"
+		texturefile = "gfx/interface/goals/RAS_Dislike_this_mf.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_SO"
+		texturefile = "gfx/interface/goals/RAS_SO.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_RIP_Communist_Georgia"
+		texturefile = "gfx/interface/goals/RAS_RIP_Communist_Georgia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Chechen_protest"
+		texturefile = "gfx/interface/goals/RAS_Chechen_protest.png"
+	}
+
+	###RUSSIAN FEDERATION
+		SpriteType = {
+		name = "GFX_RAS_congress_two"
+		texturefile = "gfx/interface/goals/RAS_congress_two.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Yeltsin_presidency"
+		texturefile = "gfx/interface/goals/RAS_Yeltsin_presidency.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Strike_Chechnya"
+		texturefile = "gfx/interface/goals/RAS_Strike_Chechnya.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Support_transinistria"
+		texturefile = "gfx/interface/goals/RAS_Support_transinistria.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Peacekeeping_forces_in_Abkhazia"
+		texturefile = "gfx/interface/goals/RAS_Peacekeeping_forces_in_Abkhazia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_new_forigne_policy"
+		texturefile = "gfx/interface/goals/RAS_new_forigne_policy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Influence_on_post_soviet_lands"
+		texturefile = "gfx/interface/goals/RAS_Influence_on_post_soviet_lands.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Parliament_resistance"
+		texturefile = "gfx/interface/goals/RAS_Parliament_resistance.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Yeltsin"
+		texturefile = "gfx/interface/goals/RAS_Yeltsin.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_after_coup"
+		texturefile = "gfx/interface/goals/RAS_after_coup.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Congress"
+		texturefile = "gfx/interface/goals/RAS_Congress.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Gayards_resign"
+		texturefile = "gfx/interface/goals/RAS_Gayards_resign.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Leave_gaidar"
+		texturefile = "gfx/interface/goals/RAS_Leave_gaidar.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Black_october"
+		texturefile = "gfx/interface/goals/RAS_Black_october.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_federal_law"
+		texturefile = "gfx/interface/goals/RAS_federal_law.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_failed_blitz"
+		texturefile = "gfx/interface/goals/RAS/RAS_failed_blitz.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_omon_to_chechnya"
+		texturefile = "gfx/interface/goals/RAS/RAS_omon_to_chechnya.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_organize_the_frontline"
+		texturefile = "gfx/interface/goals/RAS/RAS_organize_the_frontline.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_call_reinforcements"
+		texturefile = "gfx/interface/goals/RAS/RAS_call_reinforcements.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_call_for_air_strikes"
+		texturefile = "gfx/interface/goals/RAS/RAS_call_for_air_strikes.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_OperationsOfOurSpecialServices"
+		texturefile = "gfx/interface/goals/RAS/OperationsOfOurSpecialServisec.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_fsb_and_gru_cooperation"
+		texturefile = "gfx/interface/goals/RAS/RAS_fsb_and_gru_cooperation.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_strengthen_chechen_blockposts"
+		texturefile = "gfx/interface/goals/RAS/RAS_strengthen_chechen_blockposts.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_strengthen_awacs_reconnaissance"
+		texturefile = "gfx/interface/goals/RAS/RAS_strengthen_awacs_reconnaissance.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_try_to_kill_dudayev"
+		texturefile = "gfx/interface/goals/RAS/RAS_try_to_kill_dudayev.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Information_war"
+		texturefile = "gfx/interface/goals/RAS/RAS_Information_war.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_chehcnya_is_terrorist_state"
+		texturefile = "gfx/interface/goals/RAS/RAS_chehcnya_is_terrorist_state.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_conceal_war_crimes"
+		texturefile = "gfx/interface/goals/RAS/RAS_conceal_war_crimes.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_demonization_of_chechen_soldiers"
+		texturefile = "gfx/interface/goals/RAS/RAS_demonization_of_chechen_soldiers.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_humaniration_aid_to_checnya"
+		texturefile = "gfx/interface/goals/RAS/RAS_humaniration_aid_to_checnya.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_start_negotation"
+		texturefile = "gfx/interface/goals/RAS/RAS_start_negotation.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_yes_to_peace"
+		texturefile = "gfx/interface/goals/RAS/RAS_yes_to_peace.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Crush_Zviadists"
+		texturefile = "gfx/interface/goals/RAS_Crush_Zviadists.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Peacekeeping_forces_in_Ossetia"
+		texturefile = "gfx/interface/goals/RAS_Peacekeeping_forces_in_Ossetia.png"
+	}
+	SpriteType = {
+		name = "GFX_RAS_Georgian_civil_war"
+		texturefile = "gfx/interface/goals/RAS_Georgian_civil_war.png"
+	}
+
+	###
+	
+	SpriteType = {
+		name = "GFX_CHE_Future_of_the_Chechen_ingush_republic"
+		texturefile = "gfx/interface/goals/CHE_Future_of_the_Chechen_ingush_republic.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Start_the_revolution"
+		texturefile = "gfx/interface/goals/CHE_Start_the_revolution.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_control_sukhumi"
+		texturefile = "gfx/interface/goals/SAK_control_sukhumi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Crackdown_Abkhazia"
+		texturefile = "gfx/interface/goals/SAK_Crackdown_Abkhazia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_integrate_Sukhumi"
+		texturefile = "gfx/interface/goals/SAK_integrate_Sukhumi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_nintheen_days_deadblock"
+		texturefile = "gfx/interface/goals/ARM_nintheen_days_deadblock.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_referendum"
+		texturefile = "gfx/interface/goals/ARM_referendum.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Tenisions_in_karabakh"
+		texturefile = "gfx/interface/goals/ARM_Tenisions_in_karabakh.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUR_Shining_Example_of_liberalism"
+		texturefile = "gfx/interface/goals/TUR_Shining_Example_of_liberalism.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_TUR_Deport_Armenians"
+		texturefile = "gfx/interface/goals/TUR_Deport_Armenians.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Karabakh_issue"
+		texturefile = "gfx/interface/goals/RAS_Karabakh_issue.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_recognize_their_independence"
+		texturefile = "gfx/interface/goals/RAS_recognize_their_independence.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_rise_of_Rukh"
+		texturefile = "gfx/interface/goals/RAS_rise_of_Rukh.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Slavic_unrest"
+		texturefile = "gfx/interface/goals/RAS_Slavic_unrest.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Clashes"
+		texturefile = "gfx/interface/goals/RAS_Clashes.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_problems_in_the_west"
+		texturefile = "gfx/interface/goals/RAS_problems_in_the_west.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_problems_in_the_south"
+		texturefile = "gfx/interface/goals/RAS_problems_in_the_south.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_continue_perestroika"
+		texturefile = "gfx/interface/goals/RAS_continue_perestroika.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAS_Seventh_years_of_the_Union"
+		texturefile = "gfx/interface/goals/RAS_Seventh_years_of_the_Union.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Power_Struggle"
+		texturefile = "gfx/interface/goals/SAK_Power_Struggle.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Where_is_Gamsakhurdia"
+		texturefile = "gfx/interface/goals/SAK_Where_is_Gamsakhurdia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Defence_of_parliament"
+		texturefile = "gfx/interface/goals/SAK_Defence_of_parliament.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Russia_is_Still_Communist"
+		texturefile = "gfx/interface/goals/CHE_Russia_is_Still_Communist.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Russian_POWS"
+		texturefile = "gfx/interface/goals/CHE_Russian_POWS.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Release_Battle_Footage"
+		texturefile = "gfx/interface/goals/CHE_Release_Battle_Footage.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_General_Staff_of_Chechnya"
+		texturefile = "gfx/interface/goals/CHE_General_Staff_of_Chechnya.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Elite_Volunnters"
+		texturefile = "gfx/interface/goals/CHE_Elite_Volunnters.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Recruit_Youth"
+		texturefile = "gfx/interface/goals/CHE_Recruit_Youth.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Recruit_Prisoners"
+		texturefile = "gfx/interface/goals/CHE_Recruit_Prisoners.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Recruit_Elderly"
+		texturefile = "gfx/interface/goals/CHE_Recruit_Elderly.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Shortage_of_manpower"
+		texturefile = "gfx/interface/goals/CHE_Shortage_of_manpower.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Aftermath_of_First_Wave"
+		texturefile = "gfx/interface/goals/CHE_Aftermath_of_First_Wave.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Information_war"
+		texturefile = "gfx/interface/goals/CHE_Information_war.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Call_Everyone"
+		texturefile = "gfx/interface/goals/CHE_Call_Everyone.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Battle_of_Grozny"
+		texturefile = "gfx/interface/goals/CHE_Battle_of_Grozny.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_prepare_for_inavitable"
+		texturefile = "gfx/interface/goals/ARM_prepare_for_inavitable.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Develop_to_war"
+		texturefile = "gfx/interface/goals/ARM_Develop_to_war.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Nagarno_Karabakh_problem"
+		texturefile = "gfx/interface/goals/ARM_Nagarno_Karabakh_problem.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Recruitment_Effort"
+		texturefile = "gfx/interface/goals/ARM_Recruitment_Effort.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Defencive_Line"
+		texturefile = "gfx/interface/goals/ARM_Defencive_Line.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Armenia_First"
+		texturefile = "gfx/interface/goals/ARM_Armenia_First.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Reach_out_to_the_Media"
+		texturefile = "gfx/interface/goals/ARM_Reach_out_to_the_Media.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Rally_The_People"
+		texturefile = "gfx/interface/goals/ARM_Rally_The_People.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_International"
+		texturefile = "gfx/interface/goals/ARM_International.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Start_Hunger_strikes"
+		texturefile = "gfx/interface/goals/ARM_Start_Hunger_strikes.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Fan_the_flames"
+		texturefile = "gfx/interface/goals/ARM_Fan_the_flames.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ARM_Strengthen_our_identity"
+		texturefile = "gfx/interface/goals/ARM_Strengthen_our_identity.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Negotiation_with_abkhazian_officials"
+		texturefile = "gfx/interface/goals/SAK_Negotiation_with_abkhazian_officials.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_National_Speech"
+		texturefile = "gfx/interface/goals/SAK_National_Speech.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Power_Struggle"
+		texturefile = "gfx/interface/goals/SAK_Power_Struggle.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Arrests_and_raids"
+		texturefile = "gfx/interface/goals/CHE_Arrests_and_raids.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Control_over_media"
+		texturefile = "gfx/interface/goals/CHE_Control_over_media.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Crackdown_Opposition"
+		texturefile = "gfx/interface/goals/CHE_Crackdown_Opposition.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_national_speech"
+		texturefile = "gfx/interface/goals/CHE_national_speech.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Silent_killing"
+		texturefile = "gfx/interface/goals/CHE_Silent_killing.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Young_patriots"
+		texturefile = "gfx/interface/goals/CHE_Young_patriots.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Mobilize_Economy"
+		texturefile = "gfx/interface/goals/SAK_Mobilize_Economy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Reinforce_National_Guard"
+		texturefile = "gfx/interface/goals/SAK_Reinforce_National_Guard.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Ask_For_The_Recognition"
+		texturefile = "gfx/interface/goals/SAK_Ask_For_The_Recognition.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Conflict_in_Ossetia"
+		texturefile = "gfx/interface/goals/SAK_Conflict_in_Ossetia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Last_steps_Before_independence"
+		texturefile = "gfx/interface/goals/SAK_Last_steps_Before_independence.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Nationalists_Power"
+		texturefile = "gfx/interface/goals/SAK_Nationalists_Power.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Internal_crisis"
+		texturefile = "gfx/interface/goals/SAK_Internal_crisis.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Diplomacy"
+		texturefile = "gfx/interface/goals/SAK_Diplomacy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Independence_in_diplomacy"
+		texturefile = "gfx/interface/goals/SAK_Independence_in_diplomacy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_Diplomacy_with_West"
+		texturefile = "gfx/interface/goals/SAK_Diplomacy_with_West.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Loyalists"
+		texturefile = "gfx/interface/goals/CHE_Loyalists.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Disarm_pro_Russians"
+		texturefile = "gfx/interface/goals/CHE_Disarm_pro_Russians.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Muslim_conservatism"
+		texturefile = "gfx/interface/goals/CHE_Muslim_conservatism.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_National_Guard"
+		texturefile = "gfx/interface/goals/CHE_National_Guard.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_Report"
+		texturefile = "gfx/interface/goals/CHE_Report.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_CHE_Reform_the_Schools"
+		texturefile = "gfx/interface/goals/Goal_CHE_Reform_the_Schools.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_CHE_Aftermath_of_revolution"
+		texturefile = "gfx/interface/goals/Goal_CHE_Aftermath_of_revolution.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_CHE_Chechen_Naxar"
+		texturefile = "gfx/interface/goals/Goal_CHE_Chechen_Naxar.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_CHE_National_Propaganda"
+		texturefile = "gfx/interface/goals/Goal_CHE_National_Propaganda.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_CHE_Recognition"
+		texturefile = "gfx/interface/goals/Goal_CHE_Recognition.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Total_air_supremacy"
+		texturefile = "gfx/interface/goals/Goal_SAK_Total_air_supremacy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Strike_Zviadists"
+		texturefile = "gfx/interface/goals/Goal_SAK_Strike_Zviadists.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Full_mobilization"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_mobilization.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Agreements_with_russia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Agreements_with_russia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Join_CSTO"
+		texturefile = "gfx/interface/goals/Goal_SAK_Join_CSTO.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Restore_the_order"
+		texturefile = "gfx/interface/goals/Goal_SAK_Restore_the_order.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_From_Sky"
+		texturefile = "gfx/interface/goals/Goal_SAK_From_Sky.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Mkhedrion_Counter_attack"
+		texturefile = "gfx/interface/goals/Goal_SAK_Mkhedrion_Counter_attack.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Bomb_Their_Supply"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bomb_Their_Supply.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Bomb_Them_From_Land"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bomb_Them_From_Land.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_cut_off_Chechen_supply"
+		texturefile = "gfx/interface/goals/Goal_SAK_cut_off_Chechen_supply.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Escape"
+		texturefile = "gfx/interface/goals/Goal_SAK_Escape.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Evacuation_From_Abkhazia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Evacuation_From_Abkhazia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_Last_Steps"
+		texturefile = "gfx/interface/goals/Goal_GAM_Last_Steps.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_Guns_For_Zviadists"
+		texturefile = "gfx/interface/goals/Goal_GAM_Guns_For_Zviadists.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_Explain_why_they_are_traitors"
+		texturefile = "gfx/interface/goals/Goal_GAM_Explain_why_they_are_traitors.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_Corruption_in_the_army"
+		texturefile = "gfx/interface/goals/Goal_GAM_Corruption_in_the_army.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_talks_with_Chechnya"
+		texturefile = "gfx/interface/goals/Goal_GAM_talks_with_Chechnya.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_Support_from_chechnya"
+		texturefile = "gfx/interface/goals/Goal_GAM_Support_from_chechnya.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOAL_GAM_Speec_for_zviadists"
+		texturefile = "gfx/interface/goals/GOAL_GAM_Speec_for_zviadists.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_Shevardnadze_is_russophili"
+		texturefile = "gfx/interface/goals/Goal_GAM_Shevardnadze_is_russophili.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_GAM_sabotage_military_council"
+		texturefile = "gfx/interface/goals/Goal_GAM_sabotage_military_council.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Harsh_training"
+		texturefile = "gfx/interface/goals/Goal_SAK_Harsh_training.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Strike_Abkhazia"
+		texturefile = "gfx/interface/goals/Goal_Strike_Abkhazia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Bread_delivery"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bread_delivery.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Legalize_Trade"
+		texturefile = "gfx/interface/goals/Goal_SAK_Legalize_Trade.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Hospital"
+		texturefile = "gfx/interface/goals/Goal_SAK_Hospital.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_International_aid"
+		texturefile = "gfx/interface/goals/Goal_SAK_International_aid.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Privatize_agriculture"
+		texturefile = "gfx/interface/goals/Goal_SAK_Privatize_agriculture.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Reconstructe_the_infastructure"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reconstructe_the_infastructure.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Russia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Russia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Nato"
+		texturefile = "gfx/interface/goals/Goal_SAK_Nato.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Learn_mistakes_from_coup"
+		texturefile = "gfx/interface/goals/Goal_SAK_Learn_mistakes_from_coup.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Discipline"
+		texturefile = "gfx/interface/goals/Goal_SAK_Discipline.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_INDEPENDENCE"
+		texturefile = "gfx/interface/goals/Goal_SAK_INDEPENDENCE.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOAL_SAK_Save_the_Fuel"
+		texturefile = "gfx/interface/goals/GOAL_SAK_Save_the_Fuel.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Status_of_the_Economy"
+		texturefile = "gfx/interface/goals/Goal_SAK_Status_of_the_Economy.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Statue_of_The_Army"
+		texturefile = "gfx/interface/goals/Goal_SAK_Statue_of_The_Army.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_ads_about_military"
+		texturefile = "gfx/interface/goals/Goal_SAK_ads_about_military.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Blitz"
+		texturefile = "gfx/interface/goals/Goal_SAK_Blitz.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Economy_Reform"
+		texturefile = "gfx/interface/goals/Goal_SAK_Economy_Reform.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Large_Speech"
+		texturefile = "gfx/interface/goals/Goal_SAK_Large_Speech.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Reform_The_Military"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reform_The_Military.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Adjara_Question"
+		texturefile = "gfx/interface/goals/Goal_SAK_Adjara_Question.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Clear_Central_Tbilisi"
+		texturefile = "gfx/interface/goals/Goal_SAK_Clear_Central_Tbilisi.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Propaganda_TV"
+		texturefile = "gfx/interface/goals/Goal_SAK_Propaganda_TV.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Ban_Opposition_Media"
+		texturefile = "gfx/interface/goals/Goal_SAK_Ban_Opposition_Media.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Support_Free_Georgia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Support_Free_Georgia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Purge_Zviadists"
+		texturefile = "gfx/interface/goals/Goal_SAK_Purge_Zviadists.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Reinforce_Militia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reinforce_Militia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Fight_Back_Western_Resistance"
+		texturefile = "gfx/interface/goals/Goal_SAK_Fight_Back_Western_Resistance.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Full_Control_on_Parliament"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_Control_on_Parliament.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Full_Control_on_Military"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_Control_on_Military.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Full_Control_on_Media"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_Control_on_Media.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Contact_Shevardnadze"
+		texturefile = "gfx/interface/goals/Goal_SAK_Contact_Shevardnadze.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_We_Need_President"
+		texturefile = "gfx/interface/goals/Goal_SAK_We_Need_President.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Negotiations_with_Abkhazia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Negotiations_with_Abkhazia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Negotiations_with_south_ossetia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Negotiations_with_south_ossetia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Negotiations"
+		texturefile = "gfx/interface/goals/Goal_SAK_Negotiations.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Aftermath_of_Coup"
+		texturefile = "gfx/interface/goals/Goal_SAK_Aftermath_of_Coup.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_New_Currency"
+		texturefile = "gfx/interface/goals/Goal_SAK_New_Currency.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Armenian_Diaspora"
+		texturefile = "gfx/interface/goals/Goal_ARM_Armenian_Diaspora.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_armenian_hayid"
+		texturefile = "gfx/interface/goals/Goal_ARM_armenian_hayid.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GOAL_ARM_Elections"
+		texturefile = "gfx/interface/goals/GOAL_ARM_Elections.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Sieze_Soviet_guns"
+		texturefile = "gfx/interface/goals/Goal_ARM_Sieze_Soviet_guns.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Lake_Sevan"
+		texturefile = "gfx/interface/goals/Goal_ARM_Lake_Sevan.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Food_Tickets"
+		texturefile = "gfx/interface/goals/Goal_ARM_Food_Tickets.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Forever_united"
+		texturefile = "gfx/interface/goals/Goal_ARM_Forever_united.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Karabakh_Issue"
+		texturefile = "gfx/interface/goals/Goal_ARM_Karabakh_Issue.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Reverse_Operation_ring"
+		texturefile = "gfx/interface/goals/Goal_ARM_Reverse_Operation_ring.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Spitak_Earthquake"
+		texturefile = "gfx/interface/goals/ARM_Spitak_Earthquake.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_ARM_Council_Elections"
+		texturefile = "gfx/interface/goals/ARM_Council_Elections.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Interview_with_journalists"
+		texturefile = "gfx/interface/goals/Goal_SAK_Interview_with_journalists.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Where_is_Kitovani"
+		texturefile = "gfx/interface/goals/Goal_SAK_Where_is_Kitovani.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Raid"
+		texturefile = "gfx/interface/goals/Goal_Generic_Raid.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_We_didnt_done_anything_bad"
+		texturefile = "gfx/interface/goals/Goal_SAK_We_didnt_done_anything_bad.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Arresting"
+		texturefile = "gfx/interface/goals/Goal_Generic_Arresting.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Arrest_bandits"
+		texturefile = "gfx/interface/goals/Goal_Generic_Arrest_bandits.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Prison"
+		texturefile = "gfx/interface/goals/Goal_Generic_Prison.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Eyes_On_Tbilisi"
+		texturefile = "gfx/interface/goals/Goal_SAK_Eyes_On_Tbilisi.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Our_Actions"
+		texturefile = "gfx/interface/goals/Goal_SAK_Our_Actions.dds"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Rise_from_Death"
+		texturefile = "gfx/interface/goals/Goal_SAK_Rise_from_Death.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Coup"
+		texturefile = "gfx/interface/goals/Goal_SAK_Coup.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Blockade"
+		texturefile = "gfx/interface/goals/Goal_Generic_Blockade.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Battle_of_Gagra"
+		texturefile = "gfx/interface/goals/Goal_SAK_Battle_of_Gagra.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Storm_Sokhumi"
+		texturefile = "gfx/interface/goals/Goal_SAK_Storm_Sokhumi.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Mkhedrioni"
+		texturefile = "gfx/interface/goals/Goal_SAK_Mkhedrioni.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_National_Guard"
+		texturefile = "gfx/interface/goals/Goal_SAK_National_Guard.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_WAR"
+		texturefile = "gfx/interface/goals/Goal_SAK_WAR.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Little_Fish"
+		texturefile = "gfx/interface/goals/Goal_SAK_Little_Fish.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Bigger_fish"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bigger_fish.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Close_Mountain_Pass"
+		texturefile = "gfx/interface/goals/Goal_SAK_Close_Mountain_Pass.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Battle_of_tskhinvali"
+		texturefile = "gfx/interface/goals/Goal_SAK_Battle_of_tskhinvali.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_April_Tragedy"
+		texturefile = "gfx/interface/goals/Goal_SAK_April_Tragedy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Georgianizm"
+		texturefile = "gfx/interface/goals/Goal_SAK_Georgianizm.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_ossetia"
+		texturefile = "gfx/interface/goals/Goal_SAK_ossetia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_abkhazia"
+		texturefile = "gfx/interface/goals/Goal_SAK_abkhazia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Georgia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Georgia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_resources"
+		texturefile = "gfx/interface/goals/Goal_Generic_resources.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_privatization"
+		texturefile = "gfx/interface/goals/Goal_Generic_privatization.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_generic_Orthodox"
+		texturefile = "gfx/interface/goals/Goal_generic_Orthodox.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_School"
+		texturefile = "gfx/interface/goals/Goal_SAK_School.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Start_work"
+		texturefile = "gfx/interface/goals/Goal_SAK_Start_work.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Navy"
+		texturefile = "gfx/interface/goals/Goal_SAK_Navy.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_People"
+		texturefile = "gfx/interface/goals/Goal_SAK_People.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Decommunization"
+		texturefile = "gfx/interface/goals/Goal_Generic_Decommunization.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Coat_of_arms"
+		texturefile = "gfx/interface/goals/Goal_SAK_Coat_of_arms.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Goverment"
+		texturefile = "gfx/interface/goals/Goal_SAK_Goverment.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Constitution"
+		texturefile = "gfx/interface/goals/Goal_Generic_Constitution.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Changes"
+		texturefile = "gfx/interface/goals/Goal_Generic_Changes.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Againts_Orthodox"
+		texturefile = "gfx/interface/goals/Goal_Generic_Againts_Orthodox.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Calm_people"
+		texturefile = "gfx/interface/goals/Goal_SAK_Calm_people.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Close_our_eyes"
+		texturefile = "gfx/interface/goals/Goal_SAK_Close_our_eyes.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Our_Speech"
+		texturefile = "gfx/interface/goals/Goal_SAK_Our_Speech.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Fund_Police"
+		texturefile = "gfx/interface/goals/Goal_SAK_Fund_Police.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Reinforce_Soldiers"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reinforce_Soldiers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Riot_police"
+		texturefile = "gfx/interface/goals/Goal_SAK_Riot_police.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Propaganda_effort"
+		texturefile = "gfx/interface/goals/Goal_SAK_Propaganda_effort.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_Generic_Gorbachevs_Help"
+		texturefile = "gfx/interface/goals/Goal_Generic_Gorbachevs_Help.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Last_Chances"
+		texturefile = "gfx/interface/goals/Goal_SAK_Last_Chances.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_sabotage"
+		texturefile = "gfx/interface/goals/Goal_SAK_sabotage.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_Goal_SAK_Gamsakhurdia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Gamsakhurdia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_shine_test"
+		texturefile = "gfx/interface/goals/goal_generic_production.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 1.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 1.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}	

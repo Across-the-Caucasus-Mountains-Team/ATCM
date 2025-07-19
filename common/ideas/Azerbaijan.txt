@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+
+
+        AZR_Black_January_idea = {
+			
+			allowed = {
+				original_tag = AZR
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = AZR_Black_January_idea
+			
+			modifier = {
+				communism_drift = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+	}
+}	

@@ -1,0 +1,21 @@
+state={
+	id=36
+	name="STATE_37"
+	provinces={
+		750 3021 4484 4657 4980 5858 6082 6860 6890 7969 8385 8411 8566 9327 11047 11131 11139 11152 
+	}
+	history={
+	owner = SAK
+	add_core_of = SAK
+	add_core_of = OST
+	victory_points = { 11139 1 }
+	victory_points = { 9327 1 }
+	    buildings = {
+			infrastructure = 1
+		}	
+	}
+	manpower=1980
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

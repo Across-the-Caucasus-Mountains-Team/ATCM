@@ -1,0 +1,27 @@
+state={
+	id=126
+	name="STATE_129"
+	provinces={
+		182 639 704 829 960 1377 2315 2646 3239 3429 3571 3577 4017 4182 4428 4453 5190 5300 5470 5586 5606 5674 6316 6457 6634 6756 6891 6920 6940 7051 7336 7427 7576 7758 7760 7984 8098 8346 8389 8533 8565 8645 8732 9028 9165 9332 9407 10605 10613 10643 10644 10648 10660 10668 10679 10709 10716 10726 10738 10739 10752 10755 10756 10759 10773 10775 10779 10788 10802 10805 10814 10816 
+	}
+	
+	resources = {
+	    steel = 28
+		Tungsten = 11
+	}	
+	
+	history={
+	    owner = CHE
+		add_core_of = CHE
+		victory_points = { 5606 20 }
+		victory_points = { 9165 15 }
+	    buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=220079
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

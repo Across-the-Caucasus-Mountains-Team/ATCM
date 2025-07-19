@@ -1,0 +1,22 @@
+state={
+	id=4
+	name="STATE_5"
+	provinces={
+		61 68 81 161 229 277 345 513 571 745 945 952 1421 1728 1804 1871 1980 2141 2207 2227 2275 2284 2356 2824 2856 2859 2894 3003 3349 3512 3934 4392 4505 4539 4555 4717 4753 4804 5047 5141 5218 5433 5476 5612 5891 6089 6176 6327 6451 7113 7581 8608 8722 8805 9031 9190 9252 9570 9571 9572 9573 9574 9608 9634 9650 9671 9686 9693 9703 9704 9735 9740 9751 9758 9838 
+	}
+	resources = {
+		steel = 3
+	}
+	history={
+	owner = RAS
+	add_core_of = RAS
+	    buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}	
+	}
+	buildings_max_level_factor=1.000
+    manpower=267133
+    state_category = town
+	local_supplies=0.000
+}

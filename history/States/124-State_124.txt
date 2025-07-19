@@ -1,0 +1,16 @@
+state={
+	id=121
+	name="STATE_124"
+	provinces={
+		15230 16488 16870 17373 17374 17376 17377 17378
+	}
+	history={
+	owner = KAZ
+	add_core_of = KAZ
+	}	
+	impassable = yes
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

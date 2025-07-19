@@ -1,0 +1,41 @@
+state={
+	id=33
+	name="STATE_34"
+	provinces={
+		33 370 545 1217 1979 2370 2399 2792 2820 3177 3586 3668 3719 3925 4309 4385 4452 4979 5443 5967 6111 6132 6471 6543 6798 7024 7648 8786 10897 10969 10970 10979 10989 11009 11071 11076 11083 11095 11135 
+	}
+	
+	resources={
+		Steel=17
+		Tungsten=26
+	}
+	
+	history={
+	owner = SAK
+	add_core_of = OST
+	victory_points = { 3719 25 }
+	victory_points = { 545 40 }
+	victory_points = { 11076 1 }
+	victory_points = { 4385 5 }
+	victory_points = { 6543 5 }
+	victory_points = { 11135 1 }
+	victory_points = { 3925 1 }
+	victory_points = { 2370 5 }
+	victory_points = { 4309 1 }
+	victory_points = { 10989 1 }
+	victory_points = { 10897 1 }
+	victory_points = { 5967 1 }
+	victory_points = { 370 1 }
+	    buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		start_resistance = yes
+		set_resistance = 65
+	}
+	manpower=33000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

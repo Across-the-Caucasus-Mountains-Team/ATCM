@@ -1,0 +1,27 @@
+state={
+	id=128
+	name="STATE_131"
+	provinces={
+		69 207 377 657 1187 1690 2374 2382 3551 3604 3753 3785 4035 4076 4699 4771 4926 5215 5226 5272 5428 5504 5536 5746 5845 6000 6162 6342 6362 7023 7334 7473 8153 8193 8446 8564 8774 8875 9079 9175 10440 10450 10471 10482 10494 10496 10500 10505 10507 10516 10520 10523 10525 10532 10540 10547 10555 10597 10603 10640 
+	}
+	
+	resources = {
+	    Oil = 39
+		Steel = 14
+		Tungsten = 11
+	}
+	
+	history={
+	    owner = CHE
+	    add_core_of = CHE
+		buildings = {
+		    industrial_complex = 3
+			arms_factory = 1
+			infrastructure = 4
+		}
+	}
+	manpower=653201
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

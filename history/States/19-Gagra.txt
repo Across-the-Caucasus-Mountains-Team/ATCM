@@ -1,0 +1,26 @@
+state={
+	id=18
+	name="STATE_19"
+	provinces={
+		181 363 1334 1752 2009 2677 2922 3410 3846 4276 4652 4790 5012 5105 5169 5191 6191 6366 6818 6911 7006 7162 7621 7884 8067 8612 8743 8766 9032 10484 10493 10512 10514 10541 10548 10561 10567 10583 10585 10599 10620 10630 10637 10641 10653 10680 
+	}
+	history={
+	owner = SAK
+	add_core_of = SAK
+	victory_points = { 1752 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			1752 = {
+			    naval_base = 1
+			}	
+		}
+		start_resistance = yes
+		set_resistance = 45
+	}
+	manpower=55000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

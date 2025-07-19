@@ -1,0 +1,16 @@
+characters={
+	ABK_provisional_government={ #first Leader
+		name="Abkhazias provisional government"
+		portraits={
+			civilian={
+				large="gfx/leaders/ABK/portrait_ABK_government.png"
+			}
+		}
+		country_leader={
+			ideology=abkhazian_government
+			traits={ }
+			expire="5022.8.30.1"
+			id=-1
+		}
+    }
+}	

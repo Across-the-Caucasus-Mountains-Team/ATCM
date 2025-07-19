@@ -1,0 +1,27 @@
+state={
+	id=88
+	name="STATE_91"
+	provinces={
+		1082 2140 4737 5250 5607 9526 12224 12249 
+	}
+	history={
+	owner = ARM
+	add_core_of = ARM
+	victory_points = { 12249 50 }
+	victory_points = { 5607 1 }
+	victory_points = { 9526 1 }
+	victory_points = { 2140 1 }
+	victory_points = { 5250 1 }
+	victory_points = { 4737 1 }
+	    buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 4
+			air_base = 10
+		}
+	}
+	manpower=1420000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.9
+}

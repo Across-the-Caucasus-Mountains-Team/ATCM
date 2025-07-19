@@ -1,0 +1,122 @@
+music_station = "Russian_Music_Station"
+music = {
+	song = "Russky_Mat"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Pocledni_geroi"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "LikeOnWar"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "VDVSong"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+
+music = {
+	song = "SummerWillEnd"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+
+music = {
+	song = "DontPlaytheFoolAmerica!"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "HelloMyDearBaby"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "HelloMother"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "Soldier"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "LetsGoFor..."
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "ComBat"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "FromTheScrew"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

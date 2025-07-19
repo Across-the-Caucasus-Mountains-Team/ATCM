@@ -1,0 +1,14 @@
+state={
+	id=79
+	name="STATE_82"
+	provinces={
+		13639 
+	}
+	history={
+	owner = AZR
+	add_core_of = AZR
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}

@@ -1,0 +1,29 @@
+SOV_AZR = {
+	color = rgb { 106 59 32 }
+	color_ui = rgb { 106 59 32 }
+}
+
+SOV_ARM = {
+	color = rgb { 165 86 46 }
+	color_ui = rgb { 165 86 46 }
+}
+
+SOV_ARS = {
+	color = rgb { 165 86 46 }
+	color_ui = rgb { 165 86 46 }
+}
+
+SOV_SAK = {
+	color = rgb { 147 72 79 }
+	color_ui = rgb { 147 72 79 }
+}
+
+SOV_CHE = {
+	color = rgb { 92 35 24 }
+	color_ui = rgb { 92 35 24 }
+}
+
+SOV_RAS = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}

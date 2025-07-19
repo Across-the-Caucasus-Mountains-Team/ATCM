@@ -1,0 +1,16 @@
+characters={
+	ADJ_Aslan_Abashidze={ #Independence Leader
+		name="Aslan Abashidze"
+		portraits={
+			civilian={
+				large="gfx/leaders/ADJ/portrait_adj_aslan_abashidze.png"
+			}
+		}
+		country_leader={
+			ideology= democratic_union_for_revival
+			traits={ }
+			expire="2004.12.31.1"
+			id=-1
+		}
+	}
+}	

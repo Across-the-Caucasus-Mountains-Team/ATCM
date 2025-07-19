@@ -1,0 +1,54 @@
+music = {
+	name = "Russky_Mat"
+	file = "Russky_Mat.ogg"
+}
+
+music = {
+	name = "LikeOnWar"
+	file = "LikeOnWar.ogg"
+}
+
+music = {
+	name = "VDVSong"
+	file = "VDVSong.ogg"
+}
+
+music = {
+	name = "SummerWillEnd"
+	file = "SummerWillEnd.ogg"
+}
+
+music = {
+	name = "DontPlaytheFoolAmerica!"
+	file = "DontPlaytheFoolAmerica!.ogg"
+}
+
+music = {
+	name = "HelloMyDearBaby"
+	file = "HelloMyDearBaby.ogg"
+}
+
+music = {
+	name = "HelloMother"
+	file = "HelloMother.ogg"
+}
+
+music = {
+	name = "Soldier"
+	file = "Soldier.ogg"
+}
+
+music = {
+	name = "LetsGoFor..."
+	file = "LetsGoFor....ogg"
+}
+
+music = {
+	name = "Combat"
+	file = "Combat.ogg"
+}
+
+music = {
+	name = "FromTheScrew"
+	file = "FromTheScrew.ogg"
+}

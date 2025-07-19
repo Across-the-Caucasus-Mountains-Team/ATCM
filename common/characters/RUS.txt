@@ -1,0 +1,270 @@
+characters={
+	RAS_Mikhail_Gorbachev={ #Communist Leader
+		name="Mikhail Gorbachev"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/portrait_rus_mikheil_gorbachev.png"
+			}
+		}
+		country_leader={
+			ideology=cpotsu
+			traits={ stout_defender }
+			expire="2022.8.30.1"
+			id=-1
+		}
+    }
+	
+	RAS_Boris_Yeltsin={ #Democratic and also authoritarian Leader
+		name="Boris Yeltsin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/portrait_rus_boris_yeltsin.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_russia
+			traits={ stout_defender }
+			expire="2030.8.30.1"
+			id=-1
+		}
+	}
+	
+	RAS_Filipp_Denisovich_Bobkov = {
+		name = "Filipp Denisovich Bobkov"
+		portraits = {
+			army = {
+			    large="gfx/leaders/RUS/portrait_RAS_Filipp_Denisovich_Bobkov.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 1205
+		}
+	}
+	
+	RAS_Pavel_Grachev = {
+		name = "Pavel Grachev"
+		portraits = {
+			army = {
+			    large="gfx/leaders/RUS/portrait_RAS_Pavel_Grachev.png"
+				small = "gfx/interface/ideas/portrait_RAS_Pavel_grachev_small.png"
+			}
+		}
+		
+		field_marshal = { 
+			traits = { defensive_doctrine thorough_planner }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		
+		advisor = {
+			slot = high_command
+			idea_token = Pavel_Grachev
+			ledger = army
+			allowed = {
+				original_tag = RAS
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+	}
+	
+	RAS_Igor_Rodionov = {
+		name = "Igor Rodionov"
+		portraits = {
+			army = {
+			    large="gfx/leaders/RUS/portrait_RAS_Igor_Rodionov.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 1204
+		}
+	}
+	
+	RAS_Valentin_Korabelnikov = {
+		name = "Valentin Korabelnikov"
+		portraits = {
+			army = {
+			    large="gfx/leaders/RUS/portrait_RAS_Valentin_Korabelnikov.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 1203
+		}
+	}
+	
+	RAS_Anatoly_Kvashnin = {
+		name = "Anatoly Kvashnin"
+		portraits = {
+			army = {
+			    large="gfx/leaders/RUS/portrait_RAS_Anatoly_Kvashnin.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 1202
+		}
+	}
+	
+	RAS_Vadim_Bakatin = {
+		name = "Vadim Bakatin"
+		portraits = {
+			army = {
+			    large="gfx/leaders/RUS/portrait_RAS_Vadim_Bakatin.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 1202
+		}
+	}
+	
+	RAS_Anatoly_Chernyaev={
+		advisor={
+			slot = political_advisor
+			idea_token = RAS_Anatoly_Chernyaev
+			allowed  = {
+					original_tag  = RAS
+				}
+				traits  = {
+					tenacious_negotiator 
+				}
+		}
+		name = "Anatoly Chernyaev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_RAS_Anatoly_Chernyaev_small.png"
+			}
+		}
+	}	
+	
+	RAS_Boris_Pugo={
+		advisor={
+			slot = political_advisor
+			idea_token = RAS_Boris_Pugo
+			allowed  = {
+					original_tag  = RAS
+				}
+				traits  = {
+					priestly_prime_minister 
+				}
+		}
+		name = "Boris Pugo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_RAS_Boris_Pugo_small.png"
+			}
+		}
+	}	
+	
+	RAS_Gennady_Yanayev={
+		advisor={
+			slot = political_advisor
+			idea_token = RAS_Gennady_Yanayev
+			allowed  = {
+					original_tag  = RAS
+				}
+				traits  = {
+					figurehead_president 
+				}
+		}
+		name = "Gennady Yanayev"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_RAS_Gennady_Yanayev_small.png"
+			}
+		}
+	}
+	
+	RAS_Gennady_Burbulis={
+		advisor={
+			slot = political_advisor
+			idea_token = RAS_Gennady_Burbulis
+			allowed  = {
+					original_tag  = RAS
+				}
+				traits  = {
+					ideological_crusader 
+				}
+		}
+		name = "Gennady Burbulis"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_RAS_gennady_Burbulis_Small.png"
+			}
+		}
+	}
+	
+	RAS_Alexander_Rutskoy={
+		advisor={
+			slot = political_advisor
+			idea_token = RAS_Alexander_Rutskoy
+			allowed  = {
+					original_tag  = RAS
+				}
+				traits  = {
+					national_propagandist 
+				}
+		}
+		name = "Alexander Rutskoy"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_RAS_Alexander_Rutskoy_Small.png"
+			}
+		}
+	}
+	
+	RAS_Yegor_Gaidar={
+		advisor={
+			slot = political_advisor
+			idea_token = RAS_Yegor_Gaidar
+			allowed  = {
+					original_tag  = RAS
+				}
+				traits  = {
+					priestly_prime_minister 
+				}
+		}
+		name = "Yegor Gaidar"
+		portraits={
+			army={
+				small="gfx/interface/ideas/portrait_RAS_Yegor Gaidar_small.png"
+			}
+		}
+	}
+}	

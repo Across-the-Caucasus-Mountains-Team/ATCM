@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+		OST_fight_for_independence = {
+			
+			allowed = {
+				original_tag = OST
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_war_in_samachablo
+			
+			modifier = {
+				war_support_factor = 0.1
+				army_defence_factor = 0.05
+				weekly_manpower = 200
+				conscription = 0.01
+				Surrender_limit = 0.5
+			}
+		}
+	}
+}	

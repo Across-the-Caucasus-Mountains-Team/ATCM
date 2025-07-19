@@ -1,0 +1,42 @@
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3914
+		division_template = "Mkhedrioni-danakofi"
+		start_experience_factor = 0.17
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3914
+		division_template = "Mkhedrioni-danakofi"
+		start_experience_factor = 0.17
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3914
+		division_template = "Mkhedrioni-danakofi"
+		start_experience_factor = 0.17
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3914
+		division_template = "Mkhedrioni-danakofi"
+		start_experience_factor = 0.17
+	}
+}	

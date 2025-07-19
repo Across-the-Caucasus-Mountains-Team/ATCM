@@ -1,0 +1,22 @@
+state={
+	id=123
+	name="STATE_126"
+	provinces={
+		2114 2767 4148 6587 7157 8326
+	}
+	history={
+	    owner = RAS
+	    add_core_of = RAS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = { 8326 15 }
+	}	
+	manpower = 153153
+	buildings_max_level_factor=1.000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

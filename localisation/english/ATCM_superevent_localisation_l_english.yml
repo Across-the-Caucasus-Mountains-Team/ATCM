@@ -1,0 +1,16 @@
+﻿l_english:
+  sp_event_SOV_August_Coup_title:0 "August Coup"
+  sp_event_SOV_August_Coup_quote:0 "“The USSR, as a state, as a single entity, as a geopolitical entity, will cease to exist”. \n- §YGennady Yanaev§!"
+  sp_event_SOV_August_Coup_remark:0 "The end of the USSR is near..."
+
+  sp_event_SOV_End_Of_The_Ussr_title:0 "End of the USSR"
+  sp_event_SOV_End_Of_The_Ussr_quote:0 "“We did not build what the people needed. It is time to build another state, free and democratic”. \n- §YBoris Yeltsin§!"
+  sp_event_SOV_End_Of_The_Ussr_remark:0 "End of an era"
+
+  sp_event_RAS_Black_October_title:0 "Black October"
+  sp_event_RAS_Black_October_quote:0 "“It was a coup. Yeltsin dissolved parliament, and it was a coup.”. \n- §YSupporters of Parliament§!"
+  sp_event_RAS_Black_October_remark:0 "The beginning of the death of democracy in Russia"
+
+  sp_event_RAS_First_Chechen_War_title:0 "First Chechen War"
+  sp_event_RAS_First_Chechen_War_quote:0 "“I don’t have any malice towards Russia, I just have a feeling of disgust, like towards dead cattle”. \n- §YDzhokhar Dudayev§!"
+  sp_event_RAS_First_Chechen_War_remark:0 "The beginning of the bloodbath"

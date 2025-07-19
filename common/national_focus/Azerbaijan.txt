@@ -1,0 +1,254 @@
+focus_tree = {
+	id = Azerbaijan_focus_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = AZR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 6000 y = 500 }
+	
+	focus = {
+		id = AZR_Black_January
+		icon = GFX_AZR_Black_January
+		x = 13
+		y = 0
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = -50
+			add_war_support = -0.15
+			add_stability = -0.15
+			83 = {
+				add_manpower = -163
+			}
+		}	
+	}
+
+	focus = {
+		id = AZR_Consolidate_Party_Control
+		icon = GFX_AZR_Consolidate_the_power
+		x = 13
+		y = 1
+		prerequisite = { focus = AZR_Black_January }
+		
+		cost = 13
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 20
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = AZR_Karabakh_Campaign
+		icon = GFX_AZR_Operations
+		x = 9
+		y = 2
+		prerequisite = { focus = AZR_Consolidate_Party_Control }
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 20
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = AZR_Operation_ring
+		icon = GFX_AZR_Operation_ring
+		x = 9
+		y = 3
+		prerequisite = { focus = AZR_Karabakh_Campaign }
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 20
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = AZR_Independence
+		icon = GFX_AZR_Independence
+		x = 13
+		y = 4
+		prerequisite = { focus = AZR_Operation_ring }
+		prerequisite = { focus = AZR_Purge_Popular_front }
+		
+		cost = 157
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			country_event = Azerbaijan.1 
+			news_event = { 
+				id = news.6 
+				days = 2
+			}
+		}	
+	}
+
+	focus = {
+		id = AZR_Internal_order
+		icon = GFX_AZR_internal_order
+		x = 17
+		y = 2
+		prerequisite = { focus = AZR_Consolidate_Party_Control }
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 20
+			add_stability = 0.05
+		}	
+	}
+
+	focus = {
+		id = AZR_Purge_Popular_front
+		icon = GFX_AZR_Purge_popular_front
+		x = 17
+		y = 3
+		prerequisite = { focus = AZR_Consolidate_Party_Control }
+		
+		cost = 50
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		    add_political_power = 20
+			add_stability = 0.05
+		}	
+	}
+}	

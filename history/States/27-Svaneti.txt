@@ -1,0 +1,24 @@
+state={
+	id=26
+	name="STATE_27"
+	provinces={
+		444 484 732 1572 1828 2118 2463 2509 3444 4147 4356 4374 4482 4503 4845 5230 5424 5541 5559 5561 5667 5969 5985 6037 6453 6674 6851 7476 8123 8360 8669 9110 9468 10766 10798 10803 10815 10826 10832 10841 
+	}
+	resources={
+		tungsten=13
+	}
+	
+	history={
+	owner = SAK
+	add_core_of = SAK
+	victory_points = { 6037 15 }
+	buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=23000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

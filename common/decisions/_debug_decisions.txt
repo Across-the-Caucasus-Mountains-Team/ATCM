@@ -1,0 +1,53 @@
+debug_decisions = {
+
+	debug_show_decisions = {
+		priority = 100
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			NOT = { has_global_flag = show_debug_decisions_flag }
+		}
+		complete_effect = {
+			set_global_flag = show_debug_decisions_flag
+		}
+	}
+ 
+	debug_hide_decisions = {
+		priority = -1
+		allowed = {
+			always = yes 
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+		complete_effect = {
+			clr_global_flag = show_debug_decisions_flag
+		}
+	}
+
+	load_russian_federation_focus_tree = {
+		priority = -1
+		allowed = {
+			always = yes 
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+		complete_effect = {
+			RAS = {
+				complete_national_focus = RAS_end_of_the_ussr
+			}
+		}
+	}
+	
+}

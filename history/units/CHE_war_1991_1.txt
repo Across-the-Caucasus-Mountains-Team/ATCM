@@ -1,0 +1,279 @@
+
+division_template = {
+	name = "Ġaşloyn bataljon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Nizam docu bataljon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_inf_02
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+        irregular_infantry = { x = 0 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Artillerin bataljon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_Art_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	    artillery_brigade  = { x = 1 y = 0 }
+		artillery_brigade  = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17366
+		division_template = "Ġaşloyn bataljon"
+		start_experience_factor = 0.4
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17366
+		division_template = "Ġaşloyn bataljon"
+		start_experience_factor = 0.45
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17366
+		division_template = "Ġaşloyn bataljon"
+		start_experience_factor = 0.65
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17366
+		division_template = "Ġaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17385
+		division_template = "Ġaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17368
+		division_template = "Ġaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8281
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8281
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10581
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17367
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17367
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 128
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2854
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10304
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 147
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10862
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10788
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6457
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6457
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 377
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 377
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2964
+		division_template = "Artillerin bataljon"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10593
+		division_template = "Artillerin bataljon"
+		start_experience_factor = 0.1
+	}
+}	

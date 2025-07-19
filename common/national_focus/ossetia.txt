@@ -1,0 +1,163 @@
+focus_tree = {
+	id = ossetia
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OST
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 6000 y = 500 }
+	
+	focus = {
+		id = OST_battle_for_tskhinvali
+		icon = GFX_SAK_Aftermath_coup
+		x = 6
+		y = 0
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			33 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 3
+                    province = {
+                        id = 545
+					}
+					instant_build = yes
+				}
+			}
+		}	
+	}
+
+	focus = {
+		id = OST_rise_up_militia
+		icon = GFX_SAK_Aftermath_coup
+		x = 3
+		y = 1
+		prerequisite = { focus = OST_battle_for_tskhinvali }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_manpower = 20000
+		}	
+	}
+
+	focus = {
+		id = OST_disrupte_enemy_supply
+		icon = GFX_SAK_Aftermath_coup
+		x = 9
+		y = 1
+		prerequisite = { focus = OST_battle_for_tskhinvali }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			SAK = {
+				add_ideas = SAK_disrupted_supply_lines
+			}
+		}	
+	}
+
+	focus = {
+		id = OST_fortify_java
+		icon = GFX_SAK_Aftermath_coup
+		x = 6
+		y = 1
+		prerequisite = { focus = OST_battle_for_tskhinvali }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			33 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 3
+                    province = {
+                        id = 3719
+					}
+					instant_build = yes
+				}
+			}
+		}	
+	}
+}	

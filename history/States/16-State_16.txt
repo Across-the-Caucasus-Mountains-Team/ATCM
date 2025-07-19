@@ -1,0 +1,26 @@
+state={
+	id=15
+	name="STATE_16"
+	provinces={
+		564 901 993 1010 1914 1966 2036 3268 3929 4160 4203 4326 4455 5138 5368 5379 5415 5580 6375 6384 6568 7123 7264 7308 7410 7459 7502 7567 7960 8110 8227 8918 9083 9129 9186 9287 9352 9387 10395 10411 10419 10424 10433 10436 10445 10452 10454 10458 10462 10477 10478 10495 10502 10511 10537 
+	}
+	history={
+	owner = RAS
+	add_core_of = RAS
+	victory_points = { 7410 20 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+			dockyard = 1
+			7410 = {
+			    naval_base = 2
+			}	
+		}
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}
