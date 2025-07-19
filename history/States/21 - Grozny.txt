@@ -1,6 +1,6 @@
 state={
 	id=21
-	name="STATE_22"
+	name="STATE_21"
 	provinces={
 		8281 10581 10593 10609 17366 17367 17368 17370
 	}
@@ -11,19 +11,19 @@ state={
 	}
 	
 	history={
-	    victory_points = { 10581 1 }
+		victory_points = { 10581 1 }
 		victory_points = { 10609 50 }
 		victory_points = { 8281 1 }
-	    owner = CHE
+		owner = CHE
 		add_core_of = CHE
-	    buildings = {
+		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			arms_factory = 3
 		}
 	}
 	buildings_max_level_factor=1.000
-    manpower=401693
-    state_category = large_city
+	manpower=401693
+	state_category = large_city
 	local_supplies=0.9
 }

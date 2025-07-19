@@ -12,8 +12,8 @@ state={
 	}
 	
 	history = {
-	    owner = RAS
-	    add_core_of = RAS
+		owner = RAS
+		add_core_of = RAS
 		victory_points = { 7315 25 }
 		victory_points = { 6623 5 }
 		victory_points = { 9410 3 }
@@ -23,7 +23,7 @@ state={
 			air_base = 4
 			arms_factory = 1
 			7315 = {
-			    naval_base = 3
+				naval_base = 3
 			}	
 		}
 	}

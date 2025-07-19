@@ -1,19 +1,19 @@
 state={
 	id=20
-	name="STATE_21"
+	name="STATE_20"
 	provinces={
 		79 2044 2422 4141 4807 5484 6901 7018 8086 8731 10551 10556 10560 10569 10582 10592 10596 10601 10612 10633 17371 17383
 	}
 	
 	resources = {
-	    oil = 89
+		oil = 89
 	}	
 	
 	history={
-	    owner = CHE
-	    add_core_of = CHE
+		owner = CHE
+		add_core_of = CHE
 	}
 	buildings_max_level_factor=1.000
-    manpower=89421
-    state_category = town
+	manpower=89421
+	state_category = town
 }
