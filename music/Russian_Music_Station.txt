@@ -120,3 +120,23 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "VperedRussia"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "WhenWeWereOnWar"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

@@ -32,3 +32,8 @@ music = {
 	name = "ShamilBasayevMusic"
 	file = "Chechen_music/ShamilBasayevMusic.ogg"
 }
+
+music = {
+	name = "Lezginka"
+	file = "Chechen_music/Lezginka.ogg"
+}

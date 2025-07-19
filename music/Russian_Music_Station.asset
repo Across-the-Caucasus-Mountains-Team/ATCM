@@ -52,3 +52,13 @@ music = {
 	name = "FromTheScrew"
 	file = "FromTheScrew.ogg"
 }
+
+music = {
+	name = "VperedRussia"
+	file = "Russian_Music/VperedRussia.ogg"
+}
+
+music = {
+	name = "WhenWeWereOnWar"
+	file = "Russian_Music/WhenWeWereOnWar.ogg"
+}

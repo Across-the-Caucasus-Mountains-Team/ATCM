@@ -68,3 +68,13 @@ music_station = "Chechen_Music_Station_MMCT"
 		    }
 	    }
     }
+
+	music = {
+	    song = "Lezginka"
+	    chance = {
+		factor = 0
+		    modifier = {
+			    factor = 100
+		    }
+	    }
+    }
