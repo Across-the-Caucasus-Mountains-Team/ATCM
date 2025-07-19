@@ -66,6 +66,7 @@ recruit_character = CHE_Ruslan_Gelayev
 recruit_character = CHE_Shamil_Basayev
 recruit_character = CHE_Zelimkhan_Yandarbiev
 recruit_character = CHE_Abalaev_Khadzhievich
+recruit_character = CHE_aslan_maskhadov
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
