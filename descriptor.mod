@@ -2,7 +2,6 @@ version="0.1"
 tags={
 	"Utilities"
 }
-
 replace_path="common/peace_conference/ai_peace"
 replace_path="common/peace_conference/cost_modifiers"
 replace_path="common/ai_strategy"
@@ -49,6 +48,5 @@ replace_path="events"
 replace_path="music"
 replace_path="music/hoi3"
 replace_path="music/hoi2"
-
 name="ATCM Modding"
-supported_version="1.16.9"
+supported_version="1.16.*"
