@@ -48,7 +48,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_propaganda_of_nationalism
-		icon = GFX_CHE_Future_of_the_Chechen_ingush_republic
+		icon = GFX_CHE_propaganda_of_nationalism
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
@@ -81,7 +81,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_2nd_session_of_the_firs_chechen_national_congress
-		icon = GFX_CHE_Future_of_the_Chechen_ingush_republic
+		icon = GFX_CHE_2nd_session_of_the_firs_chechen_national_congress
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
