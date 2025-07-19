@@ -24,7 +24,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = conservatism
 	last_election = "1990.5.20"
 	election_frequency = 48
 	elections_allowed = no
@@ -32,10 +32,12 @@ set_politics = {
 
 set_popularities = {
 	liberalism = 7
-	authoritarianism = 71
+	authoritarianism = 9
 	nationalism = 17
-	conservatism = 9
+	conservatism = 71
 }
+
+recruit_character = TUR_turgut_ozal
 
 1996.1.1 = {
 }

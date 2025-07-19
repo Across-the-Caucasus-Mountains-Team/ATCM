@@ -12,13 +12,37 @@
 
 leader_traits = {
 
-    catholic_patriarch_of_all_georgia = {
-	    random = no
-	    sprite = 13
-	    stability_factor = 0.15
-	    war_support_factor = 0.05
-	    army_morale_factor = 0.1
-	    conservatism_drift = 0.01
-	    compliance_growth_on_our_occupied_states = -0.5
-    }
+	catholic_patriarch_of_all_georgia = {
+		random = no
+		sprite = 13
+		stability_factor = 0.15
+		war_support_factor = 0.05
+		army_morale_factor = 0.1
+		conservatism_drift = 0.01
+		compliance_growth_on_our_occupied_states = -0.5
+	}
+
+	TUR_turgut_ozal_T1 = { #New Right
+		random = no
+		sprite = 13
+		political_power_factor = 0.03
+		conservatism_drift = 0.01
+	}
+
+	TUR_turgut_ozal_T2 = { #Kurdish
+		random = no
+		sprite = 13
+		stability_factor = 0.05
+		war_support_factor = -0.05
+	}
+
+	TUR_turgut_ozal_T3 = { #Armenian Genocide Denier
+		random = no
+		sprite = 13
+		ai_strategy = {
+			type = antagonize
+			id = "ARM"
+			value = 50
+		}
+	}
 }
