@@ -53,6 +53,7 @@ guiTypes = {
 			spriteType = "GFX_closebutton"
 			position = { x = 565 y = 5 }
 			clicksound = click_close
+			shortcut = ESCAPE
 		}
 
 		###############

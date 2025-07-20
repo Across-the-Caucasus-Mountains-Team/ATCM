@@ -72,4 +72,73 @@ ideas = {
 		}
 	}
 
+	education = {
+		law = yes
+		use_list_view = yes
+
+		free_universities = {
+
+			cost = 150
+			removal_cost = -1
+			level = 4
+
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = 0.15
+				custom_modifier_tooltip = free_universities_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		free_high_schools = {
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = 0.05
+				custom_modifier_tooltip = free_high_schools_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		free_elementary_and_middle_schools = {
+
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = -0.1
+				custom_modifier_tooltip = free_elementary_and_middle_schools_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		private_education = {
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			available = {
+			}
+
+			modifier = {
+				research_speed_factor = -0.25
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
 }

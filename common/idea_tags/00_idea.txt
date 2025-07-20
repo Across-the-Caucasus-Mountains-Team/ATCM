@@ -39,9 +39,9 @@ idea_categories = {
 
 	services = {
 		slot = healthcare
-		slot = policing
-		slot = education
 		slot = social_security
+		slot = education
+		slot = policing
 		
 		ledger = civilian
 		

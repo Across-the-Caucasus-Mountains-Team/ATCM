@@ -79,6 +79,31 @@ ATCM_economy_setup = {
 			var = healthcare_expense
 			value = 100
 		}
+		round_variable = healthcare_expense
+		set_variable = {
+			var = healthcare_expense_universal_health_care
+			value = var:healthcare_expense
+		}
+		multiply_variable = {
+			var = healthcare_expense_universal_health_care
+			value = 6.5
+		}
+		set_variable = {
+			var = healthcare_expense_free_checkups
+			value = var:healthcare_expense
+		}
+		multiply_variable = {
+			var = healthcare_expense_free_checkups
+			value = 4.5
+		}
+		set_variable = {
+			var = healthcare_expense_free_emergencies_only
+			value = var:healthcare_expense
+		}
+		multiply_variable = {
+			var = healthcare_expense_free_emergencies_only
+			value = 1.85
+		}
 		if = {
 			limit = {
 				has_idea = universal_health_care
@@ -116,30 +141,6 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = healthcare_expense
-		set_variable = {
-			var = healthcare_expense_universal_health_care
-			value = var:healthcare_expense
-		}
-		multiply_variable = {
-			var = healthcare_expense_universal_health_care
-			value = 6.5
-		}
-		set_variable = {
-			var = healthcare_expense_free_checkups
-			value = var:healthcare_expense
-		}
-		multiply_variable = {
-			var = healthcare_expense_free_checkups
-			value = 4.5
-		}
-		set_variable = {
-			var = healthcare_expense_free_emergencies_only
-			value = var:healthcare_expense
-		}
-		multiply_variable = {
-			var = healthcare_expense_free_emergencies_only
-			value = 1.85
-		}
 		subtract_from_variable = {
 			var = cash
 			value = var:healthcare_expense
