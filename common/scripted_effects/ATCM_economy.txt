@@ -77,7 +77,7 @@ ATCM_economy_setup = {
 		}
 		divide_variable = {
 			var = healthcare_expense_show
-			value = 100
+			value = 144
 		}
 		round_variable = healthcare_expense_show
 
