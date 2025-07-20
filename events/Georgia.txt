@@ -818,9 +818,6 @@ country_event = {
 				load_oob = OST_1991
 			}
 		}	
-		OST = {
-			add_ideas = OST_fight_for_independence
-		}
 		add_threat = 10
 	}
 	
@@ -839,9 +836,6 @@ country_event = {
 		}	
 		OST = { 
 			change_tag_from = ROOT 
-		}
-		OST = {
-			add_ideas = OST_fight_for_independence
 		}
 		add_threat = 10
 	}

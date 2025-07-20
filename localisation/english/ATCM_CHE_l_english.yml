@@ -73,8 +73,14 @@
   CHE_The_Fanatical_Resistance:0 "The fanatical resistance"
 
   CHE_counteroffensives_decision:0 "Counterattacks"
-  CHE_peace_negotiations_first_chechen_war_decision:0 "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§"
+  CHE_peace_negotiations_first_chechen_war_decision_desc:0 "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§"
   CHE_hold_Argun:0 "Hold Argun"
+
+  CHE_elections_1991_decision:0 "Elections in 1991"
+  CHE_elections_1991_decision_desc:0 "The Chechen Republic is in the midst of its first-ever presidential election. The situation is volatile: central Soviet authority is collapsing, and the region is operating outside Moscow’s control. While much of the population supports independence, others fear isolation or war. \n\nSupport of Dudayev: §Y[?CHE_dudayev_support_value|%%]§! \n\nSupport of Basayev: §Y[?CHE_basayev_support_value|%%]§!"
+  CHE_hold_Argun:0 "Hold Argun"
+  add_basayev_support_to_var_tt:0 "§YIncrease support for §RBasayev§!"
+  add_dudayev_support_to_var_tt:0 "§YIncrease support for §RDudayev§!"
 
 
 
@@ -109,6 +115,9 @@
   chechnya.14.t:0 "Russia staged an assassination attempt on Dudayev"
   chechnya.14.d:0 "Russian forces have conducted a precision missile strike on what they believed to be the location of President Dzhokhar Dudayev. However, the Chechen leader reportedly left the area minutes before impact. While several guards were killed and local infrastructure was damaged, Dudayev survived unscathed."
   chechnya.14.a:0 "Damn Russia"
+  chechnya.15.t:0 "Basayev won"
+  chechnya.15.d:0 "Basayev won"
+  chechnya.15.a:0 "Allahu Akbar"
 
 
   CHE_Unrecognized_Country:0 "Unrecognized Country"
