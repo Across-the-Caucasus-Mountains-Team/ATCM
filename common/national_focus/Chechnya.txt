@@ -154,10 +154,6 @@ focus_tree = {
 					id = chechnya.1
 					days = 269
 				}
-				country_event = {
-					id = chechnya.4
-					days = 54
-				}
 				add_stability = -0.05
 			    add_war_support = -0.35
 			}

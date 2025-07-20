@@ -12,12 +12,12 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 6000 y = 500 }
+	continuous_focus_position = { x = 3000 y = 500 }
 	
 	focus = {
 		id = AZR_Black_January
 		icon = GFX_AZR_Black_January
-		x = 13
+		x = 7
 		y = 0
 		
 		cost = 1
@@ -53,9 +53,10 @@ focus_tree = {
 	focus = {
 		id = AZR_Consolidate_Party_Control
 		icon = GFX_AZR_Consolidate_the_power
-		x = 13
+		x = 0
 		y = 1
 		prerequisite = { focus = AZR_Black_January }
+		relative_position_id = AZR_Black_January
 		
 		cost = 13
 		
@@ -86,9 +87,10 @@ focus_tree = {
 	focus = {
 		id = AZR_Karabakh_Campaign
 		icon = GFX_AZR_Operations
-		x = 9
-		y = 2
+		x = -1
+		y = 1
 		prerequisite = { focus = AZR_Consolidate_Party_Control }
+		relative_position_id = AZR_Consolidate_Party_Control
 		
 		cost = 10
 		
@@ -119,9 +121,10 @@ focus_tree = {
 	focus = {
 		id = AZR_Operation_ring
 		icon = GFX_AZR_Operation_ring
-		x = 9
-		y = 3
+		x = 0
+		y = 1
 		prerequisite = { focus = AZR_Karabakh_Campaign }
+		relative_position_id = AZR_Karabakh_Campaign
 		
 		cost = 50
 		
@@ -152,10 +155,11 @@ focus_tree = {
 	focus = {
 		id = AZR_Independence
 		icon = GFX_AZR_Independence
-		x = 13
-		y = 4
+		x = 1
+		y = 1
 		prerequisite = { focus = AZR_Operation_ring }
 		prerequisite = { focus = AZR_Purge_Popular_front }
+		relative_position_id = AZR_Operation_ring
 		
 		cost = 157
 		
@@ -189,9 +193,10 @@ focus_tree = {
 	focus = {
 		id = AZR_Internal_order
 		icon = GFX_AZR_internal_order
-		x = 17
-		y = 2
+		x = 1
+		y = 1
 		prerequisite = { focus = AZR_Consolidate_Party_Control }
+		relative_position_id = AZR_Consolidate_Party_Control
 		
 		cost = 10
 		
@@ -222,9 +227,10 @@ focus_tree = {
 	focus = {
 		id = AZR_Purge_Popular_front
 		icon = GFX_AZR_Purge_popular_front
-		x = 17
-		y = 3
-		prerequisite = { focus = AZR_Consolidate_Party_Control }
+		x = 0
+		y = 1
+		prerequisite = { focus = AZR_Internal_order }
+		relative_position_id = AZR_Internal_order
 		
 		cost = 50
 		

@@ -12,12 +12,12 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 4500 y = 500 }
+	continuous_focus_position = { x = 3000 y = 500 }
 
 	focus = {
 		id = SAK_Our_Actions
 		icon = GFX_Goal_SAK_Our_Actions
-		x = 20
+		x = 7
 		y = 0
 		
 		cost = 8
@@ -54,8 +54,9 @@ focus_tree = {
 		id = SAK_Little_fish
 		icon = GFX_Goal_SAK_Little_Fish
 		prerequisite = { focus = SAK_Our_Actions }
-		x = 10
-		y = 0
+		x = -2
+		y = 1
+		relative_position_id = SAK_Our_Actions
 		
 		cost = 8
 		
@@ -86,8 +87,8 @@ focus_tree = {
 		
 		completion_reward = {
 			declare_war_on = {
-            target = OST
-            type = annex_everything
+         	   target = OST
+         	   type = annex_everything
             }
 			news_event = { id = news.15 }
 		}	
@@ -97,8 +98,9 @@ focus_tree = {
 		id = SAK_Our_eyes_In_Tbilisi
 		icon = GFX_Goal_SAK_Eyes_On_Tbilisi
 		prerequisite = { focus = SAK_Our_Actions }
-		x = 30
-		y = 0
+		x = 2
+		y = 1
+		relative_position_id = SAK_Our_Actions
 		
 		cost = 8
 		
@@ -131,8 +133,9 @@ focus_tree = {
 		id = SAK_Arrest_Oppositions
 		icon = GFX_Goal_Generic_Arresting
 		prerequisite = { focus = SAK_Our_eyes_In_Tbilisi }
-		x = 28
+		x = -1
 		y = 1
+		relative_position_id = SAK_Our_eyes_In_Tbilisi
 		
 		cost = 8
 		
@@ -163,8 +166,9 @@ focus_tree = {
 		id = SAK_Raid_their_offices
 		icon = GFX_Goal_Generic_Raid
 		prerequisite = { focus = SAK_Our_eyes_In_Tbilisi }
-		x = 32
+		x = 1
 		y = 1
+		relative_position_id = SAK_Our_eyes_In_Tbilisi
 		
 		cost = 8
 		
@@ -196,8 +200,9 @@ focus_tree = {
 		id = Sak_Arrest_bandits
 		icon = GFX_Goal_Generic_Arrest_bandits
 		prerequisite = { focus = SAK_Arrest_Oppositions }
-		x = 28
-		y = 2
+		x = 0
+		y = 1
+		relative_position_id = SAK_Arrest_Oppositions
 		
 		cost = 8
 		
@@ -228,8 +233,9 @@ focus_tree = {
 		id = SAK_Fortify_Political_Prisons
 		icon = GFX_SAK_fortify_Prisons
 		prerequisite = { focus = SAK_Raid_their_offices }
-		x = 32
-		y = 2
+		x = 0
+		y = 1
+		relative_position_id = SAK_Raid_their_offices
 		
 		cost = 8
 		
@@ -262,8 +268,9 @@ focus_tree = {
 		icon = GFX_SAK_crackdown_kitovani_ng
 		prerequisite = { focus = SAK_Fortify_Political_Prisons }
 		prerequisite = { focus = Sak_Arrest_bandits }
-		x = 30
-		y = 3
+		x = 1
+		y = 1
+		relative_position_id = SAK_Fortify_Political_Prisons
 		
 		cost = 8
 		
@@ -297,8 +304,9 @@ focus_tree = {
 		id = SAK_Our_National_Speechs
 		icon = GFX_GOAL_GAM_Speec_for_zviadists
 		prerequisite = { focus = SAK_Crackdown_kitovani_national_guard }
-		x = 29
-		y = 4
+		x = -1
+		y = 1
+		relative_position_id = SAK_Crackdown_kitovani_national_guard
 		
 		cost = 8
 		
@@ -330,8 +338,9 @@ focus_tree = {
 		id = SAK_Interview_with_foreign_journalists
 		icon = GFX_Goal_SAK_Interview_with_journalists
 		prerequisite = { focus = SAK_Crackdown_kitovani_national_guard }
-		x = 31
-		y = 4
+		x = 1
+		y = 1
+		relative_position_id = SAK_Crackdown_kitovani_national_guard
 		
 		cost = 8
 		
@@ -363,8 +372,9 @@ focus_tree = {
 		id = SAK_Ban_Communism
 		icon = GFX_Goal_Generic_Decommunization
 		prerequisite = { focus = SAK_Raid_their_offices }
-		x = 34
-		y = 2
+		x = 2
+		y = 1
+		relative_position_id = SAK_Raid_their_offices
 		
 		cost = 8
 		
@@ -400,8 +410,9 @@ focus_tree = {
 		id = SAK_Send_National_Guard
 		icon = GFX_Goal_SAK_National_Guard
 		prerequisite = { focus = SAK_Little_fish }
-		x = 10
+		x = 0
 		y = 1
+		relative_position_id = SAK_Little_fish
 		
 		cost = 8
 		
@@ -438,8 +449,9 @@ focus_tree = {
 		id = SAK_Battle_of_tskhinvali
 		icon = GFX_Goal_SAK_Battle_of_tskhinvali
 		prerequisite = { focus = SAK_Send_National_Guard }
-		x = 8
-		y = 2
+		x = -1
+		y = 1
+		relative_position_id = SAK_Send_National_Guard
 		
 		cost = 7
 		
@@ -479,8 +491,9 @@ focus_tree = {
 		id = SAK_Close_Rock_mountain_pass
 		icon = GFX_SAK_Close_Roki_Tunnel
 		prerequisite = { focus = SAK_Send_National_Guard }
-		x = 12
-		y = 2
+		x = 1
+		y = 1
+		relative_position_id = SAK_Send_National_Guard
 		
 		cost = 7
 		
@@ -519,8 +532,9 @@ focus_tree = {
 		prerequisite = { focus = SAK_Battle_of_tskhinvali }
 		prerequisite = { focus = SAK_Close_Rock_mountain_pass }
 		mutually_exclusive = { focus = SAK_Crackdown_Abkhazians }
-		x = 11
-		y = 4
+		x = 0
+		y = 1
+		relative_position_id = SAK_Close_Rock_mountain_pass
 		
 		cost = 7
 		
@@ -569,8 +583,9 @@ focus_tree = {
 		prerequisite = { focus = SAK_Battle_of_tskhinvali }
 		prerequisite = { focus = SAK_Close_Rock_mountain_pass }
 		mutually_exclusive = { focus = SAK_negotiate_with_Abkhazia }
-		x = 9
-		y = 4
+		x = 0
+		y = 1
+		relative_position_id = SAK_Battle_of_tskhinvali
 		
 		cost = 7
 		
@@ -621,8 +636,9 @@ focus_tree = {
 		id = SAK_Take_Sukhumi
 		icon = GFX_SAK_control_sukhumi
 		prerequisite = { focus = SAK_Crackdown_Abkhazians }
-		x = 8
-		y = 5
+		x = 0
+		y = 1
+		relative_position_id = SAK_Crackdown_Abkhazians
 		
 		cost = 7
 		
@@ -645,6 +661,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = in_dev_focus_tt
 		}	
 	}
 
@@ -652,8 +669,9 @@ focus_tree = {
 		id = SAK_Integrate_Abkhazia
 		icon = GFX_SAK_integrate_Sukhumi
 		prerequisite = { focus = SAK_negotiate_with_Abkhazia }
-		x = 12
-		y = 5
+		x = 0
+		y = 1
+		relative_position_id = SAK_negotiate_with_Abkhazia
 		
 		cost = 7
 		
@@ -676,6 +694,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = in_dev_focus_tt
 		}	
 	}
 }	
