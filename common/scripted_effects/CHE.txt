@@ -17,3 +17,23 @@ CHE_basayev_support_clamp_and_update_ui_effect = {
 		max = 100
 	}
 }
+
+## Basayev support value
+
+CHE_basayev_support_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = CHE_basayev_support_value
+		min = 0
+		max = 100
+	}
+}
+
+## Basayev support value
+
+CHE_basayev_support_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = CHE_basayev_support_value
+		min = 0
+		max = 100
+	}
+}

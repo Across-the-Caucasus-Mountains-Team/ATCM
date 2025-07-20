@@ -38,10 +38,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
 		
 		completion_reward = {
-		    add_political_power = 150
+			add_political_power = 150
 			add_stability = 0.35
 			add_war_support = 0.35
 			add_popularity = { ideology = nationalism popularity = 0.15 }
@@ -50,8 +50,7 @@ focus_tree = {
 					id = Georgia.35
 					days = 146
 				}
-			}
-			hidden_effect = {
+
 				country_event = {
 					id = Georgia.47
 					days = 156
@@ -64,8 +63,9 @@ focus_tree = {
 		id = SAK_Decommunization
 		icon = GFX_Goal_Generic_Decommunization
 		prerequisite = { focus = SAK_Rise_From_death }
-		x = 7
-		y = 2
+		x = 0
+		y = 1
+		relative_position_id = SAK_Rise_From_death
 		
 		cost = 15
 		
@@ -85,7 +85,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
 			add_popularity = { ideology = communism popularity = -0.50 }
@@ -100,11 +100,12 @@ focus_tree = {
 		id = SAK_Start_work
 		icon = GFX_Goal_SAK_Start_work
 		prerequisite = { focus = SAK_Decommunization }
-		x = 7
-		y = 3
-		
+		x = 0
+		y = 1
+		relative_position_id = SAK_Decommunization
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
@@ -131,8 +132,9 @@ focus_tree = {
 		id = SAK_Parliament
 		icon = GFX_Goal_SAK_Goverment
 		prerequisite = { focus = SAK_Start_work }
-		x = 3
-		y = 4
+		x = -3
+		y = 1
+		relative_position_id = SAK_Start_work
 		
 		cost = 1
 		
@@ -152,10 +154,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_war_support = 0.05
 		}	
 	}
@@ -164,8 +166,9 @@ focus_tree = {
 		id = SAK_new_constitution
 		icon = GFX_Goal_Generic_Constitution
 		prerequisite = { focus = SAK_Parliament }
-		x = 1
-		y = 5
+		x = -2
+		y = 1
+		relative_position_id = SAK_Parliament
 		
 		cost = 5
 		
@@ -205,8 +208,9 @@ focus_tree = {
 		id = SAK_Establish_National_Sovereignty
 		icon = GFX_Goal_SAK_Coat_of_arms
 		prerequisite = { focus = SAK_Parliament }
-		x = 3
-		y = 5
+		x = 0
+		y = 1
+		relative_position_id = SAK_Parliament
 		
 		cost = 5
 		
@@ -242,8 +246,9 @@ focus_tree = {
 		id = SAK_Change_election_and_Political_system
 		icon = GFX_Goal_Generic_Changes
 		prerequisite = { focus = SAK_Parliament }
-		x = 5
-		y = 5
+		x = 2
+		y = 1
+		relative_position_id = SAK_Parliament
 		
 		cost = 5
 		
@@ -279,8 +284,9 @@ focus_tree = {
 		id = SAK_Privatization 
 		icon = GFX_Goal_Generic_privatization
 		prerequisite = { focus = SAK_Parliament }
-		x = 4
-		y = 6
+		x = 1
+		y = 2
+		relative_position_id = SAK_Parliament
 		
 		cost = 10
 		
@@ -310,8 +316,9 @@ focus_tree = {
 		id = SAK_Nationalization_Resources
 		icon = GFX_Goal_Generic_resources
 		prerequisite = { focus = SAK_Parliament }
-		x = 2
-		y = 6
+		x = -1
+		y = 2
+		relative_position_id = SAK_Parliament
 		
 		cost = 10
 		
@@ -345,8 +352,9 @@ focus_tree = {
 		prerequisite = { focus = SAK_Change_election_and_Political_system }
 		prerequisite = { focus = SAK_Nationalization_Resources }
 		prerequisite = { focus = SAK_Privatization }
-		x = 3
-		y = 8
+		x = 1
+		y = 1
+		relative_position_id = SAK_Nationalization_Resources
 		
 		cost = 5
 		
@@ -377,8 +385,9 @@ focus_tree = {
 		id = SAK_People
 		icon = GFX_Goal_SAK_People
 		prerequisite = { focus = SAK_Start_work }
-		x = 11
-		y = 4
+		x = 3
+		y = 1
+		relative_position_id = SAK_Start_work
 		
 		cost = 1
 		
@@ -398,10 +407,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.05
 		}	
 	}
@@ -410,8 +419,9 @@ focus_tree = {
 		id = SAK_Reform_schools
 		icon = GFX_Goal_unknown
 		prerequisite = { focus = SAK_People }
-		x = 9
-		y = 5
+		x = -2
+		y = 1
+		relative_position_id = SAK_People
 		
 		cost = 10
 		
@@ -431,11 +441,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		
 		completion_reward = {
-		    add_political_power = -50
-			add_stability = 0.05
+			add_research_slot = 1
 			country_event = { id = Georgia.3 }
 		}	
 	}
@@ -444,8 +453,9 @@ focus_tree = {
 		id = SAK_Georgianization_Policies
 		icon = GFX_Goal_SAK_Georgia
 		prerequisite = { focus = SAK_People }
-		x = 11
-		y = 5
+		x = 0
+		y = 1
+		relative_position_id = SAK_People
 		
 		cost = 10
 		
@@ -465,10 +475,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_war_support = 0.05
 		}	
 	}
@@ -477,8 +487,9 @@ focus_tree = {
 		id = SAK_Rebuild_the_faith
 		icon = GFX_Goal_generic_Orthodox
 		prerequisite = { focus = SAK_People }
-		x = 13
-		y = 5
+		x = 2
+		y = 1
+		relative_position_id = SAK_People
 		
 		cost = 10
 		
@@ -498,10 +509,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_STABILITY }
 		
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_war_support = 0.05
 			add_stability = 0.05
 			country_event = { id = Georgia.4 }
@@ -512,8 +523,9 @@ focus_tree = {
 		id = SAK_Create_New_Currency
 		icon = GFX_Goal_SAK_New_Currency
 		prerequisite = { focus = SAK_Rebuild_the_faith }
-		x = 12
-		y = 6
+		x = -1
+		y = 1
+		relative_position_id = SAK_Rebuild_the_faith
 		
 		cost = 10
 		
@@ -533,13 +545,13 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_INDUSTRY }
 		
 		completion_reward = {
-		    add_political_power = -25
+			add_political_power = -25
 			add_stability = 0.05
 			add_timed_idea = {
-			    days = 60
+				days = 60
 				idea = SAK_New_Currency
 			}	
 		}	
@@ -549,8 +561,9 @@ focus_tree = {
 		id = SAK_april_Tragedy
 		icon = GFX_Goal_SAK_April_Tragedy
 		prerequisite = { focus = SAK_Reform_schools }
-		x = 10
-		y = 6
+		x = 1
+		y = 1
+		relative_position_id = SAK_Reform_schools
 		
 		cost = 10
 		
@@ -570,10 +583,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 		
 		completion_reward = {
-		    remove_ideas = SAK_Tbilisi_syndrome
+			remove_ideas = SAK_Tbilisi_syndrome
 			add_timed_idea = {
 				idea = SAK_Tbilisi_syndrome_2
 				days = 90
@@ -590,8 +603,9 @@ focus_tree = {
 		prerequisite = { focus = SAK_Rebuild_the_faith }
 		prerequisite = { focus = SAK_april_Tragedy }
 		prerequisite = { focus = SAK_Create_New_Currency }
-		x = 11
-		y = 8
+		x = 0
+		y = 2
+		relative_position_id = SAK_Georgianization_Policies
 		
 		cost = 5
 		
@@ -600,7 +614,7 @@ focus_tree = {
 		}
 		
 		available = {
-            has_completed_focus = SAK_abkhazians
+			has_completed_focus = SAK_abkhazians
 		}
 		
 		bypass = {
@@ -623,8 +637,9 @@ focus_tree = {
 		icon = GFX_SAK_Power_Struggle
 		prerequisite = { focus = SAK_ossetians }
 		prerequisite = { focus = SAK_abkhazians }
-		x = 7
-		y = 9
+		x = 3
+		y = 1
+		relative_position_id = SAK_abkhazians
 		
 		cost = 20
 		
@@ -633,7 +648,7 @@ focus_tree = {
 		}
 		
 		available = {
-        
+		
 		}
 		
 		bypass = {
@@ -647,7 +662,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -95
+			add_political_power = -95
 			add_war_support = -0.15
 			add_stability = -0.15
 			country_event = { id = Georgia.12 }

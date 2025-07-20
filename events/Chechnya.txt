@@ -114,6 +114,10 @@ country_event = {
 
 	option = {
 		name = chechnya.6.a
+		add_timed_idea = {
+            idea = CHE_disorganized_defense_idea
+            days = 30
+        }
 		activate_mission = CHE_hold_Grozny
 		activate_mission = CHE_hold_Shali
 		activate_mission = CHE_hold_Gudermes
