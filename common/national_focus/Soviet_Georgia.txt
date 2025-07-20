@@ -59,8 +59,9 @@ focus_tree = {
 		id = SAK_Last_Steps_Towards_independence
 		icon = GFX_SAK_Last_steps_Before_independence
 		prerequisite = { focus = SAK_Gamsakhurdia_Speechs }
-		x = 7
-		y = 2
+		x = 0
+		y = 1
+		relative_position_id = SAK_Gamsakhurdia_Speechs
 		
 		cost = 8
 		
@@ -80,7 +81,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
 			add_political_power = 75
@@ -91,8 +92,9 @@ focus_tree = {
 		id = SAK_Consolidate_Nationalist_power
 		icon = GFX_SAK_Nationalists_Power
 		prerequisite = { focus = SAK_Last_Steps_Towards_independence }
-		x = 7
-		y = 4
+		x = 0
+		y = 1
+		relative_position_id = SAK_Last_Steps_Towards_independence
 		
 		cost = 9
 		
@@ -112,7 +114,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
 		
 		completion_reward = {
 			add_political_power = 50
@@ -125,9 +127,10 @@ focus_tree = {
 		id = SAK_internal_conflict
 		icon = GFX_SAK_Internal_crisis
 		prerequisite = { focus = SAK_Consolidate_Nationalist_power }
-		x = 4
-		y = 6
-		
+		x = -3
+		y = 1
+		relative_position_id = SAK_Consolidate_Nationalist_power
+
 		cost = 9
 		
 		ai_will_do = {
@@ -157,8 +160,9 @@ focus_tree = {
 		id = SAK_Reinforce_National_Guard
 		icon = GFX_SAK_Reinforce_National_Guard
 		prerequisite = { focus = SAK_internal_conflict }
-		x = 4
-		y = 7
+		x = 0
+		y = 1
+		relative_position_id = SAK_internal_conflict
 		
 		cost = 9
 		
@@ -178,7 +182,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_XP }
 		
 		completion_reward = {
 			add_manpower = 500
@@ -194,8 +198,9 @@ focus_tree = {
 		id = SAK_Tenisions_in_south_ossetia
 		icon = GFX_SAK_Conflict_in_Ossetia
 		prerequisite = { focus = SAK_internal_conflict }
-		x = 2
-		y = 7
+		x = -2
+		y = 1
+		relative_position_id = SAK_internal_conflict
 		
 		cost = 9
 		
@@ -215,7 +220,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
 			country_event = { id = Georgia.9 }
@@ -226,8 +231,9 @@ focus_tree = {
 		id = SAK_mobilize_Economy
 		icon = GFX_SAK_Mobilize_Economy
 		prerequisite = { focus = SAK_internal_conflict }
-		x = 6
-		y = 7
+		x = 2
+		y = 1
+		relative_position_id = SAK_internal_conflict
 		
 		cost = 1
 		
@@ -258,8 +264,9 @@ focus_tree = {
 		id = SAK_diplomacy
 		icon = GFX_SAK_Diplomacy
 		prerequisite = { focus = SAK_Consolidate_Nationalist_power }
-		x = 10
-		y = 6
+		x = 3
+		y = 1
+		relative_position_id = SAK_Consolidate_Nationalist_power
 		
 		cost = 9
 		
@@ -291,8 +298,9 @@ focus_tree = {
 		id = SAK_Ask_for_The_Recognition
 		icon = GFX_SAK_Ask_For_The_Recognition
 		prerequisite = { focus = SAK_diplomacy }
-		x = 8
-		y = 7
+		x = -2
+		y = 1
+		relative_position_id = SAK_diplomacy
 		
 		cost = 9
 		
@@ -316,7 +324,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
-
 		}	
 	}
 
@@ -324,8 +331,9 @@ focus_tree = {
 		id = SAK_Diplomacy_with_west
 		icon = GFX_SAK_Diplomacy_with_West
 		prerequisite = { focus = SAK_diplomacy }
-		x = 10
-		y = 7
+		x = 0
+		y = 1
+		relative_position_id = SAK_diplomacy
 		
 		cost = 9
 		
@@ -349,7 +357,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
-
 		}	
 	}
 
@@ -357,8 +364,9 @@ focus_tree = {
 		id = SAK_claim_independence_in_diplomacy
 		icon = GFX_SAK_Independence_in_diplomacy
 		prerequisite = { focus = SAK_diplomacy }
-		x = 12
-		y = 7
+		x = 2
+		y = 1
+		relative_position_id = SAK_diplomacy
 		
 		cost = 9
 		
@@ -381,8 +389,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		
-		}	
+			add_political_power = 50
+		}
 	}
 
 	focus = {
@@ -394,8 +402,9 @@ focus_tree = {
 		prerequisite = { focus = SAK_Tenisions_in_south_ossetia }
 		prerequisite = { focus = SAK_Diplomacy_with_west }
 		prerequisite = { focus = SAK_claim_independence_in_diplomacy }
-		x = 7
-		y = 9
+		x = 1
+		y = 1
+		relative_position_id = SAK_mobilize_Economy
 		
 		cost = 10
 		
@@ -415,7 +424,7 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
 			country_event = { id = Georgia.10 }

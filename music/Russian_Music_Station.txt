@@ -140,3 +140,13 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "GruppaKrovi"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
