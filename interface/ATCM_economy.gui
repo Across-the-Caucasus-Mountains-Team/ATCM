@@ -30,8 +30,6 @@ guiTypes = {
 			format = left
 			Orientation = "UPPER_LEFT"
 			text = "[?cash]"
-			tooltip = cash_balance_value_tt
-			pdx_tooltip_delayed = cash_balance_value_tt2
 		}
 	}
 
