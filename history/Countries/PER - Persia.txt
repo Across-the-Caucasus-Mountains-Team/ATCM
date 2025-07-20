@@ -22,16 +22,18 @@ set_technology = {
 set_popularities = {
 	liberalism = 20
 	communism = 10
-	nationalism = 63
+	islam = 63
 	conservatism = 7
 }
 
 set_politics = {
-	ruling_party = nationalism
+	ruling_party = islam
 	last_election = "1990.9.17"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+recruit_character = PER_akbar_hashemi_rafsanjani
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes

@@ -478,6 +478,9 @@ ideologies = {
 			
 			generic_islam = {
 			}
+
+			reformist_islamic = {
+			}
 		}
 
 		dynamic_faction_names = {

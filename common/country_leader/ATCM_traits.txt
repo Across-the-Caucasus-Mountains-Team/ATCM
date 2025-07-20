@@ -91,4 +91,22 @@ leader_traits = {
 			value = 75
 		}
 	}
+
+	PER_akbar_hashemi_rafsanjani_T1 = { #Conservative Reformer
+		random = no
+		sprite = 13
+		political_power_factor = 0.05
+		stability_factor = 0.02
+	}
+	PER_akbar_hashemi_rafsanjani_T2 = { #Capitalist
+		random = no
+		sprite = 13
+		consumer_goods_factor = -0.04
+	}
+	PER_akbar_hashemi_rafsanjani_T3 = { #Foreign Policy Flip-Flopper
+		random = no
+		sprite = 13
+		opinion_gain_monthly_factor = -0.25
+		political_power_cost = 0.1
+	}
 }
