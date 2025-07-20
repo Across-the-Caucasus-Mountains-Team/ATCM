@@ -1,23 +1,23 @@
 ideologies = {
 
-    liberalism = {
+	liberalism = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_liberalism = {
 			}
 			
 			pan_armenian_national_movement = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			democratic_russia = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_1"
 			"FACTION_NAME_LIBERAL_2"
 			"FACTION_NAME_LIBERAL_3"
 			"FACTION_NAME_LIBERAL_4"
@@ -28,7 +28,7 @@ ideologies = {
 		color = { 57 93 204 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -69,8 +69,8 @@ ideologies = {
 	
 	conservatism = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_conservatism = {
 			}
 
@@ -79,7 +79,7 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_CONSERVAT_1"
+			"FACTION_NAME_CONSERVAT_1"
 			"FACTION_NAME_CONSERVAT_2"
 			"FACTION_NAME_CONSERVAT_3"
 			"FACTION_NAME_CONSERVAT_4"
@@ -90,7 +90,7 @@ ideologies = {
 		color = { 105 102 205 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -131,30 +131,30 @@ ideologies = {
 
 	authoritarianism = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_authoritarianism = {
 			}
 			
 			georgian_authoritarianism = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			democratic_union_for_revival = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			azerbaijani_Authoritarianism = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			abkhazian_government = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_AUTHORITARIANISM_1"
+			"FACTION_NAME_AUTHORITARIANISM_1"
 			"FACTION_NAME_AUTHORITARIANISM_2"
 			"FACTION_NAME_AUTHORITARIANISM_3"
 			"FACTION_NAME_AUTHORITARIANISM_4"
@@ -165,7 +165,7 @@ ideologies = {
 		color = { 75 114 142 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -206,22 +206,22 @@ ideologies = {
 
 	junta = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_junta = {
 			}
 			
 			georgia_military_councile = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			gkchp = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}	
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_JUNTA_1"
+			"FACTION_NAME_JUNTA_1"
 			"FACTION_NAME_JUNTA_2"
 			"FACTION_NAME_JUNTA_3"
 			"FACTION_NAME_JUNTA_4"
@@ -232,7 +232,7 @@ ideologies = {
 		color = { 91 91 91 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -273,26 +273,26 @@ ideologies = {
 	
 	communism = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_communism = {
 			}
 			
 			cpotsu = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			chechen_communist_party = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			azerbaijani_communist_party = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_COMMUNISTEN_1"
+			"FACTION_NAME_COMMUNISTEN_1"
 			"FACTION_NAME_COMMUNISTEN_2"
 			"FACTION_NAME_COMMUNISTEN_3"
 			"FACTION_NAME_COMMUNISTEN_4"
@@ -303,7 +303,7 @@ ideologies = {
 		color = { 165 0 0 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -344,26 +344,26 @@ ideologies = {
 	
 	nationalism = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_nationalism = {
 			}
 			
 			round_table_free_georgia = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 			
 			all_national_congress_of_the_chechen_people = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}	
 			
 			ossetian_government = {
-			    can_be_randomly_selected = no
+				can_be_randomly_selected = no
 			}
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_NATIONALISM_1"
+			"FACTION_NAME_NATIONALISM_1"
 			"FACTION_NAME_NATIONALISM_2"
 			"FACTION_NAME_NATIONALISM_3"
 			"FACTION_NAME_NATIONALISM_4"
@@ -374,7 +374,7 @@ ideologies = {
 		color = { 142 92 58 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -415,14 +415,14 @@ ideologies = {
 	
 	anarchism = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_anarchism = {
 			}
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_1"
 			"FACTION_NAME_ANARCHIST_2"
 			"FACTION_NAME_ANARCHIST_3"
 			"FACTION_NAME_ANARCHIST_4"
@@ -433,7 +433,7 @@ ideologies = {
 		color = { 64 0 0 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -474,14 +474,14 @@ ideologies = {
 	
 	islam = {
 	
-	    types = {
-		    
+		types = {
+			
 			generic_islam = {
 			}
 		}
 
 		dynamic_faction_names = {
-		    "FACTION_NAME_ISLAMIST_1"
+			"FACTION_NAME_ISLAMIST_1"
 			"FACTION_NAME_ISLAMIST_2"
 			"FACTION_NAME_ISLAMIST_3"
 			"FACTION_NAME_ISLAMIST_4"
@@ -492,7 +492,7 @@ ideologies = {
 		color = { 0 166 0 }
 		
 		rules = {
-		    can_create_collaboration_government = no
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
