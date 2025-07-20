@@ -1,5 +1,25 @@
 scripted_gui = {
 
+	economy_button_window_sg = {
+		window_name = "economy_button_window"
+		context_type = player_context
+		parent_window_name = topbar
+
+		effects = {
+			cash_button_click = {
+				if = {
+					limit = {
+						has_global_flag = economy_tab_on
+					}
+					clr_global_flag = economy_tab_on
+					else = {
+						set_global_flag = economy_tab_on
+					}
+				}
+			}
+		}
+	}
+
 	economy_window_sg = {
 		window_name = "economy_window"
 		context_type = player_context
