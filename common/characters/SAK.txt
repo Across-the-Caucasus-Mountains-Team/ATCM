@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=round_table_free_georgia
-			traits={ dislikes_russia anti_communist }
+			traits={ SAK_zviad_gamsakhurdia_T1 SAK_zviad_gamsakhurdia_T2 SAK_zviad_gamsakhurdia_T3 SAK_zviad_gamsakhurdia_T4 }
 			expire="1993.12.31.1"
 			id=-1
 		}
