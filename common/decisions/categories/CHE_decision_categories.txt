@@ -31,7 +31,7 @@ CHE_peace_negotiations_first_chechen_war_decision = {
         tag = CHE
 		has_global_flag = FirstChechenWar
 	}
-	visible_when_empty = no
+	visible_when_empty = yes
 }
 
 CHE_counteroffensives_decision = {
@@ -46,6 +46,21 @@ CHE_counteroffensives_decision = {
         tag = CHE
 		has_global_flag = FirstChechenWar
 		has_completed_focus = CHE_counter_offensive
+	}
+	visible_when_empty = yes
+}
+
+CHE_elections_1991_decision = {
+
+	priority = 90
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_country_flag = CHE_Elections_1991
 	}
 	visible_when_empty = yes
 }
