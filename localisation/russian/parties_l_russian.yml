@@ -41,3 +41,12 @@
 
  AZR_Conservatism_party:0 "PFA"
  AZR_Conservatism_party_long:0 "Народный фронт Азербайджана"
+
+ CHE_communism_party:0 "КПЧИАССР"
+ CHE_communism_party_long:0 "Коммунистическая партия Чечено-Ингушской Автономной Советской Социалистической Республики"
+ CHE_islam_party:0 "ОНКЧ"
+ CHE_islam_party_long:0 "Общенациональный конгресс Чеченского народа"
+ CHE_nationalism_party:0 "АдатНД"
+ CHE_nationalism_party_long:0 "Народное Движение \"Адат\""
+ CHE_conservatism_party:0 "ПНН"
+ CHE_conservatism_party_long:0 "Партия Национальной Независимости"
