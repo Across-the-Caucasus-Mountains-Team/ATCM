@@ -2,12 +2,17 @@ ATCM_economy_setup = {
 	set_variable = {
 		income = 0
 	}
-
 	set_variable = {
 		mil_factories_income = num_of_military_factories
 	}
 	multiply_variable = {
 		mil_factories_income = 30
+	}
+	add_to_variable = {
+		cash = mil_factories_income
+	}
+	add_to_variable = {
+		income = mil_factories_income
 	}
 
 	set_variable = {
@@ -16,6 +21,12 @@ ATCM_economy_setup = {
 	multiply_variable = {
 		doc_factories_income = 50
 	}
+	add_to_variable = {
+		cash = doc_factories_income
+	}
+	add_to_variable = {
+		income = doc_factories_income
+	}
 
 	set_variable = {
 		civ_factories_income = num_of_civilian_factories
@@ -23,15 +34,21 @@ ATCM_economy_setup = {
 	multiply_variable = {
 		civ_factories_income = 100
 	}
+	add_to_variable = {
+		cash = civ_factories_income
+	}
+	add_to_variable = {
+		income = civ_factories_income
+	}
 
 	set_variable = {
-		tot_pop_mil = ROOT.max_manpower_k
+		new_var = ROOT.max_manpower_k
 	}
 	multiply_variable = {
-		tot_pop_mil = 0.001
+		max_manpower_k = 0.01
 	}
 	set_variable = {
-		healthcare_expense = tot_pop_mil
+		healthcare_expense = ROOT.max_manpower_k
 	}
 	if = {
 		limit = {
