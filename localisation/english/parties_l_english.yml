@@ -40,3 +40,12 @@
 
  AZR_Conservatism_party: "PFA"
  AZR_Conservatism_party_long: "Popular Front of Azerbaijan"
+
+ CHE_communism_party:0 "CPCIASSR"
+ CHE_communism_party_long:0 "Communist Party of the Checheno-Ingush Autonomous Soviet Socialist Republic"
+ CHE_islam_party:0 "NCChP"
+ CHE_islam_party_long:0 "All-National Congress of the Chechen People"
+ CHE_nationalism_party:0 "AdatND"
+ CHE_nationalism_party_long:0 "Adat People's Movement"
+ CHE_conservatism_party:0 "PNN"
+ CHE_conservatism_party_long:0 "National Independence Party"
