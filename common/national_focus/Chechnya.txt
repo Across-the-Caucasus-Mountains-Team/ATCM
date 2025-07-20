@@ -43,6 +43,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			country_event = chechnya.3
+			add_popularity = {ideology = communism Popularity = -0.05}
 		}	
 	}
 
@@ -143,6 +144,7 @@ focus_tree = {
 		
 		completion_reward = {
 		    add_political_power = 10
+			custom_effect_tooltip = 6_CHE_tt
 			hidden_effect = {
 				country_event = {
 					id = chechnya.1
@@ -165,7 +167,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = CHE_start_chechen_revolution }
 		
-		cost = 10
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -193,11 +195,47 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHE_build_islamic_state
-		icon = GFX_Goal_unknow
-		x = 10
+		id = CHE_hold_elections
+		icon = GFX_CHE_hold_elections
+		x = 6
 		y = 4
 		prerequisite = { focus = CHE_Aftermath_of_Chechen_revolution }
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 35
+			add_stability = 0.05
+			hidden_effect = {
+				set_country_flag = CHE_Elections_1991
+			}
+		}	
+	}
+
+	focus = {
+		id = CHE_build_islamic_state
+		icon = GFX_CHE_build_islamic_state
+		x = 10
+		y = 5
+		prerequisite = { focus = CHE_hold_elections }
 		mutually_exclusive = { focus = CHE_build_secular_state }
 		
 		cost = 10
@@ -207,7 +245,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_country_flag = OpenAccessInNextUpdates
+			has_country_flag = ShamilBasayevWon
 		}
 
 		offset = {
@@ -567,8 +605,8 @@ focus_tree = {
 		id = CHE_build_secular_state
 		icon = GFX_CHE_build_secular_state
 		x = 2
-		y = 4
-		prerequisite = { focus = CHE_Aftermath_of_Chechen_revolution }
+		y = 5
+		prerequisite = { focus = CHE_hold_elections }
 		mutually_exclusive = { focus = CHE_build_islamic_state }
 
 		cost = 15
@@ -578,7 +616,7 @@ focus_tree = {
 		}
 		
 		available = {
-
+            
 		}
 
 		offset = {
