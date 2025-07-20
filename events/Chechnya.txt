@@ -74,14 +74,6 @@ country_event = {
 	option = {
 		name = chechnya.4.a
 		drop_cosmetic_tag = yes
-		set_politics = { 
-			ruling_party = nationalism
-			elections_allowed = no
-		}
-		add_popularity = {
-			ideology = nationalism
-			popularity = 0.05
-		}
 		RAS = {
 			set_autonomy = {
 				target = CHE
@@ -90,7 +82,6 @@ country_event = {
 				end_civil_wars = no
 			}
 		}
-		unlock_national_focus = CHE_Aftermath_of_Chechen_revolution
 		add_ideas = CHE_abandoned_MIC
 		add_ideas = CHE_destroyed_economy
 		news_event = { id = news.10 }
@@ -332,5 +323,48 @@ country_event = {
 		name = chechnya.14.a
 		add_war_support = 0.05
 		add_political_power = 25
+	}
+}
+
+#basayev won
+country_event = {
+	id = chechnya.15
+	title = chechnya.15.t
+	desc = chechnya.15.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.15.a
+		add_war_support = 0.05
+        add_popularity = {ideology = islam Popularity = 0.05}		
+		add_political_power = 25
+		set_country_flag = ShamilBasayevWon
+	}
+}
+
+#dudayev won
+country_event = {
+	id = chechnya.16
+	title = chechnya.16.t
+	desc = chechnya.16.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.16.a
+		add_war_support = 0.05
+		add_political_power = 25
+		set_country_flag = DzohkharDudayevWon
 	}
 }
