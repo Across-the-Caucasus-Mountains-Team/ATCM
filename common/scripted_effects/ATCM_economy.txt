@@ -1,68 +1,87 @@
+
 ATCM_economy_setup = {
 	set_variable = {
-		income = 0
-	}
-	set_variable = {
-		mil_factories_income = num_of_military_factories
-	}
-	multiply_variable = {
-		mil_factories_income = 30
-	}
-	add_to_variable = {
-		cash = mil_factories_income
-	}
-	add_to_variable = {
-		income = mil_factories_income
+		var = income
+		value = 0
 	}
 
 	set_variable = {
-		doc_factories_income = num_of_naval_factories
+		var = mil_factories_income
+		value = num_of_military_factories
 	}
 	multiply_variable = {
-		doc_factories_income = 50
+		var = mil_factories_income
+		value = 30
 	}
 	add_to_variable = {
-		cash = doc_factories_income
+		var = cash
+		value = mil_factories_income
 	}
 	add_to_variable = {
-		income = doc_factories_income
+		var = income
+		value = mil_factories_income
 	}
 
 	set_variable = {
-		civ_factories_income = num_of_civilian_factories
+		var = doc_factories_income
+		value = num_of_naval_factories
 	}
 	multiply_variable = {
-		civ_factories_income = 100
+		var = doc_factories_income
+		value = 50
 	}
 	add_to_variable = {
-		cash = civ_factories_income
+		var = cash
+		value = doc_factories_income
 	}
 	add_to_variable = {
-		income = civ_factories_income
+		var = income
+		value = doc_factories_income
+	}
+
+	set_variable = {
+		var = civ_factories_income
+		value = num_of_civilian_factories
+	}
+	multiply_variable = {
+		var = civ_factories_income
+		value = 100
+	}
+	add_to_variable = {
+		var = cash
+		value = civ_factories_income
+	}
+	add_to_variable = {
+		var = income
+		value = civ_factories_income
 	}
 
 	set_variable = {
 		new_var = ROOT.max_manpower_k
 	}
 	multiply_variable = {
-		max_manpower_k = 0.01
+		var = max_manpower_k
+		value = 0.01
 	}
 	set_variable = {
-		healthcare_expense = ROOT.max_manpower_k
+		var = healthcare_expense
+		value = ROOT.max_manpower_k
 	}
 	if = {
 		limit = {
 			has_idea = universal_health_care
 		}
 		multiply_variable = {
-			healthcare_expense = 6.5
+			var = healthcare_expense
+			value = 6.5
 		}
 		else_if = {
 			limit = {
 				has_idea = free_checkups
 			}
 			multiply_variable = {
-				healthcare_expense = 4.5
+				var = healthcare_expense
+				value = 4.5
 			}
 		}
 		else_if = {
@@ -70,7 +89,8 @@ ATCM_economy_setup = {
 				has_idea = free_emergencies_only
 			}
 			multiply_variable = {
-				healthcare_expense = 1.85
+				var = healthcare_expense
+				value = 1.85
 			}
 		}
 		else_if = {
@@ -78,26 +98,38 @@ ATCM_economy_setup = {
 				has_idea = private_healthcare
 			}
 			multiply_variable = {
-				healthcare_expense = 0.0
+				var = healthcare_expense
+				value = 0
 			}
 		}
 	}
 	set_variable = {
-		healthcare_expense_universal_health_care = healthcare_expense
+		var = healthcare_expense_universal_health_care
+		value = healthcare_expense
 	}
 	multiply_variable = {
-		healthcare_expense_universal_health_care = 6.5
+		var = healthcare_expense_universal_health_care
+		value = 6.5
 	}
 	set_variable = {
-		healthcare_expense_free_checkups = healthcare_expense
+		var = healthcare_expense_free_checkups
+		value = healthcare_expense
 	}
 	multiply_variable = {
-		healthcare_expense_free_checkups = 4.5
+		var = healthcare_expense_free_checkups
+		value = 4.5
 	}
 	set_variable = {
-		healthcare_expense_free_emergencies_only = healthcare_expense
+		var = healthcare_expense_free_emergencies_only
+		value = healthcare_expense
 	}
 	multiply_variable = {
-		healthcare_expense_free_emergencies_only = 1.85
+		var = healthcare_expense_free_emergencies_only
+		value = 1.85
 	}
+	subtract_from_variable = {
+		var = cash
+		value = healthcare_expense
+	}
+
 }

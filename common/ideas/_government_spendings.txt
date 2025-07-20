@@ -66,7 +66,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.03
 				monthly_population = -0.1
-				custom_modifier_tooltip = private_healthcare_tt
 			}
 
 			cancel_if_invalid = no
