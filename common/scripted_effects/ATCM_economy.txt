@@ -9,7 +9,7 @@ ATCM_economy_setup = {
 		limit = {
 			check_variable = { #This prevents the integer limit being beaten
 				var = cash
-				value > 1800000000
+				value < 1800000000
 			}
 		}
 		set_variable = {
@@ -68,7 +68,7 @@ ATCM_economy_setup = {
 		limit = {
 			check_variable = { #This prevents the integer limit being beaten
 				var = cash
-				value < -1800000000
+				value > -1800000000
 			}
 		}
 		set_variable = {
@@ -76,7 +76,7 @@ ATCM_economy_setup = {
 		}
 		divide_variable = {
 			var = max_manpower_k
-			value = 100
+			value = 10000
 		}
 		set_variable = {
 			var = healthcare_expense
