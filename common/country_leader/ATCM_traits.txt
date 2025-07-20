@@ -45,4 +45,35 @@ leader_traits = {
 			value = 50
 		}
 	}
+
+	SAK_zviad_gamsakhurdia_T1 = { #Human Rights Activist
+		random = no
+		sprite = 13
+		communism_acceptance = -20
+		stability_factor = 0.02
+	}
+
+	SAK_zviad_gamsakhurdia_T2 = { #Pan-Caucasianism Proponent
+		random = no
+		sprite = 13
+		war_support_factor = 0.05
+		political_power_factor = 0.01
+	}
+
+	SAK_zviad_gamsakhurdia_T3 = { #Profesor
+		random = no
+		sprite = 13
+		research_speed_factor = 0.03
+	}
+
+	SAK_zviad_gamsakhurdia_T4 = { #Diehard Nationalist
+		random = no
+		sprite = 13
+		autonomy_gain = 0.1
+		ai_strategy = {
+			type = antagonize
+			id = "OVERLORD"
+			value = 5000
+		}
+	}
 }

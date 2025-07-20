@@ -23,7 +23,7 @@ characters={
 		}
 		country_leader={
 			ideology= chechen_communist_party
-			traits={ Military_aviator }
+			traits={ CHE_doku_zavgayev_T1 CHE_doku_zavgayev_T2 }
 			expire="2040.4.21.1"
 			id=-1
 		}

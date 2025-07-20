@@ -24,6 +24,7 @@
  nationalism:0 "Национализм"
  nationalism_noun:0 "Националист"
  nationalism_drift:0 "Рост национализма"
+ nationalism_desc:0 "Националистический режим"
  populism:0 "Популизм"
  populism_noun:0 "Популист"
  populism_drift:0 "Рост популизма"
@@ -40,3 +41,12 @@
 
  AZR_Conservatism_party:0 "PFA"
  AZR_Conservatism_party_long:0 "Народный фронт Азербайджана"
+
+ CHE_communism_party:0 "КПЧИАССР"
+ CHE_communism_party_long:0 "Коммунистическая партия Чечено-Ингушской Автономной Советской Социалистической Республики"
+ CHE_islam_party:0 "ОНКЧ"
+ CHE_islam_party_long:0 "Общенациональный конгресс Чеченского народа"
+ CHE_nationalism_party:0 "АдатНД"
+ CHE_nationalism_party_long:0 "Народное Движение \"Адат\""
+ CHE_conservatism_party:0 "ПНН"
+ CHE_conservatism_party_long:0 "Партия Национальной Независимости"
