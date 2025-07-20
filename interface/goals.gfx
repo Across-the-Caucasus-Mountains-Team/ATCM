@@ -137,6 +137,16 @@ spriteTypes = {
 		name = "GFX_CHE_propaganda_of_nationalism"
 		texturefile = "gfx/interface/goals/CHE/CHE_propaganda_of_nationalism.png"
 	}
+
+	SpriteType = {
+		name = "GFX_CHE_build_islamic_state"
+		texturefile = "gfx/interface/goals/CHE/CHE_build_islamic_state.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_hold_elections"
+		texturefile = "gfx/interface/goals/CHE/CHE_hold_elections.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_CHE_operations_outside_of_chechnya"
