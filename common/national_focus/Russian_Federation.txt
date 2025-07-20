@@ -2111,6 +2111,29 @@ focus_tree = {
 				    country_event = { id = Chechnya.6 }
 			    }
 				country_event = superevent.4
+				if = {
+					limit = {
+						RAS = { 
+							NOT = {
+								is_ai = yes
+							}
+						}
+						CHE = {
+							is_ai = yes
+						}
+					}
+					CHE = {
+						add_ideas = GEN_AI_buff_idea
+					}
+				}
+				if = {
+				    limit = {
+						RAS = { 
+							is_ai = yes
+						}
+					}
+					add_ideas = GEN_AI_buff_idea
+				}
 			}
 		}
 	}

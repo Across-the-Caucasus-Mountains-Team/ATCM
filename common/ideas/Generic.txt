@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+
+
+
+		GEN_AI_buff_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+			    army_defence_factor = 0.15
+                army_org_factor = 0.15				
+                supply_factor = 0.15
+			}
+		}
+	}
+}	
