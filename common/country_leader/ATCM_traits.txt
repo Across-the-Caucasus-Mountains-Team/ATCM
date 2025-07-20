@@ -66,13 +66,14 @@ leader_traits = {
 		research_speed_factor = 0.03
 	}
 
-	SAK_zviad_gamsakhurdia_T4 = { #Dislikes Russia
+	SAK_zviad_gamsakhurdia_T4 = { #Diehard Nationalist
 		random = no
 		sprite = 13
+		autonomy_gain = 0.1
 		ai_strategy = {
 			type = antagonize
-			id = "RAS"
-			value = 100
+			id = "OVERLORD"
+			value = 5000
 		}
 	}
 }
