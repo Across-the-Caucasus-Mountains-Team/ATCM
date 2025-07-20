@@ -13,9 +13,9 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 6000 y = 500 }
-	
+
 	focus = {
-		id = OST_battle_for_tskhinvali
+		id = OST_arrise_ossetia
 		icon = GFX_SAK_Aftermath_coup
 		x = 6
 		y = 0
@@ -41,10 +41,47 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_manpower = 2500
+			add_timed_idea = {
+                idea = OST_fight_for_independence
+                days = 365
+            }
+		}	
+	}
+	
+	focus = {
+		id = OST_battle_for_tskhinvali
+		icon = GFX_SAK_Aftermath_coup
+		x = 0
+		y = 1
+		relative_position_id = OST_arrise_ossetia
+		prerequisite = { focus = OST_arrise_ossetia }
+		
+		cost = 1
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
 			33 = {
                 add_building_construction = {
                     type = bunker
-                    level = 3
+                    level = 2
                     province = {
                         id = 545
 					}
@@ -57,8 +94,9 @@ focus_tree = {
 	focus = {
 		id = OST_rise_up_militia
 		icon = GFX_SAK_Aftermath_coup
-		x = 3
+		x = -3
 		y = 1
+		relative_position_id = OST_battle_for_tskhinvali
 		prerequisite = { focus = OST_battle_for_tskhinvali }
 		
 		cost = 5
@@ -82,15 +120,17 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 20000
+			add_manpower = 2500
+			army_experience = 25
 		}	
 	}
 
 	focus = {
 		id = OST_disrupte_enemy_supply
 		icon = GFX_SAK_Aftermath_coup
-		x = 9
+		x = 3
 		y = 1
+		relative_position_id = OST_battle_for_tskhinvali
 		prerequisite = { focus = OST_battle_for_tskhinvali }
 		
 		cost = 5
@@ -115,7 +155,10 @@ focus_tree = {
 		
 		completion_reward = {
 			SAK = {
-				add_ideas = SAK_disrupted_supply_lines
+				add_timed_idea = {
+                    idea = SAK_disrupted_supply_lines
+                    days = 180
+                }
 			}
 		}	
 	}
@@ -123,8 +166,9 @@ focus_tree = {
 	focus = {
 		id = OST_fortify_java
 		icon = GFX_SAK_Aftermath_coup
-		x = 6
+		x = 0
 		y = 1
+		relative_position_id = OST_battle_for_tskhinvali
 		prerequisite = { focus = OST_battle_for_tskhinvali }
 		
 		cost = 5
@@ -151,13 +195,122 @@ focus_tree = {
 			33 = {
                 add_building_construction = {
                     type = bunker
-                    level = 3
+                    level = 2
                     province = {
                         id = 3719
 					}
 					instant_build = yes
 				}
 			}
+		}	
+	}
+
+	focus = {
+		id = OST_weapons
+		icon = GFX_SAK_Aftermath_coup
+		x = 0
+		y = 2
+		relative_position_id = OST_battle_for_tskhinvali
+		prerequisite = { focus = OST_fortify_java }
+		prerequisite = { focus = OST_disrupte_enemy_supply }
+		prerequisite = { focus = OST_rise_up_militia }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+            add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 750 
+			}
+		}	
+	}
+
+	focus = {
+		id = OST_forgein_volounteers
+		icon = GFX_SAK_Aftermath_coup
+		x = 1
+		y = 1
+		relative_position_id = OST_weapons
+		prerequisite = { focus = OST_weapons }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_manpower = 1000
+            add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 250 
+			}
+		}	
+	}
+
+	focus = {
+		id = OST_general_staff_organization
+		icon = GFX_SAK_Aftermath_coup
+		x = -1
+		y = 1
+		relative_position_id = OST_weapons
+		prerequisite = { focus = OST_weapons }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			army_experience = 50
+			add_command_power = 50
 		}	
 	}
 }	

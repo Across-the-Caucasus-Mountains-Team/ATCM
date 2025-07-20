@@ -1,0 +1,16 @@
+characters={
+	PER_akbar_hashemi_rafsanjani={
+		name="Akbar Hashemi Rafsanjani"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/portrait_PER_akbar_hashemi_rafsanjani.png"
+			}
+		}
+		country_leader={
+			ideology=reformist_islamic
+			traits={ PER_akbar_hashemi_rafsanjani_T1 PER_akbar_hashemi_rafsanjani_T2 PER_akbar_hashemi_rafsanjani_T3 }
+			expire="2017.1.8.1"
+			id=-1
+		}
+	}
+}
