@@ -99,13 +99,15 @@ set_popularities = {
 }	
 
 add_ideas = {
+	extensive_conscription
+	universal_health_care
+
 	RAS_Memories_of_afhganistan_war
 	RAS_Failed_perestroika
 	RAS_hardliners_protest
 	RAS_Boris_Yeltsin_idea
 	RAS_reformists_protest
 	RAS_big_criminality
-	extensive_conscription
 }
 
 add_dynamic_modifier = { modifier = RAS_Separatism }

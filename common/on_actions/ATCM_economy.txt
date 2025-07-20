@@ -48,7 +48,28 @@ on_action = {
 					healthcare_expense = 6.5
 				}
 				else_if = {
-					limit = { }
+					limit = {
+						has_idea = free_checkups
+					}
+					multiply_variable = {
+						healthcare_expense = 4.5
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = free_emergencies_only
+					}
+					multiply_variable = {
+						healthcare_expense = 1.85
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = private_healthcare
+					}
+					multiply_variable = {
+						healthcare_expense = 0.0
+					}
 				}
 			}
 			set_variable = {
@@ -56,6 +77,24 @@ on_action = {
 			}
 			multiply_variable = {
 				healthcare_expense_universal_health_care = 6.5
+			}
+			set_variable = {
+				healthcare_expense_free_checkups = healthcare_expense
+			}
+			multiply_variable = {
+				healthcare_expense_free_checkups = 4.5
+			}
+			set_variable = {
+				healthcare_expense_free_emergencies_only = healthcare_expense
+			}
+			multiply_variable = {
+				healthcare_expense_free_emergencies_only = 1.85
+			}
+			set_variable = {
+				healthcare_expense_private_healthcare = healthcare_expense
+			}
+			multiply_variable = {
+				healthcare_expense_private_healthcare = 0.0
 			}
 		}
 	}

@@ -33,6 +33,8 @@ set_technology = {
 }
 
 add_ideas = {
+	universal_health_care
+
 	SAK_Gamsakhurdias_Speechs
 	SAK_Tbilisi_syndrome
 	SAK_Mkhedrioni

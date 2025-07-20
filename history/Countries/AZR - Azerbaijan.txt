@@ -26,6 +26,8 @@ set_technology = {
 }
 
 add_ideas = {
+	universal_health_care
+
 	AZR_Black_January_idea
 }
 

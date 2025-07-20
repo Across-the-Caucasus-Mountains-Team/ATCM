@@ -45,7 +45,9 @@ set_popularities = {
 }	
 
 add_ideas = {
+	universal_health_care
 	limited_conscription
+
 	CHE_memories_of_deportations
 	CHE_language_issue
 }	
