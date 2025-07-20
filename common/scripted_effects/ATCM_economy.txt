@@ -21,13 +21,13 @@ ATCM_economy_setup = {
 	}
 
 	set_variable = {
-		new_var = ROOT.max_manpower_k
+		tot_pop_mil = ROOT.max_manpower_k
 	}
 	multiply_variable = {
-		max_manpower_k = 0.001
+		tot_pop_mil = 0.001
 	}
 	set_variable = {
-		healthcare_expense = ROOT.max_manpower_k
+		healthcare_expense = tot_pop_mil
 	}
 	if = {
 		limit = {
