@@ -240,10 +240,6 @@ ideas = {
 			ledger = army
 			available = { 
 				has_military_academy = yes 
-				has_completed_focus = NOR_officers_academy
-			}
-			visible = { 
-				NOR_AAT = yes 
 			}
 			modifier = {
 				army_leader_start_level = 2
