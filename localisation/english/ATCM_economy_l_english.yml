@@ -4,7 +4,7 @@
  cash_balance_value_tt2:0 "You currently have [?cash] million dollars available to be spent."
  debt_balance:0 "§R[?cash]§!"
  debt_balance_value_tt:0 "Debt"
- debt_balance_value_tt2:0 "You're currently [?debt] million dollars in debt."
+ debt_balance_value_tt2:0 "You're currently [?cash] million dollars in debt."
 
  income_total:0 "Total Income:"
  income_civ:0 "Civilian Factory Income:"

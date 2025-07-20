@@ -1,8 +1,8 @@
 guiTypes = {
 
 	containerWindowType = {
-		name = "economy_window"	
-		position = { x = 0 y = 0 }	
+		name = "economy_window"
+		position = { x = 0 y = 0 }
 		size = { width = 600 height = 510 }
 		orientation = center
 		origo = center
