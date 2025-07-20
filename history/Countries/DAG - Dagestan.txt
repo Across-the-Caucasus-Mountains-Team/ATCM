@@ -40,7 +40,6 @@ set_popularities = {
 }
 
 set_variable = { cash = 1 }
-set_variable = { debt = 1 }
 ATCM_economy_setup = yes
 
 1996.1.1 = {

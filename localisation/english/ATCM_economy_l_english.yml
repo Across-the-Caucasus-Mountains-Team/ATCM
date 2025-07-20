@@ -1,8 +1,15 @@
 ﻿l_english:
+ cash_balance:0 "§G[?cash]§!"
  cash_balance_value_tt:0 "Cash"
  cash_balance_value_tt2:0 "You currently have [?cash] million dollars available to be spent."
+ debt_balance:0 "§R[?cash]§!"
  debt_balance_value_tt:0 "Debt"
  debt_balance_value_tt2:0 "You're currently [?debt] million dollars in debt."
+
+ income_total:0 "Total Income:"
+ income_civ:0 "Civilian Factory Income:"
+ income_mil:0 "Military Factory Income:"
+ income_doc:0 "Dockyard Income:"
 
  healthcare:0 "Healthcare Law"
  universal_health_care:0 "Universal Healthcare"
@@ -12,4 +19,3 @@
  free_emergencies_only:0 "Free Emergencies Only"
  free_emergencies_only_tt:0 "Cash Balance: §R-[?healthcare_expense_free_emergencies_only] M§!"
  private_healthcare:0 "Private Healthcare"
- private_healthcare_tt:0 "Cash Balance: §R-[?healthcare_expense_private_healthcare] M§!"

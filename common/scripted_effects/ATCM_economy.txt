@@ -1,5 +1,9 @@
 ATCM_economy_setup = {
 	set_variable = {
+		income = 0
+	}
+
+	set_variable = {
 		mil_factories_income = num_of_military_factories
 	}
 	multiply_variable = {
@@ -78,11 +82,5 @@ ATCM_economy_setup = {
 	}
 	multiply_variable = {
 		healthcare_expense_free_emergencies_only = 1.85
-	}
-	set_variable = {
-		healthcare_expense_private_healthcare = healthcare_expense
-	}
-	multiply_variable = {
-		healthcare_expense_private_healthcare = 0.0
 	}
 }

@@ -2,6 +2,9 @@ on_action = {
 	on_weekly = {
 		effect = {
 			set_variable = {
+				income = 0
+			}
+			set_variable = {
 				mil_factories_income = num_of_military_factories
 			}
 			multiply_variable = {
@@ -9,6 +12,9 @@ on_action = {
 			}
 			add_to_variable = {
 				cash = mil_factories_income
+			}
+			add_to_variable = {
+				income = mil_factories_income
 			}
 
 			set_variable = {
@@ -20,6 +26,9 @@ on_action = {
 			add_to_variable = {
 				cash = doc_factories_income
 			}
+			add_to_variable = {
+				income = doc_factories_income
+			}
 
 			set_variable = {
 				civ_factories_income = num_of_civilian_factories
@@ -29,6 +38,9 @@ on_action = {
 			}
 			add_to_variable = {
 				cash = civ_factories_income
+			}
+			add_to_variable = {
+				income = civ_factories_income
 			}
 
 			set_variable = {
@@ -89,12 +101,6 @@ on_action = {
 			}
 			multiply_variable = {
 				healthcare_expense_free_emergencies_only = 1.85
-			}
-			set_variable = {
-				healthcare_expense_private_healthcare = healthcare_expense
-			}
-			multiply_variable = {
-				healthcare_expense_private_healthcare = 0.0
 			}
 		}
 	}

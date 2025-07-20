@@ -27,47 +27,143 @@ guiTypes = {
 		###############
 
 		iconType = {
-			name = cash_bg
+			name = "cash_bg"
 			spriteType = GFX_generic_text_bg_60
-			position = { x = 150 y = 25 }
+			position = { x = 275 y = 25 }
 			tooltip = cash_balance_value_tt
 			pdx_tooltip_delayed = cash_balance_value_tt2
 		}
 
 		instantTextBoxType = {
 			name = "cash_balance_value"
-			position = { x = 165 y = 25 }
+			position = { x = 290 y = 25 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 45
 			maxHeight = 24
 			format = left
 			Orientation = "UPPER_LEFT"
-			text = "[?cash]"
+			text = "cash_balance"
 			tooltip = cash_balance_value_tt
 			pdx_tooltip_delayed = cash_balance_value_tt2
 		}
 
 		iconType = {
-			name = debt_bg
+			name = "debt_bg"
 			spriteType = GFX_generic_text_bg_60
-			position = { x = 400 y = 25 }
+			position = { x = 275 y = 25 }
 			tooltip = debt_balance_value_tt
 			pdx_tooltip_delayed = debt_balance_value_tt2
 		}
 
 		instantTextBoxType = {
 			name = "debt_balance_value"
-			position = { x = 415 y = 25 }
+			position = { x = 290 y = 25 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 45
 			maxHeight = 24
 			format = left
 			Orientation = "UPPER_LEFT"
-			text = "[?debt]"
+			text = "debt_balance"
 			tooltip = debt_balance_value_tt
 			pdx_tooltip_delayed = debt_balance_value_tt2
+		}
+
+		instantTextBoxType = {
+			name = "income_total"
+			position = { x = 25 y = 70 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_total"
+		}
+
+		instantTextBoxType = {
+			name = "income_total_value"
+			position = { x = 290 y = 70 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?income]"
+		}
+
+		instantTextBoxType = {
+			name = "income_civ"
+			position = { x = 25 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_civ"
+		}
+
+		instantTextBoxType = {
+			name = "income_civ_value"
+			position = { x = 290 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?civ_factories_income]"
+		}
+
+		instantTextBoxType = {
+			name = "income_mil"
+			position = { x = 25 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_mil"
+		}
+
+		instantTextBoxType = {
+			name = "income_mil_value"
+			position = { x = 290 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?mil_factories_income]"
+		}
+
+		instantTextBoxType = {
+			name = "income_doc"
+			position = { x = 25 y = 190 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_doc"
+		}
+
+		instantTextBoxType = {
+			name = "income_doc_value"
+			position = { x = 290 y = 190 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?doc_factories_income]"
 		}
 	}
 }
