@@ -7,10 +7,10 @@ ATCM_economy_setup = {
 
 	if = {
 		limit = {
-			check_variable = { #This prevents the integer limit being beaten
-				var = cash
-				value < 1800000000
-			}
+			#check_variable = { #This prevents the integer limit being beaten
+			#	var = cash
+			#	value < 1800000000
+			#}
 		}
 		set_variable = {
 			var = mil_factories_income
@@ -66,21 +66,18 @@ ATCM_economy_setup = {
 
 	if = {
 		limit = {
-			check_variable = { #This prevents the integer limit being beaten
-				var = cash
-				value > -1800000000
-			}
-		}
-		set_variable = {
-			new_var = ROOT.max_manpower_k
-		}
-		divide_variable = {
-			var = max_manpower_k
-			value = 10000
+			#check_variable = { #This prevents the integer limit being beaten
+			#	var = cash
+			#	value > -1800000000
+			#}
 		}
 		set_variable = {
 			var = healthcare_expense
 			value = ROOT.max_manpower_k
+		}
+		divide_variable = {
+			var = healthcare_expense
+			value = 100
 		}
 		if = {
 			limit = {
@@ -118,6 +115,7 @@ ATCM_economy_setup = {
 				}
 			}
 		}
+		round_variable = healthcare_expense
 		set_variable = {
 			var = healthcare_expense_universal_health_care
 			value = var:healthcare_expense
@@ -145,6 +143,16 @@ ATCM_economy_setup = {
 		subtract_from_variable = {
 			var = cash
 			value = var:healthcare_expense
+		}
+
+		multiply_variable = {
+			var = cash
+			value = 10
+		}
+		round_variable = cash
+		divide_variable = {
+			var = cash
+			value = 10
 		}
 	}
 

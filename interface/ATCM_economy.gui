@@ -28,18 +28,18 @@ guiTypes = {
 
 		iconType = {
 			name = "cash_bg"
-			spriteType = GFX_generic_text_bg_60
-			position = { x = 275 y = 25 }
+			spriteType = GFX_generic_text_bg_88
+			position = { x = 265 y = 25 }
 			tooltip = cash_balance_value_tt
 			pdx_tooltip_delayed = cash_balance_value_tt2
 		}
 
 		instantTextBoxType = {
 			name = "cash_balance_value"
-			position = { x = 290 y = 25 }
+			position = { x = 280 y = 26 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
-			maxWidth = 45
+			maxWidth = 67
 			maxHeight = 24
 			format = left
 			Orientation = "UPPER_LEFT"
@@ -50,7 +50,7 @@ guiTypes = {
 
 		iconType = {
 			name = "debt_bg"
-			spriteType = GFX_generic_text_bg_60
+			spriteType = GFX_generic_text_bg_88
 			position = { x = 275 y = 25 }
 			tooltip = debt_balance_value_tt
 			pdx_tooltip_delayed = debt_balance_value_tt2
@@ -58,10 +58,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "debt_balance_value"
-			position = { x = 290 y = 25 }
+			position = { x = 290 y = 26 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
-			maxWidth = 45
+			maxWidth = 67
 			maxHeight = 24
 			format = left
 			Orientation = "UPPER_LEFT"
@@ -72,7 +72,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_total"
-			position = { x = 25 y = 70 }
+			position = { x = 15 y = 110 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 300
@@ -84,7 +84,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_total_value"
-			position = { x = 290 y = 70 }
+			position = { x = 280 y = 110 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 45
@@ -96,7 +96,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_civ"
-			position = { x = 25 y = 110 }
+			position = { x = 15 y = 150 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 300
@@ -108,7 +108,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_civ_value"
-			position = { x = 290 y = 110 }
+			position = { x = 280 y = 150 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 45
@@ -120,7 +120,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_mil"
-			position = { x = 25 y = 150 }
+			position = { x = 15 y = 190 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 300
@@ -132,7 +132,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_mil_value"
-			position = { x = 290 y = 150 }
+			position = { x = 280 y = 190 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 45
@@ -144,7 +144,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_doc"
-			position = { x = 25 y = 190 }
+			position = { x = 15 y = 230 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 300
@@ -156,7 +156,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "income_doc_value"
-			position = { x = 290 y = 190 }
+			position = { x = 280 y = 230 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 45
@@ -164,6 +164,54 @@ guiTypes = {
 			format = left
 			Orientation = "UPPER_LEFT"
 			text = "[?doc_factories_income]"
+		}
+
+		instantTextBoxType = {
+			name = "expense_total"
+			position = { x = 320 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "expense_total"
+		}
+
+		instantTextBoxType = {
+			name = "expense_total_value"
+			position = { x = 555 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?expense]"
+		}
+
+		instantTextBoxType = {
+			name = "healthcare_expense"
+			position = { x = 320 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "healthcare_expense"
+		}
+
+		instantTextBoxType = {
+			name = "healthcare_expense_value"
+			position = { x = 555 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?healthcare_expense]"
 		}
 	}
 }
