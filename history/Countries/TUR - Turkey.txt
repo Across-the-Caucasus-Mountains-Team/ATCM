@@ -35,6 +35,7 @@ set_popularities = {
 	authoritarianism = 9
 	nationalism = 17
 	conservatism = 71
+	junta = 6
 }
 
 recruit_character = TUR_turgut_ozal
