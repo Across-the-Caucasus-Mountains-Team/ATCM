@@ -46,6 +46,10 @@ add_ideas = {
 
 recruit_character = ARM_levon_ter_Petrosyan
 
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes
+
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 

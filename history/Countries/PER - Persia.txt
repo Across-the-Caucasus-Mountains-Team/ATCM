@@ -32,3 +32,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes

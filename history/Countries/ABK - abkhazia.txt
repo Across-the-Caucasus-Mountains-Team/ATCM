@@ -42,5 +42,9 @@ set_politics = {
 
 recruit_character = ABK_provisional_government
 
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes
+
 1996.1.1 = {
 }

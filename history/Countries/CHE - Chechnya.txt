@@ -68,6 +68,10 @@ recruit_character = CHE_Zelimkhan_Yandarbiev
 recruit_character = CHE_Abalaev_Khadzhievich
 recruit_character = CHE_aslan_maskhadov
 
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes
+
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 }

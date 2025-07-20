@@ -1,0 +1,6 @@
+﻿l_english:
+ debt_balance_value_tt:0 "§RDebt§!"
+ debt_balance_value_tt2:0 "You're currently [?debt] million dollars in debt."
+
+ universal_health_care:0 "Universal Health Care"
+ universal_health_care_tt:0 "Cash Balance: §R[?healthcare_expense_universal_health_care] M§!"

@@ -1,6 +1,6 @@
 ideas = {
 
-	healthcare_spending = {
+	healthcare = {
 		law = yes
 		use_list_view = yes
 
@@ -11,12 +11,12 @@ ideas = {
 			level = 7
 
 			available = {
-				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
 			}
 
 			modifier = {
 				stability_factor = 0.10
-							
+				monthly_population = 1.0
+				custom_modifier_tooltip = universal_health_care_tt
 			}
 
 			cancel_if_invalid = no

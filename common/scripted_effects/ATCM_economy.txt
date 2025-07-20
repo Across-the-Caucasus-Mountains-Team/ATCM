@@ -1,0 +1,22 @@
+ATCM_economy_setup = {
+	set_variable = {
+		mil_factories_income = num_of_military_factories
+	}
+	multiply_variable = {
+		mil_factories_income = 30
+	}
+
+	set_variable = {
+		doc_factories_income = num_of_naval_factories
+	}
+	multiply_variable = {
+		doc_factories_income = 50
+	}
+
+	set_variable = {
+		civ_factories_income = num_of_civilian_factories
+	}
+	multiply_variable = {
+		civ_factories_income = 100
+	}
+}

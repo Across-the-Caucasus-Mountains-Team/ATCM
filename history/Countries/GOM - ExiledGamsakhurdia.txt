@@ -40,5 +40,9 @@ set_popularities = {
 
 recruit_character = GOM_Zviad_Gamsakhurdia
 
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes
+
 1996.1.1 = {
 }

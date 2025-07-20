@@ -33,6 +33,10 @@ recruit_character = AZR_Ayaz_Mutallibov
 recruit_character = AZR_heydar_aliyev
 recruit_character = AZR_ilham_aliyev
 
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes
+
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 	promote_character = AZR_heydar_aliyev

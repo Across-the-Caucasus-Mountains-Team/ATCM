@@ -131,6 +131,10 @@ recruit_character = RAS_Gennady_Burbulis
 recruit_character = RAS_Alexander_Rutskoy
 recruit_character = RAS_Yegor_Gaidar
 
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes
+
 #Azerbajian hotfix
 AZR = {
 	set_politics = {

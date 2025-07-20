@@ -1,0 +1,17 @@
+scripted_gui = {
+
+	economy_window = {
+		window_name = "economy_window"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = economy_tab_on
+		}
+
+		effects = {
+			close_button_click = {
+				clr_global_flag = economy_tab_on		
+			}
+		}
+	}
+}

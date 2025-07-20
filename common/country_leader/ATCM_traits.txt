@@ -76,4 +76,19 @@ leader_traits = {
 			value = 5000
 		}
 	}
+
+	CHE_doku_zavgayev_T1 = { #Diplomat
+		random = no
+		sprite = 13
+		opinion_gain_monthly = 0.15
+	}
+	CHE_doku_zavgayev_T2 = { #Likes Russia
+		random = no
+		sprite = 13
+		ai_strategy = {
+			type = alliance
+			id = "RAS"
+			value = 75
+		}
+	}
 }

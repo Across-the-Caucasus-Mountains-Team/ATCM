@@ -73,6 +73,10 @@ recruit_character = SAK_Avtandil_Tskitishvili
 recruit_character = SAK_Geno_Adamia
 recruit_character = SAK_Boris_Grigolashvili
 
+set_variable = { cash = 1 }
+set_variable = { debt = 1 }
+ATCM_economy_setup = yes
+
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 }
