@@ -84,7 +84,9 @@ country_event = {
 		}
 		add_ideas = CHE_abandoned_MIC
 		add_ideas = CHE_destroyed_economy
-		news_event = { id = news.10 }
+		hidden_effect = {
+			news_event = { id = news.10 }
+		}
 	}
 }
 
