@@ -1,0 +1,19 @@
+state={
+	id=131
+	name="STATE_131"
+	provinces={
+		8564 6000 2382 4771 8564 600 2382 4771 8446 6342 8193 10505 377 10494 10520 2374 10496 4076 207 7473 10440 3604 8774 5746 10450 10471 5536 8875 10500 6362 10482 10507 10523 5428 
+	}
+	history={
+	owner = CHE
+	add_core_of = CHE
+	buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

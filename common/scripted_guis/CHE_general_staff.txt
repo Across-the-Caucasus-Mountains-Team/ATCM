@@ -1,0 +1,22 @@
+scripted_gui = {
+
+    CHE_general_staff_window = {
+       context_type = player_context 
+	   window_name = "CHE_general_staff_window"
+ 
+        visible = {
+            tag = CHE
+        }
+ 
+		effects = {
+		}
+
+        triggers = {
+
+        }
+		
+		properties = {
+			
+		}
+    }
+}

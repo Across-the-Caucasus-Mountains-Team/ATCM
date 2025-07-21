@@ -1,0 +1,19 @@
+state={
+	id=130
+	name="STATE_130"
+	provinces={
+		10745 9475 460 2960 6620 10819 5896  6620 10819 2481 10820 10804 8767 7200 104 7064 2696 10852 9281 4230 3616 5263 10844 3922 10842 10834 3271 10806 9418 8599  9191
+	}
+	history={
+	owner = CHE
+	add_core_of = CHE
+	buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
