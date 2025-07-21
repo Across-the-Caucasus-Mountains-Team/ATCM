@@ -24,5 +24,27 @@ ideas = {
                 supply_factor = 0.15
 			}
 		}
+
+		GEN_RAS_AI_BLITZ_buff_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				army_attack_factor = 0.25
+                army_org_factor = 0.15	
+				army_attack_speed_factor = 0.15
+			    army_defence_factor = 0.075							
+			}
+		}
 	}
 }	

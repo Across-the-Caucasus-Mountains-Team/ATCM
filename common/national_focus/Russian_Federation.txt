@@ -2131,6 +2131,13 @@ focus_tree = {
 						RAS = { 
 							is_ai = yes
 						}
+						CHE = {
+							is_ai = no
+						}
+					}
+					add_timed_idea = {
+						idea = GEN_RAS_AI_BLITZ_buff_idea
+						days = 15
 					}
 					add_ideas = GEN_AI_buff_idea
 				}

@@ -372,3 +372,24 @@ country_event = {
 		set_country_flag = DzohkharDudayevWon
 	}
 }
+
+#opposition seized radio tower
+country_event = {
+	id = chechnya.17
+	title = chechnya.17.t
+	desc = chechnya.17.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.17.a
+		add_war_support = 0.05
+		add_political_power = 25
+		set_country_flag = DzohkharDudayevWon
+	}
+}

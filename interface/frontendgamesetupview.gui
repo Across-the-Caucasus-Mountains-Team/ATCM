@@ -191,7 +191,7 @@ guiTypes = {
 		buttonType = {
 			name = "country_leader"
 			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 465 y = 11 }
+			position = { x = 44 y = 11 }
 			scale=0.75
 			clicksound = click_checkbox
 		}
@@ -199,7 +199,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 482 y = 175 }
+			position = { x = 61 y = 175 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -207,13 +207,13 @@ guiTypes = {
 		buttonType = {
 			name = "country"
 			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x=448 y =-11 }
+			position = { x=28 y =-11 }
 			clicksound = click_checkbox
 		}
 
 		instantTextBoxType = {
 			name = "country_name"
-			position = { x = 456 y = 236 }
+			position = { x = 42 y = 236 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 131
@@ -674,9 +674,9 @@ guiTypes = {
 
 			gridboxType = {
 				name ="countries_grid"
-				position = { x = 0 y = 0 }
+				position = { x = 25 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 150 height = 0 }
+				slotsize = { width = 235 height = 0 }
 				add_horizontal = yes
 				max_slots_vertical = 1
 				format = "UPPER_LEFT"
