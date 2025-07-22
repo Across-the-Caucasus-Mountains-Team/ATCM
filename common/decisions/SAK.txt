@@ -7,10 +7,10 @@ SAK_State_emergency_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = SAK
+			tag = SAK
 			has_completed_focus = SAK_Raid_their_offices
 		}
-	    
+		
 		visible = {
 			tag = SAK
 		}
@@ -60,7 +60,7 @@ SAK_State_emergency_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {
-            tag = SAK
+			tag = SAK
 		}
 		
 		visible = {
@@ -92,7 +92,7 @@ SAK_State_emergency_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {
-            tag = SAK
+			tag = SAK
 		}
 		
 		visible = {
@@ -129,7 +129,7 @@ SAK_State_emergency_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {
-            tag = SAK
+			tag = SAK
 		}
 		
 		visible = {
@@ -161,7 +161,7 @@ SAK_State_emergency_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {
-            tag = SAK
+			tag = SAK
 			has_completed_focus = Sak_Arrest_bandits
 		}
 		
@@ -196,9 +196,9 @@ SAK_Preparations_for_Abkhazia_war_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = SAK
+			tag = SAK
 		}
-	    
+		
 		visible = {
 			tag = SAK
 		}
@@ -211,7 +211,7 @@ SAK_Preparations_for_Abkhazia_war_category = {
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
 			add_war_support = -0.05
-			load_oob = 
+			load_oob = SAK_mkhedrioni
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -228,9 +228,9 @@ SAK_Preparations_for_Abkhazia_war_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = SAK
+			tag = SAK
 		}
-	    
+		
 		visible = {
 			tag = SAK
 		}
@@ -259,9 +259,9 @@ SAK_Preparations_for_Abkhazia_war_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = SAK
+			tag = SAK
 		}
-	    
+		
 		visible = {
 			tag = SAK
 		}
@@ -287,7 +287,6 @@ SAK_Preparations_for_Abkhazia_war_category = {
 }	
 
 operations = {
-    
 	SAK_Take_tskhinvali_decision = {
 
 		icon = GFX_decision_generic_soldier
@@ -295,7 +294,7 @@ operations = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 25
-        
+		
 		#Fail trigger
 		available = {
 			OST = { 
@@ -317,14 +316,55 @@ operations = {
 			country_event = Georgia.51
 			white_peace = OST
 			if = {
-                limit = {
-                    SAK = {
-                        controls_state = 36
-                    }
-                }
-                36 = { transfer_state_to = SAK}
-            }
-	    }
+				limit = {
+					SAK = {
+						controls_state = 36
+					}
+				}
+				36 = { transfer_state_to = SAK }
+			}
+		}
 	}
-}	
-	
+}
+
+political_actions = {
+	SAK_relocate_ossetians = {
+
+		icon = GFX_decision_generic_soldier
+
+		allowed = {
+			tag = SAK
+		}
+		
+		available = {
+			controls_state = 33
+			controls_state = 41
+		}
+
+		visible = {
+			has_country_flag = Georgia.40.a
+			controls_state = 33
+			controls_state = 41
+		}
+		
+		fire_only_once = yes
+
+		cost = 25
+
+		days_remove = 150
+
+		complete_effect = {
+			add_political_power = -50
+		}
+
+		remove_effect = {
+			41 = {
+				add_manpower = -25788
+			}
+			33 = {
+				add_manpower = 25788
+			}
+			add_stability = 0.05
+		}
+	}
+}

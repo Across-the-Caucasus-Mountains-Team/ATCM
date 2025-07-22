@@ -338,7 +338,7 @@ country_event = {
 		add_manpower = -2
 		country_event = { 
 			id = Georgia.23 
-			hour = 1 
+			hours = 1 
 		}
 	}
 }
@@ -406,9 +406,9 @@ country_event = {
 
 	option = {
 		name = Georgia.22.a
-		Replace_idea = {
-		remove_ideas = SAK_Mkhedrioni
-		add_ideas = SAK_Mkhedrioni_2
+		swap_ideas = {
+			remove_idea = SAK_Mkhedrioni
+			add_idea = SAK_Mkhedrioni_2
 		}
 	}
 }
@@ -789,8 +789,8 @@ country_event = {
 		36 = { transfer_state_to = OST }
 		hidden_effect = {
 			country_event = {
-			id = Georgia.40
-			days = 2
+				id = Georgia.40
+				days = 2
 			}
 		}		
 	}
@@ -807,6 +807,7 @@ country_event = {
 
 	option = {
 		name = Georgia.40.a
+		set_country_flag = Georgia.40.a
 		declare_war_on = {
 			target = OST
 			type = annex_everything
@@ -823,6 +824,7 @@ country_event = {
 	
 	option = {
 		name = Georgia.40.b
+		set_country_flag = Georgia.40.a
 		declare_war_on = {
 			target = OST
 			type = annex_everything
