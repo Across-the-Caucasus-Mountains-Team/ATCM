@@ -51,13 +51,13 @@ guiTypes = {
 
 		background = {
 			name = "Background"	
-			spriteType = "GFX_tiled_bg"
+			spriteType = "GFX_economy_background"
 		}
 
 		buttonType = {
 			name = "close_button"
-			spriteType = "GFX_closebutton"
-			position = { x = 565 y = 5 }
+			spriteType = "GFX_Startgui_close_btn"
+			position = { x = 561 y = 8 }
 			clicksound = click_close
 			shortcut = ESCAPE
 		}
@@ -292,6 +292,82 @@ guiTypes = {
 			format = left
 			Orientation = "UPPER_LEFT"
 			text = "[?education_expense]"
+		}
+
+		buttonType = {
+			name = "economic_decisions_button"
+			spriteType = "GFX_Startgui_btn"
+			position = { x = 165 y = 325 }
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+	}
+
+	containerWindowType = {
+		name = "economy_decision_window"
+		position = { x = 0 y = 0 }
+		size = { width = 600 height = 510 }
+		orientation = center
+		origo = center
+		moveable = yes
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_economy_background"
+		}
+
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_Startgui_close_btn"
+			position = { x = 561 y = 8 }
+			clicksound = click_close
+			shortcut = ESCAPE
+		}
+
+		###############
+		###INTERFACE###
+		###############
+
+		buttonType = {
+			name = "invest_civil_industry_button"
+			spriteType = "GFX_main_lobby_button"
+			position = { x = 125 y = 125 }
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "invest_millitray_factories_button"
+			spriteType = "GFX_main_lobby_button"
+			position = { x = 125 y = 125 }
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "invest_infrastructure_button"
+			spriteType = "GFX_main_lobby_button"
+			position = { x = 125 y = 125 }
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "invest_education_button"
+			spriteType = "GFX_main_lobby_button"
+			position = { x = 125 y = 125 }
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "invest_ports_button"
+			spriteType = "GFX_main_lobby_button"
+			position = { x = 125 y = 125 }
+			clicksound = click_close
+			oversound = ui_menu_over
 		}
 	}
 }
