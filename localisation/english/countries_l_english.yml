@@ -189,6 +189,8 @@
  ARS:0 "Arstakh"
  ARS_DEF:0 "Arstakh"
  ARS_ADJ:0 "Artsakhtsi"
+ SOV_ARS:0 "Nagorno-Karabakh AO"
+ SOV_ARS_DEF:0 "the Nagorno-Karabakh Autonomous Oblast"
  
  AZR_liberalism:0 "Azerbaijan Democratic Republic"
  AZR_liberalism_DEF:0 "the Azerbaijan Democratic Republic"
