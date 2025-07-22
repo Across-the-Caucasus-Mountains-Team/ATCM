@@ -239,6 +239,8 @@
  ARM_ADJ:0 "Armenian"
  ARM_subject:0 "$OVERLORDADJ$ $ARM$"
  ARM_subject_DEF:0 "$OVERLORDADJ$ $ARM$"
+ SOV_ARM:0 "Armenian SSR"
+ SOV_ARM_DEF:0 "Armenian Soviet Socialist Republic"
  
  PER_Nationalism:0 "Iran"
  PER_Nationalism_DEF:0 "the Iran"
