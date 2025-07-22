@@ -1,0 +1,297 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "economy_button_window"
+		position = { x = 970 y = 5 }
+		size = { width = 76 height = 30 }
+		orientation = left
+		origo = left
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_mini_tooltip"
+		}
+
+		buttonType = {
+			name = "cash_button"
+			spriteType = "GFX_cash_smol"
+			position = { x = 5 y = 5 }
+			clicksound = click_close
+		}
+
+		buttonType = {
+			name = "debt_button"
+			spriteType = "GFX_im_broke_bae_smol"
+			position = { x = 5 y = 5 }
+			clicksound = click_close
+		}
+
+		instantTextBoxType = {
+			name = "cash_balance_value"
+			position = { x = 30 y = 5 }
+			font = hoi_18mbs
+			borderSize = { x = 0 y = 0}
+			maxWidth = 67
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?cash]"
+		}
+	}
+
+	containerWindowType = {
+		name = "economy_window"
+		position = { x = 0 y = 0 }
+		size = { width = 600 height = 510 }
+		orientation = center
+		origo = center
+		moveable = yes
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_tiled_bg"
+		}
+
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 565 y = 5 }
+			clicksound = click_close
+			shortcut = ESCAPE
+		}
+
+		###############
+		###INTERFACE###
+		###############
+
+		iconType = {
+			name = "cash_bg"
+			spriteType = GFX_generic_text_bg_88
+			position = { x = 265 y = 25 }
+			tooltip = cash_balance_value_tt
+			pdx_tooltip_delayed = cash_balance_value_tt2
+		}
+
+		iconType = {
+			name = "cash_icon"
+			spriteType = "GFX_cash_smol"
+			position = { x = 278 y = 28 }
+			tooltip = cash_balance_value_tt
+			pdx_tooltip_delayed = cash_balance_value_tt2
+		}
+
+		instantTextBoxType = {
+			name = "cash_balance_value"
+			position = { x = 280 y = 26 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 67
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "cash_balance"
+			tooltip = cash_balance_value_tt
+			pdx_tooltip_delayed = cash_balance_value_tt2
+		}
+
+		iconType = {
+			name = "debt_bg"
+			spriteType = GFX_generic_text_bg_88
+			position = { x = 275 y = 25 }
+			tooltip = debt_balance_value_tt
+			pdx_tooltip_delayed = debt_balance_value_tt2
+		}
+
+		iconType = {
+			name = "debt_icon"
+			spriteType = "GFX_im_broke_bae_smol"
+			position = { x = 278 y = 28 }
+			tooltip = debt_balance_value_tt
+			pdx_tooltip_delayed = debt_balance_value_tt2
+		}
+
+		instantTextBoxType = {
+			name = "debt_balance_value"
+			position = { x = 290 y = 26 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 67
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "debt_balance"
+			tooltip = debt_balance_value_tt
+			pdx_tooltip_delayed = debt_balance_value_tt2
+		}
+
+		instantTextBoxType = {
+			name = "income_total"
+			position = { x = 15 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_total"
+		}
+
+		instantTextBoxType = {
+			name = "income_total_value"
+			position = { x = 280 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?income]"
+		}
+
+		instantTextBoxType = {
+			name = "income_civ"
+			position = { x = 15 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_civ"
+		}
+
+		instantTextBoxType = {
+			name = "income_civ_value"
+			position = { x = 280 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?civ_factories_income]"
+		}
+
+		instantTextBoxType = {
+			name = "income_mil"
+			position = { x = 15 y = 190 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_mil"
+		}
+
+		instantTextBoxType = {
+			name = "income_mil_value"
+			position = { x = 280 y = 190 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?mil_factories_income]"
+		}
+
+		instantTextBoxType = {
+			name = "income_doc"
+			position = { x = 15 y = 230 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_doc"
+		}
+
+		instantTextBoxType = {
+			name = "income_doc_value"
+			position = { x = 280 y = 230 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?doc_factories_income]"
+		}
+
+		instantTextBoxType = {
+			name = "expense_total"
+			position = { x = 320 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "expense_total"
+		}
+
+		instantTextBoxType = {
+			name = "expense_total_value"
+			position = { x = 555 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?expense]"
+		}
+
+		instantTextBoxType = {
+			name = "healthcare_expense"
+			position = { x = 320 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "healthcare_expense"
+		}
+
+		instantTextBoxType = {
+			name = "healthcare_expense_value"
+			position = { x = 555 y = 150 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?healthcare_expense]"
+		}
+
+		instantTextBoxType = {
+			name = "education_expense"
+			position = { x = 320 y = 230 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "education_expense"
+		}
+
+		instantTextBoxType = {
+			name = "education_expense_value"
+			position = { x = 555 y = 230 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?education_expense]"
+		}
+	}
+}

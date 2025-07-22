@@ -1,1 +1,8 @@
 capital = 41
+
+add_ideas = {
+	universal_health_care
+}
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes

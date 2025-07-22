@@ -1,0 +1,260 @@
+
+ATCM_economy_setup = {
+	set_variable = {
+		var = income
+		value = 0
+	}
+
+	if = {
+		limit = {
+			#check_variable = { #This prevents the integer limit being beaten
+			#	var = cash
+			#	value < 1800000000
+			#}
+		}
+		set_variable = {
+			var = mil_factories_income
+			value = ROOT.num_of_military_factories
+		}
+		multiply_variable = {
+			var = mil_factories_income
+			value = 3
+		}
+		add_to_variable = {
+			var = cash
+			value = var:mil_factories_income
+		}
+		add_to_variable = {
+			var = income
+			value = var:mil_factories_income
+		}
+
+		set_variable = {
+			var = doc_factories_income
+			value = ROOT.num_of_naval_factories
+		}
+		multiply_variable = {
+			var = doc_factories_income
+			value = 5
+		}
+		add_to_variable = {
+			var = cash
+			value = var:doc_factories_income
+		}
+		add_to_variable = {
+			var = income
+			value = var:doc_factories_income
+		}
+
+		set_variable = {
+			var = civ_factories_income
+			value = ROOT.num_of_civilian_factories
+		}
+		multiply_variable = {
+			var = civ_factories_income
+			value = 10
+		}
+		add_to_variable = {
+			var = cash
+			value = var:civ_factories_income
+		}
+		add_to_variable = {
+			var = income
+			value = var:civ_factories_income
+		}
+	}
+
+	if = {
+		limit = {
+			#check_variable = { #This prevents the integer limit being beaten
+			#	var = cash
+			#	value > -1800000000
+			#}
+		}
+
+		###################
+		### HEALTH CARE ###
+		###################
+
+		set_variable = {
+			var = healthcare_expense_show
+			value = ROOT.max_manpower_k
+		}
+		divide_variable = {
+			var = healthcare_expense_show
+			value = 144
+		}
+		round_variable = healthcare_expense_show
+
+		set_variable = {
+			var = healthcare_expense_universal_health_care
+			value = var:healthcare_expense_show
+		}
+		multiply_variable = {
+			var = healthcare_expense_universal_health_care
+			value = 6.5
+		}
+
+		set_variable = {
+			var = healthcare_expense_free_checkups
+			value = var:healthcare_expense_show
+		}
+		multiply_variable = {
+			var = healthcare_expense_free_checkups
+			value = 4.5
+		}
+
+		set_variable = {
+			var = healthcare_expense_free_emergencies_only
+			value = var:healthcare_expense_show
+		}
+		multiply_variable = {
+			var = healthcare_expense_free_emergencies_only
+			value = 1.85
+		}
+
+		set_variable = {
+			var = healthcare_expense
+			value = var:healthcare_expense_show
+		}
+		if = {
+			limit = {
+				has_idea = universal_health_care
+			}
+			multiply_variable = {
+				var = healthcare_expense
+				value = 6.5
+			}
+			else_if = {
+				limit = {
+					has_idea = free_checkups
+				}
+				multiply_variable = {
+					var = healthcare_expense
+					value = 4.5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = free_emergencies_only
+				}
+				multiply_variable = {
+					var = healthcare_expense
+					value = 1.85
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = private_healthcare
+				}
+				multiply_variable = {
+					var = healthcare_expense
+					value = 0
+				}
+			}
+		}
+		round_variable = healthcare_expense
+		subtract_from_variable = {
+			var = cash
+			value = var:healthcare_expense
+		}
+
+		#################
+		### EDUCATION ###
+		#################
+
+		set_variable = {
+			var = education_expense_show
+			value = ROOT.max_manpower_k
+		}
+		divide_variable = {
+			var = education_expense_show
+			value = 500
+		}
+		round_variable = education_expense_show
+
+		set_variable = {
+			var = education_expense_free_universities
+			value = var:education_expense_show
+		}
+		multiply_variable = {
+			var = education_expense_free_universities
+			value = 5.0
+		}
+
+		set_variable = {
+			var = education_expense_free_high_schools
+			value = var:education_expense_show
+		}
+		multiply_variable = {
+			var = education_expense_free_high_schools
+			value = 4.5
+		}
+
+		set_variable = {
+			var = education_expense_free_elementary_and_middle_schools
+			value = var:education_expense_show
+		}
+		multiply_variable = {
+			var = education_expense_free_elementary_and_middle_schools
+			value = 3.0
+		}
+
+		set_variable = {
+			var = education_expense
+			value = var:education_expense_show
+		}
+		if = {
+			limit = {
+				has_idea = free_universities
+			}
+			multiply_variable = {
+				var = education_expense
+				value = 5.0
+			}
+			else_if = {
+				limit = {
+					has_idea = free_high_schools
+				}
+				multiply_variable = {
+					var = education_expense
+					value = 4.5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = free_elementary_and_middle_schools
+				}
+				multiply_variable = {
+					var = education_expense
+					value = 3.0
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = private_education
+				}
+				multiply_variable = {
+					var = education_expense
+					value = 0
+				}
+			}
+		}
+		round_variable = education_expense
+		subtract_from_variable = {
+			var = cash
+			value = var:education_expense
+		}
+	}
+
+	multiply_variable = {
+		var = cash
+		value = 10
+	}
+	round_variable = cash
+	divide_variable = {
+		var = cash
+		value = 10
+	}
+
+}

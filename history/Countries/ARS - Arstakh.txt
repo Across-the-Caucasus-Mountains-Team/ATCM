@@ -35,6 +35,13 @@ set_popularities = {
 	conservatism = 10
 }
 
+add_ideas = {
+	universal_health_care
+}
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes
+
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 }

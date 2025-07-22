@@ -40,11 +40,16 @@ set_popularities = {
 }
 
 add_ideas = {
+	universal_health_care
+
 	ARM_memories_of_Spitak_earthquake
 	ARM_The_Armenian_National_movement
 }	
 
 recruit_character = ARM_levon_ter_Petrosyan
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes

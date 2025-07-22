@@ -1,0 +1,7 @@
+on_actions = {
+	on_weekly = {
+		effect = {
+			ATCM_economy_setup = yes
+		}
+	}
+}

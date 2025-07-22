@@ -37,13 +37,11 @@ idea_categories = {
 		removal_cost = 0
 	}
 
-	government_spending = {
-		slot = healthcare_spending
-		slot = security_spending
-		slot = education_spending			 
-		slot = social_spending			
-		slot = infrastructure_spending
-		slot = administration_spending
+	services = {
+		slot = healthcare
+		slot = social_security
+		slot = education
+		slot = policing
 		
 		ledger = civilian
 		

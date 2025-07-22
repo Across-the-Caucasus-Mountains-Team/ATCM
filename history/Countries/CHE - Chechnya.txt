@@ -45,7 +45,9 @@ set_popularities = {
 }	
 
 add_ideas = {
+	universal_health_care
 	limited_conscription
+
 	CHE_memories_of_deportations
 	CHE_language_issue
 }	
@@ -67,6 +69,9 @@ recruit_character = CHE_Shamil_Basayev
 recruit_character = CHE_Zelimkhan_Yandarbiev
 recruit_character = CHE_Abalaev_Khadzhievich
 recruit_character = CHE_aslan_maskhadov
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
