@@ -154,6 +154,10 @@ focus_tree = {
 					id = chechnya.1
 					days = 269
 				}
+				news_event = {
+					id = news.22
+					days = 2
+				}
 				add_stability = -0.05
 			    add_war_support = -0.35
 			}
@@ -174,7 +178,7 @@ focus_tree = {
 		}
 		
 		available = {
-			always = no
+
 		}
 		
 		bypass = {
@@ -1235,6 +1239,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 25
 			add_ideas = CHE_general_staff
+			unlock_decision_category_tooltip = CHE_general_staff_decision
 		}	
 	}
 
@@ -1520,7 +1525,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = CHE_Operations
-		prerequisite = { focus = CHE_Operations }
+		prerequisite = { focus = CHE_disrupte_Supplies }
 		
 		cost = 1
 		
@@ -2149,12 +2154,12 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 45000 
+				amount = 7500 
 			}
 			add_stability = -0.15
 			add_war_support = -0.15
 			add_political_power = -90
-			add_manpower = 45000
+			add_manpower = 12500
 		}	
 	}
 

@@ -29,6 +29,11 @@ spriteTypes = {
 		name = "GFX_news_event_Black_october"
 		texturefile = "gfx/event_pictures/news_event_Black_october.png"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_Chechen_revolution"
+		texturefile = "gfx/event_pictures/news_event_Chechen_revolution.png"
+	}
 	
 	spriteType = {
 		name = "GFX_Report_event_Barricades"

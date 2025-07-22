@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_CHE_general_staff_background"
+		textureFile = "gfx/interface/scripted_guis/CHE/separatism_gui/ChechenGeneralStaff.png"
+	}
+}

@@ -242,7 +242,7 @@ CHE_first_chechen_war_decision = {
 	}
 }
 
-CHE_counteroffensives_decision = {
+CHE_general_staff_decision = {
 
 	CHE_start_operation_of_jihad_decision = {
 
