@@ -453,11 +453,11 @@ CHE_elections_1991_decision = {
                 value = 20
                 tooltip = add_basayev_support_to_var_tt
             }
-			add_to_variable = {
+			subtract_from_variable = {
                 var = CHE_dudayev_support_value
-                value = -20
-                tooltip = CHE_basayev_support_value
-            }
+                value = 20
+                tooltip = add_basayev_support_to_var_tt #TODO
+			}
 			set_country_flag = CHESupportBasayev
 		}
 
