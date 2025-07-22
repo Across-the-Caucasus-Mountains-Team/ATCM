@@ -58,12 +58,22 @@ scripted_gui = {
 					cash > 0
 				}
 			}
+			cash_icon_visible = {
+				check_variable = {
+					cash > 0
+				}
+			}
 			cash_balance_value_visible = {
 				check_variable = {
 					cash > 0
 				}
 			}
 			debt_bg_visible = {
+				check_variable = {
+					cash < 0
+				}
+			}
+			debt_icon_visible = {
 				check_variable = {
 					cash < 0
 				}

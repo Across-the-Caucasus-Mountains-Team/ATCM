@@ -13,6 +13,7 @@
 
  expense_total:0 "Total Expenses:"
  healthcare_expense:0 "Healthcare Expenses:"
+ education_expense:0 "Education Expenses:"
 
  healthcare:0 "Healthcare Law"
  universal_health_care:0 "Universal Healthcare"
