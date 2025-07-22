@@ -4,8 +4,6 @@ guiTypes = {
 		name = "economy_button_window"
 		position = { x = 970 y = 5 }
 		size = { width = 76 height = 30 }
-		orientation = left
-		origo = left
 
 		background = {
 			name = "Background"	
