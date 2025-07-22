@@ -1,0 +1,31 @@
+add_namespace = economy_event
+
+# criticalbudgetdeficit
+country_event = {
+	id = economy_event.1
+	title = economy_event.1.t
+	desc = economy_event.1.d
+	picture = GFX_Report_event_GEN_critical_budget_deficit
+
+	trigger = {
+		NOT = {
+            tag = RAS
+		}
+		check_variable = {
+            var = cash
+            value = 0
+            compare = less_than_or_equals
+        }
+	}
+	mean_time_to_happen = {
+        days = 105
+    }   
+
+	immediate = {
+		set_country_flag = criticalbudgetdeficit
+	}
+
+	option = {
+		name = economy_event.1.a
+	}
+}

@@ -49,7 +49,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_propaganda_of_nationalism
-		icon = GFX_CHE_propaganda_of_nationalism
+		icon = GFX_CHE_2nd_session_of_the_firs_chechen_national_congress
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
@@ -82,8 +82,43 @@ focus_tree = {
 	}
 
 	focus = {
+		id = CHE_propaganda_of_islam
+		icon = GFX_goal_unknown
+		x = -3
+		y = 1
+		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
+		relative_position_id = CHE_future_of_checheno_ingushetii
+		
+		cost = 35
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+			add_popularity = {ideology = Islam Popularity = 0.15}
+            custom_effect_tooltip = 6_CHE_tt
+		}	
+	}
+
+	focus = {
 		id = CHE_2nd_session_of_the_firs_chechen_national_congress
-		icon = GFX_CHE_2nd_session_of_the_firs_chechen_national_congress
+		icon =  GFX_CHE_propaganda_of_nationalism
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
@@ -146,7 +181,6 @@ focus_tree = {
 		
 		completion_reward = {
 		    add_political_power = 10
-			custom_effect_tooltip = 6_CHE_tt
 			add_popularity = {ideology = Nationalism Popularity = 0.075}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 			hidden_effect = {

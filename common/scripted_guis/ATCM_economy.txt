@@ -120,5 +120,95 @@ scripted_gui = {
 				clr_global_flag = economy_decisions_tab_on
 			}
 		}
+
+		effects = {
+			invest_civil_industry_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_factories_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 2500
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_factories_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_infrastructure_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_infrastructure_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 1500
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_infrastructure_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_ports_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_ports_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 1500
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_ports_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_education_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_education_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 2000
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_education_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_millitray_factories_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_millitary_factories_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 3000
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_millitary_factories_idea
+                        days = 90
+                    }
+				}
+			}
+			
+		}
+
 	}
 }

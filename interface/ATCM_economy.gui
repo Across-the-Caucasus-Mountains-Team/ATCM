@@ -26,11 +26,11 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "cash_balance_value"
-			position = { x = 30 y = 5 }
+			position = { x = 23 y = 5 }
 			font = hoi_18mbs
 			borderSize = { x = 0 y = 0}
-			maxWidth = 67
-			maxHeight = 24
+			maxWidth = 47
+			maxHeight = 14
 			format = left
 			Orientation = "UPPER_LEFT"
 			text = "[?cash]"
@@ -75,14 +75,14 @@ guiTypes = {
 		iconType = {
 			name = "cash_icon"
 			spriteType = "GFX_cash_smol"
-			position = { x = 278 y = 28 }
+			position = { x = 268 y = 28 }
 			tooltip = cash_balance_value_tt
 			pdx_tooltip_delayed = cash_balance_value_tt2
 		}
 
 		instantTextBoxType = {
 			name = "cash_balance_value"
-			position = { x = 280 y = 26 }
+			position = { x = 295 y = 26 }
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			maxWidth = 67
@@ -298,6 +298,8 @@ guiTypes = {
 			position = { x = 165 y = 325 }
 			clicksound = click_close
 			oversound = ui_menu_over
+			font = hoi_24header
+			text = "Economic decisions"
 		}
 	}
 
@@ -328,42 +330,111 @@ guiTypes = {
 		###INTERFACE###
 		###############
 
-		buttonType = {
-			name = "invest_civil_industry_button"
-			spriteType = "GFX_main_lobby_button"
-			position = { x = 125 y = 125 }
-			clicksound = click_close
-			oversound = ui_menu_over
+		iconType = {
+			name = "cash_bg"
+			spriteType = GFX_generic_text_bg_88
+			position = { x = 265 y = 25 }
+			tooltip = cash_balance_value_tt
+			pdx_tooltip_delayed = cash_balance_value_tt2
+		}
+
+		iconType = {
+			name = "cash_icon"
+			spriteType = "GFX_cash_smol"
+			position = { x = 278 y = 28 }
+			tooltip = cash_balance_value_tt
+			pdx_tooltip_delayed = cash_balance_value_tt2
+		}
+
+		instantTextBoxType = {
+			name = "cash_balance_value"
+			position = { x = 280 y = 26 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 67
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "cash_balance"
+			tooltip = cash_balance_value_tt
+			pdx_tooltip_delayed = cash_balance_value_tt2
+		}
+
+		iconType = {
+			name = "debt_bg"
+			spriteType = GFX_generic_text_bg_88
+			position = { x = 275 y = 25 }
+			tooltip = debt_balance_value_tt
+			pdx_tooltip_delayed = debt_balance_value_tt2
+		}
+
+		iconType = {
+			name = "debt_icon"
+			spriteType = "GFX_im_broke_bae_smol"
+			position = { x = 278 y = 28 }
+			tooltip = debt_balance_value_tt
+			pdx_tooltip_delayed = debt_balance_value_tt2
+		}
+
+		instantTextBoxType = {
+			name = "debt_balance_value"
+			position = { x = 290 y = 26 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 67
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "debt_balance"
+			tooltip = debt_balance_value_tt
+			pdx_tooltip_delayed = debt_balance_value_tt2
+		}
+
+		instantTextBoxType = {
+			name = "economic_decisions_title"
+			position = { x = 190 y = 110 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			Orientation = "UPPER_LEFT"
+			text = "Economic decisions"
 		}
 
 		buttonType = {
-			name = "invest_millitray_factories_button"
-			spriteType = "GFX_main_lobby_button"
-			position = { x = 125 y = 125 }
+			name = "invest_civil_industry_button"
+			spriteType = "GFX_invest_into_factories"
+			position = { x = 135 y = 325 }
 			clicksound = click_close
 			oversound = ui_menu_over
 		}
 
 		buttonType = {
 			name = "invest_infrastructure_button"
-			spriteType = "GFX_main_lobby_button"
-			position = { x = 125 y = 125 }
+			spriteType = "GFX_invest_into_roads"
+			position = { x = 205 y = 325 }
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+		
+		buttonType = {
+			name = "invest_ports_button"
+			spriteType = "GFX_invest_into_ports"
+			position = { x = 275 y = 325 }
 			clicksound = click_close
 			oversound = ui_menu_over
 		}
 
 		buttonType = {
 			name = "invest_education_button"
-			spriteType = "GFX_main_lobby_button"
-			position = { x = 125 y = 125 }
+			spriteType = "GFX_invest_into_education"
+			position = { x = 345 y = 325 }
 			clicksound = click_close
 			oversound = ui_menu_over
 		}
 
 		buttonType = {
-			name = "invest_ports_button"
-			spriteType = "GFX_main_lobby_button"
-			position = { x = 125 y = 125 }
+			name = "invest_millitray_factories_button"
+			spriteType = "GFX_invest_into_millitary"
+			position = { x = 415 y = 325 }
 			clicksound = click_close
 			oversound = ui_menu_over
 		}
