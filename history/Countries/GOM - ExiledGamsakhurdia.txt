@@ -36,9 +36,12 @@ set_popularities = {
 	communism = 0
 	nationalism = 100
 	conservatism = 0
-}	
+}
 
 recruit_character = GOM_Zviad_Gamsakhurdia
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes
 
 1996.1.1 = {
 }

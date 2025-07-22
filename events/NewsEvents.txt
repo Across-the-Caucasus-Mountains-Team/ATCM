@@ -487,3 +487,23 @@ news_event = {
 		name = news.21.a
 	}
 }
+
+#Chechen revolution
+news_event = {
+	id = news.22
+	title = news.22.t
+	desc = news.22.d
+	picture = GFX_news_event_Chechen_revolution
+	
+	major = yes
+
+	immediate = {
+		
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.22.a
+	}
+}

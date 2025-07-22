@@ -34,3 +34,6 @@ set_politics = {
 }
 
 recruit_character = PER_akbar_hashemi_rafsanjani
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes

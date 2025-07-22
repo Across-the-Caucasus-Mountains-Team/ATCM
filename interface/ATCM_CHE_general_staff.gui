@@ -1,0 +1,16 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CHE_general_staff_window"
+		size = { width = 900 height = 500 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHE_general_staff_background"
+		}
+
+    }
+}

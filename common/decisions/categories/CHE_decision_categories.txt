@@ -34,7 +34,7 @@ CHE_peace_negotiations_first_chechen_war_decision = {
 	visible_when_empty = yes
 }
 
-CHE_counteroffensives_decision = {
+CHE_general_staff_decision = {
 
 	priority = 90
 	
@@ -45,8 +45,9 @@ CHE_counteroffensives_decision = {
 	visible = {
         tag = CHE
 		has_global_flag = FirstChechenWar
-		has_completed_focus = CHE_counter_offensive
+		has_completed_focus = CHE_General_Staff_of_Chechnya
 	}
+	scripted_gui = CHE_general_staff_window
 	visible_when_empty = yes
 }
 

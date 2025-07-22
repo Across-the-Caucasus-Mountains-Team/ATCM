@@ -1,0 +1,94 @@
+scripted_gui = {
+
+	economy_button_window_sg = {
+		window_name = "economy_button_window"
+		context_type = player_context
+		parent_window_name = topbar
+
+		triggers = {
+			cash_button_visible = {
+				check_variable = {
+					cash > 0
+				}
+			}
+			debt_button_visible = {
+				check_variable = {
+					cash < 0
+				}
+			}
+		}
+
+		effects = {
+			cash_button_click = {
+				if = {
+					limit = {
+						has_global_flag = economy_tab_on
+					}
+					clr_global_flag = economy_tab_on
+					else = {
+						set_global_flag = economy_tab_on
+					}
+				}
+			}
+			debt_button_click = {
+				if = {
+					limit = {
+						has_global_flag = economy_tab_on
+					}
+					clr_global_flag = economy_tab_on
+					else = {
+						set_global_flag = economy_tab_on
+					}
+				}
+			}
+		}
+	}
+
+	economy_window_sg = {
+		window_name = "economy_window"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = economy_tab_on
+		}
+
+		triggers = {
+			cash_bg_visible = {
+				check_variable = {
+					cash > 0
+				}
+			}
+			cash_icon_visible = {
+				check_variable = {
+					cash > 0
+				}
+			}
+			cash_balance_value_visible = {
+				check_variable = {
+					cash > 0
+				}
+			}
+			debt_bg_visible = {
+				check_variable = {
+					cash < 0
+				}
+			}
+			debt_icon_visible = {
+				check_variable = {
+					cash < 0
+				}
+			}
+			debt_balance_value_visible = {
+				check_variable = {
+					cash < 0
+				}
+			}
+		}
+
+		effects = {
+			close_button_click = {
+				clr_global_flag = economy_tab_on
+			}
+		}
+	}
+}

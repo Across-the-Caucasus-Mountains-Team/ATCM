@@ -191,6 +191,11 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1500 
 			}
+			custom_effect_tooltip = SAK_Reinforce_National_Guard_tt
+			subtract_from_variable = {
+				var = cash
+				value = 15
+			}
 		}	
 	}
 
@@ -257,6 +262,12 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = low_economic_mobilisation
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = SAK_mobilize_Economy_tt
+			add_to_variable = {
+				var = cash
+				value = 5
+			}
 		}	
 	}
 
@@ -324,6 +335,11 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
+			custom_effect_tooltip = SAK_Ask_for_The_Recognition_tt
+			subtract_from_variable = { #It costs 100k dollars to consider membership in UN
+				var = cash
+				value = 0.1
+			}
 		}	
 	}
 

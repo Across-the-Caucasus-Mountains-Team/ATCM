@@ -4,8 +4,37 @@ bookmarks = {
 		desc = "Across_the_Caucasus_DESC"
 		date = 1991.1.1.12
 		picture = "GFX_1991_date"
-		default_country = "SAK"
+		default_country = "CHE"
 		default = yes
+
+		"CHE"={
+			history = "CHE_Across_the_Caucasus_DESC"
+			ideology = Communism
+			ideas = {
+			    CHE_memories_of_deportations
+				CHE_language_issue
+			}
+			focuses = {
+			    CHE_start_chechen_revolution
+				CHE_The_Battle_is_in_here
+				CHE_Deport_Russians
+			}
+		}
+
+		"RAS"={
+			history = "RAS_Across_the_Caucasus_DESC"
+			ideology = Communism
+			ideas = {
+			    RAS_Boris_Yeltsin_idea
+				RAS_Memories_of_afhganistan_war
+			    RAS_Failed_perestroika
+			}
+			focuses = {
+			    RAS_seventieth_years_of_the_union
+				RAS_problems_in_the_south
+				RAS_after_of_the_gkhp
+			}
+		}
 		
 		"SAK"={
 			history = "SAK_Across_the_Caucasus_DESC"
@@ -22,33 +51,62 @@ bookmarks = {
 			}
 		}
 
-		"CHE"={
-			history = "CHE_Across_the_Caucasus_DESC"
-			ideology = Communism
+		"AZR"={
+			history = "AZR_Across_the_Caucasus_DESC"
+			ideology = nationalism
 			ideas = {
-			    CHE_memories_of_deportations
-				CHE_language_issue
+			    SAK_Clashes_in_south_ossetia
+				SAK_Mkhedrioni
+				SAK_Gamsakhurdias_Speechs
 			}
 			focuses = {
-			    CHE_start_chechen_revolution
-				CHE_The_Battle_is_in_here
-				CHE_Deport_Russians
+			    SAK_Last_Steps_Towards_independence
+				SAK_Tenisions_in_south_ossetia
+				SAK_Independence_Referendum
 			}
 		}
-		
-	    "RAS"={
-			history = "RAS_Across_the_Caucasus_DESC"
-			ideology = Communism
+
+		"ARM"={
+			history = "ARM_Across_the_Caucasus_DESC"
+			ideology = nationalism
 			ideas = {
-			    RAS_Boris_Yeltsin_idea
-				RAS_Memories_of_afhganistan_war
-			    RAS_Failed_perestroika
+			    SAK_Clashes_in_south_ossetia
+				SAK_Mkhedrioni
+				SAK_Gamsakhurdias_Speechs
 			}
 			focuses = {
-			    RAS_seventieth_years_of_the_union
-				RAS_problems_in_the_south
-				RAS_after_of_the_gkhp
+			    SAK_Last_Steps_Towards_independence
+				SAK_Tenisions_in_south_ossetia
+				SAK_Independence_Referendum
 			}
+		}
+		#Minor countries
+		"ARS"={
+			history = "ARS_Across_the_Caucasus_DESC"
+			ideology = communism
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"TUR"={
+			history = "TUR_Across_the_Caucasus_DESC"
+			ideology = liberalism
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"PER"={
+			history = "PER_Across_the_Caucasus_DESC"
+			ideology = islam
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}	
 		}
 	}
 }	

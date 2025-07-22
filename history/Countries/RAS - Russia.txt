@@ -99,13 +99,15 @@ set_popularities = {
 }	
 
 add_ideas = {
+	extensive_conscription
+	universal_health_care
+
 	RAS_Memories_of_afhganistan_war
 	RAS_Failed_perestroika
 	RAS_hardliners_protest
 	RAS_Boris_Yeltsin_idea
 	RAS_reformists_protest
 	RAS_big_criminality
-	extensive_conscription
 }
 
 add_dynamic_modifier = { modifier = RAS_Separatism }
@@ -130,6 +132,9 @@ recruit_character = RAS_Boris_Yeltsin
 recruit_character = RAS_Gennady_Burbulis
 recruit_character = RAS_Alexander_Rutskoy
 recruit_character = RAS_Yegor_Gaidar
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes
 
 #Azerbajian hotfix
 AZR = {
