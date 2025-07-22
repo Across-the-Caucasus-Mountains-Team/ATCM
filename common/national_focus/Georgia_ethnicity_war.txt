@@ -270,7 +270,7 @@ focus_tree = {
 		prerequisite = { focus = Sak_Arrest_bandits }
 		x = 1
 		y = 1
-		relative_position_id = SAK_Fortify_Political_Prisons
+		relative_position_id = Sak_Arrest_bandits
 		
 		cost = 8
 		

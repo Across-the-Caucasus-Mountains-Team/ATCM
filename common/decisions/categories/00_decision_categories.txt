@@ -53,31 +53,6 @@ foreign_politics = {
 
 political_actions = {
 	icon = generic_political_actions
-
-	allowed = {
-		always = yes
-	}
-
-	visible = {
-		if = {
-			limit = {
-				has_dlc = "By Blood Alone"
-			}
-			NOT = { original_tag = SWI }
-			NOT = { has_country_flag = SWI_can_use_political_actions }
-		}
-		if = {
-			limit = {
-				has_dlc = "Arms Against Tyranny"
-			}
-			NOT = {
-				AND = {
-					original_tag = DEN
-					is_subject = yes
-				}
-			}
-		}
-	}
 }
 
 foreign_influence = {
