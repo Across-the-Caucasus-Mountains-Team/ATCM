@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_cash"
+		textureFile = "gfx/interface/scripted_guis/economy/cash.png"
+	}
+	spriteType = {
+		name = "GFX_im_broke_bae"
+		textureFile = "gfx/interface/scripted_guis/economy/im_broke_bae.png"
+	}
+}

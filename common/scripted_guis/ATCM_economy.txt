@@ -5,6 +5,19 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_name = topbar
 
+		triggers = {
+			cash_button_visible = {
+				check_variable = {
+					cash > 0
+				}
+			}
+			debt_button_visible = {
+				check_variable = {
+					cash < 0
+				}
+			}
+		}
+
 		effects = {
 			cash_button_click = {
 				if = {
