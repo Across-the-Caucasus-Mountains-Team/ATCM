@@ -14,14 +14,14 @@ guiTypes = {
 
 		buttonType = {
 			name = "cash_button"
-			spriteType = "GFX_cash"
+			spriteType = "GFX_cash_smol"
 			position = { x = 5 y = 5 }
 			clicksound = click_close
 		}
 
 		buttonType = {
 			name = "debt_button"
-			spriteType = "GFX_im_broke_bae"
+			spriteType = "GFX_im_broke_bae_smol"
 			position = { x = 5 y = 5 }
 			clicksound = click_close
 		}

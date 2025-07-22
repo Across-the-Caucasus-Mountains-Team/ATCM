@@ -22,3 +22,12 @@
  free_emergencies_only:0 "Free Emergencies Only"
  free_emergencies_only_tt:0 "Cash Balance: §R-[?healthcare_expense_free_emergencies_only] M§!"
  private_healthcare:0 "Private Healthcare"
+
+ education:0 "Education Law"
+ free_universities:0 "No Universities Tuititon"
+ free_universities_tt:0 "Cash Balance: §R-[?education_expense_free_universities] M§!"
+ free_high_schools:0 "Free High Schools"
+ free_high_schools_tt:0 "Cash Balance: §R-[?education_expense_free_high_schools] M§!"
+ free_elementary_and_middle_schools:0 "Free Primary Education"
+ free_elementary_and_middle_schools_tt:0 "Cash Balance: §R-[?education_expense_free_elementary_and_middle_schools] M§!"
+ private_education:0 "Private Education"

@@ -30,6 +30,17 @@ scripted_gui = {
 					}
 				}
 			}
+			debt_button_click = {
+				if = {
+					limit = {
+						has_global_flag = economy_tab_on
+					}
+					clr_global_flag = economy_tab_on
+					else = {
+						set_global_flag = economy_tab_on
+					}
+				}
+			}
 		}
 	}
 

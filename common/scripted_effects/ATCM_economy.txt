@@ -71,6 +71,11 @@ ATCM_economy_setup = {
 			#	value > -1800000000
 			#}
 		}
+
+		###################
+		### HEALTH CARE ###
+		###################
+
 		set_variable = {
 			var = healthcare_expense_show
 			value = ROOT.max_manpower_k
@@ -154,15 +159,102 @@ ATCM_economy_setup = {
 			value = var:healthcare_expense
 		}
 
-		multiply_variable = {
-			var = cash
-			value = 10
+		#################
+		### EDUCATION ###
+		#################
+
+		set_variable = {
+			var = education_expense_show
+			value = ROOT.max_manpower_k
 		}
-		round_variable = cash
 		divide_variable = {
-			var = cash
-			value = 10
+			var = education_expense_show
+			value = 500
 		}
+		round_variable = education_expense_show
+
+		set_variable = {
+			var = education_expense_free_universities
+			value = var:education_expense_show
+		}
+		multiply_variable = {
+			var = education_expense_free_universities
+			value = 5.0
+		}
+
+		set_variable = {
+			var = education_expense_free_high_schools
+			value = var:education_expense_show
+		}
+		multiply_variable = {
+			var = education_expense_free_high_schools
+			value = 4.5
+		}
+
+		set_variable = {
+			var = education_expense_free_elementary_and_middle_schools
+			value = var:education_expense_show
+		}
+		multiply_variable = {
+			var = education_expense_free_elementary_and_middle_schools
+			value = 3.0
+		}
+
+		set_variable = {
+			var = education_expense
+			value = var:education_expense_show
+		}
+		if = {
+			limit = {
+				has_idea = free_universities
+			}
+			multiply_variable = {
+				var = education_expense
+				value = 5.0
+			}
+			else_if = {
+				limit = {
+					has_idea = free_high_schools
+				}
+				multiply_variable = {
+					var = education_expense
+					value = 4.5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = free_elementary_and_middle_schools
+				}
+				multiply_variable = {
+					var = education_expense
+					value = 3.0
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = private_education
+				}
+				multiply_variable = {
+					var = education_expense
+					value = 0
+				}
+			}
+		}
+		round_variable = education_expense
+		subtract_from_variable = {
+			var = cash
+			value = var:education_expense
+		}
+	}
+
+	multiply_variable = {
+		var = cash
+		value = 10
+	}
+	round_variable = cash
+	divide_variable = {
+		var = cash
+		value = 10
 	}
 
 }
