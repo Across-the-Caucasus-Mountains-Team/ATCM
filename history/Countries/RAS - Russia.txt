@@ -101,6 +101,7 @@ set_popularities = {
 add_ideas = {
 	extensive_conscription
 	universal_health_care
+	free_universities
 
 	RAS_Memories_of_afhganistan_war
 	RAS_Failed_perestroika

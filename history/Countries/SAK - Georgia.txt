@@ -34,6 +34,7 @@ set_technology = {
 
 add_ideas = {
 	universal_health_care
+	free_universities
 
 	SAK_Gamsakhurdias_Speechs
 	SAK_Tbilisi_syndrome
