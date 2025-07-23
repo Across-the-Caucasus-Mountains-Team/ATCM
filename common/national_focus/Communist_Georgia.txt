@@ -1,0 +1,17 @@
+focus_tree = {
+	id = Georgia_Communist
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SAK
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 3000 y = 500 }
+
+}
