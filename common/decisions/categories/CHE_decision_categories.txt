@@ -21,7 +21,7 @@ CHE_first_chechen_war_decision = {
 
 CHE_peace_negotiations_first_chechen_war_decision = {
 
-	priority = 90
+	priority = 88
 	
 	icon = SOV_propaganda
 	
@@ -36,7 +36,7 @@ CHE_peace_negotiations_first_chechen_war_decision = {
 
 CHE_general_staff_decision = {
 
-	priority = 90
+	priority = 96
 	
 	icon = SOV_propaganda
 	
@@ -53,7 +53,7 @@ CHE_general_staff_decision = {
 
 CHE_elections_1991_decision = {
 
-	priority = 90
+	priority = 91
 	
 	icon = SOV_propaganda
 	
@@ -62,6 +62,21 @@ CHE_elections_1991_decision = {
 	visible = {
         tag = CHE
 		has_country_flag = CHE_Elections_1991
+	}
+	visible_when_empty = yes
+}
+
+CHE_stability_of_republic_decision = {
+
+	priority = 89
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_completed_focus = CHE_build_secular_state
 	}
 	visible_when_empty = yes
 }

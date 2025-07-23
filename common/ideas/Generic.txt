@@ -46,5 +46,102 @@ ideas = {
 			    army_defence_factor = 0.075							
 			}
 		}
+
+		GEN_invest_into_factories_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15						
+			}
+		}
+
+		GEN_invest_into_infrastructure_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.15						
+			}
+		}
+
+		GEN_invest_into_millitary_factories_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.15						
+			}
+		}
+
+		GEN_invest_into_education_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				research_speed_factor = 0.075
+				stability_factor = 0.075
+				political_power_gain = 0.05					
+			}
+		}
+
+		GEN_invest_into_ports_idea = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				production_speed_naval_base_factor = 0.25					
+			}
+		}
 	}
 }	

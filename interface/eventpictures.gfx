@@ -409,4 +409,10 @@ spriteTypes = {
 		name = "GFX_Report_event_RAS_fsb_report"
 		texturefile = "gfx/event_pictures/Report_event_RAS_fsb_report.png"
 	}
+    
+	# economic events pictures
+	spriteType = {
+		name = "GFX_Report_event_GEN_critical_budget_deficit"
+		texturefile = "gfx/event_pictures/economic_events/Report_event_GEN_critical_budget_deficit.png"
+	}
 }	

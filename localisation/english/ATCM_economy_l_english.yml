@@ -1,5 +1,6 @@
 ﻿l_english:
  cash_balance:0 "§G[?cash]§!"
+ 
  cash_balance_value_tt:0 "Cash"
  cash_balance_value_tt2:0 "You currently have [?cash] million dollars available to be spent."
  debt_balance:0 "§R[?cash]§!"

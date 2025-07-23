@@ -151,6 +151,9 @@ country_event = {
 
 	option = {
 		name = Georgia.10.a
+		ai_chance = {
+			base = 1
+		}
 		drop_cosmetic_tag = yes
 		RAS = {
 			set_autonomy = {
@@ -164,7 +167,22 @@ country_event = {
 		remove_ideas = SAK_Gamsakhurdias_Speechs
 		hidden_effect = {
 			load_focus_tree = Independent_Georgia_focus
-		}		
+		}
+	}
+	option = {
+		name = Georgia.10.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+		remove_ideas = SAK_Gamsakhurdias_Speechs
+		custom_effect_tooltip = in_dev_branch_tt
+		hidden_effect = {
+			load_focus_tree = Georgia_Communist
+		}
 	}
 }
 

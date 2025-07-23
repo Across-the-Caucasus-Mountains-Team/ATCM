@@ -1,0 +1,18 @@
+################
+##### RAS ######
+################
+# kaja is good man
+
+RAS_external_default_decision = {
+
+	priority = 85
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        has_country_flag = criticalbudgetdeficit   
+	}
+	visible_when_empty = yes
+}

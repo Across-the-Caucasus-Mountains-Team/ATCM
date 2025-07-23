@@ -453,11 +453,11 @@ CHE_elections_1991_decision = {
                 value = 20
                 tooltip = add_basayev_support_to_var_tt
             }
-			add_to_variable = {
+			subtract_from_variable = {
                 var = CHE_dudayev_support_value
-                value = -20
-                tooltip = CHE_basayev_support_value
-            }
+                value = 20
+                tooltip = add_basayev_support_to_var_tt #TODO
+			}
 			set_country_flag = CHESupportBasayev
 		}
 
@@ -516,6 +516,39 @@ CHE_elections_1991_decision = {
 				is_historical_focus_on = no 
 				add = 25
 			}	
+		}
+	}
+
+}
+
+CHE_stability_of_republic_decision = {
+
+	CHE_propaganda_against_the_opposition = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+			has_global_flag = FirstChechenWar
+		}
+	    
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+		}
+
+		complete_effect = {
+		    add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 1500
+			}
+		}
+
+		ai_will_do = {
+			factor = 50		
 		}
 	}
 

@@ -89,6 +89,126 @@ scripted_gui = {
 			close_button_click = {
 				clr_global_flag = economy_tab_on
 			}
+			economic_decisions_button_click = {
+				if = {
+					limit = {
+						has_global_flag = economy_decisions_tab_on
+					}
+					clr_global_flag = economy_decisions_tab_on
+					else = {
+						set_global_flag = economy_decisions_tab_on
+					}
+				}
+			}
 		}
+	}
+
+	economy_decisions_window_sg = {
+		window_name = "economy_decision_window"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = economy_decisions_tab_on
+		}
+
+		triggers = {
+
+		}
+
+		effects = {
+			close_button_click = {
+				clr_global_flag = economy_decisions_tab_on
+			}
+		}
+
+		effects = {
+			invest_civil_industry_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_factories_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 2500
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_factories_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_infrastructure_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_infrastructure_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 1500
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_infrastructure_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_ports_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_ports_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 1500
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_ports_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_education_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_education_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 2000
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_education_idea
+                        days = 90
+                    }
+				}
+			}
+			invest_millitray_factories_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_idea = GEN_invest_into_millitary_factories_idea
+						}
+					}
+					subtract_from_variable = {
+				        var = cash
+				        value = 3000
+			        }
+					add_timed_idea = {
+                        idea = GEN_invest_into_millitary_factories_idea
+                        days = 90
+                    }
+				}
+			}
+			
+		}
+
 	}
 }

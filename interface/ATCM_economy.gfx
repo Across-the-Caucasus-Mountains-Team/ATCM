@@ -1,6 +1,11 @@
 spriteTypes = {
 
 	spriteType = {
+		name = "GFX_economy_background"
+		textureFile = "gfx/interface/scripted_guis/economy/economy_background.png"
+	}
+
+	spriteType = {
 		name = "GFX_cash"
 		textureFile = "gfx/interface/scripted_guis/economy/cash.png"
 	}
@@ -17,5 +22,26 @@ spriteTypes = {
 		name = "GFX_im_broke_bae_smol"
 		textureFile = "gfx/interface/scripted_guis/economy/im_broke_bae_smol.png"
 	}
+	spriteType = {
+		name = "GFX_invest_into_education"
+		textureFile = "gfx/interface/scripted_guis/economy/InvestIntoEducation.png"
+	}
+	spriteType = {
+		name = "GFX_invest_into_factories"
+		textureFile = "gfx/interface/scripted_guis/economy/InvestIntoFactories.png"
+	}
+	spriteType = {
+		name = "GFX_invest_into_millitary"
+		textureFile = "gfx/interface/scripted_guis/economy/InvestIntoMillitary.png"
+	}
+	spriteType = {
+		name = "GFX_invest_into_ports"
+		textureFile = "gfx/interface/scripted_guis/economy/InvestIntoPorts.png"
+	}
+	spriteType = {
+		name = "GFX_invest_into_roads"
+		textureFile = "gfx/interface/scripted_guis/economy/InvestIntoRoads.png"
+	}
+	
 
 }
