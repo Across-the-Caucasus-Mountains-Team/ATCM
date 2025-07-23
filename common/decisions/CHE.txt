@@ -520,3 +520,36 @@ CHE_elections_1991_decision = {
 	}
 
 }
+
+CHE_stability_of_republic_decision = {
+
+	CHE_propaganda_against_the_opposition = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+			has_global_flag = FirstChechenWar
+		}
+	    
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+		}
+
+		complete_effect = {
+		    add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = 1500
+			}
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+
+}
