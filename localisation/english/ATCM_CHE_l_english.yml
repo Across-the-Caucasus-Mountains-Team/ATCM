@@ -71,10 +71,18 @@
   CHE_start_operation_of_jihad:0 "Operation 'Jihad'"
   CHE_Hold_The_Line:0 "Hold the line"
   CHE_The_Fanatical_Resistance:0 "The fanatical resistance"
+  CHE_hold_elections:0 "Hold Elections"
+  CHE_propaganda_of_nationalism:0 "Propaganda of Nationalism"
+  CHE_2nd_session_of_the_firs_chechen_national_congress:0 "Chechen national congress"
+  CHE_build_secular_state:0 "Build a secular state"
+  CHE_build_islamic_state:0 "Build an Islamic state"
+
 
   CHE_counteroffensives_decision:0 "Counterattacks"
   CHE_peace_negotiations_first_chechen_war_decision_desc:0 "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§"
   CHE_hold_Argun:0 "Hold Argun"
+  CHE_stability_of_republic_decision:0 "Stability of the Republic"
+  CHE_stability_of_republic_decision_desc:0 "Stability of the Republic"
 
   CHE_elections_1991_decision:0 "Elections in 1991"
   CHE_elections_1991_decision_desc:0 "The Chechen Republic is in the midst of its first-ever presidential election. The situation is volatile: central Soviet authority is collapsing, and the region is operating outside Moscow’s control. While much of the population supports independence, others fear isolation or war. \n\nSupport of Dudayev: §Y[?CHE_dudayev_support_value|%%]§! \n\nSupport of Basayev: §Y[?CHE_basayev_support_value|%%]§!"

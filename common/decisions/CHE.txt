@@ -532,12 +532,11 @@ CHE_stability_of_republic_decision = {
 		
 		available = {		
 		    tag = CHE
-			has_global_flag = FirstChechenWar
 		}
 	    
 		visible = {
 			tag = CHE
-			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_build_secular_state
 		}
 
 		complete_effect = {
