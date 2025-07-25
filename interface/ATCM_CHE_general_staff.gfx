@@ -1,6 +1,17 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_CHE_Chechen_General_Staff_Button"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_General_Staff_Button.png"
+	}
+
 	spriteType = {
 		name = "GFX_CHE_general_staff_background"
-		textureFile = "gfx/interface/scripted_guis/CHE/separatism_gui/ChechenGeneralStaff.png"
+		textureFile = "gfx/interface/scripted_guis/CHE/ChechenGeneralStaff.png"
+	}
+
+	spriteType = {
+		name = "GFX_North_Chechnya"
+		textureFile = "gfx/interface/scripted_guis/CHE/NorthChechnya.png"
 	}
 }

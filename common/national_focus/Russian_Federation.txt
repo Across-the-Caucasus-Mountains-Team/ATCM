@@ -569,6 +569,7 @@ focus_tree = {
 		completion_reward = {
 	        add_war_support = 0.05
 		    add_political_power = 50
+			army_experience = 10
 		}
 	}
 
@@ -617,7 +618,7 @@ focus_tree = {
 		x = -1
 		y = 2
 
-		cost = 25
+		cost = 35
 
 		ai_will_do = {
 			base = 5

@@ -1,5 +1,25 @@
 guiTypes = {
 	containerWindowType = {
+		name = "CHE_general_staff_decision_window"
+		size = { width = 345 height = 220 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "general_staff_map_button"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 175 y = 25 }
+			shortcut = "shift+c"
+			buttonText = "Open map"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+
+
+    }
+
+	containerWindowType = {
 		name = "CHE_general_staff_window"
 		size = { width = 900 height = 500 }
 		position = { x = 0 y = 0 }
@@ -10,6 +30,13 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_CHE_general_staff_background"
+		}
+
+		iconType = {
+			name = "North_chechnya_icon"
+			position = { x = 104 y = 63 }
+			spriteType = "GFX_North_Chechnya"
+			alwaystransparent = yes
 		}
 
     }

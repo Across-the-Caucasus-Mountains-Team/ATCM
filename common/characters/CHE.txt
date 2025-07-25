@@ -135,4 +135,19 @@ characters={
 			legacy_id = 1203
 		}
 	}
+	CHE_akhmad_kadyrov = {
+		name = "Akhmad Kadyrov"
+		portraits = {
+			civilian={
+				large="gfx/leaders/CHE/portrait_CHE_Ahmat_Kadyrov.png"
+			}
+		}
+		country_leader={
+			ideology= generic_authoritarianism
+			traits={ # 
+			}
+			expire="2030.4.21.1"
+			id=-1
+		}
+	}
 }

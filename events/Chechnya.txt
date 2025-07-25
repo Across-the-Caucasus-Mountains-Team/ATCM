@@ -350,7 +350,10 @@ country_event = {
 		add_war_support = 0.05
         add_popularity = {ideology = islam Popularity = 0.05}		
 		add_political_power = 25
-		set_country_flag = CHEIslamicRadicalismElections1991
+		hidden_effect = {
+			set_country_flag = CHEIslamicRadicalismElections1991
+			clr_country_flag = CHE_Elections_1991 
+		}
 	}
 }
 
@@ -371,7 +374,10 @@ country_event = {
 		name = chechnya.16.a
 		add_war_support = 0.05
 		add_political_power = 25
-		set_country_flag = DzohkharDudayevWon
+		hidden_effect = {
+			set_country_flag = DzohkharDudayevWon
+			clr_country_flag = CHE_Elections_1991 
+		}
 	}
 }
 
