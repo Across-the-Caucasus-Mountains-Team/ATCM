@@ -77,18 +77,23 @@
   CHE_build_secular_state:0 "Build a secular state"
   CHE_build_islamic_state:0 "Build an Islamic state"
 
+  ## Tooltips
+  add_legitimacy_of_dudayev_to_var_tt:0 "§CIncrease the legitimacy of §!§YDudayev§!"
+
 
   CHE_counteroffensives_decision:0 "Counterattacks"
   CHE_peace_negotiations_first_chechen_war_decision_desc:0 "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§"
   CHE_hold_Argun:0 "Hold Argun"
   CHE_stability_of_republic_decision:0 "Stability of the Republic"
-  CHE_stability_of_republic_decision_desc:0 "Stability of the Republic"
+  CHE_stability_of_republic_decision_desc:0 "Following Dzhokhar Dudayev's victory in the presidential elections, the newly proclaimed Republic of Ichkeria is on a fragile path toward full independence. However, the country faces immense challenges, the collapse of Soviet institutions, economic uncertainty, and the existence of powerful internal opposition forces.\n\nLegitimacy of Dudayev: §Y[?CHE_legitimacy_of_dudayev_value|%%]§! \n\nPower of opposition: §Y[?CHE_power_of_opposition_value|%%]§!"
 
   CHE_elections_1991_decision:0 "Elections in 1991"
-  CHE_elections_1991_decision_desc:0 "The Chechen Republic is in the midst of its first-ever presidential election. The situation is volatile: central Soviet authority is collapsing, and the region is operating outside Moscow’s control. While much of the population supports independence, others fear isolation or war. \n\nSupport of Dudayev: §Y[?CHE_dudayev_support_value|%%]§! \n\nSupport of Basayev: §Y[?CHE_basayev_support_value|%%]§!"
+  CHE_elections_1991_decision_desc:0 "The Chechen Republic is in the midst of its first-ever presidential election. The situation is volatile: central Soviet authority is collapsing, and the region is operating outside Moscow’s control. While much of the population supports independence, others fear isolation or war. \n\nSupport of Dudayev: §Y[?CHE_dudayev_support_value|%%]§! \n\nIslamic radicalism: §Y[?CHE_islamic_radicalism_value|%%]§!"
   CHE_hold_Argun:0 "Hold Argun"
-  add_basayev_support_to_var_tt:0 "§YIncrease support for §RBasayev§!"
+  add_incersace_islamic_radicalism_to_var_tt:0 "§YIncrease §RIslamic radicalism§!"
   add_dudayev_support_to_var_tt:0 "§YIncrease support for §RDudayev§!"
+  sub_5_from_power_of_opposition_chechnya_tt:0 "§RDecrease the power of the opposition§!"
+  CHE_support_islamic_radicalism_decision:0 "Support Islamic Radicalism"
 
 
 

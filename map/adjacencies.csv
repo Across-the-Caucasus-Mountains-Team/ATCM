@@ -1,4 +1,4 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 -1;-1;;-1;-1;-1;-1;-1;-1
 
-9067;1003;sea;16666;-1;-1;-1;-1;;Chechen-Island
+9067;1003;sea;-1;-1;-1;-1;Chechen-Island

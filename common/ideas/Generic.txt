@@ -43,7 +43,9 @@ ideas = {
 				army_attack_factor = 0.25
                 army_org_factor = 0.15	
 				army_attack_speed_factor = 0.15
-			    army_defence_factor = 0.075							
+			    army_defence_factor = 0.075	
+				supply_factor = 0.25	
+				ai_focus_aggressive_factor = 0.5					
 			}
 		}
 

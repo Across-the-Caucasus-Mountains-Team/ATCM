@@ -10,9 +10,9 @@ CHE_dudayev_support_clamp_and_update_ui_effect = {
 
 ## Basayev support value
 
-CHE_basayev_support_clamp_and_update_ui_effect = {
+CHE_islamic_radicalism_value_clamp_and_update_ui_effect = {
 	clamp_variable = {
-		var = CHE_basayev_support_value
+		var = CHE_islamic_radicalism_value
 		min = 0
 		max = 100
 	}
