@@ -1439,7 +1439,7 @@ focus_tree = {
 		relative_position_id = CHE_The_Battle_is_in_here
 		prerequisite = { focus = CHE_call_Everyone }
 		
-		cost = 15
+		cost = 10
 		
 		ai_will_do = {
 			factor = 100
