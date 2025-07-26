@@ -61,7 +61,7 @@ defined_text = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_Shatoisky_District_State"
+        localization_key = "GFX_Shalinsky_District_State"
     }
 
     text = {
@@ -72,7 +72,7 @@ defined_text = {
                 }
             }
         }
-        localization_key = "GFX_Shatoisky_District_Captured"
+        localization_key = "GFX_Shalinsky_District_Captured"
     }
 }
 
@@ -85,7 +85,7 @@ defined_text = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_Urus_Martonovsky_Captured"
+        localization_key = "GFX_Urus_Martonovsky_State"
     }
 
     text = {
@@ -96,198 +96,398 @@ defined_text = {
                 }
             }
         }
-        localization_key = "GFX_Urus_Martonovsky_Captured_Captured"
+        localization_key = "GFX_Urus_Martonovsky_Captured"
     }
 }
 
 defined_text = {
-    name = zakarpatya_image
+    name = get_Vedensky_District_icon
 
     text = {
         trigger = {
-            137 = {
+            127 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_zakarpatie_seapartism_gui"
+        localization_key = "GFX_Vedensky_District_State"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                127 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_zakarpatie_captured_seapartism_gui"
+        localization_key = "GFX_Vedensky_District_Captured"
     }
 }
 
 defined_text = {
-    name = middle_CHEaine_image
+    name = get_Gudemarsky_District_icon
 
     text = {
         trigger = {
-            137 = {
+            16 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_mid_CHEaine_gui"
+        localization_key = "GFX_Gudemersky_District_State"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                16 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_mid_CHEaine_captured_seapartism_gui"
+        localization_key = "GFX_Gudemersky_District_Captured"
     }
 }
 
 defined_text = {
-    name = luhansk_image
+    name = get_Grozny_icon
 
     text = {
         trigger = {
-            137 = {
+            21 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_luhansk_seapartism_gui"
+        localization_key = "GFX_Grozny_State"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                21 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_luhansk_captured_seapartism_gui"
+        localization_key = "GFX_Grozny_Captured"
     }
 }
 
 defined_text = {
-    name = nikolaev_image
+    name = get_Groznensky_district_icon
 
     text = {
         trigger = {
-            137 = {
+            128 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_nikolaev_seapartism_gui"
+        localization_key = "GFX_Groznensky_District_State"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                128 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_nikolaev_captured_seapartism_gui"
+        localization_key = "GFX_Groznensky_District_Captured"
     }
 }
 
 defined_text = {
-    name = zaporzhie_image
+    name = get_Achoi_Martanovsky_icon
 
     text = {
         trigger = {
-            137 = {
+            132 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_zaporozhie_seapartism_gui"
+        localization_key = "GFX_Achoi_Martanovsky_State"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                132 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_zaporozhie_captured_seapartism_gui"
+        localization_key = "GFX_Achoi_Martanovsky_Captured"
     }
 }
 
 defined_text = {
-    name = kharkov_image
+    name = get_Shatoysky_icon
 
     text = {
         trigger = {
-            137 = {
+            130 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_kharkov_seapartism_gui"
+        localization_key = "GFX_Shatoisky_District_State"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                130 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_kharkov_captured_seapartism_gui"
+        localization_key = "GFX_Shatoisky_District_Captured"
     }
 }
 
+
+### Buttons
 defined_text = {
-    name = dnieper_image
+    name = get_button_north_chechnya
 
     text = {
         trigger = {
-            137 = {
+            11 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_dnieper_seapartism_gui"
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                11 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_dnieper_captured_seapartism_gui"
+        localization_key = "GFX_Russian_Embleme"
     }
 }
 
 defined_text = {
-    name = kherson_image
+    name = get_button_grozny
 
     text = {
         trigger = {
-            137 = {
+            21 = {
                 is_fully_controlled_by = CHE
             }
         }
-        localization_key = "GFX_herson_seapartism_gui"
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
     }
 
     text = {
         trigger = {
             NOT = {
-                137 = {
+                21 = {
                     is_fully_controlled_by = CHE
                 }
             }
         }
-        localization_key = "GFX_herson_captured_seapartism_gui"
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = get_button_south_chechnya
+
+    text = {
+        trigger = {
+            124 = {
+                is_fully_controlled_by = CHE
+            }
+            125 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                124 = {
+                    is_fully_controlled_by = CHE
+                }
+                125 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = get_button_shalinsky_district
+
+    text = {
+        trigger = {
+            132 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                132 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = get_button_urus_martonovsky_district
+
+    text = {
+        trigger = {
+            126 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                126 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = get_button_vedensky_district
+
+    text = {
+        trigger = {
+            127 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                127 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = get_button_gudemarsky_district
+
+    text = {
+        trigger = {
+            16 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                16 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = button_groznensky_district
+
+    text = {
+        trigger = {
+            128 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                128 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = get_button_achoi_martanovsky_district
+
+    text = {
+        trigger = {
+            132 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                132 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
+    }
+}
+
+defined_text = {
+    name = get_button_shatoisky_district
+
+    text = {
+        trigger = {
+            130 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                130 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Russian_Embleme"
     }
 }

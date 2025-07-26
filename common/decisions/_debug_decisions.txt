@@ -47,6 +47,52 @@ debug_decisions = {
 			RAS = {
 				complete_national_focus = RAS_end_of_the_ussr
 			}
+			set_country_flag = RUSTREELOADED_DEBUG
+		}
+	}
+
+	start_chechen_war = {
+		priority = -1
+		allowed = {
+			always = yes 
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+		allowed = {
+			has_country_flag = RUSTREELOADED_DEBUG
+		}
+		complete_effect = {
+			RAS = {
+				complete_national_focus =  RAS_blitz_chechnya
+
+			}
+		}
+	}
+
+	chechen_general_staff = {
+		priority = -1
+		allowed = {
+			always = yes 
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+		allowed = {
+         
+		}
+		complete_effect = {
+			CHE = {
+				complete_national_focus =  CHE_General_Staff_of_Chechnya
+
+			}
+			set_global_flag = FirstChechenWar
 		}
 	}
 	

@@ -2901,6 +2901,12 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = CHE_wartime_propaganda
+			add_popularity = { ideology = Nationalism Popularity = 0.05 }
+			custom_effect_tooltip = cash_balance_minus_125_tt
+			subtract_from_variable = {
+				var = cash
+				value = 125
+			}
 		}	
 	}
 
@@ -3309,6 +3315,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_speed_factor = 0.1 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
+			custom_effect_tooltip = cash_balance_minus_45_tt
 			subtract_from_variable = {
 				var = cash
 				value = 45
@@ -3357,6 +3364,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.06 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
+			custom_effect_tooltip = cash_balance_minus_15_tt
 			subtract_from_variable = {
 				var = cash
 				value = 15
@@ -3395,8 +3403,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -100
-			add_stability = -0.1
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.02 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.01 }
@@ -3406,6 +3412,9 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.02 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.01 }
 			custom_effect_tooltip = 3_CHE_tt
+			add_political_power = -100
+			add_stability = -0.15
+			custom_effect_tooltip = cash_balance_minus_25_tt
 			subtract_from_variable = {
 				var = cash
 				value = 25
@@ -3447,6 +3456,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 50
 			add_war_support = 0.025
+			custom_effect_tooltip = cash_balance_minus_45_tt
 			subtract_from_variable = {
 				var = cash
 				value = 45
@@ -3547,6 +3557,7 @@ focus_tree = {
 				amount = 50
 			}
 			custom_effect_tooltip = 3_CHE_tt
+			custom_effect_tooltip = cash_balance_minus_45_tt
 			subtract_from_variable = {
 				var = cash
 				value = 45
@@ -3595,9 +3606,10 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.15 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.15 }
 			custom_effect_tooltip = 3_CHE_tt
+			custom_effect_tooltip = cash_balance_minus_65_tt
 			subtract_from_variable = {
 				var = cash
-				value = 55
+				value = 65
 			}
 		}	
 	}
@@ -3643,6 +3655,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
+			custom_effect_tooltip = cash_balance_minus_25_tt
 			subtract_from_variable = {
 				var = cash
 				value = 25
@@ -3686,6 +3699,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
+			custom_effect_tooltip = cash_balance_minus_65_tt
 			subtract_from_variable = {
 				var = cash
 				value = 65
@@ -3763,6 +3777,7 @@ focus_tree = {
 			add_political_power = 10
 			add_stability = 0.075
 			remove_idea = CHE_question_of_currency_idea
+			custom_effect_tooltip = cash_balance_plus_5_tt
 			add_to_variable = {
 				var = cash
 				value = 5
@@ -3877,6 +3892,11 @@ focus_tree = {
 				idea = CHE_Military_Training
 				days = 365
 			}
+			custom_effect_tooltip = cash_balance_minus_25_tt
+			subtract_from_variable = {
+				var = cash
+				value = 25
+			}
 		}	
 	}
 
@@ -3912,6 +3932,11 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.05
 			add_war_support = 0.025
+			custom_effect_tooltip = cash_balance_minus_25_tt
+			subtract_from_variable = {
+				var = cash
+				value = 25
+			}
 		}	
 	}
 
@@ -3987,6 +4012,10 @@ focus_tree = {
                 value = 5
                 tooltip = add_legitimacy_of_dudayev_to_var_tt
             }
+			activate_mission = CHE_weekly_power_of_opposition_value
+			hidden_effect = {
+				set_country_flag = CHE_dudayev_dicatorship
+			}
 		}	
 	}
 
@@ -4021,9 +4050,10 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 50
 			add_ideas = CHE_National_Guard
+			custom_effect_tooltip = cash_balance_minus_250_tt
 			subtract_from_variable = {
 				var = cash
-				value = 15
+				value = 250
 			}
 		}	
 	}
@@ -4100,7 +4130,8 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = CHE_Islamic_Conservatism_idea
-			add_popularity = { ideology = Nationalism Popularity = 0.25 }
+			add_popularity = { ideology = Nationalism Popularity = 0.15 }
+			add_popularity = { ideology = islam Popularity = 0.075 }
 		}	
 	}
 
@@ -4214,6 +4245,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.075
+			custom_effect_tooltip = cash_balance_minus_15_tt
 			add_to_variable = {
 				var = cash
 				value = 15
@@ -4260,9 +4292,10 @@ focus_tree = {
 				}	
 				add_extra_state_shared_building_slots = 2
 			}	
+			custom_effect_tooltip = cash_balance_minus_175_tt
 			subtract_from_variable = {
 				var = cash
-				value = 25
+				value = 175
 			}
 		}	
 	}
@@ -4319,9 +4352,10 @@ focus_tree = {
 					instant_build = yes
 				}	
 			}	
+			custom_effect_tooltip = cash_balance_minus_150_tt
 			subtract_from_variable = {
 				var = cash
-				value = 15
+				value = 150
 			}
 		}	
 	}
@@ -4357,11 +4391,12 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -100
 			add_stability = 0.075
+			add_political_power = 25
+			custom_effect_tooltip = cash_balance_minus_75_tt
 			subtract_from_variable = {
 				var = cash
-				value = 15
+				value = 75
 			}
 		}	
 	}
@@ -4423,9 +4458,10 @@ focus_tree = {
 				}	
 				add_extra_state_shared_building_slots = 2
 			}	
+			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
 				var = cash
-				value = 55
+				value = 500
 			}
 		}	
 	}
@@ -4462,16 +4498,17 @@ focus_tree = {
 		
 		completion_reward = {
 			add_stability = 0.075
-			add_political_power = -150
+			add_political_power = 25
+			custom_effect_tooltip = cash_balance_minus_100_tt
 			subtract_from_variable = {
 				var = cash
-				value = 35
+				value = 100
 			}
 		}	
 	}
 
 	focus = {
-		id = CHE_Crackdown_The_opposition
+		id = CHE_crackdown_The_opposition
 		icon = GFX_Goal_unknow
 		x = -4
 		y = 1
@@ -4511,12 +4548,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHE_Raid_and_arrests
+		id = CHE_raids_on_the_opposition
 		icon = GFX_CHE_Arrests_and_raids
 		x = -3
 		y = 2
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_Crackdown_The_opposition }
+		prerequisite = { focus = CHE_crackdown_The_opposition }
 		
 		cost = 25
 		
@@ -4558,20 +4595,16 @@ focus_tree = {
 				ideology = anarchism
 				popularity = -0.05
 			}
-			add_popularity = {
-				ideology = populism
-				popularity = -0.05
-			}
 		}	
 	}
 
 	focus = {
-		id = CHE_Silent_killing
+		id = CHE_silent_liquidations
 		icon = GFX_Goal_unknow
 		x = -5
 		y = 2
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_Crackdown_The_opposition}
+		prerequisite = { focus = CHE_crackdown_The_opposition}
 		
 		cost = 25
 		
@@ -4613,10 +4646,6 @@ focus_tree = {
 				ideology = anarchism
 				popularity = -0.05
 			}
-			add_popularity = {
-				ideology = populism
-				popularity = -0.05
-			}
 		}	
 	}
 
@@ -4626,8 +4655,8 @@ focus_tree = {
 		x = -4
 		y = 3
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_Silent_killing}
-		prerequisite = { focus = CHE_Raid_and_arrests}
+		prerequisite = { focus = CHE_silent_liquidations}
+		prerequisite = { focus = CHE_raids_on_the_opposition}
 		
 		cost = 30
 		
@@ -4667,10 +4696,6 @@ focus_tree = {
 			}
 			add_popularity = {
 				ideology = anarchism
-				popularity = -0.075
-			}
-			add_popularity = {
-				ideology = populism
 				popularity = -0.075
 			}
 			hidden_effect = {

@@ -104,10 +104,9 @@
 
   ## Tooltips
   add_legitimacy_of_dudayev_to_var_tt:0 "§CIncrease the legitimacy of §!§YDudayev§!"
+  add_CHE_opposition_power_to_var_tt:0 "§CIncrease the strength of §!§ROpposition§!"
 
-
-  CHE_counteroffensives_decision:0 "Counterattacks"
- CHE_peace_negotiations_first_chechen_war_decision:0 "Peace Negotiations"
+  CHE_peace_negotiations_first_chechen_war_decision:0 "Peace Negotiations"
   CHE_peace_negotiations_first_chechen_war_decision_desc:0 "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§"
   CHE_stability_of_republic_decision:0 "Stability of the Republic"
   CHE_stability_of_republic_decision_desc:0 "Following Dzhokhar Dudayev's victory in the presidential elections, the newly proclaimed Republic of Ichkeria is on a fragile path toward full independence. However, the country faces immense challenges, the collapse of Soviet institutions, economic uncertainty, and the existence of powerful internal opposition forces.\n\nLegitimacy of Dudayev: §Y[?CHE_legitimacy_of_dudayev_value|%%]§! \n\nPower of opposition: §Y[?CHE_power_of_opposition_value|%%]§!"
