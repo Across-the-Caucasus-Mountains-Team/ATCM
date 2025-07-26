@@ -63,6 +63,26 @@ ideas = {
 			}
 		}
 
+		CHE_first_chechen_war_idea = {
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Unrecognized_Country
+			
+			modifier = {
+				surrender_limit = 0.9
+				army_core_attack_factor = 0.05
+				equipment_capture_factor = 0.02
+			}
+		}
+
         CHE_Unrecognized_Country = {
 			
 			allowed = {
@@ -182,7 +202,7 @@ ideas = {
 			picture = CHE_Nationalist_Propaganda
 			
 			modifier = {
-			    war_support_Factor = 0.3
+			    war_support_factor = 0.3
 				army_core_defence_factor = 0.15
 				army_core_attack_factor = 0.15
 				nationalism_drift = 0.01

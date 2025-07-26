@@ -310,9 +310,9 @@ CHE_elections_1991_decision = {
 			add_stability = 0.05
 			if = {
 				limit = {
-					has_country_flag = CHESupportBasayev
+					has_country_flag = CHEIslamicRadicalismElections1991
 					check_variable = {
-                        var = CHE_basayev_support_value
+                        var = add_incersace_islamic_radicalism_to_var_tt
                         value = 50
                         compare = greater_than_or_equals
                     }
@@ -329,9 +329,9 @@ CHE_elections_1991_decision = {
 			}
 			if = {
 				limit = {
-					has_country_flag = CHESupportBasayev
+					has_country_flag = CHEIslamicRadicalismElections1991
 					check_variable = {
-                        var = CHE_basayev_support_value
+                        var = add_incersace_islamic_radicalism_to_var_tt
                         value = 50
                         compare = less_than
                     }
@@ -389,7 +389,7 @@ CHE_elections_1991_decision = {
 
 	CHE_support_dudayev_decision = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_generic_soldier
 
         cost = 50
 		fire_only_once = yes
@@ -403,7 +403,7 @@ CHE_elections_1991_decision = {
 			tag = CHE
 			has_country_flag = CHE_Elections_1991
 			NOT = {
-				has_country_flag = CHESupportBasayev
+				has_country_flag = CHEIslamicRadicalismElections1991
 			}
 		}
 
@@ -414,7 +414,6 @@ CHE_elections_1991_decision = {
                 value = 10
                 tooltip = add_dudayev_support_to_var_tt
             }
-			set_country_flag = CHESupportDudayev
 		}
 
 		ai_will_do = {
@@ -426,7 +425,7 @@ CHE_elections_1991_decision = {
 		}
 	}
 
-	CHE_support_basayev_decision = {
+	CHE_support_islamic_radicalism_decision = {
 
 		icon = GFX_decision_generic_soldie
 
@@ -449,16 +448,15 @@ CHE_elections_1991_decision = {
 		complete_effect = {
             add_popularity = {ideology = islam Popularity = 0.15}
 			add_to_variable = {
-                var = CHE_basayev_support_value
+                var = CHE_islamic_radicalism_value
                 value = 20
-                tooltip = add_basayev_support_to_var_tt
+                tooltip = add_incersace_islamic_radicalism_to_var_tt
             }
 			subtract_from_variable = {
                 var = CHE_dudayev_support_value
                 value = 20
                 tooltip = add_basayev_support_to_var_tt #TODO
 			}
-			set_country_flag = CHESupportBasayev
 		}
 
 		ai_will_do = {
@@ -493,16 +491,17 @@ CHE_elections_1991_decision = {
 			NOT = {
 				has_country_flag = CHESupportDudayev
 			}
+			has_country_flag = CHEIslamicRadicalismElections1991
 		}
 
 		complete_effect = {
             add_popularity = {ideology = islam Popularity = 0.15}
 			add_to_variable = {
-                var = CHE_basayev_support_value
+                var = CHE_islamic_radicalism_value
                 value = 20
-                tooltip = add_basayev_support_to_var_tt
+                tooltip = add_incersace_islamic_radicalism_to_var_tt
             }
-			set_country_flag = CHESupportBasayev
+			set_country_flag = CHEIslamicRadicalismElections1991
 		}
 
 		ai_will_do = {
@@ -527,24 +526,66 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
+        cost = 100
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+		}
+	    
+		visible = {
+			tag = CHE
+			has_completed_focus = CHE_build_secular_state
+			NOT = {
+				has_country_flag = CHEChechenOppositionUprising
+			}
+		}
+
+		complete_effect = {
+		    add_stability = 0.025
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+
+	CHE_hold_raids = {
+
+		icon = GFX_decision_generic_soldie
+
         cost = 75
 		fire_only_once = yes
 		
 		available = {		
 		    tag = CHE
-			has_global_flag = FirstChechenWar
+			check_variable = {
+                var = my_var
+                value = 35
+                compare = CHE_power_of_opposition_value
+            }
 		}
 	    
 		visible = {
 			tag = CHE
-			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_build_secular_state
+			NOT = {
+				has_country_flag = CHEChechenOppositionUprising
+			}
 		}
 
 		complete_effect = {
-		    add_equipment_to_stockpile = { 
-				type = infantry_equipment_1 
-				amount = 1500
-			}
+		    add_stability = -0.05
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 		}
 
 		ai_will_do = {

@@ -84,6 +84,7 @@ country_event = {
 		}
 		add_ideas = CHE_abandoned_MIC
 		add_ideas = CHE_destroyed_economy
+		add_ideas = CHE_question_of_currency_idea
 		hidden_effect = {
 			news_event = { id = news.10 }
 		}
@@ -332,7 +333,7 @@ country_event = {
 	}
 }
 
-#basayev won
+#islamic radicalists won
 country_event = {
 	id = chechnya.15
 	title = chechnya.15.t
@@ -350,7 +351,10 @@ country_event = {
 		add_war_support = 0.05
         add_popularity = {ideology = islam Popularity = 0.05}		
 		add_political_power = 25
-		set_country_flag = ShamilBasayevWon
+		hidden_effect = {
+			set_country_flag = CHEIslamicRadicalismElections1991
+			clr_country_flag = CHE_Elections_1991 
+		}
 	}
 }
 
@@ -359,7 +363,7 @@ country_event = {
 	id = chechnya.16
 	title = chechnya.16.t
 	desc = chechnya.16.d
-	picture = GFX_Report_event_CHE_dudayev_is_dead
+	picture = GFX_Report_event_CHE_victory_of_dudayev
 
 	is_triggered_only = yes
 
@@ -371,7 +375,10 @@ country_event = {
 		name = chechnya.16.a
 		add_war_support = 0.05
 		add_political_power = 25
-		set_country_flag = DzohkharDudayevWon
+		hidden_effect = {
+			set_country_flag = DzohkharDudayevWon
+			clr_country_flag = CHE_Elections_1991 
+		}
 	}
 }
 
@@ -390,8 +397,86 @@ country_event = {
 
 	option = {
 		name = chechnya.17.a
-		add_war_support = 0.05
-		add_political_power = 25
-		set_country_flag = DzohkharDudayevWon
+		add_stability = -0.075
+		add_political_power = -25
+		hidden_effect = {
+			country_event = {
+				id = chechnya.19
+				days = 3
+			}
+		}
+	}
+}
+
+#1991 elections event
+country_event = {
+	id = chechnya.18
+	title = chechnya.18.t
+	desc = chechnya.18.d
+	picture = GFX_Report_event_CHE_election_1991
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.18.a
+		add_stability = 0.075
+		add_political_power = 50
+		activate_mission = CHE_chechen_election_1991_mission
+		unlock_decision_category_tooltip = CHE_elections_1991_decision
+		set_country_flag = CHESupportDudayev
+	}
+
+	option = {
+		name = chechnya.18.b
+		add_stability = -0.15
+		add_popularity = {ideology = islam Popularity = 0.10}	
+		activate_mission = CHE_chechen_election_1991_mission
+		unlock_decision_category_tooltip = CHE_elections_1991_decision
+		set_country_flag = CHEIslamicRadicalismElections1991
+	}
+}
+
+#government troops reseized radio tower
+country_event = {
+	id = chechnya.19
+	title = chechnya.19.t
+	desc = chechnya.19.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.19.a
+		add_stability = 0.025
+		add_political_power = 10
+	}
+}
+
+#Islamists protests
+country_event = {
+	id = chechnya.20
+	title = chechnya.20.t
+	desc = chechnya.20.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = chechnya.20.a
+		{ideology = Islam Popularity = 0.05}
+		add_stability = -0.05
+		add_political_power = -15
 	}
 }

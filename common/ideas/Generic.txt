@@ -2,8 +2,6 @@ ideas = {
 
 	country = {
 
-
-
 		GEN_AI_buff_idea = {
 			
 			allowed = {
@@ -43,7 +41,9 @@ ideas = {
 				army_attack_factor = 0.25
                 army_org_factor = 0.15	
 				army_attack_speed_factor = 0.15
-			    army_defence_factor = 0.075							
+			    army_defence_factor = 0.075	
+				supply_factor = 0.25	
+				ai_focus_aggressive_factor = 0.5					
 			}
 		}
 
@@ -62,7 +62,7 @@ ideas = {
 			picture = state_of_emergency
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.15						
+				production_speed_industrial_complex_factor = 0.15	
 			}
 		}
 
@@ -81,7 +81,7 @@ ideas = {
 			picture = state_of_emergency
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.15						
+				production_speed_infrastructure_factor = 0.15	
 			}
 		}
 
@@ -100,7 +100,7 @@ ideas = {
 			picture = state_of_emergency
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.15						
+				production_speed_arms_factory_factor = 0.15	
 			}
 		}
 
@@ -121,7 +121,7 @@ ideas = {
 			modifier = {
 				research_speed_factor = 0.075
 				stability_factor = 0.075
-				political_power_gain = 0.05					
+				political_power_gain = 0.05
 			}
 		}
 
@@ -140,7 +140,26 @@ ideas = {
 			picture = state_of_emergency
 			
 			modifier = {
-				production_speed_naval_base_factor = 0.25					
+				production_speed_naval_base_factor = 0.25
+			}
+		}
+
+		GEN_university_labs = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				research_speed_factor = 0.1
 			}
 		}
 	}

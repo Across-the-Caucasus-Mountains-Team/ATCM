@@ -352,6 +352,11 @@ spriteTypes = {
 		name = "GFX_CHE_for_Chechnya"
 		texturefile = "gfx/interface/goals/CHE_for_Chechnya.png"
 	}
+
+	SpriteType = {
+		name = "GFX_CHE_propaganda_of_islam"
+		texturefile = "gfx/interface/goals/CHE_propaganda_of_islam.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_CHE_Tanks_Nigthmare"

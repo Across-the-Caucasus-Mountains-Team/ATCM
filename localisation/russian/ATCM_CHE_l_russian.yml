@@ -35,6 +35,7 @@
   CHE_Elite_command:0 "Элитное командование"
   CHE_The_Battle_is_in_here:0 "§RДа начгется Битва!!§"
   CHE_Battle_of_Grozny:0 "Бой за Грозный"
+  CHE_The_Battle_is_in_here:0 "§RБитва уже здесь§!"
   CHE_call_Everyone:0 "Призвать всех"
   CHE_Manpower_shortage:0 "Нехватка людских ресурсов"
   CHE_recrut_prisoners:0 "Призыв заключённых"
@@ -70,11 +71,23 @@
   CHE_start_operation_of_jihad:0 "Начало операция 'Джихад'"
   CHE_Hold_The_Line:0 "Держать позиции"
   CHE_The_Fanatical_Resistance:0 "Яростное сопротивление"
+  CHE_hold_elections:0 "Задержать выборы"
+  CHE_propaganda_of_nationalism:0 "Пропаганда национализма"
+  CHE_2nd_session_of_the_firs_chechen_national_congress:0 "Чеченский Национальный Конгресс"
+  CHE_build_secular_state:0 "Построить светское государство"
+  CHE_build_islamic_state:0 "Построить исламское государство"
 
   CHE_counteroffensives_decision:0 "Решения об контрнаступлении"
-  CHE_peace_negotiations_first_chechen_war_decision:0 "Война затянулась. Несмотря на храбрость наших бойцов и поддержку народа, нельзя игнорировать разрушения, голод и усталость, которые она приносит. Некоторые командиры и политические деятели начали рассматривать возможность диалога с Москвой. \n\nХод переговоров: §G[?RAS_negotiation_process_fcw_value|%%]§"
+  CHE_peace_negotiations_first_chechen_war_decision_desc:0 "Война затянулась. Несмотря на храбрость наших бойцов и поддержку народа, мы не можем игнорировать разрушения, голод и истощение, которые она приносит. Некоторые командиры и политические деятели начали рассматривать возможность диалога с Москвой. \n\nХод переговоров: §G[?RAS_negotiation_process_fcw_value|%%]§"
   CHE_hold_Argun:0 "Удержать Аргун"
+  CHE_stability_of_republic_decision:0 "Решение о стабильности республики"
+  CHE_stability_of_republic_decision_desc:0 "Стабильность республики"
 
+  CHE_elections_1991_decision:0 "Выборы 1991 года"
+  CHE_elections_1991_decision_desc:0 "Чеченская Республика находится в процессе первых в своей истории президентских выборов. Ситуация нестабильна: центральная советская власть рушится, и регион действует вне контроля Москвы. Хотя большая часть населения поддерживает независимость, другие боятся изоляции или войны. \n\nПоддержка Дудаева: §Y[?CHE_dudayev_support_value|%%]§! \n\nПоддержка Басаева: §Y[?CHE_basayev_support_value|%%]§!"
+  CHE_hold_Argun:0 "Удержать Аргун"
+  add_basayev_support_to_var_tt:0 "§YУвеличить поддержку §RБасаева§!"
+  add_dudayev_support_to_var_tt:0 "§YУвеличить поддержку §RДудаева§!"
 
 
   chechnya.1.t:0 "Ингушетия отделилась от нас"
@@ -108,7 +121,10 @@
   chechnya.14.t:0 "Россия организовала покушение на Дудаева"
   chechnya.14.d:0 "Российские войска нанесли точечный ракетный удар по предполагаемому месту нахождения президента Джохара Дудаева. Однако, по сообщениям, чеченский лидер покинул район за несколько минут до удара. В результате были убиты несколько охранников, повреждена местная инфраструктура, но сам Дудаев не пострадал."
   chechnya.14.a:0 "Проклятая Россия"
-
+  chechnya.15.t:0 "Победа Басаева"
+  chechnya.15.d:0 "Басаев одержал победу"
+  chechnya.15.a:0 "Аллаху Акбар!"
+  
 
   CHE_Unrecognized_Country:0 "Непризнанная страна"
   CHE_Unrecognized_Country_desc:0 "\n\n\n\n£GFX_idea_unrecognized_country_desc_photo\n\n\n\n\n\n\n  Никто не признаёт нашу независимость…"

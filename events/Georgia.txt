@@ -164,7 +164,6 @@ country_event = {
 			}
 		}
 		news_event = { id = news.1 }
-		remove_ideas = SAK_Gamsakhurdias_Speechs
 		hidden_effect = {
 			load_focus_tree = Independent_Georgia_focus
 		}
@@ -178,7 +177,6 @@ country_event = {
 				factor = 0
 			}
 		}
-		remove_ideas = SAK_Gamsakhurdias_Speechs
 		custom_effect_tooltip = in_dev_branch_tt
 		hidden_effect = {
 			load_focus_tree = Georgia_Communist
@@ -186,7 +184,7 @@ country_event = {
 	}
 }
 
-#ABOUT GEORGIA
+#TODO
 country_event = {
 	id = Georgia.11
 	title = Georgia.11.t
@@ -197,10 +195,7 @@ country_event = {
 
 	option = {
 		name = Georgia.11.a
-		hidden_effect = {
-			load_focus_tree = Georgia_focus
-		}
-	}					 
+	}
 }
 
 #The Power struggle
@@ -217,7 +212,7 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = Georgia_ethnicity_war
 		}
-	}					 
+	}
 }
 
 #Adjara Question
@@ -232,15 +227,15 @@ country_event = {
 	option = {
 		name = Georgia.13.a
 		ai_chance = { factor = 90 }
-	}		
+	}
 
 	option = {
 		name = Georgia.13.b
 		ADJ = {
-			country_event = { id = adjara.1	}
-		}	
+			country_event = { id = adjara.1 hours = 6 }
+		}
 		ai_chance = { factor = 10 }
-	}		
+	}
 }
 
 #where is Gamsakhurdia
@@ -254,11 +249,11 @@ country_event = {
 
 	option = {
 		name = Georgia.14.a
-	}		
+	}
 
 	option = {
 		name = Georgia.14.b
-	}		
+	}
 }
 
 #Shevardnadze becomes the president
@@ -810,7 +805,7 @@ country_event = {
 				id = Georgia.40
 				days = 2
 			}
-		}		
+		}
 	}
 }
 

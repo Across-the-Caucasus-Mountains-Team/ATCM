@@ -410,9 +410,21 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Report_event_RAS_fsb_report.png"
 	}
     
-	# economic events pictures
+	### economic events pictures
 	spriteType = {
 		name = "GFX_Report_event_GEN_critical_budget_deficit"
 		texturefile = "gfx/event_pictures/economic_events/Report_event_GEN_critical_budget_deficit.png"
+	}
+
+	### Chechnya events pictures
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_election_1991"
+		texturefile = "gfx/event_pictures/Report_event_CHE_election_1991.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_victory_of_dudayev"
+		texturefile = "gfx/event_pictures/Report_event_CHE_victory_of_dudayev.png"
 	}
 }	

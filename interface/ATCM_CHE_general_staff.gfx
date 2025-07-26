@@ -1,6 +1,115 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_CHE_Chechen_General_Staff_Button"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_General_Staff_Button.png"
+	}
+
 	spriteType = {
 		name = "GFX_CHE_general_staff_background"
-		textureFile = "gfx/interface/scripted_guis/CHE/separatism_gui/ChechenGeneralStaff.png"
+		textureFile = "gfx/interface/scripted_guis/CHE/ChechenGeneralStaff.png"
+	}
+    
+
+	## States
+	spriteType = {
+		name = "GFX_North_Chechnya_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/North_Chechnya_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_South_Chechnya_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/South_Chechnya_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Shatoisky_District_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Shatoisky_District_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Shalinsky_District_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Shalinsky_District_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Urus_Martonovsky_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Urus_Martonovsky_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Vedensky_District_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Vedensky_District_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Gudemersky_District_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Gudemersky_District_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Grozny_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Grozny_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Groznensky_District_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Groznensky_District_State.png"
+	}
+
+	spriteType = {
+		name = "GFX_Achoi_Martanovsky_State"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States/Achoi_Martanovsky_State.png"
+	}
+
+	## Captured States
+	spriteType = {
+		name = "GFX_North_Chechnya_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/North_Chechnya_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_South_Chechnya_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/South_Chechnya_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Shatoisky_District_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Shatoisky_District_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Shalinsky_District_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Shalinsky_District_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Urus_Martonovsky_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Urus_Martonovsky_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Vedensky_District_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Vedensky_District_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Gudemersky_District_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Gudemersky_District_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Grozny_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Grozny_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Groznensky_District_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Groznensky_District_Captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Achoi_Martanovsky_Captured"
+		textureFile = "gfx/interface/scripted_guis/CHE/Chechen_States_Captured/Achoi_Martanovsky_Captured.png"
 	}
 }

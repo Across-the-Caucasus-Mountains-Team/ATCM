@@ -1,0 +1,293 @@
+defined_text = {
+    name = get_North_chechnya_icon
+
+    text = {
+        trigger = {
+            11 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_North_Chechnya_State"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                11 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_North_Chechnya_Captured"
+    }
+}
+
+defined_text = {
+    name = get_South_chechnya_icon
+
+    text = {
+        trigger = {
+            124 = {
+                is_fully_controlled_by = CHE
+            }
+            125 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_South_Chechnya_State"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                124 = {
+                    is_fully_controlled_by = CHE
+                }
+                125 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_South_Chechnya_Captured"
+    }
+}
+
+defined_text = {
+    name = get_Shalinsky_district_icon
+
+    text = {
+        trigger = {
+            132 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_Shatoisky_District_State"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                132 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Shatoisky_District_Captured"
+    }
+}
+
+defined_text = {
+    name = get_Urus_Martonovsky_icon
+
+    text = {
+        trigger = {
+            126 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_Urus_Martonovsky_Captured"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                126 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_Urus_Martonovsky_Captured_Captured"
+    }
+}
+
+defined_text = {
+    name = zakarpatya_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_zakarpatie_seapartism_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_zakarpatie_captured_seapartism_gui"
+    }
+}
+
+defined_text = {
+    name = middle_CHEaine_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_mid_CHEaine_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_mid_CHEaine_captured_seapartism_gui"
+    }
+}
+
+defined_text = {
+    name = luhansk_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_luhansk_seapartism_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_luhansk_captured_seapartism_gui"
+    }
+}
+
+defined_text = {
+    name = nikolaev_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_nikolaev_seapartism_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_nikolaev_captured_seapartism_gui"
+    }
+}
+
+defined_text = {
+    name = zaporzhie_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_zaporozhie_seapartism_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_zaporozhie_captured_seapartism_gui"
+    }
+}
+
+defined_text = {
+    name = kharkov_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_kharkov_seapartism_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_kharkov_captured_seapartism_gui"
+    }
+}
+
+defined_text = {
+    name = dnieper_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_dnieper_seapartism_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_dnieper_captured_seapartism_gui"
+    }
+}
+
+defined_text = {
+    name = kherson_image
+
+    text = {
+        trigger = {
+            137 = {
+                is_fully_controlled_by = CHE
+            }
+        }
+        localization_key = "GFX_herson_seapartism_gui"
+    }
+
+    text = {
+        trigger = {
+            NOT = {
+                137 = {
+                    is_fully_controlled_by = CHE
+                }
+            }
+        }
+        localization_key = "GFX_herson_captured_seapartism_gui"
+    }
+}

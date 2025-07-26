@@ -1,0 +1,66 @@
+
+ATCM_increase_education_spending = {
+	if = {
+		limit = {
+			has_idea = private_education
+		}
+		add_ideas = free_elementary_and_middle_schools
+		else_if = {
+			limit = {
+				has_idea = free_elementary_and_middle_schools
+			}
+			add_ideas = free_high_schools
+		}
+		else_if = {
+			limit = {
+				has_idea = free_high_schools
+			}
+			add_ideas = free_universities
+		}
+		else_if = {
+			limit = {
+				has_idea = free_universities
+			}
+			add_ideas = GEN_university_labs
+		}
+		else_if = {
+			limit = {
+				has_idea = GEN_university_labs
+			}
+			add_research_slot = 1
+		}
+	}
+}
+
+ATCM_decrease_education_spending = {
+	if = {
+		limit = {
+			has_idea = private_education
+		}
+		add_research_slot = -1
+		else_if = {
+			limit = {
+				has_idea = free_elementary_and_middle_schools
+			}
+			add_ideas = private_education
+		}
+		else_if = {
+			limit = {
+				has_idea = free_high_schools
+			}
+			add_ideas = free_elementary_and_middle_schools
+		}
+		else_if = {
+			limit = {
+				has_idea = free_universities
+			}
+			add_ideas = free_high_schools
+		}
+		else_if = {
+			limit = {
+				has_idea = GEN_university_labs
+			}
+			remove_ideas = GEN_university_labs
+		}
+	}
+}
