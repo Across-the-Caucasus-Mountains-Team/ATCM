@@ -41,6 +41,7 @@ country_event = {
 		    declare_war_on = {
             target = ADJ
             type = annex_everything
+      		}
         }
 		load_oob = ADJ_1991
 	}	
