@@ -88,7 +88,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-			add_popularity = { ideology = communism popularity = -0.50 }
+			add_popularity = { ideology = communism popularity = -0.3 }
 			add_timed_idea = {
 				idea = SAK_Decommunization_idea
 				days = 365
@@ -444,7 +444,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		
 		completion_reward = {
-			add_research_slot = 1
+			ATCM_increase_education_spending = yes
 			country_event = { id = Georgia.3 }
 		}	
 	}

@@ -45,9 +45,9 @@ bookmarks = {
 				SAK_Gamsakhurdias_Speechs
 			}
 			focuses = {
-			    SAK_Last_Steps_Towards_independence
-				SAK_Tenisions_in_south_ossetia
-				SAK_Independence_Referendum
+			    SAK_the_last_steps_toward_independence
+				SAK_tensions_in_south_ossetia
+				SAK_independence_referendum
 			}
 		}
 
