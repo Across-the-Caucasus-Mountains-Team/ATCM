@@ -21,11 +21,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "CHE_general_staff_window"
-		size = { width = 900 height = 500 }
+		size = { width = 1400 height = 900 }
 		position = { x = 0 y = 0 }
 		orientation = center
 		origo = center
-		moveable = no
+		moveable = yes
 
 		background = {
 			name = "Background"
@@ -34,9 +34,181 @@ guiTypes = {
 
 		iconType = {
 			name = "North_chechnya_icon"
-			position = { x = 104 y = 63 }
-			spriteType = "GFX_North_Chechnya"
+			position = { x = 112 y = 63 }
+			spriteType = "GFX_North_Chechnya_State"
 			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "South_chechnya_icon"
+			position = { x = 208 y = 647 }
+			spriteType = "GFX_South_Chechnya_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Shalinsky_district_icon"
+			position = { x = 431 y = 426 }
+			spriteType = "GFX_Shalinsky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Urus_Martonovsky_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Vedensky_District_icon"
+			position = { x = 470 y = 519 }
+			spriteType = "GFX_Vedensky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Gudemarsky_District_icon"
+			position = { x = 509 y = 344 }
+			spriteType = "GFX_Gudemersky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Grozny_icon"
+			position = { x = 337 y = 371 }
+			spriteType = "GFX_Grozny_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Groznensky_district_icon"
+			position = { x = 219 y = 290 }
+			spriteType = "GFX_Groznensky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Achoi_Martanovsky_icon"
+			position = { x = 201 y = 345 }
+			spriteType = "GFX_Achoi_Martanovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Shatoysky_icon"
+			position = { x = 348 y = 558 }
+			spriteType = "GFX_Shatoisky_District_State"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "button_1"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 385 y = 145 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+		}
+
+		buttonType = {
+			name = "button_2"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 406 y = 385 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_3"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 586 y = 415 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.75
+		}
+
+		buttonType = {
+			name = "button_4"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 246 y = 415 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_5"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 346 y = 475 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_6"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 471 y = 465 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_7"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 541 y = 565 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_8"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 341 y = 685 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.75
+		}
+
+		buttonType = {
+			name = "button_9"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 421 y = 595 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.55
+		}
+
+		buttonType = {
+			name = "button_10"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 361 y = 301 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.55
 		}
 
     }
