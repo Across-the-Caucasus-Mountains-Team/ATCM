@@ -6,6 +6,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_Russian_Embleme"
+		textureFile = "gfx/interface/scripted_guis/CHE/Russian_Embleme.png"
+	}
+
+	spriteType = {
 		name = "GFX_CHE_general_staff_background"
 		textureFile = "gfx/interface/scripted_guis/CHE/ChechenGeneralStaff.png"
 	}

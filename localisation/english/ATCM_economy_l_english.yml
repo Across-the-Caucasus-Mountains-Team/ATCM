@@ -33,3 +33,17 @@
  free_elementary_and_middle_schools:0 "Free Primary Education"
  free_elementary_and_middle_schools_tt:0 "Cash Balance: §R-[?education_expense_free_elementary_and_middle_schools] M§!"
  private_education:0 "Private Education"
+
+ cash_balance_minus_45_tt:0 "Cash Balance: §R-45M§!"
+ cash_balance_minus_65_tt:0 "Cash Balance: §R-65M§!"
+ cash_balance_minus_75_tt:0 "Cash Balance: §R-75M§!"
+ cash_balance_minus_25_tt:0 "Cash Balance: §R-25M§!"
+ cash_balance_minus_15_tt:0 "Cash Balance: §R-15M§!"
+ cash_balance_minus_150_tt:0 "Cash Balance: §R-150M§!"
+ cash_balance_minus_175_tt:0 "Cash Balance: §R-175M§!"
+ cash_balance_minus_100_tt:0 "Cash Balance: §R-100M§!"
+ cash_balance_minus_500_tt:0 "Cash Balance: §R-500M§!"
+ cash_balance_minus_250_tt:0 "Cash Balance: §R-250M§!"
+ cash_balance_minus_125_tt:0 "Cash Balance: §R-125M§!"
+ cash_balance_plus_5_tt:0 "Cash Balance: §G+5M§!"
+

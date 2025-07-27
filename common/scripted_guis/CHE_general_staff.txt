@@ -83,6 +83,46 @@ scripted_gui = {
 			Shatoysky_icon = {
 				image = "[get_Shatoysky_icon]"
 			}
+
+			button_north_chechnya = {
+				image = "[get_button_north_chechnya]"
+			}
+
+			button_grozny = {
+				image = "[get_button_grozny]"
+			}
+
+			button_gudemarsky_district = {
+				image = "[get_button_gudemarsky_district]"
+			}
+
+			button_achoi_martanovsky_district = {
+				image = "[get_button_achoi_martanovsky_district]"
+			}
+
+			button_urus_martonovsky_district = {
+				image = "[get_button_urus_martonovsky_district]"
+			}
+
+			button_shalinsky_district = {
+				image = "[get_button_shalinsky_district]"
+			}
+
+			button_vedensky_district = {
+				image = "[get_button_vedensky_district]"
+			}
+
+			button_south_chechnya = {
+				image = "[get_button_south_chechnya]"
+			}
+
+			button_shatoisky_district = {
+				image = "[get_button_shatoisky_district]"
+			}
+
+			button_groznensky_district = {
+				image = "[get_button_groznensky_district]"
+			}
 			
 		}
     }

@@ -21,7 +21,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "CHE_general_staff_window"
-		size = { width = 1400 height = 900 }
+		size = { width = 1500 height = 900 }
 		position = { x = 0 y = 0 }
 		orientation = center
 		origo = center
@@ -30,6 +30,66 @@ guiTypes = {
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_CHE_general_staff_background"
+		}
+
+		buttonType = {
+			name = "close_map_button"
+			position = { x = 1447 y = 22 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType {
+			name = "CHE_general_staff_title"
+			text = "General_Staff"
+			font = "hoi_36header"
+			maxWidth = 215
+			position = { x = 1100 y = 50 }
+			pdx_tooltip = "[CAT_OPENING]"
+		}
+
+		instantTextBoxType {
+			name = "CHE_region_selected"
+			text = "General_Staff"
+			font = "hoi_318header"
+			maxWidth = 215
+			position = { x = 1150 y = 150 }
+			pdx_tooltip = "[CAT_OPENING]"
+		}
+
+		buttonType = {
+			name = "button_general_staff_attack"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1020 y = 425 }
+			buttonText = "Begin offensive actions"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "button_general_staff_defense"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1020 y = 505 }
+			buttonText = "Start defensive actions"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "button_general_staff_strengthen_defense"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1020 y = 585 }
+			buttonText = "Start strengthening the defense"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_close
+			oversound = ui_menu_over
 		}
 
 		iconType = {
@@ -102,8 +162,10 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+		### Buttons
+
 		buttonType = {
-			name = "button_1"
+			name = "button_north_chechnya"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 385 y = 145 }
 			buttonFont = "hoi_16mbs"
@@ -113,7 +175,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_2"
+			name = "button_grozny"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 406 y = 385 }
 			buttonFont = "hoi_16mbs"
@@ -124,7 +186,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_3"
+			name = "button_gudemarsky_district"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 586 y = 415 }
 			buttonFont = "hoi_16mbs"
@@ -135,7 +197,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_4"
+			name = "button_achoi_martanovsky_district"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 246 y = 415 }
 			buttonFont = "hoi_16mbs"
@@ -146,7 +208,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_5"
+			name = "button_urus_martonovsky_district"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 346 y = 475 }
 			buttonFont = "hoi_16mbs"
@@ -157,7 +219,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_6"
+			name = "button_shalinsky_district"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 471 y = 465 }
 			buttonFont = "hoi_16mbs"
@@ -168,7 +230,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_7"
+			name = "button_vedensky_district"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 541 y = 565 }
 			buttonFont = "hoi_16mbs"
@@ -179,7 +241,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_8"
+			name = "button_south_chechnya"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 341 y = 685 }
 			buttonFont = "hoi_16mbs"
@@ -190,7 +252,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_9"
+			name = "button_shatoisky_district"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 421 y = 595 }
 			buttonFont = "hoi_16mbs"
@@ -201,7 +263,7 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "button_10"
+			name = "button_groznensky_district"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
 			position = { x = 361 y = 301 }
 			buttonFont = "hoi_16mbs"
