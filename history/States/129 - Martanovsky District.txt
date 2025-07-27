@@ -7,7 +7,7 @@ state={
 	
 	resources = {
 	    steel = 28
-		еungsten = 11
+		tungsten = 11
 	}	
 	
 	history={
