@@ -46,7 +46,9 @@ set_popularities = {
 
 add_ideas = {
 	universal_health_care
+	welfare_state
 	free_universities
+	police_state
 	limited_conscription
 
 	CHE_memories_of_deportations

@@ -269,6 +269,30 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
+			name = "social_security_expense"
+			position = { x = 320 y = 190 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "social_security_expense"
+		}
+
+		instantTextBoxType = {
+			name = "social_security_expense_value"
+			position = { x = 555 y = 190 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?social_security_expense]"
+		}
+
+		instantTextBoxType = {
 			name = "education_expense"
 			position = { x = 320 y = 230 }
 			font = hoi_24header
@@ -290,6 +314,30 @@ guiTypes = {
 			format = left
 			Orientation = "UPPER_LEFT"
 			text = "[?education_expense]"
+		}
+
+		instantTextBoxType = {
+			name = "policing_expense"
+			position = { x = 320 y = 270 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 300
+			maxHeight = 64
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "policing_expense"
+		}
+
+		instantTextBoxType = {
+			name = "policing_expense_value"
+			position = { x = 555 y = 270 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0}
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?policing_expense]"
 		}
 
 		buttonType = {

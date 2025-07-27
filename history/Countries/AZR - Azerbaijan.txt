@@ -27,7 +27,9 @@ set_technology = {
 
 add_ideas = {
 	universal_health_care
+	welfare_state
 	free_universities
+	police_state
 
 	AZR_Black_January_idea
 }

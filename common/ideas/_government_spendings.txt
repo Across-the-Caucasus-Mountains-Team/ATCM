@@ -72,6 +72,77 @@ ideas = {
 		}
 	}
 
+	social_security = {
+		law = yes
+		use_list_view = yes
+
+		welfare_state = {
+
+			cost = 150
+			removal_cost = -1
+			level = 4
+
+			available = {
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				monthly_population = 1.0
+				custom_modifier_tooltip = welfare_state_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		old_age_benefits = {
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			available = {
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				monthly_population = 0.25
+				custom_modifier_tooltip = old_age_benefits_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		veteran_benefits = {
+
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			available = {
+			}
+
+			modifier = {
+				custom_modifier_tooltip = veteran_benefits_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		no_social_security = {
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			available = {
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				monthly_population = -0.15
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
 	education = {
 		law = yes
 		use_list_view = yes
@@ -139,6 +210,77 @@ ideas = {
 			modifier = {
 				research_speed_factor = -0.25
 				production_speed_buildings_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	policing = {
+		law = yes
+		use_list_view = yes
+
+		police_state = {
+
+			cost = 150
+			removal_cost = -1
+			level = 4
+
+			available = {
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.15
+				custom_modifier_tooltip = police_state_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		militarized_police = {
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			available = {
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				custom_modifier_tooltip = militarized_police_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		regular_policing = {
+
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			available = {
+			}
+
+			modifier = {
+				stability_factor = 0.025
+				custom_modifier_tooltip = regular_policing_tt
+			}
+
+			cancel_if_invalid = no
+		}
+		fuck_tha_police = {
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			available = {
+			}
+
+			modifier = {
+				stability_factor = -0.5
+				production_speed_buildings_factor = 0.15
 			}
 
 			cancel_if_invalid = no

@@ -2,7 +2,9 @@ capital = 41
 
 add_ideas = {
 	universal_health_care
+	welfare_state
 	free_universities
+	police_state
 }
 
 set_variable = { cash = 1 }

@@ -41,7 +41,9 @@ set_popularities = {
 
 add_ideas = {
 	universal_health_care
+	welfare_state
 	free_universities
+	police_state
 
 	ARM_memories_of_Spitak_earthquake
 	ARM_The_Armenian_National_movement

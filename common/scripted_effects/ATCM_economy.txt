@@ -18,7 +18,7 @@ ATCM_economy_setup = {
 		}
 		multiply_variable = {
 			var = mil_factories_income
-			value = 3
+			value = 5
 		}
 		add_to_variable = {
 			var = cash
@@ -35,7 +35,7 @@ ATCM_economy_setup = {
 		}
 		multiply_variable = {
 			var = doc_factories_income
-			value = 5
+			value = 10
 		}
 		add_to_variable = {
 			var = cash
@@ -52,7 +52,7 @@ ATCM_economy_setup = {
 		}
 		multiply_variable = {
 			var = civ_factories_income
-			value = 10
+			value = 20
 		}
 		add_to_variable = {
 			var = cash
@@ -159,6 +159,93 @@ ATCM_economy_setup = {
 			value = var:healthcare_expense
 		}
 
+		#######################
+		### SOCIAL SECURITY ###
+		#######################
+
+		set_variable = {
+			var = social_security_expense_show
+			value = ROOT.max_manpower_k
+		}
+		divide_variable = {
+			var = social_security_expense_show
+			value = 85
+		}
+		round_variable = social_security_expense_show
+
+		set_variable = {
+			var = social_security_expense_welfare_state
+			value = var:social_security_expense_show
+		}
+		multiply_variable = {
+			var = social_security_expense_welfare_state
+			value = 10.0
+		}
+
+		set_variable = {
+			var = social_security_expense_old_age_benefits
+			value = var:social_security_expense_show
+		}
+		multiply_variable = {
+			var = social_security_expense_old_age_benefits
+			value = 7.0
+		}
+
+		set_variable = {
+			var = social_security_expense_veteran_benefits
+			value = var:social_security_expense_show
+		}
+		multiply_variable = {
+			var = social_security_expense_veteran_benefits
+			value = 2.5
+		}
+
+		set_variable = {
+			var = social_security_expense
+			value = var:social_security_expense_show
+		}
+		if = {
+			limit = {
+				has_idea = welfare_state
+			}
+			multiply_variable = {
+				var = social_security_expense
+				value = 10.0
+			}
+			else_if = {
+				limit = {
+					has_idea = old_age_benefits
+				}
+				multiply_variable = {
+					var = social_security_expense
+					value = 7.0
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = veteran_benefits
+				}
+				multiply_variable = {
+					var = social_security_expense
+					value = 2.5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = no_social_security
+				}
+				multiply_variable = {
+					var = social_security_expense
+					value = 0
+				}
+			}
+		}
+		round_variable = social_security_expense
+		subtract_from_variable = {
+			var = cash
+			value = var:social_security_expense
+		}
+
 		#################
 		### EDUCATION ###
 		#################
@@ -244,6 +331,93 @@ ATCM_economy_setup = {
 		subtract_from_variable = {
 			var = cash
 			value = var:education_expense
+		}
+
+		################
+		### POLICING ###
+		################
+
+		set_variable = {
+			var = policing_expense_show
+			value = ROOT.max_manpower_k
+		}
+		divide_variable = {
+			var = policing_expense_show
+			value = 700
+		}
+		round_variable = policing_expense_show
+
+		set_variable = {
+			var = policing_expense_police_state
+			value = var:policing_expense_show
+		}
+		multiply_variable = {
+			var = policing_expense_police_state
+			value = 5.0
+		}
+
+		set_variable = {
+			var = policing_expense_militarized_police
+			value = var:policing_expense_show
+		}
+		multiply_variable = {
+			var = policing_expense_militarized_police
+			value = 2.5
+		}
+
+		set_variable = {
+			var = policing_expense_regular_policing
+			value = var:policing_expense_show
+		}
+		multiply_variable = {
+			var = policing_expense_regular_policing
+			value = 1.0
+		}
+
+		set_variable = {
+			var = policing_expense
+			value = var:policing_expense_show
+		}
+		if = {
+			limit = {
+				has_idea = police_state
+			}
+			multiply_variable = {
+				var = policing_expense
+				value = 5.0
+			}
+			else_if = {
+				limit = {
+					has_idea = militarized_police
+				}
+				multiply_variable = {
+					var = policing_expense
+					value = 2.5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = regular_policing
+				}
+				multiply_variable = {
+					var = policing_expense
+					value = 1.0
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = fuck_tha_police
+				}
+				multiply_variable = {
+					var = policing_expense
+					value = 0
+				}
+			}
+		}
+		round_variable = policing_expense
+		subtract_from_variable = {
+			var = cash
+			value = var:policing_expense
 		}
 	}
 
