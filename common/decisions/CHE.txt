@@ -603,6 +603,11 @@ CHE_stability_of_republic_decision = {
 			NOT = {
 			    has_country_flag = CHE_dudayev_dicatorship
 			}
+            check_variable = {
+				var = CHE_power_of_opposition_value
+				value = 100
+				compare = greater_than_or_equals
+			}
 		}
 		
 		selectable_mission = no
@@ -621,7 +626,7 @@ CHE_stability_of_republic_decision = {
                 10 = {
                     add_to_variable = {
                         var = CHE_power_of_opposition_value
-                        value = 5
+                        value = 3
                     }
                 }
                 10 = {
@@ -639,7 +644,13 @@ CHE_stability_of_republic_decision = {
                 10 = {
                     add_to_variable = {
                         var = CHE_power_of_opposition_value
-                        value = 6
+                        value = 4
+                    }
+                }
+				10 = {
+                    add_to_variable = {
+                        var = CHE_power_of_opposition_value
+                        value = 1
                     }
                 }
             }

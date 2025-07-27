@@ -92,11 +92,15 @@ focus_tree = {
 		cost = 35
 		
 		ai_will_do = {
-			factor = 100
+			
+			factor = -50
 		}
 		
 		available = {
-
+            has_completed_focus = CHE_start_chechen_revolution
+			NOT = {
+				has_completed_focus = CHE_hold_elections
+			}
 		}
 		
 		bypass = {
@@ -117,7 +121,7 @@ focus_tree = {
 			hidden_effect = {
 				country_event = {
 					id = chechnya.20
-					days = 23
+					days = 13
 				}
 			}
 		}	
@@ -1151,6 +1155,10 @@ focus_tree = {
 			hidden_effect = {
 				add_manpower = -25000
 				add_ideas = CHE_first_chechen_war_idea
+				subtract_from_variable = {
+				    var = cash
+				    value = 5000
+			    }
 			}
 		}	
 	}
@@ -1329,7 +1337,7 @@ focus_tree = {
 		relative_position_id = CHE_The_Battle_is_in_here
 		prerequisite = { focus = CHE_call_Everyone }
 		
-		cost = 15
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -1350,13 +1358,11 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 5000
-			add_political_power = 25
+			add_political_power = 45
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 750
+				amount = 150
 			}	
-			country_event = chechnya.8
 		}	
 	}
 
@@ -1581,7 +1587,7 @@ focus_tree = {
 		id = CHE_Elite_Divisions
 		icon = GFX_CHE_Elite_Divisions
 		x = 0
-		y = 3
+		y = 2
 		relative_position_id = CHE_Manpower_shortage
 		prerequisite = { focus = CHE_recrut_prisoners focus = CHE_recrut_elders focus = CHE_recrut_youth}
 		
@@ -1620,8 +1626,8 @@ focus_tree = {
 		id = CHE_Sleepless_Enemy_of_the_tanks
 		icon = GFX_CHE_Tanks_Nigthmare
 		x = -2
-		y = 4
-		relative_position_id = CHE_Manpower_shortage
+		y = 1
+		relative_position_id = CHE_Elite_Divisions
 		prerequisite = { focus = CHE_Elite_Divisions }
 		
 		cost = 25
@@ -1658,8 +1664,8 @@ focus_tree = {
 		id = CHE_Ghosts_of_the_mountains
 		icon = GFX_CHE_Mountains_ghosts
 		x = 0
-		y = 4
-		relative_position_id = CHE_Manpower_shortage
+		y = 1
+		relative_position_id = CHE_Elite_Divisions
 		prerequisite = { focus = CHE_Elite_Divisions }
 		
 		cost = 25
@@ -1696,8 +1702,8 @@ focus_tree = {
 		id = CHE_Iron_ghosts
 		icon = GFX_CHE_Iron_Ghosts
 		x = 2
-		y = 4
-		relative_position_id = CHE_Manpower_shortage
+		y = 1
+		relative_position_id = CHE_Elite_Divisions
 		prerequisite = { focus = CHE_Elite_Divisions }
 		
 		cost = 25
@@ -1805,7 +1811,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_adapt_their_weapons
-		icon = GFX_CHE_General_Staff_of_Chechnya
+		icon = GFX_CHE_adapt_their_weapon
 		x = -1
 		y = 1
 		relative_position_id = CHE_General_Staff_of_Chechnya
@@ -3776,7 +3782,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 10
 			add_stability = 0.075
-			remove_idea = CHE_question_of_currency_idea
+			remove_ideas = CHE_question_of_currency_idea
 			custom_effect_tooltip = cash_balance_plus_5_tt
 			add_to_variable = {
 				var = cash
@@ -3854,7 +3860,8 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
-			add_stability = 0.05
+			add_war_support = 0.05
+			add_stability = 0.025
 		}	
 	}
 
@@ -4167,6 +4174,11 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = -1700
 			add_stability = -0.05
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 		}	
 	}
 
@@ -4209,13 +4221,18 @@ focus_tree = {
                 value = 15
                 tooltip = add_legitimacy_of_dudayev_to_var_tt
             }
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 		}	
 	}
 
 	focus = {
 		id = CHE_Economy_question
 		icon = GFX_CHE_Economy_question
-		x = 0
+		x = -3
 		y = 5
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Total_Control_has_achived }
@@ -4257,8 +4274,8 @@ focus_tree = {
 		id = CHE_open_factories_in_grozny
 		icon = GFX_CHE_factories_in_grozny
 		x = -2
-		y = 6
-		relative_position_id = CHE_centralize_power
+		y = 1
+		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
 		
 		cost = 35
@@ -4304,8 +4321,8 @@ focus_tree = {
 		id = CHE_infastructure_in_mountains
 		icon = GFX_CHE_roads_in_mountains
 		x = 0
-		y = 6
-		relative_position_id = CHE_centralize_power
+		y = 1
+		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
 		
 		cost = 35
@@ -4364,8 +4381,8 @@ focus_tree = {
 		id = CHE_invest_into_countryside
 		icon = GFX_goal_unknown
 		x = 2
-		y = 6
-		relative_position_id = CHE_centralize_power
+		y = 1
+		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
 		
 		cost = 35
@@ -4405,8 +4422,8 @@ focus_tree = {
 		id = CHE_industralize_south_chechnya
 		icon = GFX_goal_unknown
 		x = 1
-		y = 7
-		relative_position_id = CHE_centralize_power
+		y = 2
+		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
 		
 		cost = 35
@@ -4470,8 +4487,8 @@ focus_tree = {
 		id = CHE_fund_businesses_in_north_chechnya
 		icon = GFX_CHE_fund_north
 		x = -1
-		y = 7
-		relative_position_id = CHE_centralize_power
+		y = 2
+		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
 		
 		cost = 35
@@ -4504,6 +4521,78 @@ focus_tree = {
 				var = cash
 				value = 100
 			}
+		}	
+	}
+
+	focus = {
+		id = CHE_the_situation_is_getting_out_of_control
+		icon = GFX_CHE_Economy_question
+		x = 3
+		y = 5
+		relative_position_id = CHE_centralize_power
+		prerequisite = { focus = CHE_Total_Control_has_achived }
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.015
+		}	
+	}
+
+	focus = {
+		id = CHE_raise_the_national_guard
+		icon = GFX_CHE_Economy_question
+		x = 1
+		y = 1
+		relative_position_id = CHE_the_situation_is_getting_out_of_control
+		prerequisite = { focus = CHE_the_situation_is_getting_out_of_control }
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.015
 		}	
 	}
 
@@ -4595,6 +4684,11 @@ focus_tree = {
 				ideology = anarchism
 				popularity = -0.05
 			}
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 		}	
 	}
 
@@ -4646,6 +4740,11 @@ focus_tree = {
 				ideology = anarchism
 				popularity = -0.05
 			}
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 		}	
 	}
 
@@ -4698,6 +4797,11 @@ focus_tree = {
 				ideology = anarchism
 				popularity = -0.075
 			}
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 			hidden_effect = {
 				add_war_support = -0.15
 			}
@@ -4811,6 +4915,11 @@ focus_tree = {
 			add_political_power = 45
 			add_war_support = 0.05
 			add_popularity = {ideology = Nationalism Popularity = 0.025}
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 		}	
 	}
 

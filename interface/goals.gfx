@@ -77,6 +77,11 @@ spriteTypes = {
 		name = "GFX_CHE_Fanatical_Resistance"
 		texturefile = "gfx/interface/goals/CHE_Fanatical_Resistance.png"
 	}
+
+	SpriteType = {
+		name = "GFX_CHE_adapt_their_weapon"
+		texturefile = "gfx/interface/goals/CHE/CHE_adapt_their_weapon.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_CHE_Disrupt_Supply_lines"

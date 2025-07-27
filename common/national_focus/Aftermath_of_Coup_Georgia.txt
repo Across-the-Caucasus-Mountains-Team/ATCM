@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 5
 			tag = SAK
 		}
 	}
@@ -63,8 +63,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Where_is_Gamsakhurdia
 		icon = GFX_SAK_Where_is_Gamsakhurdia
-		x = 9
+		x = 2
 		y = 1
+		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_Aftermath_of_Coup }
 		
 		cost = 15
@@ -95,8 +96,9 @@ focus_tree = {
 	focus = {
 		id = SAK_We_need_President
 		icon = GFX_Goal_SAK_We_Need_President
-		x = 6
+		x = 0
 		y = 3
+		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_ask_for_negotiations }
 		
 		cost = 15
@@ -128,8 +130,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Contact_Shevardnadze
 		icon = GFX_Goal_SAK_Contact_Shevardnadze
-		x = 6
-		y = 5
+		x = 0
+		y = 4
+		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_We_need_President }
 		
 		cost = 20
@@ -160,8 +163,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Ensure_Full_Control_on_media
 		icon = GFX_Goal_SAK_Full_Control_on_Media
-		x = 1
-		y = 6
+		x = -5
+		y = 1
+		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Contact_Shevardnadze }
 		
 		cost = 5
@@ -193,8 +197,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Start_Propaganda_Campaign
 		icon = GFX_Goal_SAK_Propaganda_TV
-		x = 0
-		y = 7
+		x = -1
+		y = 1
+		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_media }
 		
 		cost = 10
@@ -218,6 +223,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_war_support = 0.025
 			add_timed_idea = {
 				idea = SAK_Propaganda_Campaign
 				days = 45
@@ -228,8 +234,9 @@ focus_tree = {
 	focus = {
 		id = SAK_ban_Opposition_media
 		icon = GFX_Goal_SAK_Ban_Opposition_Media
-		x = 2
-		y = 7
+		x = 1
+		y = 1
+		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_media }
 		
 		cost = 10
@@ -271,8 +278,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Support_Svobodnaya_Gruziya
 		icon = GFX_Goal_SAK_Support_Free_Georgia
-		x = 1
-		y = 8
+		x = 0
+		y = 2
+		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_ban_Opposition_media }
 		prerequisite = { focus = SAK_Start_Propaganda_Campaign }
 		
@@ -309,8 +317,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Start_Economy_Reform
 		icon = GFX_goal_unknown
-		x = 3
-		y = 9
+		x = 2
+		y = 3
+		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_Support_Svobodnaya_Gruziya }
 		prerequisite = { focus = SAK_Reinforce_Militia }
 		
@@ -335,14 +344,21 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_stability = 0.025
+			custom_effect_tooltip = cash_balance_plus_5_tt
+			add_to_variable = {
+				var = cash
+				value = 5
+			}
 		}	
 	}
 
 	focus = {
 		id = SAK_Ensure_Full_Control_on_Military
 		icon = GFX_Goal_SAK_Full_Control_on_Military
-		x = 6
-		y = 6
+		x = 0
+		y = 1
+		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Contact_Shevardnadze }
 		
 		cost = 10
@@ -374,8 +390,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Purge_Zviadists
 		icon = GFX_goal_unknown
-		x = 6
-		y = 7
+		x = 0
+		y = 2
+		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_Military }
 		
 		cost = 10
@@ -419,8 +436,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Reinforce_Militia
 		icon = GFX_Goal_SAK_Reinforce_Militia
-		x = 5
-		y = 8
+		x = -1
+		y = 3
+		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Purge_Zviadists }
 		
 		cost = 25
@@ -461,8 +479,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Fight_back_Zviadists_Resistance
 		icon = GFX_Goal_SAK_Fight_Back_Western_Resistance
-		x = 7
-		y = 8
+		x = 1
+		y = 3
+		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Purge_Zviadists }
 		
 		cost = 25
@@ -493,8 +512,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Start_military_Reform
 		icon = GFX_Goal_SAK_Reform_The_Military
-		x = 9
-		y = 9
+		x = -2
+		y = 3
+		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Fight_back_Zviadists_Resistance }
 		prerequisite = { focus = SAK_Adjara_Autonomy_Question }
 		
@@ -519,14 +539,16 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_war_support = 0.025
 		}	
 	}
 
 	focus = {
 		id = SAK_The_Large_Speech
 		icon = GFX_Goal_SAK_Large_Speech
-		x = 6
-		y = 10
+		x = 0
+		y = 5
+		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Start_Economy_Reform }
 		prerequisite = { focus = SAK_Start_military_Reform }
 		
@@ -560,8 +582,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Ensure_Full_Control_on_Parliament
 		icon = GFX_Goal_SAK_Full_Control_on_Parliament
-		x = 11
-		y = 6
+		x = 5
+		y = 1
+		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Contact_Shevardnadze }
 		
 		cost = 5
@@ -594,8 +617,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Clear_Tbilisi_From_Criminals
 		icon = GFX_Goal_SAK_Clear_Central_Tbilisi
-		x = 10
-		y = 7
+		x = -1
+		y = 1
+		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_Parliament }
 		
 		cost = 10
@@ -637,8 +661,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Adjara_Autonomy_Question
 		icon = GFX_Goal_SAK_Adjara_Question
-		x = 11
-		y = 8
+		x = 0
+		y = 2
+		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Clear_Tbilisi_From_Criminals }
 		prerequisite = { focus = SAK_Strenght_Parliament_Guard }
 		
@@ -670,8 +695,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Strenght_Parliament_Guard
 		icon = GFX_SAK_Defence_of_parliament
-		x = 12
-		y = 7
+		x = 1
+		y = 1
+		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_Parliament }
 		
 		cost = 10
@@ -713,8 +739,9 @@ focus_tree = {
 	focus = {
 		id = SAK_ask_for_negotiations
 		icon = GFX_SAK_Ask_For_Negotiations
-		x = 6
+		x = 0
 		y = 1
+		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_Aftermath_of_Coup }
 		
 		cost = 5
@@ -1659,6 +1686,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			army_experience = 25
 		}	
 	}
 
@@ -1784,7 +1812,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.10
+			add_stability = 0.15
 			add_political_power = 25
 		}	
 	}
@@ -1817,6 +1845,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			air_experience = 25
 		}	
 	}
 
@@ -1973,6 +2002,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_war_support = 0.025
 			army_experience = 50
 		}	
 	}
