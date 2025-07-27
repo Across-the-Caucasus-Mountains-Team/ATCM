@@ -1,4 +1,4 @@
-capital = 53
+capital = 50
 
 add_ideas = {
 	universal_health_care

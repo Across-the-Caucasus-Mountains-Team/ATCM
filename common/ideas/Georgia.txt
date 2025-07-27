@@ -42,7 +42,7 @@ ideas = {
 			}
 		}
 		
-		SAK_Decommunization_idea = {
+		SAK_decommunization_idea = {
 			
 			allowed = {
 				original_tag = SAK
