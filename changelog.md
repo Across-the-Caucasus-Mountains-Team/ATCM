@@ -7,7 +7,7 @@
 - Added Aslan Maskhadov as a general.
 - Added Turgut Özal as a Turkish country leader.
 - Added Relocate Trialeti Ossetians decision for Georgia.
-- Added Healthcare and Education laws.
+- Added Healthcare, Social Security, Education & Policing laws.
 
 **Adjustments**
 - Changed positioning of the Georgian trees.
@@ -16,6 +16,7 @@
 - Added army/air/navy spirits.
 - Fixed Turkish ideologies being broken.
 - Georgian decision Call Mkhedrioni correctly spawns troops.
+- The game no longer shows a map error.
 
 **GFX**
 - Added additional Chechen portraits.
@@ -38,7 +39,7 @@
     [*]Added Aslan Maskhadov as a general.
     [*]Added Turgut Özal as a Turkish country leader.
     [*]Added Relocate Trialeti Ossetians decision for Georgia.
-    [*]Added Healthcare and Education laws.
+    [*]Added Healthcare, Social Security, Education & Policing laws.
 [/list]
 [h2]Adjustments[/h2]
 [list]
@@ -49,6 +50,7 @@
     [*]Added army/air/navy spirits.
     [*]Fixed Turkish ideologies being broken.
     [*]Georgian decision Call Mkhedrioni correctly spawns troops.
+    [*]The game no longer shows a map error.
 [/list]
 [h2]GFX[/h2]
 [list]
