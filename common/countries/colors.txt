@@ -67,3 +67,9 @@ GOM = {
 	color = rgb { 127 0 0 }
 	color_ui = rgb { 127 0 0 }
 }
+
+CHI = {
+	color = rgb { 56 153 64 }
+	color_ui = rgb { 56 153 64 }
+}
+

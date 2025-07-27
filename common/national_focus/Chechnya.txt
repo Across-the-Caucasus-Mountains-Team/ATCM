@@ -349,7 +349,8 @@ focus_tree = {
 			add_popularity = {ideology = islam Popularity = 0.05}
 			hidden_effect = {
 				clr_country_flag = CHEIslamicRadicalismElections1991
-			    mark_focus_tree_layout_dirty = yes				
+			    mark_focus_tree_layout_dirty = yes	
+				retire_character = CHE_Duko_Zavgayev			
 			}
 		}	
 	}
@@ -1107,6 +1108,7 @@ focus_tree = {
 					id = chechnya.17
 					days = 269
 				}
+				retire_character = CHE_Duko_Zavgayev
 			}
 		}	
 	}
@@ -4022,6 +4024,11 @@ focus_tree = {
 			activate_mission = CHE_weekly_power_of_opposition_value
 			hidden_effect = {
 				set_country_flag = CHE_dudayev_dicatorship
+				country_event = {
+                    id = chechnya.21
+					days = 598
+				}
+				
 			}
 		}	
 	}
@@ -4542,6 +4549,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_country_flag = CHE_situation_is_getting_out_of_control
 		}
 		
 		bypass = {

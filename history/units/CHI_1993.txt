@@ -1,0 +1,132 @@
+division_template = {
+	name = "Gaşloyn bataljon"
+
+	division_names_group = CHE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Nizam docu bataljon"
+
+	division_names_group = CHE_inf_02
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+        irregular_infantry = { x = 0 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8564
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 8564
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 2382
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10471
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6342
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10507
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 10482
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6342
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 10507
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.5
+	}
+	
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 10482
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.5
+	}
+}	

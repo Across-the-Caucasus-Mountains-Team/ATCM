@@ -475,8 +475,35 @@ country_event = {
 
 	option = {
 		name = chechnya.20.a
-		{ideology = Islam Popularity = 0.05}
+		ideology = {Islam Popularity = 0.05}
 		add_stability = -0.05
 		add_political_power = -15
+	}
+}
+
+#Chechen opposition takes over the region
+country_event = {
+	id = chechnya.21
+	title = chechnya.21.t
+	desc = chechnya.21.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+		    CHI = {
+			    add_state_core = 131
+				load_oob = CHI_1993
+		    }
+		}
+
+	}
+
+	option = {
+		name = chechnya.21.a
+		add_stability = -0.075
+		add_political_power = -25
+		131 = { transfer_state_to = CHI }
 	}
 }

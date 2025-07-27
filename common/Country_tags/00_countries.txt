@@ -13,3 +13,5 @@ TKM = "countries/Turkmenistan.txt"
 ARS = "countries/Arstakh.txt"
 ADJ = "countries/Adjara.txt"
 DAG = "countries/Dagestan.txt"
+CHI = "countries/Russian Chechnya.txt"
+
