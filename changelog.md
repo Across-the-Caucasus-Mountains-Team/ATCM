@@ -1,4 +1,4 @@
-#0.2 ‐ Ekonomika ‐ Changelog
+# 0.2 ‐ Ekonomika ‐ Changelog
 **Highlights**
 - Reworked the country selection screen.
 - Added the economy system.
