@@ -349,8 +349,7 @@ focus_tree = {
 			add_popularity = {ideology = islam Popularity = 0.05}
 			hidden_effect = {
 				clr_country_flag = CHEIslamicRadicalismElections1991
-			    mark_focus_tree_layout_dirty = yes	
-				retire_character = CHE_Duko_Zavgayev			
+			    mark_focus_tree_layout_dirty = yes			
 			}
 		}	
 	}
@@ -1108,7 +1107,6 @@ focus_tree = {
 					id = chechnya.17
 					days = 269
 				}
-				retire_character = CHE_Duko_Zavgayev
 			}
 		}	
 	}
