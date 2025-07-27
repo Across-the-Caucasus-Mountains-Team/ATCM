@@ -12,7 +12,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 50 y = 800 }
+	continuous_focus_position = { x = 50 y = 900 }
 	
 	focus = {
 		id = SAK_gamsakhurdia_speech

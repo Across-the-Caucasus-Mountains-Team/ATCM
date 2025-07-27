@@ -46,7 +46,7 @@ guiTypes = {
 			text = "General_Staff"
 			font = "hoi_36header"
 			maxWidth = 215
-			position = { x = 1100 y = 50 }
+			position = { x = 1090 y = 210 }
 			pdx_tooltip = "[CAT_OPENING]"
 		}
 
@@ -55,7 +55,7 @@ guiTypes = {
 			text = "General_Staff"
 			font = "hoi_318header"
 			maxWidth = 215
-			position = { x = 1150 y = 150 }
+			position = { x = 1150 y = 350 }
 			pdx_tooltip = "[CAT_OPENING]"
 		}
 
@@ -90,6 +90,24 @@ guiTypes = {
 			pdx_tooltip = "[CAT_OPENING]"
 			clicksound = click_close
 			oversound = ui_menu_over
+		}
+
+	    buttonType = {
+			name = "button_general_staff_disrupt_logistics"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1020 y = 665 }
+			buttonText = "Disrupt logistics"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		iconType = {
+			name = "Empty_background_image"
+			position = { x = 957 y = 44 }
+			spriteType = "GFX_Empty_background_image"
+			alwaystransparent = yes
 		}
 
 		iconType = {

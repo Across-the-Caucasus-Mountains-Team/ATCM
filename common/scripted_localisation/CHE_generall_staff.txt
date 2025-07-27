@@ -491,3 +491,86 @@ defined_text = {
         localization_key = "GFX_Russian_Embleme"
     }
 }
+
+## Images of city
+
+defined_text = {
+    name = get_Empty_background_image
+
+    text = {
+        trigger = {
+            has_variable = CHE_grozny_selected
+        }
+        localization_key = "GFX_Grozny_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_north_chechnya_selected
+        }
+        localization_key = "GFX_North_Chechnya_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_groznensky_district_selected
+        }
+        localization_key = "GFX_Groznensky_District_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_south_chechnya_selected
+        }
+        localization_key = "GFX_South_Chechnya_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_achoi_martanovsky_district_selected
+        }
+        localization_key = "GFX_Achoi_Martanovsky_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_gudemarsky_district_selected
+        }
+        localization_key = "GFX_Gudermes_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_shalinsky_district_selected
+        }
+        localization_key = "GFX_Shalinsky_District_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_shatoisky_district_selected
+        }
+        localization_key = "GFX_Shatoisky_District_image"
+    }
+    
+    text = {
+        trigger = {
+            has_variable = CHE_vedensky_district_selected
+        }
+        localization_key = "GFX_Vedensky_District_image"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_urus_martonovsky_district_selected
+        }
+        localization_key = "GFX_Urus_Martanovsky_District_image"
+    }
+
+    
+
+    
+
+
+    
+}

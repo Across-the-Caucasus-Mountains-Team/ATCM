@@ -37,6 +37,400 @@ scripted_gui = {
         }
  
 		effects = {
+			close_map_button_click = {
+				set_variable = { CHE_show_general_staff = 0 }
+			}
+			button_grozny_click = {
+				set_variable = { CHE_grozny_selected = 1 }
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}
+
+			}
+			button_north_chechnya_click = {
+				set_variable = { CHE_north_chechnya_selected = 1 }
+				if = {
+					limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}
+			}
+			button_gudemarsky_district_click = {
+				set_variable = { CHE_gudemarsky_district_selected = 1 }
+				if = {
+					limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}
+			}
+			button_achoi_martanovsky_district_click = {
+				set_variable = { CHE_achoi_martanovsky_district_selected = 1 }
+				if = {
+					limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}
+			}
+			button_urus_martonovsky_district_click = {
+				set_variable = { CHE_urus_martonovsky_district_selected = 1 }
+			    if = {
+				    limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}				
+			}
+			button_shalinsky_district_click = {
+				set_variable = { CHE_shalinsky_district_selected = 1 }
+		        if = {
+				    limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}				
+			}
+			button_vedensky_district_click = {
+				set_variable = { CHE_vedensky_district_selected = 1 }
+				if = {
+				    limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}
+			}
+			button_south_chechnya_click = {
+				set_variable = { CHE_south_chechnya_selected = 1 }
+				if = {
+				    limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}				
+			}
+			button_shatoisky_district_click = {
+				set_variable = { CHE_shatoisky_district_selected = 1 }
+			    if = {
+				    limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_groznensky_district_selected }
+					clear_variable = CHE_groznensky_district_selected
+				}
+			}
+			button_groznensky_district_click = {
+				set_variable = { CHE_groznensky_district_selected = 1 }
+			    if = {
+				    limit = { has_variable = CHE_grozny_selected }
+					clear_variable = CHE_grozny_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shalinsky_district_selected }
+					clear_variable = CHE_shalinsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_urus_martonovsky_district_selected }
+					clear_variable = CHE_urus_martonovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_achoi_martanovsky_district_selected }
+					clear_variable = CHE_achoi_martanovsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_vedensky_district_selected }
+					clear_variable = CHE_vedensky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_north_chechnya_selected }
+					clear_variable = CHE_north_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_gudemarsky_district_selected }
+					clear_variable = CHE_gudemarsky_district_selected
+				}
+				if = {
+					limit = { has_variable = CHE_south_chechnya_selected }
+					clear_variable = CHE_south_chechnya_selected
+				}
+				if = {
+					limit = { has_variable = CHE_shatoisky_district_selected }
+					clear_variable = CHE_shatoisky_district_selected
+				}				
+			}
 		}
 
         triggers = {
@@ -44,6 +438,10 @@ scripted_gui = {
         }
 		
 		properties = {
+			Empty_background_image = {
+				image = "[get_Empty_background_image]"
+			}
+
 			North_chechnya_icon = {
 				image = "[get_North_chechnya_icon]"
 			}
