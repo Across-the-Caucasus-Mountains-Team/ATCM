@@ -4,8 +4,8 @@ state={
 	provinces={
 		1003 9261
 	}
-	victory_points = { 9261 3 }
 	history={
+		victory_points = { 9261 3 }
 	owner = RAS
 	add_core_of = RAS
 	    buildings = {
