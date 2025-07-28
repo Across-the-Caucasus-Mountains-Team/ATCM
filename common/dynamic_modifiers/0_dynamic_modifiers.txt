@@ -72,5 +72,31 @@ CHE_Weak_Chechen_armed_forces = { #NATIONAL SPIRIT
 	army_speed_factor = CHE_wcaf_army_speed_factor #-0.15
 	war_stability_factor = CHE_wcaf_war_stability_factor #-0.4
 	army_org_regain = CHE_wcaf_army_org_regain #-0.25
-	
+}
+
+RAS_road_to_grozny = {
+
+	enable = { always = yes }
+	icon = GFX_idea_CHE_weak_army
+    army_speed_factor = 0.2
+	army_org_factor = 0.15
+}
+
+RAS_chechen_mountains = {
+
+	enable = { always = yes }
+	icon = GFX_idea_CHE_weak_army
+    army_speed_factor = -0.45
+	army_attack_factor = -0.45
+	army_org_factor = -0.35
+	ai_focus_aggressive_factor = -0.5
+}
+
+CHE_unprepared_attack = {
+
+	enable = { always = yes }
+	icon = GFX_idea_CHE_weak_army
+    army_speed_factor = -0.45
+	army_attack_factor = -0.45
+	army_org_factor = -0.35
 }

@@ -352,7 +352,7 @@ country_event = {
         add_popularity = {ideology = islam Popularity = 0.05}		
 		add_political_power = 25
 		hidden_effect = {
-			set_country_flag = CHEIslamicRadicalismElections1991
+			set_country_flag = CHEWonOfIslamicRadicalismElections1991
 			clr_country_flag = CHE_Elections_1991 
 		}
 	}
@@ -429,15 +429,6 @@ country_event = {
 		unlock_decision_category_tooltip = CHE_elections_1991_decision
 		set_country_flag = CHESupportDudayev
 	}
-
-	option = {
-		name = chechnya.18.b
-		add_stability = -0.15
-		add_popularity = {ideology = islam Popularity = 0.10}	
-		activate_mission = CHE_chechen_election_1991_mission
-		unlock_decision_category_tooltip = CHE_elections_1991_decision
-		set_country_flag = CHEIslamicRadicalismElections1991
-	}
 }
 
 #government troops reseized radio tower
@@ -497,7 +488,6 @@ country_event = {
 				load_oob = CHI_1993
 		    }
 		}
-
 	}
 
 	option = {
@@ -506,4 +496,55 @@ country_event = {
 		add_political_power = -25
 		131 = { transfer_state_to = CHI }
 	}
+}
+
+country_event = {
+	id = chechnya.22
+	title = chechnya.22.t
+	desc = chechnya.22.d
+	picture = GFX_Report_event_CHE_election_1991
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = chechnya.22.a
+		add_stability = 0.075
+		add_political_power = 50
+		activate_mission = CHE_chechen_election_1991_mission
+		unlock_decision_category_tooltip = CHE_elections_1991_decision
+		set_country_flag = CHESupportDudayev
+	}
+
+	option = {
+		name = chechnya.22.b
+		add_stability = -0.15
+		add_popularity = {ideology = islam Popularity = 0.10}	
+		activate_mission = CHE_chechen_election_1991_mission
+		unlock_decision_category_tooltip = CHE_elections_1991_decision
+		set_country_flag = CHEIslamicRadicalismElections1991
+	}
+}
+
+#2nd session of the first chechen national congress
+country_event = {
+	id = chechnya.23
+	title = chechnya.23.t
+	desc = chechnya.23.d
+	picture = GFX_Report_event_CHE_election_1991
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = chechnya.23.a
+		add_political_power = 25
+	}
+
 }

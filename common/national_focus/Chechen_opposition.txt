@@ -43,6 +43,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
+			add_ideas = CHI_chechen_opposition_army
 		}	
 	}
 
@@ -150,7 +151,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 1500
+				amount = 500
 			}
 			declare_war_on = {
                 target = CHE
@@ -297,8 +298,42 @@ focus_tree = {
 			add_political_power = 25
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 1500
+				amount = 750
 			}	
+		}	
+	}
+
+	focus = {
+		id = CHI_russians_specialists
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		prerequisite = { focus = CHI_russian_support }
+		relative_position_id = CHI_russian_support
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			army_experience = 45
+			add_manpower = 650
 		}	
 	}
 }

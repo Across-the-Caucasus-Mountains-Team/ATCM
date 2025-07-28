@@ -76,7 +76,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_popularity = {ideology = Nationalism Popularity = 0.075}
+			add_popularity = {ideology = Nationalism Popularity = 0.085}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 		}	
 	}
@@ -123,6 +123,7 @@ focus_tree = {
 					id = chechnya.20
 					days = 13
 				}
+				set_country_flag = CHEIslamistsOnTheElections1991
 			}
 		}	
 	}
@@ -157,8 +158,9 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
-		    add_popularity = {ideology = Nationalism Popularity = 0.05}
+		    add_popularity = {ideology = Nationalism Popularity = 0.075}
 			add_popularity = {ideology = Islam Popularity = 0.05}
+			country_event = chechnya.23
 		}	
 	}
 
@@ -271,7 +273,18 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			country_event = chechnya.18
+			if = {
+				limit = {
+					has_country_flag = CHEIslamistsOnTheElections1991
+				}
+				country_event = chechnya.22
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = CHEIslamistsOnTheElections1991 }
+				}
+				country_event = chechnya.18
+			}
 			add_political_power = 35
 			add_stability = 0.05
 			hidden_effect = {
@@ -281,7 +294,7 @@ focus_tree = {
                     value = 65
                 }
 				set_variable = {
-                    var = CHE_basayev_support_value
+                    var = CHE_islamic_radicalism_value
                     value = 25
                 }
 			}
@@ -303,7 +316,7 @@ focus_tree = {
 		}
 		
 		available = {
-			has_country_flag = CHEIslamicRadicalismElections1991
+			has_country_flag = CHEWonOfIslamicRadicalismElections1991
 		}
 
 		offset = {
@@ -418,6 +431,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_stability = 0.075
+			add_war_support = 0.075
 			add_popularity = {ideology = islam Popularity = 0.05}
 		}	
 	}
@@ -629,7 +643,7 @@ focus_tree = {
 			add_popularity = {ideology = islam Popularity = 0.05}
 			add_war_support = 0.05
 			add_political_power = 50
-			add_stability = -0.1
+			add_stability = -0.15
 			custom_effect_tooltip = 4_CHE_tt
 			128 = {
 				add_manpower = -5000
@@ -4562,7 +4576,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 50
-			add_stability = -0.015
+			add_stability = -0.15
 		}	
 	}
 
@@ -4597,8 +4611,8 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 50
-			add_stability = -0.015
+			add_manpower = 1500
+			army_experience = 25
 		}	
 	}
 

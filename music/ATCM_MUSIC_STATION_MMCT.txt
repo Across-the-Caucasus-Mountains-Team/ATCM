@@ -58,3 +58,13 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "GruzinShanson"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

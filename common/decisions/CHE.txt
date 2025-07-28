@@ -600,8 +600,11 @@ CHE_stability_of_republic_decision = {
 		}
 		
 		available = {
-			NOT = {
-			    has_country_flag = CHE_dudayev_dicatorship
+			OR = { 
+				NOT = {
+			        has_country_flag = CHE_dudayev_dicatorship
+			    }
+			    has_country_flag = CHEChechenOppositionUprising		
 			}
             check_variable = {
 				var = CHE_power_of_opposition_value

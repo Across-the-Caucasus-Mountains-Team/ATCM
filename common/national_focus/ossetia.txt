@@ -41,7 +41,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 2500
+			add_manpower = 500
 			add_timed_idea = {
                 idea = OST_fight_for_independence
                 days = 365
@@ -272,7 +272,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 1000
+			add_manpower = 500
             add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 250 
