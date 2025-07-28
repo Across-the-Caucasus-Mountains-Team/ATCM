@@ -89,10 +89,9 @@ focus_tree = {
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
 		relative_position_id = CHE_future_of_checheno_ingushetii
 		
-		cost = 35
+		cost = 25
 		
 		ai_will_do = {
-			
 			factor = -50
 		}
 		
@@ -917,9 +916,10 @@ focus_tree = {
 	focus = {
 		id = CHE_holy_jihad_against_russia
 		icon = GFX_Goal_unknow
-		x = 0
+		x = -4
 		y = 3
 		prerequisite = { focus = CHE_organize_raids }
+		prerequisite = { focus = CHE_capture_georgia }
 		relative_position_id = CHE_antirussian_propaganda
 		
 		cost = 10
@@ -1019,6 +1019,40 @@ focus_tree = {
 		x = -1
 		y = 2
 		prerequisite = { focus = CHE_light_a_fire_in_georgia }
+		relative_position_id = CHE_ideas_of_caucasian_chaliphate
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			has_country_flag = OpenAccessInNextUpdates
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
+		}	
+	}
+
+	focus = {
+		id = CHE_capture_georgia
+		icon = GFX_Goal_unknow
+		x = 0
+		y = 3
+		prerequisite = { focus = CHE_support_akhazian_separatists }
+		prerequisite = { focus = CHE_support_osetian_separatists }
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate
 		
 		cost = 10
@@ -1345,7 +1379,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_call_for_help
-		icon = GFX_CHE_Shortage_of_manpower
+		icon = GFX_CHE_cry_for_help
 		x = -10
 		y = 3
 		relative_position_id = CHE_The_Battle_is_in_here
@@ -1382,7 +1416,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_volunteers_from_the_muslim_world
-		icon = GFX_CHE_Elite_Volunnters
+		icon = GFX_CHE_muslim_volunteers
 		x = 1
 		y = 1
 		relative_position_id = CHE_call_for_help
@@ -1419,7 +1453,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_volunteers_from_ukraine
-		icon = GFX_CHE_Elite_Volunnters
+		icon = GFX_CHE_ukranians_volunters
 		x = -1
 		y = 1
 		relative_position_id = CHE_call_for_help
@@ -1480,7 +1514,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 5000
+			add_manpower = 2500
 			add_political_power = 25
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
@@ -1914,7 +1948,7 @@ focus_tree = {
 	focus = {
 		id = CHE_language_of_diplomacy
 		icon = GFX_CHE_Operations
-		x = -9
+		x = -8
 		y = 1
 		relative_position_id = CHE_Aftermath_of_First_wave
 		prerequisite = { focus = CHE_Aftermath_of_First_wave }
@@ -1950,9 +1984,9 @@ focus_tree = {
 	focus = {
 		id = CHE_organize_meetings_of_the_sides
 		icon = GFX_CHE_Operations
-		x = -9
-		y = 2
-		relative_position_id = CHE_Aftermath_of_First_wave
+		x = 0
+		y = 1
+		relative_position_id = CHE_language_of_diplomacy
 		prerequisite = { focus = CHE_language_of_diplomacy }
 		
 		cost = 5
@@ -1963,6 +1997,50 @@ focus_tree = {
 		
 		available = {
 
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.075
+			add_political_power = 35
+			add_war_support = -0.125
+		}	
+	}
+
+	focus = {
+		id = CHE_sign_peace
+		icon = GFX_CHE_Operations
+		x = 0
+		y = 2
+		relative_position_id = CHE_language_of_diplomacy
+		prerequisite = { focus = CHE_organize_meetings_of_the_sides }
+		
+		cost = 5
+		
+		ai_will_do = {
+			base = 5
+			modifier = {
+                factor = 85
+                date > 1996.01.01
+            }
+		}
+		
+		available = {
+			check_variable = {
+                var = RAS_negotiation_process_fcw_value
+                value = 100
+                compare = greater_than_or_equals
+				tooltip = 11_RAS_tt
+            }
 		}
 		
 		bypass = {
@@ -2031,7 +2109,7 @@ focus_tree = {
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_Operations }
 		
-		cost = 1
+		cost = 3
 		
 		ai_will_do = {
 			factor = 100
@@ -2054,11 +2132,11 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 1500 
+				amount = 1250 
 			}
 			add_equipment_to_stockpile = { 
 				type = artillery_equipment_1 
-				amount = 50 
+				amount = 75 
 			}
 			RAS = {
 				add_timed_idea = {
@@ -2066,6 +2144,7 @@ focus_tree = {
 					days = 180
 				}
 			}
+			custom_effect_tooltip = 7_CHE_tt
 		}	
 	}
 
@@ -2422,7 +2501,7 @@ focus_tree = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = CHE_hold_the_line_idea
-				days = 50
+				days = 75
 			}	
 		}	
 	}
@@ -2538,7 +2617,7 @@ focus_tree = {
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_inside_remaining_lands }
 		
-		cost = 10
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -2628,9 +2707,9 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.075
+			add_stability = 0.075
 			add_manpower = 3000
 			add_political_power = 90
-			add_stability = 0.075
 			add_popularity = {
 				ideology = nationalism
 				popularity = 0.1

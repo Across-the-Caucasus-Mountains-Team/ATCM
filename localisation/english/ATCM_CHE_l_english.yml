@@ -46,12 +46,6 @@
   CHE_Sleepless_Enemy_of_the_tanks:0 "Sleepless Enemy of the Tanks"
   CHE_Ghosts_of_the_mountains:0 "Ghosts of the Mountains"
   CHE_Iron_ghosts:0 "The Iron ghosts"
-  1_CHE_tt:0 "§RSeveral Militia Divisions will spawn in Chechnya lands§!"
-  2_CHE_tt:0 "§RSeveral Militia, Regular Infantry and Armor Divisions will spawn in and around Grozny§!"
-  3_CHE_tt:0 "§GThis will improve our Army§!"
-  4_CHE_tt:0 "§RRussia may intervene in this§!"
-  5_CHE_tt:0 "§RNew focuses will open up§!"
-  6_CHE_tt:0 "§YA chain of events will start§!"
   CHE_inside_remaining_lands:0 "Inside the Remaining lands"
   CHE_For_God:0 "For God!"
   CHE_For_Dudayev:0 "For Dudayev!"
@@ -101,10 +95,19 @@
   CHE_invest_into_countryside:0 "Invest into Countryside"
   CHE_fund_businesses_in_north_chechnya:0 "Fund Businesses in North Chechnya"
   CHE_industralize_south_chechnya:0 "Industrialize South Chechnya"
+  CHE_propaganda_of_islam:0 "Propaganda of Islam"
+
 
   ## Tooltips
   add_legitimacy_of_dudayev_to_var_tt:0 "§CIncrease the legitimacy of §!§YDudayev§!"
   add_CHE_opposition_power_to_var_tt:0 "§CIncrease the strength of §!§ROpposition§!"
+  1_CHE_tt:0 "§RSeveral Militia Divisions will spawn in Chechnya lands§!"
+  2_CHE_tt:0 "§RSeveral Militia, Regular Infantry and Armor Divisions will spawn in and around Grozny§!"
+  3_CHE_tt:0 "§GThis will improve our Army§!"
+  4_CHE_tt:0 "§RRussia may intervene in this§!"
+  5_CHE_tt:0 "§RNew focuses will open up§!"
+  6_CHE_tt:0 "§RIslamists will become more radical§!"
+  7_CHE_tt:0 "§YOpens up the possibility of §!§R"Disrupte Supplies"§!§Y in §!§Rthe General Staff§!"
 
   CHE_peace_negotiations_first_chechen_war_decision:0 "Peace Negotiations"
   CHE_peace_negotiations_first_chechen_war_decision_desc:0 "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§"

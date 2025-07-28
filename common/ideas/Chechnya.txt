@@ -319,7 +319,7 @@ ideas = {
 			picture = SAK_Tbilisi_Syndrome
 			
 			modifier = {
-			    manpower_weekly_factor = -80
+			    weekly_manpower = -80
 			}
 		}
 		

@@ -67,6 +67,8 @@ spriteTypes = {
 		name = "GFX_RAS_Save_economy"
 		texturefile = "gfx/interface/goals/RAS_Save_economy.png"
 	}
+
+	#### Chechen icons
 	
 	SpriteType = {
 		name = "GFX_CHE_Surrender"
@@ -157,6 +159,21 @@ spriteTypes = {
 		name = "GFX_CHE_operations_outside_of_chechnya"
 		texturefile = "gfx/interface/goals/CHE_operations_outside_of_chechnya.png"
 	}
+
+	SpriteType = {
+		name = "GFX_CHE_ukranians_volunters"
+		texturefile = "gfx/interface/goals/CHE/CHE_ukranians_volunters.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_cry_for_help"
+		texturefile = "gfx/interface/goals/CHE/CHE_cry_for_help.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_muslim_volunteers"
+		texturefile = "gfx/interface/goals/CHE/CHE_muslim_volunteers.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_CHE_roads_in_mountains"
@@ -212,6 +229,9 @@ spriteTypes = {
 		name = "GFX_CHE_State_of_emergency"
 		texturefile = "gfx/interface/goals/CHE_State_of_emergency.png"
 	}
+
+
+	######
 	
 	SpriteType = {
 		name = "GFX_SAK_ads_about_military"
@@ -360,7 +380,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CHE_propaganda_of_islam"
-		texturefile = "gfx/interface/goals/CHE_propaganda_of_islam.png"
+		texturefile = "gfx/interface/goals/CHE/CHE_propaganda_of_islam.png"
 	}
 	
 	SpriteType = {

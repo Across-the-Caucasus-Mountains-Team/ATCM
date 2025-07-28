@@ -99,19 +99,6 @@ country_event = {
 		
         set_global_flag = RAS_First_Chechen_War_supervent_flag
 		set_global_flag = Visbile_sp_events
-		if = {
-			limit = {
-				NOT = {
-					tag = CHE
-				}
-			}
-		    play_song = "HelloMyDearBaby"			
-		}
-		if = {
-			limit = {
-				tag = CHE
-			}
-		    play_song = "The_Death_of_Russia"			
-		}
+		play_song = "FirstChechenWar"			
 	}
 }
