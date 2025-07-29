@@ -507,3 +507,33 @@ news_event = {
 		name = news.22.a
 	}
 }
+
+#Rocket attacks on Chechnya
+news_event = {
+	id = news.23
+	title = news.23.t
+	desc = news.23.d
+	picture = GFX_news_event_rocket_attacks_on_chechnya
+	
+	major = yes
+
+	immediate = {
+		
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.23.a
+		trigger = { TAG = RAS }
+	}
+
+	option = {
+		name = news.23.b
+		trigger = { 
+			NOT = {
+				TAG = RAS
+			}
+		}
+	}
+}

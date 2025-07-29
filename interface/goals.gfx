@@ -131,6 +131,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_CHE_khatab_influence"
+		texturefile = "gfx/interface/goals/CHE/CHE_khatab_influence.png"
+	}
+
+	SpriteType = {
 		name = "GFX_CHE_build_secular_state"
 		texturefile = "gfx/interface/goals/CHE/CHE_build_secular_state.png"
 	}

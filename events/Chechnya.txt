@@ -194,7 +194,7 @@ country_event = {
 
 	option = {
 		name = chechnya.10.a
-		add_war_support = 0.075
+		add_war_support = 0.05
 		add_political_power = 50
 	}
 }
@@ -387,7 +387,7 @@ country_event = {
 	id = chechnya.17
 	title = chechnya.17.t
 	desc = chechnya.17.d
-	picture = GFX_Report_event_CHE_dudayev_is_dead
+	picture = GFX_Report_event_RAS_fsb_report
 
 	is_triggered_only = yes
 
@@ -436,7 +436,7 @@ country_event = {
 	id = chechnya.19
 	title = chechnya.19.t
 	desc = chechnya.19.d
-	picture = GFX_Report_event_CHE_dudayev_is_dead
+	picture = GFX_Report_event_RAS_fsb_report
 
 	is_triggered_only = yes
 
@@ -477,7 +477,7 @@ country_event = {
 	id = chechnya.21
 	title = chechnya.21.t
 	desc = chechnya.21.d
-	picture = GFX_Report_event_CHE_dudayev_is_dead
+	picture = GFX_Report_event_RAS_fsb_report
 
 	is_triggered_only = yes
 
@@ -485,7 +485,6 @@ country_event = {
 		hidden_effect = {
 		    CHI = {
 			    add_state_core = 131
-				load_oob = CHI_1993
 		    }
 		}
 	}
@@ -545,6 +544,30 @@ country_event = {
 	option = {
 		name = chechnya.23.a
 		add_political_power = 25
+	}
+
+}
+
+#Türkiye sends weapons
+country_event = {
+	id = chechnya.24
+	title = chechnya.24.t
+	desc = chechnya.24.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = chechnya.24.a
+		add_political_power = 25
+		add_equipment_to_stockpile = { 
+			type = infantry_equipment_1 
+			amount = 500
+		}
 	}
 
 }

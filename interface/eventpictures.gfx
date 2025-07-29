@@ -31,6 +31,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_news_event_rocket_attacks_on_chechnya"
+		texturefile = "gfx/event_pictures/news_event_rocket_attacks_on_chechnya.png"
+	}
+
+	spriteType = {
 		name = "GFX_news_event_Chechen_revolution"
 		texturefile = "gfx/event_pictures/news_event_Chechen_revolution.png"
 	}

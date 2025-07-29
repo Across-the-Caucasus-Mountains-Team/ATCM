@@ -240,6 +240,75 @@ CHE_first_chechen_war_decision = {
 			factor = 50		
 		}
 	}
+
+	CHE_monthly_weapon_supplies = {
+		icon = GFX_decision_generic_soldier
+		allowed = {
+			original_tag = CHE
+		}
+		
+		available = {
+			OR = { 
+				NOT = {
+			        has_global_flag = FirstChechenWar 
+			    }	
+			}
+		}
+		
+		selectable_mission = no
+		
+		activation = {
+			has_global_flag = FirstChechenWar 
+		}
+		
+		days_mission_timeout = 30
+		fire_only_once = no
+		is_good = yes
+		
+		timeout_effect = {
+			activate_mission = CHE_monthly_weapon_supplies
+			random_list = {
+                10 = {
+			        add_equipment_to_stockpile = { 
+				        type = infantry_equipment_1 
+				        amount = 150
+			        } 	
+                }
+                10 = {
+			        add_equipment_to_stockpile = { 
+				        type = infantry_equipment_1 
+				        amount = 250
+			        } 
+                }
+                5 = {
+			        add_equipment_to_stockpile = { 
+				        type = modern_tank_equipment_1 
+				        amount = 1
+			        }
+                }
+                10 = {
+			        add_equipment_to_stockpile = { 
+				        type = anti_tank_equipment_1 
+				        amount = 10
+			        }
+                }
+				10 = {
+                    add_manpower = 150
+                }
+				10 = {
+                    custom_effect_tooltip = cash_balance_plus_5_tt
+			        add_to_variable = {
+				        var = cash
+				        value = 5
+			        }
+                }
+            }
+		}
+		
+		complete_effect = {
+
+		}
+	}
 }
 
 CHE_general_staff_decision = {
@@ -565,9 +634,9 @@ CHE_stability_of_republic_decision = {
 		available = {		
 		    tag = CHE
 			check_variable = {
-                var = my_var
+                var = CHE_power_of_opposition_value
                 value = 35
-                compare = CHE_power_of_opposition_value
+                compare = greater_than_or_equals
             }
 		}
 	    
@@ -638,7 +707,7 @@ CHE_stability_of_republic_decision = {
                         value = 2.5
                     }
                 }
-                10 = {
+                5 = {
                     add_to_variable = {
                         var = CHE_power_of_opposition_value
                         value = 3.5
@@ -647,10 +716,10 @@ CHE_stability_of_republic_decision = {
                 10 = {
                     add_to_variable = {
                         var = CHE_power_of_opposition_value
-                        value = 4
+                        value = 2
                     }
                 }
-				10 = {
+				15 = {
                     add_to_variable = {
                         var = CHE_power_of_opposition_value
                         value = 1

@@ -118,6 +118,15 @@
  11_RAS_tt:0 "§YThere is 100% in the progress of negotiations§!"
  12_RAS_tt:0 "§CWill increase support for Yeltsin§!"
  13_RAS_tt:0 "§RWill reduce support for Yeltsin§!"
+ 14_RAS_tt:0 "§RYou will strike all strategic points in Chechnya.§!"
+
+
+ russia.20.t:0 "Russian ultimatum"
+ russia.20.d:0 "The Russian Federation has issued an ultimatum: surrender to federal authority, disband all armed groups, and dissolve the governmental structures of the Chechen Republic of Ichkeria. Accepting such terms would mean the end of the independence that our people have fought for since 1991. President Dzhokhar Dudayev rejects the ultimatum. Calls for mobilization echo across Grozny and the republic. The storm is coming."
+ russia.20.a:0 "Let them go to hell!"
+ russia.21.t:0 "Chechnya rejects ultimatum"
+ russia.21.d:0 "Despite diplomatic efforts and formal warnings, the authorities of the Chechen Republic of Ichkeria, led by Dzhokhar Dudayev, have outright rejected the Russian ultimatum. The demand for voluntary reintegration into the constitutional framework, disarmament of illegal armed groups, and restoration of federal authority has been ignored. In response, the federal leadership is now considering a military solution to restore order and protect civilians."
+ russia.21.a:0 "War is inevitable"
 
 
  Dudayev_is_dead:0 "§RDudayev is dead§!"

@@ -19,7 +19,29 @@ ideas = {
 			modifier = {
 				war_support_Factor = 0.15
 				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.15
+				army_morale_factor = 0.05
+			}
+		}
+
+		CHI_russians_specalists_idea = {
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Unrecognized_Country
+			
+			modifier = {
+				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
+				army_speed_factor = 0.1
+				army_strength_factor = 0.1
 				army_morale_factor = 0.05
 			}
 		}

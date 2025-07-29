@@ -131,6 +131,7 @@
   CHE_first_chechen_war_decision_desc:0 "The First Chechen War has begun. The Chechen Republic is facing a brutal invasion by Russian forces, determined to crush our struggle for independence. The war will test the resilience and determination of our people."
   CHE_general_staff_decision:0 "General Staff of Chechnya"
   CHE_start_operation_of_jihad_decision:0 "Start Operation 'Jihad'"
+  CHE_monthly_weapon_supplies:0 "Monthly weapon supplies"
 
 
   CHE_elections_1991_decision:0 "Elections in 1991"
@@ -185,7 +186,10 @@
   chechnya.22.t:0 "Islamists on the elections"
   chechnya.22.d:0 "The Islamic radicals have gained significant support in the recent elections, capitalizing on the growing discontent with the current government and the desire for a more religiously oriented leadership. Their platform emphasizes the establishment of an Islamic state, strict adherence to Sharia law, and resistance against Russian influence."
   chechnya.22.a:0 "Still for Dudayev!"
-  chechnya.22.b:0 "Islam will protect our country!"
+  chechnya.22.b:0 "Islam will protect our country!" 
+  chechnya.24.t:0 "Turkey sent weapons"
+  chechnya.24.d:0 "Against the backdrop of growing tensions and international isolation, the government of the Turkish Republic offered humanitarian aid to the Chechen Republic of Ichkeria - medicines, food and equipment. However, upon arrival of the cargo in Grozny, it turned out that among the boxes with medical markings were automatic weapons, ammunition and equipment. Despite the risks, this significantly strengthens the republic's defense capability. Russian intelligence has not yet responded, but in the event of a leak of information, an international scandal is possible."
+  chechnya.24.a:0 "Thank you Muslim brothers"
 
 
   CHE_Unrecognized_Country:0 "Unrecognized Country"
@@ -196,7 +200,10 @@
   CHE_Young_patriots_idea_desc:0 "\n\n\n\n£GFX_idea_young_patriots_desc_photo\n\n\n\n\n\n\n Young soldiers are living martyr who is ready to die for homeland!"
   CHE_National_Guard:0 "National Guard"
   CHE_Nationalist_Propagandas_idea:0 "The Nationalist Propagandas"
-  CHE_volunteers_from_muslim_world_idea:0 "volunteers from the Muslim countries"
+  CHE_volunteers_from_muslim_world_idea:0 "Volunteers from the Muslim countries"
+  CHE_volunteers_from_ukraine:0 "Volunteers from Ukraine"
+  CHE_use_khattab_influence:0 "Use Khattab's influence"
+  CHE_establish_military_training_center_caucasus:0 "Training center "Caucasus"
   CHE_hold_the_line_idea:0 "Hold the line!"
   CHE_State_of_emergency_idea:0 "State of Emergency"
   CHE_general_staff:0 "General Staff"

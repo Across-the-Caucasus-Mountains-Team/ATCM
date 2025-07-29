@@ -1155,6 +1155,10 @@ focus_tree = {
 					id = chechnya.17
 					days = 269
 				}
+				country_event = {
+					id = chechnya.24
+					days = 65
+				}
 			}
 		}	
 	}
@@ -1205,7 +1209,7 @@ focus_tree = {
 				add_ideas = CHE_first_chechen_war_idea
 				subtract_from_variable = {
 				    var = cash
-				    value = 5000
+				    value = 15000
 			    }
 			}
 		}	
@@ -1443,7 +1447,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 4950
+			add_manpower = 2950
 			add_timed_idea = {
 				idea = CHE_volunteers_from_muslim_world_idea
 				days = 280
@@ -1482,6 +1486,74 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 25
 			add_manpower = 350
+		}	
+	}
+
+	focus = {
+		id = CHE_use_khattab_influence
+		icon = GFX_CHE_khatab_influence
+		x = 0
+		y = 2
+		relative_position_id = CHE_call_for_help
+		prerequisite = { focus = CHE_volunteers_from_ukraine }
+		prerequisite = { focus = CHE_volunteers_from_the_muslim_world }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			army_experience = 25
+			activate_mission = CHE_monthly_weapon_supplies
+		}	
+	}
+
+	focus = {
+		id = CHE_establish_military_training_center_caucasus
+		icon = GFX_Goal_unknow
+		x = 0
+		y = 3
+		relative_position_id = CHE_call_for_help
+		prerequisite = { focus = CHE_use_khattab_influence }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			army_experience = 25
 		}	
 	}
 
@@ -1639,7 +1711,7 @@ focus_tree = {
 		relative_position_id = CHE_Manpower_shortage
 		prerequisite = { focus = CHE_recrut_prisoners focus = CHE_recrut_elders focus = CHE_recrut_youth}
 		
-		cost = 20
+		cost = 10
 		
 		ai_will_do = {
 			factor = 100
@@ -1661,7 +1733,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-			add_manpower = 4950
+			add_manpower = 1950
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 1750
@@ -1699,12 +1771,17 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 4950
+			add_timed_idea = {
+				idea = CHE_sleepless_enemy_of_the_tanks_ideas
+				days = 965
+			}	
+			add_manpower = 1950
 			add_equipment_to_stockpile = { 
 				type = anti_tank_equipment_1 
 				amount = 150
 			}
 			load_oob = CHE_sleepless_tanks_enemy_first_chechen_war
+
 		}	
 	}
 
@@ -1737,7 +1814,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 4950
+			add_manpower = 1950
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 3500
@@ -1775,7 +1852,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 4950
+			add_manpower = 1950
 			add_equipment_to_stockpile = { 
 				type = modern_tank_equipment_1 
 				amount = 150
@@ -1792,7 +1869,7 @@ focus_tree = {
 		relative_position_id = CHE_call_Everyone
 		prerequisite = { focus = CHE_call_Everyone }
 		
-		cost = 15
+		cost = 10
 		
 		ai_will_do = {
 			factor = 100
@@ -1911,7 +1988,7 @@ focus_tree = {
 		relative_position_id = CHE_The_Battle_is_in_here
 		prerequisite = { focus = CHE_General_Staff_of_Chechnya }
 		
-		cost = 10
+		cost = 15
 		
 		ai_will_do = {
 			factor = 100
@@ -2041,6 +2118,7 @@ focus_tree = {
                 compare = greater_than_or_equals
 				tooltip = 11_RAS_tt
             }
+			has_war_with = RAS
 		}
 		
 		bypass = {
@@ -2266,14 +2344,17 @@ focus_tree = {
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_counter_offensive }
 		
-		cost = 25
+		cost = 15
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		available = {
-
+			OR = {
+				has_global_flag = Dudayev_is_dead
+				date > 1995.08.05
+			}
 		}
 		
 		bypass = {
@@ -2293,6 +2374,7 @@ focus_tree = {
 				amount = 750 
 			}
 			add_manpower = 750
+			unlock_decision_tooltip = CHE_start_operation_of_jihad_decision
 		}	
 	}
 
@@ -2451,7 +2533,7 @@ focus_tree = {
 		available = {
 			OR = { 
 				has_completed_focus = CHE_irregular_forces
-				casualties > 40000
+				casualties > 30000
 			}
 		}
 		
@@ -4662,7 +4744,7 @@ focus_tree = {
 	focus = {
 		id = CHE_raise_the_national_guard
 		icon = GFX_CHE_Economy_question
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = CHE_the_situation_is_getting_out_of_control
 		prerequisite = { focus = CHE_the_situation_is_getting_out_of_control }

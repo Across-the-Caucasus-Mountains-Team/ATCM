@@ -1,0 +1,18 @@
+add_namespace = general_staff
+add_namespace = generic
+
+#72 years of the Union
+country_event = {
+	id = general_staff.1
+	title = general_staff.1.t
+	desc = general_staff.1.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+    hidden = yes
+
+	option = {
+		name = general_staff.1.a
+		clr_country_flag = Generall_Staff_attack_started
+	}
+}

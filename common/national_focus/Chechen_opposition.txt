@@ -44,6 +44,7 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.05
 			add_ideas = CHI_chechen_opposition_army
+			load_oob = CHI_1993
 		}	
 	}
 
@@ -334,6 +335,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 45
 			add_manpower = 650
+			add_ideas = CHI_russians_specalists_idea
 		}	
 	}
 }
