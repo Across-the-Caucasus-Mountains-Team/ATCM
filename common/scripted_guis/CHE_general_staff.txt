@@ -479,6 +479,12 @@ scripted_gui = {
 							has_country_flag = General_Staff_attack_started
 						}
 					}
+					124 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					125 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
 					set_country_flag = General_Staff_attack_started
 					country_event = {
 						id = general_staff.1
@@ -518,6 +524,9 @@ scripted_gui = {
 							has_country_flag = General_Staff_attack_started
 						}
 					}
+					127 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
 					set_country_flag = General_Staff_attack_started
 					country_event = {
 						id = general_staff.1
@@ -530,6 +539,9 @@ scripted_gui = {
 						NOT = {
 							has_country_flag = General_Staff_attack_started
 						}
+					}
+					16 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
 					}
 					set_country_flag = General_Staff_attack_started
 					country_event = {
@@ -557,6 +569,9 @@ scripted_gui = {
 							has_country_flag = General_Staff_attack_started
 						}
 					}
+					130 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
 					set_country_flag = General_Staff_attack_started
 					country_event = {
 						id = general_staff.1
@@ -569,6 +584,12 @@ scripted_gui = {
 						NOT = {
 							has_country_flag = General_Staff_attack_started
 						}
+					}
+					131 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					128 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
 					}
 					set_country_flag = General_Staff_attack_started
 					country_event = {
