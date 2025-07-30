@@ -51,6 +51,22 @@ CHE_general_staff_decision = {
 	visible_when_empty = yes
 }
 
+CHE_operations_outside_of_chechnya_decision = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_global_flag = FirstChechenWar
+		has_completed_focus = CHE_operations_outside_of_chechnya
+	}
+	visible_when_empty = yes
+}
+
 CHE_elections_1991_decision = {
 
 	priority = 91

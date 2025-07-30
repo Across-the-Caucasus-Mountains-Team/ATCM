@@ -537,5 +537,50 @@ ideas = {
                 attack_bonus_against = -0.25
             }
 		}
+
+		CHE_islamization_of_the_army_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+                army_org_factor = 0.15		
+				army_core_attack_factor = 0.1		
+				islam_drift = 0.01
+			}
+		}
+
+		CHE_holy_jihad_against_russia_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+                army_org_factor = 0.15				
+			}
+
+			targeted_modifier = {
+                tag = RAS
+                attack_bonus_against = 0.25
+            }
+		}
 	}
 }	

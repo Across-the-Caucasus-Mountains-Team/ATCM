@@ -40,142 +40,6 @@ scripted_gui = {
 			close_map_button_click = {
 				set_variable = { CHE_show_general_staff = 0 }
 			}
-			button_general_staff_attack_click = {
-				if = {
-					limit = {
-						has_variable = CHE_north_chechnya_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					11 = {
-						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-					log = "[GetDateText]: [Root.GetName]: Focus RUS_nato_advance_threat"
-				}
-				if = {
-					limit = {
-						has_variable = CHE_grozny_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_south_chechnya_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_shalinsky_district_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_urus_martonovsky_district_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_vedensky_district_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_gudemarsky_district_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_achoi_martanovsky_district_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_shatoisky_district_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-				if = {
-					limit = {
-						has_variable = CHE_groznensky_district_selected
-						NOT = {
-							has_country_flag = Generall_Staff_attack_started
-						}
-					}
-					set_country_flag = Generall_Staff_attack_started
-					country_event = {
-						id = general_staff.1
-						days = 30
-					}
-				}
-			}
 			button_grozny_click = {
 				set_variable = { CHE_grozny_selected = 1 }
 				if = {
@@ -566,6 +430,152 @@ scripted_gui = {
 					limit = { has_variable = CHE_shatoisky_district_selected }
 					clear_variable = CHE_shatoisky_district_selected
 				}				
+			}
+			button_general_staff_attack_click = { 
+				if = {
+					limit = {
+						check_variable = {
+                            var = CHE_north_chechnya_selected
+                            value = 1
+                            compare = equals
+                        }
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					11 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_nato_advance_threat"
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_grozny_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					20 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					21 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_south_chechnya_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_shalinsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_urus_martonovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_vedensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_gudemarsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_achoi_martanovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_shatoisky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						has_variable = CHE_groznensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
 			}
 		}
 

@@ -350,6 +350,10 @@ CHE_general_staff_decision = {
 
 }
 
+CHE_operations_outside_of_chechnya_decision = {
+	
+}
+
 CHE_peace_negotiations_first_chechen_war_decision = {
 
 }

@@ -9,10 +9,10 @@ country_event = {
 	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
 
 	is_triggered_only = yes
-    hidden = yes
+	hidden = yes
 
 	option = {
 		name = general_staff.1.a
-		clr_country_flag = Generall_Staff_attack_started
+		clr_country_flag = General_Staff_attack_started
 	}
 }
