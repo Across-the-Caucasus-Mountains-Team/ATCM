@@ -2,7 +2,7 @@ state={
 	id=132
 	name="STATE_132"
 	provinces={
-		5586 10779 8732 2315 10716 2646 9332 704 5470 10709 6316 10668 8533 8389 8565 
+		5586 10779 8732 2315 10716 2646 9332 704 5470 10709 6316 10668 8533 8389 8565 10660 5300 5606 960 10739 7758 10756 10775 6756 10752 3577 
 	}
 	history={
 	owner = CHE
@@ -12,7 +12,7 @@ state={
 			industrial_complex = 3
 		}
 	}
-	manpower=8000
+	manpower=127853
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

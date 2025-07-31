@@ -1,7 +1,7 @@
 add_namespace = general_staff
 add_namespace = generic
 
-#72 years of the Union
+#Remove attack country flag
 country_event = {
 	id = general_staff.1
 	title = general_staff.1.t
@@ -14,5 +14,53 @@ country_event = {
 	option = {
 		name = general_staff.1.a
 		clr_country_flag = General_Staff_attack_started
+	}
+}
+
+#Remove defence country flag 
+country_event = {
+	id = general_staff.2
+	title = general_staff.2.t
+	desc = general_staff.2.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = general_staff.2.a
+		clr_country_flag = General_Staff_defence_started
+	}
+}
+
+#Remove stregthen defence country flag 
+country_event = {
+	id = general_staff.3
+	title = general_staff.3.t
+	desc = general_staff.3.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = general_staff.3.a
+		clr_country_flag = General_Staff_strengthen_defense_started
+	}
+}
+
+#Remove disprute logistic country flag 
+country_event = {
+	id = general_staff.4
+	title = general_staff.4.t
+	desc = general_staff.4.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = general_staff.4.a
+		clr_country_flag = General_Staff_disrupt_logistics_started
 	}
 }
