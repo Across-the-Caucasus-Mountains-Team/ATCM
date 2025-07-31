@@ -431,6 +431,789 @@ scripted_gui = {
 					clear_variable = CHE_shatoisky_district_selected
 				}				
 			}
+			button_general_staff_attack_click = { 
+				if = {
+					limit = {
+						command_power > 14
+						check_variable = {
+                            var = CHE_north_chechnya_selected
+                            value = 1
+                            compare = equals
+                        }
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					11 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_grozny_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					20 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					21 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_south_chechnya_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					124 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					125 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shalinsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					133 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_urus_martonovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					132 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_vedensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					127 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_gudemarsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					16 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_achoi_martanovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					126 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shatoisky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					130 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_groznensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_attack_started
+						}
+					}
+					add_command_power = -15
+					131 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					128 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_attack_started
+					country_event = {
+						id = general_staff.1
+						days = 30
+					}
+				}
+			}
+			button_general_staff_defense_click = { 
+				if = {
+					limit = {
+						command_power > 14
+						check_variable = {
+                            var = CHE_north_chechnya_selected
+                            value = 1
+                            compare = equals
+                        }
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					11 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_nato_advance_threat"
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_grozny_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					20 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					21 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_south_chechnya_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					124 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					125 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shalinsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					133 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_urus_martonovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					132 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_vedensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					127 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_gudemarsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					16 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_achoi_martanovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					126 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shatoisky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					130 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_groznensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_defence_started
+						}
+					}
+					add_command_power = -15
+					131 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					128 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_defence_started
+					country_event = {
+						id = general_staff.2
+						days = 30
+					}
+				}
+			}
+			button_general_staff_strengthen_defense_click = { 
+				if = {
+					limit = {
+						command_power > 14
+						check_variable = {
+                            var = CHE_north_chechnya_selected
+                            value = 1
+                            compare = equals
+                        }
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					11 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_nato_advance_threat"
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_grozny_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					20 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					21 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_south_chechnya_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					124 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					125 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shalinsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					133 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_urus_martonovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					132 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_vedensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					127 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_gudemarsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					16 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_achoi_martanovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					126 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shatoisky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					130 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_groznensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_strengthen_defense_started
+						}
+					}
+					add_command_power = -15
+					131 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					128 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					set_country_flag = General_Staff_strengthen_defense_started
+					country_event = {
+						id = general_staff.3
+						days = 30
+					}
+				}
+			}
+			button_general_staff_disrupt_logistics_click = { 
+				if = {
+					limit = {
+						command_power > 14
+						check_variable = {
+                            var = CHE_north_chechnya_selected
+                            value = 1
+                            compare = equals
+                        }
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					11 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+					log = "[GetDateText]: [Root.GetName]: Focus RUS_nato_advance_threat"
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_grozny_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					20 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					21 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_south_chechnya_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					124 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					125 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shalinsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					133 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_urus_martonovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					132 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_vedensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					127 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_gudemarsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					16 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_achoi_martanovsky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					126 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					add_command_power = -15
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_shatoisky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					130 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+				else_if = {
+					limit = {
+						command_power > 14
+						has_variable = CHE_groznensky_district_selected
+						NOT = {
+							has_country_flag = General_Staff_disrupt_logistics_started
+						}
+					}
+					add_command_power = -15
+					131 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					128 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					set_country_flag = General_Staff_disrupt_logistics_started
+					country_event = {
+						id = general_staff.4
+						days = 30
+					}
+				}
+			}
 		}
 
         triggers = {

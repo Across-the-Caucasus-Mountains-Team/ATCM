@@ -3,7 +3,7 @@ characters={
 		name="Dzhokhar Dudaev"
 		portraits={
 			civilian={
-				large="gfx/leaders/CHE/portrait_che_dzhokhora_dudayev.png"
+				large="gfx/leaders/CHE/portrait_che_dzhokhora_dudayev_civilian.png"
 			}
 		}
 		country_leader={

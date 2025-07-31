@@ -300,7 +300,8 @@ ideas = {
 			modifier = {
 			    army_defence_factor = 0.15
 				army_attack_factor = 0.15
-				planning_speed_factor = 0.15
+				planning_speed = 0.10
+				max_planning_factor = 0.05
 			}
 		}
 		
@@ -319,7 +320,7 @@ ideas = {
 			picture = SAK_Tbilisi_Syndrome
 			
 			modifier = {
-			    manpower_weekly_factor = -80
+			    weekly_manpower = -80
 			}
 		}
 		
@@ -482,13 +483,32 @@ ideas = {
 			modifier = {
 				army_attack_factor = 0.15
 			    army_defence_factor = 0.15
-				weekly_manpower = 150
+				weekly_manpower = 75
 			}
 
 			targeted_modifier = {
                 tag = RAS
-                attack_bonus_against = 0.1
+                attack_bonus_against = 0.15
             }
+		}
+
+		CHE_sleepless_enemy_of_the_tanks_ideas = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+				army_core_attack_factor = 0.1
+			}
 		}
 
 		CHE_disorganized_defense_idea = {
@@ -515,6 +535,51 @@ ideas = {
 			targeted_modifier = {
                 tag = RAS
                 attack_bonus_against = -0.25
+            }
+		}
+
+		CHE_islamization_of_the_army_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+                army_org_factor = 0.15		
+				army_core_attack_factor = 0.1		
+				islam_drift = 0.01
+			}
+		}
+
+		CHE_holy_jihad_against_russia_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = state_of_emergency
+			
+			modifier = {
+                army_org_factor = 0.15				
+			}
+
+			targeted_modifier = {
+                tag = RAS
+                attack_bonus_against = 0.25
             }
 		}
 	}

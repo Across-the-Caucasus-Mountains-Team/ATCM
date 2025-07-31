@@ -8,8 +8,19 @@ country_event = {
 	picture = GFX_Report_event_GEN_critical_budget_deficit
 
 	trigger = {
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = USSR_Colapsed
+				}
+			}
+		    NOT = {
+			    is_puppet_of = RAS
+		    }
+		}
 		NOT = {
             tag = RAS
+			has_country_flag = criticalbudgetdeficit
 		}
 		check_variable = {
             var = cash
@@ -18,7 +29,7 @@ country_event = {
         }
 	}
 	mean_time_to_happen = {
-        days = 155
+        days = 150
     }   
 
 	immediate = {

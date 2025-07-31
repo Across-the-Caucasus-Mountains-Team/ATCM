@@ -42,7 +42,7 @@ ideas = {
 			}
 		}
 		
-		SAK_Decommunization_idea = {
+		SAK_decommunization_idea = {
 			
 			allowed = {
 				original_tag = SAK
@@ -97,10 +97,10 @@ ideas = {
 			picture = SAK_Gamsakhurdias_Speechs
 			
 			modifier = {
-			    political_power_gain = 1
+			    political_power_gain = 0.3
 				war_support_Factor = 0.15
-				Nationalism_drift = 0.2
-				Conservatism_drift = 0.1
+				nationalism_drift = 0.2
+				cnservatism_drift = 0.1
 			}
 		}
 		

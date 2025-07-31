@@ -1,0 +1,7 @@
+music_station = "super_station"
+music = {
+	song = "FirstChechenWar"
+	chance = {
+		factor = 0
+	}
+}

@@ -68,3 +68,8 @@ NDefines.NSupply.RAILWAY_BASE_FLOW = 15.0 		-- #was 10.0 how much base flow rail
 NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 10.0 	--  #was 10.0 how much additional flow a railway level gives
 NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 10.5  --   #was 5.0 penalty to flow per damaged railway
 NDefines.NSupply.RAILWAY_MIN_FLOW = 2.5 		-- #was 5.0 	minimum railway flow can be reduced to
+
+NDefines.NMilitary.MIN_DIVISION_BRIGADE_HEIGHT = 4		-- Min height of regiments in division designer.
+NDefines.NMilitary.DIVISIONAL_COMMANDER_TRAIT_XP_REQUIREMENT = 600.0	--Get a trait if any valid options & xp gained >= this
+NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2
+NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5

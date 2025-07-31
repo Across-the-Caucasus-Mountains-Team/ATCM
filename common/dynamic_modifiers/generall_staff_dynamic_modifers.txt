@@ -1,0 +1,31 @@
+general_staff_attack_modifier = {
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Anarchism_in_Georgia
+	
+	army_attack_factor = 0.15
+}
+
+general_staff_defense_modifier = {
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Anarchism_in_Georgia
+	
+	army_defence_factor = 0.15
+}
+
+general_staff_strengthen_defense_modifier = {
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Anarchism_in_Georgia
+
+	state_production_speed_bunker_factor = 0.35
+}
+
+general_staff_enemy_disrupt_logistics_modifier = {
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Anarchism_in_Georgia
+
+	supply_factor = -0.15
+}

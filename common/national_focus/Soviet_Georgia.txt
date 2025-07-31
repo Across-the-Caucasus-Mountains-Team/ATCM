@@ -125,7 +125,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SAK_internal_conflict
+		id = SAK_shida_konplikti
 		icon = GFX_SAK_Internal_crisis
 		prerequisite = { focus = SAK_consolidate_the_nationalist_government }
 		x = -3
@@ -160,10 +160,10 @@ focus_tree = {
 	focus = {
 		id = SAK_reinforce_the_national_guard
 		icon = GFX_SAK_Reinforce_National_Guard
-		prerequisite = { focus = SAK_internal_conflict }
+		prerequisite = { focus = SAK_shida_konplikti }
 		x = 0
 		y = 1
-		relative_position_id = SAK_internal_conflict
+		relative_position_id = SAK_shida_konplikti
 		
 		cost = 10
 		
@@ -203,10 +203,10 @@ focus_tree = {
 	focus = {
 		id = SAK_tensions_in_south_ossetia
 		icon = GFX_SAK_Conflict_in_Ossetia
-		prerequisite = { focus = SAK_internal_conflict }
+		prerequisite = { focus = SAK_shida_konplikti }
 		x = -2
 		y = 1
-		relative_position_id = SAK_internal_conflict
+		relative_position_id = SAK_shida_konplikti
 		
 		cost = 10
 		
@@ -236,10 +236,10 @@ focus_tree = {
 	focus = {
 		id = SAK_mobilize_the_economy
 		icon = GFX_SAK_Mobilize_Economy
-		prerequisite = { focus = SAK_internal_conflict }
+		prerequisite = { focus = SAK_shida_konplikti }
 		x = 2
 		y = 1
-		relative_position_id = SAK_internal_conflict
+		relative_position_id = SAK_shida_konplikti
 		
 		cost = 10
 		
@@ -275,7 +275,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SAK_diplomacy
+		id = SAK_diplomatia
 		icon = GFX_SAK_Diplomacy
 		prerequisite = { focus = SAK_consolidate_the_nationalist_government }
 		x = 3
@@ -311,10 +311,10 @@ focus_tree = {
 	focus = {
 		icon = GFX_SAK_Ask_For_The_Recognition
 		id = SAK_ask_for_international_recognition
-		prerequisite = { focus = SAK_diplomacy }
+		prerequisite = { focus = SAK_diplomatia }
 		x = -2
 		y = 1
-		relative_position_id = SAK_diplomacy
+		relative_position_id = SAK_diplomatia
 		
 		cost = 10
 		
@@ -349,10 +349,10 @@ focus_tree = {
 	focus = {
 		icon = GFX_SAK_Diplomacy_with_West
 		id = SAK_pro_western_diplomacy
-		prerequisite = { focus = SAK_diplomacy }
+		prerequisite = { focus = SAK_diplomatia }
 		x = 0
 		y = 1
-		relative_position_id = SAK_diplomacy
+		relative_position_id = SAK_diplomatia
 		
 		cost = 10
 		
@@ -382,10 +382,10 @@ focus_tree = {
 	focus = {
 		id = SAK_foreign_policy_independence
 		icon = GFX_SAK_Independence_in_diplomacy
-		prerequisite = { focus = SAK_diplomacy }
+		prerequisite = { focus = SAK_diplomatia }
 		x = 2
 		y = 1
-		relative_position_id = SAK_diplomacy
+		relative_position_id = SAK_diplomatia
 		
 		cost = 10
 		

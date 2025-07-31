@@ -49,9 +49,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Fan_The_Flames
 		icon = GFX_ARM_Fan_the_flames
-		x = 10
+		x = 0
 		y = 2
 		prerequisite = { focus = ARM_Strengthen_our_national_identity }
+		relative_position_id = ARM_Strengthen_our_national_identity
 		
 		cost = 16
 		
@@ -81,9 +82,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Reach_out_to_the_media
 		icon = GFX_ARM_Reach_out_to_the_Media
-		x = 8
+		x = -2
 		y = 3
 		prerequisite = { focus = ARM_Fan_The_Flames }
+		relative_position_id = ARM_Strengthen_our_national_identity
 		
 		cost = 16
 		
@@ -114,9 +116,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Gain_International_Support
 		icon = GFX_ARM_International
-		x = 10
+		x = 0
 		y = 4
 		prerequisite = { focus = ARM_Fan_The_Flames }
+		relative_position_id = ARM_Strengthen_our_national_identity
 		
 		cost = 16
 		
@@ -424,9 +427,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Promote_Pro_Armenian_Propaganda
 		icon = GFX_Goal_Unknown
-		x = 6
+		x = -2
 		y = 4
 		prerequisite = { focus = ARM_Reach_out_to_the_media }
+		relative_position_id = ARM_Strengthen_our_national_identity
 		
 		cost = 16
 		
@@ -459,9 +463,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Industrialize_Gegharkunik
 		icon = GFX_Goal_Unknown
-		x = 4
-		y = 6
+		x = -1
+		y = 1
 		prerequisite = { focus = ARM_Promote_Pro_Armenian_Propaganda }
+		relative_position_id = ARM_Promote_Pro_Armenian_Propaganda
 		
 		cost = 16
 		
@@ -494,9 +499,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Begin_the_hunger_strike
 		icon = GFX_ARM_Start_Hunger_strikes
-		x = 12
+		x = 2
 		y = 3
 		prerequisite = { focus = ARM_Fan_The_Flames }
+		relative_position_id = ARM_Strengthen_our_national_identity
 		
 		cost = 16
 		
@@ -531,9 +537,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Rally_the_people
 		icon = GFX_ARM_Rally_The_People
-		x = 14
+		x = 2
 		y = 4
 		prerequisite = { focus = ARM_Begin_the_hunger_strike }
+		relative_position_id = ARM_Strengthen_our_national_identity
 		
 		cost = 16
 		
@@ -567,9 +574,10 @@ focus_tree = {
 	focus = {
 		id = ARM_Sieze_Soviet_Guns
 		icon = GFX_ARM_Rally_The_People
-		x = 15
-		y = 6
+		x = 1
+		y = 1
 		prerequisite = { focus = ARM_Rally_the_people }
+		relative_position_id = ARM_Rally_the_people
 		
 		cost = 16
 		

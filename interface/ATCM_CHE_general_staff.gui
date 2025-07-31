@@ -53,7 +53,7 @@ guiTypes = {
 		instantTextBoxType {
 			name = "CHE_region_selected"
 			text = "General_Staff"
-			font = "hoi_318header"
+			font = "hoi_36header"
 			maxWidth = 215
 			position = { x = 1150 y = 350 }
 			pdx_tooltip = "[CAT_OPENING]"

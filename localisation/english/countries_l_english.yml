@@ -297,3 +297,6 @@
  SOV_CHE:0 "Chechen-Ingush ASSR"
  SOV_CHE_DEF:0 "the Chechen-Ingush Autonomous Soviet Socialist Republic"
  SOV_CHE_ADJ:0 "Chechen-Ingush"
+
+ CHI_Authoritarianism:0 "Chechen opposition"
+ CHI_Authoritarianism_DEF:0 "the Chechen opposition"

@@ -1,0 +1,35 @@
+characters={
+	CHI_Umar_Dzhunitovich={ #Independence Leader
+		name="Umar Dzhunitovich"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/portrait_chi_Umar_Dzhunitovich.png"
+			}
+		}
+		country_leader={
+			ideology= generic_authoritarianism
+			traits={ # 
+			}
+			expire="1996.4.21.1"
+			id=-1
+		}
+	}
+	
+	CHI_Ruslan_Labazanov = {
+		name = "Ruslan Labazanov"
+		portraits = {
+			army = {
+				large="gfx/leaders/CHI/portrait_chi_Ruslan_Khamidovich.png"
+			}
+		}
+		field_marshal = {
+			traits = { guerilla_fighter superior_tactician urban_assault_specialist }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 1204
+		}
+	}
+}

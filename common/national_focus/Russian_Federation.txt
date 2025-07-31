@@ -109,7 +109,7 @@ focus_tree = {
 		icon = GFX_RAS_failed_blitz
 		prerequisite = { focus = RAS_blitz_chechnya }
 		x = 20
-		y = 7
+		y = 8
 
 		cost = 15
 
@@ -178,7 +178,19 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.025
-	        army_experience = 10
+	        army_experience = 25
+			21 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+            }
+			20 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+            }
+			128 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+            }
+			11 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+            }
 		}
 	}
 
@@ -198,7 +210,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+		    has_full_control_of_state = 21
 		}
 		
 		bypass = {
@@ -1799,6 +1811,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			give_military_access = ABK
 	        ABK = {
 				add_equipment_to_stockpile = { 
 				    type = infantry_equipment_1 
@@ -1845,6 +1858,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			give_military_access = OST
 	        OST = {
 				add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
@@ -1954,6 +1968,7 @@ focus_tree = {
 
 		available = {
             has_completed_focus = RAS_accept_new_constitution
+			date > 1993.01.05
 		}
 		
 		bypass = {
@@ -1974,7 +1989,6 @@ focus_tree = {
 			CHE = {
 				country_event = chechnya.7
 			}
-			date > 1993.01.05
 		}
 	}
 
@@ -2062,7 +2076,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RAS_blitz_chechnya
+		id = RAS_send_an_ultimatum_to_dudayev
 		icon = GFX_RAS_Strike_Chechnya
 		prerequisite = { focus = RAS_transport_troops_to_the_chehcen_border }
 		prerequisite = { focus = RAS_additional_aviation }
@@ -2078,8 +2092,7 @@ focus_tree = {
 		}
 
 		available = {
-            has_completed_focus = RAS_accept_new_constitution
-			date > 1994.05.01
+			date > 1994.10.01
 		}
 		
 		bypass = {
@@ -2094,6 +2107,118 @@ focus_tree = {
 
 		}
 
+		completion_reward = {
+			add_war_support = 0.05
+            CHE = {
+                country_evnet = russia.20
+			}
+		}
+	}
+
+	focus = {
+		id = RAS_shell_chechnya
+		icon = GFX_RAS_Strike_Chechnya
+		prerequisite = { focus = RAS_send_an_ultimatum_to_dudayev }
+		relative_position_id = RAS_support_chechen_opposition
+		x = 0
+		y = 3
+
+		cost = 35
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.05
+			custom_effect_tooltip = 14_RAS_tt
+			hidden_effect = {
+				21 = {
+				    damage_building = {
+                        type = infrastructure
+                        damage = 1
+                    }
+				}
+				21 = {
+				    damage_building = {
+                        type = arms_factory
+                        damage = 1
+                    }
+				}
+				20 = {
+				    damage_building = {
+                        type = infrastructure
+                        damage = 1
+                    }
+				}
+				11 = {
+				    damage_building = {
+                        type = infrastructure
+                        damage = 1
+                    }
+				}
+				125 = {
+				    damage_building = {
+                        type = infrastructure
+                        damage = 1
+                    }
+				}
+				news_event = {
+                    id = news.23
+                    days = 1
+                }
+			}
+		}
+	}
+
+	focus = {
+		id = RAS_blitz_chechnya
+		icon = GFX_RAS_Strike_Chechnya
+		prerequisite = { focus = RAS_shell_chechnya }
+		relative_position_id = RAS_support_chechen_opposition
+		x = 0
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+            has_completed_focus = RAS_accept_new_constitution
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+      
 		completion_reward = {
 			add_war_support = 0.05
 			add_timed_idea = {
@@ -2142,6 +2267,19 @@ focus_tree = {
 					}
 					add_ideas = GEN_AI_buff_idea
 				}
+				124 = {
+					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
+				}
+				125 = {
+					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
+				}
+				130 = {
+					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
+				}
+				puppet = {
+                    target = CHI
+                    end_wars = no
+                }
 			}
 		}
 	}
@@ -2383,7 +2521,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = RAS_shock_economic_reforms
 
-		cost = 25
+		cost = 35
 
 		ai_will_do = {
 			base = 5
