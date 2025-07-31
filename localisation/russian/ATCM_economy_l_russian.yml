@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  cash_balance:0 "§G[?cash]§!"
  
  cash_balance_value_tt:0 "Баланс"
@@ -8,14 +8,15 @@ l_english:
  debt_balance_value_tt2:0 "На данный момент у вас есть долг в размере [?cash] миллионов долларов."
 
  income_total:0 "Итоговый Доход:"
- income_civ:0 "Доход от гражданских фабрик:"
- income_mil:0 "Доход от военных фабрик:"
- income_doc:0 "Dockyard Income:"
- income_doc:0 "Доход от верфей:"
+ income_civ:0 "Гражданские фабрики:"
+ income_mil:0 "Военные фабрики:"
+ income_doc:0 "Верфи:"
 
  expense_total:0 "Итоговые затраты:"
- healthcare_expense:0 "Затраты на здравоохранение:"
- education_expense:0 "Затраты на образование:"
+ healthcare_expense:0 "Здравоохранение:"
+ social_security_expense:0 "Социальные расходы:"
+ education_expense:0 "Образование:"
+ policing_expense:0 "Полиция:"
 
  healthcare:0 "Закон о здравоохранении"
  universal_health_care:0 "Всеобщее здравоохранение"
@@ -26,6 +27,15 @@ l_english:
  free_emergencies_only_tt:0 "Баланс бюджета: §R-[?healthcare_expense_free_emergencies_only] млн§!"
  private_healthcare:0 "Частное здравоохранение"
 
+ social_security:0 "Закон о социальном обеспечении"
+ welfare_state:0 "Государство всеобщего благосостояния"
+ welfare_state_tt:0 "Баланс бюджета: §R-[?social_security_expense_welfare_state] млн§!"
+ old_age_benefits:0 "Пенсии по старости"
+ old_age_benefits_tt:0 "Баланс казны: §R-[?social_security_expense_old_age_benefits] млн§!"
+ veteran_benefits:0 "Пособия ветеранам"
+ veteran_benefits_tt:0 "Баланс казны: §R-[?social_security_expense_veteran_benefits] млн§!"
+ no_social_security:0 "Отсутствие соцобеспечения"
+
  education:0 "Закон об образовании"
  free_universities:0 "Бесплатные университеты"
  free_universities_tt:0 "Баланс бюджета: §R-[?education_expense_free_universities] млн§!"
@@ -34,3 +44,26 @@ l_english:
  free_elementary_and_middle_schools:0 "Бесплатное начальное образование"
  free_elementary_and_middle_schools_tt:0 "Баланс бюджета: §R-[?education_expense_free_elementary_and_middle_schools] млн§!"
  private_education:0 "Частное образование"
+
+ policing:0 "Закон о полиции"
+ police_state:0 "Полицейское государство"
+ police_state_tt:0 "Баланс бюджета: §R-[?policing_expense_police_state] млн§!"
+ militarized_police:0 "Милитаризованная полиция"
+ militarized_police_tt:0 "Баланс бюджета: §R-[?policing_expense_militarized_police] млн§!"
+ regular_policing:0 "Обычная полиция"
+ regular_policing_tt:0 "Баланс бюджета: §R-[?policing_expense_regular_policing] млн§!"
+ fuck_tha_police:0 "Без полиции"
+
+ cash_balance_minus_45_tt:0 "Баланс бюджета: §R-45млн§!"
+ cash_balance_minus_65_tt:0 "Баланс бюджета: §R-65млн§!"
+ cash_balance_minus_75_tt:0 "Баланс бюджета: §R-75млн§!"
+ cash_balance_minus_25_tt:0 "Баланс бюджета: §R-25млн§!"
+ cash_balance_minus_15_tt:0 "Баланс бюджета: §R-15млн§!"
+ cash_balance_minus_150_tt:0 "Баланс бюджета: §R-150млн§!"
+ cash_balance_minus_175_tt:0 "Баланс бюджета: §R-175млн§!"
+ cash_balance_minus_100_tt:0 "Баланс бюджета: §R-100млн§!"
+ cash_balance_minus_500_tt:0 "Баланс бюджета: §R-500млн§!"
+ cash_balance_minus_250_tt:0 "Баланс бюджета: §R-250млн§!"
+ cash_balance_minus_125_tt:0 "Баланс бюджета: §R-125млн§!"
+ cash_balance_plus_5_tt:0 "Баланс бюджета: §G+5млн§!"
+
