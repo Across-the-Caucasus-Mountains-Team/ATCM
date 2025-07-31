@@ -18,12 +18,12 @@ ATCM_economy_setup = {
 		}
 		multiply_variable = {
 			var = mil_factories_income
-			value = 5
+			value = 10
 		}
-		add_to_variable = {
-			var = cash
-			value = var:mil_factories_income
-		}
+		#add_to_variable = { #moved to on_actions
+		#	var = cash
+		#	value = var:mil_factories_income
+		#}
 		add_to_variable = {
 			var = income
 			value = var:mil_factories_income
@@ -35,12 +35,12 @@ ATCM_economy_setup = {
 		}
 		multiply_variable = {
 			var = doc_factories_income
-			value = 10
+			value = 25
 		}
-		add_to_variable = {
-			var = cash
-			value = var:doc_factories_income
-		}
+		#add_to_variable = { #moved to on_actions
+		#	var = cash
+		#	value = var:doc_factories_income
+		#}
 		add_to_variable = {
 			var = income
 			value = var:doc_factories_income
@@ -52,12 +52,12 @@ ATCM_economy_setup = {
 		}
 		multiply_variable = {
 			var = civ_factories_income
-			value = 20
+			value = 50
 		}
-		add_to_variable = {
-			var = cash
-			value = var:civ_factories_income
-		}
+		#add_to_variable = { #moved to on_actions
+		#	var = cash
+		#	value = var:civ_factories_income
+		#}
 		add_to_variable = {
 			var = income
 			value = var:civ_factories_income
@@ -154,10 +154,10 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = healthcare_expense
-		subtract_from_variable = {
-			var = cash
-			value = var:healthcare_expense
-		}
+		#subtract_from_variable = { #moved to on_actions
+		#	var = cash
+		#	value = var:healthcare_expense
+		#}
 
 		#######################
 		### SOCIAL SECURITY ###
@@ -241,10 +241,10 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = social_security_expense
-		subtract_from_variable = {
-			var = cash
-			value = var:social_security_expense
-		}
+		#subtract_from_variable = { #moved to on_actions
+		#	var = cash
+		#	value = var:social_security_expense
+		#}
 
 		#################
 		### EDUCATION ###
@@ -328,10 +328,10 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = education_expense
-		subtract_from_variable = {
-			var = cash
-			value = var:education_expense
-		}
+		#subtract_from_variable = { #moved to on_actions
+		#	var = cash
+		#	value = var:education_expense
+		#}
 
 		################
 		### POLICING ###
@@ -415,10 +415,10 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = policing_expense
-		subtract_from_variable = {
-			var = cash
-			value = var:policing_expense
-		}
+		#subtract_from_variable = { #moved to on_actions
+		#	var = cash
+		#	value = var:policing_expense
+		#}
 	}
 
 	multiply_variable = {

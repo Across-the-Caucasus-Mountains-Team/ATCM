@@ -1,7 +1,50 @@
 on_actions = {
 	on_weekly = {
 		effect = {
+
+			###########################
+			### INCOME/EXPENSE CALC ###
+			###########################
+
 			ATCM_economy_setup = yes
+
+			##############
+			### INCOME ###
+			##############
+
+			add_to_variable = {
+				var = cash
+				value = var:mil_factories_income
+			}
+			add_to_variable = {
+				var = cash
+				value = var:doc_factories_income
+			}
+			add_to_variable = {
+				var = cash
+				value = var:civ_factories_income
+			}
+
+			################
+			### EXPENSES ###
+			################
+
+			subtract_from_variable = {
+				var = cash
+				value = var:healthcare_expense
+			}
+			subtract_from_variable = {
+				var = cash
+				value = var:social_security_expense
+			}
+			subtract_from_variable = {
+				var = cash
+				value = var:education_expense
+			}
+			subtract_from_variable = {
+				var = cash
+				value = var:policing_expense
+			}
 		}
 	}
 }

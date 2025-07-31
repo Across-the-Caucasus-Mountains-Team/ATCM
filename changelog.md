@@ -4,8 +4,9 @@
 - Added the economy system.
 
 **Additions**
-- Added Aslan Maskhadov as a general.
+- Added Aslan Maskhadov as a Chechen general.
 - Added Turgut Özal as a Turkish country leader.
+- Added Akbar Hashemi Rafsanjani as an Iranian country leader.
 - Added Relocate Trialeti Ossetians decision for Georgia.
 - Added Healthcare, Social Security, Education & Policing laws.
 
@@ -25,6 +26,7 @@
 **Localization**
 - Improved country names.
 - Added Russian translation.
+- Removed most racist descriptions from Deme.
 
 ## Steam:
 ```
@@ -33,11 +35,14 @@
 [list]
     [*]Reworked the country selection screen.
     [*]Added the economy system.
+    [*]Expanded the Chechen focus tree.
 [/list]
 [h2]Additions[/h2]
 [list]
-    [*]Added Aslan Maskhadov as a general.
+    [*]Added Aslan Maskhadov as a Chechen general.
+    [*]Added Ahmad Kadyrov as a possible Chechen country leader.
     [*]Added Turgut Özal as a Turkish country leader.
+    [*]Added Akbar Hashemi Rafsanjani as an Iranian country leader.
     [*]Added Relocate Trialeti Ossetians decision for Georgia.
     [*]Added Healthcare, Social Security, Education & Policing laws.
 [/list]
@@ -61,5 +66,6 @@
 [list]
     [*]Improved country names.
     [*]Added Russian translation.
+    [*]Removed most racist descriptions from Deme.
 [/list]
 ```
