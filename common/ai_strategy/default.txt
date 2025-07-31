@@ -2,21 +2,6 @@ default_unit_production = {
 	# If adding country-unique ones, bear in mind that they STACK unless excluding countries in the enable
 	enable = {
 		always = yes
-		NOT = {
-			OR = {
-				original_tag = GER
-				original_tag = FRA
-				original_tag = CHI
-				original_tag = ENG
-				original_tag = CZE
-				tag = SOV
-				original_tag = ITA
-				original_tag = JAP
-				original_tag = HUN
-				original_tag = SIA
-				original_tag = USA
-			}
-		}
 	}
 	abort_when_not_enabled = yes
 
@@ -148,7 +133,6 @@ default_unit_production_super_heavies = {
 	enable = {
 		is_major = yes
 		num_of_military_factories > 150 # nly if we have loads of factories
-		date > 1943.6.1 # Lets wait until late war
 		NOT = { has_tech = main_battle_tank_chassis } # Abandon Super heavy projects if we start doing modern tanks instead
 	}
 	abort_when_not_enabled = yes
@@ -439,7 +423,7 @@ bba_support_boosts = {
 
 	enable = {
 		is_historical_focus_on = yes
-		date < 1939.1.1
+		date < 2000.1.1
 	}
 	abort_when_not_enabled = yes
 
@@ -792,7 +776,7 @@ more_naval_focused_nation = {
 			tag = USA
 			tag = ENG
 		}
-		date > "1941.1.1"  # Delaying it by a couple of years
+		date > 2014.1.1  # Delaying it by a couple of years
 	}
 	abort_when_not_enabled = yes
 
@@ -1027,10 +1011,10 @@ DEFAULT_early_template_design = {
 				tag = SIA
 			}
 		}
-		date < 1940.1.1
+		date < 2000.1.1
 	}
 	abort = {
-		date > 1940.1.1
+		date > 2000.1.1
 	}
 
 	ai_strategy = {
@@ -1090,7 +1074,7 @@ DEFAULT_midlate_template_design = {
 				tag = SIA
 			}
 		}
-		date > 1940.1.1
+		date > 2000.1.1
 	}
 	abort_when_not_enabled = yes
 
@@ -1199,7 +1183,7 @@ build_intelligence_agency_as_major = {
 		is_major = yes
 		OR = {
 			has_war = yes
-			date > 1938.1.1
+			date > 1993.6.1
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1213,7 +1197,7 @@ build_intelligence_agency_as_major = {
 
 build_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1993.1.1
 		has_war = no
 		num_of_civilian_factories > 25
 	}
@@ -1233,7 +1217,7 @@ build_intelligence_agency = {
 
 upgrade_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1995.1.1
 		num_of_civilian_factories > 50
 	}
 	abort = {
