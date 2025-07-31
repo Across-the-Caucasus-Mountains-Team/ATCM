@@ -2174,7 +2174,7 @@ generic_super_heavy_tanks = {
 		priority = {
 			factor = 10
 			modifier = { 
-				has_government = fascism
+				has_government = nationalism
 				factor = 5
 			}
 			
@@ -2512,7 +2512,7 @@ generic_land_cruiser_tanks = {
 		priority = {
 			factor = 10
 			modifier = { 
-				has_government = fascism
+				has_government = nationalism
 				factor = 5
 			}
 			
