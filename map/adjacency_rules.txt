@@ -1,4 +1,4 @@
-﻿# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
+# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
 #
 # If two countries at war control provinces in the adjacency it is considered contested.
 # The optional triggers is_enemy, is_friend and is_neutral are evaluated in order and if one evaluates to true the corresponding rule is used.
