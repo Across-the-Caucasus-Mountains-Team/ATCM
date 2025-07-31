@@ -5,9 +5,9 @@ state={
 		10746 3488 10729 4917 10717 3796 5214 7580 10690 10666 2359 10670 5562 8778 7116 
 	}
 	history={
-	owner = CHE
-	add_core_of = CHE
-	buildings = {
+		owner = CHE
+		add_core_of = CHE
+		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
