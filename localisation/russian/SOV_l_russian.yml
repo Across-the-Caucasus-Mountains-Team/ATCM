@@ -1,0 +1,5 @@
+﻿l_russian:
+ WHILE_FOCUSING:0 "Во время выполнения этого фокуса будут следующие эффекты:\n$EFF$"
+ generic_focus:0 "Национальный фокус"
+ RAS_seventieth_years_of_the_union:0 "Семидесятилетие Союза"
+ 1_SOV_tt:0 "$GОткрываются новые фокусы$"
