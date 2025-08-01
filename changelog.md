@@ -2,21 +2,23 @@
 **Highlights**
 - Reworked the country selection screen.
 - Added the economy system.
+- Expanded the Chechen focus tree.
 
 **Additions**
 - Added Aslan Maskhadov as a Chechen general.
+- Added Ahmad Kadyrov as a possible Chechen country leader.
 - Added Turgut Özal as a Turkish country leader.
 - Added Akbar Hashemi Rafsanjani as an Iranian country leader.
 - Added Relocate Trialeti Ossetians decision for Georgia.
 - Added Healthcare, Social Security, Education & Policing laws.
 - Added the General Staff mechanic for Chechnya.
-- Added new focuses for Chechnya.
-- AI has been enhanced.
 - Added more states to Chechnya.
 
 **Adjustments**
 - Changed positioning of the Georgian trees.
 - Improved the AI to vanilla standards.
+- Added population to most Turkish states.
+- Chechen Island no longer has the population of 2 milion.
 
 **Bugfixes**
 - Added army/air/navy spirits.
@@ -60,6 +62,8 @@
 [list]
     [*]Changed positioning of the Georgian trees.
     [*]Improved the AI to vanilla standards.
+    [*]Added population to most Turkish states.
+    [*]Chechen Island no longer has the population of 2 milion.
 [/list]
 [h2]Bugfixes[/h2]
 [list]
@@ -74,6 +78,7 @@
     [*]Added Azeri portraits.
     [*]Reworked Chechen portraits.
     [*]Reworked Georgian portraits.
+    [*]Reworked some Chechen and Russian icons.
 [/list]
 [h2]Localization[/h2]
 [list]
