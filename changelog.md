@@ -17,6 +17,8 @@
 **Adjustments**
 - Changed positioning of the Georgian trees.
 - Improved the AI to vanilla standards.
+- Added population to most Turkish states.
+- Chechen Island no longer has the population of 2 milion.
 
 **Bugfixes**
 - Added army/air/navy spirits.
@@ -60,6 +62,8 @@
 [list]
     [*]Changed positioning of the Georgian trees.
     [*]Improved the AI to vanilla standards.
+    [*]Added population to most Turkish states.
+    [*]Chechen Island no longer has the population of 2 milion.
 [/list]
 [h2]Bugfixes[/h2]
 [list]
