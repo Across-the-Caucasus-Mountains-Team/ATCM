@@ -526,6 +526,12 @@ focus_tree = {
                 factor = -3
                 has_war_support > 0.55
             }
+			modifier = {
+                factor = -16
+                CHE = {
+					surrender_progress > 0.65
+				}
+            }
 		}
 
 		available = {

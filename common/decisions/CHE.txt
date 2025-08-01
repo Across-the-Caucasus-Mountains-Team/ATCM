@@ -679,17 +679,18 @@ CHE_stability_of_republic_decision = {
 			    }
 			    has_country_flag = CHEChechenOppositionUprising		
 			}
-            check_variable = {
-				var = CHE_power_of_opposition_value
-				value = 100
-				compare = greater_than_or_equals
-			}
 		}
 		
 		selectable_mission = no
 		
 		activation = {
-			has_country_flag = CHE_dudayev_dicatorship
+			NOT = {
+				check_variable = {
+				    var = CHE_power_of_opposition_value
+				    value = 100
+				    compare = greater_than_or_equals
+			    }
+			}
 		}
 		
 		days_mission_timeout = 7
@@ -698,39 +699,43 @@ CHE_stability_of_republic_decision = {
 		
 		timeout_effect = {
 			activate_mission = CHE_weekly_power_of_opposition_value
-			random_list = {
-                10 = {
-                    add_to_variable = {
-                        var = CHE_power_of_opposition_value
-                        value = 3
-                    }
-                }
-                10 = {
-                    add_to_variable = {
-                        var = CHE_power_of_opposition_value
-                        value = 2.5
-                    }
-                }
-                5 = {
-                    add_to_variable = {
-                        var = CHE_power_of_opposition_value
-                        value = 3.5
-                    }
-                }
-                10 = {
-                    add_to_variable = {
-                        var = CHE_power_of_opposition_value
-                        value = 2
-                    }
-                }
-				15 = {
-                    add_to_variable = {
-                        var = CHE_power_of_opposition_value
-                        value = 1
-                    }
-                }
-            }
 			custom_effect_tooltip = add_CHE_opposition_power_to_var_tt
+			hidden_effect = {
+			    random_list = {
+                    10 = {
+                        add_to_variable = {
+                           var = CHE_power_of_opposition_value
+                            value = 3
+                        }
+                    } 
+                    10 = {
+                        add_to_variable = {
+                            var = CHE_power_of_opposition_value
+                            value = 2.5
+                        }
+						add_stability = -0.025
+                    }
+                    5 = {
+                        add_to_variable = {
+                            var = CHE_power_of_opposition_value
+                            value = 3.5
+                        }
+						add_stability = -0.035
+                    }
+                    10 = {
+                        add_to_variable = {
+                            var = CHE_power_of_opposition_value
+                            value = 2
+                        }
+                    }
+				    15 = {
+                        add_to_variable = {
+                            var = CHE_power_of_opposition_value
+                            value = 1
+                        }
+                    }
+                }	
+			}
 			clamp_variable = {
                 var = CHE_power_of_opposition_value
                 min = 0
