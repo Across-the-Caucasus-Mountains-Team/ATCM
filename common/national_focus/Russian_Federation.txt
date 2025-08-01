@@ -2127,7 +2127,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
             CHE = {
-                country_evnet = russia.20
+                country_event = russia.20
 			}
 		}
 	}
