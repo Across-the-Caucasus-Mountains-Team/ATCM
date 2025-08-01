@@ -1,0 +1,42 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CHE_operations_decision_window"
+		size = { width = 345 height = 220 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "operations_outside_button"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 175 y = 25 }
+			shortcut = "shift+c"
+			buttonText = "Open map"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+    }
+
+	containerWindowType = {
+		name = "CHE_operations_window"
+		size = { width = 1500 height = 900 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHE_operations_outside_chechnya_background"
+		}
+
+		buttonType = {
+			name = "close_operations_outside_button"
+			position = { x = 1447 y = 22 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+    }
+}
