@@ -9,9 +9,11 @@
 - Added Akbar Hashemi Rafsanjani as an Iranian country leader.
 - Added Relocate Trialeti Ossetians decision for Georgia.
 - Added Healthcare, Social Security, Education & Policing laws.
+- Added the General Staff mechanic for Chechnya.
 
 **Adjustments**
 - Changed positioning of the Georgian trees.
+- Improved the AI to vanilla standards.
 
 **Bugfixes**
 - Added army/air/navy spirits.
@@ -22,6 +24,8 @@
 **GFX**
 - Added additional Chechen portraits.
 - Added Azeri portraits.
+- Reworked Chechen portraits.
+- Reworked Georgian portraits.
 
 **Localization**
 - Improved country names.
@@ -45,10 +49,12 @@
     [*]Added Akbar Hashemi Rafsanjani as an Iranian country leader.
     [*]Added Relocate Trialeti Ossetians decision for Georgia.
     [*]Added Healthcare, Social Security, Education & Policing laws.
+    [*]Added the General Staff mechanic for Chechnya.
 [/list]
 [h2]Adjustments[/h2]
 [list]
     [*]Changed positioning of the Georgian trees.
+    [*]Improved the AI to vanilla standards.
 [/list]
 [h2]Bugfixes[/h2]
 [list]
@@ -61,6 +67,8 @@
 [list]
     [*]Added additional Chechen portraits.
     [*]Added Azeri portraits.
+    [*]Reworked Chechen portraits.
+    [*]Reworked Georgian portraits.
 [/list]
 [h2]Localization[/h2]
 [list]

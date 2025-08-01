@@ -1226,7 +1226,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			has_country_flag = FirstChechenWar
+			has_global_flag = FirstChechenWar
 			NOT = {
 				has_completed_focus = CHE_build_islamic_state
 			}
@@ -1278,7 +1278,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			has_country_flag = FirstChechenWar
+			has_global_flag = FirstChechenWar
 			NOT = {
 				has_completed_focus = CHE_build_islamic_state
 			}
@@ -1305,10 +1305,10 @@ focus_tree = {
 			add_stability = -0.25
 			RAS = {
 				set_autonomy = {
-				target = CHE
-				autonomous_state = autonomy_puppet
-				end_wars = yes
-				end_civil_wars = yes
+					target = CHE
+					autonomous_state = autonomy_puppet
+					end_wars = yes
+					end_civil_wars = yes
 				}
 			}
 		}	
