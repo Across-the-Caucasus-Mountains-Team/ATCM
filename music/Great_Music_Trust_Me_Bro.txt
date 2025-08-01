@@ -1,0 +1,33 @@
+music_station = "great_music_trust_me_bro_ATCM"
+music = {
+	song = "nhh"
+	chance = {
+		base = 0
+		modifier = {
+			add = 100
+			has_government = nationalism
+		}
+	}
+}
+
+music = {
+	song = "nhh_censored"
+	chance = {
+		base = 0
+		modifier = {
+			add = 95
+			has_government = nationalism
+		}
+	}
+}
+
+music = {
+	song = "erika"
+	chance = {
+		base = 0
+		modifier = {
+			add = 100
+			has_government = nationalism
+		}
+	}
+}

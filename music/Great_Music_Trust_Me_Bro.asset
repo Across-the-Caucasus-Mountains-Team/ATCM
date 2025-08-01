@@ -1,0 +1,14 @@
+music = {
+	name = "nhh"
+	file = "great_music_trust_me_bro/nhh.ogg"
+}
+
+music = {
+	name = "nhh_censored"
+	file = "great_music_trust_me_bro/nhh_censored.ogg"
+}
+
+music = {
+	name = "erika"
+	file = "great_music_trust_me_bro/erika.ogg"
+}
