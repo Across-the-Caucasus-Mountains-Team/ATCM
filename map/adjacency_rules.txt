@@ -10,3 +10,6 @@
 # Otherwise the neutral rule is used, unless is_neutral evaluates to false, then the enemy rule is used.
 #
 # The 'name' property is how you refer to the rule in adjacencies.csv
+=======
+﻿From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+-1;-1;;-1;-1;-1;-1;-1;-1
