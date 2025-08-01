@@ -10,6 +10,7 @@
 - Added Relocate Trialeti Ossetians decision for Georgia.
 - Added Healthcare, Social Security, Education & Policing laws.
 - Added the General Staff mechanic for Chechnya.
+- Added more states to Chechnya.
 
 **Adjustments**
 - Changed positioning of the Georgian trees.
@@ -50,6 +51,7 @@
     [*]Added Relocate Trialeti Ossetians decision for Georgia.
     [*]Added Healthcare, Social Security, Education & Policing laws.
     [*]Added the General Staff mechanic for Chechnya.
+    [*]Added more states to Chechnya.
 [/list]
 [h2]Adjustments[/h2]
 [list]
