@@ -1,4 +1,4 @@
-# 0.2 ‐ Ekonomika ‐ Changelog
+# Across the Caucasus Mountains 0.2 - Ekonomika
 **Highlights**
 - Reworked the country selection screen.
 - Added the economy system.
@@ -30,7 +30,7 @@
 **Localization**
 - Improved country names.
 - Added Russian translation.
-- Removed most racist descriptions from Deme.
+- Reworked descriptions for Georgia (1st tree).
 
 ## Steam:
 ```
@@ -74,6 +74,6 @@
 [list]
     [*]Improved country names.
     [*]Added Russian translation.
-    [*]Removed most racist descriptions from Deme.
+    [*]Reworked descriptions for Georgia (1st tree).
 [/list]
 ```
