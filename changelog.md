@@ -10,6 +10,8 @@
 - Added Relocate Trialeti Ossetians decision for Georgia.
 - Added Healthcare, Social Security, Education & Policing laws.
 - Added the General Staff mechanic for Chechnya.
+- Added new focuses for Chechnya.
+- AI has been enhanced.
 
 **Adjustments**
 - Changed positioning of the Georgian trees.
@@ -26,6 +28,7 @@
 - Added Azeri portraits.
 - Reworked Chechen portraits.
 - Reworked Georgian portraits.
+- Reworked some Chechen and Russian icons.
 
 **Localization**
 - Improved country names.

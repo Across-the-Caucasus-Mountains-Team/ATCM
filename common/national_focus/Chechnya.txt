@@ -1260,6 +1260,24 @@ focus_tree = {
 				    var = cash
 				    value = 15000
 			    }
+				if = {
+					limit = {
+						RAS = { 
+							NOT = {
+								is_ai = yes
+							}
+						}
+						CHE = {
+							is_ai = yes
+						}
+					}
+					CHE = {
+						add_timed_idea = {
+							idea = GEN_CHE_AI_buff_idea
+							days = 55
+						}
+					}
+				}
 			}
 		}	
 	}

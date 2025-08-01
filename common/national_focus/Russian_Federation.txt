@@ -509,11 +509,22 @@ focus_tree = {
 		cost = 15
 
 		ai_will_do = {
-			base = 5
-			factor = 75
+			base = -5
 			modifier = {
-                factor = 85
+                factor = 2
                 date > 1996.01.01
+            }
+			modifier = {
+                factor = 12
+                casualties_k > 20
+            }
+			modifier = {
+                factor = 3
+                has_war_support < 0.25
+            }
+			modifier = {
+                factor = -3
+                has_war_support > 0.55
             }
 		}
 
