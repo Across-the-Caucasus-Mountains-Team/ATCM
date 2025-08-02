@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_CHE_operations_outside_chechnya_background"
+		textureFile = "gfx/interface/scripted_guis/CHE/Operations_Outside/OperationsOutsideChechnya.png"
+	}
+}
