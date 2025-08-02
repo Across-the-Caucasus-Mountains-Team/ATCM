@@ -1,3 +1,53 @@
+# Across the Caucasus Mountains 0.2.1 - Desert Sword (Experimental Name)
+**Highlights**
+- null
+
+**Additions**
+- null
+
+**Adjustments**
+- null
+
+**Bugfixes**
+- null
+
+**GFX**
+- Added shine effects for all focuses
+- Reworked all remaining old style portraits.
+
+**Localization**
+- null
+
+## Steam:
+```
+[h1]Across the Caucasus Mountains 0.2 - Ekonomika[/h1]
+[h2]Highlights[/h2]
+[list]
+    [*]Added the Islamist path for Chechnya.
+[/list]
+[h2]Additions[/h2]
+[list]
+    [*]null
+[/list]
+[h2]Adjustments[/h2]
+[list]
+    [*]null
+[/list]
+[h2]Bugfixes[/h2]
+[list]
+    [*]null
+[/list]
+[h2]GFX[/h2]
+[list]
+    [*]Added shine effects for all focuses.
+    [*]Reworked all remaining old style portraits.
+[/list]
+[h2]Localization[/h2]
+[list]
+    [*]null
+[/list]
+```
+
 # Across the Caucasus Mountains 0.2 - Ekonomika
 **Highlights**
 - Reworked the country selection screen.
