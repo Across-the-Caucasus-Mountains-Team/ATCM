@@ -228,6 +228,18 @@ focus_tree = {
 		completion_reward = {
 	        add_war_support = 0.025
 	        army_experience = 10
+			126 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
+			132 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
+			133 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
+			16 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
 		}
 	}
 
@@ -541,6 +553,7 @@ focus_tree = {
                 compare = greater_than_or_equals
 				tooltip = 11_RAS_tt
             }
+			date > 1996.01.05
 		}
 		
 		bypass = {
@@ -2297,6 +2310,21 @@ focus_tree = {
                     target = CHI
                     end_wars = no
                 }
+				13 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				8 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				3 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				14 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				17 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
 			}
 		}
 	}

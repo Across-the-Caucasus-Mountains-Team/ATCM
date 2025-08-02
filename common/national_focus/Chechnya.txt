@@ -346,7 +346,10 @@ focus_tree = {
 					}
 				}
 				NOT = {
-					has_completed_focus = CHE_build_secular_state
+					OR = {
+						has_completed_focus = CHE_build_secular_state
+						has_global_flag = AfterFirstChechenWar
+					}
 				}
 			}
 		}
@@ -1329,18 +1332,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			white_peace = RAS
-			add_political_power = -500
-			add_war_support = -0.25
-			add_stability = -0.25
-			RAS = {
-				set_autonomy = {
-					target = CHE
-					autonomous_state = autonomy_puppet
-					end_wars = yes
-					end_civil_wars = yes
-				}
-			}
+			
 		}	
 	}
 
@@ -2760,7 +2752,7 @@ focus_tree = {
 		relative_position_id = CHE_handicraft_production
 		prerequisite = { focus = CHE_handicraft_production }
 		
-		cost = 10
+		cost = 15
 
 		ai_will_do = {
 			base = -1
@@ -2797,7 +2789,45 @@ focus_tree = {
 		relative_position_id = CHE_handicraft_production
 		prerequisite = { focus = CHE_handicraft_production }
 		
-		cost = 10
+		cost = 15
+
+		ai_will_do = {
+			base = -1
+			modifier = {
+                factor = 3
+                date > 1996.01.05
+            }
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			
+		}	
+	}
+
+	focus = {
+		id = CHE_workshops_in_the_mountains
+		icon = GFX_Goal_unknow
+		x = 0
+		y = 2
+		relative_position_id = CHE_handicraft_production
+		prerequisite = { focus = CHE_homemade_mines }
+		prerequisite = { focus = CHE_homemade_rifles }
+		
+		cost = 15
 
 		ai_will_do = {
 			base = -1
@@ -5406,6 +5436,9 @@ focus_tree = {
 
 		allow_branch = {
 			has_global_flag = AfterFirstChechenWar
+			NOT = {
+				has_completed_focus = CHE_build_islamic_state
+			}
 		}
 		
 		bypass = {

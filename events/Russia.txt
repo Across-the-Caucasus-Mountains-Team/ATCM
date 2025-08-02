@@ -283,6 +283,12 @@ country_event = {
 				id = news.21
 				days = 3
 			}
+			annex_country = {
+                target = CHI
+                transfer_troops = no
+            }
+			mark_focus_tree_layout_dirty = yes
+			set_global_flag = AfterFirstChechenWar
 		}
 	}
 

@@ -92,6 +92,15 @@ RAS_chechen_mountains = {
 	ai_focus_aggressive_factor = -0.5
 }
 
+RAS_road_to_south_chechnya = {
+
+	enable = { always = yes }
+	icon = GFX_idea_CHE_weak_army
+    army_speed_factor = 0.2
+	army_org_factor = 0.15
+	army_attack_factor = 0.05
+}
+
 CHE_unprepared_attack = {
 
 	enable = { always = yes }
@@ -99,4 +108,5 @@ CHE_unprepared_attack = {
     army_speed_factor = -0.45
 	army_attack_factor = -0.45
 	army_org_factor = -0.35
+	ai_focus_aggressive_factor = -0.5
 }

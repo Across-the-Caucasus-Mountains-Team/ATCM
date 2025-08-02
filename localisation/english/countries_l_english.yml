@@ -299,8 +299,8 @@
  SOV_CHE_ADJ:0 "Chechen-Ingush"
 
 
- CHE:0 "Chechen opposition"
- CHE_DEF:0 "Chechen opposition"
- CHE_ADJ:0 "Chechen"
+ CHI:0 "Chechen opposition"
+ CHI_DEF:0 "Chechen opposition"
+ CHI_ADJ:0 "Chechen"
  CHI_Authoritarianism:0 "Chechen opposition"
  CHI_Authoritarianism_DEF:0 "the Chechen opposition"
