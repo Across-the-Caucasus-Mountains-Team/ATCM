@@ -643,6 +643,11 @@ spriteTypes = {
 		name = "GFX_RAS_Yeltsin_presidency"
 		texturefile = "gfx/interface/goals/RAS_Yeltsin_presidency.png"
 	}
+
+	SpriteType = {
+		name = "GFX_RAS_sing_the_snv_two"
+		texturefile = "gfx/interface/goals/RAS/RAS_sing_the_snv_two.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_RAS_Strike_Chechnya"
