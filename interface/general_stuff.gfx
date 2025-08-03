@@ -409,5 +409,10 @@ spriteTypes = {
 		name = "GFX_2000_date"
 		texturefile = "gfx/GFX_2000_date.dds"
 	}
+
+	spriteType = {
+		name = "GFX_event_screen_background"
+		texturefile = "gfx/interface/Event_Screen_Background.png"
+	}
 	
 }

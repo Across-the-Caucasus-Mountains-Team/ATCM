@@ -105,6 +105,14 @@ guiTypes = {
 			}
 
 			iconType = {
+				name ="event_background"
+				spriteType = "GFX_event_screen_background"
+				position = { x = 10 y = 5 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes				
+			}
+
+			iconType = {
 				name ="event_pic_clip"
 				spriteType = "GFX_event_pic_clip"
 				position = { x = -3 y = 35 }

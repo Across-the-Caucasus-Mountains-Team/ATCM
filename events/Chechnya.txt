@@ -544,6 +544,7 @@ country_event = {
 	option = {
 		name = chechnya.23.a
 		add_political_power = 25
+		add_popularity = {ideology = Nationalism Popularity = 0.05}	
 	}
 
 }
