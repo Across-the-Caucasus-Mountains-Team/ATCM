@@ -5,7 +5,7 @@ country_event = {
 	id = chechnya.1
 	title = chechnya.1.t
 	desc = chechnya.1.d
-	picture = GFX_Report_event_SAK_Zviad_Speech
+	picture = GFX_Report_event_CHE_ingushetia_separating
 
 	is_triggered_only = yes
 
@@ -31,7 +31,7 @@ country_event = {
 	id = chechnya.2
 	title = chechnya.2.t
 	desc = chechnya.2.d
-	picture = GFX_Report_event_SAK_Zviad_Speech
+	picture = GFX_Report_event_CHE_ingushetia_separating
 
 	is_triggered_only = yes
 

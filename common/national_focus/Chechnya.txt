@@ -2594,7 +2594,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 1500 
+				amount = 750
 			}
 		}	
 	}
@@ -2740,7 +2740,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			
+			add_offsite_building = { type = arms_factory level = 2 }
 		}	
 	}
 
@@ -2777,7 +2777,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			
+			add_offsite_building = { type = arms_factory level = 1 }
 		}	
 	}
 
@@ -2814,7 +2814,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			
+			add_offsite_building = { type = arms_factory level = 1 }
 		}	
 	}
 
@@ -2852,7 +2852,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			
+			add_offsite_building = { type = arms_factory level = 3 }
 		}	
 	}
 
