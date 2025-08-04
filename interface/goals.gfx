@@ -645,6 +645,16 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_RAS_additional_infantry_battalions"
+		texturefile = "gfx/interface/goals/RAS/RAS_additional_infantry_battalions.png"
+	}
+
+	SpriteType = {
+		name = "GFX_RAS_bring_in_new_armor"
+		texturefile = "gfx/interface/goals/RAS/RAS_bring_in_new_armor.png"
+	}
+
+	SpriteType = {
 		name = "GFX_RAS_sing_the_snv_two"
 		texturefile = "gfx/interface/goals/RAS/RAS_sing_the_snv_two.png"
 	}

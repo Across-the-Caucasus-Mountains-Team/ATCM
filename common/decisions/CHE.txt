@@ -258,7 +258,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		
 		activation = {
-			has_global_flag = FirstChechenWar 
+			always = no
 		}
 		
 		days_mission_timeout = 30
@@ -729,6 +729,7 @@ CHE_stability_of_republic_decision = {
 		selectable_mission = no
 		
 		activation = {
+			always = no
 			NOT = {
 				check_variable = {
 				    var = CHE_power_of_opposition_value

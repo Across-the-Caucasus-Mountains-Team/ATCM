@@ -118,7 +118,9 @@
  11_RAS_tt:0 "§YThere is 100% in the progress of negotiations§!"
  12_RAS_tt:0 "§CWill increase support for Yeltsin§!"
  13_RAS_tt:0 "§RWill reduce support for Yeltsin§!"
- 14_RAS_tt:0 "§RYou will strike all strategic points in Chechnya.§!"
+ 14_RAS_tt:0 "§RYou will strike all strategic points in Chechnya§!"
+ 15_RAS_tt:0 "§RYou will impose an embargo on Chechnya§!"
+ 16_RAS_tt:0 "§RChechnya will be closer to independence§!"
 
 
  russia.20.t:0 "Russian ultimatum"
@@ -140,7 +142,7 @@
  RAS_additional_supplies_to_the_front:0 "Additional supplies"
  RAS_additional_artillery_to_the_front:0 "Additional artillery"
  RAS_additional_manpower_in_the_kto:0 "Additional manpower to the KTO zone"
- RAS_liquidation_of_dudayev: "Liquidation of Dudayev"
+ RAS_liquidation_of_dudayev:0 "Liquidation of Dudayev"
  RAS_strengthen_the_patrol_of_awacs_aircraft:0 "Strengthen the patrol of AWACS aircraft"
  RAS_special_services_decision:0 "Special services"
  RAS_peace_negotiations_first_chechen_war_decision:0 "Peace negotiations"
@@ -156,4 +158,4 @@
 
 
  #Ideas 
-  RAS_awacs_reconnaissance:0 "AWACS reconnaissance"
+ RAS_awacs_reconnaissance:0 "AWACS reconnaissance"

@@ -248,6 +248,10 @@ country_event = {
 			RAS = {
 				country_event = russia.2
 			}
+			add_opinion_modifier = {
+                target = RAS
+                modifier = drove_out_the_russians
+            }
 		}
 	}
 }
@@ -397,7 +401,7 @@ country_event = {
 
 	option = {
 		name = chechnya.17.a
-		add_stability = -0.075
+		add_stability = -0.15
 		add_political_power = -25
 		hidden_effect = {
 			country_event = {
@@ -423,7 +427,7 @@ country_event = {
 
 	option = {
 		name = chechnya.18.a
-		add_stability = 0.075
+		add_stability = 0.05
 		add_political_power = 50
 		activate_mission = CHE_chechen_election_1991_mission
 		unlock_decision_category_tooltip = CHE_elections_1991_decision
@@ -493,6 +497,7 @@ country_event = {
 		name = chechnya.21.a
 		add_stability = -0.075
 		add_political_power = -25
+		add_popularity = {ideology = Nationalism Popularity = -0.05}	
 		131 = { transfer_state_to = CHI }
 	}
 }
@@ -545,6 +550,7 @@ country_event = {
 		name = chechnya.23.a
 		add_political_power = 25
 		add_popularity = {ideology = Nationalism Popularity = 0.05}	
+		custom_effect_tooltip = 16_RAS_tt
 	}
 
 }
@@ -570,5 +576,28 @@ country_event = {
 			amount = 500
 		}
 	}
+}
 
+#Russia imposes an embargo on us
+country_event = {
+	id = chechnya.25
+	title = chechnya.25.t
+	desc = chechnya.25.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = chechnya.25.a
+		add_war_support = 0.025
+		add_stability = -0.05
+		add_timed_idea = {
+            idea = CHE_embargo_on_chechnya_idea
+            days = 365
+        }
+	}
 }

@@ -26,7 +26,20 @@ country_event = {
 
 	option = {
 		name = russia.2.a
+		add_stability = -0.025
+		add_war_support = -0.05
+	}
+	
+	option = {
+		name = russia.2.a
 		add_war_support = 0.025
+		add_political_power = -50
+		custom_effect_tooltip = 15_RAS_tt
+		hidden_effect = {
+		    CHE = { 
+			    country_event = chechnya.25
+			}
+		}
 	}
 }
 

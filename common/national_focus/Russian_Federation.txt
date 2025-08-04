@@ -152,7 +152,7 @@ focus_tree = {
 		id = RAS_failed_blitz
 		icon = GFX_RAS_failed_blitz
 		prerequisite = { focus = RAS_blitz_chechnya }
-		x = 20
+		x = 23
 		y = 8
 
 		cost = 15
@@ -940,7 +940,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_bring_in_new_armour
-		icon = GFX_RAS_call_reinforcements
+		icon = GFX_RAS_bring_in_new_armor
 		prerequisite = { Focus = RAS_call_for_air_strikes }
 		prerequisite = { Focus = RAS_call_for_omon }
 		prerequisite = { Focus = RAS_call_for_reinforcements }
@@ -980,7 +980,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_additional_infantry_battalions
-		icon = GFX_RAS_call_reinforcements
+		icon = GFX_RAS_additional_infantry_battalions
 		prerequisite = { Focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 0
@@ -1019,7 +1019,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_additional_shipments_to_the_cto_zone
-		icon = GFX_RAS_call_reinforcements
+		icon = GFX_RAS_additional_infantry_battalions
 		prerequisite = { Focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = -2
