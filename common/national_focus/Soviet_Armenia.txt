@@ -403,10 +403,15 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = {
 				ideology = liberalism
-				popularity = 0.80
+				popularity = 0.8
 			}
 			country_event = { id = armenia.1 }
-			news_event = { id = news.4 }
+			custom_effect_tooltip = generic_skip_one_line_tt
+			custom_effect_tooltip = new_focus_tree_tt
+			hidden_effect = {
+				load_focus_tree = Independent_Armenia_focus_tree
+				news_event = { id = news.4 }
+			}
 		}	
 	}
 }	
