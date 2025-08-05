@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = SAK_Our_Actions
 		icon = GFX_Goal_SAK_Our_Actions
-		x = 7
+		x = 8
 		y = 0
 		
 		cost = 8
@@ -51,10 +51,165 @@ focus_tree = {
 	}
 
 	focus = {
+		id = SAK_integration_of_south_ossetia
+		icon = GFX_SAK_integration_of_ossetia
+		prerequisite = { focus = SAK_Our_Actions }
+		x = 5
+		y = 1
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			OST = {
+				exists = no
+			}
+		}
+		
+		bypass = {
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+		}	
+	}
+
+	focus = {
+		id = SAK_equal_rights_to_ossetians
+		icon = GFX_SAK_equal_rights
+		prerequisite = { focus = SAK_integration_of_south_ossetia }
+		relative_position_id = SAK_integration_of_south_ossetia
+		x = 0
+		y = 1
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.025
+			33 = {
+				add_compliance = 10
+			}
+			36 = {
+				add_compliance = 10
+			}
+			swap_ideas = {
+                remove_idea = SAK_Clashes_in_south_ossetia
+                add_idea = SAK_Clashes_in_south_ossetia_two
+            }
+		}	
+	}
+
+	focus = {
+		id = SAK_public_schools_for_everyone
+		icon = GFX_SAK_schools_for_everyone
+		prerequisite = { focus = SAK_equal_rights_to_ossetians }
+		relative_position_id = SAK_integration_of_south_ossetia
+		x = 0
+		y = 2
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.025
+			33 = {
+				add_compliance = 10
+			}
+			36 = {
+				add_compliance = 10
+			}
+			swap_ideas = {
+                remove_idea = SAK_Clashes_in_south_ossetia_two
+                add_idea = SAK_Clashes_in_south_ossetia_three
+            }
+		}	
+	}
+
+	focus = {
+		id = SAK_more_autonomy
+		icon = GFX_SAK_more_autonomy
+		prerequisite = { focus = SAK_public_schools_for_everyone }
+		relative_position_id = SAK_integration_of_south_ossetia
+		x = 0
+		y = 3
+		
+		cost = 8
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.025
+			33 = {
+				add_compliance = 55
+			}
+			36 = {
+				add_compliance = 55
+			}
+			remove_ideas = SAK_Clashes_in_south_ossetia_three
+		}	
+	}
+
+	focus = {
 		id = SAK_Little_fish
 		icon = GFX_Goal_SAK_Little_Fish
 		prerequisite = { focus = SAK_Our_Actions }
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = SAK_Our_Actions
 		
@@ -98,7 +253,7 @@ focus_tree = {
 		id = SAK_Our_eyes_In_Tbilisi
 		icon = GFX_Goal_SAK_Eyes_On_Tbilisi
 		prerequisite = { focus = SAK_Our_Actions }
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = SAK_Our_Actions
 		
