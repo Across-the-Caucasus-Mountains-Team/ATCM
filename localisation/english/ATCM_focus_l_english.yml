@@ -1,7 +1,7 @@
 ﻿l_english:
  in_dev_focus_tt:0 "§RThis focus is in development!§!"
  in_dev_branch_tt:0 "§RThere is no additional focus tree for the moment!§!"
- new_focus_tree_tt:0 "§GThis focus grants a new focus tree!§!"
+ new_focus_tree_tt:0 "§GNew focuses will be unlocked§!"
 
  Georgia_focus:0 "Soviet Georgia Focus Tree"
  SAK_gamsakhurdia_speech:0 "Gamsakhurdia's Speech"
@@ -167,7 +167,6 @@
  ARM_steal_Azer_jets:0 "Seize Azerbaijani Jets"
  ARM_Recruit_the_pilots:0 "Recruit The Pilots"
  ARM_War_is_in_here:0 "§RWar is in here...§"
- 1_ARM_tt:0 "§GNew focuses will be unlocked§!"
  
  AZR_Black_January:0 "Black January"
  AZR_Consolidate_Party_Control:0 "Consolidate Party Control"

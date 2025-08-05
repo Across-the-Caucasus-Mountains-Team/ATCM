@@ -1,7 +1,7 @@
 ﻿l_russian:
   in_dev_focus_tt:0 "§RДанный фокус все ещё в разработке!§!"
   in_dev_branch_tt:0 "§RНа данный момент не имеется дополнительного древа фокусов!§!"
-  new_focus_tree_tt:0 "§GЭтот фокус открывает новое дерево фокусов!§!"
+  new_focus_tree_tt:0 "§GОткроются новые фокусы§!"
 
   Georgia_focus:0 "Дерево фокусов Советской Грузии"
   SAK_gamsakhurdia_speech:0 "Речь Гамсахурдия"
@@ -167,7 +167,6 @@
   ARM_steal_Azer_jets:0 "Захватить азербайджанские самолёты"
   ARM_Recruit_the_pilots:0 "Призвать пилотов"
   ARM_War_is_in_here:0 "§RЗдесь начинается война...§"
-  1_ARM_tt:0 "§GОткроются новые фокусы§!"
   AZR_Black_January:0 "Чёрный январь"
   AZR_Consolidate_Party_Control:0 "Консолидация партийного контроля"
   AZR_Karabakh_Campaign:0 "Карабахская кампания"
