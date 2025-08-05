@@ -1,0 +1,224 @@
+focus_tree = {
+	id = Georgian_SSR_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 1
+			tag = SAK
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 900 }
+
+	focus = {
+		id = SAK_arrest_gamasakhurdia
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = {  }
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SAK_secure_socialist_control
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		relative_position_id = SAK_arrest_gamasakhurdia
+		prerequisite = {
+			focus = SAK_arrest_gamasakhurdia
+		}
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = {  }
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SAK_continue_the_course
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = SAK_secure_socialist_control
+		prerequisite = {
+			focus = SAK_secure_socialist_control
+		}
+		mutually_exclusive = {
+			focus = SAK_embrace_the_legacy_of_stalin
+		}
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = {  }
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SAK_glasnost
+		icon = GFX_goal_unknown
+		x = -1
+		y = 1
+		relative_position_id = SAK_continue_the_course
+		prerequisite = {
+			focus = SAK_continue_the_course
+		}
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = {  }
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SAK_prerestroika
+		icon = GFX_goal_unknown
+		x = 1
+		y = 1
+		relative_position_id = SAK_continue_the_course
+		prerequisite = {
+			focus = SAK_continue_the_course
+		}
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = {  }
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SAK_embrace_the_legacy_of_stalin
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		relative_position_id = SAK_secure_socialist_control
+		prerequisite = {
+			focus = SAK_secure_socialist_control
+		}
+		mutually_exclusive = {
+			focus = SAK_continue_the_course
+		}
+		
+		cost = 10
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = {  }
+		
+		completion_reward = {
+		}
+	}
+
+
+}
