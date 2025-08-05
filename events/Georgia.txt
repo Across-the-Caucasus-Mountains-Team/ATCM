@@ -176,6 +176,15 @@ country_event = {
 			load_focus_tree = Independent_Georgia_focus
 		}
 	}
+	option = {
+		name = Georgia.10.b
+		ai_chance = {
+			base = 0
+		}
+		hidden_effect = {
+			load_focus_tree = Georgian_SSR_focus
+		}
+	}
 }
 
 #TODO
