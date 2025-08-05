@@ -866,7 +866,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -25
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
 		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
 		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
@@ -874,6 +873,7 @@ focus_tree = {
 		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
 		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
+			add_political_power = -25
 		}	
 	}
 
@@ -944,7 +944,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -100
 			remove_ideas = SAK_Overcrowded_Hospitals
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
 		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
@@ -953,6 +952,7 @@ focus_tree = {
 		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
 		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
+			add_political_power = -100
 		}	
 	}
 
@@ -1061,6 +1061,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_political_power = 25
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
 		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
 		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
@@ -1078,7 +1079,11 @@ focus_tree = {
 		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
 		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
-			add_political_power = 40
+			custom_effect_tooltip = cash_balance_plus_5_tt
+			add_to_variable = {
+				var = cash
+				value = 5
+			}
 		}	
 	}
 
@@ -1126,9 +1131,14 @@ focus_tree = {
 		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
 		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
-			add_political_power = 50
-			add_stability = 0.05
+			add_political_power = 25
+			add_stability = 0.075
 			add_war_support = 0.05
+			custom_effect_tooltip = cash_balance_plus_5_tt
+			add_to_variable = {
+				var = cash
+				value = 5
+			}
 		}	
 	}
 
