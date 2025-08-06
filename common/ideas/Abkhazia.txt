@@ -1,0 +1,107 @@
+ideas = {
+
+	country = {
+		ABK_suprise_attack = {
+			
+			allowed = {
+				original_tag = ABK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_blitz_Abkhazia
+			
+			modifier = {
+				stability_factor = -0.35
+				war_support_factor = -0.35
+			}
+		}
+		
+		ABK_chaotic_retreat = {
+			
+			allowed = {
+				original_tag = ABK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ABK_retreat
+			
+			modifier = {
+				war_support_factor = -0.15
+				army_speed_factor = 0.3
+				army_defence_factor = -0.35
+				army_attack_factor = -0.35
+			}
+		}
+		
+		ABK_volunteers_from_north_caucasus_idea = {
+			
+			allowed = {
+				original_tag = ABK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ABK_volunteers
+			
+			modifier = {
+				war_support_factor = 0.05
+				weekly_manpower = 250
+			}
+		}
+		
+		ABK_hold_the_line_idea = {
+			
+			allowed = {
+				original_tag = ABK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = ABK_hold_the_line
+			
+			modifier = {
+			    army_defence_factor = 0.45
+				army_speed_factor = 0.2
+			}
+		}
+		
+		ABK_march_offensive_idea = {
+			
+			allowed = {
+				original_tag = ABK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_blitz_Abkhazia
+			
+			modifier = {
+			    army_attack_factor = 0.25
+				breakthrough_factor = 0.15
+				weekly_manpower = -15
+			}
+		}
+	}
+}	
