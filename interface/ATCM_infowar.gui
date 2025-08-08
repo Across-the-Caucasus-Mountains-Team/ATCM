@@ -1,0 +1,19 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CHE_information_war_window"
+		size = { width = 345 height = 220 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "information_war"
+			spriteType = "GFX_information_war"
+			position = { x = 175 y = 25 }
+			shortcut = "shift+c"
+			buttonText = "Open map"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+    }
+}

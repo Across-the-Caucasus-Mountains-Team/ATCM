@@ -303,7 +303,9 @@ focus_tree = {
 		}
 
 		available = {
-		
+		    has_full_control_of_state = 16
+			has_full_control_of_state = 133
+			has_full_control_of_state = 132
 		}
 		
 		bypass = {
@@ -2736,7 +2738,15 @@ focus_tree = {
 				14 = {
 					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
 				}
-				17 = {
+				24 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				if = {
+					limit = {
+						17 = {
+							is_fully_controlled_by = RAS
+						}
+					}
 					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
 				}
 			}
