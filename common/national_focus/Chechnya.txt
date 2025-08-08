@@ -2114,8 +2114,10 @@ focus_tree = {
 		}
 		
 		available = {
-			date > 1995.01.05
-			has_global_flag = Dudayev_is_dead
+			OR = {
+			    date > 1996.01.05
+			    has_global_flag = Dudayev_is_dead
+			}
 		}
 		
 		bypass = {
