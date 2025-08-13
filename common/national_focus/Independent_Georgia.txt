@@ -88,7 +88,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-			add_popularity = { ideology = communism popularity = -0.3 }
+			add_popularity = { ideology = communism popularity = -0.25 }
 			add_timed_idea = {
 				idea = SAK_decommunization_idea
 				days = 365
