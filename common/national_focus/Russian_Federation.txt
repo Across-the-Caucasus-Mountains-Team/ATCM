@@ -2747,7 +2747,9 @@ focus_tree = {
 							is_fully_controlled_by = RAS
 						}
 					}
-					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+					17 = {
+					    add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+					}
 				}
 			}
 		}

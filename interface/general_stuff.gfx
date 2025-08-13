@@ -414,5 +414,10 @@ spriteTypes = {
 		name = "GFX_event_screen_background"
 		texturefile = "gfx/interface/Event_Screen_Background.png"
 	}
+
+	spriteType = {
+		name = "GFX_bookmark_button"
+		texturefile = "gfx/interface/bookmark_button.dds"
+	}
 	
 }
