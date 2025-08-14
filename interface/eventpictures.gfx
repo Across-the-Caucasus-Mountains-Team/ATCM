@@ -224,6 +224,11 @@ spriteTypes = {
 		name = "GFX_news_event_Chechnya_Independence"
 		texturefile = "gfx/event_pictures/news_event_Chechnya_Independence.png"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_sign_snv_2"
+		texturefile = "gfx/event_pictures/news_event_sign_snv_2.png"
+	}
 	
 	spriteType = {
 		name = "GFX_news_event_Ingushetia"
