@@ -260,7 +260,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = -0.1
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
 		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
 		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
@@ -272,6 +271,7 @@ focus_tree = {
 		    add_to_variable = { SAK_aig_weekly_manpower = 1 }
 	    	add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
 			custom_effect_tooltip = 1_SAK_tt
+			add_stability = -0.1
 		}	
 	}
 
@@ -305,12 +305,12 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -45
 			add_stability = 0.05
 			add_timed_idea = {
 				idea = SAK_Funding_Pro_Government_Media
 				days = 45
 			}
+			add_political_power = -45
 		}	
 	}
 
@@ -506,6 +506,8 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
+			add_stability = 0.05
+			add_war_support = 0.05
 		}	
 	}
 
@@ -540,6 +542,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.025
+			army_experience = 25
 		}	
 	}
 
@@ -983,7 +986,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -100
 			remove_ideas = SAK_Ruins_of_central_tbilisi
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
 		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
@@ -992,6 +994,7 @@ focus_tree = {
 		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
 		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
+			add_political_power = -100
 		}	
 	}
 
@@ -1022,7 +1025,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -100
 			add_stability = 0.1
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
 		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
@@ -1031,6 +1033,7 @@ focus_tree = {
 		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
 		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
+			add_political_power = -100
 		}	
 	}
 
@@ -1114,6 +1117,9 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.075
+			add_war_support = 0.05
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
 		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
 		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
@@ -1131,9 +1137,6 @@ focus_tree = {
 		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
 		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
-			add_political_power = 25
-			add_stability = 0.075
-			add_war_support = 0.05
 			custom_effect_tooltip = cash_balance_plus_5_tt
 			add_to_variable = {
 				var = cash
@@ -1252,13 +1255,14 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = -0.05
 			add_fuel = 10000
 			swap_ideas = {
 				remove_idea = SAK_lack_of_fuel_and_ammo
 				add_idea = SAK_lack_of_fuel_and_ammo_2
 			}
 			custom_effect_tooltip = 2_SAK_tt
+			add_stability = -0.05
+			add_war_support = -0.05
 		}	
 	}
 
@@ -1371,6 +1375,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			army_experience = 25
 		}	
 	}
 
@@ -1404,6 +1409,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			army_experience = 25
 		}	
 	}
 
@@ -1451,7 +1457,7 @@ focus_tree = {
 	focus = {
 		id = SAK_Civil_war_is_started
 		icon = GFX_SAK_the_last_round
-		x = 23
+		x = 20
 		y = 7
 		
 		cost = 3
@@ -1475,17 +1481,19 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_war_support = 0.05
 		}	
 	}
 
 	focus = {
 		id = SAK_strike_Zviadists
 		icon = GFX_Goal_SAK_Strike_Zviadists
-		x = 23
-		y = 8
+		x = 0
+		y = 1
+		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Civil_war_is_started }
 
-		cost = 3
+		cost = 2
 		
 		ai_will_do = {
 			factor = 100
@@ -1507,14 +1515,21 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.05
+			add_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
+            set_variable = { SAK_wgaf_Conscription = 0.01 }
+            set_variable = { SAK_wdaf_army_attack_factor = -0.25 }
+            set_variable = { SAK_wdaf_army_org_factor = -0.15 }
+            set_variable = { SAK_wdaf_army_speed_factor = -0.15 }
+            set_variable = { SAK_wdaf_army_org_regain = -0.25 }
 		}	
 	}
 
 	focus = {
 		id = SAK_Evacuation_from_Abkhazia
 		icon = GFX_Goal_SAK_Evacuation_From_Abkhazia
-		x = 22
-		y = 9
+		x = -1
+		y = 2
+		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_strike_Zviadists }
 		
 		cost = 3
@@ -1538,14 +1553,20 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_to_variable = { SAK_wdaf_army_speed_factor = 0.05 }
+			add_timed_idea = {
+                idea = SAK_evacuation_from_abkhazia_idea
+                days = 25
+            }
 		}	
 	}
 
 	focus = {
 		id = SAK_Emergency_evacuation_from_western_Georgia
 		icon = GFX_Goal_SAK_Escape
-		x = 24
-		y = 9
+		x = 1
+		y = 2
+		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_strike_Zviadists }
 		
 		cost = 3
@@ -1569,15 +1590,18 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_to_variable = { SAK_wdaf_army_speed_factor = 0.05 }
 		}	
 	}
 
 	focus = {
 		id = SAK_Full_Mobilization
 		icon = GFX_Goal_SAK_Full_mobilization
-		x = 23
-		y = 11
-		prerequisite = { focus = SAK_strike_Zviadists }
+		x = 0
+		y = 3
+		relative_position_id = SAK_Civil_war_is_started
+		prerequisite = { focus = SAK_Evacuation_from_Abkhazia }
+		prerequisite = { focus = SAK_Emergency_evacuation_from_western_Georgia }
 		
 		cost = 15
 		
@@ -1602,14 +1626,16 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 5000
 			add_ideas = SAK_mobilization_idea
+			add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
 		}	
 	}
 
 	focus = {
 		id = SAK_Join_CSTO
 		icon = GFX_Goal_SAK_Join_CSTO
-		x = 16
-		y = 8
+		x = -4
+		y = 1
+		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Civil_war_is_started }
 		
 		cost = 5
@@ -1640,8 +1666,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Agreement_with_Russia
 		icon = GFX_Goal_SAK_Agreements_with_russia
-		x = 16
-		y = 10
+		x = 0
+		y = 1
+		relative_position_id = SAK_Join_CSTO
 		prerequisite = { focus = SAK_Join_CSTO }
 		
 		cost = 10
@@ -1671,8 +1698,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Bomb_them_from_Ground
 		icon = GFX_goal_unknown
-		x = 19
-		y = 12
+		x = -2
+		y = 4
+		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Full_Mobilization }
 		
 		cost = 1
@@ -1697,14 +1725,16 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
 		}	
 	}
 
 	focus = {
 		id = SAK_Mkhedrion_counter_attack
 		icon = GFX_Goal_SAK_Mkhedrion_Counter_attack
-		x = 19
-		y = 14
+		x = 0
+		y = 1
+		relative_position_id = SAK_Bomb_them_from_Ground
 		prerequisite = { focus = SAK_Bomb_them_from_Ground }
 		
 		cost = 1
@@ -1728,14 +1758,16 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
 		}	
 	}
 
 	focus = {
 		id = SAK_Cut_off_Chechen_support
 		icon = GFX_goal_unknown
-		x = 19
-		y = 15
+		x = 0
+		y = 2
+		relative_position_id = SAK_Bomb_them_from_Ground
 		prerequisite = { focus = SAK_Mkhedrion_counter_attack }
 		
 		cost = 1
@@ -1765,8 +1797,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Restore_The_Order_once_for_all
 		icon = GFX_goal_unknown
-		x = 20
-		y = 16
+		x = 0
+		y = 3
+		relative_position_id = SAK_Bomb_them_from_Ground
 		prerequisite = { focus = SAK_Cut_off_Chechen_support }
 		
 		cost = 1
@@ -1790,14 +1823,16 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_war_support = 0.05
 		}	
 	}
 
 	focus = {
 		id = SAK_Victory
 		icon = GFX_goal_unknown
-		x = 23
-		y = 17
+		x = -2
+		y = 1
+		relative_position_id = SAK_Total_Air_Supremacy
 		prerequisite = { focus = SAK_Restore_The_Order_once_for_all }
 		prerequisite = { focus = SAK_Total_Air_Supremacy }
 		
@@ -1824,14 +1859,92 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.15
 			add_political_power = 25
+			remove_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
+			hidden_effect = {
+			    35 = {
+				    set_building_level = {
+					    type = bunker
+					    level = 0
+					    province = {
+						    id = 11024
+						    id = 2670
+						    id = 11032
+						    id = 11056
+						    id = 11073
+						    id = 11085
+						    id = 8622
+					    }
+					    instant_build = yes
+				    }
+			    }
+				49 = {
+				    set_building_level = {
+					    type = bunker
+					    level = 0
+					    province = {
+						    id = 5335
+						    id = 5365
+						    id = 11384
+						    id = 7490
+						    id = 11401
+						    id = 9233
+					    }
+					    instant_build = yes
+				    }
+			    }
+				48 = {
+				    set_building_level = {
+					    type = bunker
+					    level = 0
+					    province = {
+						    id = 2649
+						    id = 4518
+						    id = 5650
+						    id = 5711
+						    id = 7668
+						    id = 8377
+						    id = 11353
+						    id = 11357
+						    id = 11370
+					    }
+					    instant_build = yes
+				    }
+			    }
+				41 = {
+				    set_building_level = {
+					    type = bunker
+					    level = 0
+					    province = {
+						    id = 7664
+						    id = 4545
+						    id = 3885
+						    id = 6666
+						    id = 1359
+						    id = 3553
+					    }
+					    instant_build = yes
+				    }
+			    }
+			    42 = {
+				    add_building_construction = {
+					    type = bunker
+					    level = 0
+					    province = {
+						    id = 5464
+					    }
+					    instant_build = yes
+				    }
+			    }
+			}
 		}	
 	}
 
 	focus = {
 		id = SAK_Bomb_them_from_Sky
 		icon = GFX_goal_unknown
-		x = 27
-		y = 12
+		x = 2
+		y = 4
+		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Full_Mobilization }
 		
 		cost = 1
@@ -1856,14 +1969,16 @@ focus_tree = {
 		
 		completion_reward = {
 			air_experience = 25
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
 		}	
 	}
 
 	focus = {
 		id = SAK_ground_support
 		icon = GFX_goal_unknown
-		x = 23
-		y = 13
+		x = 0
+		y = 2
+		relative_position_id = SAK_Full_Mobilization
 		prerequisite = { focus = SAK_Bomb_them_from_Ground }
 		prerequisite = { focus = SAK_Bomb_them_from_Sky }
 		
@@ -1888,14 +2003,21 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_timed_idea = {
+                idea = SAK_ground_support_idea
+                days = 35
+            }
+			army_experience = 25
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.10 }
 		}	
 	}
 
 	focus = {
 		id = SAK_Strike_Zugdidi
 		icon = GFX_goal_unknown
-		x = 27
-		y = 14
+		x = 0
+		y = 1
+		relative_position_id = SAK_Bomb_them_from_Sky
 		prerequisite = { focus = SAK_Bomb_them_from_Sky }
 		
 		cost = 1
@@ -1919,14 +2041,16 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
 		}	
 	}
 
 	focus = {
 		id = SAK_bomb_zviadists_supply_lines
 		icon = GFX_goal_unknown
-		x = 27
-		y = 15
+		x = 0
+		y = 2
+		relative_position_id = SAK_Bomb_them_from_Sky
 		prerequisite = { focus = SAK_Strike_Zugdidi }
 		
 		cost = 1
@@ -1950,14 +2074,21 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			GOM = {
+				add_timed_idea = {
+					idea = SAK_disrupted_supply_lines
+					days = 35
+				}
+			}
 		}	
 	}
 
 	focus = {
 		id = SAK_Total_Air_Supremacy
 		icon = GFX_goal_unknown
-		x = 26
-		y = 16
+		x = 0
+		y = 3
+		relative_position_id = SAK_Bomb_them_from_Sky
 		prerequisite = { focus = SAK_bomb_zviadists_supply_lines }
 		
 		cost = 1
@@ -1981,14 +2112,17 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			air_experience = 25
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
 		}	
 	}
 
 	focus = {
 		id = SAK_Fortifications
 		icon = GFX_goal_unknown
-		x = 30
-		y = 8
+		x = 6
+		y = 1
+		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Civil_war_is_started }
 		
 		cost = 20
@@ -2020,8 +2154,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Fortify_Kutaisi
 		icon = GFX_SAK_defend_Kutaisi
-		x = 29
-		y = 9
+		x = -2
+		y = 1
+		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortifications }
 		
 		cost = 15
@@ -2067,8 +2202,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Fortify_Gori
 		icon = GFX_SAK_defend_Gori
-		x = 31
-		y = 9
+		x = 2
+		y = 1
+		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortifications }
 		
 		cost = 15
@@ -2113,8 +2249,9 @@ focus_tree = {
 	focus = {
 		id = SAK_Fortify_Tbilisi
 		icon = GFX_SAK_defend_tbilisi
-		x = 30
-		y = 10
+		x = 0
+		y = 1
+		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortifications }
 		
 		cost = 15
@@ -2162,9 +2299,10 @@ focus_tree = {
 	focus = {
 		id = SAK_Fortify_Batumi
 		icon = GFX_SAK_defend_batumi
-		x = 29
-		y = 11
-		prerequisite = { focus = SAK_Fortifications }
+		x = -2
+		y = 2
+		relative_position_id = SAK_Fortifications
+		prerequisite = { focus = SAK_Fortify_Kutaisi }
 		
 		cost = 15
 		
@@ -2208,9 +2346,10 @@ focus_tree = {
 	focus = {
 		id = SAK_Fortify_Ozurgeti
 		icon = GFX_SAK_defend_ozurgeti
-		x = 31
-		y = 11
-		prerequisite = { focus = SAK_Fortifications }
+		x = 2
+		y = 2
+		relative_position_id = SAK_Fortifications
+		prerequisite = { focus = SAK_Fortify_Gori }
 		
 		cost = 15
 		

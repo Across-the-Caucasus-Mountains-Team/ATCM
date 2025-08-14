@@ -2950,6 +2950,10 @@ focus_tree = {
 					}
 					add_ideas = GEN_AI_buff_idea
 				}
+				country_event = {
+                    id = russia.22
+                    days = 4
+                }
 				124 = {
 					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
 				}
