@@ -31,7 +31,7 @@ RAS_eltsin_support_decision = {
 
 	visible = {
         tag = RAS
-		has_completed_focus = RAS_presidency_of_eltsin
+		has_completed_focus = RAS_presidency_of_eltsin 
 	}
 	visible_when_empty = yes
 }

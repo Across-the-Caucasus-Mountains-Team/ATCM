@@ -2992,6 +2992,16 @@ focus_tree = {
 					    add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
 					}
 				}
+				set_variable = {
+                    var = RAS_russian_infowar_value
+                    value = 50
+					tooltip = set_var_to_100_tt
+                }
+				set_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 50
+					tooltip = set_var_to_100_tt
+                }
 			}
 		}
 	}
