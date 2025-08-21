@@ -285,6 +285,7 @@ technologies = {
 		}
 		enable_subunits = {
 			armoured_personnel_carrier
+			armoured_personnel_carrier_platoon
 		}
 		on_research_complete_limit = {
 			

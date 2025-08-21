@@ -48,6 +48,7 @@ RAS_first_chechen_war_decision = {
         tag = RAS
 		has_global_flag = FirstChechenWar
 	}
+	scripted_gui = RAS_general_staff_decision_window
 	visible_when_empty = yes
 }
 
