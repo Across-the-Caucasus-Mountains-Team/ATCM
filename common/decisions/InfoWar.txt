@@ -1,0 +1,54 @@
+information_war_decision = {
+	
+	CHE_russia_is_communist = {
+
+		icon = GFX_decision_generic_soldier
+		
+		available = {
+		    tag = CHE
+		}
+		
+		visible = {
+			tag = CHE
+		}
+		
+		fire_only_once = no
+		days_re_enable = 65	
+
+		cost = 50
+
+		complete_effect = {	
+			
+		}
+
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+	
+	CHE_russia_is_communist = {
+
+		icon = GFX_decision_generic_soldier
+		
+		available = {
+		    tag = CHE
+		}
+		
+		visible = {
+			tag = CHE
+		}
+		
+		fire_only_once = no
+		days_re_enable = 65	
+
+		cost = 50
+
+		complete_effect = {	
+			
+		}
+
+		ai_will_do = {
+			factor = 10		
+		}
+	}
+}

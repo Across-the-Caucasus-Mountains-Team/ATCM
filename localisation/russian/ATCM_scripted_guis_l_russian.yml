@@ -1,0 +1,23 @@
+﻿l_russian:
+
+  General_Staff:0 "Генеральный штаб"
+  Grozny_select:0 "Грозный"
+  North_Chechnya_select:0 "Северная Чечня"
+  Groznensky_District_select:0 "Грозненский район"
+  South_Chechnya_select:0 "Южная Чечня"
+  Achoi_Martanovsky_select:0 "Ачхой-Мартановский район"
+  Gudemarsky_District_select:0 "Гудермесский район"
+  Shalinsky_District_select:0 "Шалинский район"
+  Shatoisky_District_select:0 "Шатойский район"
+  Vedensky_District_select:0 "Веденский район"
+  Urus_Martanovsky_District_select:0 "Урус-Мартановский район"
+
+  general_staff_attack_tt:0 "§LНажмите, чтобы начать наступление. Для начала выберите регион, где будет проведено наступление. Можно использовать только одно наступление одновременно.\n§YДлительность: §t30 дней\n§YСтоимость: §R15£GFX_command_power\n§YЭффект: §7+15.00 к атаке"
+  general_staff_defense_tt:0 "§LНажмите, чтобы начать оборону. Для начала выберите регион, где будет организована оборона. Можно использовать только одну оборону одновременно.\n§YДлительность: §t30 дней\n§YСтоимость: §R15£GFX_command_power\n§YЭффект: §7+15.00 к защите"
+  general_staff_strengthen_defense_tt:0 "§LНажмите, чтобы усилить оборону. Для начала выберите регион, где будет укрепляться оборона. Можно использовать только одно укрепление одновременно.\n§YДлительность: §t30 дней\n§YСтоимость: §R15£GFX_command_power\n§YЭффект: §7+15.00 к скорости строительства укреплений"
+  general_staff_disrupt_logistics_tt:0 "§LНажмите, чтобы нарушить вражескую логистику. Для начала выберите регион, где будет проведена операция. Можно использовать только одну такую операцию одновременно.\n§YДлительность: §t30 дней\n§YСтоимость: §R15£GFX_command_power\n§YЭффект: §R-15.00 к эффективности снабжения противника"
+
+  general_staff_disrupt_logistics:0 "Нарушить логистику"
+  general_staff_strengthening_the_defense:0 "Усилить оборону"
+  general_staff_start_defensive_actions:0 "Начать оборонительные действия"
+  general_staff_begin_offensive_actions:0 "Начать наступательные действия"

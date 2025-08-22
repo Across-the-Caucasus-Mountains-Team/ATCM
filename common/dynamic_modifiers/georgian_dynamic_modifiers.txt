@@ -1,0 +1,29 @@
+SAK_georgian_civil_war = {
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Weak_Armed_Forces
+
+	conscription = SAK_wgaf_conscription #-0.02
+	army_attack_factor = SAK_wdaf_army_attack_factor #-0.25
+	army_org_factor = SAK_wdaf_army_org_factor #-0.5
+	army_speed_factor = SAK_wdaf_army_speed_factor #-0.15
+	army_org_regain = SAK_wdaf_army_org_regain #-0.25
+}
+
+SAK_evacuate = {
+
+	enable = { always = yes }
+	icon = GFX_idea_SAK_Weak_Armed_Forces
+    army_speed_factor = 0.35
+	army_org_factor = -0.25
+	army_attack_factor = -0.15
+}
+
+SAK_counter_offensive = {
+
+	enable = { always = yes }
+	icon = GFX_idea_SAK_Weak_Armed_Forces
+    army_speed_factor = 0.35
+	army_org_factor = -0.25
+	army_attack_factor = -0.15
+}

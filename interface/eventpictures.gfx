@@ -224,6 +224,11 @@ spriteTypes = {
 		name = "GFX_news_event_Chechnya_Independence"
 		texturefile = "gfx/event_pictures/news_event_Chechnya_Independence.png"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_sign_snv_2"
+		texturefile = "gfx/event_pictures/news_event_sign_snv_2.png"
+	}
 	
 	spriteType = {
 		name = "GFX_news_event_Ingushetia"
@@ -431,5 +436,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Report_event_CHE_victory_of_dudayev"
 		texturefile = "gfx/event_pictures/Report_event_CHE_victory_of_dudayev.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_ingushetia_separating"
+		texturefile = "gfx/event_pictures/Report_event_CHE_ingushetia_separating.png"
 	}
 }	

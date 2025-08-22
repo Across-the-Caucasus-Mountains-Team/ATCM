@@ -7,6 +7,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_unknown.dds"
 		legacy_lazy_load = no
 	}
+
+	SpriteType = {
+		name = "GFX_ABK_Defend"
+		texturefile = "gfx/interface/goals/ABK/ABK_Defend.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ABK_volunteers"
+		texturefile = "gfx/interface/goals/ABK/ABK_volunteers.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ABK_suprise_attack"
+		texturefile = "gfx/interface/goals/ABK/ABK_suprise_attack.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ABK_retreat"
+		texturefile = "gfx/interface/goals/ABK/ABK_retreat.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_ABK_militia_in_sukhumi"
+		texturefile = "gfx/interface/goals/ABK/ABK_militia_in_sukhumi.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_RAS_additonal_armor"
@@ -236,7 +261,28 @@ spriteTypes = {
 	}
 
 
-	######
+	###################
+    ##### GEORGIA #####
+	###################
+	SpriteType = {
+		name = "GFX_SAK_integration_of_ossetia"
+		texturefile = "gfx/interface/goals/SAK/SAK_integration_of_ossetia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_equal_rights"
+		texturefile = "gfx/interface/goals/SAK/SAK_equal_rights.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_schools_for_everyone"
+		texturefile = "gfx/interface/goals/SAK/SAK_schools_for_everyone.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SAK_more_autonomy"
+		texturefile = "gfx/interface/goals/SAK/SAK_more_autonomy.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_SAK_ads_about_military"
@@ -642,6 +688,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_RAS_Yeltsin_presidency"
 		texturefile = "gfx/interface/goals/RAS_Yeltsin_presidency.png"
+	}
+
+	SpriteType = {
+		name = "GFX_RAS_additional_infantry_battalions"
+		texturefile = "gfx/interface/goals/RAS/RAS_additional_infantry_battalions.png"
+	}
+
+	SpriteType = {
+		name = "GFX_RAS_bring_in_new_armor"
+		texturefile = "gfx/interface/goals/RAS/RAS_bring_in_new_armor.png"
+	}
+
+	SpriteType = {
+		name = "GFX_RAS_sing_the_snv_two"
+		texturefile = "gfx/interface/goals/RAS/RAS_sing_the_snv_two.png"
 	}
 	
 	SpriteType = {

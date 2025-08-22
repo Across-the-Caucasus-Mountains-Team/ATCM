@@ -1,0 +1,29 @@
+﻿l_english:
+  
+  General_Staff:0 "General Staff"
+  Grozny_select:0 "Grozny"
+  North_Chechnya_select:0 "North Chechnya"
+  Groznensky_District_select:0 "Groznensky District"
+  South_Chechnya_select:0 "South Chechnya"
+  Achoi_Martanovsky_select:0 "Achoi Martanovsky District"
+  Gudemarsky_District_select:0 "Gudemrasky District"
+  Shalinsky_District_select:0 "Shalinsky District"
+  Shatoisky_District_select:0 "Shatoisky District"
+  Vedensky_District_select:0 "Vedensky District"
+  Urus_Martanovsky_District_select:0 "Urus Martanovsky District"
+  general_staff_attack_tt:0 "§LClick to start the offensive. To start an offensive, select a region where you will conduct an offensive. You can only use 1 offensive at a time.\n§YDuration: §t30 days\n§YCost: §R15£GFX_command_power \n§YEffect from clicking: §7+15.00 to attack"
+  general_staff_defense_tt:0 "§LClick to start the defense. To start a defense, select a region where you will conduct a defense. You can only use 1 defense at a time.\n§YDuration: §t30 days\n§YCost: §R15£GFX_command_power \n§YEffect from clicking: §7+15.00 to defense"
+  general_staff_strengthen_defense_tt:0 "§LClick to start the strengthen of defense. To start a strengthen of defense, select a region where you will conduct a strengthen of defense. You can only use 1 strengthen of defense at a time.\n§YDuration: §t30 days\n§YCost: §R15£GFX_command_power \n§YEffect from clicking: §7+15.00 to speed of fort construction"
+  general_staff_disrupt_logistics_tt:0 "§LClick to start the strengthen of disrupt enemy logistics. To start a disrupt enemy logistics, select a region where you will conduct a disrupt enemy logistics. You can only use 1 disrupt enemy logistics at a time.\n§YDuration: §t30 days\n§YCost: §R15£GFX_command_power \n§YEffect from clicking: §R-15.00 to supply efficiency of the enemy"
+  
+  general_staff_disrupt_logistics:0 "Disrupt logistics"
+  general_staff_strengthening_the_defense:0 "Start strengthening the defense"
+  general_staff_start_defensive_actions:0 "Start defensive actions"
+  general_staff_begin_offensive_actions:0 "Begin offensive actions"
+
+  ## Information Warfare
+  CHECHEN_INFOWAR_VALUE:0 "Chechen Infowar Value: §Y[CHE_chechen_infowar_value]"
+  RUSSIAN_INFOWAR_VALUE:0 "Russian Infowar Value: §Y[RAS_russian_infowar_value]"
+  RUS_Infowar:0 "§Y[RAS_russian_infowar_value]"
+  CHE_Infowar:0 "§Y[CHE_chechen_infowar_value]"
+  add_to_russian_infowar_tt:0 "§YIncrease our influence in the information war§!"

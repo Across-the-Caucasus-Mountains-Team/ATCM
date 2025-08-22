@@ -537,3 +537,19 @@ news_event = {
 		}
 	}
 }
+
+#Russian signs Strategic Arms Reduction Treaty
+news_event = {
+	id = news.24
+	title = news.24.t
+	desc = news.24.d
+	picture = GFX_news_event_sign_snv_2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.24.a
+	}
+}

@@ -48,6 +48,9 @@ debug_decisions = {
 				complete_national_focus = RAS_end_of_the_ussr
 			}
 			set_country_flag = RUSTREELOADED_DEBUG
+			CHE = {
+				country_event = Chechnya.4
+			}
 		}
 	}
 
@@ -92,7 +95,27 @@ debug_decisions = {
 				complete_national_focus =  CHE_General_Staff_of_Chechnya
 
 			}
-			set_global_flag = FirstChechenWar
+		}
+	}
+
+	chechen_operations_outside = {
+		priority = -1
+		allowed = {
+			always = yes 
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			has_global_flag = show_debug_decisions_flag
+		}
+		allowed = {
+         
+		}
+		complete_effect = {
+			CHE = {
+				complete_national_focus =  CHE_operations_outside_of_chechnya
+			}
 		}
 	}
 	

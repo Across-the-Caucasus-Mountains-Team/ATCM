@@ -19,11 +19,230 @@ focus_tree = {
 	}
 	continuous_focus_position = { x = 50 y = 2600 }
 	default = no
+
+	focus = {
+		id = RAS_second_presidency_of_eltsin
+		icon = GFX_RAS_Yeltsin_presidency
+		x = 10
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		allow_branch = {
+			has_completed_focus = RAS_victory
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = RAS_continue_economic_reforms
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_sign_peace_agreement_with_chechnya }
+		x = -2
+		y = 1
+		relative_position_id = RAS_sign_peace_agreement_with_chechnya
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	       
+		}
+	}
+
+	focus = {
+		id = RAS_form_a_new_government
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_second_presidency_of_eltsin }
+		x = 0
+		y = 1
+		relative_position_id = RAS_second_presidency_of_eltsin
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	       add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = RAS_series_of_military_reforms
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_sign_peace_agreement_with_chechnya }
+		x = 2
+		y = 1
+		relative_position_id = RAS_sign_peace_agreement_with_chechnya
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 50
+		}
+	}
+
+	focus = {
+		id = RAS_combat_military_disloyalty
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_continue_economic_reforms }
+		prerequisite = { focus = RAS_series_of_military_reforms }
+		x = 0
+		y = 2
+		relative_position_id = RAS_sign_peace_agreement_with_chechnya
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 50
+		}
+	}
+
+	focus = {
+		id = RAS_sign_peace_agreement_with_chechnya
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_second_presidency_of_eltsin }
+		x = 0
+		y = 2
+		relative_position_id = RAS_second_presidency_of_eltsin
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        add_stability = 0.05
+		}
+	}
 	
 	focus = {
 		id = RAS_presidency_of_eltsin
 		icon = GFX_RAS_Yeltsin_presidency
-		x = 8
+		x = 10
 		y = 0
 
 		cost = 25
@@ -39,6 +258,12 @@ focus_tree = {
 		
 		bypass = {
 
+		}
+
+		allow_branch = {
+			NOT = {
+                has_completed_focus = RAS_victory
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -108,7 +333,7 @@ focus_tree = {
 		id = RAS_failed_blitz
 		icon = GFX_RAS_failed_blitz
 		prerequisite = { focus = RAS_blitz_chechnya }
-		x = 20
+		x = 24
 		y = 8
 
 		cost = 15
@@ -228,6 +453,18 @@ focus_tree = {
 		completion_reward = {
 	        add_war_support = 0.025
 	        army_experience = 10
+			126 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
+			132 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
+			133 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
+			16 = {
+                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+            }
 		}
 	}
 
@@ -247,7 +484,9 @@ focus_tree = {
 		}
 
 		available = {
-		
+		    has_full_control_of_state = 16
+			has_full_control_of_state = 133
+			has_full_control_of_state = 132
 		}
 		
 		bypass = {
@@ -302,6 +541,27 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 75
 			add_war_support = 0.025
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -339,6 +599,27 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 25
 			add_war_support = 0.05
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -377,6 +658,27 @@ focus_tree = {
 		    add_political_power = 50
 			add_stability = 0.05
 			add_war_support = 0.025
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -415,6 +717,27 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 75
 			add_war_support = 0.075
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -509,11 +832,28 @@ focus_tree = {
 		cost = 15
 
 		ai_will_do = {
-			base = 5
-			factor = 75
+			base = -5
 			modifier = {
-                factor = 85
+                factor = 2
                 date > 1996.01.01
+            }
+			modifier = {
+                factor = 12
+                casualties_k > 20
+            }
+			modifier = {
+                factor = 3
+                has_war_support < 0.25
+            }
+			modifier = {
+                factor = -3
+                has_war_support > 0.55
+            }
+			modifier = {
+                factor = -16
+                CHE = {
+					surrender_progress > 0.65
+				}
             }
 		}
 
@@ -524,6 +864,7 @@ focus_tree = {
                 compare = greater_than_or_equals
 				tooltip = 11_RAS_tt
             }
+			date > 1996.01.05
 		}
 		
 		bypass = {
@@ -866,7 +1207,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_bring_in_new_armour
-		icon = GFX_RAS_call_reinforcements
+		icon = GFX_RAS_bring_in_new_armor
 		prerequisite = { Focus = RAS_call_for_air_strikes }
 		prerequisite = { Focus = RAS_call_for_omon }
 		prerequisite = { Focus = RAS_call_for_reinforcements }
@@ -905,8 +1246,47 @@ focus_tree = {
 	}
 
 	focus = {
+		id = RAS_additional_special_forces
+		icon = GFX_RAS_additional_infantry_battalions
+		prerequisite = { Focus = RAS_bring_in_new_armour }
+		relative_position_id = RAS_reorganize_our_frontline
+		x = 2
+		y = 3
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        add_war_support = 0.025
+		    add_political_power = 25
+			army_experience = 35
+			load_oob = RAS_infantry_battalions_first_chechen_war
+		}
+	}
+
+	focus = {
 		id = RAS_additional_infantry_battalions
-		icon = GFX_RAS_call_reinforcements
+		icon = GFX_RAS_additional_infantry_battalions
 		prerequisite = { Focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 0
@@ -945,7 +1325,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_additional_shipments_to_the_cto_zone
-		icon = GFX_RAS_call_reinforcements
+		icon = GFX_RAS_additional_infantry_battalions
 		prerequisite = { Focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = -2
@@ -1139,6 +1519,42 @@ focus_tree = {
 	}
 
 	focus = {
+		id = RAS_maintain_yeltsins_image
+		icon = GFX_RAS_Leave_gaidar
+		prerequisite = { focus = RAS_resignation_of_gaidar }
+		relative_position_id = RAS_resignation_of_gaidar
+		x = 1
+		y = 1
+
+		cost = 15
+
+		ai_will_do = {
+			base = 5
+			factor = 0
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        add_stability = 0.05
+		}
+	}
+
+	focus = {
 		id = RAS_leave_gaidar
 		icon = GFX_RAS_Leave_gaidar
 		prerequisite = { focus = RAS_the_seventh_congress_of_deputies }
@@ -1174,6 +1590,43 @@ focus_tree = {
 	        add_stability = -0.15
 		    add_political_power = 75
 			custom_effect_tooltip = 2_RAS_tt
+			custom_effect_tooltip = 13_RAS_tt
+		}
+	}
+
+	focus = {
+		id = RAS_discrediting_parliament
+		icon = GFX_RAS_Leave_gaidar
+		prerequisite = { focus = RAS_leave_gaidar }
+		relative_position_id = RAS_leave_gaidar
+		x = -1
+		y = 1
+
+		cost = 15
+
+		ai_will_do = {
+			base = 5
+			factor = 0
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        add_stability = 0.025
 			custom_effect_tooltip = 13_RAS_tt
 		}
 	}
@@ -1247,6 +1700,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -1296,6 +1750,10 @@ focus_tree = {
 				NOT = {
 					has_completed_focus = RAS_supporty_eltcin
 				}
+			}
+			has_completed_focus = RAS_black_october
+			NOT = {
+				has_completed_focus = RAS_victory
 			}
 		}
 
@@ -1407,6 +1865,10 @@ focus_tree = {
 
 		}
 
+		allow_branch = {
+			has_completed_focus = RAS_parliamentary_resistance
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1464,6 +1926,10 @@ focus_tree = {
 					has_completed_focus = RAS_parliamentary_resistance
 				}
 			}
+			NOT = {
+                has_completed_focus = RAS_victory
+			}
+			has_completed_focus = RAS_black_october
 		}
 		
 		bypass = {
@@ -1554,7 +2020,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
+	        add_stability = 0.10
 		    add_political_power = 50
 		}
 	}
@@ -1582,6 +2048,13 @@ focus_tree = {
 
 		}
 
+		allow_branch = {
+			has_completed_focus = RAS_supporty_eltcin
+			NOT = {
+                has_completed_focus = RAS_victory
+			}
+		}
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -1592,6 +2065,289 @@ focus_tree = {
 
 		completion_reward = {
 		    add_political_power = 50
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	focus = {
+		id = RAS_dissolve_the_duma
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_new_elections }
+		mutually_exclusive = { focus = RAS_conduct_elections_fairly }
+		x = -2
+		y = 1
+		relative_position_id = RAS_new_elections
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		allow_branch = {
+			has_completed_focus = RAS_new_elections
+			NOT = {
+                has_completed_focus = RAS_victory
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = RAS_conduct_elections_fairly
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_new_elections }
+		mutually_exclusive = { focus = RAS_dissolve_the_duma }
+		relative_position_id = RAS_new_elections
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		allow_branch = {
+			has_completed_focus = RAS_new_elections
+			NOT = {
+                has_completed_focus = RAS_victory
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = RAS_propaganda_against_opponents
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_conduct_elections_fairly }
+		relative_position_id = RAS_conduct_elections_fairly
+		x = -2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		    add_political_power = -50
+			custom_effect_tooltip = cash_balance_minus_500_tt
+			subtract_from_variable = {
+				var = cash
+				value = 500
+			}
+		}
+	}
+
+	focus = {
+		id = RAS_use_administrative_resource
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_conduct_elections_fairly }
+		relative_position_id = RAS_conduct_elections_fairly
+		x = 0
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		    add_political_power = -50
+			custom_effect_tooltip = cash_balance_minus_500_tt
+			subtract_from_variable = {
+				var = cash
+				value = 500
+			}
+		}
+	}
+
+	focus = {
+		id = RAS_use_oligarchs_money_for_election_campaign
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_conduct_elections_fairly }
+		relative_position_id = RAS_conduct_elections_fairly
+		x = 2
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		    add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = RAS_sign_populist_decrees
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_use_administrative_resource }
+		prerequisite = { focus = RAS_propaganda_against_opponents }
+		prerequisite = { focus = RAS_use_oligarchs_money_for_election_campaign }
+		relative_position_id = RAS_conduct_elections_fairly
+		x = 0
+		y = 2
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.075
+		    add_political_power = -75
+		}
+	}
+
+	focus = {
+		id = RAS_victory
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_sign_populist_decrees }
+		relative_position_id = RAS_conduct_elections_fairly
+		x = 0
+		y = 3
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.05
 		}
 	}
 
@@ -1636,7 +2392,7 @@ focus_tree = {
 	focus = {
 		id = RAS_new_forgein_politic
 		icon = GFX_RAS_new_forigne_policy
-		x = 20
+		x = 23
 		y = 0
 
 		cost = 20
@@ -1670,7 +2426,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_sign_snv
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_sing_the_snv_two
 		prerequisite = { focus = RAS_new_forgein_politic }
 		relative_position_id = RAS_new_forgein_politic
 		x = -1
@@ -1701,6 +2457,12 @@ focus_tree = {
 
 		completion_reward = {
 	        add_stability = 0.05
+			hidden_effect = {
+				news_event = {
+                    id = news.24
+                    days = 1
+                }
+			}
 		}
 	}
 
@@ -1736,6 +2498,7 @@ focus_tree = {
 
 		completion_reward = {
 		    add_political_power = 25
+			unlock_decision_category_tooltip = RAS_influence_on_caucasus_decision
 		}
 	}
 
@@ -1817,9 +2580,9 @@ focus_tree = {
 				    type = infantry_equipment_1 
 				    amount = 2500 
 			    }
-				add_manpower = 5000
+				add_manpower = 1000
 			}
-			add_manpower = -5000
+			add_manpower = -1000
 			load_oob = ABK_russian_support_1991
 		}
 	}
@@ -1864,9 +2627,9 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 2500 
 			    }
-				add_manpower = 5000
+				add_manpower = 1000
 			}
-			add_manpower = -5000
+			add_manpower = -1000
 			load_oob = OST_second_russian_support_1991
 		}
 	}
@@ -2110,8 +2873,9 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
             CHE = {
-                country_evnet = russia.20
+                country_event = russia.20
 			}
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -2136,6 +2900,10 @@ focus_tree = {
 		
 		bypass = {
 
+		}
+
+		allow_branch = {
+			has_completed_focus = RAS_send_an_ultimatum_to_dudayev
 		}
 
 		cancel_if_invalid = yes
@@ -2267,6 +3035,10 @@ focus_tree = {
 					}
 					add_ideas = GEN_AI_buff_idea
 				}
+				country_event = {
+                    id = russia.22
+                    days = 4
+                }
 				124 = {
 					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
 				}
@@ -2279,6 +3051,53 @@ focus_tree = {
 				puppet = {
                     target = CHI
                     end_wars = no
+                }
+				13 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				8 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				3 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				14 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				24 = {
+					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+				}
+				if = {
+					limit = {
+						17 = {
+							is_fully_controlled_by = RAS
+						}
+					}
+					17 = {
+					    add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+					}
+				}
+				set_variable = {
+                    var = RAS_russian_infowar_value
+                    value = 50
+					tooltip = set_var_to_100_tt
+                }
+				set_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 50
+					tooltip = set_var_to_100_tt
+                }
+				21 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+                }
+			    20 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+                }
+			    128 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+                }
+			    11 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
                 }
 			}
 		}
@@ -2586,6 +3405,78 @@ focus_tree = {
 		add_political_power = 50
 		
 		
+		}
+	}
+
+	focus = {
+		id = RAS_support_south_russian_economy
+		icon = GFX_RAS_in_progress_of_economic_reforms
+		prerequisite = { focus = RAS_on_the_progress_of_economic_reforms }
+		relative_position_id = RAS_shock_economic_reforms
+		x = 3
+		y = 4
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = RAS_expand_factories_in_krasondar
+		icon = GFX_RAS_in_progress_of_economic_reforms
+		prerequisite = { focus = RAS_support_south_russian_economy }
+		relative_position_id = RAS_support_south_russian_economy
+		x = 0
+		y = 1
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	
 		}
 	}
 }

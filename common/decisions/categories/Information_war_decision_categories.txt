@@ -1,0 +1,27 @@
+################
+##### Information War ######
+################
+# kaja is good man
+
+information_war_decision = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+	    OR = {
+		    tag = RAS
+			tag = CHE
+		}
+		OR = {
+		    has_global_flag = FirstChechenWar
+			has_global_flag = SecondChechenWar
+		}
+	}
+	visible_when_empty = yes
+	scripted_gui = CHE_information_war_window
+}
+	

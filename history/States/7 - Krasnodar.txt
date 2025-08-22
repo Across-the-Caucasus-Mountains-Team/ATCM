@@ -5,9 +5,9 @@ state={
 		1142 4787 5258 9717 9729 9731 
 	}
 	history={
-	owner = RAS
-	add_core_of = RAS
-	victory_points = { 5258 50 }
+		owner = RAS
+		add_core_of = RAS
+		victory_points = { 5258 50 }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 5

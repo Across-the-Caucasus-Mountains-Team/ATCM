@@ -6,7 +6,7 @@
 
 CHE_first_chechen_war_decision = {
 
-	priority = 95
+	priority = 94
 	
 	icon = SOV_propaganda
 	
@@ -64,6 +64,7 @@ CHE_operations_outside_of_chechnya_decision = {
 		has_global_flag = FirstChechenWar
 		has_completed_focus = CHE_operations_outside_of_chechnya
 	}
+	scripted_gui = CHE_operations_decision_window
 	visible_when_empty = yes
 }
 

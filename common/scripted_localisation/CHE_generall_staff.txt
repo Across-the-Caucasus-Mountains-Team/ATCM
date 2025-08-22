@@ -566,11 +566,80 @@ defined_text = {
         }
         localization_key = "GFX_Urus_Martanovsky_District_image"
     }
+}
 
+## Names of states
+
+defined_text = {
+    name = get_state_name
+
+    text = {
+        trigger = {
+            has_variable = CHE_grozny_selected
+        }
+        localization_key = "Grozny_select"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_north_chechnya_selected
+        }
+        localization_key = "North_Chechnya_select"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_groznensky_district_selected
+        }
+        localization_key = "Groznensky_District_select"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_south_chechnya_selected
+        }
+        localization_key = "South_Chechnya_select"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_achoi_martanovsky_district_selected
+        }
+        localization_key = "Achoi_Martanovsky_select"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_gudemarsky_district_selected
+        }
+        localization_key = "Gudemarsky_District_select"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_shalinsky_district_selected
+        }
+        localization_key = "Shalinsky_District_select"
+    }
+
+    text = {
+        trigger = {
+            has_variable = CHE_shatoisky_district_selected
+        }
+        localization_key = "Shatoisky_District_select"
+    }
     
+    text = {
+        trigger = {
+            has_variable = CHE_vedensky_district_selected
+        }
+        localization_key = "Vedensky_District_select"
+    }
 
-    
-
-
-    
+    text = {
+        trigger = {
+            has_variable = CHE_urus_martonovsky_district_selected
+        }
+        localization_key = "Urus_Martanovsky_District_select"
+    }
 }

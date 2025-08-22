@@ -2,11 +2,11 @@ state={
 	id=121
 	name="STATE_124"
 	provinces={
-		15230 16488 16870 17373 17374 17376 17377 17378
+		15230 16488 16870 17373 17374 17376 17377 17378 17384 17385 17386 17387 17388 17389 17390 17391 17392 
 	}
 	history={
-	owner = KAZ
-	add_core_of = KAZ
+	owner = WAL
+	add_core_of = WAL
 	}	
 	impassable = yes
 	manpower=1

@@ -1,7 +1,13 @@
 on_actions = {
-	on_weekly = {
+	on_monthly = {
 		effect = {
+			###################
+			### THE ECONOMY ###
+			###################
 			ATCM_economy_setup = yes
+			set_global_flag = add_remove_cash_flag
+
+
 		}
 	}
 }

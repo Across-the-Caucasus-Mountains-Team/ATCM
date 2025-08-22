@@ -27,9 +27,9 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		slot = media_status
+		slot = border_status
+		slot = state_religion
 		
 		ledger = civilian
 		
@@ -42,6 +42,22 @@ idea_categories = {
 		slot = social_security
 		slot = education
 		slot = policing
+		slot = military_spendings
+		slot = administration_spendings
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+
+	advisors = {
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
 		
 		ledger = civilian
 		
@@ -49,6 +65,20 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
+	military_tab = {
+		slot = time_training
+		slot = minimum_age_for_conscription
+		slot = maximum_age_for_conscription
+		slot = status_of_women_in_the_army
+		slot = foreigners_in_the_army
+		slot = corruption_in_the_army
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+
 	research_production = {
 		slot = tank_manufacturer
 		slot = naval_manufacturer

@@ -26,7 +26,20 @@ country_event = {
 
 	option = {
 		name = russia.2.a
+		add_stability = -0.025
+		add_war_support = -0.05
+	}
+	
+	option = {
+		name = russia.2.a
 		add_war_support = 0.025
+		add_political_power = -50
+		custom_effect_tooltip = 15_RAS_tt
+		hidden_effect = {
+		    CHE = { 
+			    country_event = chechnya.25
+			}
+		}
 	}
 }
 
@@ -283,6 +296,12 @@ country_event = {
 				id = news.21
 				days = 3
 			}
+			annex_country = {
+                target = CHI
+                transfer_troops = no
+            }
+			mark_focus_tree_layout_dirty = yes
+			set_global_flag = AfterFirstChechenWar
 		}
 	}
 
@@ -445,5 +464,22 @@ country_event = {
 		name = russia.21.a
 		add_political_power = 25
 		complete_national_focus = RAS_shell_chechnya
+	}
+}
+
+#Anti-war protests
+country_event = {
+	id = russia.22
+	title = russia.22.t
+	desc = russia.22.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.22.a
+		add_political_power = -25
+		add_war_support = -0.075
+		add_stability = -0.05
 	}
 }

@@ -591,5 +591,44 @@ ideas = {
 				supply_node_range = -0.15
 			}
 		}
+
+		SAK_evacuation_from_abkhazia_idea = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_disrupted_supply_lines
+			
+			modifier = {
+				army_speed_factor = 0.25
+			}
+		}
+
+		SAK_ground_support_idea = {
+			
+			allowed = {
+				original_tag = SAK
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = RAS_disrupted_supply_lines
+			
+			modifier = {
+				army_attack_factor = 0.15
+				army_org_factor = 0.05
+			}
+		}
 	}
 }	

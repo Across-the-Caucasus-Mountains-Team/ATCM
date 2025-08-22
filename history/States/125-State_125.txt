@@ -5,13 +5,12 @@ state={
 		16527 17379 17380 17381
 	}
 	history={
-	owner = KAZ
-	add_core_of = KAZ
+	owner = WAL
+	add_core_of = WAL
 	}	
 	impassable = yes
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
-	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

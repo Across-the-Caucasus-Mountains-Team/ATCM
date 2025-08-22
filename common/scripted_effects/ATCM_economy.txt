@@ -4,7 +4,10 @@ ATCM_economy_setup = {
 		var = income
 		value = 0
 	}
-
+	set_variable = {
+		var = expense
+		value = 0
+	}
 	if = {
 		limit = {
 			#check_variable = { #This prevents the integer limit being beaten
@@ -20,9 +23,14 @@ ATCM_economy_setup = {
 			var = mil_factories_income
 			value = 5
 		}
-		add_to_variable = {
-			var = cash
-			value = var:mil_factories_income
+		if = {
+			limit = {
+				has_global_flag = add_remove_cash_flag
+			}
+			add_to_variable = {
+				var = cash
+				value = var:mil_factories_income
+			}
 		}
 		add_to_variable = {
 			var = income
@@ -37,9 +45,14 @@ ATCM_economy_setup = {
 			var = doc_factories_income
 			value = 10
 		}
-		add_to_variable = {
-			var = cash
-			value = var:doc_factories_income
+		if = {
+			limit = {
+				has_global_flag = add_remove_cash_flag
+			}
+			add_to_variable = {
+				var = cash
+				value = var:doc_factories_income
+			}
 		}
 		add_to_variable = {
 			var = income
@@ -52,11 +65,16 @@ ATCM_economy_setup = {
 		}
 		multiply_variable = {
 			var = civ_factories_income
-			value = 20
+			value = 25
 		}
-		add_to_variable = {
-			var = cash
-			value = var:civ_factories_income
+		if = {
+			limit = {
+				has_global_flag = add_remove_cash_flag
+			}
+			add_to_variable = {
+				var = cash
+				value = var:civ_factories_income
+			}
 		}
 		add_to_variable = {
 			var = income
@@ -154,8 +172,17 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = healthcare_expense
-		subtract_from_variable = {
-			var = cash
+		if = {
+			limit = {
+				has_global_flag = add_remove_cash_flag
+			}
+			subtract_from_variable = {
+				var = cash
+				value = var:healthcare_expense
+			}
+		}
+		add_to_variable = {
+			var = expense
 			value = var:healthcare_expense
 		}
 
@@ -241,8 +268,17 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = social_security_expense
-		subtract_from_variable = {
-			var = cash
+		if = {
+			limit = {
+				has_global_flag = add_remove_cash_flag
+			}
+			subtract_from_variable = {
+				var = cash
+				value = var:social_security_expense
+			}
+		}
+		add_to_variable = {
+			var = expense
 			value = var:social_security_expense
 		}
 
@@ -328,8 +364,17 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = education_expense
-		subtract_from_variable = {
-			var = cash
+		if = {
+			limit = {
+				has_global_flag = add_remove_cash_flag
+			}
+			subtract_from_variable = {
+				var = cash
+				value = var:education_expense
+			}
+		}
+		add_to_variable = {
+			var = expense
 			value = var:education_expense
 		}
 
@@ -415,8 +460,17 @@ ATCM_economy_setup = {
 			}
 		}
 		round_variable = policing_expense
-		subtract_from_variable = {
-			var = cash
+		if = {
+			limit = {
+				has_global_flag = add_remove_cash_flag
+			}
+			subtract_from_variable = {
+				var = cash
+				value = var:policing_expense
+			}
+		}
+		add_to_variable = {
+			var = expense
 			value = var:policing_expense
 		}
 	}

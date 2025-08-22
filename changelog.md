@@ -1,16 +1,74 @@
-# 0.2 ‐ Ekonomika ‐ Changelog
+# Across the Caucasus Mountains 0.2.1 - Desert Sword (Experimental Name)
+**Highlights**
+- null
+
+**Additions**
+- null
+
+**Adjustments**
+- null
+
+**Bugfixes**
+- null
+
+**GFX**
+- Added shine effects for all focuses
+- Reworked all remaining old style portraits.
+
+**Localization**
+- null
+
+## Steam:
+```
+[h1]Across the Caucasus Mountains 0.2 - Ekonomika[/h1]
+[h2]Highlights[/h2]
+[list]
+    [*]Added the Islamist path for Chechnya.
+[/list]
+[h2]Additions[/h2]
+[list]
+    [*]null
+[/list]
+[h2]Adjustments[/h2]
+[list]
+    [*]null
+[/list]
+[h2]Bugfixes[/h2]
+[list]
+    [*]null
+[/list]
+[h2]GFX[/h2]
+[list]
+    [*]Added shine effects for all focuses.
+    [*]Reworked all remaining old style portraits.
+[/list]
+[h2]Localization[/h2]
+[list]
+    [*]null
+[/list]
+```
+
+# Across the Caucasus Mountains 0.2 - Ekonomika
 **Highlights**
 - Reworked the country selection screen.
 - Added the economy system.
+- Expanded the Chechen focus tree.
 
 **Additions**
-- Added Aslan Maskhadov as a general.
+- Added Aslan Maskhadov as a Chechen general.
+- Added Ahmad Kadyrov as a possible Chechen country leader.
 - Added Turgut Özal as a Turkish country leader.
+- Added Akbar Hashemi Rafsanjani as an Iranian country leader.
 - Added Relocate Trialeti Ossetians decision for Georgia.
 - Added Healthcare, Social Security, Education & Policing laws.
+- Added the General Staff mechanic for Chechnya.
+- Added more states to Chechnya.
 
 **Adjustments**
 - Changed positioning of the Georgian trees.
+- Improved the AI to vanilla standards.
+- Added population to most Turkish states.
+- Chechen Island no longer has the population of 2 milion.
 
 **Bugfixes**
 - Added army/air/navy spirits.
@@ -21,10 +79,14 @@
 **GFX**
 - Added additional Chechen portraits.
 - Added Azeri portraits.
+- Reworked Chechen portraits.
+- Reworked Georgian portraits.
+- Reworked some Chechen and Russian icons.
 
 **Localization**
 - Improved country names.
 - Added Russian translation.
+- Reworked descriptions for Georgia (1st tree).
 
 ## Steam:
 ```
@@ -33,17 +95,25 @@
 [list]
     [*]Reworked the country selection screen.
     [*]Added the economy system.
+    [*]Expanded the Chechen focus tree.
 [/list]
 [h2]Additions[/h2]
 [list]
-    [*]Added Aslan Maskhadov as a general.
+    [*]Added Aslan Maskhadov as a Chechen general.
+    [*]Added Ahmad Kadyrov as a possible Chechen country leader.
     [*]Added Turgut Özal as a Turkish country leader.
+    [*]Added Akbar Hashemi Rafsanjani as an Iranian country leader.
     [*]Added Relocate Trialeti Ossetians decision for Georgia.
     [*]Added Healthcare, Social Security, Education & Policing laws.
+    [*]Added the General Staff mechanic for Chechnya.
+    [*]Added more states to Chechnya.
 [/list]
 [h2]Adjustments[/h2]
 [list]
     [*]Changed positioning of the Georgian trees.
+    [*]Improved the AI to vanilla standards.
+    [*]Added population to most Turkish states.
+    [*]Chechen Island no longer has the population of 2 milion.
 [/list]
 [h2]Bugfixes[/h2]
 [list]
@@ -56,10 +126,14 @@
 [list]
     [*]Added additional Chechen portraits.
     [*]Added Azeri portraits.
+    [*]Reworked Chechen portraits.
+    [*]Reworked Georgian portraits.
+    [*]Reworked some Chechen and Russian icons.
 [/list]
 [h2]Localization[/h2]
 [list]
     [*]Improved country names.
     [*]Added Russian translation.
+    [*]Reworked descriptions for Georgia (1st tree).
 [/list]
 ```
