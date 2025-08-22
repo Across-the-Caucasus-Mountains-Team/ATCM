@@ -14,7 +14,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 50 y = 950 }
+	continuous_focus_position = { x = 1550 y = 950 }
 	
 	focus = {
 		id = ARM_Strengthen_our_national_identity
