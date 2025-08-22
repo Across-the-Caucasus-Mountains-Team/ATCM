@@ -1,27 +1,27 @@
 state={
 	id=19
-	name="STATE_20"
+	name="STATE_19"
 	provinces={
 		47 225 319 553 685 736 1024 1202 1295 1364 1545 1770 1819 1822 2071 2263 2472 2595 2951 3330 3388 3498 3574 3716 4102 4163 4265 4408 4410 4754 4761 4915 5217 5234 5259 5648 6142 6272 6364 6493 6581 6965 7042 7421 7428 7688 7753 7898 8091 8092 8137 8320 8352 8537 8660 8674 9116 10497 10531 10542 10562 10564 10576 10611 10621 10631 10646 10654 10655 10662 10675 10676 10681 10685 10689 10694 10695 10700 10701 10704 10710 10714 10719 10725 10730 10734 10735 10736 10763 
 	}
 	history={
-	owner = SAK
-	add_core_of = ABK
-	victory_points = { 10725 10 }
+		owner = SAK
+		add_core_of = ABK
+		victory_points = { 10725 10 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 			air_base = 4
 			10725 = {
-			    naval_base = 2
+				naval_base = 2
 			}	
 		}
 		start_resistance = yes
 		set_resistance = 45
 	}
 	buildings_max_level_factor=1.000
-        manpower=90000
-        state_category = large_town
-		local_supplies=0.0
+	manpower=90000
+	state_category = large_town
+	local_supplies=0.0
 }

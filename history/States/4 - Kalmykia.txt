@@ -8,15 +8,21 @@ state={
 		steel = 3
 	}
 	history={
+<<<<<<< HEAD
+	owner = RAS
+	add_core_of = RAS
+		buildings = {
+=======
 		owner = RAS
 		add_core_of = RAS
 	    buildings = {
+>>>>>>> main
 			infrastructure = 1
 			industrial_complex = 1
 		}	
 	}
 	buildings_max_level_factor=1.000
-    manpower=267133
-    state_category = town
+	manpower=267133
+	state_category = town
 	local_supplies=0.000
 }
