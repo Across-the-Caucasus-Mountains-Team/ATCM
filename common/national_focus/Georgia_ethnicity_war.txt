@@ -79,6 +79,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_stability = 0.05
 		}	
 	}
 
@@ -520,6 +521,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.05
+			add_war_support = 0.025
 		}	
 	}
 
@@ -552,12 +554,12 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_popularity = {
-				ideology = communism
-				popularity = -1.0
-			}
 			add_stability = 0.15
 			add_war_support = 0.15
+			add_popularity = {
+				ideology = communism
+				popularity = -0.15
+			}
 		}	
 	}
 
@@ -763,6 +765,10 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.1
+			}
 			27 = {
 				add_resistance = -30
 				add_manpower = -50
@@ -778,10 +784,6 @@ focus_tree = {
 			18 = {
 				add_resistance = -30
 				add_manpower = -50
-			}
-			add_popularity = {
-				ideology = nationalism
-				popularity = 0.1
 			}
 			add_stability = -0.05
 		}	
@@ -849,7 +851,8 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			custom_effect_tooltip = in_dev_focus_tt
+			add_stability = 0.05
+			add_war_support = -0.075
 		}	
 	}
 }	

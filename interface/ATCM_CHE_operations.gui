@@ -39,4 +39,27 @@ guiTypes = {
 			shortcut = "ESCAPE"
 		}
     }
+
+	containerWindowType = {
+		name = "CHE_operations_region_selected_window"
+		size = { width = 1500 height = 900 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHE_operations_outside_chechnya_background"
+		}
+
+		buttonType = {
+			name = "close_operations_outside_button"
+			position = { x = 1447 y = 22 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+    }
 }

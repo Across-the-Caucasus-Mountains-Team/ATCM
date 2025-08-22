@@ -22,5 +22,6 @@ information_war_decision = {
 		}
 	}
 	visible_when_empty = yes
+	scripted_gui = CHE_information_war_window
 }
 	

@@ -1,0 +1,285 @@
+guiTypes = {
+	containerWindowType = {
+		name = "RAS_general_staff_decision_window"
+		size = { width = 345 height = 220 }
+		position = { x = 0 y = 0 }
+
+		buttonType = {
+			name = "RAS_general_staff_map_button"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 175 y = 25 }
+			shortcut = "shift+c"
+			buttonText = "Open map"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "[CAT_OPENING]"
+			clicksound = click_ok
+			oversound = ui_menu_over
+		}
+
+
+    }
+
+	containerWindowType = {
+		name = "RAS_general_staff_window"
+		size = { width = 1500 height = 900 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHE_general_staff_background"
+		}
+
+		buttonType = {
+			name = "close_map_button"
+			position = { x = 1447 y = 22 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType {
+			name = "RAS_general_staff_title"
+			text = "RAS_General_Staff"
+			font = "hoi_30header"
+			maxWidth = 215
+			position = { x = 1100 y = 230 }
+			pdx_tooltip = "[CAT_OPENING]"
+		}
+
+		instantTextBoxType {
+			name = "RAS_region_selected"
+			text = "[get_state_name]"
+			font = "hoi_30header"
+			maxWidth = 315
+			maxHeigth = 12
+			position = { x = 1080 y = 365 }
+			pdx_tooltip = "[CAT_OPENING]"
+		}
+
+		buttonType = {
+			name = "RAS_button_general_staff_attack"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1020 y = 425 }
+			buttonText = "general_staff_begin_offensive_actions"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "general_staff_attack_tt"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "RAS_button_general_staff_defense"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1020 y = 505 }
+			buttonText = "general_staff_start_defensive_actions"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "general_staff_defense_tt"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "RAS_button_general_staff_strengthen_defense"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1020 y = 585 }
+			buttonText = "general_staff_strengthening_the_defense"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "general_staff_strengthen_defense_tt"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		iconType = {
+			name = "Empty_background_image"
+			position = { x = 957 y = 44 }
+			spriteType = "GFX_Empty_background_image"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "North_chechnya_icon"
+			position = { x = 112 y = 63 }
+			spriteType = "GFX_North_Chechnya_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "South_chechnya_icon"
+			position = { x = 208 y = 647 }
+			spriteType = "GFX_South_Chechnya_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Shalinsky_district_icon"
+			position = { x = 431 y = 426 }
+			spriteType = "GFX_Shalinsky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Urus_Martonovsky_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Vedensky_District_icon"
+			position = { x = 470 y = 519 }
+			spriteType = "GFX_Vedensky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Gudemarsky_District_icon"
+			position = { x = 509 y = 344 }
+			spriteType = "GFX_Gudemersky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Grozny_icon"
+			position = { x = 337 y = 371 }
+			spriteType = "GFX_Grozny_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Groznensky_district_icon"
+			position = { x = 219 y = 290 }
+			spriteType = "GFX_Groznensky_District_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Achoi_Martanovsky_icon"
+			position = { x = 201 y = 345 }
+			spriteType = "GFX_Achoi_Martanovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Shatoysky_icon"
+			position = { x = 348 y = 558 }
+			spriteType = "GFX_Shatoisky_District_State"
+			alwaystransparent = yes
+		}
+
+		### Buttons
+
+		buttonType = {
+			name = "button_north_chechnya"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 385 y = 145 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+		}
+
+		buttonType = {
+			name = "button_grozny"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 406 y = 385 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_gudemarsky_district"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 586 y = 415 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.75
+		}
+
+		buttonType = {
+			name = "button_achoi_martanovsky_district"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 246 y = 415 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_urus_martonovsky_district"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 346 y = 475 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_shalinsky_district"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 471 y = 465 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_vedensky_district"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 541 y = 565 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.65
+		}
+
+		buttonType = {
+			name = "button_south_chechnya"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 341 y = 685 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.75
+		}
+
+		buttonType = {
+			name = "button_shatoisky_district"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 421 y = 595 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.55
+		}
+
+		buttonType = {
+			name = "button_groznensky_district"
+			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
+			position = { x = 361 y = 301 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.55
+		}
+
+    }
+}

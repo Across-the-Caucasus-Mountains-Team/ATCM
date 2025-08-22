@@ -1,0 +1,48 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CHE_information_war_window"
+		size = { width = 345 height = 260 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "information_war"
+			spriteType = "GFX_information_war"
+			position = { x = 15 y = 15 }
+			scale = 0.8
+		}
+
+		ButtonType = {
+			name = "russian_flag_info_war"
+			quadTextureSprite = "GFX_russian_flag_info_war"
+			position = { x = 35 y = 35 }
+			pdx_tooltip = "RUSSIAN_INFOWAR_VALUE"
+			scale = 0.8
+		}
+
+		ButtonType = {
+			name = "chechen_flag_info_war"
+			quadTextureSprite = "GFX_chechen_flag_info_war"
+			position = { x = 255 y = 35 }
+			pdx_tooltip = "CHECHEN_INFOWAR_VALUE"
+			scale = 0.8
+		}
+
+		instantTextBoxType = {
+			name ="Russian_infowar_value"
+			position = { x = -205 y = 205 }
+			font = "hoi_30header"
+			text = "RUS_Infowar"
+			format = centre
+			maxWidth = 100
+		}
+
+		instantTextBoxType = {
+			name ="Chechen_infowar_value"
+			position = { x = 15 y = 205 }
+			font = "hoi_30header"
+			text = "CHE_Infowar"
+			format = centre
+			maxWidth = 100
+		}
+    }
+}

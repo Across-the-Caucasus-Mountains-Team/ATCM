@@ -1,0 +1,17 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_information_war"
+		textureFile = "gfx/interface/scripted_guis/InfoWar_gui/informationwar.png"
+	}
+
+	spriteType = {
+		name = "GFX_russian_flag_info_war"
+		textureFile = "gfx/interface/scripted_guis/InfoWar_gui/RussianFlag.png"
+	}
+
+	spriteType = {
+		name = "GFX_chechen_flag_info_war"
+		textureFile = "gfx/interface/scripted_guis/InfoWar_gui/ChechenFlag.png"
+	}
+}

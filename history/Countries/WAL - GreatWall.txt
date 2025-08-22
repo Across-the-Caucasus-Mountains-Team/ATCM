@@ -1,0 +1,17 @@
+capital = 121
+
+set_research_slots = 0
+
+# Starting tech
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1990.5.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservatism = 100
+}
+
+ATCM_economy_setup = no

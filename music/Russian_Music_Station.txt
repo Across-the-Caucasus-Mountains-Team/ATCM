@@ -150,3 +150,43 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "PutinHymn"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "RusskyKlinok"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "ToServeRussia"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music = {
+	song = "ToWay"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}

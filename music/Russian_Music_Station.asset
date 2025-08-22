@@ -67,3 +67,23 @@ music = {
 	name = "GruppaKrovi"
 	file = "Russian_Music/GruppaKrovi.ogg"
 }
+
+music = {
+	name = "PutinHymn"
+	file = "Russian_Music/PutinHymn.ogg"
+}
+
+music = {
+	name = "RusskyKlinok"
+	file = "Russian_Music/RusskyKlinok.ogg"
+}
+
+music = {
+	name = "ToServeRussia"
+	file = "Russian_Music/ToServeRussia.ogg"
+}
+
+music = {
+	name = "ToWay"
+	file = "Russian_Music/ToWay.ogg"
+}
