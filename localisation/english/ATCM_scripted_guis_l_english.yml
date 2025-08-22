@@ -26,3 +26,4 @@
   RUSSIAN_INFOWAR_VALUE:0 "Russian Infowar Value: §Y[RAS_russian_infowar_value]"
   RUS_Infowar:0 "§Y[RAS_russian_infowar_value]"
   CHE_Infowar:0 "§Y[CHE_chechen_infowar_value]"
+  add_to_russian_infowar_tt:0 "§YIncrease our influence in the information war§!"
