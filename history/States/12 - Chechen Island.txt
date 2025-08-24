@@ -1,0 +1,26 @@
+state={
+	id=12
+	name="STATE_12"
+	provinces={
+		1003 9261
+	}
+
+	history={
+		owner = RAS
+		add_core_of = RAS
+		victory_points = { 9261 3 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	buildings_max_level_factor=1.000
+<<<<<<< HEAD:history/States/12 - Chechen Island.txt
+	manpower=1 #No permanent residents
+	state_category = tiny_island
+=======
+    manpower=1
+    state_category = large_city
+>>>>>>> main:history/States/13-State_13.txt
+}
+

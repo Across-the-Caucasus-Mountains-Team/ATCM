@@ -1,7 +1,7 @@
 ﻿l_english:
  in_dev_focus_tt:0 "§RThis focus is in development!§!"
  in_dev_branch_tt:0 "§RThere is no additional focus tree for the moment!§!"
- new_focus_tree_tt:0 "§GThis focus grants a new focus tree!§!"
+ new_focus_tree_tt:0 "§GNew focuses will be unlocked§!"
 
  Georgia_focus:0 "Soviet Georgia Focus Tree"
  SAK_gamsakhurdia_speech:0 "Gamsakhurdia's Speech"
@@ -167,7 +167,6 @@
  ARM_steal_Azer_jets:0 "Seize Azerbaijani Jets"
  ARM_Recruit_the_pilots:0 "Recruit The Pilots"
  ARM_War_is_in_here:0 "§RWar is in here...§"
- 1_ARM_tt:0 "§GNew focuses will be unlocked§!"
  
  AZR_Soviet_State:0 "Soviet Republic"
  AZR_Soviet_State_desc:0 "Azerbaijani SSR like other Soviet republics is on the brink of big changes. Growing discontent and weakening central authority in Moscow foretell a coming storm."

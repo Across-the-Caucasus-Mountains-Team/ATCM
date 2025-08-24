@@ -1,20 +1,22 @@
 state={
 	id=23
-	name="STATE_24"
+	name="STATE_23"
 	provinces={
 		613 2891 2997 3017 3313 3490 3525 3790 6196 8035 8241 9068 9103 10712 10744 10786 
 	}
+
 	history={
-	owner = SAK
-	add_core_of = SAK
-	add_core_of = ABK
-	victory_points = { 8241 8 }
+		owner = SAK
+		add_core_of = SAK
+		add_core_of = ABK
+		victory_points = { 8241 8 }
 		buildings = {
 			infrastructure = 1
 		}
 	}
+
 	buildings_max_level_factor=1.000
-        manpower=18032
-        state_category = rural
-		local_supplies=0.000
+	manpower=18032
+	state_category = rural
+	local_supplies=0.000
 }

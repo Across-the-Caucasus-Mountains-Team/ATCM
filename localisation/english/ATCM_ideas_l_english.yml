@@ -78,7 +78,12 @@
  RAS_disrupted_supply_lines:0 "Disrupted supply lines"
  
  AZR_Black_January_idea:0 "Black January"
- AZR_Black_January_idea_desc:0 "\n\n\n\n£GFX_idea_Black_January_desc_photo\n\n\n\n\n\n\n in 19 January Soviet Forces entered in Baku and started to dispare the Protest, first death happened outside of Baku and then Soviet Soldiers and Tanks killed more protesters in Baku resulting to death of 135-170 Peoples. after this 40 Days National Strike started across Azerbaijan as Azerbaijani citizens marched in country for victims of Black January."
+ AZR_Black_January_idea_desc:0 "\n\n\n\n£GFX_idea_Black_January_desc_photo\n\n\n\n\n\n\nOn 19 January Soviet Forces entered in Baku and started to dispare the Protest, first death happened outside of Baku and then Soviet Soldiers and Tanks killed more protesters in Baku resulting to death of 135-170 Peoples. after this 40 Days National Strike started across Azerbaijan as Azerbaijani citizens marched in country for victims of Black January."
+
+ ARM_memories_of_Spitak_earthquake:0 "Memories of the Spitak Earthquake"
+ ARM_memories_of_Spitak_earthquake_desc:0 "\n\n\n\n£GFX_idea_Black_January_desc_photo\n\n\n\n\n\n\n"
+ ARM_The_Armenian_National_movement:0 "The Armenian National Movement"
+ ARM_The_Armenian_National_movement_desc:0 "\n\n\n\n£GFX_idea_Black_January_desc_photo\n\n\n\n\n\n\n"
  
  CHE_Unrecognized_Country:0 "Unrecognized Country"
  CHE_Unrecognized_Country_desc:0 "As it stands, the UN and most of the world view our country like its under Russia"

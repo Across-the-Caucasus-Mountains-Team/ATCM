@@ -4,17 +4,19 @@ state={
 	provinces={
 		245 1012 1867 2122 3044 3584 3802 3933 4668 5147 5452 5471 5639 6880 6928 7456 7660 8071 8585 8888 8973 9330 9470 10667 10708 10728 10741 10760 10767 10778 10787 10799 10848 
 	}
+
 	history={
-	    owner = RAS
-	    add_core_of = RAS
+		owner = RAS
+		add_core_of = RAS
 		victory_points = { 10767 30 }
-	    buildings = {
+		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
 		}
 	}
+
 	buildings_max_level_factor=1.000
-    manpower = 305235
-    state_category = large_city
+	manpower = 305235
+	state_category = large_city
 }

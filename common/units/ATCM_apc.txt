@@ -29,7 +29,7 @@ sub_units = {
 		}
 		
 		manpower = 100
-		max_organisation = 30
+		max_organisation = 35
 		default_morale = 0.15
 		training_time = 180
 		max_strength = 10
@@ -38,6 +38,78 @@ sub_units = {
 
 		#WE GOOD AT SUPPRESS 
 		suppression = 1
+
+		forest = {
+		    attack = -0.2
+			movement = -0.4
+		}
+		mountain = 	{
+		    attack = -0.1
+		    movement = -0.15
+		}
+		jungle = {
+		    attack = -0.3
+			movement = -0.5
+		}
+		marsh = {
+		    attack = -0.1 
+			movement = -0.2
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.15
+		}
+		urban = {
+			attack = -0.25
+			movement = -0.05
+		}
+		river = { 
+			attack = -0.2 
+			movement = -0.2
+		}
+		amphibious = { 
+			attack = -0.4
+		}	
+	}
+
+	armoured_personnel_carrier_platoon = {
+		abbreviation = "APC"
+		#sprite = light_armor
+		sprite = armoured_personnel_carrier_platoon
+		map_icon_category = armored
+		priority = 501
+		ai_priority = 200
+		active = yes
+		
+		type = {
+			motorized
+		}
+		
+		group = mobile
+		
+		categories = {
+			category_front_line
+			category_army
+			category_mobile_and_mobile_combat_sup
+		}
+
+		combat_width = 1.5
+
+		need = {
+			apc_equipment = 4
+			infantry_equipment = 25
+		}
+		
+		manpower = 40
+		max_organisation = 20
+		default_morale = 0.10
+		training_time = 165
+		max_strength = 8
+		weight = 1
+		supply_consumption = 0.08
+
+		#WE GOOD AT SUPPRESS 
+		suppression = 0.6
 
 		forest = {
 		    attack = -0.2

@@ -73,3 +73,7 @@ CHI = {
 	color_ui = rgb { 56 153 64 }
 }
 
+WAL = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}

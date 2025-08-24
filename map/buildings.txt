@@ -37011,7 +37011,6 @@
 95;supply_node;2613.00;13.10;575.00;4.69;0
 95;supply_node;2476.00;16.23;610.00;2.83;0
 95;supply_node;2619.00;14.23;450.00;5.16;0
-95;supply_node;2598.00;18.88;370.00;2.43;0
 95;supply_node;2539.00;20.12;446.00;2.92;0
 95;supply_node;2466.00;16.12;697.00;2.52;0
 95;supply_node;2601.00;13.73;457.00;3.49;0
@@ -37150,7 +37149,6 @@
 95;bunker;2442.00;18.48;725.00;0.26;0
 95;bunker;2608.00;17.05;400.00;1.77;0
 95;bunker;2515.00;20.98;492.00;3.68;0
-95;bunker;2605.00;18.65;381.00;1.15;0
 95;bunker;2578.00;21.35;552.00;5.39;0
 95;bunker;2463.00;15.95;575.00;2.21;0
 95;bunker;2529.00;17.30;643.00;3.05;0
@@ -37345,7 +37343,6 @@
 95;synthetic_refinery;2575.00;13.78;504.00;0.67;0
 95;fuel_silo;2453.00;15.57;620.00;2.46;0
 95;radar_station;2540.00;19.73;541.00;1.90;0
-95;nuclear_reactor_spawn;2622.00;15.65;372.00;4.63;0
 95;special_project_facility_spawn;2434.00;18.55;647.00;4.93;0
 95;special_project_facility_spawn;2617.00;11.80;516.00;2.54;0
 95;special_project_facility_spawn;2553.00;21.85;375.00;3.67;0
@@ -37378,7 +37375,6 @@
 95;special_project_facility_spawn;2577.00;17.62;448.00;3.26;0
 95;special_project_facility_spawn;2508.00;16.18;638.00;0.19;0
 95;special_project_facility_spawn;2449.00;17.43;636.00;1.26;0
-95;special_project_facility_spawn;2541.00;20.15;369.00;5.27;0
 95;special_project_facility_spawn;2557.00;19.77;491.00;5.95;0
 95;special_project_facility_spawn;2432.00;19.68;712.00;4.92;0
 95;special_project_facility_spawn;2559.00;18.25;428.00;2.39;0
@@ -37609,7 +37605,6 @@
 98;arms_factory;2342.00;14.70;492.00;4.37;0
 98;arms_factory;2332.00;14.78;571.00;5.38;0
 98;arms_factory;2173.00;12.70;662.00;3.86;0
-98;arms_factory;2420.00;9.70;397.00;3.14;0
 98;arms_factory;2352.00;16.10;523.00;4.66;0
 98;industrial_complex;2454.00;21.18;479.00;0.06;0
 98;industrial_complex;2302.00;12.10;534.00;3.93;0
@@ -37624,7 +37619,6 @@
 98;supply_node;2360.00;11.18;466.00;4.27;0
 98;supply_node;2305.00;12.03;536.00;5.32;0
 98;supply_node;2434.00;10.60;428.00;2.40;0
-98;supply_node;2320.00;12.12;474.00;5.87;0
 98;supply_node;2464.00;21.52;458.00;3.29;0
 98;supply_node;2298.00;11.38;575.00;0.93;0
 98;supply_node;2213.00;14.23;577.00;5.52;0
@@ -37653,7 +37647,6 @@
 98;supply_node;2469.00;18.70;519.00;0.14;0
 98;supply_node;2520.00;18.27;426.00;1.42;0
 98;supply_node;2175.00;12.07;671.00;5.72;0
-98;supply_node;2514.00;19.52;373.00;4.22;0
 98;supply_node;2429.00;21.15;526.00;4.94;0
 98;supply_node;2407.00;19.90;535.00;0.96;0
 98;supply_node;2285.00;13.20;587.00;5.08;0
@@ -37671,7 +37664,6 @@
 98;supply_node;2446.00;20.08;503.00;1.05;0
 98;supply_node;2419.00;17.77;482.00;4.72;0
 98;supply_node;2436.00;17.83;611.00;4.73;0
-98;supply_node;2318.00;13.78;494.00;0.90;0
 98;supply_node;2464.00;19.45;502.00;3.36;0
 98;supply_node;2403.00;10.65;446.00;3.81;0
 98;supply_node;2337.00;14.40;499.00;4.72;0
@@ -37681,11 +37673,9 @@
 98;supply_node;2255.00;14.28;642.00;2.36;0
 98;supply_node;2343.00;12.12;469.00;1.51;0
 98;supply_node;2435.00;9.70;411.00;2.04;0
-98;supply_node;2441.00;9.90;384.00;5.27;0
 98;supply_node;2467.00;18.08;426.00;4.84;0
 98;supply_node;2475.00;17.05;389.00;1.58;0
 98;supply_node;2359.00;11.00;440.00;6.01;0
-98;supply_node;2486.00;16.55;374.00;3.97;0
 98;supply_node;2461.00;22.75;480.00;5.98;0
 98;supply_node;2407.00;19.18;508.00;5.32;0
 98;supply_node;2383.00;13.32;596.00;3.71;0
@@ -37721,7 +37711,6 @@
 98;supply_node;2359.00;10.60;425.00;3.61;0
 98;supply_node;2158.00;13.43;669.00;4.15;0
 98;supply_node;2276.00;11.48;513.00;2.06;0
-98;supply_node;2340.00;11.05;455.00;3.49;0
 98;supply_node;2222.00;14.43;683.00;3.44;0
 98;supply_node;2493.00;23.90;470.00;4.63;0
 98;supply_node;2236.00;12.20;554.00;4.14;0
@@ -37811,12 +37800,9 @@
 98;supply_node;2383.00;14.00;498.00;6.10;0
 98;supply_node;2396.00;16.27;497.00;5.57;0
 98;supply_node;2413.00;20.20;495.00;1.61;0
-98;supply_node;2288.00;10.10;492.00;2.02;0
 98;supply_node;2366.00;14.03;492.00;1.02;0
 98;supply_node;2456.00;21.12;491.00;2.30;0
 98;supply_node;2471.00;22.10;490.00;2.66;0
-98;supply_node;2310.00;12.73;486.00;6.12;0
-98;supply_node;2332.00;13.32;482.00;3.76;0
 98;supply_node;2378.00;13.35;485.00;3.69;0
 98;supply_node;2405.00;16.23;483.00;4.70;0
 98;supply_node;2484.00;23.70;482.00;2.07;0
@@ -37824,7 +37810,6 @@
 98;supply_node;2433.00;18.98;478.00;4.96;0
 98;supply_node;2473.00;23.68;472.00;3.63;0
 98;supply_node;2439.00;17.85;465.00;5.47;0
-98;supply_node;2338.00;11.93;442.00;0.96;0
 98;supply_node;2370.00;10.15;456.00;2.20;0
 98;supply_node;2498.00;23.73;457.00;2.36;0
 98;supply_node;2377.00;10.82;446.00;4.66;0
@@ -37844,12 +37829,9 @@
 98;supply_node;2425.00;9.70;402.00;1.84;0
 98;supply_node;2439.00;9.75;398.00;5.99;0
 98;supply_node;2490.00;19.15;388.00;5.21;0
-98;supply_node;2531.00;18.65;364.00;4.25;0
-98;supply_node;2378.00;10.05;404.00;2.03;0
 98;bunker;2453.00;13.73;424.00;5.28;0
 98;bunker;2417.00;11.30;443.00;2.16;0
 98;bunker;2210.00;14.80;609.00;2.43;0
-98;bunker;2470.00;13.65;372.00;2.39;0
 98;bunker;2510.00;19.65;405.00;0.01;0
 98;bunker;2253.00;13.53;666.00;0.25;0
 98;bunker;2388.00;9.70;419.00;3.54;0
@@ -37891,7 +37873,6 @@
 98;bunker;2260.00;14.18;646.00;2.20;0
 98;bunker;2295.00;11.65;542.00;3.25;0
 98;bunker;2458.00;17.80;439.00;0.21;0
-98;bunker;2491.00;17.90;377.00;2.07;0
 98;bunker;2430.00;14.15;444.00;3.03;0
 98;bunker;2212.00;11.50;675.00;2.65;0
 98;bunker;2314.00;12.30;537.00;2.88;0
@@ -37914,7 +37895,6 @@
 98;bunker;2211.00;12.98;648.00;4.30;0
 98;bunker;2473.00;18.95;399.00;5.20;0
 98;bunker;2260.00;12.25;617.00;5.18;0
-98;bunker;2515.00;19.70;370.00;4.05;0
 98;bunker;2483.00;22.90;456.00;2.87;0
 98;bunker;2331.00;13.70;567.00;5.64;0
 98;bunker;2378.00;12.70;475.00;2.05;0
@@ -37932,7 +37912,6 @@
 98;bunker;2494.00;24.70;478.00;4.57;0
 98;bunker;2404.00;19.48;517.00;0.84;0
 98;bunker;2434.00;20.88;524.00;1.74;0
-98;bunker;2321.00;12.80;478.00;5.91;0
 98;bunker;2344.00;14.90;511.00;4.68;0
 98;bunker;2291.00;10.50;628.00;0.58;0
 98;bunker;2307.00;13.03;587.00;5.00;0
@@ -38039,11 +38018,9 @@
 98;bunker;2382.00;14.45;500.00;1.16;0
 98;bunker;2401.00;17.77;496.00;2.34;0
 98;bunker;2411.00;19.90;496.00;4.60;0
-98;bunker;2289.00;10.30;495.00;5.62;0
 98;bunker;2365.00;14.12;489.00;4.42;0
 98;bunker;2452.00;20.43;493.00;0.28;0
 98;bunker;2476.00;22.85;490.00;1.17;0
-98;bunker;2304.00;12.25;492.00;0.01;0
 98;bunker;2335.00;12.73;479.00;2.36;0
 98;bunker;2378.00;13.07;482.00;5.96;0
 98;bunker;2400.00;15.30;482.00;1.90;0
@@ -38052,7 +38029,6 @@
 98;bunker;2434.00;19.20;482.00;3.56;0
 98;bunker;2473.00;23.60;467.00;0.23;0
 98;bunker;2436.00;18.40;469.00;1.77;0
-98;bunker;2335.00;11.70;446.00;1.38;0
 98;bunker;2377.00;10.78;456.00;5.09;0
 98;bunker;2492.00;23.40;461.00;0.27;0
 98;bunker;2382.00;10.68;450.00;0.40;0
@@ -38072,10 +38048,7 @@
 98;bunker;2421.00;9.70;401.00;1.09;0
 98;bunker;2439.00;9.75;398.00;1.16;0
 98;bunker;2493.00;19.48;386.00;0.00;0
-98;bunker;2531.00;17.77;361.00;6.26;0
-98;bunker;2378.00;9.98;405.00;0.09;0
 98;stronghold_network;2467.00;18.68;432.00;2.71;0
-98;anti_air_building;2485.00;16.12;371.00;1.56;0
 98;anti_air_building;2350.00;14.55;575.00;1.31;0
 98;anti_air_building;2155.00;13.60;666.00;1.65;0
 98;synthetic_refinery;2294.00;11.38;548.00;0.08;0
@@ -38117,7 +38090,6 @@
 98;special_project_facility_spawn;2164.00;12.70;674.00;2.62;0
 98;special_project_facility_spawn;2250.00;14.30;631.00;6.13;0
 98;special_project_facility_spawn;2230.00;14.12;630.00;3.83;0
-98;special_project_facility_spawn;2326.00;12.50;476.00;1.42;0
 98;special_project_facility_spawn;2405.00;13.82;464.00;1.72;0
 98;special_project_facility_spawn;2371.00;12.80;478.00;0.84;0
 98;special_project_facility_spawn;2458.00;19.52;446.00;6.16;0
@@ -38141,7 +38113,6 @@
 98;special_project_facility_spawn;2329.00;13.00;537.00;6.01;0
 98;special_project_facility_spawn;2271.00;11.00;621.00;0.85;0
 98;special_project_facility_spawn;2367.00;15.75;513.00;1.23;0
-98;special_project_facility_spawn;2516.00;19.90;377.00;2.90;0
 98;special_project_facility_spawn;2446.00;19.70;481.00;0.17;0
 98;special_project_facility_spawn;2337.00;16.12;579.00;4.72;0
 98;special_project_facility_spawn;2241.00;13.57;670.00;2.43;0
@@ -38150,7 +38121,6 @@
 98;special_project_facility_spawn;2273.00;9.85;609.00;4.61;0
 98;special_project_facility_spawn;2354.00;14.68;493.00;3.24;0
 98;special_project_facility_spawn;2424.00;16.62;468.00;2.44;0
-98;special_project_facility_spawn;2495.00;18.90;377.00;3.24;0
 98;special_project_facility_spawn;2423.00;19.25;487.00;1.36;0
 98;special_project_facility_spawn;2485.00;23.10;452.00;0.29;0
 98;special_project_facility_spawn;2216.00;14.25;592.00;0.46;0
@@ -38171,7 +38141,6 @@
 98;special_project_facility_spawn;2389.00;13.90;597.00;1.93;0
 98;special_project_facility_spawn;2221.00;14.85;635.00;4.50;0
 98;special_project_facility_spawn;2403.00;19.15;527.00;0.80;0
-98;special_project_facility_spawn;2453.00;12.00;384.00;0.12;0
 98;special_project_facility_spawn;2181.00;14.00;637.00;1.97;0
 98;special_project_facility_spawn;2433.00;14.28;444.00;1.91;0
 98;special_project_facility_spawn;2360.00;13.80;546.00;1.57;0
@@ -38190,7 +38159,6 @@
 98;special_project_facility_spawn;2399.00;9.70;437.00;1.85;0
 98;special_project_facility_spawn;2235.00;14.03;602.00;2.20;0
 98;special_project_facility_spawn;2391.00;9.70;435.00;0.76;0
-98;special_project_facility_spawn;2298.00;11.75;495.00;5.26;0
 98;special_project_facility_spawn;2302.00;12.82;588.00;0.34;0
 98;special_project_facility_spawn;2389.00;16.62;542.00;0.18;0
 98;special_project_facility_spawn;2468.00;19.38;503.00;1.71;0
@@ -38217,7 +38185,6 @@
 98;special_project_facility_spawn;2306.00;14.00;605.00;5.73;0
 98;special_project_facility_spawn;2374.00;14.68;604.00;4.34;0
 98;special_project_facility_spawn;2398.00;15.53;600.00;3.26;0
-98;special_project_facility_spawn;2316.00;13.00;489.00;5.13;0
 98;special_project_facility_spawn;2437.00;17.43;598.00;1.06;0
 98;special_project_facility_spawn;2224.00;14.93;606.00;4.32;0
 98;special_project_facility_spawn;2262.00;11.75;596.00;3.99;0
@@ -38275,11 +38242,9 @@
 98;special_project_facility_spawn;2391.00;16.15;501.00;3.51;0
 98;special_project_facility_spawn;2397.00;16.58;497.00;0.23;0
 98;special_project_facility_spawn;2414.00;20.30;496.00;2.78;0
-98;special_project_facility_spawn;2295.00;11.32;493.00;5.71;0
 98;special_project_facility_spawn;2364.00;14.45;499.00;3.92;0
 98;special_project_facility_spawn;2452.00;20.73;490.00;3.80;0
 98;special_project_facility_spawn;2474.00;21.35;494.00;0.14;0
-98;special_project_facility_spawn;2316.00;12.78;482.00;4.17;0
 98;special_project_facility_spawn;2335.00;12.45;477.00;1.73;0
 98;special_project_facility_spawn;2376.00;13.50;494.00;3.14;0
 98;special_project_facility_spawn;2407.00;17.88;490.00;2.88;0
@@ -38288,7 +38253,6 @@
 98;special_project_facility_spawn;2434.00;19.15;481.00;5.64;0
 98;special_project_facility_spawn;2474.00;23.83;473.00;5.48;0
 98;special_project_facility_spawn;2440.00;19.02;472.00;3.38;0
-98;special_project_facility_spawn;2351.00;11.73;437.00;4.68;0
 98;special_project_facility_spawn;2366.00;10.43;450.00;2.88;0
 98;special_project_facility_spawn;2503.00;23.75;460.00;0.66;0
 98;special_project_facility_spawn;2385.00;10.20;446.00;2.30;0
@@ -38308,8 +38272,6 @@
 98;special_project_facility_spawn;2421.00;9.70;402.00;1.93;0
 98;special_project_facility_spawn;2436.00;9.70;396.00;4.17;0
 98;special_project_facility_spawn;2495.00;20.02;391.00;5.93;0
-98;special_project_facility_spawn;2524.00;19.02;367.00;1.22;0
-98;special_project_facility_spawn;2362.00;10.65;405.00;1.35;0
 98;rocket_site_spawn;2228.00;15.30;682.00;6.08;0
 99;arms_factory;2243.00;12.62;423.00;5.38;0
 99;arms_factory;2087.00;18.20;252.00;3.86;0
@@ -38615,7 +38577,6 @@
 99;special_project_facility_spawn;2018.00;16.10;35.00;5.62;0
 99;special_project_facility_spawn;2084.00;17.35;166.00;2.97;0
 99;special_project_facility_spawn;2229.00;10.25;66.00;3.86;0
-99;special_project_facility_spawn;2307.00;15.23;380.00;4.30;0
 99;special_project_facility_spawn;2034.00;15.30;280.00;5.20;0
 99;special_project_facility_spawn;2221.00;11.30;472.00;5.18;0
 99;special_project_facility_spawn;2093.00;19.00;256.00;4.05;0
@@ -45423,3 +45384,33 @@
 133;special_project_facility_spawn;2463.00;11.60;1942.00;4.49;0
 133;special_project_facility_spawn;2456.00;11.78;1952.00;2.68;0
 133;rocket_site_spawn;2448.00;12.60;1922.00;1.21;0
+99;supply_node;2323.00;12.18;440.00;1.98;0
+99;bunker;2330.00;13.32;413.00;1.72;0
+99;special_project_facility_spawn;2321.00;13.90;392.00;0.84;0
+99;special_project_facility_spawn;2330.00;11.20;455.00;6.16;0
+85;supply_node;2347.00;11.25;402.00;1.26;0
+85;supply_node;2514.00;19.52;373.00;2.07;0
+85;supply_node;2454.00;14.03;368.00;3.53;0
+85;supply_node;2486.00;16.27;362.00;1.52;0
+85;supply_node;2602.00;18.23;372.00;2.01;0
+85;supply_node;2531.00;18.65;364.00;3.11;0
+85;bunker;2524.00;19.50;372.00;5.87;0
+85;bunker;2591.00;19.62;366.00;3.39;0
+85;bunker;2498.00;18.43;358.00;1.39;0
+85;bunker;2454.00;12.20;383.00;3.93;0
+85;bunker;2354.00;11.07;402.00;2.09;0
+85;bunker;2529.00;19.45;368.00;3.63;0
+85;special_project_facility_spawn;2514.00;19.65;370.00;0.22;0
+85;special_project_facility_spawn;2606.00;16.08;363.00;2.10;0
+85;special_project_facility_spawn;2498.00;17.65;339.00;4.76;0
+85;special_project_facility_spawn;2451.00;11.75;382.00;1.54;0
+85;special_project_facility_spawn;2348.00;11.20;406.00;5.49;0
+85;special_project_facility_spawn;2535.00;20.08;369.00;2.40;0
+95;nuclear_reactor_spawn;2528.00;15.00;583.00;5.91;0
+98;arms_factory;2422.00;13.60;449.00;3.83;0
+98;supply_node;2320.00;12.45;497.00;1.98;0
+98;supply_node;2355.00;10.80;450.00;0.34;0
+98;supply_node;2334.00;14.03;486.00;3.95;0
+98;anti_air_building;2314.00;10.73;559.00;6.16;0
+98;special_project_facility_spawn;2303.00;12.40;504.00;1.27;0
+98;special_project_facility_spawn;2323.00;14.25;498.00;0.48;0

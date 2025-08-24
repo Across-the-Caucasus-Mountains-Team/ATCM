@@ -541,6 +541,27 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 75
 			add_war_support = 0.025
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -578,6 +599,27 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 25
 			add_war_support = 0.05
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -616,6 +658,27 @@ focus_tree = {
 		    add_political_power = 50
 			add_stability = 0.05
 			add_war_support = 0.025
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -654,6 +717,27 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 75
 			add_war_support = 0.075
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+			}
 		}
 	}
 
@@ -1195,7 +1279,7 @@ focus_tree = {
 		completion_reward = {
 	        add_war_support = 0.025
 		    add_political_power = 25
-			army_experience = 25
+			army_experience = 35
 			load_oob = RAS_infantry_battalions_first_chechen_war
 		}
 	}
@@ -2414,6 +2498,7 @@ focus_tree = {
 
 		completion_reward = {
 		    add_political_power = 25
+			unlock_decision_category_tooltip = RAS_influence_on_caucasus_decision
 		}
 	}
 
@@ -2495,9 +2580,9 @@ focus_tree = {
 				    type = infantry_equipment_1 
 				    amount = 2500 
 			    }
-				add_manpower = 5000
+				add_manpower = 1000
 			}
-			add_manpower = -5000
+			add_manpower = -1000
 			load_oob = ABK_russian_support_1991
 		}
 	}
@@ -2542,9 +2627,9 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 2500 
 			    }
-				add_manpower = 5000
+				add_manpower = 1000
 			}
-			add_manpower = -5000
+			add_manpower = -1000
 			load_oob = OST_second_russian_support_1991
 		}
 	}
@@ -2992,6 +3077,28 @@ focus_tree = {
 					    add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
 					}
 				}
+				set_variable = {
+                    var = RAS_russian_infowar_value
+                    value = 50
+					tooltip = set_var_to_100_tt
+                }
+				set_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 50
+					tooltip = set_var_to_100_tt
+                }
+				21 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+                }
+			    20 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+                }
+			    128 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+                }
+			    11 = {
+                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+                }
 			}
 		}
 	}
