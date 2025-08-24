@@ -326,7 +326,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_AZR_Independence"
-		texturefile = "gfx/interface/goals/AZR_Independence.png"
+		texturefile = "gfx/interface/goals/AZR/AZR_Independence.png"
 	}
 	
 	SpriteType = {
@@ -561,32 +561,32 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_AZR_Operation_ring"
-		texturefile = "gfx/interface/goals/AZR_Operation_ring.png"
+		texturefile = "gfx/interface/goals/AZR/AZR_Operation_ring.png"
 	}
 	
 	SpriteType = {
 		name = "GFX_AZR_Operations"
-		texturefile = "gfx/interface/goals/AZR_Operations.png"
+		texturefile = "gfx/interface/goals/AZR/AZR_Operations.png"
 	}
 	
 	SpriteType = {
 		name = "GFX_AZR_Purge_popular_front"
-		texturefile = "gfx/interface/goals/AZR_Purge_popular_front.png"
+		texturefile = "gfx/interface/goals/AZR/AZR_Purge_popular_front.png"
 	}
 	
 	SpriteType = {
 		name = "GFX_AZR_internal_order"
-		texturefile = "gfx/interface/goals/AZR_internal_order.png"
+		texturefile = "gfx/interface/goals/AZR/AZR_internal_order.png"
 	}
 	
 	SpriteType = {
-		name = "GFX_AZR_Consolidate_the_power"
-		texturefile = "gfx/interface/goals/AZR_Consolidate_the_power.png"
+		name = "GFX_AZR_Consolidate_Party_Control"
+		texturefile = "gfx/interface/goals/AZR/AZR_Consolidate_Party_Control.png"
 	}
 	
 	SpriteType = {
 		name = "GFX_AZR_Black_January"
-		texturefile = "gfx/interface/goals/AZR_Black_January.png"
+		texturefile = "gfx/interface/goals/AZR/AZR_Black_January.png"
 	}
 	
 	SpriteType = {

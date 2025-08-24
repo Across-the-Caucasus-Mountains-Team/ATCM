@@ -347,7 +347,7 @@ guiTypes = {
 			clicksound = click_close
 			oversound = ui_menu_over
 			font = hoi_24header
-			text = "Economic decisions"
+			text = "economic_decisions"
 		}
 	}
 
@@ -444,7 +444,7 @@ guiTypes = {
 			font = hoi_24header
 			borderSize = { x = 0 y = 0}
 			Orientation = "UPPER_LEFT"
-			text = "Economic decisions"
+			text = "economic_decisions"
 		}
 
 		buttonType = {

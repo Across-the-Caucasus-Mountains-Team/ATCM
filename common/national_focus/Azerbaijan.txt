@@ -15,12 +15,12 @@ focus_tree = {
 	continuous_focus_position = { x = 3000 y = 500 }
 	
 	focus = {
-		id = AZR_Black_January
-		icon = GFX_AZR_Black_January
-		x = 7
+		id = AZR_Soviet_State
+		icon = GFX_AZR_Soviet_State
+		x = 5
 		y = 0
 		
-		cost = 1
+		cost = 20
 		
 		ai_will_do = {
 			factor = 100
@@ -41,24 +41,21 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = -50
-			add_war_support = -0.15
-			add_stability = -0.15
-			83 = {
-				add_manpower = -163
-			}
+		    add_political_power = 50
+			add_war_support = 0.05
+			add_stability = -0.05
 		}	
 	}
 
-	focus = {
-		id = AZR_Consolidate_Party_Control
-		icon = GFX_AZR_Consolidate_the_power
+    focus = {
+		id = AZR_Sovereignty_Question
+		icon = GFX_AZR_Sovereignty_Question
 		x = 0
 		y = 1
-		prerequisite = { focus = AZR_Black_January }
-		relative_position_id = AZR_Black_January
+		prerequisite = { focus = AZR_Soviet_State }
+		relative_position_id = AZR_Soviet_State
 		
-		cost = 13
+		cost = 50
 		
 		ai_will_do = {
 			factor = 100
@@ -80,32 +77,38 @@ focus_tree = {
 		
 		completion_reward = {
 		    add_political_power = 20
-			add_stability = 0.05
-		}	
-	}
+			add_war_support = 0.05 #Indep_mech
+			add_stability = -0.10
+		}
+    }
 
-	focus = {
-		id = AZR_Karabakh_Campaign
-		icon = GFX_AZR_Operations
+
+    # ##########################################################################
+    # #      ###      ### #### ####      ##### ##### ###      ###      ###    ##
+    # # ######## #### ### #### #### ########## ##### ### ######## ######## ### #
+    # #      ### #### ### #### ####      ##### ##### ###      ###      ###    ##
+    # ###### ###      #### ## ##### ########## ##### ######## ######## ### ### #
+    # #      ### #### #####  ######      ######     ####      ###      ### ### #
+    # ##########################################################################
+
+    focus = {
+		id = AZR_Preservation_of_USSR
+		icon = GFX_AZR_Preservation_of_USSR
 		x = -1
 		y = 1
-		prerequisite = { focus = AZR_Consolidate_Party_Control }
-		relative_position_id = AZR_Consolidate_Party_Control
+		prerequisite = { focus = AZR_Sovereignty_Question }
+		relative_position_id = AZR_Sovereignty_Question
 		
-		cost = 10
+		cost = 40
 		
 		ai_will_do = {
-			factor = 100
+			factor = 0
 		}
 		
-		available = {
+        mutually_exclusive = {
+            focus = AZR_Pursuit_of_Independence
+        }
 
-		}
-		
-		bypass = {
-
-		}
-		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -113,131 +116,102 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 20
-			add_stability = 0.05
-		}	
-	}
+            add_opinion = {
+                target = RAS
+                value = 10
+            }
+		}
+    }
 
 	focus = {
-		id = AZR_Operation_ring
-		icon = GFX_AZR_Operation_ring
+		id = AZR_Soviet_Loyalty
+		icon = GFX_AZR_Soviet_Loyalty
 		x = 0
 		y = 1
-		prerequisite = { focus = AZR_Karabakh_Campaign }
-		relative_position_id = AZR_Karabakh_Campaign
 		
-		cost = 50
+        prerequisite = { focus = AZR_Preservation_of_USSR }
+		relative_position_id = AZR_Preservation_of_USSR
 		
-		ai_will_do = {
-			factor = 100
-		}
-		
-		available = {
+        cost = 30
 
-		}
-		
-		bypass = {
-
-		}
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		search_filters = { }
-		
 		completion_reward = {
-		    add_political_power = 20
-			add_stability = 0.05
-		}	
+			add_political_power = 50
+			add_opinion = {
+                target = RAS
+                value = 20
+            }
+		}
 	}
-
+	
 	focus = {
-		id = AZR_Independence
-		icon = GFX_AZR_Independence
-		x = 1
-		y = 1
-		prerequisite = { focus = AZR_Operation_ring }
-		prerequisite = { focus = AZR_Purge_Popular_front }
-		relative_position_id = AZR_Operation_ring
-		
-		cost = 157
-		
-		ai_will_do = {
-			factor = 100
-		}
-		
-		available = {
+		id = AZR_Support_Coup
+		icon = GFX_AZR_Support_Coup
 
-		}
-		
-		bypass = {
-
-		}
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		search_filters = { }
-		
-		completion_reward = {
-			country_event = Azerbaijan.1 
-			news_event = { 
-				id = news.6 
-				days = 2
-			}
-		}	
-	}
-
-	focus = {
-		id = AZR_Internal_order
-		icon = GFX_AZR_internal_order
-		x = 1
-		y = 1
-		prerequisite = { focus = AZR_Consolidate_Party_Control }
-		relative_position_id = AZR_Consolidate_Party_Control
-		
-		cost = 10
-		
-		ai_will_do = {
-			factor = 100
-		}
-		
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		search_filters = { }
-		
-		completion_reward = {
-		    add_political_power = 20
-			add_stability = 0.05
-		}	
-	}
-
-	focus = {
-		id = AZR_Purge_Popular_front
-		icon = GFX_AZR_Purge_popular_front
 		x = 0
 		y = 1
-		prerequisite = { focus = AZR_Internal_order }
-		relative_position_id = AZR_Internal_order
+
+		prerequisite = { focus = AZR_Soviet_Loyalty }
+		relative_position_id = AZR_Soviet_Loyalty
 		
-		cost = 50
+        cost = 35
+		
+        completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+                ideology = communism
+                popularity = 0.1
+            }
+			add_war_support = -0.05
+		}
+	}
+	
+	focus = {
+		id = AZR_Communist_Preservation
+		icon = GFX_AZR_Communist_Preservation
+		
+        x = 0
+		y = 1
+		
+        prerequisite = { focus = AZR_Support_Coup }
+		relative_position_id = AZR_Support_Coup
+		
+        cost = 30
+		
+        completion_reward = {
+			add_popularity = {
+                ideology = communism
+                popularity = 0.2
+            }
+			add_political_power = 20
+		}
+	}
+
+    # ######################################
+    # #  ###  ### ###   #####      ###    ##
+    # ###### # ## ### ##  ### ######## ### #
+    # #  ### #  # ### ### ###      ### ### #
+    # #  ### ## # ### ##  ### ########    ##
+    # #  ### ###  ###   #####      ### #####
+    # ######################################
+
+    focus = {
+		id = AZR_Pursuit_of_Independence
+		icon = GFX_AZR_Pursuit_of_Independence
+		x = 1
+		y = 1
+		prerequisite = { focus = AZR_Sovereignty_Question }
+		relative_position_id = AZR_Sovereignty_Question
+		
+		cost = 25
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
+        mutually_exclusive = {
+            focus = AZR_Preservation_of_USSR
+        }
+
 		available = {
 
 		}
@@ -253,8 +227,185 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 20
+            add_stability = -0.10
+            add_war_support = 0.10 # Indep_mech
+            add_opinion = {
+                target = RAS
+                value = -10
+            }
+		}
+    }
+    
+    focus = {
+		id = AZR_Anti_Communist_Protests
+		icon = GFX_AZR_Anti_Communist_Protests
+		x = 0
+		y = 1
+		prerequisite = { focus = AZR_Pursuit_of_Independence }
+		relative_position_id = AZR_Pursuit_of_Independence
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+            add_political_power = 20
+            add_stability = -0.10
+            add_war_support = 0.05 # Indep_mech
+            add_opinion = {
+                target = RAS
+                value = -20
+            }
+		}
+    }
+    
+    focus = {
+		id = AZR_Pro_Democratic_Speaches
+		icon = GFX_AZR_Pro_Democratic_Speaches
+		x = 0
+		y = 1
+		prerequisite = { focus = AZR_Anti_Communist_Protests }
+		relative_position_id = AZR_Anti_Communist_Protests
+		
+		cost = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+            add_stability = 0.10
+            add_war_support = 0.05 # Indep_mech
+            add_opinion = {
+                target = RAS
+                value = -10
+            }
+		}
+    }
+    
+    focus = {
+		id = AZR_New_Parties_Creation
+		icon = GFX_AZR_New_Parties_Creation
+		x = 4
+		y = 1
+		prerequisite = { focus = AZR_Pursuit_of_Independence }
+		relative_position_id = AZR_Pursuit_of_Independence
+		
+		cost = 40
+		
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+            add_political_power = 100
+            add_stability = 0.10
+		}
+    }
+
+	focus = {
+		id = AZR_Musavat_Revival
+		icon = GFX_AZR_Musavat_Revival
+		
+        x = 2
+		y = 1
+		
+        prerequisite = { focus = AZR_Pursuit_of_Independence }
+		relative_position_id = AZR_Pursuit_of_Independence
+		
+        cost = 30
+		
+        completion_reward = {
 			add_stability = 0.05
-		}	
+			add_popularity = {
+                ideology = liberalism
+                popularity = 0.1
+            }
+		}
+	}
+
+	focus = {
+		id = AZR_Founding_Democratic_Institutions
+		icon = GFX_AZR_Founding_Democratic_Institutions
+		
+        x = 1
+		y = 1
+		
+        prerequisite = { focus = AZR_Musavat_Revival }
+        prerequisite = { focus = AZR_New_Parties_Creation }
+		relative_position_id = AZR_Musavat_Revival
+		
+        cost = 40
+		
+        completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = AZR_Declare_Independence
+		icon = GFX_AZR_Declare_Independence
+		
+        x = 2
+		y = 1
+		
+        prerequisite = { focus = AZR_Pro_Democratic_Speaches }
+        prerequisite = { focus = AZR_Founding_Democratic_Institutions }
+		relative_position_id = AZR_Pro_Democratic_Speaches
+		
+        cost = 60
+		
+        completion_reward = {
+			country_event = Azerbaijan.1
+			news_event = {
+                id = news.6
+                days = 2
+            }
+		}
 	}
 }	
