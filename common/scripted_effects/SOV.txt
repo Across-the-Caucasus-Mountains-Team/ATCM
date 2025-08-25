@@ -47,3 +47,22 @@ SOV_DAG_separatism_clamp_and_update_ui_effect = {
 		max = 100
 	}
 }
+
+
+## Fraction powers
+
+SOV_hardliners_power_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = SOV_hardliners_power_value
+		min = 0
+		max = 100
+	}
+}
+
+SOV_reformers_power_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = SOV_reformers_power_value
+		min = 0
+		max = 100
+	}
+}

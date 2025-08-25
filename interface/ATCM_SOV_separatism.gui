@@ -8,14 +8,14 @@ guiTypes = {
 			name = "SOV_separatism_CHE_value"
 			text = "CHE_separatism_value_text"
 			font = "hoi_16mbs"
-			position = { x = 390 y = 20 }
+			position = { x = 370 y = 20 }
 		}
 
 		instantTextBoxType {
 			name = "SOV_separatism_SAK_value"
 			text = "SAK_separatism_value_text"
 			font = "hoi_16mbs"
-			position = { x = 390 y = 60 }
+			position = { x = 370 y = 60 }
 			pdx_tooltip = "[CAT_OPENING]"
 		}
 
@@ -23,7 +23,7 @@ guiTypes = {
 			name = "SOV_separatism_AZR_value"
 			text = "AZR_separatism_value_text"
 			font = "hoi_16mbs"
-			position = { x = 390 y = 100 }
+			position = { x = 370 y = 100 }
 			pdx_tooltip = "[CAT_OPENING]"
 		}
 
@@ -31,7 +31,7 @@ guiTypes = {
 			name = "SOV_separatism_ARM_value"
 			text = "ARM_separatism_value_text"
 			font = "hoi_16mbs"
-			position = { x = 390 y = 140 }
+			position = { x = 370 y = 140 }
 			pdx_tooltip = "[CAT_OPENING]"
 		}
 
@@ -39,7 +39,7 @@ guiTypes = {
 			name = "SOV_separatism_DAG_value"
 			text = "DAG_separatism_value_text"
 			font = "hoi_16mbs"
-			position = { x = 390 y = 180 }
+			position = { x = 370 y = 180 }
 			pdx_tooltip = "[CAT_OPENING]"
 		}
 
@@ -81,9 +81,9 @@ guiTypes = {
 		iconType {
 			name = "SOV_power_of_central_government_icon"
 			spriteType = "GFX_Power_of_central_government_icon"
-			position = { x = 155 y = -10 }
+			position = { x = 95 y = -10 }
 			scale = 0.68
-			pdx_tooltip = "[CAT_OPENING]"
+			pdx_tooltip = "POWER_OF_CENTRAL_GOVERNMENT_TT"
 		}
     }
 }

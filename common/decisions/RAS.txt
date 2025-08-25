@@ -25,9 +25,10 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = -0.015
 			add_stability = -0.015
-            add_to_variable = { 
-                SOV_separatism_CHE_value = -5 
-                tooltip = SOV_add_minus_5_to_CHE_tt
+			add_to_variable = { 
+			    var = CHE_separatism_value
+                value = -5 
+                tooltip = SOV_add_minus_5_to_separatism_tt
             }
 		}
 
@@ -62,8 +63,9 @@ RAS_soviet_separatism_decision = {
 			add_war_support = -0.015
 			add_stability = -0.015
             add_to_variable = { 
-                SOV_separatism_SAK_value = -5 
-                tooltip = SOV_add_minus_5_to_SAK_tt
+			    var = SAK_separatism_value
+                value = -5 
+                tooltip = SOV_add_minus_5_to_separatism_tt
             }
 		}
 
@@ -98,8 +100,9 @@ RAS_soviet_separatism_decision = {
 			add_war_support = -0.015
 			add_stability = -0.015
             add_to_variable = { 
-                SOV_separatism_ARM_value = -5 
-                tooltip = SOV_add_minus_5_to_ARM_tt
+			    var = ARM_separatism_value
+                value = -5 
+                tooltip = SOV_add_minus_5_to_separatism_tt
             }
 		}
 
@@ -134,8 +137,9 @@ RAS_soviet_separatism_decision = {
 			add_war_support = -0.015
 			add_stability = -0.015
             add_to_variable = { 
-                SOV_separatism_AZR_value = -5 
-                tooltip = SOV_add_minus_5_to_AZR_tt
+			    var = AZR_separatism_value
+                value = -5 
+                tooltip = SOV_add_minus_5_to_separatism_tt
             }
 		}
 
@@ -173,7 +177,7 @@ RAS_soviet_separatism_decision = {
             add_to_variable = { 
                 var = SOV_separatism_DAG_value
                 value = -5 
-                tooltip = SOV_add_minus_5_to_DAG_tt
+                tooltip = SOV_add_minus_5_to_separatism_tt
             }
 		}
 
