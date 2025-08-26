@@ -77,3 +77,27 @@ WAL = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
+DAG = {
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
+ING = {
+	color = rgb { 55 158 50 }
+	color_ui = rgb { 128 102 128 }
+}
+ADY = {
+	color = rgb { 133 122 208 }
+	color_ui = rgb { 56 33 128 }
+}
+KBK = {
+	color = rgb { 32 178 170 }
+	color_ui = rgb { 32 178 170 }
+}
+KLM = {
+	color = rgb { 244 164 96 }
+	color_ui = rgb { 244 164 96 }
+}
+KCC = {
+	color = rgb { 205 128 20 }
+	color_ui = rgb { 204 128 128 }
+}
