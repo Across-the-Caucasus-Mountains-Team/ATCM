@@ -7,6 +7,7 @@ state={
 	history={
 		owner = RAS
 		add_core_of = RAS
+		add_core_of = ADY
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

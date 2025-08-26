@@ -7,6 +7,7 @@ state={
 	history={
 		victory_points = { 9183 15 }
 	    owner = RAS
+		add_core_of = DAG
 	    add_core_of = RAS
 	    buildings = {
 			infrastructure = 2

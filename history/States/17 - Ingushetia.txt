@@ -8,6 +8,7 @@ state={
 		owner = CHE
 		add_core_of = CHE
 		add_core_of = RAS
+		add_core_of = ING
 		victory_points = { 6828 15 }
 		victory_points = { 8189 5 }
 		buildings = {
