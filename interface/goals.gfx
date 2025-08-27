@@ -8,6 +8,74 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+		### AZEIRBAIJAN ###
+    ####################
+
+	SpriteType = {
+		name = "GFX_AZR_Soviet_State"
+		texturefile = "gfx/interface/goals/AZR/AZR_Soviet_State.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Sovereignty_Question"
+		texturefile = "gfx/interface/goals/AZR/AZR_Sovereignty_Question.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Pursue_Independence"
+		texturefile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Preservation_of_USSR"
+		texturefile = "gfx/interface/goals/AZR/AZR_Preservation_of_USSR.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Soviet_Loyalty"
+		texturefile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Support_Coup"
+		texturefile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Communist_Preservation"
+		texturefile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Pursuit_of_Independence"
+		texturefile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Anti_Communist_Protests"
+		texturefile = "gfx/interface/goals/AZR/AZR_Anti_Communist_Protests.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Pro_Democratic_Speeches"
+		texturefile = "gfx/interface/goals/AZR/AZR_Pro_Democratic_Speeches.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Musavat_Revival"
+		texturefile = "gfx/interface/goals/AZR/AZR_Musavat_Revival.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_New_Parties_Creation"
+		texturefile = "gfx/interface/goals/AZR/AZR_New_Parties_Creation.png"
+	}
+
+	SpriteType = {
+		name = "GFX_AZR_Founding_Democratic_Institutions"
+		texturefile = "gfx/interface/goals/AZR/AZR_Founding_Democratic_Institutions.png"
+	}
+
 	SpriteType = {
 		name = "GFX_ABK_Defend"
 		texturefile = "gfx/interface/goals/ABK/ABK_Defend.png"
