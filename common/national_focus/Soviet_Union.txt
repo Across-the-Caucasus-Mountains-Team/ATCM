@@ -283,7 +283,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = RAS_hold_a_referendum }
 		
-		cost = 24
+		cost = 2
 		
 		ai_will_do = {
 			factor = 100
@@ -316,7 +316,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = RAS_Problems_in_the_west }
 		
-		cost = 39
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -348,7 +348,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = RAS_Slavic_Unrest }
 		
-		cost = 39
+		cost = 8
 		
 		ai_will_do = {
 			factor = 100
@@ -380,7 +380,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = RAS_Problems_in_the_west }
 		
-		cost = 14
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -448,7 +448,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = RAS_Clashes_in_baltics }
 		
-		cost = 39
+		cost = 8
 		
 		ai_will_do = {
 			factor = 100
@@ -488,7 +488,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = RAS_hold_a_referendum }
 		
-		cost = 24
+		cost = 2
 		
 		ai_will_do = {
 			factor = 100
@@ -521,7 +521,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = RAS_problems_in_the_south }
 		
-		cost = 14
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -554,7 +554,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = RAS_Karabakh_issue }
 		
-		cost = 14
+		cost = 8
 		
 		ai_will_do = {
 			factor = 100
@@ -586,7 +586,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = RAS_problems_in_the_south }
 		
-		cost = 14
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -619,7 +619,7 @@ focus_tree = {
 		y = 5
 		prerequisite = { focus = RAS_Clashes_in_south_ossetia }
 		
-		cost = 14
+		cost = 10
 		
 		ai_will_do = {
 			factor = 100
@@ -665,7 +665,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = RAS_Clashes_in_south_ossetia }
 		
-		cost = 14
+		cost = 8
 		
 		ai_will_do = {
 			factor = 100
@@ -690,14 +690,52 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RAS_treaty_of_union
+		id = RAS_novo_ogarevo_process
 		icon = GFX_RAS_New_Union_Treaty
 		x = 15
-		y = 8
+		y = 7
 		prerequisite = { focus = RAS_Rise_of_RTFR_in_Georgia }
 		prerequisite = { focus = RAS_Rise_of_rukh_in_ukraine }
 		prerequisite = { focus = RAS_Protest_in_Chechnya }
 		prerequisite = { focus = RAS_Retreat_from_baltics}
+		
+		cost = 45
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			if = { 
+				limit = {
+                    has_country_flag = Coup_Happened
+				}
+				has_completed_focus = RAS_after_of_the_gkhp
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+
+		}	
+	}
+
+	focus = {
+		id = RAS_treaty_of_union
+		icon = GFX_RAS_New_Union_Treaty
+		x = 15
+		y = 8
+		prerequisite = { focus = RAS_novo_ogarevo_process }
 		
 		cost = 15
 		
