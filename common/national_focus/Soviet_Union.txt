@@ -820,9 +820,24 @@ focus_tree = {
                 remove_ideas = {
 					RAS_Memories_of_afhganistan_war
 					RAS_Failed_perestroika
-					RAS_hardliners_protest
 					RAS_Boris_Yeltsin_idea
 					RAS_reformists_protest
+				}
+				if = {
+				   limit = {
+				       has_ideas = RAS_hardliners_protest_2
+				   }
+				   remove_ideas = {
+				       RAS_hardliners_protest_2
+				   }
+				}
+				if = {
+				   limit = {
+				       has_ideas = RAS_hardliners_protest
+				   }
+				   remove_ideas = {
+				       RAS_hardliners_protest
+				   }
 				}
 				add_ideas = {
 					RAS_large_external_debt

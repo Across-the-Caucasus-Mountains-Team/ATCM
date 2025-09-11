@@ -487,6 +487,7 @@ focus_tree = {
 		    has_full_control_of_state = 16
 			has_full_control_of_state = 133
 			has_full_control_of_state = 132
+			date > 1995.01.02
 		}
 		
 		bypass = {
@@ -2654,7 +2655,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			give_military_access = ABK
+			ABK = {
+				give_military_access = RAS
+			}
 	        ABK = {
 				add_equipment_to_stockpile = { 
 				    type = infantry_equipment_1 
@@ -2701,7 +2704,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			give_military_access = OST
+			OST = {
+				give_military_access = RAS
+			}
 	        OST = {
 				add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
@@ -2786,6 +2791,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_political_power = 25
 	        army_experience = 50
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
