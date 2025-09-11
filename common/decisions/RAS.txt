@@ -847,6 +847,60 @@ RAS_special_services_decision = {
 			factor = 350	
 		}
 	}
+
+	RAS_take_tough_measures = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 250
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			casualties_k > 40
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+		}
+
+		complete_effect = {
+            set_country_flag = AcceptNuclearStrike
+			custom_effect_tooltip = 17_RAS_tt
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+	}
+
+	RAS_nuclear_strike_on_chechnya = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 175
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_country_flag = AcceptNuclearStrike
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_country_flag = AcceptNuclearStrike
+		}
+
+		complete_effect = {
+            custom_effect_tooltip = 18_RAS_tt
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+	}
 }
 
 RAS_peace_negotiations_first_chechen_war_decision = {

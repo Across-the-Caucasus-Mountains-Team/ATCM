@@ -121,6 +121,9 @@
  14_RAS_tt:0 "§RYou will strike all strategic points in Chechnya§!"
  15_RAS_tt:0 "§RYou will impose an embargo on Chechnya§!"
  16_RAS_tt:0 "§RChechnya will be closer to independence§!"
+ 17_RAS_tt:0 "§RDecisions to difficult times will be revealed§!"
+ 18_RAS_tt:0 "§RThere will be serious consequences§!"
+ 
 
 
  russia.20.t:0 "Russian ultimatum"
@@ -158,6 +161,10 @@
  add_10_to_negotation_progress_fcw_tt:0 "§GAdd 10% to the progress of negotiations§!"
  RAS_eltsin_support_decision:0 "Support of Eltisn"
  RAS_eltsin_support_decision_desc:0 "President Boris Yeltsin has become the face of post-Soviet Russia’s transformation. But his authority remains fragile: political instability, opposition from communists, hardliners, and regional elites threaten to unravel the delicate balance of power.\n\nSupport of Eltsin: §C[?RAS_eltsin_support_value|%%]§"
+ RAS_take_tough_measures:0 "§RTake tough measures§!"
+ RAS_take_tough_measures_desc:0 "§RTake tough measures§!"
+ RAS_nuclear_strike_on_chechnya:0 "§RNuclear strike§!"
+ 
 
 
  #Ideas 
