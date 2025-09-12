@@ -483,3 +483,36 @@ country_event = {
 		add_stability = -0.05
 	}
 }
+
+#Hyperinflation
+country_event = {
+	id = russia.23
+	title = russia.23.t
+	desc = russia.23.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.23.a
+		add_political_power = -25
+		add_stability = -0.05
+		add_ideas = RAS_hyperinflation
+	}
+}
+
+#Closure of enterprises
+country_event = {
+	id = russia.24
+	title = russia.24.t
+	desc = russia.24.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.24.a
+		add_political_power = -25
+		add_stability = -0.05
+	}
+}

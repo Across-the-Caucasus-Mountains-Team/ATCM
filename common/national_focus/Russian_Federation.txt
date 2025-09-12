@@ -505,6 +505,9 @@ focus_tree = {
 		completion_reward = {
 	        add_war_support = 0.025
 	        army_experience = 10
+			unlock_decision_tooltip = RAS_conduct_sharoi_cleanups
+			unlock_decision_tooltip = RAS_conduct_itum_calinsky_cleanups
+			unlock_decision_tooltip = RAS_conduct_shatoysky_cleanups
 		}
 	}
 
@@ -3084,6 +3087,11 @@ focus_tree = {
                 type = annex_everything
             }    
 			activate_mission  = RAS_failed_blitzkrieg_decision
+			activate_mission = RAS_take_Grozny
+			activate_mission = RAS_take_Shali
+			activate_mission = RAS_take_Gudermes
+			activate_mission = RAS_take_UrusMartan
+			activate_mission = RAS_take_Argun
 			unlock_decision_category_tooltip = RAS_first_chechen_war_decision
 			hidden_effect = {
 				set_global_flag = FirstChechenWar
@@ -3173,6 +3181,18 @@ focus_tree = {
                     value = 50
 					tooltip = set_var_to_100_tt
                 }
+				CHE = {
+				    set_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 50
+					    tooltip = set_var_to_100_tt
+                    }
+				    set_variable = {
+                        var = CHE_chechen_infowar_value
+                        value = 50
+					    tooltip = set_var_to_100_tt
+                    }					
+				}
 				21 = {
                     add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
                 }
@@ -3230,7 +3250,7 @@ focus_tree = {
 	focus = {
 		id = RAS_save_the_russian_economy
 		icon = GFX_RAS_Save_economy
-		x = 1
+		x = -1
 		y = 0
 
 		cost = 30
@@ -3266,7 +3286,7 @@ focus_tree = {
 		id = RAS_shock_economic_reforms
 		icon = GFX_RAS_Shock_economic_reforms
 		prerequisite = { focus = RAS_save_the_russian_economy }
-		x = 1
+		x = -1
 		y = 1
 
 		cost = 25
@@ -3334,6 +3354,9 @@ focus_tree = {
 	        add_stability = 0.075
 		    add_political_power = 50
 			custom_effect_tooltip = 4_RAS_tt
+			hidden_effect = {
+                
+			}
 		}
 	}
 
@@ -3345,7 +3368,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAS_shock_economic_reforms
 
-		cost = 25
+		cost = 15
 
 		ai_will_do = {
 			base = 5
@@ -3369,10 +3392,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = -0.15
 		    add_political_power = 25
+			add_stability = -0.15
 		    hidden_effect = {
-                
+                country_event = {
+			        id = russia.23
+				    days = 86
+		        }
 			}
 			custom_effect_tooltip = 4_RAS_tt
 		}
@@ -3411,8 +3437,17 @@ focus_tree = {
 
 		completion_reward = {
 	        add_stability = 0.075
-		    add_ideas = my_idea
+			add_political_power = 25
+		    add_ideas = free_trade
 		    custom_effect_tooltip = 4_RAS_tt
+			custom_effect_tooltip = cash_balance_plus_5_tt
+			add_to_variable = {
+				var = cash
+				value = 5
+			}
+			hidden_effect = {
+                
+			}
 		}
 	}
 
@@ -3452,6 +3487,14 @@ focus_tree = {
 		completion_reward = {
 	        add_stability = -0.075
 			custom_effect_tooltip = 4_RAS_tt
+			custom_effect_tooltip = cash_balance_plus_5_tt
+			add_to_variable = {
+				var = cash
+				value = 5
+			}
+			hidden_effect = {
+                
+			}
 		}
 	}
 
@@ -3491,6 +3534,78 @@ focus_tree = {
 		add_political_power = 50
 		
 		
+		}
+	}
+
+	focus = {
+		id = RAS_collateral_auction_program
+		icon = GFX_RAS_in_progress_of_economic_reforms
+		prerequisite = { focus = RAS_on_the_progress_of_economic_reforms }
+		relative_position_id = RAS_shock_economic_reforms
+		x = 0
+		y = 4
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = RAS_central_bank_tough_policy
+		icon = GFX_RAS_in_progress_of_economic_reforms
+		prerequisite = { focus = RAS_collateral_auction_program }
+		relative_position_id = RAS_shock_economic_reforms
+		x = 0
+		y = 5
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	
 		}
 	}
 
@@ -3536,6 +3651,42 @@ focus_tree = {
 		prerequisite = { focus = RAS_support_south_russian_economy }
 		relative_position_id = RAS_support_south_russian_economy
 		x = 0
+		y = 1
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	
+		}
+	}
+
+	focus = {
+		id = RAS_support_dagestani_industry
+		icon = GFX_RAS_in_progress_of_economic_reforms
+		prerequisite = { focus = RAS_support_south_russian_economy }
+		relative_position_id = RAS_support_south_russian_economy
+		x = 2
 		y = 1
 
 		cost = 25

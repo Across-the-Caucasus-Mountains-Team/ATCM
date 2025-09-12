@@ -104,6 +104,14 @@
  RAS_resignation_of_gaidar:0 "Resignation of Gaidar"
  RAS_transport_troops_to_the_chehcen_border:0 "Transport troops to the Chechen border"
  RAS_additional_aviation:0 "Additional Aviation"
+ RAS_collateral_auction_program:0 "Collateral auction program"
+ RAS_central_bank_tough_policy:0 "Central bank tough policy"
+ RAS_central_bank_tough_policy_desc:0 "Central bank tough policy, the government will be forced to take drastic measures to protect its interests, such as reducing interest rates and cutting government spending."
+ RAS_support_south_russian_economy:0 "Support South Russian economy"
+ RAS_support_south_russian_economy_desc:0 "Support South Russian economy, the government will provide financial support to the South Regions of Russia, which has been struggling to recover from the economic crisis in the late 1990s."
+ RAS_expand_factories_in_krasnodar:0 "Expand factories in Krasnodar"
+ RAS_support_dagestani_industry:0 "Support Dagestani industry"
+
  soviet_republic:0 "Soviet Republic"
  1_RAS_tt:0 "§GYou will reduce separatist sentiments§!"
  2_RAS_tt:0 "§RParliament may get angry§!"
@@ -164,6 +172,12 @@
  RAS_take_tough_measures:0 "§RTake tough measures§!"
  RAS_take_tough_measures_desc:0 "§RTake tough measures§!"
  RAS_nuclear_strike_on_chechnya:0 "§RNuclear strike§!"
+ RAS_take_Grozny:0 "Take Grozny"
+ RAS_take_Grozny_desc:0 "Take Grozny"
+ RAS_take_Shali:0 "Take Shali"
+ RAS_take_Gudermes:0 "Take Gudermes"
+ RAS_take_UrusMartan:0 "Take Urus-Martan"
+ RAS_take_Argun:0 "Take Argun"
  
 
 

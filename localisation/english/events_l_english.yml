@@ -345,6 +345,12 @@
  russia.16.a:0 "Send diplomats... NOW!"
  russia.17.t:0 "Ceasefire with Ingush rebels"
  russia.17.a:0 "Good job diplomats"
+ russia.23.t:0 "Hyperinflation"
+ russia.23.d:0 "The economic crisis in Russia has reached a critical point. After price liberalization, privatization, and the destruction of the Soviet planned system, the ruble is rapidly depreciating. In 1993, inflation has reached horrific proportions: prices are rising every day, wages are depreciating faster than they can be paid, and pensioners and the poor are on the brink of survival. Spontaneous protests break out on the streets of major cities, and confidence in Yeltsin's government is plummeting. The country is facing the worst economic disaster in its history."
+ russia.23.a:0 "Bad news"
+ russia.24.t:0 "Closure of enterprises"
+ russia.24.d:0 "The collapse of the Soviet Union destroyed the unified economic system that had linked the republics into a single economic network. Thousands of factories and plants, deprived of supplies of raw materials, components and markets, were unable to continue working. Industrial giants are idle, workers are quitting en masse or not receiving wages for months. City-forming enterprises are closing, entire regions are plunging into depression, and social discontent is growing. The former Soviet republics are pursuing their own policies, refusing to fulfill their previous obligations, which only intensifies the crisis. Russia is entering a period of severe trials."
+ russia.24.a:0 "Bad news"
 
  generic.1.t:0 "Mod Supports Current Pro-Western Protest in Georgia!"
  generic.1.d:0 "\n since 2024 Parliamentary Election got Rigged Protest started in Georgia, first it was small but in November 28th Government (Georgian Dream party (GD)) Suspended Talks with EU until 2028 which Caused Massive Radical Protest which calm downed in few weeks, tho Protest continues till this day and GD is Becoming More Authoritarian and Pro-Russian as they arrested students just for facebook post where Students called GD Pro-Russian and GD Arrested 4 Opposition Leaders in just 2 days. \n"
