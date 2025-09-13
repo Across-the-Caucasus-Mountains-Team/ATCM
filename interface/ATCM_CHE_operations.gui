@@ -38,10 +38,99 @@ guiTypes = {
 			clicksound = click_close
 			shortcut = "ESCAPE"
 		}
+
+		buttonType = {
+			name = "button_caucasus_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 385 y = 145 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+		}
+
+		buttonType = {
+			name = "button_moscow_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 385 y = 545 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+		}
     }
 
 	containerWindowType = {
-		name = "CHE_operations_region_selected_window"
+		name = "CHE_caucasus_region_selected_window"
+		size = { width = 1500 height = 900 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHE_operations_outside_chechnya_background"
+		}
+
+		buttonType = {
+			name = "close_operations_outside_button"
+			position = { x = 1447 y = 22 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+    }
+
+	containerWindowType = {
+		name = "CHE_dagestan_region_selected_window"
+		size = { width = 1500 height = 900 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHE_operations_outside_chechnya_background"
+		}
+
+		buttonType = {
+			name = "close_operations_outside_button"
+			position = { x = 1447 y = 22 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+    }
+
+	containerWindowType = {
+		name = "CHE_starvopol_region_selected_window"
+		size = { width = 1500 height = 900 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_CHE_operations_outside_chechnya_background"
+		}
+
+		buttonType = {
+			name = "close_operations_outside_button"
+			position = { x = 1447 y = 22 }
+			quadTextureSprite = "GFX_closebutton"
+			pdx_tooltip = "CLOSE"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+		}
+    }
+
+	containerWindowType = {
+		name = "CHE_ingushetia_and_north_ossetia_region_selected_window"
 		size = { width = 1500 height = 900 }
 		position = { x = 0 y = 0 }
 		orientation = center

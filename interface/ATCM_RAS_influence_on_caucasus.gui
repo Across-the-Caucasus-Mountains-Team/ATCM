@@ -1,0 +1,63 @@
+guiTypes = {
+	containerWindowType = {
+		name = "RAS_influence_on_caucasus_decision_window"
+		size = { width = 345 height = 220 }
+		position = { x = 0 y = 0 }
+
+		iconType = {
+			name = "Georgia_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Azerbaijan_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Armenia_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Chechnya_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Abkhazia_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "South_Ossetia_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Adjaria_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Karabakh_influence_on_caucasus_icon"
+			position = { x = 248 y = 448 }
+			spriteType = "GFX_Urus_Martonovsky_State"
+			alwaystransparent = yes
+		}
+    }
+}

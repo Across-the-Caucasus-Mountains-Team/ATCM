@@ -2620,7 +2620,7 @@ focus_tree = {
 		available = {
 			OR = { 
 				has_completed_focus = CHE_irregular_forces
-				casualties > 30000
+				casualties > 32500
 			}
 		}
 		
@@ -3261,7 +3261,7 @@ focus_tree = {
             }
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
+                    var = RAS_russian_infowar_value
                     value = 5
                 }
 				clamp_variable = {
@@ -3276,7 +3276,7 @@ focus_tree = {
                 }
 				RAS = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
+                        var = CHE_chechen_infowar_value
                         value = 5
                     }
 					subtract_from_variable = {
@@ -3335,7 +3335,7 @@ focus_tree = {
             }
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
+                    var = RAS_russian_infowar_value
                     value = 5
                 }
 				clamp_variable = {
@@ -3350,7 +3350,7 @@ focus_tree = {
                 }
 				RAS = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
+                        var = CHE_chechen_infowar_value
                         value = 5
                     }
 					subtract_from_variable = {
@@ -3526,7 +3526,7 @@ focus_tree = {
             }
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
+                    var = RAS_russian_infowar_value
                     value = 5
                 }
 				clamp_variable = {
@@ -3541,7 +3541,7 @@ focus_tree = {
                 }
 				RAS = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
+                        var = CHE_chechen_infowar_value
                         value = 5
                     }
 					subtract_from_variable = {
@@ -3601,7 +3601,7 @@ focus_tree = {
             }
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
+                    var = RAS_russian_infowar_value
                     value = 5
                 }
 				clamp_variable = {
@@ -3616,7 +3616,7 @@ focus_tree = {
                 }
 				RAS = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
+                        var = CHE_chechen_infowar_value
                         value = 5
                     }
 					subtract_from_variable = {
@@ -3676,7 +3676,7 @@ focus_tree = {
             }
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
+                    var = RAS_russian_infowar_value
                     value = 5
                 }
 				clamp_variable = {
@@ -3691,7 +3691,7 @@ focus_tree = {
                 }
 				RAS = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
+                        var = CHE_chechen_infowar_value
                         value = 5
                     }
 					subtract_from_variable = {
@@ -3755,7 +3755,7 @@ focus_tree = {
             }
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
+                    var = RAS_russian_infowar_value
                     value = 5
                 }
 				clamp_variable = {
@@ -3770,7 +3770,7 @@ focus_tree = {
                 }
 				RAS = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
+                        var = CHE_chechen_infowar_value
                         value = 5
                     }
 					subtract_from_variable = {
@@ -3829,7 +3829,7 @@ focus_tree = {
             }
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
+                    var = RAS_russian_infowar_value
                     value = 5
                 }
 				clamp_variable = {
@@ -3844,7 +3844,7 @@ focus_tree = {
                 }
 				RAS = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
+                        var = CHE_chechen_infowar_value
                         value = 5
                     }
 					subtract_from_variable = {
@@ -3879,7 +3879,10 @@ focus_tree = {
 		}
 		
 		available = {
-			has_completed_focus = CHE_Aftermath_of_Chechen_revolution
+			OR = {
+				has_completed_focus = CHE_build_secular_state
+                has_completed_focus = CHE_build_islamic_state
+			}
 		}
 		
 		bypass = {
@@ -5968,6 +5971,72 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = CHE_victory_of_mashadov}
 		relative_position_id = CHE_victory_of_mashadov
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.5
+			add_political_power = 25
+		}	
+	}
+
+	focus = {
+		id = CHE_rebuilidng_of_our_country
+		icon = GFX_Goal_CHE_National_Propaganda
+		x = -2
+		y = 1
+		prerequisite = { focus = CHE_victory_of_mashadov}
+		relative_position_id = CHE_victory_of_mashadov
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.5
+			add_political_power = 25
+		}	
+	}
+
+	focus = {
+		id = CHE_crime_issue
+		icon = GFX_Goal_CHE_National_Propaganda
+		x = 0
+		y = 1
+		prerequisite = { focus = CHE_rebuilidng_of_our_country}
+		relative_position_id = CHE_rebuilidng_of_our_country
 		cost = 15
 		
 		ai_will_do = {
