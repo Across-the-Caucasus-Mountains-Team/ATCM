@@ -2051,6 +2051,8 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1750
 			}
+			unlock_decision_tooltip = CHE_restore_damaged_russian_tanks
+			unlock_decision_tooltip = CHE_restore_damaged_russian_ifv
 		}	
 	}
 
@@ -3069,6 +3071,7 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_manpower = -9800
+			unlock_decision_tooltip = CHE_strengthen_dudayev_security
 		}	
 	}
 
@@ -3217,6 +3220,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_stability = 0.05
+			add_popularity = {ideology = nationalism Popularity = 0.05}
 		}	
 	}
 
@@ -3250,6 +3254,47 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 
@@ -3283,6 +3328,47 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.05
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 
@@ -3358,6 +3444,47 @@ focus_tree = {
 				remove_idea = CHE_wartime_propaganda
 				add_idea = CHE_wartime_propaganda_two
 			}
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 
@@ -3392,6 +3519,47 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.025
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 
@@ -3426,6 +3594,47 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.025
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 
@@ -3460,6 +3669,47 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.025
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 
@@ -3498,6 +3748,47 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.025
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 
@@ -3531,6 +3822,47 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.05
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
 		}	
 	}
 

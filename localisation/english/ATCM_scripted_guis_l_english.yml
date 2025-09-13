@@ -27,3 +27,4 @@
   RUS_Infowar:0 "§Y[?RAS_russian_infowar_value|%%]§!"
   CHE_Infowar:0 "§Y[?CHE_chechen_infowar_value|%%]§!"
   add_to_russian_infowar_tt:0 "§YIncrease our influence in the information war§!"
+  add_to_chechen_infowar_tt:0 "§YIncrease our influence in the information war§!"
