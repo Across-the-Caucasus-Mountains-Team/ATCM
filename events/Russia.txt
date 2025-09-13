@@ -73,7 +73,7 @@ country_event = {
 	id = russia.4
 	title = russia.4.t
 	desc = russia.4.d
-	picture = GFX_Report_event_SAK_Zviad_Speech
+	picture = GFX_Report_event_RAS_failed_blitz
 
 	is_triggered_only = yes
 
@@ -514,5 +514,36 @@ country_event = {
 		name = russia.24.a
 		add_political_power = -25
 		add_stability = -0.05
+	}
+}
+
+#The War dragged on
+country_event = {
+	id = russia.25
+	title = russia.25.t
+	desc = russia.25.d
+	picture = GFX_Report_event_RAS_failed_blitz
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.25.a
+		custom_effect_tooltip = 17_RAS_tt
+		set_country_flag = TheWarDraggedOn
+	}
+}
+
+#The military does not support reforms
+country_event = {
+	id = russia.26
+	title = russia.26.t
+	desc = russia.26.d
+	picture = GFX_Report_event_RAS_failed_blitz
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.26.a
+		add_political_power = -15
 	}
 }

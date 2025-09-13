@@ -111,6 +111,10 @@
  RAS_support_south_russian_economy_desc:0 "Support South Russian economy, the government will provide financial support to the South Regions of Russia, which has been struggling to recover from the economic crisis in the late 1990s."
  RAS_expand_factories_in_krasnodar:0 "Expand factories in Krasnodar"
  RAS_support_dagestani_industry:0 "Support Dagestani industry"
+ RAS_the_war_dragged_on:0 "The war dragged on"
+ RAS_the_war_dragged_on_desc:0 "The military operation in Chechnya was expected to be swift and decisive, but the resistance has proven far more fierce. Chechen armed formations continue to hold key settlements, wage guerrilla warfare in the mountains, and refuse any negotiations that would involve surrendering positions and Russian troops are suffering heavy losses."
+ RAS_additional_special_forces:0 "Additional Spetnaz"
+
 
  soviet_republic:0 "Soviet Republic"
  1_RAS_tt:0 "§GYou will reduce separatist sentiments§!"
@@ -143,6 +147,9 @@
  russia.22.t:0 "A voice against war"
  russia.22.d:0 "Mass anti-war rallies have erupted in Russia’s largest cities, opposing the ongoing military campaign in Chechnya. Thousands have taken to the streets of Moscow, St. Petersburg, Nizhny Novgorod, and other urban centers, demanding an immediate ceasefire and the start of peace negotiations. Among the protesters are opposition politicians, human rights activists, cultural figures, and ordinary citizens outraged by the scale of destruction and civilian casualties. Despite government attempts to restrict demonstrations and arrest prominent organizers, the protest movement is gaining momentum, posing a serious challenge to the Kremlin’s domestic policy."
  russia.22.a:0 "Crack down on protests"
+ russia.25.t:0 "The war dragged on"
+ russia.25.d:0 "The military operation in Chechnya was expected to be swift and decisive, but the resistance has proven far more fierce. Chechen armed formations continue to hold key settlements, wage guerrilla warfare in the mountains, and refuse any negotiations that would involve surrendering positions. Russian troops are suffering heavy losses, public opinion at home is becoming increasingly negative, and the international community is expressing concern about the escalation of the conflict. The Kremlin must choose a strategy: to toughen military measures or seek a compromise."
+ russia.25.a:0 "The Chechens asked for it themselves"
 
 
  Dudayev_is_dead:0 "§RDudayev is dead§!"

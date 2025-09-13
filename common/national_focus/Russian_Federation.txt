@@ -163,6 +163,9 @@ focus_tree = {
 
 		completion_reward = {
 	        army_experience = 50
+			hidden_effect = {
+				mark_focus_tree_layout_dirty = yes
+			}
 		}
 	}
 
@@ -200,6 +203,227 @@ focus_tree = {
 
 		completion_reward = {
 	        army_experience = 50
+		}
+	}
+
+	focus = {
+		id = RAS_lessons_of_the_first_chechen_war
+		icon = GFX_focus_generic_modernize_industry
+		x = 16
+		y = 0
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+
+		allow_branch = {
+			has_completed_focus = RAS_victory
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 25
+		}
+	}
+
+	focus = {
+		id = RAS_measures_to_ensure_military_construction
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_lessons_of_the_first_chechen_war }
+		x = 0
+		y = 1
+		relative_position_id = RAS_lessons_of_the_first_chechen_war
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 25
+		}
+	}
+
+	focus = {
+		id = RAS_new_minister_of_defense
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_measures_to_ensure_military_construction }
+		x = 0
+		y = 2
+		relative_position_id = RAS_lessons_of_the_first_chechen_war
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 25
+		}
+	}
+
+	focus = {
+		id = RAS_optimization_of_expenses_in_the_armed_forces
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_new_minister_of_defense }
+		x = 0
+		y = 3
+		relative_position_id = RAS_lessons_of_the_first_chechen_war
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 25
+			hidden_effect = {
+				country_event = russia.26
+			}
+		}
+	}
+
+	focus = {
+		id = RAS_optimization_of_expenses_in_the_aviation
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_new_minister_of_defense }
+		x = -2
+		y = 3
+		relative_position_id = RAS_lessons_of_the_first_chechen_war
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 25
+		}
+	}
+
+	focus = {
+		id = RAS_optimization_of_expenses_in_the_navy_fleet
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_new_minister_of_defense }
+		x = 2
+		y = 3
+		relative_position_id = RAS_lessons_of_the_first_chechen_war
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        army_experience = 25
 		}
 	}
 
@@ -508,6 +732,47 @@ focus_tree = {
 			unlock_decision_tooltip = RAS_conduct_sharoi_cleanups
 			unlock_decision_tooltip = RAS_conduct_itum_calinsky_cleanups
 			unlock_decision_tooltip = RAS_conduct_shatoysky_cleanups
+		}
+	}
+
+	focus = {
+		id = RAS_the_war_dragged_on
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { Focus = RAS_conduct_mountain_cleanups }
+		prerequisite = { Focus = RAS_additional_infantry_battalions }
+		prerequisite = { Focus = RAS_additional_shipments_to_the_cto_zone }
+		prerequisite = { Focus = RAS_additional_special_forces }
+		prerequisite = { Focus = RAS_liquidation_of_the_main_terrorist }
+		relative_position_id = RAS_attack_grozny
+		x = -1
+		y = 4
+
+		cost = 15
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+			date > 1996.01.02
+			casualties_k > 50
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+	        country_event = russia.25
 		}
 	}
 
@@ -2432,6 +2697,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -3553,7 +3819,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+		    date > 1995.01.01
 		}
 		
 		bypass = {

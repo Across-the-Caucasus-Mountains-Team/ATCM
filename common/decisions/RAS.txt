@@ -1042,7 +1042,8 @@ RAS_first_chechen_war_decision = {
 		available = {		
 		    tag = RAS
 			has_global_flag = FirstChechenWar
-			casualties_k > 40
+			has_country_flag = TheWarDraggedOn
+			casualties_k > 55
 		}
 	    
 		visible = {
@@ -1051,7 +1052,7 @@ RAS_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            set_country_flag = AcceptNuclearStrike
+            set_country_flag = TakeToughMeasures
 			custom_effect_tooltip = 17_RAS_tt
 		}
 
@@ -1075,11 +1076,40 @@ RAS_first_chechen_war_decision = {
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
-			has_country_flag = AcceptNuclearStrike
+			has_country_flag = TakeToughMeasures
 		}
 
 		complete_effect = {
             custom_effect_tooltip = 18_RAS_tt
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+	}
+
+	RAS_begin_partial_mobilization = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 175
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			casualties_k > 120
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_country_flag = TakeToughMeasures
+		}
+
+		complete_effect = {
+            custom_effect_tooltip = 18_RAS_tt
+			load_oob = RAS_infantry_battalions_first_chechen_war
+			load_oob = RAS_infantry_battalions_first_chechen_war
 		}
 
 		ai_will_do = {
