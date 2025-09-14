@@ -113,6 +113,8 @@
  6_CHE_tt:0 "§RIslamists will become more radical§!"
  7_CHE_tt:0 "§YOpens up the possibility of §!§R"Disrupte Supplies"§!§Y in §!§Rthe General Staff§!"
  8_CHE_tt:0 "§YYou will strengthen Dudayev's security§!"
+ 9_CHE_tt:0 "§YIn case of war you will have buffs in Grozny§!"
+
  
  drove_out_the_russians:0 "Drove out the Russians"
 
@@ -142,6 +144,7 @@
  CHE_strengthen_dudayev_security:0 "Strengthen Dudayev's security"
  CHE_restore_damaged_russian_ifv:0 "Restore damaged Russian IFVs"
  CHE_restore_damaged_russian_tanks:0 "Restore damaged Russian tanks"
+ CHE_prepare_defence_in_grozny:0 "Prepare defence in Grozny"
 
 
 

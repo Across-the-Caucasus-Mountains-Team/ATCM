@@ -901,4 +901,42 @@ CHE_stability_of_republic_decision = {
 		}
 	}
 
+	CHE_prepare_defence_in_grozny = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = no
+		
+		available = {		
+		    tag = CHE
+		}
+	    
+		visible = {
+			tag = CHE
+			has_completed_focus = CHE_russian_threat
+			NOT = {
+			    has_global_flag = FirstChechenWar
+		    }
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = 9_CHE_tt
+            set_country_flag = PreparedDefenceGrozny
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+				state = 20
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
 }

@@ -20,6 +20,10 @@
   general_staff_strengthening_the_defense:0 "Start strengthening the defense"
   general_staff_start_defensive_actions:0 "Start defensive actions"
   general_staff_begin_offensive_actions:0 "Begin offensive actions"
+  
+  increase_influence_in_georgia_tt:0 ""
+
+ 
 
   ## Information Warfare
   CHECHEN_INFOWAR_VALUE:0 "Chechen Infowar Value: §Y[?CHE_chechen_infowar_value|%%]§!"

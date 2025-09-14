@@ -1640,7 +1640,7 @@ focus_tree = {
 		cost = 10
 		
 		ai_will_do = {
-			factor = 100
+			factor = 80
 		}
 		
 		available = {
@@ -1946,7 +1946,7 @@ focus_tree = {
 		cost = 10
 		
 		ai_will_do = {
-			factor = 100
+			factor = 110
 		}
 		
 		available = {
@@ -1981,7 +1981,7 @@ focus_tree = {
 		cost = 15
 		
 		ai_will_do = {
-			factor = 100
+			factor = 120
 		}
 		
 		available = {
@@ -2019,7 +2019,7 @@ focus_tree = {
 		cost = 15
 		
 		ai_will_do = {
-			factor = 100
+			factor = 120
 		}
 		
 		available = {
@@ -3235,7 +3235,7 @@ focus_tree = {
 		cost = 10
 		
 		ai_will_do = {
-			factor = 100
+			factor = 80
 		}
 		
 		available = {
@@ -4603,9 +4603,9 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 25
 			add_war_support = 0.05
 			add_stability = 0.025
+			add_political_power = 25
 		}	
 	}
 
@@ -4688,6 +4688,7 @@ focus_tree = {
 				var = cash
 				value = 25
 			}
+			remove_ideas = CHE_language_issue
 		}	
 	}
 
@@ -5017,8 +5018,8 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 50
 			add_stability = 0.075
+			add_political_power = 50
 			custom_effect_tooltip = cash_balance_minus_15_tt
 			add_to_variable = {
 				var = cash
@@ -5351,6 +5352,41 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 1500
 			army_experience = 25
+		}	
+	}
+
+	focus = {
+		id = CHE_russian_threat
+		icon = GFX_CHE_Economy_question
+		x = 0
+		y = 2
+		relative_position_id = CHE_the_situation_is_getting_out_of_control
+		prerequisite = { focus = CHE_raise_the_national_guard }
+		
+		cost = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+            unlock_decision_tooltip = CHE_prepare_defence_in_grozny
 		}	
 	}
 
@@ -5747,7 +5783,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
-			add_popularity = {ideology = Nationalism Popularity = 0.1}
+			add_popularity = {ideology = Nationalism Popularity = 0.05}
 			add_timed_idea = {
 				idea = CHE_Nationalist_Propagandas_idea
 				days = 1460
