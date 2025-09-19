@@ -145,6 +145,8 @@
  CHE_restore_damaged_russian_ifv:0 "Restore damaged Russian IFVs"
  CHE_restore_damaged_russian_tanks:0 "Restore damaged Russian tanks"
  CHE_prepare_defence_in_grozny:0 "Prepare defence in Grozny"
+ CHE_nationalization_of_pharmaceutical_companies:0 "Nationalization of Pharmaceutical Companies"
+ CHE_transporting_medicines_from_abroad:0 "Transporting medicines from abroad"
 
 
 
@@ -224,7 +226,9 @@
   chechnya.25.t:0 "Russia imposes embargo"
   chechnya.25.d:0 "In response to the mass deportation and exodus of the Russian-speaking population from the territory of the Chechen Republic of Ichkeria, the Russian leadership has declared a full economic embargo. Trade and transport links with Russia are cut off, deliveries of fuel, food, and industrial goods have been halted. Russian banks have frozen accounts, and federal agencies are warning foreign governments about the "illegitimacy" of the Chechen government. The economic situation in the republic is rapidly deteriorating. Shortages of essential goods are already being felt, and the risk of unrest is growing."
   chechnya.25.a:0 "Damn"  
-
+  chechnya.26.t:0 "Healthcare crisis"
+  chechnya.26.d:0 "Following the collapse of the USSR and the severing of previous economic ties, the Chechen Republic of Ichkeria found itself in a dire situation. Medical facilities lost their centralized drug supply, and warehouses quickly emptied. In 1992, the drug shortage became critical: doctors were unable to perform surgeries, many hospitals were operating with outdated equipment, and patients were dying from diseases that were previously easily treatable. The public demanded urgent action, as the lack of access to essential medications was undermining trust in the young republic and fueling public discontent."
+  chechnya.26.a:0 "Bad news"
 
  CHE_Unrecognized_Country:0 "Unrecognized Country"
  CHE_Unrecognized_Country_desc:0 "\n\n\n\n£GFX_idea_unrecognized_country_desc_photo\n\n\n\n\n\n\n  Nobody sees us as independent..."

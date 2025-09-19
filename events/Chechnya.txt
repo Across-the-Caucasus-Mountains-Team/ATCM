@@ -604,3 +604,23 @@ country_event = {
         }
 	}
 }
+
+#Drug shortage crisis
+country_event = {
+	id = chechnya.26
+	title = chechnya.26.t
+	desc = chechnya.26.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = chechnya.26.a
+		add_ideas = CHE_drug_shortage_crisis_idea
+		unlock_decision_tooltip = CHE_nationalization_of_pharmaceutical_companies
+	}
+}

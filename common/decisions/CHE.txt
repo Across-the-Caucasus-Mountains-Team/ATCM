@@ -906,7 +906,7 @@ CHE_stability_of_republic_decision = {
 		icon = GFX_decision_generic_soldie
 
         cost = 75
-		fire_only_once = no
+		fire_only_once = yes
 		
 		available = {		
 		    tag = CHE
@@ -936,6 +936,60 @@ CHE_stability_of_republic_decision = {
 			}
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
+		}
+	}
+
+	CHE_nationalization_of_pharmaceutical_companies = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+		}
+	    
+		visible = {
+			tag = CHE
+			has_idea = CHE_drug_shortage_crisis_idea
+		}
+
+		complete_effect = {
+            swap_ideas = {
+                remove_idea = CHE_drug_shortage_crisis_idea
+                add_idea = CHE_drug_shortage_crisis_idea_2
+            }
+			unlock_decision_tooltip = CHE_transporting_medicines_from_abroad
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+
+	CHE_transporting_medicines_from_abroad = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 50
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+		}
+	    
+		visible = {
+			tag = CHE
+			has_idea = CHE_drug_shortage_crisis_idea_2
+		}
+
+		complete_effect = {
+            remove_ideas = CHE_drug_shortage_crisis_idea_2
+		}
+
+		ai_will_do = {
+			factor = 50		
 		}
 	}
 

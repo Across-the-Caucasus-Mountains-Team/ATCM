@@ -1220,6 +1220,10 @@ focus_tree = {
 					id = chechnya.24
 					days = 65
 				}
+				country_event = {
+					id = chechnya.24
+					days = 361
+				}
 			}
 		}	
 	}
@@ -4683,12 +4687,12 @@ focus_tree = {
 			add_political_power = 25
 			add_stability = 0.05
 			add_war_support = 0.025
+			remove_ideas = CHE_language_issue
 			custom_effect_tooltip = cash_balance_minus_25_tt
 			subtract_from_variable = {
 				var = cash
 				value = 25
 			}
-			remove_ideas = CHE_language_issue
 		}	
 	}
 
@@ -4991,9 +4995,7 @@ focus_tree = {
 		id = CHE_Economy_question
 		icon = GFX_CHE_Economy_question
 		x = -3
-		y = 5
-		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_Total_Control_has_achived }
+		y = 0
 		
 		cost = 45
 		
@@ -5004,6 +5006,16 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_global_flag = FirstChechenWar
+			}
+			OR = {
+				has_completed_focus = CHE_build_secular_state
+				has_completed_focus = CHE_build_islamic_state
+			}
+		}
+
+		allow_branch = {
+			NOT = {
+				has_global_flag = AfterFirstChechenWar
 			}
 		}
 		
@@ -5285,7 +5297,7 @@ focus_tree = {
 	focus = {
 		id = CHE_the_situation_is_getting_out_of_control
 		icon = GFX_CHE_Economy_question
-		x = 3
+		x = 0
 		y = 5
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Total_Control_has_achived }

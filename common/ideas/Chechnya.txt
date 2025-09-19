@@ -602,5 +602,47 @@ ideas = {
                 consumer_goods_factor = 0.25				
 			}
 		}
+
+		CHE_drug_shortage_crisis_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_drug_shortage_crisis_idea
+			
+			modifier = {
+				monthly_population = -0.25	
+                stability_factor = -0.15
+				weekly_manpower = -75		
+			}
+		}
+
+		CHE_drug_shortage_crisis_idea_2 = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GCHE_drug_shortage_crisis_idea
+			
+			modifier = {
+				monthly_population = -0.15	
+                stability_factor = -0.05
+				weekly_manpower = -25		
+			}
+		}
 	}
 }

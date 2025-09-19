@@ -56,6 +56,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_CHE_drug_shortage_crisis_idea"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_drug_shortage_crisis_idea.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_state_of_emergency"
+		textureFile = "/gfx/interface/ideas/state_of_emergency.png"
+	}
+
+	spriteType = {
 		name = "GFX_idea_state_of_emergency"
 		textureFile = "/gfx/interface/ideas/state_of_emergency.png"
 	}
