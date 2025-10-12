@@ -310,7 +310,7 @@ focus_tree = {
 	focus = {
 		id = CHE_build_islamic_state
 		icon = GFX_CHE_build_islamic_state
-		x = 11
+		x = 12
 		y = 5
 		prerequisite = { focus = CHE_hold_elections }
 		mutually_exclusive = { focus = CHE_build_secular_state }
@@ -929,6 +929,39 @@ focus_tree = {
 	}
 
 	focus = {
+		id = CHE_spread_islam_on_caucasus
+		icon = GFX_Goal_unknow
+		x = 2
+		y = 2
+		prerequisite = { focus = CHE_support_cherkesky_rebels }
+		relative_position_id = CHE_antirussian_propaganda
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
+		}	
+	}
+
+	focus = {
 		id = CHE_organize_raids
 		icon = GFX_Goal_unknow
 		x = 0
@@ -998,6 +1031,144 @@ focus_tree = {
                 target = RAS
                 type = annex_everything
             }
+		}	
+	}
+
+	focus = {
+		id = CHE_call_upon_all_muslims
+		icon = GFX_Goal_unknow
+		x = -4
+		y = 4
+		prerequisite = { focus = CHE_organize_raids }
+		prerequisite = { focus = CHE_capture_georgia }
+		relative_position_id = CHE_antirussian_propaganda
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
+			add_ideas = CHE_holy_jihad_against_russia_idea
+			declare_war_on = {
+                target = RAS
+                type = annex_everything
+            }
+		}	
+	}
+
+	focus = {
+		id = CHE_support_azerbajani_radicals
+		icon = GFX_Goal_unknow
+		x = -4
+		y = 1
+		prerequisite = { focus = CHE_ideas_of_caucasian_chaliphate }
+		relative_position_id = CHE_ideas_of_caucasian_chaliphate
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
+		}	
+	}
+
+	focus = {
+		id = CHE_secret_deliveries_to_azerbajani_radicals
+		icon = GFX_Goal_unknow
+		x = -1
+		y = 1
+		prerequisite = { focus = CHE_support_azerbajani_radicals }
+		relative_position_id = CHE_support_azerbajani_radicals
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
+		}	
+	}
+
+	focus = {
+		id = CHE_send_basayev
+		icon = GFX_Goal_unknow
+		x = 1
+		y = 1
+		prerequisite = { focus = CHE_support_azerbajani_radicals }
+		relative_position_id = CHE_support_azerbajani_radicals
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
 		}	
 	}
 	
@@ -4450,7 +4621,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-			add_to_variable = { CHE_wcaf_army_attack_factor = 0.05 }
+			add_to_variable = { CHE_wcaf_army_attack_factor = 0.075 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
 			custom_effect_tooltip = cash_balance_minus_65_tt

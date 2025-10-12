@@ -1109,6 +1109,14 @@ focus_tree = {
 			factor = 100
 		}
 
+		allow_branch = {
+			NOT = {
+                CHE = {
+					has_completed_focus = CHE_build_islamic_state
+				}
+			}
+		}
+
 		available = {
 		    has_completed_focus = RAS_attack_grozny
 		}
@@ -3261,7 +3269,9 @@ focus_tree = {
 		}
 		
 		bypass = {
-
+            CHE = {
+				has_completed_focus = CHE_holy_jihad_against_russia
+			}
 		}
 
 		cancel_if_invalid = yes
@@ -3297,11 +3307,11 @@ focus_tree = {
 		}
 
 		available = {
-			
+			date > 1993.10.05
 		}
 		
 		bypass = {
-
+ 
 		}
 
 		allow_branch = {
