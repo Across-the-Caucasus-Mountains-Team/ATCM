@@ -136,6 +136,26 @@ ideas = {
 			}
 		}
 
+		RAS_improved_logistic = {
+			
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = SAK_military_propaganda_idea
+			
+			modifier = {
+				supply_factor = 0.25
+				army_org_regain = 0.05
+			}
+		}
+
 		RAS_big_criminality = {
 			
 			allowed = {

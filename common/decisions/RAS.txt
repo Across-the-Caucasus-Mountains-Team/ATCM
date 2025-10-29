@@ -1033,6 +1033,34 @@ RAS_first_chechen_war_decision = {
 		}
 	}
 
+	RAS_improve_logistic = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 150
+		fire_only_once = yes
+		
+		available = {		
+		    tag = RAS
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_move_south_chechnya
+		}
+
+		complete_effect = {
+            add_timed_idea = {
+                idea = RAS_improved_logistic
+                days = 180
+            }
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+	}
+
 	RAS_take_tough_measures = {
 
 		icon = GFX_decision_generic_soldie

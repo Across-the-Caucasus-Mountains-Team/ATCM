@@ -693,6 +693,7 @@ focus_tree = {
 			16 = {
                 add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
             }
+			unlock_decision_tooltip = RAS_improve_logistics
 		}
 	}
 
@@ -1110,6 +1111,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+			has_global_flag = Fail_Blitz_First_ChechenWar
 			NOT = {
                 CHE = {
 					has_completed_focus = CHE_build_islamic_state

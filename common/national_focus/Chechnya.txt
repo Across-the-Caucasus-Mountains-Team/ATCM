@@ -514,6 +514,74 @@ focus_tree = {
 	}
 
 	focus = {
+		id = CHE_connections_with_islamists_around_the_world
+		icon = GFX_Goal_unknow
+		x = 1
+		y = 2
+		prerequisite = { focus = CHE_establish_a_sharia_police_force }
+		relative_position_id = CHE_sharia_laws
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.075
+			add_popularity = {ideology = islam Popularity = 0.05}
+		}	
+	}
+
+	focus = {
+		id = CHE_investments_of_islamic_countries
+		icon = GFX_Goal_unknow
+		x = 1
+		y = 3
+		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
+		relative_position_id = CHE_sharia_laws
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.075
+			add_popularity = {ideology = islam Popularity = 0.05}
+		}	
+	}
+
+	focus = {
 		id = CHE_islamization_of_the_army
 		icon = GFX_Goal_unknow
 		x = -2
@@ -662,9 +730,9 @@ focus_tree = {
 		icon = GFX_Goal_unknow
 		x = 0
 		y = 4
-		prerequisite = { focus = CHE_establish_the_guard_of_allah }
-		prerequisite = { focus = CHE_ismalist_propaganda }
-		prerequisite = { focus = CHE_establish_a_sharia_police_force }
+		prerequisite = { focus = CHE_hold_ingushetia }
+		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
+		prerequisite = { focus = CHE_foreign_islamic_volunteers }
 		relative_position_id = CHE_build_islamic_state
 		
 		cost = 10
@@ -1002,6 +1070,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = CHE_organize_raids }
 		prerequisite = { focus = CHE_capture_georgia }
+		prerequisite = { focus = CHE_islamic_uprising_in_azerbaijan }
 		relative_position_id = CHE_antirussian_propaganda
 		
 		cost = 10
@@ -1064,12 +1133,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_popularity = {ideology = islam Popularity = 0.05}
-			add_ideas = CHE_holy_jihad_against_russia_idea
-			declare_war_on = {
-                target = RAS
-                type = annex_everything
-            }
+			add_manpower = 75000
 		}	
 	}
 
@@ -1135,7 +1199,10 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_popularity = {ideology = islam Popularity = 0.05}
+			add_war_support = 0.05
+			AZR = {
+				add_popularity = {ideology = islam Popularity = 0.05}
+			}
 		}	
 	}
 
@@ -1169,6 +1236,82 @@ focus_tree = {
 		
 		completion_reward = {
 			add_popularity = {ideology = islam Popularity = 0.05}
+			AZR = {
+				add_popularity = {ideology = islam Popularity = 0.05}
+			}
+		}	
+	}
+
+	focus = {
+		id = CHE_islamic_uprising_in_azerbaijan
+		icon = GFX_Goal_unknow
+		x = 0
+		y = 2
+		prerequisite = { focus = CHE_secret_deliveries_to_azerbajani_radicals }
+		prerequisite = { focus = CHE_send_basayev }
+		relative_position_id = CHE_support_azerbajani_radicals
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
+			AZR = {
+				add_popularity = {ideology = islam Popularity = 0.05}
+			}
+		}	
+	}
+
+	focus = {
+		id = CHE_recapture_armenia
+		icon = GFX_Goal_unknow
+		x = 0
+		y = 3
+		prerequisite = { focus = CHE_islamic_uprising_in_azerbaijan }
+		relative_position_id = CHE_support_azerbajani_radicals
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			declare_war_on = {
+                target = ARM
+                type = annex_everything
+            }
 		}	
 	}
 	
@@ -1392,7 +1535,7 @@ focus_tree = {
 					days = 65
 				}
 				country_event = {
-					id = chechnya.24
+					id = chechnya.26
 					days = 361
 				}
 			}
@@ -6166,6 +6309,48 @@ focus_tree = {
 		available = {
 
 		}
+
+		offset = {
+			x = -3
+			y = 0
+			trigger = {
+				has_completed_focus = CHE_victory_of_mashadov
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.5
+			add_political_power = 25
+			mark_focus_tree_layout_dirty = yes		
+		}	
+	}
+
+	focus = {
+		id = CHE_unite_yesterday_enemies
+		icon = GFX_Goal_CHE_National_Propaganda
+		x = 1
+		y = 1
+		prerequisite = { focus = CHE_victory_of_mashadov}
+		relative_position_id = CHE_victory_of_mashadov
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
 		
 		bypass = {
 
@@ -6184,12 +6369,47 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHE_unite_yesterday_enemies
+		id = CHE_fulfill_their_demands
 		icon = GFX_Goal_CHE_National_Propaganda
 		x = 0
-		y = 1
-		prerequisite = { focus = CHE_victory_of_mashadov}
+		y = 2
+		prerequisite = { focus = CHE_unite_yesterday_enemies}
 		relative_position_id = CHE_victory_of_mashadov
+		mutually_exclusive = { focus = CHE_fight_with_them }
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.5
+			add_political_power = 25
+		}	
+	}
+
+	focus = {
+		id = CHE_fight_with_them
+		icon = GFX_Goal_CHE_National_Propaganda
+		x = 2
+		y = 2
+		prerequisite = { focus = CHE_unite_yesterday_enemies}
+		relative_position_id = CHE_victory_of_mashadov
+		mutually_exclusive = { focus = CHE_fulfill_their_demands }
 		cost = 15
 		
 		ai_will_do = {

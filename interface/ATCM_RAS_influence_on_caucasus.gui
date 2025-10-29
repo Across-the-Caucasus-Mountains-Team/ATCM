@@ -7,56 +7,56 @@ guiTypes = {
 		iconType = {
 			name = "Georgia_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_SAK_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Azerbaijan_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_AZR_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Armenia_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_ARM_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Chechnya_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Abkhazia_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "South_Ossetia_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Adjaria_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Karabakh_influence_on_caucasus_icon"
 			position = { x = 248 y = 448 }
-			spriteType = "GFX_Urus_Martonovsky_State"
+			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
     }

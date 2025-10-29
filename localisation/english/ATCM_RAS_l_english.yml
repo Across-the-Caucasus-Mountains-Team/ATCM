@@ -185,8 +185,12 @@
  RAS_take_Gudermes:0 "Take Gudermes"
  RAS_take_UrusMartan:0 "Take Urus-Martan"
  RAS_take_Argun:0 "Take Argun"
+ RAS_improve_logistics:0 "Improve logistics"
+
  
 
 
  #Ideas 
  RAS_awacs_reconnaissance:0 "AWACS reconnaissance"
+ RAS_improved_logistics:0 "Improved logistics"
+ RAS_big_criminality:0 "Big criminality"

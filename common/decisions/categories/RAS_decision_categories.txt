@@ -48,6 +48,7 @@ RAS_influence_on_caucasus_decision = {
         tag = RAS
 		has_completed_focus = RAS_return_influence_on_postsoviet_area 
 	}
+	scripted_gui = RAS_influence_on_caucasus_decision_window
 	visible_when_empty = yes
 }
 
