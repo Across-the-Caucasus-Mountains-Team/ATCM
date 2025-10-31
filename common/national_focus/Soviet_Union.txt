@@ -737,7 +737,7 @@ focus_tree = {
 		y = 8
 		prerequisite = { focus = RAS_novo_ogarevo_process }
 		
-		cost = 15
+		cost = 35
 		
 		ai_will_do = {
 			factor = 100
@@ -782,7 +782,7 @@ focus_tree = {
 		}
 		
 		available = {
-
+            always = no
 		}
 
 		allow_branch = {

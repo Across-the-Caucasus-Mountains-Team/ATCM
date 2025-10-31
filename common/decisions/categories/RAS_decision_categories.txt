@@ -127,3 +127,18 @@ RAS_third_chechen_war_decision = {
 	}
 	visible_when_empty = yes
 }
+
+RAS_elections_1996 = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_global_flag = ThirdChechenWar
+	}
+	visible_when_empty = yes
+}

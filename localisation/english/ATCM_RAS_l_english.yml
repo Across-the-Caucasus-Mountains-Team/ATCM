@@ -149,7 +149,14 @@
  russia.22.a:0 "Crack down on protests"
  russia.25.t:0 "The war dragged on"
  russia.25.d:0 "The military operation in Chechnya was expected to be swift and decisive, but the resistance has proven far more fierce. Chechen armed formations continue to hold key settlements, wage guerrilla warfare in the mountains, and refuse any negotiations that would involve surrendering positions. Russian troops are suffering heavy losses, public opinion at home is becoming increasingly negative, and the international community is expressing concern about the escalation of the conflict. The Kremlin must choose a strategy: to toughen military measures or seek a compromise."
+ russia.25.b:0 "Seek compromise"
  russia.25.a:0 "The Chechens asked for it themselves"
+ russia.27.t:0 "Russia before the elections"
+ russia.27.d:0 "After years of economic upheaval and war, Russia approached 1996 exhausted and divided. The people were tired of the chaos of reforms, wage arrears, and hopelessness. President Boris Yeltsin, having lost popularity, faced a powerful challenge from communists who dreamed of restoring the "order and stability" of Soviet times.Meanwhile, oligarchs, Western advisers, and generals were closely monitoring developments, as the outcome of the elections would determine whether Russia would pursue a path of reform or revenge."
+ russia.27.a:0 "Alright"
+ russia.28.t:0 "The Murder of Dmitry Kholodov"
+ russia.28.d:0 "Today, the country was shaken by tragic news. Well-known Moskovsky Komsomolets journalist Dmitry Kholodov, who was investigating military corruption and embezzlement during the Chechen campaign, died in his office after opening a suitcase brought to him "from a reliable source." An explosion tore through the office, and the crime was quickly covered up. The public is demanding an investigation, but military officials are rushing to deny any accusations. Behind the scenes, there are whispers that Kholodov was too close to revealing dangerous facts about arms trafficking and illegal supply chains. This death has become a symbol of how dangerous it has become to seek the truth in the new Russia."
+ russia.28.a:0 "We Need to Investigate"
 
 
  Dudayev_is_dead:0 "§RDudayev is dead§!"

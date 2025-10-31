@@ -2400,7 +2400,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = RAS_supporty_eltcin
 
-		cost = 15
+		cost = 35
 
 		ai_will_do = {
 			base = 5
@@ -2445,7 +2445,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+		    date > 1995.01.01
 		}
 		
 		bypass = {
@@ -2470,6 +2470,7 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 50
 			mark_focus_tree_layout_dirty = yes
+			country_event = russia.27
 		}
 	}
 
@@ -2490,7 +2491,7 @@ focus_tree = {
 		}
 
 		available = {
-		
+		    always = no
 		}
 		
 		bypass = {
@@ -2595,6 +2596,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 		    add_political_power = -50
+			custom_effect_tooltip = 19_RAS_tt
 			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
 				var = cash
@@ -2635,8 +2637,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_stability = 0.05
-		    add_political_power = -150
+			add_stability = 0.075
+		    add_political_power = -250
+			custom_effect_tooltip = 19_RAS_tt
 			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
 				var = cash
@@ -2717,6 +2720,11 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.075
 		    add_political_power = -75
+			custom_effect_tooltip = cash_balance_minus_500_tt
+			subtract_from_variable = {
+				var = cash
+				value = 500
+			}
 		}
 	}
 
@@ -3163,6 +3171,12 @@ focus_tree = {
 			add_war_support = 0.05
 			CHE = {
 				country_event = chechnya.7
+			}
+			hidden_effect = {
+				country_event = {
+					id = russia.28
+					days = 428
+				}
 			}
 		}
 	}

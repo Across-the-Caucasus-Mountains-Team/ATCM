@@ -545,5 +545,36 @@ country_event = {
 	option = {
 		name = russia.26.a
 		add_political_power = -15
+		add_war_support = -0.05
+	}
+}
+
+#Eltsin situation 1996
+country_event = {
+	id = russia.27
+	title = russia.27.t
+	desc = russia.27.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.27.a
+		add_political_power = 5
+	}
+}
+
+#The murder of Dmitry Kholodov
+country_event = {
+	id = russia.28
+	title = russia.28.t
+	desc = russia.28.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.28.a
+		add_political_power = 5
 	}
 }
