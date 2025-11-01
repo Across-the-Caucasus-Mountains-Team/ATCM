@@ -624,3 +624,23 @@ country_event = {
 		unlock_decision_tooltip = CHE_nationalization_of_pharmaceutical_companies
 	}
 }
+
+#Khatab's arrival
+country_event = {
+	id = chechnya.27
+	title = chechnya.27.t
+	desc = chechnya.27.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = chechnya.27.a
+	    set_country_flag = CHE_Khattab_Arrived
+		custom_effect_tooltip = 10_CHE_tt
+	}
+}

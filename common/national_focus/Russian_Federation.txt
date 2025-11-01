@@ -3472,6 +3472,19 @@ focus_tree = {
                     id = russia.22
                     days = 4
                 }
+				CHE = {
+                    if = {
+						limit = {
+							NOT = {
+                                has_completed_focus = CHE_build_islamic_state
+							}
+						}
+						country_event = {
+							id = chechnya.27
+							days = 32
+						}
+					}
+				}
 				124 = {
 					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
 				}

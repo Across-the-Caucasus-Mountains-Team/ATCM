@@ -804,7 +804,7 @@ focus_tree = {
 			add_political_power = -350
 			add_popularity = {
 				ideology = communism
-				popularity = -0.25
+				popularity = -0.35
 			}
 			add_popularity = {
 				ideology = liberalism

@@ -583,6 +583,39 @@ focus_tree = {
 	}
 
 	focus = {
+		id = SAK_what_are_we_going_to_do_next
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		relative_position_id = SAK_Contact_Shevardnadze
+		prerequisite = { focus = SAK_The_Large_Speech }
+		
+		cost = 20
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+            has_country_flag = WonInCivilWar
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.15
+		}	
+	}
+
+	focus = {
 		id = SAK_Ensure_Full_Control_on_Parliament
 		icon = GFX_Goal_SAK_Full_Control_on_Parliament
 		x = 5
@@ -1935,6 +1968,7 @@ focus_tree = {
 					    instant_build = yes
 				    }
 			    }
+				set_country_flag = WonInCivilWar
 			}
 		}	
 	}

@@ -1100,3 +1100,19 @@ country_event = {
 		}	
 	}
 }
+
+#Gamsahhurdia propaganda
+country_event = {
+	id = Georgia.53
+	title = Georgia.53.t
+	desc = Georgia.53.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.53.a
+		add_political_power = -50	
+		add_stability = -0.05
+	}
+}

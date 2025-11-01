@@ -544,6 +544,12 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.075
 			add_popularity = {ideology = islam Popularity = 0.05}
+			hidden_effect = {
+				country_event = {
+					id = chechnya.27
+					days = 22
+				}
+			}
 		}	
 	}
 
@@ -1874,7 +1880,17 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
-			add_manpower = 350
+			random_list = {
+                10 = {
+                    add_manpower = 100
+                }
+				15 = {
+                    add_manpower = 50
+                }
+                2 = {
+                    add_manpower = 600
+                }
+            }
 		}	
 	}
 
@@ -1894,7 +1910,7 @@ focus_tree = {
 		}
 		
 		available = {
-
+            has_country_flag = CHE_Khattab_Arrived
 		}
 		
 		bypass = {

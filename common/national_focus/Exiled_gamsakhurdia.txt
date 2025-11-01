@@ -92,7 +92,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = GUM_Speechs_for_zviadists_in_Georgia }
 		
-		cost = 5
+		cost = 15
 		
 		ai_will_do = {
 			factor = 100
@@ -217,8 +217,10 @@ focus_tree = {
 		
 		completion_reward = {
 		    SAK = {
-				add_stability = -0.05
-				add_political_power = -100
+				country_event = {
+					id = Georgia.53
+					days = 1
+				}
 			}
 		}	
 	}
@@ -318,7 +320,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = GUM_blame_Shevardnadze_Russophilia }
 		
-		cost = 5
+		cost = 10
 		
 		ai_will_do = {
 			factor = 100
@@ -340,8 +342,10 @@ focus_tree = {
 		
 		completion_reward = {
 		    SAK = {
-				add_stability = -0.05
-				add_war_support = -0.05
+				country_event = {
+					id = Georgia.53
+					days = 1
+				}
 			}
 		}	
 	}
