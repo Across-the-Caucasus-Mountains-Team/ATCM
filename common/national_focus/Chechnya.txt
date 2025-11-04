@@ -4345,7 +4345,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_Guerrilla_warfare
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_guerrilla_warfare
 		x = -2
 		y = 2
 		relative_position_id = CHE_Weak_military
@@ -4389,7 +4389,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_Small_groups_tactic
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_small_groups_tactics
 		x = -2
 		y = 3
 		relative_position_id = CHE_Weak_military
@@ -4433,7 +4433,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_small_sabotage_units
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_small_sabotages_units
 		x = -3
 		y = 4
 		relative_position_id = CHE_Weak_military
