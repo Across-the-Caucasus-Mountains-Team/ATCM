@@ -575,6 +575,6 @@ country_event = {
 
 	option = {
 		name = russia.28.a
-		add_political_power = 5
+		add_stability = -0.025
 	}
 }

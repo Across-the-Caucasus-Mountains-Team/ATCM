@@ -553,3 +553,51 @@ news_event = {
 		name = news.24.a
 	}
 }
+
+#The USSR declares martial law in Chechnya
+news_event = {
+	id = news.25
+	title = news.25.t
+	desc = news.25.d
+	picture = GFX_news_event_sign_snv_2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.25.a
+	}
+}
+
+#Hijacking of the Tu-154 aircraft
+news_event = {
+	id = news.26
+	title = news.26.t
+	desc = news.26.d
+	picture = GFX_news_event_sign_snv_2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.26.a
+	}
+}
+
+#The USSR lifts martial law
+news_event = {
+	id = news.27
+	title = news.27.t
+	desc = news.27.d
+	picture = GFX_news_event_sign_snv_2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.27.a
+	}
+}

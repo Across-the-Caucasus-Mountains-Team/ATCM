@@ -159,6 +159,11 @@ spriteTypes = {
 		name = "GFX_Report_event_RAS_Defection"
 		texturefile = "gfx/event_pictures/Report_event_RAS_Defection.png"
 	}
+
+	spriteType = {
+		name = "GFX_Report_event_RAS_martial_law"
+		texturefile = "gfx/event_pictures/Report_event_RAS_martial_law.png"
+	}
 	
 	spriteType = {
 		name = "GFX_Report_event_RAS_Poll"
@@ -441,5 +446,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Report_event_CHE_ingushetia_separating"
 		texturefile = "gfx/event_pictures/Report_event_CHE_ingushetia_separating.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_shamil_basayev"
+		texturefile = "gfx/event_pictures/Report_event_CHE_shamil_basayev.png"
 	}
 }	

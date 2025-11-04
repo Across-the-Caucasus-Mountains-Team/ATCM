@@ -87,6 +87,14 @@ country_event = {
 		add_ideas = CHE_question_of_currency_idea
 		hidden_effect = {
 			news_event = { id = news.10 }
+			hidden_effect = {
+			    RAS = {
+				    country_event = {
+					    id = soviet_union.15
+					    hours = 2
+			        }
+			    }
+		    }
 		}
 	}
 }
@@ -642,5 +650,56 @@ country_event = {
 		name = chechnya.27.a
 	    set_country_flag = CHE_Khattab_Arrived
 		custom_effect_tooltip = 10_CHE_tt
+	}
+}
+
+#Ussr declared martial law in Chechnya 
+country_event = {
+	id = chechnya.28
+	title = chechnya.28.t
+	desc = chechnya.28.d
+	picture = GFX_Report_event_RAS_martial_law
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			RAS = {
+				country_event = {
+					id = soviet_union.16
+					hours = 2
+				}
+			}
+			news_event = {
+				id = news.25
+				hours = 4
+			}
+		}
+	}
+
+	option = {
+		name = chechnya.28.a
+	}
+}
+
+#Ussr lifts martial law
+country_event = {
+	id = chechnya.29
+	title = chechnya.29.t
+	desc = chechnya.29.d
+	picture = GFX_Report_event_CHE_INDEPENDENCE
+
+	is_triggered_only = yes
+
+	immediate = {
+		news_event = {
+			id = news.27
+			hours = 4
+		}
+	}
+
+	option = {
+		name = chechnya.28.a
+		add_war_support = 0.025
 	}
 }

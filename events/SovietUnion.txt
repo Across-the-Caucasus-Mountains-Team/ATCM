@@ -382,3 +382,59 @@ country_event = {
 		remove_ideas = RAS_hardliners_protest
 	}
 }
+
+#Martial law 
+country_event = {
+	id = soviet_union.15
+	title = soviet_union.15.t
+	desc = soviet_union.15.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+    immediate = {
+		hidden_effect = {
+			CHE = {
+				country_event = {
+					id = chechnya.28
+					hours = 2
+				}
+			}
+		}	
+	}
+
+	option = {
+		name = soviet_union.15.a
+		add_war_support = 0.05
+	}
+}
+
+#Hijacking of the Tu-154 aircraft
+country_event = {
+	id = soviet_union.16
+	title = soviet_union.16.t
+	desc = soviet_union.16.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+    immediate = {
+		hidden_effect = {
+			country_event = {
+				id = news.26
+				hours = 2
+			}
+			CHE = {
+				country_event = {
+					id = chechnya.29
+					hours = 15
+				}
+			}
+		}	
+	}
+
+	option = {
+		name = soviet_union.16.a
+		add_stability = -0.05
+	}
+}
