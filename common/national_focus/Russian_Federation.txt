@@ -1222,6 +1222,25 @@ focus_tree = {
                 value = 20
                 tooltip = add_20_to_negotation_progress_fcw_tt
             }
+			clamp_variable = {
+				var = RAS_negotiation_process_fcw_value
+				min = 0
+				max = 100
+			}
+			hidden_effect = {
+				CHE = {
+					add_to_variable = {
+						var = RAS_negotiation_process_fcw_value
+						value = 20
+						tooltip = add_20_to_negotation_progress_fcw_tt
+					}
+					clamp_variable = {
+				        var = RAS_negotiation_process_fcw_value
+				        min = 0
+				        max = 100
+			        }
+				}
+			}
 		}
 	}
 

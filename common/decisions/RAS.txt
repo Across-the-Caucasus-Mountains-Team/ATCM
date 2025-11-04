@@ -1294,6 +1294,25 @@ RAS_peace_negotiations_first_chechen_war_decision = {
                 tooltip = add_10_to_negotation_progress_fcw_tt
             }
 			set_country_flag = FoundChannelWithChechnya
+			hidden_effect = {
+				clamp_variable = {
+				    var = RAS_negotiation_process_fcw_value
+				    min = 0
+				    max = 100
+			    }
+				CHE = {
+					add_to_variable = {
+						var = RAS_negotiation_process_fcw_value
+						value = 20
+						tooltip = add_20_to_negotation_progress_fcw_tt
+					}
+					clamp_variable = {
+				        var = RAS_negotiation_process_fcw_value
+				        min = 0
+				        max = 100
+			        }
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1329,6 +1348,25 @@ RAS_peace_negotiations_first_chechen_war_decision = {
             }
 			clr_country_flag = FoundChannelWithChechnya
 			set_country_flag = NegotationRound2
+			hidden_effect = {
+				clamp_variable = {
+				    var = RAS_negotiation_process_fcw_value
+				    min = 0
+				    max = 100
+			    }
+				CHE = {
+					add_to_variable = {
+						var = RAS_negotiation_process_fcw_value
+						value = 20
+						tooltip = add_20_to_negotation_progress_fcw_tt
+					}
+					clamp_variable = {
+				        var = RAS_negotiation_process_fcw_value
+				        min = 0
+				        max = 100
+			        }
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1364,6 +1402,25 @@ RAS_peace_negotiations_first_chechen_war_decision = {
             }
 			clr_country_flag = NegotationRound2
 			set_country_flag = RASCeaseFire
+			hidden_effect = {
+				clamp_variable = {
+				    var = RAS_negotiation_process_fcw_value
+				    min = 0
+				    max = 100
+			    }
+				CHE = {
+					add_to_variable = {
+						var = RAS_negotiation_process_fcw_value
+						value = 20
+						tooltip = add_20_to_negotation_progress_fcw_tt
+					}
+					clamp_variable = {
+				        var = RAS_negotiation_process_fcw_value
+				        min = 0
+				        max = 100
+			        }
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1397,6 +1454,25 @@ RAS_peace_negotiations_first_chechen_war_decision = {
                 value = 30
                 tooltip = add_20_to_negotation_progress_fcw_tt
             }
+			hidden_effect = {
+				clamp_variable = {
+				    var = RAS_negotiation_process_fcw_value
+				    min = 0
+				    max = 100
+			    }
+				CHE = {
+					add_to_variable = {
+						var = RAS_negotiation_process_fcw_value
+						value = 20
+						tooltip = add_20_to_negotation_progress_fcw_tt
+					}
+					clamp_variable = {
+				        var = RAS_negotiation_process_fcw_value
+				        min = 0
+				        max = 100
+			        }
+				}
+			}
 		}
 
 		ai_will_do = {

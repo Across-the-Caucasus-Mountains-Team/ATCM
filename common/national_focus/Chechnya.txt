@@ -1551,7 +1551,7 @@ focus_tree = {
 	focus = {
 		id = CHE_The_Battle_is_in_here
 		icon = GFX_CHE_Report
-		x = 35
+		x = 38
 		y = 0
 		mutually_exclusive = { focus = CHE_Surrender }
 		
@@ -4269,6 +4269,77 @@ focus_tree = {
 			army_experience = 25
 			add_war_support = 0.025
 			add_manpower = 5500
+		}	
+	}
+
+	focus = {
+		id = CHE_chechen_air_force
+		icon = GFX_CHE_Elite_armed_forces
+		x = 7
+		y = 1
+		relative_position_id = CHE_Weak_military
+		prerequisite = { focus = CHE_Weak_military }
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			air_experience = 50
+		}	
+	}
+
+	focus = {
+		id = CHE_modernization_of_airfields
+		icon = GFX_CHE_Elite_armed_forces
+		x = 7
+		y = 2
+		relative_position_id = CHE_Weak_military
+		prerequisite = { focus = CHE_chechen_air_force }
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+			has_completed_focus = CHE_glory_of_ichkerian_army
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			air_experience = 50
 		}	
 	}
 
