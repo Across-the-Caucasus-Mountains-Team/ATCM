@@ -1,0 +1,123 @@
+equipments = {
+	grenade_launcher_equipment = {
+		year = 1960
+		is_archetype = yes
+		is_buildable = no
+		active = no
+
+		picture = archetype_infantry_equipment
+		type = infantry
+		group_by = archetype
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		soft_attack = 3.84
+		hard_attack = 5.40
+		ap_attack = 15
+
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.8
+		resources = {
+			steel = 2
+		}
+	}
+
+	grenade_launcher_equipment_0 = {
+		year = 1960
+	
+		archetype = grenade_launcher_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+	grenade_launcher_equipment_1 = {
+		year = 1985
+	
+		archetype = grenade_launcher_equipment
+		parent = grenade_launcher_equipment_0
+		priority = 10
+		visual_level = 1
+
+		soft_attack = 3.84
+		hard_attack = 5.40
+		ap_attack = 20
+
+		reliability = 0.8
+		build_cost_ic = 1
+		resources = {
+			steel = 2
+		}
+
+		build_cost_ic = 0.50
+	}
+
+	grenade_launcher_equipment_2 = {
+		year = 1985
+	
+		archetype = grenade_launcher_equipment
+		parent = grenade_launcher_equipment_0
+		priority = 10
+		visual_level = 1
+
+		soft_attack = 3.84
+		hard_attack = 5.40
+		ap_attack = 20
+
+		reliability = 0.8
+		build_cost_ic = 1
+		resources = {
+			steel = 2
+		}
+
+		build_cost_ic = 0.50
+	}
+
+	grenade_launcher_equipment_3 = {
+		year = 1985
+	
+		archetype = grenade_launcher_equipment
+		parent = grenade_launcher_equipment_2
+		priority = 10
+		visual_level = 1
+
+		soft_attack = 4.11
+		hard_attack = 5.95
+		ap_attack = 22
+
+		reliability = 0.8
+		build_cost_ic = 1
+		resources = {
+			steel = 2
+		}
+
+		build_cost_ic = 0.50
+	}
+
+	grenade_launcher_equipment_4 = {
+		year = 1985
+	
+		archetype = grenade_launcher_equipment
+		parent = grenade_launcher_equipment_3
+		priority = 10
+		visual_level = 1
+
+		soft_attack = 4.11
+		hard_attack = 5.95
+		ap_attack = 22
+
+		reliability = 0.8
+		build_cost_ic = 1
+		resources = {
+			steel = 2
+		}
+
+		build_cost_ic = 0.50
+	}
+
+	
+}
