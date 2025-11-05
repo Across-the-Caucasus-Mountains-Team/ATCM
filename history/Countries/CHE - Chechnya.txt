@@ -67,10 +67,7 @@ set_variable = { CHE_wcaf_army_org_regain = -0.25 }
 
 recruit_character = CHE_Duko_Zavgayev
 recruit_character = CHE_Dzhokhar_Dudaev
-recruit_character = CHE_Ruslan_Gelayev
-recruit_character = CHE_Shamil_Basayev
 recruit_character = CHE_Zelimkhan_Yandarbiev
-recruit_character = CHE_Abalaev_Khadzhievich
 recruit_character = CHE_aslan_maskhadov
 
 set_variable = { cash = 1 }

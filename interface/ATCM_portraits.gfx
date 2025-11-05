@@ -1,0 +1,38 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_CHE_shamil_basayev_portrait"
+		textureFile = "gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
+	}
+
+	spriteType = {
+		name = "GFX_CHE_ruslan_gelayev_portrait"
+		textureFile = "gfx/leaders/CHE/portrait_CHE_Ruslan_Gelayev.png"
+	}
+
+	spriteType = {
+		name = "GFX_CHE_abalaev_khadzhievich_portrait"
+		textureFile = "gfx/leaders/CHE/portrait_CHE_Abalaev_Khadzhievich.png"
+	}
+
+	spriteType = {
+		name = "GFX_CHE_aslan_maskhadov_portrait"
+		textureFile = "gfx/leaders/CHE/portrait_CHE_aslan_maskhadov.png"
+	}
+
+	spriteType = {
+		name = "GFX_CHE_vakha_arsanov_portrait"
+		textureFile = "gfx/leaders/CHE/portrait_CHE_Vakha_arsanov.png"
+	}	
+
+	spriteType = {
+		name = "GFX_CHE_aslambek_abdulkhadzhiev_portrait"
+		textureFile = "gfx/leaders/CHE/portrait_CHE_aslambek_abdulkhadzhiev.png"
+	}
+
+	spriteType = {
+		name = "GFX_CHE_isa_astamirov_portrait"
+		textureFile = "gfx/leaders/CHE/portrait_CHE_isa_astamirov.png"
+	}
+
+}

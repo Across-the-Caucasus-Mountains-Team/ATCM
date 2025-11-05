@@ -119,3 +119,22 @@ CHE_prepared_defense = {
 	army_defence_factor = 0.075
 	army_speed_factor = 0.05
 }
+
+CHI_rebellious_region = {
+
+	enable = { always = yes }
+	icon = GFX_idea_CHE_weak_army
+	army_org_factor = 0.15
+	army_defence_factor = 0.35
+	army_speed_factor = 0.05
+}
+
+CHE_planned_counterattack = {
+
+	enable = { always = yes }
+	icon = GFX_idea_CHE_weak_army
+	army_org_factor = 0.15
+	army_attack_factor = 0.15
+	army_defence_factor = 0.05
+	army_speed_factor = 0.05
+}

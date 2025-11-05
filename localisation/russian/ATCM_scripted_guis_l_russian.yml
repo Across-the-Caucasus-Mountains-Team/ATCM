@@ -21,3 +21,11 @@
   general_staff_strengthening_the_defense:0 "Усилить оборону"
   general_staff_start_defensive_actions:0 "Начать оборонительные действия"
   general_staff_begin_offensive_actions:0 "Начать наступательные действия"
+
+  ## Information Warfare
+  CHECHEN_INFOWAR_VALUE:0 "Чеченское влияние: §Y[?CHE_chechen_infowar_value|%%]§!"
+  RUSSIAN_INFOWAR_VALUE:0 "Российское влияние: §Y[?RAS_russian_infowar_value|%%]§!"
+  RUS_Infowar:0 "§Y[?RAS_russian_infowar_value|%%]§!"
+  CHE_Infowar:0 "§Y[?CHE_chechen_infowar_value|%%]§!"
+  add_to_russian_infowar_tt:0 "§YУвеличится наше влияние в информационной войне§!"
+  add_to_chechen_infowar_tt:0 "§YУвеличится наше влияние в информационной войне§!"

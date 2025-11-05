@@ -1,5 +1,7 @@
 spriteTypes = {	
     
 	spriteType = { name = "GFX_unit_mortar_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/mortar_company.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_atgm_company_icon_medium" 			  textureFile = "gfx/interface/counters/divisions_large/ATGM_company.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_sniper_company_icon_medium" 			  textureFile = "gfx/interface/counters/divisions_large/Sniper_company.dds" noOfFrames = 2 }
 	
 }

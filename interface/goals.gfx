@@ -168,9 +168,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHE_Surrender.png"
 	}
 
-	SpriteType = {
+		SpriteType = {
 		name = "GFX_CHE_small_sabotages_units"
 		texturefile = "gfx/interface/goals/CHE/CHE_small_sabotages_units.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_artillery_divisions"
+		texturefile = "gfx/interface/goals/CHE/CHE_Artilerian_divisions.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_harsh_training"
+		texturefile = "gfx/interface/goals/CHE/CHE_harsh_training.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_glory_of_ichkerian_army"
+		texturefile = "gfx/interface/goals/CHE/CHE_glory_of_ichkerian_army.png"
 	}
 	
 	SpriteType = {

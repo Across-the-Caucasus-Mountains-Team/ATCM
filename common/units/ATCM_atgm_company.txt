@@ -1,6 +1,6 @@
 sub_units = {
 
-	sniper_company = {
+	atgm_company = {
 		abbreviation = "ATGMC"
 		sprite = infantry
 		map_icon_category = infantry
@@ -27,7 +27,7 @@ sub_units = {
 
 		need = {
 			infantry_equipment = 5
-			atgm_equipment = 10
+			atgm_equipment = 8
 		}
 		manpower = 15
 		max_organisation = 0

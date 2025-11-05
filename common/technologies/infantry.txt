@@ -18,6 +18,7 @@ technologies = {
 		enable_equipments = {
 			infantry_equipment_0
 			manpads_equipment
+			atgm_equipment
 		}
 
 		enable_equipment_modules = {
@@ -29,6 +30,8 @@ technologies = {
 		enable_subunits = {
 			infantry
 			mortar
+			atgm_company
+			sniper_company
 		}
 
 		path = {

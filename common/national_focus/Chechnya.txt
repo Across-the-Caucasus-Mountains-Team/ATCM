@@ -2572,7 +2572,7 @@ focus_tree = {
 		}
 		
 		available = {
-
+            has_completed_focus = CHE_State_of_Emergency
 		}
 		
 		bypass = {
@@ -3064,7 +3064,7 @@ focus_tree = {
 		}
 		
 		available = {
-
+            has_completed_focus = CHE_State_of_Emergency
 		}
 		
 		bypass = {
@@ -4231,6 +4231,78 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 35
+			hidden_effect = {
+				create_corps_commander = { 
+				    name = "Shamil Basayev"
+				    gfx = GFX_CHE_shamil_basayev_portrait
+			        traits = { infantry_leader }
+			        skill = 3
+			        attack_skill = 4
+			        defense_skill = 2
+			        planning_skill = 3
+			        logistics_skill = 1
+				}
+				create_corps_commander = { 
+				    name = "Ruslan Gelayev"
+				    gfx = GFX_CHE_ruslan_gelayev_portrait
+			        traits = { infantry_leader }
+			        skill = 4
+			        attack_skill = 3
+			        defense_skill = 3
+			        planning_skill = 2
+			        logistics_skill = 2
+				}
+				create_corps_commander = { 
+				    name = "Abalaev Khadzhievich"
+				    gfx = GFX_CHE_abalaev_khadzhievich_portrait
+			        traits = { infantry_leader }
+			        skill = 3
+			        attack_skill = 2
+			        defense_skill = 1
+			        planning_skill = 2
+			        logistics_skill = 2
+				}
+				create_corps_commander = { 
+				    name = "Vakha Arsanov"
+				    gfx = GFX_CHE_vakha_arsanov_portrait
+			        traits = { infantry_leader }
+			        skill = 3
+			        attack_skill = 2
+			        defense_skill = 1
+			        planning_skill = 2
+			        logistics_skill = 2
+				}
+				create_corps_commander = { 
+				    name = "Aslambek Abdulkhadzhiev"
+				    gfx = GFX_CHE_vakha_arsanov_portrait
+			        traits = { infantry_leader }
+			        skill = 3
+			        attack_skill = 1
+			        defense_skill = 1
+			        planning_skill = 3
+			        logistics_skill = 2
+				}
+				create_corps_commander = { 
+				    name = "Isa Astamirov"
+				    gfx = GFX_CHE_isa_astamirov_portrait
+			        traits = { infantry_leader }
+			        skill = 3
+			        attack_skill = 1
+			        defense_skill = 1
+			        planning_skill = 3
+			        logistics_skill = 2
+				}
+				create_field_marshal = {
+					name = "Aslan Maskhadov"
+				    gfx = GFX_CHE_aslan_maskhadov_portrait
+			        traits = { guerilla_fighter superior_tactician urban_assault_specialist }
+			        skill = 4
+			        attack_skill = 3
+			        defense_skill = 5
+			        planning_skill = 4
+			        logistics_skill = 4
+		        }
+			}
 		}	
 	}
 
@@ -4621,7 +4693,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_Harsh_training
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_harsh_training
 		x = 2
 		y = 2
 		relative_position_id = CHE_Weak_military
@@ -4820,7 +4892,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_artillery_divisions
-		icon = GFX_CHE_Heavy_equiped
+		icon = GFX_CHE_artillery_divisions
 		x = 3
 		y = 4
 		relative_position_id = CHE_Weak_military
@@ -5687,6 +5759,48 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.075
 			add_political_power = 25
+			custom_effect_tooltip = cash_balance_minus_100_tt
+			subtract_from_variable = {
+				var = cash
+				value = 100
+			}
+		}	
+	}
+
+	focus = {
+		id = CHE_expand_of_oil_industry
+		icon = GFX_CHE_fund_north
+		x = 0
+		y = 3
+		relative_position_id = CHE_Economy_question
+		prerequisite = { focus = CHE_fund_businesses_in_north_chechnya }
+		prerequisite = { focus = CHE_industralize_south_chechnya }
+		prerequisite = { focus = CHE_infastructure_in_mountains }
+		
+		cost = 45
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+			has_tech = excavation5
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
 			custom_effect_tooltip = cash_balance_minus_100_tt
 			subtract_from_variable = {
 				var = cash

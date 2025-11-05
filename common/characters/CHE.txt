@@ -28,60 +28,6 @@ characters={
 			id=-1
 		}
 	}
-	
-	CHE_Shamil_Basayev = {
-		name = "Shamil Basayev"
-		portraits = {
-			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
-			}
-		}
-		corps_commander = {
-			traits = { old_guard infantry_leader }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 1
-			logistics_skill = 1
-			legacy_id = 1201
-		}
-	}
-	
-	CHE_Ruslan_Gelayev = {
-		name = "Ruslan Gelayev"
-		portraits = {
-			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Ruslan_Gelayev.png"
-			}
-		}
-		corps_commander = {
-			traits = { old_guard infantry_leader }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 1200
-		}
-	}
-
-	CHE_Abalaev_Khadzhievich = {
-		name = "Abalaev Khadzhievich"
-		portraits = {
-			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Abalaev_Khadzhievich.png"
-			}
-		}
-		corps_commander = {
-			traits = { infantry_leader }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 1202
-		}
-	}
 
 	CHE_Zelimkhan_Yandarbiev={ #Leader after Dydayev's dead
 		name="Zelimkhan Yandarbiev"
@@ -124,15 +70,6 @@ characters={
 			traits={ SWE_close_ties_to_the_military }
 			expire="1996.4.21.1"
 			id=-1
-		}
-		field_marshal = {
-			traits = { guerilla_fighter superior_tactician urban_assault_specialist }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 5
-			planning_skill = 4
-			logistics_skill = 4
-			legacy_id = 1203
 		}
 	}
 	CHE_akhmad_kadyrov = {
