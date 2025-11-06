@@ -501,6 +501,9 @@ country_event = {
 		    CHI = {
 			    add_state_core = 131
 		    }
+			131 = {
+				add_dynamic_modifier = { modifier = CHI_rebellious_region scope = CHI  }
+			}
 		}
 	}
 
@@ -699,7 +702,151 @@ country_event = {
 	}
 
 	option = {
-		name = chechnya.28.a
+		name = chechnya.29.a
 		add_war_support = 0.025
 	}
 }
+
+#Russian landing in grozny airport
+country_event = {
+	id = chechnya.30
+	title = chechnya.30.t
+	desc = chechnya.30.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
+
+	is_triggered_only = yes
+
+	immediate = {
+		RAS = {
+			load_oob = RAS_VDV_landing_in_grozny
+		    country_event = {
+			    id = russia.29
+			    hours = 3
+		    }
+	    }
+	}
+
+	option = {
+		name = chechnya.30.a
+		
+	}
+}
+
+#Russian landing in grozny airport
+country_event = {
+	id = chechnya.31
+	title = chechnya.31.t
+	desc = chechnya.31.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
+
+	is_triggered_only = yes
+
+	immediate = {
+        remove_mission = CHE_weekly_power_of_opposition_value
+	}
+
+	option = {
+		name = chechnya.31.a
+		add_stability = -0.05
+		add_political_power = -75
+	}
+}
+
+#peace with russia (To russia)
+country_event = {
+	id = chechnya.32
+	title = chechnya.32.t
+	desc = chechnya.32.d
+	picture = GFX_Report_event_RAS_shooting_at_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.32.a
+		add_stability = 0.25
+		add_political_power = 50
+		white_peace = CHE
+		hidden_effect = {
+			news_event = {
+				id = news.21
+				days = 3
+			}
+			CHE = {
+			    annex_country = {
+                    target = CHI
+                    transfer_troops = no
+                }
+				mark_focus_tree_layout_dirty = yes
+		    }
+			mark_focus_tree_layout_dirty = yes
+			set_global_flag = AfterFirstChechenWar
+		}
+		ai_will_do = {
+			base = -5
+			modifier = {
+                factor = 2
+                date > 1996.01.01
+            }
+			modifier = {
+                factor = 12
+                casualties_k > 20
+            }
+			modifier = {
+                factor = 3
+                has_war_support < 0.25
+            }
+			modifier = {
+                factor = -3
+                has_war_support > 0.55
+            }
+			modifier = {
+                factor = -16
+                CHE = {
+					surrender_progress > 0.65
+				}
+            }
+			modifer = {
+				factor = 25
+				NOT = {
+					controls_state = 126
+				    controls_state = 125
+				    controls_state = 124
+				    controls_state = 130
+				    controls_state = 127
+				    controls_state = 16
+				    controls_state = 11
+				    controls_state = 20
+				    controls_state = 21
+				    controls_state = 131
+				}
+			}
+		}
+	}
+
+	option = {
+		name = chechnya.33.b
+		add_stability = -0.175
+		add_political_power = -150
+		hidden_effect = {
+			CHE = { 
+				country_event = chechnya.33
+			}
+		}
+	}
+}
+
+#russia refuge peace
+country_event = {
+	id = chechnya.33
+	title = chechnya.33.t
+	desc = chechnya.33.d
+	picture = GFX_Report_event_RAS_shooting_at_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.33.a
+		add_war_support = 0.025
+	}
+}
+

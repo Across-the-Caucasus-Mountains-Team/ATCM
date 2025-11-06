@@ -606,7 +606,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 15
+		cost = 5
 
 		ai_will_do = {
 			base = 5
@@ -693,7 +693,7 @@ focus_tree = {
 			16 = {
                 add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
             }
-			unlock_decision_tooltip = RAS_improve_logistics
+			unlock_decision_tooltip = RAS_improve_logistic
 		}
 	}
 
@@ -1556,7 +1556,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 35
+		cost = 25
 
 		ai_will_do = {
 			base = 5
@@ -1638,7 +1638,7 @@ focus_tree = {
 		x = 0
 		y = 2
 
-		cost = 45
+		cost = 35
 
 		ai_will_do = {
 			base = 5
@@ -1949,7 +1949,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 15
+		cost = 35
 
 		ai_will_do = {
 			base = 5
@@ -2025,7 +2025,7 @@ focus_tree = {
 		x = -1
 		y = 1
 
-		cost = 15
+		cost = 35
 
 		ai_will_do = {
 			base = 5
@@ -2828,7 +2828,7 @@ focus_tree = {
 		x = 23
 		y = 0
 
-		cost = 20
+		cost = 25
 
 		ai_will_do = {
 			base = 5
@@ -2907,7 +2907,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 15
+		cost = 20
 
 		ai_will_do = {
 			base = 5
@@ -3031,7 +3031,7 @@ focus_tree = {
 		x = 1
 		y = 1
 
-		cost = 10
+		cost = 15
 
 		ai_will_do = {
 			base = 5
@@ -3120,7 +3120,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 15
+		cost = 20
 
 		ai_will_do = {
 			base = 5
@@ -3191,6 +3191,7 @@ focus_tree = {
 			CHE = {
 				country_event = chechnya.7
 			}
+			unlock_decision_tooltip = RAS_support_chechen_opposition
 			hidden_effect = {
 				country_event = {
 					id = russia.28
@@ -3280,6 +3281,8 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			air_experience = 35
+			set_country_flag = VDVLandingInProgress
+			unlock_decision_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
 		}
 	}
 
@@ -3491,18 +3494,18 @@ focus_tree = {
                     id = russia.22
                     days = 4
                 }
-				CHE = {
-                    if = {
-						limit = {
-							NOT = {
-                                has_completed_focus = CHE_build_islamic_state
-							}
-						}
-						country_event = {
-							id = chechnya.27
-							days = 32
+                if = {
+					limit = {
+						NOT = {
+                            has_completed_focus = CHE_build_islamic_state
 						}
 					}
+					CHE = {
+					    country_event = {
+						    id = chechnya.27
+						    days = 32
+				 	    }
+				    }
 				}
 				124 = {
 					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
@@ -3576,6 +3579,24 @@ focus_tree = {
 			    11 = {
                     add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
                 }
+
+				if = {
+					limit = {
+						has_country_flag = VDVLanding_at_Grozny_Airport_Prepared
+					}
+					CHE = {
+					    country_event = {
+                            id = chechnya.30
+                            days = 5
+                        }
+				    }
+				}
+				if = {
+					limit = {
+						has_country_flag = VDVLandingInProgress
+					}
+					clr_country_flag = VDVLandingInProgress
+				}
 
 				if = {
 					limit = {

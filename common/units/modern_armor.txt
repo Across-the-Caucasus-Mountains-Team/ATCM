@@ -24,10 +24,10 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			modern_tank_chassis = 15
-			infantry_equipment = 35
+			modern_tank_chassis = 8
+			infantry_equipment = 20
 		}
-		manpower = 90
+		manpower = 35
 		max_organisation = 15
 		max_strength = 2
 		default_morale = 0.3

@@ -27,7 +27,7 @@ sub_units = {
 
 		need = {
 			infantry_equipment = 8
-			manpads_equipment = 2
+			support_equipment = 5
 		}
 		manpower = 8
 		max_organisation = 0
@@ -39,5 +39,10 @@ sub_units = {
 		can_be_parachuted = yes
 		
 		supply_consumption = 0.08
+
+		urban = {
+			attack = 0.05
+			defence = 0.05
+		}
 	}
 }

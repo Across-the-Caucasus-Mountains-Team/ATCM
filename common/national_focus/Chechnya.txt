@@ -1586,12 +1586,12 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.05
-			add_stability = -0.45
 			add_political_power = 150
 			add_popularity = {
 				ideology = nationalism
 				popularity = 0.1
 			}
+			add_stability = -0.45
 			hidden_effect = {
 				add_manpower = -25000
 				add_ideas = CHE_first_chechen_war_idea
@@ -2531,12 +2531,25 @@ focus_tree = {
 		}
 		
 		available = {
-			check_variable = {
-                var = RAS_negotiation_process_fcw_value
-                value = 100
-                compare = greater_than_or_equals
-				tooltip = 11_RAS_tt
-            }
+			OR = {
+			    check_variable = {
+                    var = RAS_negotiation_process_fcw_value
+                    value = 100
+                    compare = greater_than_or_equals
+				    tooltip = 11_RAS_tt
+                }
+				controls_state = 126
+				controls_state = 125
+				controls_state = 124
+				controls_state = 130
+				controls_state = 127
+				controls_state = 16
+				controls_state = 11
+				controls_state = 20
+				controls_state = 21
+				controls_state = 131
+
+		    }
 			has_war_with = RAS
 		}
 		
@@ -2554,6 +2567,9 @@ focus_tree = {
 			add_stability = 0.075
 			add_political_power = 35
 			add_war_support = -0.125
+			RAS = {
+				country_event = chechnya.32
+			}
 		}	
 	}
 
@@ -2807,7 +2823,7 @@ focus_tree = {
 		relative_position_id = CHE_start_operation_of_jihad
 		prerequisite = { focus = CHE_start_operation_of_jihad }
 		
-		cost = 1
+		cost = 8
 		
 		ai_will_do = {
 			factor = 100
@@ -2830,6 +2846,9 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
+			13 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
 		}	
 	}
 
@@ -2841,7 +2860,7 @@ focus_tree = {
 		relative_position_id = CHE_start_operation_of_jihad
 		prerequisite = { focus = CHE_start_operation_of_jihad }
 		
-		cost = 1
+		cost = 8
 		
 		ai_will_do = {
 			factor = 100
@@ -2864,6 +2883,15 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
+			126 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
+			128 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
+			131 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
 		}	
 	}
 
@@ -2875,7 +2903,7 @@ focus_tree = {
 		relative_position_id = CHE_start_operation_of_jihad
 		prerequisite = { focus = CHE_start_operation_of_jihad }
 		
-		cost = 1
+		cost = 15
 		
 		ai_will_do = {
 			factor = 100
@@ -2898,6 +2926,18 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 25
+			21 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
+			20 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
+			16 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
+			133 = {
+                add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+            }
 		}	
 	}
 
@@ -3326,6 +3366,8 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = CHE_State_of_emergency_idea
+			unlock_decision_tooltip = CHE_resistance_in_grozny
+			unlock_decision_tooltip = CHE_resistance_in_notrh_chechnya
 		}	
 	}
 
@@ -4461,7 +4503,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_Small_groups_tactic
-		icon = GFX_CHE_small_groups_tactics
+		icon = GFX_CHE_Heavy_equiped
 		x = -2
 		y = 3
 		relative_position_id = CHE_Weak_military
@@ -4843,7 +4885,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_Heavy_equiped_Armed_groups
-		icon = GFX_CHE_Heavy_equiped
+		icon = GFX_CHE_small_groups_tactics
 		x = 4
 		y = 2
 		relative_position_id = CHE_Weak_military
@@ -4936,7 +4978,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_glory_of_ichkerian_army
-		icon = GFX_CHE_Heavy_equiped
+		icon = GFX_CHE_glory_of_ichkerian_army
 		x = 0
 		y = 5
 		relative_position_id = CHE_Weak_military

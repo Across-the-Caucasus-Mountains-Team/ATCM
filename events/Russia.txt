@@ -578,3 +578,18 @@ country_event = {
 		add_stability = -0.025
 	}
 }
+
+#VDV landing in Grozny airport
+country_event = {
+	id = russia.29
+	title = russia.29.t
+	desc = russia.29.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.29.a
+		add_war_support = 0.025
+	}
+}

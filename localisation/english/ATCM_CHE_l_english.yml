@@ -100,6 +100,11 @@
  CHE_homemade_mines:0 "Homemade Mines"
  CHE_homemade_rifles:0 "Homemade Rifles"
  CHE_workshops_in_the_mountains:0 "Workshops in the Mountains"
+ CHE_preapare_operation_in_budenovsk:0 "Operation in Budyonovsk"
+ CHE_sign_peace:0 "Sign peace"
+ CHE_East_chechnya:0 "Eastern Chechnya"
+ CHE_Grozny:0 "Grozny"
+ CHE_Chechnya_Daghestan:0 "Operations in Dagestan"
 
 
  ## Tooltips
@@ -147,6 +152,8 @@
  CHE_prepare_defence_in_grozny:0 "Prepare defence in Grozny"
  CHE_nationalization_of_pharmaceutical_companies:0 "Nationalization of Pharmaceutical Companies"
  CHE_transporting_medicines_from_abroad:0 "Transporting medicines from abroad"
+ CHE_resistance_in_grozny:0 "Resistance in Grozny"
+ CHE_resistance_in_notrh_chechnya:0 "Resistance in Northern Chechnya"
 
 
 
@@ -161,8 +168,8 @@
 
 
 
-  chechnya.1.t:0 "Ingushetia separated from us"
-  chechnya.1.d:0 "Despite shared history under the Chechen-Ingush ASSR, the Ingush leadership has officially rejected proposals to join the newly declared Chechen Republic of Ichkeria. Citing a desire for stability, legal continuity, and growing tensions with the Chechen separatist movement, Ingushetia has declared its loyalty to the Russian Federation."
+ chechnya.1.t:0 "Ingushetia separated from us"
+ chechnya.1.d:0 "Despite shared history under the Chechen-Ingush ASSR, the Ingush leadership has officially rejected proposals to join the newly declared Chechen Republic of Ichkeria. Citing a desire for stability, legal continuity, and growing tensions with the Chechen separatist movement, Ingushetia has declared its loyalty to the Russian Federation."
   chechnya.1.a:0 "Damn"
   chechnya.2.t:0 "Ingushetia remains part of our federation"
   chechnya.2.d:0 "While separatist sentiment grows in Chechnya and the region declares independence, Ingush leaders have officially announced their decision to remain part of the Russian Federation. Historically aligned with Moscow and concerned about territorial disputes with North Ossetia and instability in Chechnya, the Ingush see security and prosperity in remaining part of Russia."
@@ -232,6 +239,25 @@
  chechnya.27.t:0 "Khattab's Arrival"
  chechnya.27.d:0 "A mysterious man calling himself Khattab, an Arab mujahideen who fought in Afghanistan and many other wars, has arrived in the mountainous regions of Chechnya. His troops are well-armed, disciplined, and fanatically devoted to the idea of ​​jihad against Russia. He quickly gained the respect of young fighters and local field commanders, offering money, weapons, and military expertise. Khattab calls for the unification of Chechen forces under the banner of the "true faith" and promises to transform the war for independence into a holy struggle against the infidels."
  chechnya.27.a:0 "He is our brother in jihad."
+ chechnya.28.t:0 "The USSR declared martial law"
+ chechnya.28.d:0 "Today, words were spoken in Grozny that changed the course of history in the Caucasus: "From this day forward, the Chechen Republic of Ichkeria is a free and independent state!" General Dzhokhar Dudayev, who became a symbol of resistance to Moscow, declared independence from the Soviet Union. Crowds of people in the square chanted slogans, burned Soviet flags, and vowed to defend the new republic to the last drop of blood. However, alarming signals were coming from Moscow. The Soviet leadership called the act of independence an "illegal rebellion" and declared martial law in the newly formed republic."
+ chechnya.28.a:0 "We are an independent state!"
+ chechnya.29.t:0 "The USSR lifts martial law"
+ chechnya.29.d:0 "Following the failure of an attempt to send troops into Grozny and growing resistance from Dzhokhar Dudayev's supporters, on November 11, 1991, the Supreme Soviet of Russia lifted martial law in the Chechen-Ingush Republic."
+ chechnya.29.a:0 "Glory to Ichkeria!"
+ chechnya.30.t:0 "Airborne troops at Grozny airport"
+ chechnya.30.d:0 "Early this morning, Russian airborne troops carried out a daring assault on Grozny airport, attempting to seize a strategic facility and establish control over the capital of the Chechen Republic of Ichkeria. However, brave Chechen soldiers, warned of the approaching Russian forces, put up fierce resistance and prevented the enemy from gaining access to the airport so easily."
+ chechnya.30.a:0 "Destroy them!"
+ chechnya.31.t:0 "The Opposition Begins Military Action"
+ chechnya.31.d:0 "Internal tensions that had been building for months have finally erupted into open warfare. The so-called opposition, former supporters of Soviet power, disillusioned commanders, and representatives of old clans that are puppets of Russia, have declared the creation of the 'Provisional Council of the Chechen Republic' and begun military action against the government of Dzhokhar Dudayev in Northern Chechnya."
+ chechnya.31.a:0 "Destroy them!"
+ chechnya.32.t:0 "Chechnya offers a white peace"
+ chechnya.32.d:0 "After months of fierce fighting and heavy losses, the Chechen leadership sent a message to Moscow proposing an end to the war and the return of the borders that existed in November 1994"
+ chechnya.32.a:0 "Reasonable"
+ chechnya.32.b:0 "Russia will win!"
+ chechnya.33.t:0 "Russia rejected peace"
+ chechnya.33.d:0 "After our proposal for peace under the status quo, the Russian government held an emergency meeting of the Security Council. Most participants believed that accepting such terms would mean admitting defeat and undermining the state's authority. Despite public fatigue and international calls for de-escalation, the decision was clear: the 'operation' in Chechnya must continue until full control over the region is restored."
+ chechnya.33.a:0 "Stupid Russians"
 
  CHE_Unrecognized_Country:0 "Unrecognized Country"
  CHE_Unrecognized_Country_desc:0 "\n\n\n\n£GFX_idea_unrecognized_country_desc_photo\n\n\n\n\n\n\n  Nobody sees us as independent..."

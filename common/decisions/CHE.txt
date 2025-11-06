@@ -317,6 +317,94 @@ CHE_first_chechen_war_decision = {
 		}
 	}
 
+	CHE_resistance_in_grozny = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+			RAS = {
+				controls_state = 21
+			}
+			RAS = {
+				controls_state = 20
+			}
+		}
+	    
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_State_of_Emergency
+		}
+
+		complete_effect = {
+			21 = {
+				add_resistance = 30
+				add_compliance = -15
+			}
+			20 = {
+				add_resistance = 30
+				add_compliance = -15
+			}
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+				state = 20
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
+	CHE_resistance_in_notrh_chechnya = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+			RAS = {
+				controls_state = 11
+			}
+		}
+	    
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_State_of_Emergency
+		}
+
+		complete_effect = {
+			11 = {
+				add_resistance = 30
+				add_compliance = -15
+			}
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 11
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
 	CHE_monthly_weapon_supplies = {
 		icon = GFX_decision_generic_soldier
 		allowed = {

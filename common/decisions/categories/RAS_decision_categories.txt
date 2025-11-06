@@ -52,6 +52,23 @@ RAS_influence_on_caucasus_decision = {
 	visible_when_empty = yes
 }
 
+RAS_preparing_for_war_decision = {
+
+	priority = 95
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = RAS
+		has_country_flag = VDVLandingInProgress
+		NOT = {
+			has_global_flag = FirstChechenWar
+		}
+	}
+}
+
 RAS_first_chechen_war_decision = {
 
 	priority = 95

@@ -159,7 +159,14 @@ focus_tree = {
                 type = annex_everything
             }
 			hidden_effect = {
-				set_country_flag = CHEChechenOppositionUprising
+
+				CHE = {
+				    set_country_flag = CHEChechenOppositionUprising
+					country_event = {
+						id = chechnya.31
+						hours = 1
+					}
+				}
 			}
 		}	
 	}
