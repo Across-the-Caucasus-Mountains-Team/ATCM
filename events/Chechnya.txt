@@ -641,7 +641,7 @@ country_event = {
 	id = chechnya.27
 	title = chechnya.27.t
 	desc = chechnya.27.d
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_CHE_khatab_arrived
 
 	is_triggered_only = yes
 
@@ -732,7 +732,7 @@ country_event = {
 	}
 }
 
-#Russian landing in grozny airport
+#Uprising
 country_event = {
 	id = chechnya.31
 	title = chechnya.31.t
@@ -742,7 +742,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-        remove_mission = CHE_weekly_power_of_opposition_value
+		hidden_effect = {
+			remove_mission = CHE_weekly_power_of_opposition_value
+		}
 	}
 
 	option = {
@@ -850,3 +852,32 @@ country_event = {
 	}
 }
 
+#Shamil Basayev is heading to Abkhazia
+country_event = {
+	id = chechnya.34
+	title = chechnya.34.t
+	desc = chechnya.34.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.34.a
+		set_country_flag = BasayevInAbkhazia
+	}
+}
+
+#Shamil Basayev returned from Abkhazia
+country_event = {
+	id = chechnya.35
+	title = chechnya.35.t
+	desc = chechnya.35.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.35.a
+		clr_country_flag = BasayevInAbkhazia	
+	}
+}

@@ -29,7 +29,6 @@ technologies = {
 
 		enable_subunits = {
 			infantry
-			mortar
 			atgm_company
 			sniper_company
 		}
@@ -237,94 +236,133 @@ technologies = {
 		}
 	}
 
-	infantry_at = {
+	mortar_weapons = {
 
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
+		enable_equipments = {
+			mortar_equipment_0
 		}
-
-		category_cavalry = {
-			hard_attack = 0.1
-			ap_attack = 0.4
-		}
-
+		
 		path = {
-			leads_to_tech = infantry_at2
+			leads_to_tech = mortar_weapons1
 			research_cost_coeff = 1
+		}		
+
+		enable_subunits = {
+			mortar
 		}
 
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1960
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1942 }
+			position = { x = 0 y = -1 }
 		}
-
+		
 		categories = {
 			infantry_weapons
 		}
-
+		
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 2
-				date > "1942.1.6"
-			}
-
-			modifier = {
-				factor = 2
-				date > "1943.1.1"
-			}
-
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
 		}
 	}
+	mortar_weapons1 = {
 
-	infantry_at2 = {
-
-		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
+		enable_equipments = {
+			mortar_equipment_1
 		}
-
-		category_cavalry = {
-			hard_attack = 0.1
-			ap_attack = 0.4
-		}
+		
+		path = {
+			leads_to_tech = mortar_weapons2
+			research_cost_coeff = 1
+		}		
 
 		research_cost = 1.5
-		start_year = 2005
+		start_year = 1960
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 0 y = 1 }
 		}
-
+		
 		categories = {
 			infantry_weapons
 		}
-
+		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	mortar_weapons2 = {
 
-			modifier = {
-				factor = 2
-				date > "1943.1.6"
-			}
+		enable_equipments = {
+			mortar_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = mortar_weapons3
+			research_cost_coeff = 1
+		}		
 
-			modifier = {
-				factor = 2
-				date > "1944.1.1"
-			}
+		research_cost = 1.5
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 3 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mortar_weapons3 = {
 
-			modifier = {
-				factor = 2
-				date > "1945.1.1"
-			}
+		enable_equipments = {
+			mortar_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = mortar_weapons4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 5 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mortar_weapons4 = {
+
+		enable_equipments = {
+			mortar_equipment_4
+		}
+
+		research_cost = 1.5
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 

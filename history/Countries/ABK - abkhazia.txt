@@ -41,6 +41,7 @@ set_politics = {
 }
 
 recruit_character = ABK_provisional_government
+recruit_character = ABK_shamil_basayev
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes

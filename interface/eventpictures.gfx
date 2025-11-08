@@ -452,4 +452,9 @@ spriteTypes = {
 		name = "GFX_Report_event_CHE_shamil_basayev"
 		texturefile = "gfx/event_pictures/Report_event_CHE_shamil_basayev.png"
 	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_khatab_arrived"
+		texturefile = "gfx/event_pictures/Report_event_CHE_khatab_arrived.png"
+	}
 }	

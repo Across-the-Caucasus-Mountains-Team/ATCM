@@ -69,6 +69,12 @@ recruit_character = CHE_Duko_Zavgayev
 recruit_character = CHE_Dzhokhar_Dudaev
 recruit_character = CHE_Zelimkhan_Yandarbiev
 recruit_character = CHE_aslan_maskhadov
+recruit_character = CHE_shamil_basayev
+recruit_character = CHE_ruslan_gelayev
+recruit_character = CHE_abalaev_khadzhievich
+recruit_character = CHE_vakha_arsanov
+recruit_character = CHE_aslambek_abdulkhadzhiev
+recruit_character = CHE_isa_astamirov
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes

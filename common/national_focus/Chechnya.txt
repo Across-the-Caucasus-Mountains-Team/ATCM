@@ -4273,78 +4273,6 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 35
-			hidden_effect = {
-				create_corps_commander = { 
-				    name = "Shamil Basayev"
-				    gfx = GFX_CHE_shamil_basayev_portrait
-			        traits = { infantry_leader }
-			        skill = 3
-			        attack_skill = 4
-			        defense_skill = 2
-			        planning_skill = 3
-			        logistics_skill = 1
-				}
-				create_corps_commander = { 
-				    name = "Ruslan Gelayev"
-				    gfx = GFX_CHE_ruslan_gelayev_portrait
-			        traits = { infantry_leader }
-			        skill = 4
-			        attack_skill = 3
-			        defense_skill = 3
-			        planning_skill = 2
-			        logistics_skill = 2
-				}
-				create_corps_commander = { 
-				    name = "Abalaev Khadzhievich"
-				    gfx = GFX_CHE_abalaev_khadzhievich_portrait
-			        traits = { infantry_leader }
-			        skill = 3
-			        attack_skill = 2
-			        defense_skill = 1
-			        planning_skill = 2
-			        logistics_skill = 2
-				}
-				create_corps_commander = { 
-				    name = "Vakha Arsanov"
-				    gfx = GFX_CHE_vakha_arsanov_portrait
-			        traits = { infantry_leader }
-			        skill = 3
-			        attack_skill = 2
-			        defense_skill = 1
-			        planning_skill = 2
-			        logistics_skill = 2
-				}
-				create_corps_commander = { 
-				    name = "Aslambek Abdulkhadzhiev"
-				    gfx = GFX_CHE_vakha_arsanov_portrait
-			        traits = { infantry_leader }
-			        skill = 3
-			        attack_skill = 1
-			        defense_skill = 1
-			        planning_skill = 3
-			        logistics_skill = 2
-				}
-				create_corps_commander = { 
-				    name = "Isa Astamirov"
-				    gfx = GFX_CHE_isa_astamirov_portrait
-			        traits = { infantry_leader }
-			        skill = 3
-			        attack_skill = 1
-			        defense_skill = 1
-			        planning_skill = 3
-			        logistics_skill = 2
-				}
-				create_field_marshal = {
-					name = "Aslan Maskhadov"
-				    gfx = GFX_CHE_aslan_maskhadov_portrait
-			        traits = { guerilla_fighter superior_tactician urban_assault_specialist }
-			        skill = 4
-			        attack_skill = 3
-			        defense_skill = 5
-			        planning_skill = 4
-			        logistics_skill = 4
-		        }
-			}
 		}	
 	}
 
@@ -4751,6 +4679,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 50
 		}
 		
 		bypass = {
@@ -4764,7 +4693,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
+			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.05 }
@@ -4773,7 +4702,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_speed_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
-			custom_effect_tooltip = 3_CHE_tt
+			army_experience = -50
 			subtract_from_variable = {
 				var = cash
 				value = 25
@@ -4799,6 +4728,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 75
 		}
 		
 		bypass = {
@@ -4812,7 +4742,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.003 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
@@ -4826,6 +4755,7 @@ focus_tree = {
 				amount = 50
 			}
 			custom_effect_tooltip = 3_CHE_tt
+			army_experience = -75
 			custom_effect_tooltip = cash_balance_minus_45_tt
 			subtract_from_variable = {
 				var = cash
@@ -4852,6 +4782,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 75
 		}
 		
 		bypass = {
@@ -4865,7 +4796,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
+			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
@@ -4874,7 +4805,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_speed_factor = 0.01 }
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.15 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.15 }
-			custom_effect_tooltip = 3_CHE_tt
+			army_experience = -75
 			custom_effect_tooltip = cash_balance_minus_65_tt
 			subtract_from_variable = {
 				var = cash
@@ -4901,6 +4832,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 60
 		}
 
 		bypass = {
@@ -4914,7 +4846,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
+			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.003 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
@@ -4923,7 +4855,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_speed_factor = 0.02 }
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
-			custom_effect_tooltip = 3_CHE_tt
+			army_experience = -60
 			custom_effect_tooltip = cash_balance_minus_25_tt
 			subtract_from_variable = {
 				var = cash
@@ -4951,6 +4883,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 50
 		}
 
 		bypass = {
@@ -4964,10 +4897,10 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.075 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
+			army_experience = -50
 			custom_effect_tooltip = cash_balance_minus_65_tt
 			subtract_from_variable = {
 				var = cash
@@ -4993,6 +4926,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 100
 		}
 
 		bypass = {
@@ -5006,10 +4940,10 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.05 }
+			army_experience = -100
 			custom_effect_tooltip = 3_CHE_tt
 		}	
 	}

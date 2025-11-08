@@ -1,0 +1,51 @@
+add_namespace = abkhazia
+
+#Shamil basayev arrived to abkhazia
+country_event = {
+	id = abkhazia.1
+	title = abkhazia.1.t
+	desc = abkhazia.1.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = abkhazia.1.a
+		add_war_support = 0.025
+		create_corps_commander = { 
+			name = "Shamil_Basayev"
+			gfx = GFX_CHE_shamil_basayev_portrait
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+		add_manpower = 75
+		add_equipment_to_stockpile = { 
+			type = infantry_equipment_1 
+			amount = 75 
+		}
+	}
+}
+
+#Shamil Basayev leaves Abkhazia
+country_event = {
+	id = abkhazia.2
+	title = abkhazia.2.t
+	desc = abkhazia.2.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = abkhazia.2.a
+        retire_character = Shamil_Basayev
+		hidden_effect = {
+			CHE = {
+				country_event = chechnya.35
+			}
+		}
+	}
+}

@@ -87,3 +87,8 @@ music = {
 	name = "ToWay"
 	file = "Russian_Music/ToWay.ogg"
 }
+
+music = {
+	name = "MyHeartIsCold"
+	file = "Russian_Music/MyHeartIsCold.ogg"
+}

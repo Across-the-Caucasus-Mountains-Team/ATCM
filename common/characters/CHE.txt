@@ -71,6 +71,21 @@ characters={
 			expire="1996.4.21.1"
 			id=-1
 		}
+		field_marshal = {
+			traits = { guerilla_fighter superior_tactician urban_assault_specialist }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id = 1203
+			visible = {
+				has_completed_focus = CHE_Weak_military
+				NOT = {
+					has_country_flag = AslanMaskhadovKilled
+				}
+			}
+		}
 	}
 	CHE_akhmad_kadyrov = {
 		name = "Akhmad Kadyrov"
@@ -87,4 +102,153 @@ characters={
 			id=-1
 		}
 	}
+
+	CHE_shamil_basayev = {
+		name = "Shamil Basayev"
+		portraits = {
+			army = {
+			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 1201
+			visible = {
+				has_completed_focus = CHE_Weak_military
+				NOT = {
+					OR = {
+					    has_country_flag = SmailBasayevKilled
+						has_country_flag = BasayevInAbkhazia
+					}
+				}
+
+			}
+		}
+	}
+	
+	CHE_ruslan_gelayev = {
+		name = "Ruslan Gelayev"
+		portraits = {
+			army = {
+			    large="gfx/leaders/CHE/portrait_CHE_Ruslan_Gelayev.png"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 1200
+			visible = {
+				has_completed_focus = CHE_Weak_military
+				NOT = {
+					has_country_flag = RuslavGelayevKilled
+				}
+			}
+		}
+	}
+
+	CHE_abalaev_khadzhievich = {
+		name = "Abalaev Khadzhievich"
+		portraits = {
+			army = {
+			    large="gfx/leaders/CHE/portrait_CHE_Abalaev_Khadzhievich.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 1202
+			visible = {
+				has_completed_focus = CHE_Weak_military
+				NOT = {
+					has_country_flag = AbalaevKhadzhivelichkilled
+				}
+			}
+		}
+	}
+
+	CHE_vakha_arsanov = {
+		name = "Vakha Arsanov"
+		portraits = {
+			army = {
+			    large="GFX_CHE_vakha_arsanov_portrait"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 1202
+			visible = {
+				has_completed_focus = CHE_Weak_military
+				NOT = {
+					has_country_flag = VakhaArsanovKilled
+				}
+			}
+		}
+	}
+
+	CHE_aslambek_abdulkhadzhiev = {
+		name = "Aslambek Abdulkhadzhiev"
+		portraits = {
+			army = {
+			    large="GFX_CHE_aslambek_abdulkhadzhiev_portrait"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 1202
+			visible = {
+				has_completed_focus = CHE_Weak_military
+				NOT = {
+					has_country_flag = AslambekAbdulkhadzhievKilled
+				}
+			}
+		}
+	}
+	
+	CHE_isa_astamirov = {
+		name = "Isa Astamirov"
+		portraits = {
+			army = {
+			    large="GFX_CHE_isa_astamirov_portrait"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 1202
+			visible = {
+				has_completed_focus = CHE_Weak_military
+				NOT = {
+					has_country_flag = IsaAstramirovKilled
+				}
+			}
+		}
+	}
+	
 }
