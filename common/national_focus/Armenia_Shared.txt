@@ -95,6 +95,7 @@ shared_focus = {
 	completion_reward = {
 		add_command_power = 25
 		army_experience = 50
+		unlock_decision_category_tooltip = ARM_Recruitment_category
 	}	
 }
 
@@ -239,10 +240,10 @@ shared_focus = {
 	search_filters = { }
 	
 	completion_reward = {
-		add_political_power = 150
-		add_war_support = 0.15
-		add_stability = 0.15
-		add_manpower = 50000
+		add_political_power = 85
+		add_war_support = 0.075
+		add_manpower = 500
+		add_stability = -0.10
 	}	
 }
 
@@ -343,7 +344,7 @@ shared_focus = {
 	search_filters = { }
 	
 	completion_reward = {
-		add_army_experience = 100
+		army_experience = 100
 	}	
 }
 
@@ -376,6 +377,10 @@ shared_focus = {
 	search_filters = { }
 	
 	completion_reward = {
+		add_equipment_to_stockpile = { 
+			type = infantry_equipment_1 
+			amount = 2500 
+		}
 	}	
 }
 
@@ -408,8 +413,12 @@ shared_focus = {
 	search_filters = { }
 	
 	completion_reward = {
-		add_manpower = 78000
+		add_manpower = 2540
 		add_political_power = 25
+	    add_equipment_to_stockpile = { 
+			type = infantry_equipment_1 
+			amount = 1000 
+		}
 	}	
 }
 

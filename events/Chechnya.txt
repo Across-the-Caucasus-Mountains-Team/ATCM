@@ -879,5 +879,7 @@ country_event = {
 	option = {
 		name = chechnya.35.a
 		clr_country_flag = BasayevInAbkhazia	
+		army_experience = 75
+		air_experience = 5
 	}
 }

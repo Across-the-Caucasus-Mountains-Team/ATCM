@@ -144,7 +144,10 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_ideas = ABK_volunteers_from_north_caucasus_idea
+			add_timed_idea = {
+				idea = ABK_volunteers_from_north_caucasus_idea
+				days = 80
+			}
 		}	
 	}
 
@@ -217,6 +220,112 @@ focus_tree = {
 				idea = ABK_march_offensive_idea
 				days = 35
 			}
+		}	
+	}
+
+	focus = {
+		id = ABK_finally_peace
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		prerequisite = { focus = ABK_march_offensive }
+		
+		cost = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 75
+		}	
+	}
+
+	focus = {
+		id = ABK_international_relations
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		prerequisite = { focus = ABK_finally_peace }
+		relative_position_id = ABK_finally_peace
+		
+		cost = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+		}	
+	}
+
+	focus = {
+		id = ABK_sign_with_baskhortastan_friendship_deal
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		prerequisite = { focus = ABK_international_relations }
+		relative_position_id = ABK_international_relations
+		
+		cost = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_war = yes
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 75
 		}	
 	}
 }	

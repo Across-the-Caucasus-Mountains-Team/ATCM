@@ -10,7 +10,6 @@ focus_tree = {
 		}
 	}
 
-	shared_focus = ARM_Nagarno_karabakh_problem
 	
 	default = no
 

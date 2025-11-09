@@ -44,20 +44,21 @@ SAK_Preparations_for_Abkhazia_war_category = {
 	}
 }
 
-ARM_Recruitment_category = {		#ID of category
-	priority = 10		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
-	icon = GFX_decision_cat_SAK_tbilisi_war	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+ARM_Recruitment_category = {	
+	priority = 10	
+	icon = GFX_decision_cat_SAK_tbilisi_war
 	
 	allowed = {
 		tag = ARM
 	}
 	visible = {	
 	    tag = ARM
+		has_completed_focus = ARM_Recruitment_effort
 	}
 	
 	visible_when_empty = yes
 	
-	on_map_area = {		#Determiens the states the map will zoom to when the magnifying glass icon is clicked.
+	on_map_area = {
 		state = 96
 		state = 94
 		state = 72
@@ -69,7 +70,7 @@ ARM_Recruitment_category = {		#ID of category
 		state = 60
 		state = 71
 		state = 85
-		name = map_icon_strip_localisation		#A localisation entry for the magnifying glass strip, defined in a localisation file.
-		zoom = 150		#Determines how closely the camera will zoom to the state, the lower the number the closer it will zoom in.
+		name = map_icon_strip_localisation
+		zoom = 150
 	}
 }

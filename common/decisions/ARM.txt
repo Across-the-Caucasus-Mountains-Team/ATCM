@@ -5,9 +5,8 @@ ARM_Recruitment_category = {
 		icon = GFX_decision_generic_soldier
 		on_map_mode = map_only
 		highlight_states = { State = 89 }
-		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
-		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		available = {	
 		    tag = ARM
 		}
 	    
@@ -23,7 +22,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 1342
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -56,7 +55,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 783
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -89,7 +88,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 421
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -122,7 +121,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 235
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -155,7 +154,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 193
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -188,7 +187,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 342
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -221,7 +220,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 246
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -254,7 +253,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 965
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -287,7 +286,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 432
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -320,7 +319,7 @@ ARM_Recruitment_category = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			add_manpower = 7000
+			add_manpower = 731
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
