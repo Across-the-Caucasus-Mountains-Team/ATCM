@@ -2339,6 +2339,15 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 750
 			}
+			if = {
+				limit = {
+					has_idea = CHE_lack_of_experience_in_building_fortifications
+				}
+                swap_ideas = {
+                    remove_idea = CHE_lack_of_experience_in_building_fortifications
+                    add_idea = CHE_lack_of_experience_in_building_fortifications_2
+                }
+			}
 		}	
 	}
 
@@ -4945,6 +4954,60 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.05 }
 			army_experience = -100
 			custom_effect_tooltip = 3_CHE_tt
+		}	
+	}
+
+	focus = {
+		id = CHE_gain_experience_in_building_fortifications
+		icon = GFX_CHE_glory_of_ichkerian_army
+		x = 0
+		y = 6
+		relative_position_id = CHE_Weak_military
+		prerequisite = { focus = CHE_small_sabotage_units focus = CHE_artillery_divisions}
+		cost = 70
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+			has_army_experience > 100
+		}
+
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = CHE_lack_of_experience_in_building_fortifications
+				}
+				remove_ideas = CHE_lack_of_experience_in_building_fortifications
+			}
+			if = {
+				limit = {
+					has_idea = CHE_lack_of_experience_in_building_fortifications_2
+				}
+				remove_ideas = CHE_lack_of_experience_in_building_fortifications_2
+			}			
+			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
+			custom_effect_tooltip = 3_CHE_tt
+			army_experience = -100
+			custom_effect_tooltip = cash_balance_minus_500_tt
+			subtract_from_variable = {
+				var = cash
+				value = 500
+			}
 		}	
 	}
 

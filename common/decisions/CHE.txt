@@ -1048,6 +1048,11 @@ CHE_stability_of_republic_decision = {
                 remove_idea = CHE_drug_shortage_crisis_idea
                 add_idea = CHE_drug_shortage_crisis_idea_2
             }
+			custom_effect_tooltip = cash_balance_minus_65_tt
+			subtract_from_variable = {
+				var = cash
+				value = 65
+			}
 			unlock_decision_tooltip = CHE_transporting_medicines_from_abroad
 		}
 
@@ -1074,6 +1079,11 @@ CHE_stability_of_republic_decision = {
 
 		complete_effect = {
             remove_ideas = CHE_drug_shortage_crisis_idea_2
+			custom_effect_tooltip = cash_balance_minus_65_tt
+			subtract_from_variable = {
+				var = cash
+				value = 65
+			}
 		}
 
 		ai_will_do = {

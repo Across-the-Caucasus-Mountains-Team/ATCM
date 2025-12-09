@@ -644,5 +644,45 @@ ideas = {
 				weekly_manpower = -25		
 			}
 		}
+
+		CHE_lack_of_experience_in_building_fortifications = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GCHE_drug_shortage_crisis_idea
+			
+			modifier = {
+				land_bunker_effectiveness_factor = -0.5
+				production_speed_bunker_factor = -0.45
+			}
+		}
+
+		CHE_lack_of_experience_in_building_fortifications_2 = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GCHE_drug_shortage_crisis_idea
+			
+			modifier = {
+				land_bunker_effectiveness_factor = -0.25
+				production_speed_bunker_factor = -0.15
+			}
+		}
 	}
 }
