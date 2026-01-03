@@ -84,7 +84,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 950 }
+					position = { x = 40 y = 1220 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -97,7 +97,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 510 }
+					position = { x = 30 y = 950 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -282,29 +282,51 @@ guiTypes = {
 			}
 
 			gridboxtype = {
+				name = "anti_tank_infantry_weapon_tree"
+				position = { x = 140 y = 590 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "uniform_equipment_tree"
+				position = { x = 140 y = 730 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+				gridboxtype = {
+				name = "atgm_equipment_tree"
+				position = { x = 140 y = 860 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			
+			gridboxtype = {
 				name = "tech_trucks_tree"
-				position = { x = 140 y = 620 }
+				position = { x = 140 y = 1050 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "marines_tree"
-				position = { x = 140 y = 825 }
+				position = { x = 140 y = 1125 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "tech_mountaineers_tree"
-				position = { x = 140 y = 930 }
+				position = { x = 140 y = 1230 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "paratroopers_tree"
-				position = { x = 140 y = 1035 }
+				position = { x = 140 y = 1325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -312,7 +334,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tech_special_forces_tree"
-				position = { x = 140 y = 1140 }
+				position = { x = 140 y = 1440 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

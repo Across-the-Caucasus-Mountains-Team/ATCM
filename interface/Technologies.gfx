@@ -8489,6 +8489,88 @@ spriteTypes = {
 	}
 	###
 	SpriteType = {
+		name = "GFX_uniform_equipment_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment1_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment2_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_equipment_for_infantry_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment3_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment4_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+    ###
+
+	SpriteType = {
+		name = "GFX_atgm_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/atgm0.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/atgm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/atgm4.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/atgm2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/atgm3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment_medium"
+		texturefile = "gfx/interface/technologies/atgm0.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment1_medium"
+		texturefile = "gfx/interface/technologies/atgm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment3_medium"
+		texturefile = "gfx/interface/technologies/atgm2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment2_medium"
+		texturefile = "gfx/interface/technologies/atgm4.png"
+	}
+
+	SpriteType = {
+		name = "GFX_atgm_equipment4_medium"
+		texturefile = "gfx/interface/technologies/atgm3.png"
+	}
+
+    ###
+	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
 	}
@@ -8527,5 +8609,116 @@ spriteTypes = {
 		name = "GFX_bulletproof_vests_equipment_7_medium"
 		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_grenade_launcher_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+    
+	SpriteType = {
+		name = "GFX_grenade_launcher_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenade_launcher_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenade_launcher_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_grenade_launcher_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_improved_mortrar_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_improved_ammo_for_rpg_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_weapon_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_weapon1_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_weapon2_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_weapon3_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_anti_tank_infantry_weapon4_medium"
+		texturefile = "gfx/interface/technologies/rpg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons1_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons2_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons3_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons4_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons_0_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons_1_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mortar_weapons_4_medium"
+		texturefile = "gfx/interface/technologies/minomet1.dds"
+	}	
+
 
 }

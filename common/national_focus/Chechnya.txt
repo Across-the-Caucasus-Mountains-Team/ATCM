@@ -726,6 +726,39 @@ focus_tree = {
 	}
 
 	focus = {
+		id = CHE_include_mass_islam_into_education
+		icon = GFX_Goal_unknow
+		x = -3
+		y = 4
+		prerequisite = { focus = CHE_foreign_islamic_volunteers }
+		relative_position_id = CHE_build_islamic_state
+		
+		cost = 25
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			remove_ideas = CHE_language_issue
+		}	
+	}
+
+	focus = {
 		id = CHE_hold_ingushetia
 		icon = GFX_Goal_unknow
 		x = 0
@@ -771,7 +804,7 @@ focus_tree = {
 		prerequisite = { focus = CHE_foreign_islamic_volunteers }
 		relative_position_id = CHE_build_islamic_state
 		
-		cost = 10
+		cost = 35
 		
 		ai_will_do = {
 			factor = 100
@@ -5718,7 +5751,7 @@ focus_tree = {
 	focus = {
 		id = CHE_invest_into_countryside
 		icon = GFX_goal_unknown
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
@@ -5752,6 +5785,93 @@ focus_tree = {
 			subtract_from_variable = {
 				var = cash
 				value = 75
+			}
+		}	
+	}
+
+	focus = {
+		id = CHE_invest_into_education
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		relative_position_id = CHE_Economy_question
+		prerequisite = { focus = CHE_invest_into_countryside }
+		
+		cost = 35
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+			OR = {
+				has_completed_focus = CHE_reform_the_schools
+				has_completed_focus = CHE_include_mass_islam_into_education
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_research_slot = 1
+			custom_effect_tooltip = cash_balance_minus_500_tt
+			subtract_from_variable = {
+				var = cash
+				value = 500
+			}
+		}	
+	}
+
+	focus = {
+		id = CHE_national_unversities
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		relative_position_id = CHE_Economy_question
+		prerequisite = { focus = CHE_invest_into_education }
+		
+		cost = 35
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+			num_of_factories > 35
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_research_slot = 1
+			custom_effect_tooltip = cash_balance_minus_500_tt
+			subtract_from_variable = {
+				var = cash
+				value = 3500
 			}
 		}	
 	}

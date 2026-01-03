@@ -30,6 +30,14 @@ set_technology = {
 	basic_train = 1
 	modern_tank_1 = 1
 	IFV_1 = 1
+	mortar_weapons = 1
+	mortar_weapons1 = 1
+	anti_tank_infantry_weapon = 1
+	anti_tank_infantry_weapon1 = 1
+	uniform_equipment = 1
+	uniform_equipment1 = 1
+	atgm_equipment = 1
+	atgm_equipment1 = 1
 }
 
 set_politics = {
