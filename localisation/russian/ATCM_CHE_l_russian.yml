@@ -163,7 +163,10 @@
   CHE_restore_damaged_russian_ifv:0 "Восстановить российские БМП"
   CHE_restore_damaged_russian_tanks:0 "Восстановить российские танки"
   CHE_strengthen_dudayev_security:0 "Усилить охрану Дудаева"
-
+  CHE_propaganda_against_the_opposition:0 "Пропаганда против оппозиции"
+  CHE_hold_raids:0 "Проводить рейды"
+  CHE_additional_funding_for_pro_government_media:0 "Дополнительное Финансирование медиа"
+  CHE_prepare_defence_in_grozny:0 "Подготовить оборону в Грозном"
 
   CHE_elections_1991_decision:0 "Выборы 1991 года"
   CHE_elections_1991_decision_desc:0 "Чеченская Республика находится в процессе первых в своей истории президентских выборов. Ситуация нестабильна: центральная советская власть рушится, и регион действует вне контроля Москвы. Хотя большая часть населения поддерживает независимость, другие опасаются изоляции или войны. \n\nПоддержка Дудаева: §Y[?CHE_dudayev_support_value|%%]§! \n\nИсламский радикализм: §Y[?CHE_islamic_radicalism_value|%%]§!"
@@ -272,6 +275,7 @@
   chechnya.35.t:0 "Шамиль Басаев возвращается"
   chechnya.35.d:0 "Шамиль Басаев, который ранее отправился вместе с другими чеченскеми добровольцами в Абхазию, вернулся оттуда."
   chechnya.35.a:0 "Понятно" 
+  chechnya.36.t:0 "Ставка штаба"
  
  
   
@@ -306,5 +310,5 @@
   CHE_sleepless_enemy_of_the_tanks_ideas:0 "Охота на танки"
   CHE_lack_of_experience_in_building_fortifications:0 "Недостаток опыта в строительстве укреплений"
   CHE_lack_of_experience_in_building_fortifications_2:0 "Некачественные укрепления"
-
-  
+  CHE_opposition_power_idea:0 "Сильная оппозиция"
+  CHE_hold_millitary_training:0 "Проводить учения"

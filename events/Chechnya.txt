@@ -884,3 +884,20 @@ country_event = {
 		air_experience = 5
 	}
 }
+
+#Shamil Basayev returned from Abkhazia
+country_event = {
+	id = chechnya.36
+	title = chechnya.36.t
+	desc = chechnya.36.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.36.a
+		clr_country_flag = BasayevInAbkhazia	
+		army_experience = 75
+		air_experience = 5
+	}
+}

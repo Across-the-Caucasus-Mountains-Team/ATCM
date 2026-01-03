@@ -65,7 +65,7 @@ equipments = {
 		visual_level = 1
 
 		soft_attack = 3.84
-		hard_attack = 5.40
+		hard_attack = 8.40
 		ap_attack = 20
 
 		reliability = 0.8
@@ -86,7 +86,7 @@ equipments = {
 		visual_level = 1
 
 		soft_attack = 4.11
-		hard_attack = 5.95
+		hard_attack = 11.95
 		ap_attack = 22
 
 		reliability = 0.8
@@ -107,7 +107,7 @@ equipments = {
 		visual_level = 1
 
 		soft_attack = 4.11
-		hard_attack = 5.95
+		hard_attack = 14.95
 		ap_attack = 22
 
 		reliability = 0.8

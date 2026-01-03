@@ -46,7 +46,10 @@ sub_units = {
 		supply_consumption = 0.06
 	
 		need = {
-			infantry_equipment = 25
+			infantry_equipment = 30
+			bulletproof_vests_equipment = 25
+			uniform_equipment = 30
+			grenade_launcher_equipment = 10
 		}
 	}
 
@@ -167,6 +170,9 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 30
+			bulletproof_vests_equipment = 25
+			uniform_equipment = 30
+			grenade_launcher_equipment = 10
 		}
 
 		marsh = {
@@ -283,6 +289,9 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 25
+			bulletproof_vests_equipment = 25
+			uniform_equipment = 30
+			grenade_launcher_equipment = 10
 		}
 
 		hills = {
@@ -341,6 +350,9 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 30
+			bulletproof_vests_equipment = 25
+			uniform_equipment = 30
+			grenade_launcher_equipment = 8
 		}
 	}
 
@@ -387,6 +399,8 @@ sub_units = {
 		need = {
 			infantry_equipment = 45
 			motorized_equipment = 10
+			bulletproof_vests_equipment = 25
+			uniform_equipment = 30
 		}
 
 		forest = {
@@ -647,6 +661,9 @@ sub_units = {
 		
 		need = {
 			infantry_equipment = 35 # was 100 
+			bulletproof_vests_equipment = 25
+			uniform_equipment = 35
+	        grenade_launcher_equipment = 5
 		}
 	}
 
@@ -690,6 +707,9 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 35
+			bulletproof_vests_equipment = 25
+			uniform_equipment = 35
+			grenade_launcher_equipment = 8
 		}
 	}
 }

@@ -844,6 +844,11 @@ CHE_stability_of_republic_decision = {
 		
 		available = {		
 		    tag = CHE
+			check_variable = {
+                var = CHE_power_of_opposition_value
+                value = 35
+                compare = greater_than_or_equals
+            }
 		}
 	    
 		visible = {
@@ -899,6 +904,48 @@ CHE_stability_of_republic_decision = {
                 value = 5
                 tooltip = sub_5_from_power_of_opposition_chechnya_tt
             }
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}
+
+	CHE_additional_funding_for_pro_government_media = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = no
+		
+		available = {		
+		    tag = CHE
+			check_variable = {
+                var = CHE_power_of_opposition_value
+                value = 35
+                compare = greater_than_or_equals
+            }
+		}
+	    
+		visible = {
+			tag = CHE
+			has_completed_focus = CHE_build_secular_state
+			NOT = {
+				has_country_flag = CHEChechenOppositionUprising
+			}
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
+			custom_effect_tooltip = cash_balance_minus_65_tt
+			subtract_from_variable = {
+				var = cash
+				value = 65
+			}
 		}
 
 		ai_will_do = {
@@ -989,6 +1036,32 @@ CHE_stability_of_republic_decision = {
 		}
 	}
 
+	CHE_hold_millitary_training = {
+		allowed = {
+			original_tag = CHE
+			NOT = {
+				has_idea = CHE_Military_Training
+			}
+		}
+		visible = {
+			has_completed_focus = CHE_military_training
+		}
+		icon = GFX_decision_coat_of_arms_donetsk_oblast
+		
+	    fire_only_once = no
+		cost = 100
+		complete_effect = {
+		    army_experience = 35
+			add_timed_idea = {
+				idea = CHE_Military_Training
+				days = 75
+			}
+		}
+		ai_will_do = {
+			factor = 120
+		}
+	}
+
 	CHE_prepare_defence_in_grozny = {
 
 		icon = GFX_decision_generic_soldie
@@ -1065,7 +1138,7 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 50
+        cost = 125
 		fire_only_once = yes
 		
 		available = {		

@@ -125,4 +125,468 @@ equipments = {
 			steel = 4
 		}
 	}
+
+    #########################
+	### bulletproof vests ###
+	#########################
+	bulletproof_vests_equipment = {
+		year = 1960
+	
+		is_archetype = yes
+		picture = archetype_bulletproof_vests_equipment	
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.08
+		resources = {
+			steel = 1
+		}
+		
+	}
+
+	bulletproof_vests_equipment_0 = {
+		year = 1960
+	
+		archetype = bulletproof_vests_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+
+
+	# Regular infantry  1936
+	bulletproof_vests_equipment_1 = {
+		year = 1936
+	
+		archetype = bulletproof_vests_equipment
+		parent = bulletproof_vests_equipment_0
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 8
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.08
+		resources = {
+			steel = 1
+		}
+	}
+
+	# Improved weapons  ~1939
+	bulletproof_vests_equipment_2 = {
+		year = 1939
+
+		archetype = bulletproof_vests_equipment
+		parent = bulletproof_vests_equipment_1
+		priority = 10
+		visual_level = 2
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 11
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.09
+		resources = {
+			steel = 1
+		}
+		
+	}
+	
+	# Advanced weapons  ~1942
+	bulletproof_vests_equipment_3 = {
+		year = 1942
+	
+		archetype = bulletproof_vests_equipment
+		parent = bulletproof_vests_equipment_2
+		priority = 10
+		visual_level = 2
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 13
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.10
+		resources = {
+			steel = 1
+		}
+	}
+
+	bulletproof_vests_equipment_4 = {
+		year = 1942
+
+		archetype = bulletproof_vests_equipment
+		parent = bulletproof_vests_equipment_3
+		priority = 10
+		visual_level = 2
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 13
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.10
+		resources = {
+			steel = 1
+		}
+	}
+
+	bulletproof_vests_equipment_5 = {
+		year = 1942
+
+		archetype = bulletproof_vests_equipment
+		parent = bulletproof_vests_equipment_4
+		priority = 10
+		visual_level = 3
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.10
+		resources = {
+			steel = 1
+		}
+	}
+
+	bulletproof_vests_equipment_6 = {
+		year = 1942
+
+		archetype = bulletproof_vests_equipment
+		parent = bulletproof_vests_equipment_5
+		priority = 10
+		visual_level = 3
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 16
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.10
+		resources = {
+			steel = 1
+		}
+	}
+
+	bulletproof_vests_equipment_7 = {
+		year = 1942
+
+		archetype = bulletproof_vests_equipment
+		parent = bulletproof_vests_equipment_6
+		priority = 10
+		visual_level = 3
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 17
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.3
+		
+		build_cost_ic = 0.12
+		resources = {
+			steel = 1
+		}
+	}
+
+    #########################
+	######## uniform ########
+	#########################
+	uniform_equipment = {
+		year = 1960
+	
+		is_archetype = yes
+		picture = archetype_uniform_equipment	
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 1
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.01
+		
+		build_cost_ic = 0.02
+		resources = {
+			steel = 1
+		}
+		
+	}
+
+	uniform_equipment_0 = {
+		year = 1960
+	
+		archetype = uniform_equipment
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+
+
+	# Regular infantry  1936
+	uniform_equipment_1 = {
+		year = 1936
+	
+		archetype = uniform_equipment
+		parent = uniform_equipment_0
+		priority = 10
+		visual_level = 1
+
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 2
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.01
+		
+		build_cost_ic = 0.03
+		resources = {
+			steel = 1
+		}
+	}
+
+	# Improved weapons  ~1939
+	uniform_equipment_2 = {
+		year = 1939
+
+		archetype = uniform_equipment
+		parent = uniform_equipment_1
+		priority = 10
+		visual_level = 2
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 3
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.02
+		
+		build_cost_ic = 0.03
+		resources = {
+			steel = 1
+		}
+		
+	}
+	
+	# Advanced weapons  ~1942
+	uniform_equipment_3 = {
+		year = 1942
+	
+		archetype = uniform_equipment
+		parent = uniform_equipment_2
+		priority = 10
+		visual_level = 2
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 3.4
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.02
+		
+		build_cost_ic = 0.3
+		resources = {
+			steel = 1
+		}
+	}
+
+	uniform_equipment_4 = {
+		year = 1942
+
+		archetype = uniform_equipment
+		parent = uniform_equipment_3
+		priority = 10
+		visual_level = 2
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 3.5
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.02
+		
+		build_cost_ic = 0.04
+		resources = {
+			steel = 1
+		}
+	}
+
+	uniform_equipment_5 = {
+		year = 1942
+
+		archetype = uniform_equipment
+		parent = uniform_equipment_4
+		priority = 10
+		visual_level = 3
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 3.8
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.02
+		
+		build_cost_ic = 0.04
+		resources = {
+			steel = 1
+		}
+	}
+
+	uniform_equipment_6 = {
+		year = 1942
+
+		archetype = uniform_equipment
+		parent = uniform_equipment_5
+		priority = 10
+		visual_level = 3
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 3.9
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.02
+		
+		build_cost_ic = 0.04
+		resources = {
+			steel = 1
+		}
+	}
+
+	uniform_equipment_7 = {
+		year = 1942
+
+		archetype = uniform_equipment
+		parent = uniform_equipment_6
+		priority = 10
+		visual_level = 3
+		
+		#Misc Abilities
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 2
+		hardness = 0
+		armor_value = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 0.02
+		
+		build_cost_ic = 0.05
+		resources = {
+			steel = 1
+		}
+	}
 }

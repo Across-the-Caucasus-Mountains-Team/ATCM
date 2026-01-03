@@ -8419,4 +8419,113 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/sp_surface_ice_composite_runways.dds"
 	}
 
+
+
+
+
+
+
+
+
+	############### ATCM #########################
+	##############################################
+
+
+		SpriteType = {
+		name = "GFX_archetype_uniform_equipment_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archetype_uniform_equipment_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_archetype_bulletproof_vests_equipment_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	####
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_uniform_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/uniform_equipment_0.dds"
+	}
+	###
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.dds"
+	}
+
 }

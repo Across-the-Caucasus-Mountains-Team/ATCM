@@ -722,12 +722,13 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
 			add_stability = -0.025
 			add_war_support = -0.075
+			add_political_power = -65
 		}
 
 		timeout_effect = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			add_manpower = 1500
+			add_political_power = 55
 	    }
 
 		highlight_states = {
@@ -764,12 +765,13 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
 			add_stability = -0.025
 			add_war_support = -0.05
+			add_political_power = -25
 		}
 
 		timeout_effect = {
 			add_stability = 0.025
 			add_war_support = 0.015
-			add_manpower = 350
+			add_political_power = 25
 	    }
 
         highlight_states = { 
@@ -801,12 +803,13 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
 			add_stability = -0.025
 			add_war_support = -0.035
+			add_political_power = -55
 		}
 
 		timeout_effect = {
 			add_stability = 0.025
 			add_war_support = 0.01
-			add_manpower = 250
+			add_political_power = 35
 	    }
 
         highlight_states = { 
@@ -838,12 +841,13 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
 			add_stability = -0.025
 			add_war_support = -0.035
+			add_political_power = -15
 		}
 
 		timeout_effect = {
 			add_stability = 0.025
 			add_war_support = 0.01
-			add_manpower = 150
+			add_political_power = 15
 	    }
 
         highlight_states = { 
@@ -875,12 +879,13 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
 			add_stability = -0.025
 			add_war_support = -0.045
+			add_political_power = -35
 		}
 
 		timeout_effect = {
 			add_stability = 0.025
 			add_war_support = 0.01
-			add_manpower = 150
+			add_political_power = 35
 	    }
 
         highlight_states = { 
@@ -1112,7 +1117,7 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
             add_timed_idea = {
                 idea = RAS_improved_logistic
-                days = 180
+                days = 225
             }
 		}
 
@@ -1257,7 +1262,7 @@ RAS_special_services_decision = {
 		}
 
 		complete_effect = {
-            add_war_support = 0.05
+            air_experience = 25
 			add_timed_idea = {
                 idea = RAS_awacs_reconnaissance
                 days = 125
@@ -1297,13 +1302,13 @@ RAS_special_services_decision = {
 		}
 
 		complete_effect = {
-			retire_character = с
 			random_list = {
                 60 = {
                     CHE = {
                         country_event = chechnya.13
 					}
 					add_war_support = 0.075
+					add_political_power = 35
                 }
                 40 = {
                     CHE = {

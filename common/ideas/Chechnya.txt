@@ -38,10 +38,10 @@ ideas = {
 			picture = CHE_Unrecognized_Country
 			
 			modifier = {
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.45
 				production_speed_buildings_factor = -0.25
-				global_building_slots_factor = -0.15
-				production_speed_industrial_complex_factor = -0.25
+				global_building_slots_factor = -0.25
+				production_speed_industrial_complex_factor = -0.35
 			}
 		}
 
@@ -77,9 +77,29 @@ ideas = {
 			picture = CHE_Unrecognized_Country
 			
 			modifier = {
-				surrender_limit = 0.9
+				surrender_limit = 0.5
 				army_core_attack_factor = 0.05
 				equipment_capture_factor = 0.02
+			}
+		}
+
+		CHE_first_chechen_war_idea_2 = {
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = CHE_Unrecognized_Country
+			
+			modifier = {
+				surrender_limit = 0.9
+				army_core_attack_factor = 0.05
+				equipment_capture_factor = 0.03
 			}
 		}
 
@@ -526,6 +546,7 @@ ideas = {
 			picture = state_of_emergency
 			
 			modifier = {
+				army_core_attack_factor = 0.05
 			    army_defence_factor = -0.15
                 army_org_factor = -0.15				
 				max_dig_in_factor = -0.15
@@ -683,6 +704,39 @@ ideas = {
 				land_bunker_effectiveness_factor = -0.25
 				production_speed_bunker_factor = -0.15
 			}
+		}
+
+		CHE_opposition_power_idea = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GCHE_drug_shortage_crisis_idea
+			
+			modifier = {
+				weekly_manpower = -35
+				army_org_factor = -0.25	
+				political_power_cost = 0.15
+				communism_drift = 0.01
+				liberalism_drift = 0.02
+				conservatism_drift = 0.02
+				Junta_drift = 0.01
+				populism_drift = 0.01
+				anarchism_drift = 0.01
+				authoritarianism_drift = 0.02
+			}
+
+			targeted_modifier = {
+                tag = CHI
+                attack_bonus_against = -0.15
+            }
 		}
 	}
 }

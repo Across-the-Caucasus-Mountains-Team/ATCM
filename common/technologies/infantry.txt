@@ -17,8 +17,11 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_0
-			manpads_equipment
-			atgm_equipment
+			manpads_equipment_0
+			atgm_equipment_0
+			uniform_equipment_0
+			bulletproof_vests_equipment_0
+			grenade_launcher_equipment_0
 		}
 
 		enable_equipment_modules = {
@@ -58,6 +61,9 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_1
+		    uniform_equipment_1
+			bulletproof_vests_equipment_1
+			grenade_launcher_equipment_1
 		}
 
 		path = {
@@ -86,12 +92,12 @@ technologies = {
 
 			modifier = {
 				factor = 10
-				tag = CHE
+				tag = RAS
 			}
 
 			modifier = {
 				factor = 10
-				date > 1936.1.3
+				date > 1991.1.3
 			}
 		}
 	}
@@ -132,12 +138,12 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1938.1.1"
+				date > "1992.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "1993.1.1"
 			}
 		}
 	}
@@ -146,6 +152,9 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_2
+			uniform_equipment_2
+			bulletproof_vests_equipment_2
+			grenade_launcher_equipment_2
 		}
 
 		path = {
