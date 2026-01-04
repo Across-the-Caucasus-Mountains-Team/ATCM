@@ -28,7 +28,7 @@ technologies = {
 
 		enable_subunits = {
 			infantry
-			sniper_company
+			special_forces_infantry
 		}
 
 		path = {

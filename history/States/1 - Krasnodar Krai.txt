@@ -9,6 +9,7 @@ state={
 		steel = 82
 		aluminium = 3
 		oil = 38 
+		coal = 59
 	}
 	
 	history = {

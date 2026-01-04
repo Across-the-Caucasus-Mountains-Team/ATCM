@@ -520,7 +520,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "tiled_research_bg"
-				position = { x=150 y=720 }
+				position = { x=150 y=820 }
 				size = { width = 1340 height = 550 }
 				clipping = no
 
@@ -532,7 +532,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "tiled_research_bg_2"
-				position = { x=160 y=1075 }
+				position = { x=160 y=1175 }
 				size = { width = 1320 height = 190 }
 				clipping = no
 
@@ -557,13 +557,6 @@ guiTypes = {
 			gridboxtype = {
 				name = "motorised_infantry_tree"
 				position = { x = 100 y = 220 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "basic_train_tree"
-				position = { x = 100 y = 1380 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -3370,6 +3363,14 @@ guiTypes = {
 				name = "construction1_tree"
 				position = { x = 894 y = 312 }
 				size = { width = 72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			
+			gridboxtype = {
+				name = "basic_train_tree"
+				position = { x = 1670 y = 180 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}

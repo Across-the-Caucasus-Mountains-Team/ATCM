@@ -13,6 +13,8 @@ division_template = {
 	support = {
         engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
 	}
 }
 
@@ -29,6 +31,8 @@ division_template = {
 	support = {
         engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
 	}
 }
 
@@ -45,8 +49,9 @@ division_template = {
 	}
 	support = {
         engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		mortar = { x = 0 y = 2 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
 	}
 }
 
@@ -64,6 +69,8 @@ division_template = {
 	support = {
         engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
 	}
 }
 

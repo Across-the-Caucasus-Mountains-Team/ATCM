@@ -412,7 +412,7 @@ sub_units = {
 			support_equipment = 25
 			uniform_equipment = 25
 			bulletproof_vests_equipment = 10
-			bbm_chassis = 3
+			
 		}
 		
 		battalion_mult = {
@@ -547,12 +547,12 @@ sub_units = {
 		
 		essential = {
 			support_equipment
-			bbm_chassis
+			
 		}
 
 		need = {
 			support_equipment = 20
-			bbm_chassis  = 10
+			
 		}
 
 	}

@@ -1663,6 +1663,10 @@ focus_tree = {
 			}
 			add_stability = -0.45
 			hidden_effect = {
+				country_event = {
+				    id =chechnya.8
+                    days = 9
+				}
 				add_manpower = -25000
 				add_ideas = CHE_first_chechen_war_idea
 				subtract_from_variable = {
@@ -2080,7 +2084,6 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 750
 			}	
-			country_event = chechnya.8
 		}	
 	}
 
@@ -2113,7 +2116,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 3560
+			add_manpower = 2560
 		}	
 	}
 
@@ -5416,6 +5419,9 @@ focus_tree = {
 				var = cash
 				value = 250
 			}
+			hidden_effect = {
+				load_oob = CHE_national_guard
+			}
 		}	
 	}
 
@@ -6032,7 +6038,7 @@ focus_tree = {
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Total_Control_has_achived }
 		
-		cost = 10
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -6069,7 +6075,7 @@ focus_tree = {
 		relative_position_id = CHE_the_situation_is_getting_out_of_control
 		prerequisite = { focus = CHE_the_situation_is_getting_out_of_control }
 		
-		cost = 10
+		cost = 15
 		
 		ai_will_do = {
 			factor = 100
@@ -6092,8 +6098,11 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 1500
+			add_manpower = 750
 			army_experience = 25
+			hidden_effect = {
+				load_oob = CHE_national_guard_raised
+			}
 		}	
 	}
 
@@ -6105,7 +6114,7 @@ focus_tree = {
 		relative_position_id = CHE_the_situation_is_getting_out_of_control
 		prerequisite = { focus = CHE_raise_the_national_guard }
 		
-		cost = 30
+		cost = 45
 		
 		ai_will_do = {
 			factor = 100
@@ -6128,6 +6137,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_stability = -0.075
             unlock_decision_tooltip = CHE_prepare_defence_in_grozny
 		}	
 	}

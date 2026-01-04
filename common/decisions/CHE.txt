@@ -1039,22 +1039,24 @@ CHE_stability_of_republic_decision = {
 	CHE_hold_millitary_training = {
 		allowed = {
 			original_tag = CHE
-			NOT = {
-				has_idea = CHE_Military_Training
-			}
 		}
 		visible = {
 			has_completed_focus = CHE_military_training
 		}
+		available = {		
+		    NOT = {
+				has_idea = CHE_Military_Training
+			}
+		}
 		icon = GFX_decision_coat_of_arms_donetsk_oblast
 		
 	    fire_only_once = no
-		cost = 100
+		cost = 125
 		complete_effect = {
 		    army_experience = 35
 			add_timed_idea = {
 				idea = CHE_Military_Training
-				days = 75
+				days = 45
 			}
 		}
 		ai_will_do = {

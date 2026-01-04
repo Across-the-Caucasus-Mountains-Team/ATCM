@@ -2016,5 +2016,89 @@ technologies = {
 				}
 			}
 		}
-	}			
+	}		
+	
+	basic_train = {
+		enable_equipments = {
+			train_equipment_1
+		}
+
+		research_cost = 1.5
+		start_year = 1990
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+
+		path = {
+			leads_to_tech = wartime_train
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			train_tech
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				num_of_factories > 25
+				factor = 100 #might wanna get on that
+			}
+			modifier = {
+				factor = 1.2
+				date > "1936.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1938.1.1"
+			}
+		}
+	}
+
+	wartime_train = {
+		enable_equipments = {
+			train_equipment_2
+		}
+
+		research_cost = 1.5
+		start_year = 1995
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			train_tech
+		}
+
+		ai_will_do = {
+			base = 2
+
+			modifier = {
+				has_war = yes
+				factor = 20
+			}
+			modifier = {
+				factor = 1.2
+				date > "1940.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+		}
+	}
 }

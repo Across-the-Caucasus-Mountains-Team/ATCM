@@ -6,7 +6,7 @@ state={
 	}
 	history={
 		victory_points = { 9183 15 }
-	    owner = RAS
+	    owner = DAG
 		add_core_of = DAG
 	    add_core_of = RAS
 	    buildings = {

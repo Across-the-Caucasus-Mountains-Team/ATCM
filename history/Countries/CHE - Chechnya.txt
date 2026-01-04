@@ -39,6 +39,7 @@ set_technology = {
 	atgm_equipment1 = 1
 	APC_1 = 1
 	APC_2 = 1
+	sniper_company = 1
 }
 
 set_politics = {

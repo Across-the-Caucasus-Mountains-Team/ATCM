@@ -5,7 +5,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_sniper_company_icon_medium" 			  textureFile = "gfx/interface/counters/divisions_large/Sniper_company.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_infantry_fighting_vehicle_icon_medium" 			  textureFile = "gfx/interface/counters/divisions_large/IFV_unit.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_armoured_personnel_carrier_icon_medium" 			  textureFile = "gfx/interface/counters/divisions_large/APC_unit.dds" noOfFrames = 2 }
-
+    spriteType = { name = "GFX_unit_special_forces_infantry_icon_medium" 			  textureFile = "gfx/interface/counters/divisions_large/Special_forces_infantry.dds" noOfFrames = 2 }
 
 	
 }
