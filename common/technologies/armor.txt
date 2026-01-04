@@ -12,6 +12,10 @@ technologies = {
 		on_research_complete_limit = {
 			
 		}
+		path = {
+		    leads_to_tech = modern_tank_2
+			research_cost_coeff = 1
+		}
 		on_research_complete = {
 			hidden_effect = {
 				if = {
@@ -34,10 +38,166 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1955
 		folder = {
 			name = armour_folder
 			position = { x = -1 y = 0 }
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	modern_tank_2 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_2
+
+		}
+		enable_subunits = {
+			
+
+		}
+		on_research_complete_limit = {
+			
+		}
+		path = {
+		    leads_to_tech = modern_tank_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 2 }
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	modern_tank_3 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_3
+
+		}
+		enable_subunits = {
+			
+
+		}
+		on_research_complete_limit = {
+			
+		}
+		path = {
+		    leads_to_tech = modern_tank_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 4 }
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	modern_tank_4 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_4
+
+		}
+		enable_subunits = {
+			
+
+		}
+		on_research_complete_limit = {
+			
+		}
+		path = {
+		    leads_to_tech = modern_tank_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 6 }
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	modern_tank_5 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_5
+
+		}
+		enable_subunits = {
+			
+
+		}
+		on_research_complete_limit = {
+			
+		}
+		path = {
+		    leads_to_tech = modern_tank_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 8 }
 		}
 
 		ai_will_do = {
@@ -94,7 +254,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 0 }
+			position = { x = -4 y = 2 }
 		}
 
 		ai_will_do = {
@@ -151,7 +311,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 3 }
+			position = { x = -4 y = 4 }
 		}
 
 		ai_will_do = {
@@ -208,7 +368,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 5 }
+			position = { x = -4 y = 6 }
 		}
 
 		ai_will_do = {
@@ -261,7 +421,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 7 }
+			position = { x = -4 y = 8 }
 		}
 
 		ai_will_do = {
@@ -281,17 +441,20 @@ technologies = {
 	APC_1 = { #Leichttraktor
 
 		enable_equipments = {
-			apc_equipment
+			apc_0_equipment
 		}
 		enable_subunits = {
 			armoured_personnel_carrier
-			armoured_personnel_carrier_platoon
 		}
 		on_research_complete_limit = {
 			
 		}
 		path = {
 		    leads_to_tech = APC_2
+			research_cost_coeff = 1
+		}
+		path = {
+		    leads_to_tech = IFV_1
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -302,7 +465,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 10 y = 0 }
+			position = { x = 0 y = 0 }
 		}
 
 		ai_will_do = {
@@ -342,7 +505,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 3 }
+			position = { x = 0 y = 2 }
 		}
 
 		ai_will_do = {
@@ -362,7 +525,7 @@ technologies = {
 	APC_3 = { #Leichttraktor
 
 		enable_equipments = {
-            ifv_2_equipment
+            apc_2_equipment
 		}
 		enable_subunits = {
 
@@ -382,7 +545,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 5 }
+			position = { x = 0 y = 4 }
 		}
 
 		ai_will_do = {
@@ -402,7 +565,45 @@ technologies = {
 	APC_4 = { #Leichttraktor
 
 		enable_equipments = {
-            ifv_3_equipment
+            apc_3_equipment
+		}
+		enable_subunits = {
+
+		}
+		on_research_complete_limit = {
+			
+		}
+		on_research_complete = {
+		
+		}
+		path = {
+		    leads_to_tech = APC_5
+		}
+		research_cost = 2
+		start_year = 1980
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	APC_5 = { #Leichttraktor
+
+		enable_equipments = {
+            apc_4_equipment
 		}
 		enable_subunits = {
 
@@ -418,7 +619,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 7 }
+			position = { x = 0 y = 8 }
 		}
 
 		ai_will_do = {

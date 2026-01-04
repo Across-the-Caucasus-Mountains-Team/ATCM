@@ -45,12 +45,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_archetype_support_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_support_equipment.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_archetype_modern_tank_equipment_medium"
-		texturefile = "gfx/interface/archetypes/archetype_modern_tank_equipment.dds"
-	}	
+	}		
 	
 	SpriteType = {
 		name = "GFX_archetype_super_heavy_tank_equipment_medium"
@@ -8721,4 +8716,164 @@ spriteTypes = {
 	}	
 
 
+	
+
+	SpriteType = {
+		name = "GFX_APC_1_medium"
+		texturefile = "gfx/interface/technologies/btr152.png"
+	}
+
+	SpriteType = {
+		name = "GFX_APC_2_medium"
+		texturefile = "gfx/interface/technologies/apc60.png"
+	}
+
+	SpriteType = {
+		name = "GFX_APC_3_medium"
+		texturefile = "gfx/interface/technologies/btr70.png"
+	}
+
+	SpriteType = {
+		name = "GFX_APC_4_medium"
+		texturefile = "gfx/interface/technologies/btr80.png"
+	}
+
+	SpriteType = {
+		name = "GFX_APC_5_medium"
+		texturefile = "gfx/interface/technologies/btr90.png"
+	}
+
+	SpriteType = {
+		name = "GFX_apc_0_equipment_medium"
+		texturefile = "gfx/interface/technologies/btr152.png"
+	}
+
+	SpriteType = {
+		name = "GFX_apc_1_equipment_medium"
+		texturefile = "gfx/interface/technologies/apc60.png"
+	}
+
+	SpriteType = {
+		name = "GFX_apc_2_equipment_medium"
+		texturefile = "gfx/interface/technologies/btr70.png"
+	}
+
+	SpriteType = {
+		name = "GFX_apc_3_equipment_medium"
+		texturefile = "gfx/interface/technologies/btr80.png"
+	}
+
+	SpriteType = {
+		name = "GFX_apc_4_equipment_medium"
+		texturefile = "gfx/interface/technologies/btr90.png"
+	}
+
+	
+
+	SpriteType = {
+		name = "GFX_IFV_1_medium"
+		texturefile = "gfx/interface/technologies/bmp1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_IFV_2_medium"
+		texturefile = "gfx/interface/technologies/bmp2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_IFV_3_medium"
+		texturefile = "gfx/interface/technologies/bmp3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_IFV_4_medium"
+		texturefile = "gfx/interface/technologies/bmp3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_ifv_equipment_medium"
+		texturefile = "gfx/interface/technologies/bmp1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_ifv_1_equipment_medium"
+		texturefile = "gfx/interface/technologies/bmp2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_ifv_2_equipment_medium"
+		texturefile = "gfx/interface/technologies/bmp3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_ifv_3_equipment_medium"
+		texturefile = "gfx/interface/technologies/bmp3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_3_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_4_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_5_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank5.dds"
+	}
+
+
+
+	SpriteType = {
+		name = "GFX_modern_tank_1_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_2_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_3_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_4_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_5_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_modern_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank5.dds"
+	}
 }

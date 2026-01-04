@@ -1,5 +1,5 @@
 # modern tank/self propelled equipment
-equipments = {
+#equipments = {
 
 #	modern_tank_equipment = {
 #		year = 1934

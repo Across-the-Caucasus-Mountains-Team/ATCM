@@ -107,7 +107,6 @@ sub_units = {
 			uniform_equipment = 15
 			mortar_equipment = 8
 			infantry_equipment = 5
-			bbm_chassis = 2
 		}
 
 		can_be_parachuted = yes
@@ -141,7 +140,6 @@ sub_units = {
 			manpads_equipment = 4
 			bulletproof_vests_equipment = 8
 			uniform_equipment = 8
-			bbm_chassis = 1
 		}
 		manpower = 8
 		max_organisation = 0
@@ -209,7 +207,6 @@ sub_units = {
 		
 		need = {
 			support_equipment = 30
-			bbm_chassis = 10
 			infantry_equipment = 5
 		}
 
@@ -245,15 +242,13 @@ sub_units = {
 			bulletproof_vests_equipment = 15
 			uniform_equipment = 15
 			infantry_equipment = 5
-			atgm_equipment = 5
-			bbm_chassis = 3
+			atgm_equipment = 3
 		}
 
 		manpower = 15
-		max_organisation = 0
+		max_organisation = 20
 		default_morale = 0.1
 		max_strength = 0.2
-		hard_attack = 12
 		training_time = 120
 		weight = 0.1
 

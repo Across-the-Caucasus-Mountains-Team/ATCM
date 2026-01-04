@@ -880,7 +880,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "modern_tank_1_tree"
-				position = { x = 0% y = 172 }
+				position = { x = -8% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -896,7 +896,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "APC_1_tree"
-				position = { x = -5% y = 172 }
+				position = { x = 25% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
