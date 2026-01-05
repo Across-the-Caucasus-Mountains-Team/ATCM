@@ -705,7 +705,7 @@ focus_tree = {
 		x = 0
 		y = 3
 
-		cost = 25
+		cost = 45
 
 		ai_will_do = {
 			base = 5
@@ -1597,7 +1597,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 35
+		cost = 15
 
 		ai_will_do = {
 			base = 5
@@ -3016,10 +3016,16 @@ focus_tree = {
 				    type = infantry_equipment_1 
 				    amount = 2500 
 			    }
+				add_equipment_to_stockpile = { 
+				    type = uniform_equipment_0 
+				    amount = 2500 
+			    }				
 				add_manpower = 1000
 			}
 			add_manpower = -1000
-			load_oob = ABK_russian_support_1991
+			ABK = { 
+			    load_oob = ABK_russian_support_1991
+			}
 		}
 	}
 
@@ -3062,13 +3068,19 @@ focus_tree = {
 			}
 	        OST = {
 				add_equipment_to_stockpile = { 
-				type = infantry_equipment_1 
-				amount = 2500 
+				    type = infantry_equipment_1 
+				    amount = 2500 
+			    }
+				add_equipment_to_stockpile = { 
+				    type = uniform_equipment_0 
+				    amount = 2500 
 			    }
 				add_manpower = 1000
 			}
 			add_manpower = -1000
-			load_oob = OST_second_russian_support_1991
+			OST = { 
+			    load_oob = OST_second_russian_support_1991
+			}
 		}
 	}
 
@@ -3186,7 +3198,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 95
 			add_war_support = 0.05
 			CHE = {
 				country_event = chechnya.7
@@ -3280,6 +3292,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.05
+			add_political_power = 95
 			air_experience = 35
 			set_country_flag = VDVLandingInProgress
 			unlock_decision_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
@@ -3621,7 +3634,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 35
+		cost = 15
 
 		ai_will_do = {
 			base = 5
@@ -3646,7 +3659,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.025
-			army_experience = 25
+			army_experience = 35
 	        load_oob = RAS_omon_first_chechen_war
 		}
 	}

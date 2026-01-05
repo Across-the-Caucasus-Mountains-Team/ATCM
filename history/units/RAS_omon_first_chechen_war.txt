@@ -69,7 +69,7 @@ units = {
 		}
 		location = 5258
 		division_template = "Batalyon-OMON"
-		start_experience_factor = 0.05
+		start_experience_factor = 0.45
 	}	
 	
 	division = {	
@@ -79,7 +79,7 @@ units = {
 		}
 		location = 5258
 		division_template = "Batalyon-OMON"
-		start_experience_factor = 0.05
+		start_experience_factor = 0.35
 	}
 
 	division = {	
@@ -89,6 +89,16 @@ units = {
 		}
 		location = 7315
 		division_template = "Batalyon-OMON"
-		start_experience_factor = 0.05
+		start_experience_factor = 0.25
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 7315
+		division_template = "Batalyon-OMON"
+		start_experience_factor = 0.5
 	}
 }	

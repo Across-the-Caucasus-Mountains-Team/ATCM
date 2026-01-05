@@ -1328,7 +1328,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.05
-			add_manpower = 1000
+			add_manpower = 100
 			add_timed_idea = {
 				idea = SAK_military_propaganda
 				days = 180
@@ -1657,9 +1657,70 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 5000
+			add_manpower = 500
 			add_ideas = SAK_mobilization_idea
 			add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
+			hidden_effect = {
+			    division_template = {
+	                name = "Bolo Khazis Militsia"
+	                regiments = {
+                        militia = { x = 0 y = 0 }
+		                militia = { x = 0 y = 1 }
+		                militia = { x = 0 y = 2 }
+                        militia = { x = 1 y = 0 }
+	                }
+                    support = {
+                        engineer = { x = 0 y = 0 }
+		                recon = { x = 0 y = 1 }
+		                mortar = { x = 0 y = 2 }
+		                military_police = { x = 0 y = 3 }
+	                }
+
+			        is_locked = yes
+                }
+				random_owned_state = {
+			        create_unit = {
+				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+				        owner = SAK
+				        count = 2
+			        }
+		        }
+			    random_owned_state = {
+			        create_unit = {
+				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+				        owner = SAK
+				        count = 2
+			        }
+		        }
+			    random_owned_state = {
+			        create_unit = {
+				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+				        owner = SAK
+				        count = 2
+			        }
+		        }
+			    random_owned_state = {
+			        create_unit = {
+				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+				        owner = SAK
+				        count = 2
+			        }
+		        }
+			    random_owned_state = {
+			        create_unit = {
+				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+				        owner = SAK
+				        count = 1
+			        }
+		        }
+			    random_owned_state = {
+			        create_unit = {
+				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.03"
+				        owner = SAK
+				        count = 2
+			        }
+		        }
+			}
 		}	
 	}
 
@@ -1869,14 +1930,16 @@ focus_tree = {
 		prerequisite = { focus = SAK_Restore_The_Order_once_for_all }
 		prerequisite = { focus = SAK_Total_Air_Supremacy }
 		
-		cost = 1
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
 		}
 		
 		available = {
-
+            NOT = {
+				country_exists = GOM
+			}
 		}
 		
 		bypass = {
@@ -1969,6 +2032,12 @@ focus_tree = {
 				    }
 			    }
 				set_country_flag = WonInCivilWar
+				SAK = {
+		            delete_unit = {
+                        division_template = "Bolo Khazis Militsia" 
+		            }
+				}
+
 			}
 		}	
 	}
@@ -2043,6 +2112,81 @@ focus_tree = {
             }
 			army_experience = 25
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.10 }
+		}	
+	}
+
+	focus = {
+		id = SAK_last_line_of_defense
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		relative_position_id = SAK_Full_Mobilization
+		prerequisite = { focus = SAK_ground_support }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 150
+		}
+		
+		available = {
+            surrender_progress > 0.65
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.10 }
+			random_owned_state = {
+			    create_unit = {
+				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+				    owner = SAK
+				    count = 4
+			    }
+		    }
+			random_owned_state = {
+			    create_unit = {
+				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+				    owner = SAK
+				    count = 4
+			    }
+		    }
+			random_owned_state = {
+			    create_unit = {
+				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+				    owner = SAK
+				    count = 2
+			    }
+		    }
+			random_owned_state = {
+			    create_unit = {
+				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+				    owner = SAK
+				    count = 2
+			    }
+		    }
+			random_owned_state = {
+			    create_unit = {
+				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+				    owner = SAK
+				    count = 1
+			    }
+		    }
+			random_owned_state = {
+			    create_unit = {
+				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.03"
+				    owner = SAK
+				    count = 2
+			    }
+		    }
 		}	
 	}
 

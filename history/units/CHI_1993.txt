@@ -10,7 +10,10 @@ division_template = {
 	
 	support = {
         engineer = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
 	}
+
+	is_locked = yes
 }
 
 division_template = {
@@ -25,7 +28,10 @@ division_template = {
 	}
 	support = {
         engineer = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
 	}
+
+	is_locked = yes
 }
 
 units = {
@@ -38,6 +44,7 @@ units = {
 		location = 8564
 		division_template = "Gaşloyn bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.8
 	}
 	
 	division = {	
@@ -48,6 +55,7 @@ units = {
 		location = 8564
 		division_template = "Gaşloyn bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.6
 	}
 	
 	division = {	
@@ -58,6 +66,7 @@ units = {
 		location = 2382
 		division_template = "Gaşloyn bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.6
 	}
 	
 	division = {	
@@ -68,6 +77,7 @@ units = {
 		location = 10471
 		division_template = "Gaşloyn bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.6
 	}
 	
 	division = {	
@@ -78,6 +88,7 @@ units = {
 		location = 6342
 		division_template = "Gaşloyn bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.6
 	}
 	
 	division = {	
@@ -98,12 +109,13 @@ units = {
 		location = 10482
 		division_template = "Gaşloyn bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.65
 	}
 
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 5
+			name_order = 8
 		}
 		location = 6342
 		division_template = "Nizam docu bataljon"
@@ -113,20 +125,55 @@ units = {
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 6
+			name_order = 9
 		}
 		location = 10507
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.3
 	}
 	
 	division = {	
 		division_name = {
 			is_name_ordered = yes
-			name_order = 7
+			name_order = 10
 		}
 		location = 10482
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.5
+		start_manpower_factor = 0.3
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 10482
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.5
+		start_manpower_factor = 0.3
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 10482
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.5
+		start_manpower_factor = 0.1
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 10482
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.5
+		start_manpower_factor = 0.2
 	}
 }	

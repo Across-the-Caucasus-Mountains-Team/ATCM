@@ -36,7 +36,9 @@ units = {
 		}
 		location = 10609
 		division_template = "Policia"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+		start_manpower_factor = 0.9
 	}
 	
 	division = {	
@@ -47,6 +49,8 @@ units = {
 		location = 10609
 		division_template = "Policia"
 		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
+		start_manpower_factor = 0.7
 	}
 	
 	division = {	
@@ -57,6 +61,8 @@ units = {
 		location = 10609
 		division_template = "Policia"
 		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.8
 	}
 	
 	division = {	
@@ -67,6 +73,8 @@ units = {
 		location = 5606
 		division_template = "Policia"
 		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.4
 	}
 	
 	division = {	
