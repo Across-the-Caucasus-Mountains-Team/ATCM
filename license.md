@@ -1,4 +1,4 @@
-Copyright © 2025, Across the Caucasus Mountains Team
+Copyright © 2026, Across the Caucasus Mountains Team
 
 Redistribution and use in any form is permitted only on Steam® Workshop, a service provided by VALVe Corporation; and on GitHub, a file sharing platform provided by GitHub, Inc.
 
