@@ -723,6 +723,10 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1750
 			}
+			add_timed_idea = {
+				idea = CHE_volunteers_from_muslim_world_idea
+				days = 115
+			}
 		}	
 	}
 
@@ -1189,7 +1193,7 @@ focus_tree = {
 		}
 		
 		available = {
-			
+			has_war_with = RAS
 		}
 		
 		bypass = {
@@ -1204,6 +1208,10 @@ focus_tree = {
 		
 		completion_reward = {
 			add_manpower = 75000
+			add_timed_idea = {
+				idea = CHE_volunteers_from_muslim_world_idea
+				days = 280
+			}
 		}	
 	}
 
@@ -1773,8 +1781,8 @@ focus_tree = {
 				}
 				load_oob = CHE_war_1991_1
 				else = {
-					load_oob = CHE_war_1991_1_improved
-				}
+				    load_oob = CHE_war_1991_1_improved
+			    }
 			}
 			21 = {
 				add_building_construction = {

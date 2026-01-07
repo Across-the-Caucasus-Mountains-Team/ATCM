@@ -734,6 +734,7 @@ focus_tree = {
 		completion_reward = {
 	        add_war_support = 0.025
 	        army_experience = 10
+			add_political_power = 50
 			unlock_decision_tooltip = RAS_conduct_sharoi_cleanups
 			unlock_decision_tooltip = RAS_conduct_itum_calinsky_cleanups
 			unlock_decision_tooltip = RAS_conduct_shatoysky_cleanups
@@ -1194,7 +1195,14 @@ focus_tree = {
 
 		ai_will_do = {
 			base = 5
-			factor = 100
+			modifier = {
+                factor = 25
+                casualties_k > 8
+            }
+			modifier = {
+				factor = 35
+                date > 1996.01.01
+            }
 		}
 
 		available = {
@@ -1462,6 +1470,10 @@ focus_tree = {
 		completion_reward = {
 	        add_stability = 0.075
 		    add_political_power = 25
+			add_timed_idea = {
+				idea = RAS_roadblock_idea
+				days = 185
+			}
 			custom_effect_tooltip = 5_RAS_tt
 		}
 	}
@@ -1715,7 +1727,7 @@ focus_tree = {
 		x = 0
 		y = 3
 
-		cost = 55
+		cost = 45
 
 		ai_will_do = {
 			base = 5
@@ -2407,7 +2419,7 @@ focus_tree = {
 
 		completion_reward = {
 	        add_war_support = 0.05
-		    add_political_power = 50
+		    add_political_power = 65
 		}
 	}
 
@@ -2444,7 +2456,7 @@ focus_tree = {
 
 		completion_reward = {
 	        add_stability = 0.10
-		    add_political_power = 50
+		    add_political_power = 65
 		}
 	}
 

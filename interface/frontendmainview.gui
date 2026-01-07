@@ -161,6 +161,7 @@ guiTypes = {
 			quadTextureSprite ="achievements"
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}		
+		
 	}		
 
 	### SINGLE PLAYER MENU
@@ -257,6 +258,19 @@ guiTypes = {
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType = {
+
+			name ="version_label"
+			position = { x = 135 y = 411 }
+			textureFile = ""
+			font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "ALPHA"	
+			format = centre
+			maxWidth = 250
+			maxHeight = 20	
 		}
 	}
 
