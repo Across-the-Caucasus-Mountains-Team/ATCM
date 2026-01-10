@@ -117,7 +117,7 @@ guiTypes = {
 		checkBoxType = {
 			name = "select_station_button"
 			position = { x = 0 y = 0 }
-			quadTextureSprite = "GFX_radio_station_cover_Chechen_Music_MMCTT"
+			quadTextureSprite = "GFX_radio_station_cover_Chechen_Music_MMCT"
 			clicksound = decisions_ui_button
 		}
 	}

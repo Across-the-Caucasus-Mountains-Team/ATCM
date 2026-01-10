@@ -15,3 +15,35 @@ country_event = {
 		news_event = { id = news.16 }
 	}
 }
+
+#Russian help
+country_event = {
+	id = ossetia.2
+	title = ossetia.2.t
+	desc = ossetia.2.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = ossetia.2.a
+		add_war_support = 0.05
+		add_equipment_to_stockpile = { 
+			type = infantry_equipment_1 
+			amount = 2500 
+		}
+		add_equipment_to_stockpile = { 
+			type = uniform_equipment_0 
+			amount = 3500 
+		}		
+		add_equipment_to_stockpile = { 
+			type = bulletproof_vests_equipment_0 
+			amount = 2500 
+		}
+		add_equipment_to_stockpile = { 
+			type = support_equipment_1 
+			amount = 950 
+		}		
+		add_manpower = 1000
+	}
+}

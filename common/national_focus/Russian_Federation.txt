@@ -515,7 +515,7 @@ focus_tree = {
 			        id = russia.3
 				    days = 612
 		        }
-		   }
+		    }
 		}
 	}
 
@@ -2381,7 +2381,7 @@ focus_tree = {
 
 		completion_reward = {
 	        add_war_support = 0.05
-		    add_political_power = 50
+		    add_political_power = 65
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
@@ -2419,7 +2419,7 @@ focus_tree = {
 
 		completion_reward = {
 	        add_war_support = 0.05
-		    add_political_power = 65
+		    add_political_power = 75
 		}
 	}
 
@@ -2499,7 +2499,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 50
+		    add_political_power = 95
 			mark_focus_tree_layout_dirty = yes
 			country_event = russia.27
 		}
@@ -3022,17 +3022,7 @@ focus_tree = {
 		completion_reward = {
 			ABK = {
 				give_military_access = RAS
-			}
-	        ABK = {
-				add_equipment_to_stockpile = { 
-				    type = infantry_equipment_1 
-				    amount = 2500 
-			    }
-				add_equipment_to_stockpile = { 
-				    type = uniform_equipment_0 
-				    amount = 2500 
-			    }				
-				add_manpower = 1000
+				country_event = abkhazia.3
 			}
 			add_manpower = -1000
 			ABK = { 
@@ -3077,17 +3067,7 @@ focus_tree = {
 		completion_reward = {
 			OST = {
 				give_military_access = RAS
-			}
-	        OST = {
-				add_equipment_to_stockpile = { 
-				    type = infantry_equipment_1 
-				    amount = 2500 
-			    }
-				add_equipment_to_stockpile = { 
-				    type = uniform_equipment_0 
-				    amount = 2500 
-			    }
-				add_manpower = 1000
+				country_event = ossetia.2
 			}
 			add_manpower = -1000
 			OST = { 
@@ -3114,6 +3094,7 @@ focus_tree = {
 		available = {
 			GOM = {
 				exists = yes
+				has_war_with = SAK
 			}
 		}
 		
@@ -3797,7 +3778,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAS_shock_economic_reforms
 
-		cost = 15
+		cost = 25
 
 		ai_will_do = {
 			base = 5
