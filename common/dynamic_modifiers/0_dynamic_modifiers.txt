@@ -139,3 +139,11 @@ CHE_planned_counterattack = {
 	army_defence_factor = 0.05
 	army_speed_factor = 0.05
 }
+
+RAS_protests_in_region = {
+
+	enable = { always = yes }
+	icon = GFX_idea_CHE_weak_army
+    army_speed_factor = -0.55
+	army_org_factor = -0.15
+}

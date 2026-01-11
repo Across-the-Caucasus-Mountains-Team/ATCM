@@ -8,20 +8,6 @@ set_country_flag = StartguiOpen
 
 set_cosmetic_tag = SOV_RAS
 
-add_equipment_to_stockpile = {
-	type = CAS_equipment_1
-	variant_name = "Су-25"
-	amount = 240
-	producer = RAS
-}
-
-add_equipment_to_stockpile = {
-	type = CAS_equipment_2
-	variant_name = "Су-30"
-	amount = 25
-	producer = RAS
-}
-
 set_autonomy = {
 	target = SAK
 	autonomous_state = soviet_republic

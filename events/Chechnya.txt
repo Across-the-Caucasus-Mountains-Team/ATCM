@@ -901,3 +901,33 @@ country_event = {
 		air_experience = 5
 	}
 }
+
+#We lost Grozny
+country_event = {
+	id = chechnya.37
+	title = chechnya.37.t
+	desc = chechnya.37.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.37.a
+		
+	}
+}
+
+#Negotations in Ingushetia
+country_event = {
+	id = chechnya.38
+	title = chechnya.38.t
+	desc = chechnya.38.d
+	picture = GFX_Report_event_Negotations_in_ingushetia
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.38.a
+		
+	}
+}

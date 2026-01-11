@@ -350,336 +350,6 @@ units = {
 	division = {	
 	    division_name = {
 			is_name_ordered = yes
-			name_order = 14
-		}
-		location = 5054
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 15
-		}
-		location = 6043
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 16
-		}
-		location = 10776
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 17
-		}
-		location = 10776
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 18
-		}
-		location = 10315
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 19
-		}
-		location = 10315
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 20
-		}
-		location = 10151
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 21
-		}
-		location = 10151
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 22
-		}
-		location = 10151
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 23
-		}
-		location = 10151
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 24
-		}
-		location = 6399
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 25
-		}
-		location = 6399
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 26
-		}
-		location = 6399
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 27
-		}
-		location = 6399
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 28
-		}
-		location = 6399
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 29
-		}
-		location = 10767
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 30
-		}
-		location = 10767
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 31
-		}
-		location = 10767
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 32
-		}
-		location = 10767
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 33
-		}
-		location = 10767
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 34
-		}
-		location = 8914
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 35
-		}
-		location = 8914
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 36
-		}
-		location = 8914
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 37
-		}
-		location = 10606
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 38
-		}
-		location = 10606
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 39
-		}
-		location = 10606
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 40
-		}
-		location = 10606
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 41
-		}
-		location = 540
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 7605
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 43
-		}
-		location = 7605
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 44
-		}
-		location = 7605
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 45
-		}
-		location = 7605
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
-			name_order = 46
-		}
-		location = 7605
-		division_template = "Pekhotniy-batalyon"
-		start_experience_factor = 0.15
-	}
-	
-	division = {	
-	    division_name = {
-			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 10730
@@ -835,6 +505,7 @@ units = {
 		location = 8326
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -845,6 +516,7 @@ units = {
 		location = 540
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -855,6 +527,7 @@ units = {
 		location = 540
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -865,6 +538,7 @@ units = {
 		location = 10315
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -875,6 +549,7 @@ units = {
 		location = 10217
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -885,6 +560,7 @@ units = {
 		location = 6623
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 
 	division = {	
@@ -895,6 +571,7 @@ units = {
 		location = 6623
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 
 	division = {	
@@ -905,6 +582,7 @@ units = {
 		location = 6623
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.9
 	}
 
 	division = {	
@@ -915,6 +593,18 @@ units = {
 		location = 6623
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 6623
+		division_template = "Tankoviy-batalyon"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -945,6 +635,7 @@ units = {
 		location = 10911
 		division_template = "Marine-Divizia"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -1005,7 +696,7 @@ units = {
 		location = 10731
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.65
+		start_equipment_factor = 0.65
 	}
 	
 	division = {	
@@ -1016,7 +707,7 @@ units = {
 		location = 2392
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.76
+		start_equipment_factor = 0.76
 	}
 	
 	division = {	
@@ -1027,7 +718,7 @@ units = {
 		location = 1058
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.86
+		start_equipment_factor = 0.86
 	}
 	
 	division = {	
@@ -1038,7 +729,7 @@ units = {
 		location = 8326
 		division_template = "VDV"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
 	}
 	
 	division = {	
@@ -1049,7 +740,7 @@ units = {
 		location = 8326
 		division_template = "VDV"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
 	}
 	
 	division = {	
@@ -1060,7 +751,7 @@ units = {
 		location = 8326
 		division_template = "VDV"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
 	}
 	
 	division = {	
@@ -1071,7 +762,7 @@ units = {
 		location = 7493
 		division_template = "VDV"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
 	}
 	
 	division = {	
@@ -1082,7 +773,7 @@ units = {
 		location = 7493
 		division_template = "VDV"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
 	}
 	
 	division = {	
@@ -1093,7 +784,7 @@ units = {
 		location = 7493
 		division_template = "VDV"
 		start_experience_factor = 0.1
-		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
 	}
 
 	division = {	
@@ -1104,7 +795,7 @@ units = {
 		location = 8326
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -1115,7 +806,7 @@ units = {
 		location = 8326
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.8
+		start_equipment_factor = 0.8
 	}
 	
 	division = {	
@@ -1126,7 +817,7 @@ units = {
 		location = 8326
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
 	}
 	
 	division = {	
@@ -1137,7 +828,7 @@ units = {
 		location = 7493
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
 	}
 	
 	division = {	
@@ -1148,7 +839,7 @@ units = {
 		location = 7493
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
 	}
 	
 	division = {	
@@ -1159,6 +850,142 @@ units = {
 		location = 7493
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
-		start_experience_factor = 0.7
+		start_equipment_factor = 0.7
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7493
+		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.7
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 7493
+		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.7
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 7493
+		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.5
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 7493
+		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.5
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 7493
+		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 7493
+		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 7493
+		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
 	}
 }	
+
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RAS"
+		}
+		requested_factories = 5
+		progress = 0.1
+		efficiency = 54
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "RAS" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 25
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "RAS" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 35
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = modern_tank_equipment_1
+			creator = "RAS" 
+		}
+		requested_factories = 5
+		progress = 0.3
+		efficiency = 75
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "RAS" 
+		}
+		requested_factories = 5
+		progress = 0.4
+		efficiency = 10
+	}
+}
+#####################

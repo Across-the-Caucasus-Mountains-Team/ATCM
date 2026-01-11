@@ -601,3 +601,19 @@ news_event = {
 		name = news.27.a
 	}
 }
+
+#Grozny captured
+news_event = {
+	id = news.28
+	title = news.28.t
+	desc = news.28.d
+	picture = GFX_news_event_grozny_captured
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.28.a
+	}
+}

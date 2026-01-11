@@ -350,6 +350,12 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event_Georgia_State_Emergency.png"
 	}
 
+    spriteType = {
+		name = "GFX_news_event_grozny_captured"
+		texturefile = "gfx/event_pictures/news_event_grozny_captured.png"
+	}
+	
+
 	spriteType = {
 		name = "GFX_news_event_liquidation_of_dudayev"
 		texturefile = "gfx/event_pictures/news_event_liquidation_of_dudayev.png"
@@ -424,6 +430,16 @@ spriteTypes = {
 		name = "GFX_Report_event_RAS_fsb_report"
 		texturefile = "gfx/event_pictures/Report_event_RAS_fsb_report.png"
 	}
+
+	spriteType = {
+		name = "GFX_Report_event_Grozny_captured"
+		texturefile = "gfx/event_pictures/Report_event_Grozny_captured.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_protests_in_ingushetia_and_dagestan"
+		texturefile = "gfx/event_pictures/Report_event_protests_in_ingushetia_and_dagestan.png"
+	}
     
 	### economic events pictures
 	spriteType = {
@@ -457,4 +473,13 @@ spriteTypes = {
 		name = "GFX_Report_event_CHE_khatab_arrived"
 		texturefile = "gfx/event_pictures/Report_event_CHE_khatab_arrived.png"
 	}
+
+	spriteType = {
+		name = "GFX_Report_event_Negotations_in_ingushetia"
+		texturefile = "gfx/event_pictures/Report_event_Negotations_in_ingushetia.png"
+	}
+
+	
+
+
 }	

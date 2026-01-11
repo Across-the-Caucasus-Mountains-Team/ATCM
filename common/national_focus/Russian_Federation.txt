@@ -794,7 +794,11 @@ focus_tree = {
 
 		ai_will_do = {
 			base = 5
-			factor = 100
+			factor = 50
+			modifier = {
+				factor = 50
+				has_completed_focus = RAS_bring_in_new_armour
+			}
 		}
 
 		available = {
@@ -1025,6 +1029,84 @@ focus_tree = {
 		relative_position_id = RAS_information_war
 		x = 0
 		y = 2
+
+		cost = 15
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		    add_political_power = 75
+			add_war_support = 0.075
+			add_to_variable = {
+                var = RAS_russian_infowar_value
+                value = 5
+                tooltip = add_to_russian_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = CHE_chechen_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				CHE = {
+					add_to_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = CHE_chechen_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = RAS_chehcnya_is_our_historical_state
+		icon = GFX_RAS_chehcnya_is_terrorist_state
+		prerequisite = { Focus = RAS_chehcnya_is_terrorist_state }
+		relative_position_id = RAS_information_war
+		x = 0
+		y = 3
 
 		cost = 15
 
@@ -1369,7 +1451,7 @@ focus_tree = {
 
 		ai_will_do = {
 			base = 5
-			factor = 100
+			factor = 105
 		}
 
 		available = {
@@ -1402,11 +1484,11 @@ focus_tree = {
 		x = -1
 		y = 2
 
-		cost = 35
+		cost = 25
 
 		ai_will_do = {
 			base = 5
-			factor = 100
+			factor = 105
 		}
 
 		available = {
@@ -1448,7 +1530,7 @@ focus_tree = {
 
 		ai_will_do = {
 			base = 5
-			factor = 100
+			factor = 105
 		}
 
 		available = {
@@ -1491,7 +1573,7 @@ focus_tree = {
 
 		ai_will_do = {
 			base = 5
-			factor = 100
+			factor = 105
 		}
 
 		available = {
@@ -1568,7 +1650,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 25
+		cost = 5
 
 		ai_will_do = {
 			base = 5
@@ -1597,6 +1679,18 @@ focus_tree = {
 			add_timed_idea = {
                 idea = RAS_call_for_air_strikes_idea
                 days = 180
+            }
+			add_equipment_to_stockpile = {
+	            type = CAS_equipment_1
+	            variant_name = "Су-25"
+	            amount = 50
+	            producer = RAS
+            }
+            add_equipment_to_stockpile = {
+	            type = CAS_equipment_2
+	            variant_name = "Су-30"
+	            amount = 10
+	            producer = RAS
             }
 		}
 	}
@@ -3289,6 +3383,18 @@ focus_tree = {
 			air_experience = 35
 			set_country_flag = VDVLandingInProgress
 			unlock_decision_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
+			add_equipment_to_stockpile = {
+	            type = CAS_equipment_1
+	            variant_name = "Су-25"
+	            amount = 190
+	            producer = RAS
+            }
+            add_equipment_to_stockpile = {
+	            type = CAS_equipment_2
+	            variant_name = "Су-30"
+	            amount = 15
+	            producer = RAS
+            }
 		}
 	}
 
@@ -3403,6 +3509,20 @@ focus_tree = {
                         type = infrastructure
                         damage = 1
                     }
+				}
+				country_event = {
+					id = chechnya.38
+					days = 1
+				}
+				country_event = {
+					id = russia.31
+					days = 3
+				}
+				CHE = {
+					country_event = {
+					    id = chechnya.38
+					    days = 1
+				    }
 				}
 				news_event = {
                     id = news.23
@@ -3627,7 +3747,7 @@ focus_tree = {
 		x = -2
 		y = 1
 
-		cost = 15
+		cost = 25
 
 		ai_will_do = {
 			base = 5

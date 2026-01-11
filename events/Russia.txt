@@ -593,3 +593,76 @@ country_event = {
 		add_war_support = 0.025
 	}
 }
+
+#Grozny captured
+country_event = {
+	id = russia.30
+	title = russia.30.t
+	desc = russia.30.d
+	picture = GFX_Report_event_Grozny_captured
+
+	trigger = {
+		RAS = {
+			has_war_with = CHE
+		}
+		RAS = {
+		    controls_state = 21
+			controls_state = 20   
+		}
+		NOT = { has_global_flag = grozny_captured_by_russia }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 3 
+	}
+	
+	immediate = {
+        set_global_flag = grozny_captured_by_russia
+		hidden_effect = {
+		    CHE = {
+				country_event = {
+					id = chechnya.37
+					hours = 2
+				}
+			}
+			news_event = {
+				id = news.28
+				hours = 22
+			}
+		}
+	}
+
+
+
+	option = {
+		name = russia.30.a
+		add_war_support = 0.025
+		army_experience = 20
+	}
+}
+
+#Protests
+country_event = {
+	id = russia.31
+	title = russia.31.t
+	desc = russia.31.d
+	picture = GFX_Report_event_protests_in_ingushetia_and_dagestan
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.319.a
+		add_war_support = -0.025
+		17 = {
+            add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
+		}
+		13 = {
+            add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
+		}
+		8 = {
+            add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
+		}
+	}
+}
+
