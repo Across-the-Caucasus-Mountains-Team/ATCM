@@ -20,7 +20,7 @@ country_event = {
 	id = russia.2
 	title = russia.2.t
 	desc = russia.2.d
-	picture = GFX_Report_event_SAK_Zviad_Speech
+	picture = GFX_Report_event_congress
 
 	is_triggered_only = yes
 

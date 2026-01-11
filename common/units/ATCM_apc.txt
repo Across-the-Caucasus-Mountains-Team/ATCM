@@ -3,7 +3,7 @@ sub_units = {
 	armoured_personnel_carrier = {
 		abbreviation = "APC"
 		#sprite = light_armor
-		sprite = armoured_personnel_carrier
+		sprite = "medium_armor" #armoured_personnel_carrier
 		map_icon_category = armored
 		priority = 501
 		ai_priority = 200
@@ -31,7 +31,7 @@ sub_units = {
 		}
 		
 		manpower = 30
-		max_organisation = 55
+		max_organisation = 65
 		default_morale = 0.15
 		training_time = 180
 		max_strength = 10

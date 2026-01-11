@@ -61,6 +61,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_CHE_disorganized_defense_idea"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_disorganized_defense_idea.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHE_lack_of_experience_in_building_fortifications"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_lack_of_experience_in_building_fortifications.png"
+	}
+	
+	
+
+	spriteType = {
 		name = "GFX_idea_state_of_emergency"
 		textureFile = "/gfx/interface/ideas/state_of_emergency.png"
 	}
@@ -119,6 +131,17 @@ spriteTypes = {
 		name = "GFX_idea_CHE_Muslim_conservatism_idea"
 		textureFile = "/gfx/interface/ideas/CHE_Muslim_conservatism_idea.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_CHE_destroyed_economy"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_destroyed_economy.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHE_abandoned_MIC"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_abandoned_MIC.png"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_idea_CHE_Volunteers"

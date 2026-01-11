@@ -297,7 +297,7 @@ focus_tree = {
 				set_country_flag = CHE_Elections_1991
 				set_variable = {
                     var = CHE_dudayev_support_value
-                    value = 65
+                    value = 75
                 }
 				set_variable = {
                     var = CHE_islamic_radicalism_value
@@ -2115,7 +2115,7 @@ focus_tree = {
 		relative_position_id = CHE_Manpower_shortage
 		prerequisite = { focus = CHE_Manpower_shortage }
 		
-		cost = 10
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -2148,7 +2148,7 @@ focus_tree = {
 		relative_position_id = CHE_Manpower_shortage
 		prerequisite = { focus = CHE_Manpower_shortage }
 		
-		cost = 10
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -2186,7 +2186,7 @@ focus_tree = {
 		relative_position_id = CHE_Manpower_shortage
 		prerequisite = { focus = CHE_Manpower_shortage }
 		
-		cost = 10
+		cost = 5
 		
 		ai_will_do = {
 			factor = 100
@@ -4535,6 +4535,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 25
 		}
 		
 		bypass = {
@@ -4548,7 +4549,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.02 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.005 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.03 }
@@ -4558,6 +4558,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.04 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
+			army_experience = -25
 		}	
 	}
 
@@ -4670,6 +4671,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
+			has_army_experience > 25
 		}
 		
 		bypass = {
@@ -4683,7 +4685,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 25
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.002 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
@@ -4694,6 +4695,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
 			custom_effect_tooltip = cash_balance_minus_15_tt
+			army_experience = -25
 			subtract_from_variable = {
 				var = cash
 				value = 15
@@ -4739,9 +4741,9 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.03 }
 			add_to_variable = { CHE_wcaf_army_speed_factor = 0.01 }
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.02 }
-			add_to_variable = { CHE_wcaf_army_org_regain = 0.01 }
+			add_to_variable = { CHE_wcaf_army_org_regain = 0.02 }
 			custom_effect_tooltip = 3_CHE_tt
-			add_political_power = -100
+			add_political_power = -125
 			add_stability = -0.15
 			custom_effect_tooltip = cash_balance_minus_25_tt
 			subtract_from_variable = {
@@ -5643,7 +5645,11 @@ focus_tree = {
 		cost = 45
 		
 		ai_will_do = {
-			factor = 100
+			factor = 90
+			modifier = {
+				factor = 10
+				has_completed_focus = CHE_centralize_power
+			}
 		}
 		
 		available = {
@@ -5801,7 +5807,11 @@ focus_tree = {
 		cost = 35
 		
 		ai_will_do = {
-			factor = 100
+			factor = 50
+			modifier = {
+				factor = 50
+				has_completed_focus = CHE_Total_Control_has_achived
+			}
 		}
 		
 		available = {
@@ -5853,6 +5863,7 @@ focus_tree = {
 				has_completed_focus = CHE_reform_the_schools
 				has_completed_focus = CHE_include_mass_islam_into_education
 			}
+			num_of_factories > 35
 		}
 		
 		bypass = {
@@ -5894,7 +5905,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
-			num_of_factories > 40
+			num_of_factories > 45
 		}
 		
 		bypass = {

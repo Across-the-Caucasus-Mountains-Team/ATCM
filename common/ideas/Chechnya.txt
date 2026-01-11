@@ -14,12 +14,12 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = CHE_Unrecognized_Country
+			picture = GFX_idea_CHE_abandoned_MIC
 			
 			modifier = {
 				war_support_Factor = -0.15
 				production_factory_efficiency_gain_factor = -0.25
-				production_factory_max_efficiency_factor = -0.25
+				production_factory_max_efficiency_factor = -0.35
 				production_speed_arms_factory_factor = -0.45
 			}
 		}
@@ -35,7 +35,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = CHE_Unrecognized_Country
+			picture = GFX_idea_CHE_destroyed_economy
 			
 			modifier = {
 				consumer_goods_factor = 0.45
@@ -74,12 +74,13 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = CHE_Unrecognized_Country
+			picture = GFX_idea_CHE_disorganized_defense_idea
 			
 			modifier = {
 				surrender_limit = 0.5
 				army_core_attack_factor = 0.025
 				equipment_capture_factor = 0.02
+				monthly_population = -0.65
 			}
 		}
 
@@ -94,12 +95,13 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = CHE_Unrecognized_Country
+			picture = GFX_idea_CHE_disorganized_defense_idea
 			
 			modifier = {
 				surrender_limit = 0.9
 				army_core_attack_factor = 0.05
 				equipment_capture_factor = 0.03
+				monthly_population = -0.85
 			}
 		}
 
@@ -228,6 +230,7 @@ ideas = {
 				army_core_attack_factor = 0.075
 				nationalism_drift = 0.01
 				surrender_limit = 0.5
+				monthly_population = 0.05
 			}
 		}
 
@@ -342,7 +345,7 @@ ideas = {
 			picture = SAK_Tbilisi_Syndrome
 			
 			modifier = {
-			    weekly_manpower = -80
+			    weekly_manpower = -120
 			}
 		}
 		
@@ -545,7 +548,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = state_of_emergency
+			picture = GFX_idea_CHE_disorganized_defense_idea
 			
 			modifier = {
 				army_core_attack_factor = 0.05
@@ -659,7 +662,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GCHE_drug_shortage_crisis_idea
+			picture = CHE_drug_shortage_crisis_idea
 			
 			modifier = {
 				monthly_population = -0.15	
@@ -680,7 +683,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GCHE_drug_shortage_crisis_idea
+			picture = GFX_idea_CHE_lack_of_experience_in_building_fortifications
 			
 			modifier = {
 				land_bunker_effectiveness_factor = -0.5
@@ -701,7 +704,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GCHE_drug_shortage_crisis_idea
+			picture = GFX_idea_CHE_lack_of_experience_in_building_fortifications
 			
 			modifier = {
 				land_bunker_effectiveness_factor = -0.25
@@ -721,7 +724,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GCHE_drug_shortage_crisis_idea
+			picture = GFX_idea_CHE_disorganized_defense_idea
 			
 			modifier = {
 				weekly_manpower = -35
