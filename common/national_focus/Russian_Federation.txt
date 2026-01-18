@@ -3438,6 +3438,11 @@ focus_tree = {
                 country_event = russia.20
 			}
 			mark_focus_tree_layout_dirty = yes
+			hidden_effect = {
+				CHE = {
+				    country_event = ai_stragecy.1
+				}
+			}
 		}
 	}
 

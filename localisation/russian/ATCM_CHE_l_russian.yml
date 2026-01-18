@@ -173,7 +173,7 @@
   CHE_elections_1991_decision_desc:0 "Чеченская Республика находится в процессе первых в своей истории президентских выборов. Ситуация нестабильна: центральная советская власть рушится, и регион действует вне контроля Москвы. Хотя большая часть населения поддерживает независимость, другие опасаются изоляции или войны. \n\nПоддержка Дудаева: §Y[?CHE_dudayev_support_value|%%]§! \n\nИсламский радикализм: §Y[?CHE_islamic_radicalism_value|%%]§!"
   add_incersace_islamic_radicalism_to_var_tt:0 "§YУвеличить §RИсламский радикализм§!"
   add_dudayev_support_to_var_tt:0 "§YУвеличить поддержку §RДудаева§!"
-  sub_5_from_power_of_opposition_chechnya_tt:0 "§RУменьшить силу оппозиции§!"
+  sub_5_from_power_of_opposition_chechnya_tt:0 "§RУменьшится сила оппозиции§!"
   CHE_support_islamic_radicalism_decision:0 "Поддержать исламский радикализм"
  
  
@@ -209,5 +209,10 @@
   CHE_sleepless_enemy_of_the_tanks_ideas:0 "Охота на танки"
   CHE_lack_of_experience_in_building_fortifications:0 "Недостаток опыта в строительстве укреплений"
   CHE_lack_of_experience_in_building_fortifications_2:0 "Некачественные укрепления"
-  CHE_opposition_power_idea:0 "Сильная оппозиция"
+  CHE_opposition_power_idea:0 "Мятежный парламент"
   CHE_hold_millitary_training:0 "Проводить учения"
+
+
+  CHE_islamic_republic_stability_decision:0 "Стабильность исламской республики"
+  CHE_islamic_republic_stability_decision_desc:0 "После победы исламистких сил на президентских выборах, новая Исламская Республика Ичкерия встала на хрупкий путь к полной независимости. Однако страна сталкивается с огромными трудностями: крахом советских институтов, экономической нестабильностью и существованием мощной внутренней оппозиции.\n\nРадикализация исламистов: §Y[?CHE_the_radicalism_of_islamists_value|%%]§! \n\nСила оппозиции: §Y[?CHE_moderate_opposition_value|%%]§!"
+  sub_5_from_power_of_moderate_opposition_chechnya_tt:0 "§RУменьшится сила оппозиции§!"

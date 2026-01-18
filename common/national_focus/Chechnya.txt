@@ -56,7 +56,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_propaganda_of_nationalism
-		icon = GFX_CHE_propaganda_of_nationalism
+		icon = GFX_CHE_2nd_session_of_the_firs_chechen_national_congress
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
@@ -136,7 +136,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_2nd_session_of_the_firs_chechen_national_congress
-		icon =  GFX_CHE_2nd_session_of_the_firs_chechen_national_congress
+		icon =  GFX_CHE_propaganda_of_nationalism
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
@@ -203,10 +203,6 @@ focus_tree = {
 			add_popularity = {ideology = Nationalism Popularity = 0.075}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 			hidden_effect = {
-				country_event = {
-					id = chechnya.1
-					days = 269
-				}
 				news_event = {
 					id = news.22
 					days = 2
@@ -366,12 +362,65 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
-			add_stability = 0.075
 			add_war_support = 0.05
 			add_popularity = {ideology = islam Popularity = 0.05}
+			country_event = chechnya.39
+			unlock_decision_category_tooltip = CHE_islamic_republic_stability_decision
+			add_stability = -0.25
 			hidden_effect = {
 				clr_country_flag = CHEIslamicRadicalismElections1991
-			    mark_focus_tree_layout_dirty = yes			
+			    mark_focus_tree_layout_dirty = yes		
+				set_variable = {
+                    var = CHE_the_radicalism_of_islamists_value
+                    value = 10
+                }		
+				set_variable = {
+                    var = CHE_moderate_opposition_value
+                    value = 35
+                }	
+				country_event = {
+					id = chechnya.44
+					days = 3
+				}
+			}
+		}	
+	}
+
+	focus = {
+		id = CHE_secure_the_support_of_the_elites
+		icon = GFX_Goal_unknow
+		x = 0
+		y = 1
+		prerequisite = { focus = CHE_build_islamic_state }
+		relative_position_id = CHE_build_islamic_state
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 25
+			hidden_effect = {
+				country_event = {
+					id = chechnya.40
+					days = 19
+				}
 			}
 		}	
 	}
@@ -380,8 +429,8 @@ focus_tree = {
 		id = CHE_reorganization_of_courts
 		icon = GFX_Goal_unknow
 		x = 0
-		y = 1
-		prerequisite = { focus = CHE_build_islamic_state }
+		y = 2
+		prerequisite = { focus = CHE_secure_the_support_of_the_elites }
 		relative_position_id = CHE_build_islamic_state
 		
 		cost = 15
@@ -405,7 +454,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.075
+			add_stability = 0.05
 			add_popularity = {ideology = islam Popularity = 0.05}
 		}	
 	}
@@ -414,9 +463,9 @@ focus_tree = {
 		id = CHE_ismalist_propaganda
 		icon = GFX_Goal_unknow
 		x = 0
-		y = 2
+		y = 1
 		prerequisite = { focus = CHE_reorganization_of_courts }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_reorganization_of_courts
 		
 		cost = 10
 		
@@ -440,7 +489,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_stability = 0.075
-			add_war_support = 0.075
+			add_war_support = 0.05
 			add_popularity = {ideology = islam Popularity = 0.05}
 		}	
 	}
@@ -449,8 +498,8 @@ focus_tree = {
 		id = CHE_sharia_laws
 		icon = GFX_Goal_unknow
 		x = 2
-		y = 1
-		prerequisite = { focus = CHE_build_islamic_state }
+		y = 2
+		prerequisite = { focus = CHE_secure_the_support_of_the_elites }
 		relative_position_id = CHE_build_islamic_state
 		
 		cost = 10
@@ -508,7 +557,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.075
+			add_stability = 0.05
 			add_popularity = {ideology = islam Popularity = 0.05}
 		}	
 	}
@@ -622,8 +671,8 @@ focus_tree = {
 		id = CHE_islamization_of_the_army
 		icon = GFX_Goal_unknow
 		x = -2
-		y = 1
-		prerequisite = { focus = CHE_build_islamic_state }
+		y = 2
+		prerequisite = { focus = CHE_secure_the_support_of_the_elites }
 		relative_position_id = CHE_build_islamic_state
 		
 		cost = 10
@@ -656,10 +705,10 @@ focus_tree = {
 	focus = {
 		id = CHE_establish_the_guard_of_allah
 		icon = GFX_Goal_unknow
-		x = -2
-		y = 2
+		x = 0
+		y = 1
 		prerequisite = { focus = CHE_islamization_of_the_army }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_islamization_of_the_army
 		
 		cost = 10
 		
@@ -668,7 +717,7 @@ focus_tree = {
 		}
 		
 		available = {
-			
+		    
 		}
 		
 		bypass = {
@@ -683,7 +732,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 75
-			add_manpower = 5000
+			add_manpower = 3000
 			add_popularity = {ideology = islam Popularity = 0.05}
 		}	
 	}
@@ -691,10 +740,10 @@ focus_tree = {
 	focus = {
 		id = CHE_foreign_islamic_volunteers
 		icon = GFX_Goal_unknow
-		x = -3
-		y = 3
+		x = -1
+		y = 2
 		prerequisite = { focus = CHE_establish_the_guard_of_allah }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_islamization_of_the_army
 		
 		cost = 10
 		
@@ -723,6 +772,11 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1750
 			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_0 
+				amount = 1750
+			}
+			unlock_decision_tooltip = CHE_attract_addition_islamic_volunteer
 			add_timed_idea = {
 				idea = CHE_volunteers_from_muslim_world_idea
 				days = 115
@@ -733,10 +787,10 @@ focus_tree = {
 	focus = {
 		id = CHE_include_mass_islam_into_education
 		icon = GFX_Goal_unknow
-		x = -3
-		y = 4
+		x = 0
+		y = 1
 		prerequisite = { focus = CHE_foreign_islamic_volunteers }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_foreign_islamic_volunteers
 		
 		cost = 25
 		
@@ -767,11 +821,11 @@ focus_tree = {
 		id = CHE_hold_ingushetia
 		icon = GFX_Goal_unknow
 		x = 0
-		y = 3
+		y = 2
 		prerequisite = { focus = CHE_establish_the_guard_of_allah }
 		prerequisite = { focus = CHE_ismalist_propaganda }
 		prerequisite = { focus = CHE_establish_a_sharia_police_force }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_reorganization_of_courts
 		
 		cost = 10
 		
@@ -801,13 +855,13 @@ focus_tree = {
 
 	focus = {
 		id = CHE_deports_of_russians
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_Deport_Russians
 		x = 0
-		y = 4
+		y = 3
 		prerequisite = { focus = CHE_hold_ingushetia }
 		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
 		prerequisite = { focus = CHE_foreign_islamic_volunteers }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_reorganization_of_courts
 		
 		cost = 35
 		
@@ -830,19 +884,19 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_popularity = {ideology = islam Popularity = 0.05}
+			add_popularity = {ideology = islam Popularity = 0.065}
 			add_war_support = 0.05
-			add_political_power = 50
+			add_political_power = -50
 			add_stability = -0.175
 			custom_effect_tooltip = 4_CHE_tt
 			128 = {
-				add_manpower = -5000
+				add_manpower = -5300
 			}
 			127 = {
 				add_manpower = -6000
 			}
 			126 = {
-				add_manpower = -5000
+				add_manpower = -5200
 			}
 			125 = {
 				add_manpower = -300
@@ -871,9 +925,9 @@ focus_tree = {
 		id = CHE_radical_islamism
 		icon = GFX_Goal_unknow
 		x = 1
-		y = 5
+		y = 1
 		prerequisite = { focus = CHE_deports_of_russians }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_deports_of_russians
 		
 		cost = 10
 		
@@ -906,9 +960,9 @@ focus_tree = {
 		id = CHE_fight_with_moderate
 		icon = GFX_Goal_unknow
 		x = -1
-		y = 5
+		y = 1
 		prerequisite = { focus = CHE_deports_of_russians }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_deports_of_russians
 		
 		cost = 10
 		
@@ -934,6 +988,18 @@ focus_tree = {
 			add_popularity = {ideology = islam Popularity = 0.15}
 			add_war_support = 0.15
 			add_political_power = 25
+			subtract_from_variable = {
+                var = CHE_moderate_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_moderate_opposition_chechnya_tt
+            }
+			hidden_effect = {
+				clamp_variable = {
+					var = CHE_moderate_opposition_value
+					min = 0
+					max = 100
+				}
+			}
 		}	
 	}
 
@@ -941,10 +1007,10 @@ focus_tree = {
 		id = CHE_ideas_of_caucasian_chaliphate
 		icon = GFX_Goal_unknow
 		x = 0
-		y = 6
+		y = 2
 		prerequisite = { focus = CHE_radical_islamism }
 		prerequisite = { focus = CHE_fight_with_moderate }
-		relative_position_id = CHE_build_islamic_state
+		relative_position_id = CHE_deports_of_russians
 		
 		cost = 45
 		
@@ -1495,7 +1561,12 @@ focus_tree = {
 		
 		completion_reward = {
 			add_popularity = {ideology = islam Popularity = 0.05}
-		}	
+			OST = {
+				give_military_access = RAS
+				add_manpower = 1000
+			}
+			add_manpower = -1000
+		}
 	}
 
 	focus = {
@@ -1610,6 +1681,10 @@ focus_tree = {
                     var = CHE_legitimacy_of_dudayev_value
                     value = 45
                 }
+				country_event = {
+					id = chechnya.1
+					days = 218
+				}
 				country_event = {
 					id = chechnya.17
 					days = 269
@@ -2077,7 +2152,7 @@ focus_tree = {
 		relative_position_id = CHE_The_Battle_is_in_here
 		prerequisite = { focus = CHE_call_Everyone }
 		
-		cost = 10
+		cost = 8
 		
 		ai_will_do = {
 			factor = 80
@@ -2174,6 +2249,10 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 250
 			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_0 
+				amount = 650
+			}
 			add_stability = -0.05
 		}	
 	}
@@ -2211,6 +2290,10 @@ focus_tree = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 350
+			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_0 
+				amount = 1150
 			}
 			add_stability = -0.05
 		}	
@@ -2251,6 +2334,10 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1750
 			}	
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_0 
+				amount = 1150
+			}
 			remove_ideas = CHE_manpower_shortage_idea		
 		}	
 	}
@@ -2441,8 +2528,12 @@ focus_tree = {
 			add_ideas = CHE_engineer_squads
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 750
+				amount = 350
 			}
+			add_equipment_to_stockpile = { 
+				type = support_equipment 
+				amount = 150
+			}			
 			if = {
 				limit = {
 					has_idea = CHE_lack_of_experience_in_building_fortifications
@@ -3420,7 +3511,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_popularity = {ideology = Islam Popularity = 0.05}
-			add_manpower = 250
+			add_manpower = 150
 		}	
 	}
 
@@ -3607,6 +3698,10 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 7500 
 			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_0 
+				amount = 1250
+			}
 			add_manpower = 12500
 			add_stability = -0.15
 			add_war_support = -0.15
@@ -3724,7 +3819,7 @@ focus_tree = {
 			add_war_support = 0.05
 			add_stability = 0.05
 			add_popularity = {ideology = nationalism Popularity = 0.05}
-			add_manpower = 250
+			add_manpower = 150
 		}	
 	}
 
@@ -4745,6 +4840,7 @@ focus_tree = {
 			custom_effect_tooltip = 3_CHE_tt
 			add_political_power = -125
 			add_stability = -0.15
+			add_popularity = {ideology = islam Popularity = 0.075}
 			custom_effect_tooltip = cash_balance_minus_25_tt
 			subtract_from_variable = {
 				var = cash
@@ -5255,7 +5351,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_military_training
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_harsh_training
 		x = -2
 		y = 2
 		prerequisite = { focus = CHE_Nationalist_Propaganda }
@@ -5375,7 +5471,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_centralize_power
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_centralize_power
 		x = 0
 		y = 4
 		prerequisite = { focus = CHE_Deport_Russians }
@@ -5582,7 +5678,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_Total_Control_has_achived
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_Total_Control_has_achived
 		x = 0
 		y = 4
 		relative_position_id = CHE_centralize_power
@@ -5612,7 +5708,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 15
-			add_stability = 0.10
 			add_war_support = 0.05
 			add_to_variable = {
                 var = CHE_legitimacy_of_dudayev_value
@@ -5624,7 +5719,7 @@ focus_tree = {
                 value = 5
                 tooltip = sub_5_from_power_of_opposition_chechnya_tt
             }
-			remove_ideas = CHE_opposition_power_idea
+			country_event = chechnya.45
 			hidden_effect = {
 				set_portraits = {
                     character = CHE_Dzhokhar_Dudaev
@@ -5632,6 +5727,7 @@ focus_tree = {
 				        large="gfx/leaders/CHE/portrait_che_dzhokhora_dudayev.png"
 			        }
                 }
+				mark_focus_tree_layout_dirty = yes	
 			}
 		}	
 	}
@@ -5905,7 +6001,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
-			num_of_factories > 45
+			num_of_factories > 50
 		}
 		
 		bypass = {
@@ -6096,6 +6192,10 @@ focus_tree = {
 				has_global_flag = FirstChechenWar
 			}
 			has_country_flag = CHEChechenOppositionUprising
+		}
+
+		allow_branch = {
+			has_completed_focus = CHE_Total_Control_has_achived
 		}
 		
 		bypass = {
@@ -6507,7 +6607,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 45
 			add_war_support = 0.05
-			add_popularity = {ideology = Nationalism Popularity = 0.025}
+			add_popularity = {ideology = Nationalism Popularity = 0.035}
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value
                 value = 5
@@ -6805,6 +6905,40 @@ focus_tree = {
 			add_stability = 0.5
 			add_political_power = 25
 			mark_focus_tree_layout_dirty = yes		
+		}	
+	}
+
+	focus = {
+		id = CHE_rename_grozny_to_dzohar
+		icon = GFX_Goal_CHE_National_Propaganda
+		x = 4
+		y = 1
+		prerequisite = { focus = CHE_victory_of_mashadov}
+		relative_position_id = CHE_victory_of_mashadov
+		cost = 15
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_stability = 0.025
+			add_war_support = 0.025
+			add_political_power = 25
 		}	
 	}
 

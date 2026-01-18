@@ -74,6 +74,21 @@ CHE_Weak_Chechen_armed_forces = { #NATIONAL SPIRIT
 	army_org_regain = CHE_wcaf_army_org_regain #-0.25
 }
 
+CHE_Islamic_state_idea = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_SAK_Anarchism_in_Georgia
+
+	war_support_factor = CHE_IS_war_support_factor #-0.5
+	stability_factor = CHE_IS_stability_factor #-0.5
+	nationalism_drift = CHE_IS_nationalism_drift #0.1
+	conservatism_drift = CHE_IS_conservatism_drift #0.1
+	drift_defence_factor = CHE_IS_drift_defence_factor #-0.4
+	political_power_gain = CHE_IS_political_power_gain #-0.1
+	research_speed_factor = CHE_IS_Research_speed_factor #-0.35
+	party_popularity_stability_factor = CHE_IS_party_popularity_stability_factor #-0.3
+}
+
 RAS_road_to_grozny = {
 
 	enable = { always = yes }

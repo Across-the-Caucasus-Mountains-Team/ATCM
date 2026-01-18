@@ -37,3 +37,24 @@ CHE_power_of_opposition_clamp_and_update_ui_effect = {
 		max = 100
 	}
 }
+
+
+## The radicalism of Islamists
+
+CHE_the_radicalism_of_islamists_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = CHE_the_radicalism_of_islamists_value
+		min = 0
+		max = 100
+	}
+}
+
+## Moderate opposition
+
+CHE_power_of_opposition_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = CHE_moderate_opposition_value
+		min = 0
+		max = 100
+	}
+}

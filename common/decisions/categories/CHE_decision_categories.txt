@@ -100,3 +100,18 @@ CHE_stability_of_republic_decision = {
 	}
 	visible_when_empty = yes
 }
+
+CHE_islamic_republic_stability_decision = {
+
+	priority = 89
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_completed_focus = CHE_build_islamic_state
+	}
+	visible_when_empty = yes
+}

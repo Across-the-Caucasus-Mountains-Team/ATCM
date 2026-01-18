@@ -205,6 +205,10 @@ CHE_first_chechen_war_decision = {
 				type = infantry_equipment_1 
 				amount = 750
 			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_0 
+				amount = 650
+			}
 		}
 
 		ai_will_do = {
@@ -234,10 +238,14 @@ CHE_first_chechen_war_decision = {
 				type = infantry_equipment_1 
 				amount = 1500
 			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_0 
+				amount = 650
+			}
 		}
 
 		ai_will_do = {
-			factor = 50		
+			factor = 40		
 		}
 	}
 
@@ -1167,3 +1175,103 @@ CHE_stability_of_republic_decision = {
 	}
 
 }
+
+CHE_islamic_republic_stability_decision = {
+	CHE_ingushetian_uprising = {
+		icon = GFX_decision_UKR_maidan_supress_the_protests
+		allowed = {
+			original_tag = CHE
+		}
+		
+		available = {
+			NOT = {
+			    has_country_flag = CHEBeforeIngushtianUprising
+			}
+		}
+		
+		selectable_mission = no
+		
+		activation = {
+			has_country_flag = CHEBeforeIngushtianUprising
+		}
+		
+		days_mission_timeout = 195
+		fire_only_once = no
+		is_good = no
+		
+		timeout_effect = {
+			country_event = chechnya.43
+		}
+		
+		complete_effect = {
+			
+		}
+	}
+
+	CHE_attract_addition_islamic_volunteer = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+		}
+	    
+		visible = {
+			tag = CHE
+			has_completed_focus = CHE_foreign_islamic_volunteers
+		}
+
+		complete_effect = {
+			random_list = {
+				40 = {
+                    add_manpower = 895
+				}
+				30 = {
+                    add_manpower = 1295
+				}
+				20 = {
+                    add_manpower = 1425
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 40		
+		}
+	}
+
+	CHE_hold_raids_against_moderate = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 75
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+		}
+	    
+		visible = {
+			tag = CHE
+			has_completed_focus = CHE_build_islamic_state
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+                var = CHE_moderate_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_moderate_opposition_chechnya_tt
+            }
+		}
+
+		ai_will_do = {
+			factor = 40		
+		}
+	}
+
+}
+
+

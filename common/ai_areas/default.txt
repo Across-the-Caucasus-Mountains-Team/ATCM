@@ -1,0 +1,14 @@
+areas = {
+	europe = {
+		continents = {
+			europe
+		}
+	}
+
+	grozny = {
+		strategic_regions = {
+			10
+		}
+	}
+
+}

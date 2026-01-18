@@ -168,7 +168,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CHE_Surrender.png"
 	}
 
-		SpriteType = {
+	SpriteType = {
+		name = "GFX_CHE_centralize_power"
+		texturefile = "gfx/interface/goals/CHE/CHE_centralize_power.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_Total_Control_has_achived"
+		texturefile = "gfx/interface/goals/CHE/CHE_Total_Control_has_achived.png"
+	}
+
+	SpriteType = {
 		name = "GFX_CHE_small_sabotages_units"
 		texturefile = "gfx/interface/goals/CHE/CHE_small_sabotages_units.png"
 	}

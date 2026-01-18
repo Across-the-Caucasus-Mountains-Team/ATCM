@@ -176,7 +176,7 @@ country_event = {
 	id = chechnya.9
 	title = chechnya.9.t
 	desc = chechnya.9.d
-	picture = GFX_Report_event_SAK_Zviad_Speech
+	picture = GFX_Report_event_RAS_failed_blitz
 
 	is_triggered_only = yes
 
@@ -929,5 +929,151 @@ country_event = {
 	option = {
 		name = chechnya.38.a
 		
+	}
+}
+
+#New islamic republic
+country_event = {
+	id = chechnya.39
+	title = chechnya.39.t
+	desc = chechnya.39.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.39.a
+		add_political_power = 15
+		add_dynamic_modifier = { modifier = CHE_Islamic_state_idea }
+        set_variable = { CHE_IS_war_support_factor = -0.5 }
+        set_variable = { CHE_IS_stability_factor = -0.2 }
+        set_variable = { CHE_IS_nationalism_drift = 0.4 }
+        set_variable = { CHE_IS_conservatism_drift = 0.2 }
+        set_variable = { CHE_IS_drift_defence_factor = -0.25 }
+        set_variable = { CHE_IS_political_power_gain = -0.35 }
+		set_variable = { CHE_IS_Research_speed_factor = -0.35 }
+		set_variable = { CHE_IS_party_popularity_stability_factor = -0.35 }
+	}
+}
+
+#Ingushetia wants to leave Chechnya
+country_event = {
+	id = chechnya.40
+	title = chechnya.40.t
+	desc = chechnya.40.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.40.a
+		add_political_power = -25
+		add_stability = -0.05
+		activate_mission = CHE_ingushetian_uprising
+		hidden_effect = {
+			country_event = {
+				id = chechnya.41
+				days = 19
+			}
+		}
+	}
+}
+
+#ingushetian rebels are armed
+country_event = {
+	id = chechnya.41
+	title = chechnya.41.t
+	desc = chechnya.41.d
+	picture = GFX_Report_event_protests_in_ingushetia_and_dagestan
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.41.a
+		add_political_power = -25
+		add_stability = -0.025
+		add_days_mission_timeout = {
+			mission = CHE_ingushetian_uprising
+			days = -15
+		}
+		hidden_effect = {
+			country_event = {
+				id = chechnya.42
+				days = 5
+			}
+		}
+	}
+}
+
+#Starting of the fire
+country_event = {
+	id = chechnya.42
+	title = chechnya.42.t
+	desc = chechnya.42.d
+	picture = GFX_Report_event_protests_in_ingushetia_and_dagestan
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.42.a
+		add_manpower = -37
+		add_political_power = -25
+		add_stability = -0.025
+		add_days_mission_timeout = {
+			mission = CHE_ingushetian_uprising
+			days = -15
+		}
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Upirsing
+country_event = {
+	id = chechnya.43
+	title = chechnya.43.t
+	desc = chechnya.43.d
+	picture = GFX_Report_event_protests_in_ingushetia_and_dagestan
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.43.a
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Dudayev protests
+country_event = {
+	id = chechnya.44
+	title = chechnya.44.t
+	desc = chechnya.44.d
+	picture = GFX_Report_event_CHE_victory_of_dudayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.44.a
+		add_stability = -0.025
+	}
+}
+
+#Dissolution of parliament
+country_event = {
+	id = chechnya.45
+	title = chechnya.45.t
+	desc = chechnya.45.d
+	picture = GFX_Report_event_CHE_victory_of_dudayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.45.a
+		add_political_power = 25
+		add_stability = -0.05
+		remove_ideas = CHE_opposition_power_idea
 	}
 }

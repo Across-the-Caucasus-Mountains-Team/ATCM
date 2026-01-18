@@ -1,4 +1,5 @@
 add_namespace = general_staff
+add_namespace = ai_stragecy
 add_namespace = generic
 
 #Remove attack country flag
@@ -62,5 +63,41 @@ country_event = {
 	option = {
 		name = general_staff.4.a
 		clr_country_flag = General_Staff_disrupt_logistics_started
+	}
+}
+
+#Grozny preparation
+country_event = {
+	id = ai_stragecy.1
+	title = ai_stragecy.1.t
+	desc = ai_stragecy.1.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = ai_stragecy.1.a
+		set_country_flag = CHE_preparation_in_grozny
+		country_event = {
+			id = ai_stragecy.2
+			days = 50
+		}
+	}
+}
+
+#Delete Grozny defense ai
+country_event = {
+	id = ai_stragecy.2
+	title = ai_stragecy.2.t
+	desc = ai_stragecy.2.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = ai_stragecy.2.a
+		clr_country_flag = CHE_preparation_in_grozny
 	}
 }

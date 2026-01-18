@@ -1,0 +1,36 @@
+##############################
+# 1.
+##############################
+CHE_GROZNY_CONTROL = {
+	allowed = {
+		original_tag = CHE
+	}
+	enable = {
+		has_country_flag = CHE_preparation_in_grozny
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = grozny
+		value = 300
+	}
+
+	ai_strategy = {
+		type  = force_concentration_front_factor
+		area = grozny        
+		value = 30
+	}
+
+	#ai_strategy = {
+	#	type = front_control
+	#	tag = CHE
+	#	ordertype = front
+	#	execution_type = balanced
+	#	execute_order = yes
+	#	manual_attack = yes
+	#	priority = 140
+	#}
+}
+
+
+
