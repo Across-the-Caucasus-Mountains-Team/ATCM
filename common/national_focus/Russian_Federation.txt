@@ -1968,6 +1968,9 @@ focus_tree = {
 		    add_political_power = 50
             custom_effect_tooltip = 1_RAS_tt
 			custom_effect_tooltip = 12_RAS_tt
+			CHE = {
+				country_event = chechnya.46
+			}
 		}
 	}
 

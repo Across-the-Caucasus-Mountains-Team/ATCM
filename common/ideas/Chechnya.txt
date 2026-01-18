@@ -745,5 +745,37 @@ ideas = {
 				defense_bonus_against = -0.15
             }
 		}
+
+		CHE_russian_troops_in_chechnya = {
+			
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GFX_idea_CHE_disorganized_defense_idea
+			
+			modifier = {
+				political_power_cost = 0.15
+				communism_drift = 0.01
+				liberalism_drift = 0.02
+				conservatism_drift = 0.02
+				Junta_drift = 0.01
+				populism_drift = 0.01
+				anarchism_drift = 0.01
+				authoritarianism_drift = 0.03
+			}
+
+			targeted_modifier = {
+                tag = RAS
+                attack_bonus_against = -0.25
+				defense_bonus_against = -0.15
+            }
+		}
 	}
 }

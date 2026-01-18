@@ -1077,3 +1077,108 @@ country_event = {
 		remove_ideas = CHE_opposition_power_idea
 	}
 }
+
+#Russia proposes a federal treaty
+country_event = {
+	id = chechnya.46
+	title = chechnya.46.t
+	desc = chechnya.46.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.46.a
+		add_war_support = 0.01
+		RAS = {
+			country_event = {
+				id = chechnya.47
+                hours = 6
+			}
+		}
+	}
+}
+
+#Russia proposes a federal treaty (To Russian)
+country_event = {
+	id = chechnya.47
+	title = chechnya.47.t
+	desc = chechnya.47.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.47.a
+	}
+}
+
+#Russia is withdrawing all its units
+country_event = {
+	id = chechnya.48
+	title = chechnya.48.t
+	desc = chechnya.48.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.48.a
+		remove_ideas = CHE_russian_troops_in_chechnya
+	}
+}
+
+#Trains stoped
+country_event = {
+	id = chechnya.49
+	title = chechnya.49.t
+	desc = chechnya.49.d
+	picture = GFX_Report_event_train_picture
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.49.a
+		add_political_power = -25
+		add_stability = -0.025
+	}
+}
+
+#Oppositions go to dudayev palace
+country_event = {
+	id = chechnya.50
+	title = chechnya.50.t
+	desc = chechnya.50.d
+	picture = GFX_Report_event_CHE_presidental_palace
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.50.a
+		add_political_power = -25
+		add_stability = -0.025
+		hidden_effect = {
+			country_event = {
+				id = chechnya.51
+				days = 1
+			}
+		}
+	}
+}
+
+#Oppositions calm down
+country_event = {
+	id = chechnya.51
+	title = chechnya.51.t
+	desc = chechnya.51.d
+	picture = GFX_Report_event_CHE_presidental_palace
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.51.a
+		add_political_power = 25
+		add_stability = 0.035
+		add_manpower = 36
+	}
+}

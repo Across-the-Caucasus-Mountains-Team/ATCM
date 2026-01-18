@@ -176,4 +176,26 @@ units = {
 		start_experience_factor = 0.5
 		start_manpower_factor = 0.2
 	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 10482
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+		start_manpower_factor = 0.35
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 10482
+		division_template = "Gaşloyn bataljon"
+		start_experience_factor = 0.5
+		start_manpower_factor = 0.35
+	}
 }	

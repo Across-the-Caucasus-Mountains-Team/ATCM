@@ -129,7 +129,7 @@ focus_tree = {
 		prerequisite = { focus = CHI_prepare_the_armed_forces }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
 		
-		cost = 5
+		cost = 35
 		
 		ai_will_do = {
 			factor = 100
@@ -165,6 +165,10 @@ focus_tree = {
 					country_event = {
 						id = chechnya.31
 						hours = 1
+					}
+					country_event = {
+						id = chechnya.49
+						days = 62
 					}
 				}
 			}
@@ -347,6 +351,7 @@ focus_tree = {
                 idea = CHI_russians_specalists_idea
                 days = 180
             }
+			load_oob = CHI_russian_tanks
 		}	
 	}
 }

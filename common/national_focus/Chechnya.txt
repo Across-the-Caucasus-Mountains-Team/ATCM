@@ -299,6 +299,10 @@ focus_tree = {
                     var = CHE_islamic_radicalism_value
                     value = 25
                 }
+				country_event = {
+					id = chechnya.48
+					days = 196
+				}
 			}
 		}	
 	}
@@ -322,7 +326,7 @@ focus_tree = {
 		}
 
 		offset = {
-			x = -5
+			x = -6
 			y = 0
 			trigger = {
 				has_game_rule = {
@@ -382,6 +386,7 @@ focus_tree = {
 					id = chechnya.44
 					days = 3
 				}
+				add_ideas = CHE_russian_troops_in_chechnya 
 			}
 		}	
 	}
@@ -1610,7 +1615,7 @@ focus_tree = {
 	focus = {
 		id = CHE_build_secular_state
 		icon = GFX_CHE_build_secular_state
-		x = 1
+		x = 0
 		y = 5
 		prerequisite = { focus = CHE_hold_elections }
 		mutually_exclusive = { focus = CHE_build_islamic_state }
@@ -1626,7 +1631,7 @@ focus_tree = {
 		}
 
 		offset = {
-			x = 5
+			x = 6
 			y = 0
 			trigger = {
 				has_game_rule = {
@@ -1698,6 +1703,7 @@ focus_tree = {
 					days = 361
 				}
 				add_ideas = CHE_opposition_power_idea
+				add_ideas = CHE_russian_troops_in_chechnya 
 			}
 		}	
 	}
@@ -4982,7 +4988,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.1 }
 			add_equipment_to_stockpile = { 
 				type = modern_tank_equipment_1 
-				amount = 50
+				amount = 15
 			}
 			custom_effect_tooltip = 3_CHE_tt
 			army_experience = -75
@@ -5236,6 +5242,66 @@ focus_tree = {
 	}
 
 	focus = {
+		id = CHE_hold_raids_on_soviet_millitary_bases
+		icon = GFX_Goal_unknow
+		x = 6
+		y = 1
+		prerequisite = { focus = CHE_build_secular_state focus = CHE_build_islamic_state }
+		relative_position_id = CHE_build_secular_state
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+            has_ideas = SO
+		}
+
+		offset = {
+			x = -2
+			y = 0
+			trigger = {
+				has_completed_focus = CHE_build_islamic_state
+			}
+		}
+
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+				has_completed_focus = CHE_build_secular_state
+			}
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = CHE_build_secular_state
+				}
+				unlock_decision_tooltip = CHE_hold_raids_on_soviet_millitary_bases
+			}
+			if = {
+				limit = {
+					has_completed_focus = CHE_build_islamic_state
+				}
+				unlock_decision_tooltip = CHE_hold_raids_on_soviet_millitary_bases_islam
+			}
+		}	
+	}
+
+	focus = {
 		id = CHE_introduce_the_Chechen_naxar
 		icon = GFX_Goal_CHE_Chechen_Naxar
 		x = 2
@@ -5437,11 +5503,9 @@ focus_tree = {
 		id = CHE_Deport_Russians
 		icon = GFX_CHE_Deport_Russians
 		x = 0
-		y = 3
-		relative_position_id = CHE_build_secular_state
-		prerequisite = { focus = CHE_reform_the_schools }
-		prerequisite = { focus = CHE_talks_with_Zviad }
-		prerequisite = { focus = CHE_military_training }
+		y = 1
+		relative_position_id = CHE_centralize_power
+		prerequisite = { focus = CHE_centralize_power }
 		
 		cost = 25
 		
@@ -5474,10 +5538,10 @@ focus_tree = {
 		icon = GFX_CHE_centralize_power
 		x = 0
 		y = 4
-		prerequisite = { focus = CHE_Deport_Russians }
+		prerequisite = { focus = CHE_Form_Chechen_national_Guard }
 		relative_position_id = CHE_build_secular_state
 		
-		cost = 35
+		cost = 45
 		
 		ai_will_do = {
 			factor = 100
@@ -5507,12 +5571,7 @@ focus_tree = {
             }
 			activate_mission = CHE_weekly_power_of_opposition_value
 			hidden_effect = {
-				set_country_flag = CHE_dudayev_dicatorship
-				country_event = {
-                    id = chechnya.21
-					days = 598
-				}
-				
+				set_country_flag = CHE_dudayev_dicatorship	
 			}
 		}	
 	}
@@ -5522,10 +5581,12 @@ focus_tree = {
 		icon = GFX_CHE_National_Guard
 		x = 0
 		y = 1
-		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_centralize_power }
+		relative_position_id = CHE_talks_with_Zviad
+		prerequisite = { focus = CHE_talks_with_Zviad }
+		prerequisite = { focus = CHE_military_training }
+		prerequisite = { focus = CHE_reform_the_schools }
 		
-		cost = 25
+		cost = 15
 		
 		ai_will_do = {
 			factor = 100
@@ -5565,7 +5626,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_Form_Chechen_national_Guard }
+		prerequisite = { focus = CHE_Deport_Russians }
 		
 		cost = 25
 		
@@ -5607,7 +5668,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_Form_Chechen_national_Guard }
+		prerequisite = { focus = CHE_Deport_Russians }
 		
 		cost = 25
 		
@@ -5677,7 +5738,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHE_Total_Control_has_achived
+		id = CHE_new_constitution
 		icon = GFX_CHE_Total_Control_has_achived
 		x = 0
 		y = 4
@@ -5687,6 +5748,50 @@ focus_tree = {
 		prerequisite = { focus = CHE_Young_patriots }
 		
 		cost = 35
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 15
+			add_war_support = 0.05
+			add_to_variable = {
+                var = CHE_legitimacy_of_dudayev_value
+                value = 5
+                tooltip = add_legitimacy_of_dudayev_to_var_tt
+            }
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
+		}	
+	}
+
+	focus = {
+		id = CHE_Total_Control_has_achived
+		icon = GFX_CHE_Total_Control_has_achived
+		x = 0
+		y = 5
+		relative_position_id = CHE_centralize_power
+		prerequisite = { focus = CHE_new_constitution }
+		
+		cost = 45
 		
 		ai_will_do = {
 			factor = 100
@@ -5728,6 +5833,14 @@ focus_tree = {
 			        }
                 }
 				mark_focus_tree_layout_dirty = yes	
+				country_event = {
+                    id = chechnya.21
+					days = 39
+				}
+				country_event = {
+                    id = chechnya.50
+					days = 72
+				}
 			}
 		}	
 	}
@@ -6175,10 +6288,96 @@ focus_tree = {
 
 	focus = {
 		id = CHE_the_situation_is_getting_out_of_control
-		icon = GFX_CHE_Economy_question
+		icon = GFX_Goal_unknow
 		x = 0
-		y = 5
-		relative_position_id = CHE_centralize_power
+		y = 2
+		relative_position_id = CHE_Total_Control_has_achived
+		prerequisite = { focus = CHE_declare_martial_law }
+		prerequisite = { focus = CHE_liquidation_of_constutional_court }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+			has_country_flag = CHEChechenOppositionUprising
+		}
+
+		allow_branch = {
+			has_completed_focus = CHE_Total_Control_has_achived
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.15
+		}	
+	}
+
+	focus = {
+		id = CHE_declare_martial_law
+		icon = GFX_Goal_unknow
+		x = -1
+		y = 1
+		relative_position_id = CHE_Total_Control_has_achived
+		prerequisite = { focus = CHE_Total_Control_has_achived }
+		
+		cost = 5
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			NOT = {
+				has_global_flag = FirstChechenWar
+			}
+			has_country_flag = CHEChechenOppositionUprising
+		}
+
+		allow_branch = {
+			has_completed_focus = CHE_Total_Control_has_achived
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_to_variable = {
+                var = CHE_legitimacy_of_dudayev_value
+                value = 2.5
+                tooltip = add_legitimacy_of_dudayev_to_var_tt
+            }
+		}	
+	}
+
+	focus = {
+		id = CHE_liquidation_of_constutional_court
+		icon = GFX_Goal_unknow
+		x = 1
+		y = 1
+		relative_position_id = CHE_Total_Control_has_achived
 		prerequisite = { focus = CHE_Total_Control_has_achived }
 		
 		cost = 5
@@ -6211,6 +6410,11 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_stability = -0.15
+			add_to_variable = {
+                var = CHE_legitimacy_of_dudayev_value
+                value = 2.5
+                tooltip = add_legitimacy_of_dudayev_to_var_tt
+            }
 		}	
 	}
 
@@ -6255,13 +6459,13 @@ focus_tree = {
 
 	focus = {
 		id = CHE_russian_threat
-		icon = GFX_CHE_Economy_question
+		icon = GFX_Goal_unknow
 		x = 0
 		y = 2
 		relative_position_id = CHE_the_situation_is_getting_out_of_control
 		prerequisite = { focus = CHE_raise_the_national_guard }
 		
-		cost = 45
+		cost = 55
 		
 		ai_will_do = {
 			factor = 100
