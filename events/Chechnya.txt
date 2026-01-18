@@ -1182,3 +1182,40 @@ country_event = {
 		add_manpower = 36
 	}
 }
+
+#The Constitutional Court of Chechnya ruled that D. Dudayev's actions were criminal.
+country_event = {
+	id = chechnya.52
+	title = chechnya.52.t
+	desc = chechnya.52.d
+	picture = GFX_Report_event_CHE_presidental_palace
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.52.a
+		add_political_power = -50
+		hidden_effect = {
+			country_event = {
+				id = chechnya.53
+				days = 5
+			}
+		}
+	}
+}
+
+#Shamil basayev captured opposition session in grozny
+country_event = {
+	id = chechnya.53
+	title = chechnya.53.t
+	desc = chechnya.53.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.53.a
+		add_political_power = 35
+		add_stability = -0.025
+	}
+}

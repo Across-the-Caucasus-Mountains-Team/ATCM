@@ -481,12 +481,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Report_event_train_picture"
-		texturefile = "gfx/event_pictures/Report_event_train_picture.png.png"
+		texturefile = "gfx/event_pictures/Report_event_train_picture.png"
 	}	
 	
 	spriteType = {
 		name = "GFX_Report_event_CHE_presidental_palace"
-		texturefile = "gfx/event_pictures/Report_event_CHE_presidental_palace.png.png"
+		texturefile = "gfx/event_pictures/Report_event_CHE_presidental_palace.png"
 	}
 
 }	

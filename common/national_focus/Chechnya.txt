@@ -5841,6 +5841,10 @@ focus_tree = {
                     id = chechnya.50
 					days = 72
 				}
+				country_event = {
+                    id = chechnya.52
+					days = 28
+				}
 			}
 		}	
 	}
@@ -5854,10 +5858,10 @@ focus_tree = {
 		cost = 45
 		
 		ai_will_do = {
-			factor = 90
+			factor = 30
 			modifier = {
-				factor = 10
-				has_completed_focus = CHE_centralize_power
+				factor = 90
+				has_completed_focus = CHE_liquidation_of_constutional_court
 			}
 		}
 		
@@ -6346,7 +6350,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
-			has_country_flag = CHEChechenOppositionUprising
+			
 		}
 
 		allow_branch = {
@@ -6380,7 +6384,7 @@ focus_tree = {
 		relative_position_id = CHE_Total_Control_has_achived
 		prerequisite = { focus = CHE_Total_Control_has_achived }
 		
-		cost = 5
+		cost = 35
 		
 		ai_will_do = {
 			factor = 100
@@ -6390,7 +6394,7 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
-			has_country_flag = CHEChechenOppositionUprising
+			
 		}
 
 		allow_branch = {
