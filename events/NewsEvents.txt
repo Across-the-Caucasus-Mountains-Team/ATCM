@@ -617,3 +617,19 @@ news_event = {
 		name = news.28.a
 	}
 }
+
+#Gamsakhurdia is dead
+news_event = {
+	id = news.29
+	title = news.29.t
+	desc = news.29.d
+	picture = GFX_News_event_Gamsakhurdia
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.29.a
+	}
+}

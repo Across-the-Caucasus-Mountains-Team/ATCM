@@ -39,6 +39,16 @@ music = {
 	}
 }
 
+music = {
+	song = "ATAS"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
 
 music = {
 	song = "SummerWillEnd"

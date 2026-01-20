@@ -115,3 +115,33 @@ CHE_islamic_republic_stability_decision = {
 	}
 	visible_when_empty = yes
 }
+
+CHE_battle_for_power_after_dudayev_decision = {
+
+	priority = 89
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_global_flag = Dudayev_is_dead
+	}
+	visible_when_empty = yes
+}
+
+CHE_rebuilding_country = {
+
+	priority = 89
+	
+	icon = SOV_propaganda
+	
+	picture = GFX_decision_RAS_separatism
+
+	visible = {
+        tag = CHE
+		has_completed_focus = CHE_rebuilidng_of_our_country
+	}
+	visible_when_empty = yes
+}

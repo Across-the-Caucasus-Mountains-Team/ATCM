@@ -414,7 +414,8 @@ country_event = {
 
 	option = {
 		name = russia.18.a
-		add_stability = 0.075	
+		add_stability = 0.15	
+		add_war_support = -0.05
 	}
 }
 
@@ -462,7 +463,7 @@ country_event = {
 
 	option = {
 		name = russia.21.a
-		add_political_power = 25
+		add_political_power = 55
 		complete_national_focus = RAS_shell_chechnya
 	}
 }

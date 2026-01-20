@@ -75,6 +75,12 @@ focus_tree = {
 			add_state_core = 23
 			add_state_core = 19
 			add_state_core = 18
+			hidden_effect = {
+				country_event = {
+					id = gamsakhurdia.4
+                    days = 90
+				}
+			}
 		}	
 	}
 

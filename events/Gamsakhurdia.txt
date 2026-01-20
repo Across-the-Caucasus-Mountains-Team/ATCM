@@ -30,7 +30,7 @@ country_event = {
 
 	option = {
 		name = gamsakhurdia.2.a
-		add_manpower = 50000
+		add_manpower = 1500
 		add_ideas = service_by_requirement
 		country_event = {
 			id = gamsakhurdia.3
@@ -55,5 +55,36 @@ country_event = {
 			add_ideas = SAK_Zviadists_in_the_west_two
 			country_event = { id = Georgia.41 }
 		}	
+	}
+}
+
+#Dead of gamsahurdia
+country_event = {
+	id = gamsakhurdia.4
+	title = gamsakhurdia.4.t
+	desc = gamsakhurdia.4.d
+	picture = GFX_Report_event_SOV_seventheen_years_of_the_union
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			SAK = {
+			    country_event = { 
+					id = Georgia.54
+				    hours = 6
+				}
+		    }
+			news_event = {
+				id = news.29
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = gamsakhurdia.4.a
+		add_stability = -0.15
+		retire_character = GOM_Zviad_Gamsakhurdia	
 	}
 }

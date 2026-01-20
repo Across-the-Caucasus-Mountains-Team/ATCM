@@ -1219,3 +1219,17 @@ country_event = {
 		add_stability = -0.025
 	}
 }
+
+#North Ossetia has set up checkpoints.
+country_event = {
+	id = chechnya.54
+	title = chechnya.54.t
+	desc = chechnya.54.d
+	picture = GFX_Report_event_russian_blockposts
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.54.a
+	}
+}

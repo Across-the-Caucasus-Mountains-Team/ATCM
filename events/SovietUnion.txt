@@ -399,6 +399,10 @@ country_event = {
 					id = chechnya.28
 					hours = 2
 				}
+				country_event = {
+					id = chechnya.54
+					days = 17
+				}
 			}
 		}	
 	}

@@ -1127,3 +1127,19 @@ country_event = {
 		add_stability = -0.05
 	}
 }
+
+#Dead of Gamsahhurdia
+country_event = {
+	id = Georgia.54
+	title = Georgia.54.t
+	desc = Georgia.54.d
+	picture = GFX_Report_event_SAK_Zviad_Speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = Georgia.54.a
+		add_political_power = 25	
+		add_stability = 0.05
+	}
+}

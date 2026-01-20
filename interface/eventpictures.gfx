@@ -489,4 +489,15 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Report_event_CHE_presidental_palace.png"
 	}
 
+	spriteType = {
+		name = "GFX_Report_event_russian_blockposts"
+		texturefile = "gfx/event_pictures/Report_event_russian_blockposts.png"
+	}
+
+	spriteType = {
+		name = "GFX_News_event_Gamsakhurdia"
+		texturefile = "gfx/event_pictures/news_event_Gamsakhurdia.png"
+	}
+
+
 }	

@@ -59,6 +59,11 @@ music = {
 }
 
 music = {
+	name = "ATAS"
+	file = "Russian_Music/ATAS.ogg"
+}
+
+music = {
 	name = "WhenWeWereOnWar"
 	file = "Russian_Music/WhenWeWereOnWar.ogg"
 }
