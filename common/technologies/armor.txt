@@ -457,6 +457,11 @@ technologies = {
 		    leads_to_tech = IFV_1
 			research_cost_coeff = 1
 		}
+		path = {
+		    leads_to_tech = bmd_1
+			research_cost_coeff = 1
+		}
+
 		on_research_complete = {
 
 		}
@@ -634,6 +639,121 @@ technologies = {
 		}
 
 		special_project_specialization = { specialization_land }
+	}
+
+	bmd_1 = {
+
+		enable_equipments = {
+			airborne_combat_vehicle_0
+
+		}
+		enable_subunits = {
+			
+		}
+
+		path = {
+			leads_to_tech = bmd_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+
+	
+	bmd_2 = {
+
+		enable_equipments = {
+			airborne_combat_vehicle_1
+		}
+		enable_subunits = {
+			
+		}
+
+		path = {
+			leads_to_tech = bmd_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+
+	
+	bmd_3 = {
+
+		enable_equipments = {
+			airborne_combat_vehicle_2
+		}
+		enable_subunits = {
+			
+		}
+
+		path = {
+			leads_to_tech = bmd_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
+	}
+
+	
+	bmd_4 = {
+
+		enable_equipments = {
+			airborne_combat_vehicle_3
+		}
+		enable_subunits = {
+			
+		}
+		
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			mio_cat_tech_light_armor_and_modules
+		}
 	}
 	
 	MRAP_1 = { #Leichttraktor

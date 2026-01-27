@@ -1,0 +1,153 @@
+equipments = {
+	airborne_combat_vehicle = {
+		year = 1960
+		is_archetype = yes
+		is_buildable = no
+
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 1500
+
+		#Defensive Abilities
+		defense = 14
+		breakthrough = 5
+
+		#Offensive Abilities
+		soft_attack = 18
+		hard_attack = 1
+		ap_attack = 7
+		air_attack = 0
+
+		maximum_speed = 12
+		build_cost_ic = 1
+		reliability = 0.85
+		hardness = 0.95
+		armor_value = 2.8
+		supply_consumption = 0.1
+
+		resources = {
+			steel = 4
+			aluminium = 1
+			rubber = 1
+		}
+
+		manpower = 3
+		active = yes
+	}
+
+	airborne_combat_vehicle_0 = {
+		year = 1960
+
+		archetype = airborne_combat_vehicle
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+	airborne_combat_vehicle_1 = {
+		year = 1980
+
+		archetype = airborne_combat_vehicle
+		parent = airborne_combat_vehicle_0
+		priority = 10
+		visual_level = 1
+
+		maximum_speed = 12
+		reliability = 1.2
+		hardness = 0.95
+		armor_value = 2.3
+		supply_consumption = 0.1
+
+		#Defensive Abilities
+		defense = 19
+		breakthrough = 6
+
+		#Offensive Abilities
+		soft_attack = 22
+		hard_attack = 1.2
+		ap_attack = 8.1
+		air_attack = 0
+
+		resources = {
+			steel = 4
+			aluminium = 1
+			rubber = 1
+		}
+
+		manpower = 3
+
+		build_cost_ic = 2.5
+	}
+
+	airborne_combat_vehicle_2 = {
+		year = 2000
+
+		archetype = airborne_combat_vehicle
+		parent = airborne_combat_vehicle_1
+		priority = 10
+		visual_level = 1
+
+		maximum_speed = 14
+		reliability = 1.2
+		hardness = 0.95
+		armor_value = 2.3
+		supply_consumption = 0.1
+
+		#Defensive Abilities
+		defense = 22
+		breakthrough = 7.1
+
+		#Offensive Abilities
+		soft_attack = 23
+		hard_attack = 1.4
+		ap_attack = 8.4
+		air_attack = 0
+
+		resources = {
+			steel = 4
+			aluminium = 1
+			rubber = 1
+		}
+
+		manpower = 3
+
+		build_cost_ic = 2.5
+	}
+
+	airborne_combat_vehicle_3 = {
+		year = 2020
+
+		archetype = airborne_combat_vehicle
+		parent = airborne_combat_vehicle_2
+		priority = 10
+		visual_level = 1
+
+		maximum_speed = 14
+		reliability = 1.2
+		hardness = 0.95
+		armor_value = 2.3
+		supply_consumption = 0.1
+
+		#Defensive Abilities
+		defense = 24
+		breakthrough = 7.6
+
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 1.6
+		ap_attack = 8.7
+		air_attack = 0
+
+		resources = {
+			steel = 4
+			aluminium = 1
+			rubber = 1
+		}
+
+		manpower = 3
+
+		build_cost_ic = 2.5
+	}
+}

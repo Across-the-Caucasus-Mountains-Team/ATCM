@@ -1,0 +1,24 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		6744 10626 17410 17432 17433 17434 17435 17436 17437 17438 17439 17440 17441 17442 17443 17444 17445 17446 17447 17448 17449
+	}
+	history={
+		owner = CHE
+		add_core_of = CHE
+		victory_points = { 6744 15 }
+		victory_points = { 17443 3 }
+		victory_points = { 17440 3 }
+		victory_points = { 17436 3 }
+		victory_points = { 10626 3 }
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	manpower= 27600
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -95,14 +95,15 @@ RAS_road_to_grozny = {
 	icon = GFX_idea_CHE_weak_army
     army_speed_factor = 0.2
 	army_org_factor = 0.15
+	army_attack_factor = 0.10
 }
 
 RAS_chechen_mountains = {
 
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
+	army_attack_factor = -0.65
     army_speed_factor = -0.45
-	army_attack_factor = -0.45
 	army_org_factor = -0.35
 	ai_focus_aggressive_factor = -0.5
 }
@@ -120,8 +121,8 @@ CHE_unprepared_attack = {
 
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
+	army_attack_factor = -0.65
     army_speed_factor = -0.45
-	army_attack_factor = -0.45
 	army_org_factor = -0.35
 	ai_focus_aggressive_factor = -0.5
 }

@@ -353,6 +353,7 @@ sub_units = {
 			bulletproof_vests_equipment = 25
 			uniform_equipment = 30
 			grenade_launcher_equipment = 5
+			airborne_combat_vehicle = 5
 		}
 	}
 

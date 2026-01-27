@@ -8876,4 +8876,48 @@ spriteTypes = {
 		name = "GFX_modern_tank_equipment_5_medium"
 		texturefile = "gfx/interface/technologies/generic_modern_tank5.dds"
 	}
+
+    ########################
+	### BMD Equipment ###
+	########################
+
+	SpriteType = {
+		name = "GFX_bmd_1_medium"
+		texturefile = "gfx/interface/technologies/bmd1.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_bmd_2_medium"
+		texturefile = "gfx/interface/technologies/bmd2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bmd_3_medium"
+		texturefile = "gfx/interface/technologies/bmd3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bmd_4_medium"
+		texturefile = "gfx/interface/technologies/bmd4.png"
+	}
+
+	SpriteType = {
+		name = "GFX_airborne_combat_vehicle_1_medium"
+		texturefile = "gfx/interface/technologies/bmd1.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_airborne_combat_vehicle_2_medium"
+		texturefile = "gfx/interface/technologies/bmd2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_airborne_combat_vehicle_3_medium"
+		texturefile = "gfx/interface/technologies/bmd3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_airborne_combat_vehicle_4_medium"
+		texturefile = "gfx/interface/technologies/bmd4.png"
+	}
 }

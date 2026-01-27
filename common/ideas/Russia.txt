@@ -192,8 +192,9 @@ ideas = {
 			picture = RAS_awacs_reconnaissance_idea
 			
 			modifier = {
-				army_speed_factor = 0.05
 				decryption_power_factor = 0.15
+				army_speed_factor = 0.05
+				army_org_regain = 0.035
 				crypto_strength = 3
 			}
 		}
@@ -234,8 +235,8 @@ ideas = {
 			picture = state_of_emergency
 			
 			modifier = {
-				army_attack_factor = 0.15
-				breakthrough_factor = 0.185
+				breakthrough_factor = 0.235
+				army_attack_factor = 0.17
 				army_speed_factor = 0.15
 			    army_defence_factor = 0.05				
 			}

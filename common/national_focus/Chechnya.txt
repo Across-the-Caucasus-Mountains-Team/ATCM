@@ -3205,9 +3205,10 @@ focus_tree = {
 		}
 		
 		available = {
-			OR = { 
+			casualties > 25200
+			OR = {
 				has_completed_focus = CHE_irregular_forces
-				casualties > 32500
+				casualties > 8500
 			}
 		}
 		
