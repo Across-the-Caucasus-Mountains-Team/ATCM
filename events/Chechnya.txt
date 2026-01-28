@@ -1233,3 +1233,178 @@ country_event = {
 		name = chechnya.54.a
 	}
 }
+
+#Meeting about operation
+country_event = {
+	id = chechnya.55
+	title = chechnya.55.t
+	desc = chechnya.55.d
+	picture = GFX_Report_event_russian_blockposts
+
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.55.a
+		hidden_effect = {
+			country_event = {
+				id = chechnya.56
+				days = 12
+			}
+		}
+	}
+}
+
+#Start of breakthrough operation
+country_event = {
+	id = chechnya.56
+	title = chechnya.56.t
+	desc = chechnya.56.d
+	picture = GFX_Report_event_CHE_russian_troops_in_buddenovsk
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			RAS = {
+			    country_event = {
+				    id = russia.32
+				    hours = 3
+			    }
+		    }
+		}
+	}
+
+	option = {
+		name = chechnya.56.a
+		add_war_support = 0.01
+		hidden_effect = {
+			country_event = {
+				id = chechnya.57
+				hours = 3
+			}
+		}
+	}
+}
+
+#Battle in Budyonnovsk
+country_event = {
+	id = chechnya.57
+	title = chechnya.57.t
+	desc = chechnya.57.d
+	picture = GFX_Report_event_CHE_russian_troops_in_buddenovsk
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = chechnya.58
+				hours = 8
+			}
+			RAS = {
+			    country_event = {
+				    id = russia.33
+				    hours = 8
+			    }
+		    }
+			news_event = {
+				id = news.30
+				hours = 2
+			}
+		}
+	}
+
+	option = {
+		name = chechnya.57.a
+		add_war_support = 0.02
+	}
+}
+
+#Night assault on the hospital
+country_event = {
+	id = chechnya.58
+	title = chechnya.58.t
+	desc = chechnya.58.d
+	picture = GFX_Report_event_CHE_russian_spetsnaz
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = chechnya.59
+				hours = 3
+			}
+			RAS = {
+			    country_event = {
+				    id = russia.34
+				    hours = 2
+			    }
+		    }
+		}
+	}
+
+	option = {
+		name = chechnya.58.a
+		add_war_support = 0.01
+	}
+}
+
+#Negotations in Buddyonnovsk
+country_event = {
+	id = chechnya.59
+	title = chechnya.59.t
+	desc = chechnya.59.d
+	picture = GFX_Report_event_CHE_shamil_basayev_in_budenovsk
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = chechnya.60
+				hours = 20
+			}
+			RAS = {
+			    country_event = {
+				    id = russia.35
+				    hours = 20
+			    }
+		    }
+			hidden_effect = {
+				news_event = {
+					id = news.31
+					hours = 4
+				}
+			}
+		}		
+	}
+
+	option = {
+		name = chechnya.59.a
+		add_stability = 0.075
+		add_war_support = 0.01
+	}
+}
+
+#Retrurning to Chechnya
+country_event = {
+	id = chechnya.60
+	title = chechnya.60.t
+	desc = chechnya.60.d
+	picture = GFX_Report_event_CHE_shamil_basayev_2
+
+	is_triggered_only = yes
+
+	immediate = {
+	
+	}
+
+	option = {
+		name = chechnya.60.a
+		add_stability = 0.075
+		add_war_support = 0.01
+		add_manpower = 146
+		army_experience = 95
+	}
+}

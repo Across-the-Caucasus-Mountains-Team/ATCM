@@ -57,7 +57,7 @@ equipments = {
 
 		defense = 15
 		breakthrough = 7
-		soft_attack = 40
+		soft_attack = 45
 		
 		build_cost_ic = 4
 		resources = {
@@ -76,7 +76,7 @@ equipments = {
 		
 		defense = 18
 		breakthrough = 8
-		soft_attack = 42
+		soft_attack = 47
 		
 		build_cost_ic = 4.5
 		resources = {

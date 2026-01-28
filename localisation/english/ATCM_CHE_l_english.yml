@@ -105,6 +105,9 @@
  CHE_East_chechnya:0 "Eastern Chechnya"
  CHE_Grozny:0 "Grozny"
  CHE_Chechnya_Daghestan:0 "Operations in Dagestan"
+ CHE_new_constitution:0 "New Constitution"
+
+ CHE_prepare_operation_in_budenovsk_decision:0 "Prepare a Border Breakthrough"
 
 
  ## Tooltips

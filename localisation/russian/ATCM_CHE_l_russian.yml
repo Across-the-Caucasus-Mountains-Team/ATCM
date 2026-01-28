@@ -115,6 +115,7 @@
   CHE_East_chechnya:0 "Восточная Чечня"
   CHE_Grozny:0 "Грозный"
   CHE_Chechnya_Daghestan:0 "Операции в Дагестане"
+  CHE_new_constitution:0 "Новая Конституция"
  
 
 
@@ -168,6 +169,7 @@
   CHE_hold_raids:0 "Проводить рейды"
   CHE_additional_funding_for_pro_government_media:0 "Дополнительное Финансирование медиа"
   CHE_prepare_defence_in_grozny:0 "Подготовить оборону в Грозном"
+  CHE_prepare_operation_in_budenovsk_decision:0 "Подготовить прорыв границы"
 
   CHE_elections_1991_decision:0 "Выборы 1991 года"
   CHE_elections_1991_decision_desc:0 "Чеченская Республика находится в процессе первых в своей истории президентских выборов. Ситуация нестабильна: центральная советская власть рушится, и регион действует вне контроля Москвы. Хотя большая часть населения поддерживает независимость, другие опасаются изоляции или войны. \n\nПоддержка Дудаева: §Y[?CHE_dudayev_support_value|%%]§! \n\nИсламский радикализм: §Y[?CHE_islamic_radicalism_value|%%]§!"

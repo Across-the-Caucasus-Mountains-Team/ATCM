@@ -8878,7 +8878,7 @@ spriteTypes = {
 	}
 
     ########################
-	### BMD Equipment ###
+	### BMD Equipment ######
 	########################
 
 	SpriteType = {
@@ -8919,5 +8919,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_airborne_combat_vehicle_4_medium"
 		texturefile = "gfx/interface/technologies/bmd4.png"
+	}
+
+    ########################
+	### BBM Equipment ######
+	########################
+
+	SpriteType = {
+		name = "GFX_bbm_1_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
 	}
 }

@@ -139,6 +139,11 @@ spriteTypes = {
 		name = "GFX_news_event_Ossetia_war"
 		texturefile = "gfx/event_pictures/news_event_Ossetia_war.png"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_terrorist_attack_in_budyonnovsk"
+		texturefile = "gfx/event_pictures/news_event_terrorist_attack_in_budyonnovsk.png"
+	}
 	
 	spriteType = {
 		name = "GFX_Report_event_RAS_Day_Four"
@@ -455,8 +460,28 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_Report_event_CHE_victory_of_dudayev"
-		texturefile = "gfx/event_pictures/Report_event_CHE_victory_of_dudayev.png"
+		name = "GFX_Report_event_CHE_shamil_basayev_in_budenovsk"
+		texturefile = "gfx/event_pictures/Report_event_CHE_shamil_basayev_in_budenovsk.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_shamil_basayev_2"
+		texturefile = "gfx/event_pictures/Report_event_CHE_shamil_basayev_2.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_russian_troops_in_buddenovsk"
+		texturefile = "gfx/event_pictures/Report_event_CHE_russian_troops_in_buddenovsk.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_russian_troops_in_buddenovsk"
+		texturefile = "gfx/event_pictures/Report_event_CHE_russian_troops_in_buddenovsk.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_russian_spetsnaz"
+		texturefile = "gfx/event_pictures/Report_event_CHE_russian_spetsnaz.png"
 	}
 
 	spriteType = {

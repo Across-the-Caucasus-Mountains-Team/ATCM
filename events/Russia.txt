@@ -653,7 +653,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = russia.319.a
+		name = russia.31.a
 		add_war_support = -0.025
 		17 = {
             add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
@@ -667,3 +667,69 @@ country_event = {
 	}
 }
 
+#Battle in Budyonnovsk
+country_event = {
+	id = russia.32
+	title = russia.32.t
+	desc = russia.32.d
+	picture = GFX_Report_event_CHE_russian_troops_in_buddenovsk
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.32.a
+		add_war_support = -0.025
+	 	add_stability = -0.025	
+		add_manpower = -4
+	}
+}
+
+#Night assault
+country_event = {
+	id = russia.33
+	title = russia.33.t
+	desc = russia.33.d
+	picture = GFX_Report_event_CHE_russian_spetsnaz
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.33.a
+		add_war_support = -0.025
+	 	add_stability = -0.025
+		add_political_power = -25
+		add_manpower = -3	
+	}
+}
+
+#Negotations 
+country_event = {
+	id = russia.34
+	title = russia.34.t
+	desc = russia.34.d
+	picture = GFX_Report_event_CHE_shamil_basayev_in_budenovsk
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.34.a
+	 	add_stability = 0.01	
+	}
+}
+
+#Shamil Basayev flees Budyonnovsk
+country_event = {
+	id = russia.35
+	title = russia.35.t
+	desc = russia.35.d
+	picture = GFX_Report_event_russian_blockposts
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.35.a
+	 	add_stability = 0.045
+		add_war_support = 0.03
+		add_political_power = 25
+	}
+}

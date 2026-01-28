@@ -2204,6 +2204,55 @@ technologies = {
 		}
 	}
 
+	bbm_1 = {
+
+		enable_subunits = {
+			
+		}
+
+		enable_equipments = {
+			
+		}
+
+
+		research_cost = 1.5
+		start_year = 1955
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = -1 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.75
+			}
+		}
+	}
+
 	tech_trucks = {
 
 		enable_subunits = {
@@ -2296,19 +2345,15 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = mechanised_infantry
+			leads_to_tech = tech_trucks_2
 			research_cost_coeff = 1
-		}
-
-		path = {
-
 		}
 
 		research_cost = 2
 		start_year = 1990
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = 4 }
 		}
 
 		folder = {
@@ -2351,43 +2396,18 @@ technologies = {
 		}
 	}
 
-	mechanised_infantry = {
+	tech_trucks_2 = {
 
 		enable_subunits = {
-			mechanized
+			
 		}
 
 		enable_equipments = {
-			mechanized_equipment_1
-		}
-
-		enable_equipment_modules = {
-			tank_half_track_suspension
-		}
-
-		motorized = {
-			hardness = 1.0
-		}
-		mot_artillery_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_tank_brigade = {
-			hardness = 1.0
-		}
-		mot_anti_air_brigade = {
-			hardness = 1.0
-		}
-		mot_rocket_artillery_brigade = {
-			hardness = 1.0
+			motorized_equipment_1
 		}
 
 		path = {
-			leads_to_tech = mechanised_infantry2
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry
+			leads_to_tech = tech_trucks_3
 			research_cost_coeff = 1
 		}
 
@@ -2395,170 +2415,51 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = 9 }
 		}
 
 		categories = {
 			motorized_equipment
 			mio_cat_tech_all_motorized_mechanized
 			infantry_tech
-			cat_mechanized_equipment
 		}
 		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-			base = 2
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-
-			modifier = {
-				factor = 3
-				tag = RAS
-			}
-		}
 	}
+
+	tech_trucks_3 = {
+
+		enable_subunits = {
+			
+		}
+
+		enable_equipments = {
+			motorized_equipment_1
+		}
+
+		path = {
+
+		}
+
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+		}
+		special_project_specialization = { specialization_land }
+	}
+
 
  	militia_tech = {
  		allow = { always = no }
 		enable_subunits = {
 			militia
-		}
-	}
-
-	amphibious_mechanized_infantry = {
-
-		enable_equipments = {
-			amphibious_mechanized_equipment_1
-		}
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		enable_subunits = {
-			amphibious_mechanized
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1990
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1941 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				tag = RAS
-				factor = 2
-			}
-		}
-	}
-
-	amphibious_mechanized_infantry_2 = {
-
-		enable_equipments = {
-			amphibious_mechanized_equipment_2
-		}
-
-		research_cost = 2
-		start_year = 2000
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1943 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-		}
-
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-			factor = 2
-		}
-	}
-
-	mechanised_infantry2 = {
-
-		enable_equipments = {
-			mechanized_equipment_2
-		}
-
-		path = {
-			leads_to_tech = mechanised_infantry3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 2000
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1942 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	mechanised_infantry3 = {
-
-		enable_equipments = {
-			mechanized_equipment_3
-		}
-
-		mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
-		}
-
-		research_cost = 3
-		start_year = 2015
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1944 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-			factor = 1
 		}
 	}
 

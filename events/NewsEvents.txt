@@ -633,3 +633,34 @@ news_event = {
 		name = news.29.a
 	}
 }
+
+#Terrorist attack in Bydonovsk
+news_event = {
+	id = news.30
+	title = news.30.t
+	desc = news.30.d
+	picture = GFX_news_event_terrorist_attack_in_budyonnovsk
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.30.a
+		trigger = { TAG = RAS }
+	}
+	option = {
+		name = news.30.b
+		trigger = { TAG = CHE }
+	}
+
+	option = {
+		name = news.30.c
+		trigger = {
+		    NOT = { 
+                tag = RAS
+				tag = CHE
+		    }
+		}
+	}
+}

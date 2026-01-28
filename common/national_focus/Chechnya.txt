@@ -2801,7 +2801,10 @@ focus_tree = {
 		}
 		
 		available = {
-            has_completed_focus = CHE_State_of_Emergency
+			OR = {
+                has_completed_focus = CHE_State_of_Emergency
+				date > 1995.08.09
+			}
 		}
 		
 		bypass = {
@@ -2947,6 +2950,7 @@ focus_tree = {
 		
 		completion_reward = {
 			army_experience = 35
+			unlock_decision_tooltip = CHE_prepare_operation_in_budenovsk_decision
 		}	
 	}
 

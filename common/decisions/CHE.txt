@@ -599,6 +599,39 @@ CHE_general_staff_decision = {
 }
 
 CHE_operations_outside_of_chechnya_decision = {
+
+	CHE_prepare_operation_in_budenovsk_decision = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 35
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_preapare_operation_in_budenovsk
+		}
+	    
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_preapare_operation_in_budenovsk
+		}
+
+		complete_effect = {
+			country_event = chechnya.55
+            add_manpower = -160
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = -160 
+			}
+		}
+
+		ai_will_do = {
+			factor = 150		
+		}
+	}
 	
 }
 
