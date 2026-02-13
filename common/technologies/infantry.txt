@@ -2211,7 +2211,12 @@ technologies = {
 		}
 
 		enable_equipments = {
-			
+			bbm_chassis_0
+		}
+
+		path = {
+			leads_to_tech = bbm_2
+			research_cost_coeff = 1
 		}
 
 
@@ -2250,6 +2255,123 @@ technologies = {
 				is_major = no
 				factor = 0.75
 			}
+		}
+	}
+
+	bbm_2 = {
+
+		enable_subunits = {
+			
+		}
+
+		enable_equipments = {
+			bbm_chassis_1
+		}
+
+		path = {
+			leads_to_tech = bbm_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1955
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 3 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.75
+			}
+		}
+	}
+
+	bbm_3 = {
+
+		enable_subunits = {
+			
+		}
+
+		enable_equipments = {
+			bbm_chassis_2
+		}
+
+		path = {
+			leads_to_tech = bbm_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1955
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	bbm_4 = {
+
+		enable_subunits = {
+			
+		}
+
+		enable_equipments = {
+			bbm_chassis_3
+		}
+
+
+		research_cost = 1.5
+		start_year = 1955
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 12 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -2353,7 +2475,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 3 }
 		}
 
 		folder = {
@@ -2415,7 +2537,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 9 }
+			position = { x = 0 y = 6 }
 		}
 
 		categories = {

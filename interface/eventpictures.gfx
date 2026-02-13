@@ -485,6 +485,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_Report_event_sberkassa"
+		texturefile = "gfx/event_pictures/Report_event_sberkassa.png"
+	}
+
+	spriteType = {
 		name = "GFX_Report_event_CHE_ingushetia_separating"
 		texturefile = "gfx/event_pictures/Report_event_CHE_ingushetia_separating.png"
 	}

@@ -1,0 +1,169 @@
+equipments = {
+
+    bbm_chassis = {
+		year = 1950
+
+		is_archetype = yes
+		picture = archetype_bbm_chassis
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 12
+		reliability = 0.8
+		hardness = 0.1
+
+		breakthrough = 3
+		defense = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.6
+		resources = {
+			steel = 1
+		}
+		
+		fuel_consumption = 1.2
+	}
+
+	bbm_chassis_0 = {
+		year = 1950
+
+		archetype = bbm_chassis
+		active = yes
+		priority = 05
+		visual_level = 0	
+	}
+
+	bbm_chassis_1 = {
+		year = 1980
+
+		archetype = bbm_chassis
+		parent = bbm_chassis_0
+		priority = 30	
+		
+	    maximum_speed = 13
+		reliability = 0.8
+		hardness = 0.1
+
+		breakthrough = 3.4
+		defense = 3
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.6
+		resources = {
+			steel = 1
+		}
+		
+		fuel_consumption = 1.2
+	}
+
+	bbm_chassis_2 = {
+		year = 1995
+
+		archetype = bbm_chassis
+		parent = bbm_chassis_1
+		priority = 30		
+		
+	    maximum_speed = 14
+		reliability = 0.8
+		hardness = 0.1
+
+		breakthrough = 3.7
+		defense = 3.2
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.6
+		resources = {
+			steel = 1
+		}
+		
+		fuel_consumption = 1.2
+	}
+
+	bbm_chassis_3 = {
+		year = 2015
+
+		archetype = bbm_chassis
+		parent = bbm_chassis_2
+		priority = 30
+		
+		maximum_speed = 14
+		reliability = 0.9
+		hardness = 0.15
+
+		breakthrough = 3.9
+		defense = 3.6
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.6
+		resources = {
+			steel = 1
+		}
+		
+		fuel_consumption = 1.2
+	}
+
+	bbm_chassis_4 = {
+		year = 2015
+
+		archetype = bbm_chassis
+		parent = bbm_chassis_3
+		priority = 30	
+		
+		maximum_speed = 14
+		reliability = 0.9
+		hardness = 0.15
+
+		breakthrough = 4.91
+		defense = 3.9
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 0.6
+		resources = {
+			steel = 1
+		}
+		
+		fuel_consumption = 1.2
+	}
+
+	bbm_chassis_5 = {
+		year = 2015
+
+		archetype = bbm_chassis
+		parent = bbm_chassis_4
+		priority = 30		
+		
+		maximum_speed = 14
+		reliability = 0.9
+		hardness = 0.15
+
+		breakthrough = 5.1
+		defense = 4.1
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 1.9
+		resources = {
+			steel = 1
+		}
+		
+		fuel_consumption = 1.2
+	}
+
+}

@@ -442,3 +442,21 @@ country_event = {
 		add_stability = -0.05
 	}
 }
+
+#Hijacking of the Tu-154 aircraft
+country_event = {
+	id = soviet_union.17
+	title = soviet_union.17.t
+	desc = soviet_union.17.d
+	picture = GFX_Report_event_sberkassa
+
+	is_triggered_only = yes
+
+    immediate = {
+	
+	}
+
+	option = {
+		name = soviet_union.17.a
+	}
+}

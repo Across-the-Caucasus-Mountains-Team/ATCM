@@ -52,7 +52,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = RAS_seventieth_years_of_the_union }
 		
-		cost = 40
+		cost = 12
 		
 		ai_will_do = {
 			factor = 100
@@ -79,6 +79,10 @@ focus_tree = {
 				ideology = communism
 				popularity = 0.05
 			}
+			country_event = {
+				id = soviet_union.17
+				hours = 3
+			}
 		}	
 	}
 
@@ -89,7 +93,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = RAS_continue_perestroika }
 		
-		cost = 25
+		cost = 53
 		
 		ai_will_do = {
 			factor = 100

@@ -155,6 +155,16 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+		name = "GFX_tech_trucks_2_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_trucks_3_medium"
+		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_JAP_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/JAP_motorized_equipment_1.dds"
 	}
@@ -8929,4 +8939,55 @@ spriteTypes = {
 		name = "GFX_bbm_1_medium"
 		texturefile = "gfx/interface/technologies/bbm1.png"
 	}
+
+	SpriteType = {
+		name = "GFX_bbm_2_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bbm_3_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bbm_4_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bbm_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bbm_chassis_1_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bbm_chassis_2_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bbm_chassis_3_medium"
+		texturefile = "gfx/interface/technologies/bbm1.png"
+	}
+
+    ########################
+	### BBM Equipment ######
+	########################
+
+	SpriteType = {
+		name = "GFX_reactive_artillery_medium"
+		texturefile = "gfx/interface/technologies/bm_21.png"
+	}
+
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_medium"
+		texturefile = "gfx/interface/technologies/bm_21.png"
+	}
+
+
 }
