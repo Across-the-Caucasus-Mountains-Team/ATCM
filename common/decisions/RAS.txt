@@ -897,7 +897,7 @@ RAS_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+        cost = 55
 		fire_only_once = no
 		days_re_enable = 30	
 		
@@ -916,7 +916,15 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
 		    add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
-				amount = 750
+				amount = 1750
+			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment_1
+				amount = 2750
+			}
+			add_equipment_to_stockpile = { 
+				type = bulletproof_vests_equipment_0
+				amount = 1850
 			}
 		}
 
@@ -929,7 +937,7 @@ RAS_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+        cost = 45
 		fire_only_once = no
 		days_re_enable = 30
 		
@@ -950,6 +958,14 @@ RAS_first_chechen_war_decision = {
 				type = artillery_equipment_1 
 				amount = 75 
 			}	
+			add_equipment_to_stockpile = { 
+				type = mortar_equipment_1 
+				amount = 35 
+			}
+			add_equipment_to_stockpile = { 
+				type = mortar_equipment_2
+				amount = 25 
+			}
 		}
 
 		ai_will_do = {
@@ -1101,7 +1117,7 @@ RAS_first_chechen_war_decision = {
 	RAS_improve_logistic = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 150
+        cost = 90
 		fire_only_once = yes
 		
 		available = {		
@@ -1119,6 +1135,14 @@ RAS_first_chechen_war_decision = {
                 idea = RAS_improved_logistic
                 days = 225
             }
+			add_equipment_to_stockpile = {
+				type = train_equipment_1
+				amount = 55
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment_0
+				amount = 355
+			}
 		}
 
 		ai_will_do = {

@@ -8985,9 +8985,51 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_motorized_rocket_equipment_medium"
+		name = "GFX_reactive_artillery_1_medium"
+		texturefile = "gfx/interface/technologies/bm27_uragan.png"
+	}
+
+	SpriteType = {
+		name = "GFX_reactive_artillery_2_medium"
+		texturefile = "gfx/interface/technologies/Smerch.png"
+	}
+
+	SpriteType = {
+		name = "GFX_reactive_artillery_3_medium"
+		texturefile = "gfx/interface/technologies/TOS1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_reactive_artillery_4_medium"
+		texturefile = "gfx/interface/technologies/Tornado.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/bm_21.png"
 	}
+
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/bm27_uragan.png"
+	}
+
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Smerch.png"
+	}
+
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/TOS1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Tornado.png"
+	}
+
+
 
 
 }

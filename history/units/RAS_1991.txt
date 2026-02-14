@@ -43,6 +43,26 @@ division_template = {
 }
 
 division_template = {
+	name = "Vzvod reaktivnoy artilleryy"
+
+	division_names_group = RAS_Inf_01
+
+	regiments = {
+		motorized_rocket_brigade = { x = 0 y = 0 }
+		motorized_rocket_brigade = { x = 0 y = 1 }
+        motorized_rocket_brigade = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		mortar = { x = 0 y = 2 }
+		atgm_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
 	name = "Tankoviy-batalyon"
 
 	division_names_group = RAS_Arm_01
@@ -926,6 +946,39 @@ units = {
 		}
 		location = 7493
 		division_template = "Mekhanizirovanaya Rota"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7493
+		division_template = "Vzvod reaktivnoy artilleryy"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7493
+		division_template = "Vzvod reaktivnoy artilleryy"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.45
+	}
+
+	division = {	
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7493
+		division_template = "Vzvod reaktivnoy artilleryy"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.45
 	}

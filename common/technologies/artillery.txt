@@ -6,11 +6,16 @@ technologies = {
 	reactive_artillery = {
 
 		enable_equipments = {
-			motorized_rocket_equipment
+			motorized_rocket_equipment_1
 		}
 
 		enable_subunits = {
-			rocket_artillery
+			motorized_rocket_brigade
+		}
+
+		path = {
+			leads_to_tech = reactive_artillery_1
+			research_cost_coeff = 1
 		}
 
 		enable_equipment_modules = {
@@ -24,6 +29,141 @@ technologies = {
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	reactive_artillery_1 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_2
+		}
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = reactive_artillery_2
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			ship_anti_air_1
+			tank_small_cannon
+			secondary_turret_small_cannon
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 4 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	reactive_artillery_2 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_3
+		}
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = reactive_artillery_3
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			ship_anti_air_1
+			tank_small_cannon
+			secondary_turret_small_cannon
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	reactive_artillery_3 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_4
+		}
+
+		enable_subunits = {
+		}
+
+		path = {
+			leads_to_tech = reactive_artillery_4
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			ship_anti_air_1
+			tank_small_cannon
+			secondary_turret_small_cannon
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	reactive_artillery_4 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_5
+		}
+
+		enable_subunits = {
+		}
+
+		enable_equipment_modules = {
+			ship_anti_air_1
+			tank_small_cannon
+			secondary_turret_small_cannon
+		}
+
+		research_cost = 1.5
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 10 }
 		}
 
 		categories = {

@@ -124,12 +124,20 @@ equipments = {
 
 		fuel_consumption = 1.2
 	}
-	
+
 	motorized_rocket_equipment_1 = {
+		year = 1960
+
+		archetype = motorized_rocket_equipment
+		priority = 50
+		visual_level = 0
+	}
+	
+	motorized_rocket_equipment_2 = {
 		year = 1975
 
 		archetype = motorized_rocket_equipment
-		parent = motorized_rocket_equipment_2
+		parent = motorized_rocket_equipment_1
 		priority = 70
 		visual_level = 0
 
@@ -153,10 +161,11 @@ equipments = {
 		}
 	}
 
-	motorized_rocket_equipment_2 = {
+	motorized_rocket_equipment_3 = {
 		year = 1985
 
 		archetype = motorized_rocket_equipment
+		parent = motorized_rocket_equipment_2
 		priority = 70
 		visual_level = 0
 
@@ -173,6 +182,62 @@ equipments = {
 		air_attack = 0
 
         build_cost_ic = 22
+		resources = {
+			rubber = 3
+			tungsten = 3
+			steel = 4
+		}
+	}
+
+	motorized_rocket_equipment_4 = {
+		year = 2000
+
+		archetype = motorized_rocket_equipment
+		parent = motorized_rocket_equipment_3
+		priority = 70
+		visual_level = 0
+
+		#Defensive Abilities
+		defense = 25.5
+		breakthrough = 18.5
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 66.25
+		hard_attack = 2.15
+		ap_attack = 4.35
+		air_attack = 0
+
+        build_cost_ic = 22
+		resources = {
+			rubber = 3
+			tungsten = 3
+			steel = 4
+		}
+	}
+
+	motorized_rocket_equipment_5 = {
+		year = 2015
+
+		archetype = motorized_rocket_equipment
+		parent = motorized_rocket_equipment_4
+		priority = 70
+		visual_level = 0
+
+		#Defensive Abilities
+		defense = 25.5
+		breakthrough = 18.5
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 72.25
+		hard_attack = 3.15
+		ap_attack = 4.35
+		air_attack = 0
+
+        build_cost_ic = 25
 		resources = {
 			rubber = 3
 			tungsten = 3

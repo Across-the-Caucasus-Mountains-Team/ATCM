@@ -26,7 +26,7 @@ sub_units = {
 
 		manpower = 60
 		need = {
-			artillery_equipment = 36
+			artillery_equipment = 12
 		}
 		
 		max_strength = 0.6
@@ -229,81 +229,6 @@ sub_units = {
 			attack = -0.4
 		}
 	}
-
-	mot_rocket_artillery_brigade = {
-		abbreviation = "TRA"
-		sprite = "artillery"
-		map_icon_category = infantry
-		priority = 1199
-		ai_priority = 100
-		active = yes
-		is_artillery_brigade = yes
-		
-		type = {
-			motorized
-			artillery
-		}
-
-		group = mobile_combat_support
-		
-		categories = {
-			category_army
-			category_line_artillery
-			category_artillery
-		}		
-
-		combat_width = 3
-		transport = motorized_equipment
-		need = {
-			rocket_artillery_equipment = 36
-			motorized_equipment = 36
-		}
-		
-		manpower = 500
-		max_organisation = 0
-		default_morale = 0.1
-		max_strength = 0.6
-		training_time = 120
-		weight = 0.5
-
-		supply_consumption = 0.25
-		
-		forest = {
-			attack = -0.2
-			movement = -0.5
-		}
-
-		hills = {
-			movement = -0.05
-		}
-
-		mountain = {
-			movement = -0.2
-		}
-
-		jungle = {
-			attack = -0.25
-			movement = -0.5
-		}
-
-		marsh = {
-			attack = -0.2
-			movement = -0.3
-		}
-
-		fort = {
-			attack = 0.1
-		}
-
-		river = {
-			attack = -0.2
-			movement = -0.2
-		}
-
-		amphibious = {
-			attack = -0.4
-		}
-	}
 	
 	motorized_rocket_brigade = {
 		abbreviation = "MRA"
@@ -331,11 +256,14 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			motorized_rocket_equipment = 20
-			motorized_equipment = 15
+			motorized_rocket_equipment = 6
+			motorized_equipment = 4
+			uniform_equipment = 20
+			bulletproof_vests_equipment = 6
+			infantry_equipment = 5
 		}
 		
-		manpower = 500
+		manpower = 20
 		max_organisation = 0
 		default_morale = 0.1
 		max_strength = 0.6
