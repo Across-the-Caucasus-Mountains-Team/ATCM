@@ -97,7 +97,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 950 }
+					position = { x = 30 y = 1025 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -268,7 +268,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "mortar_weapons_tree"
-				position = { x = 140 y = 460 }
+				position = { x = 140 y = 590 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -278,24 +278,30 @@ guiTypes = {
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
+			}
 
+			gridboxtype = {
+				name = "portable_anti_aircraft_missile_system_tree"
+				position = { x = 140 y = 975 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "anti_tank_infantry_weapon_tree"
-				position = { x = 140 y = 590 }
+				position = { x = 140 y = 730 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "uniform_equipment_tree"
-				position = { x = 140 y = 730 }
+				position = { x = 140 y = 460}
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-				gridboxtype = {
+			gridboxtype = {
 				name = "atgm_equipment_tree"
 				position = { x = 140 y = 860 }
 				slotsize = { width = 70 height = 70 }
@@ -305,14 +311,14 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "tech_trucks_tree"
-				position = { x = 140 y = 1050 }
+				position = { x = 140 y = 1120 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "bbm_1_tree"
-				position = { x = 140 y = 1200 }
+				position = { x = 140 y = 1230 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

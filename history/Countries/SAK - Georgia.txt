@@ -47,6 +47,11 @@ set_technology = {
 	CAS1 = 1
     CAS2 = 1
 	bmd_1 = 1
+	portable_anti_aircraft_missile_system = 1
+	portable_anti_aircraft_missile_system_1 = 1
+	bbm_1 = 1
+	bbm_2 = 1
+	reactive_artillery = 1
 }
 
 add_ideas = {

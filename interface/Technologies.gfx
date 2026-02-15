@@ -9029,7 +9029,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Tornado.png"
 	}
 
+    ########################
+	### ПЗРК Equipment #####
+	########################
 
+	SpriteType = {
+		name = "GFX_portable_anti_aircraft_missile_system_medium"
+		texturefile = "gfx/interface/technologies/Strela_2.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_portable_anti_aircraft_missile_system_1_medium"
+		texturefile = "gfx/interface/technologies/Strela_3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_portable_anti_aircraft_missile_system_2_medium"
+		texturefile = "gfx/interface/technologies/Igla.png"
+	}
+
+	SpriteType = {
+		name = "GFX_portable_anti_aircraft_missile_system_3_medium"
+		texturefile = "gfx/interface/technologies/Verba.png"
+	}
 
 
 }

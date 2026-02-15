@@ -17,7 +17,6 @@ technologies = {
 
 		enable_equipments = {
 			infantry_equipment_0
-			manpads_equipment_0
 		}
 
 		enable_equipment_modules = {
@@ -243,6 +242,121 @@ technologies = {
 				factor = 5
 				date > "1942.1.1"
 			}
+		}
+	}
+
+	portable_anti_aircraft_missile_system = {
+
+		enable_equipments = {
+			manpads_equipment_0
+		}
+		enable_subunits = {
+			
+		}
+
+		path = {
+			leads_to_tech = portable_anti_aircraft_missile_system_1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1965
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 2 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	portable_anti_aircraft_missile_system_1 = {
+
+		enable_equipments = {
+			manpads_equipment_1
+		}
+		enable_subunits = {
+			
+		}
+
+		path = {
+			leads_to_tech = portable_anti_aircraft_missile_system_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1975
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 5 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	portable_anti_aircraft_missile_system_2 = {
+
+		enable_equipments = {
+			manpads_equipment_2
+		}
+		enable_subunits = {
+			
+		}
+
+		path = {
+			leads_to_tech = portable_anti_aircraft_missile_system_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	portable_anti_aircraft_missile_system_3 = {
+
+		enable_equipments = {
+			manpads_equipment_3
+		}
+		enable_subunits = {
+			
+		}
+
+		research_cost = 1.5
+		start_year = 2010
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 13 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -2378,9 +2492,7 @@ technologies = {
 	tech_trucks = {
 
 		enable_subunits = {
-			mot_anti_tank_brigade
-			mot_artillery_brigade
-			mot_anti_air_brigade
+			
 		}
 
 		enable_equipments = {

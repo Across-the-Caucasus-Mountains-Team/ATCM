@@ -1551,6 +1551,7 @@ equipments = {
 		priority = 170
 		visual_level = 0
 		is_convertable = yes
+		active = yes
 
 		#Misc Abilities
 		maximum_speed = 10
@@ -1580,7 +1581,7 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			chromium = 4
+			chromium = 1
 		}
 		
 		fuel_consumption = 5
@@ -1617,6 +1618,7 @@ equipments = {
 		build_cost_ic = 32
 		resources = {
 			steel = 3
+			chromium = 2
 		}
 	}
 
@@ -1685,7 +1687,8 @@ equipments = {
 		fuel_consumption = 5
 		build_cost_ic = 38
 		resources = {
-			steel = 4
+			steel = 5
+			chromium = 4
 		}
 	}
 
@@ -1719,7 +1722,8 @@ equipments = {
 		fuel_consumption = 5
 		build_cost_ic = 41
 		resources = {
-			steel = 4
+			steel = 5
+			chromium = 5
 		}
 	}
 

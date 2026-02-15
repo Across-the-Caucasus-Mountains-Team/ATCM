@@ -9,7 +9,7 @@ equipments = {
 		is_buildable = no
 		is_convertable = yes
 		picture = archetype_armored_car_equipment			
-		type = motorized
+		type = armor
 		group_by = archetype
 		
 		interface_category = interface_category_armor
@@ -54,7 +54,7 @@ equipments = {
 		year = 1960
 	
 		archetype = apc_equipment
-		active = no
+		active = yes
 		priority = 05
 		visual_level = 0
 	}

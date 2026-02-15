@@ -106,6 +106,12 @@ set_technology = {
 	bmd_1 = 1
 	bmd_2 = 1
 	bmd_3 = 1
+	portable_anti_aircraft_missile_system = 1
+	portable_anti_aircraft_missile_system_1 = 1
+	bbm_1 = 1
+	bbm_2 = 1
+	reactive_artillery = 1
+
 }
 
 set_politics = {

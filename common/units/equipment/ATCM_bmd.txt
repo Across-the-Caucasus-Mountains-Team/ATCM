@@ -34,7 +34,7 @@ equipments = {
 		}
 
 		manpower = 3
-		active = no
+		active = yes
 
 		build_cost_ic = 12.5
 	}
@@ -43,7 +43,7 @@ equipments = {
 		year = 1960
 
 		archetype = airborne_combat_vehicle
-		active = no
+		active = yes
 		priority = 05
 		visual_level = 0
 	}
