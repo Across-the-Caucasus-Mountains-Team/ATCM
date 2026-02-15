@@ -8622,22 +8622,22 @@ spriteTypes = {
     
 	SpriteType = {
 		name = "GFX_grenade_launcher_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/RPG_18.png"
 	}
 
 	SpriteType = {
 		name = "GFX_grenade_launcher_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/rpg26.png"
 	}
 
 	SpriteType = {
 		name = "GFX_grenade_launcher_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/rpg29.png"
 	}
 
 	SpriteType = {
 		name = "GFX_grenade_launcher_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/rpg30.png"
 	}
 
 	SpriteType = {
@@ -8657,22 +8657,22 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_anti_tank_infantry_weapon1_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/RPG_18.png"
 	}
 
 	SpriteType = {
 		name = "GFX_anti_tank_infantry_weapon2_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/rpg26.png"
 	}
 
 	SpriteType = {
 		name = "GFX_anti_tank_infantry_weapon3_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/rpg29.png"
 	}
 
 	SpriteType = {
 		name = "GFX_anti_tank_infantry_weapon4_medium"
-		texturefile = "gfx/interface/technologies/rpg1.dds"
+		texturefile = "gfx/interface/technologies/rpg30.png"
 	}
 
 	SpriteType = {
@@ -9052,6 +9052,27 @@ spriteTypes = {
 		name = "GFX_portable_anti_aircraft_missile_system_3_medium"
 		texturefile = "gfx/interface/technologies/Verba.png"
 	}
+
+	SpriteType = {
+		name = "GFX_manpads_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/Strela_2.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_manpads_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/Strela_3.png"
+	}
+
+	SpriteType = {
+		name = "GFX_manpads_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/Igla.png"
+	}
+
+	SpriteType = {
+		name = "GFX_manpads_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Verba.png"
+	}
+
 
 
 }

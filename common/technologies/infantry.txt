@@ -251,7 +251,7 @@ technologies = {
 			manpads_equipment_0
 		}
 		enable_subunits = {
-			
+			manpads_platoon
 		}
 
 		path = {
@@ -2492,7 +2492,7 @@ technologies = {
 	tech_trucks = {
 
 		enable_subunits = {
-			
+
 		}
 
 		enable_equipments = {
