@@ -21,7 +21,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 1
 		
-		build_cost_ic = 0.63
+		build_cost_ic = 0.93
 		resources = {
 			steel = 2
 		}
@@ -50,7 +50,7 @@ equipments = {
 			steel = 3
 		}
 
-		build_cost_ic = 0.88
+		build_cost_ic = 1.28
 	}
 	manpads_equipment_2 = {
 		year = 2000
@@ -64,7 +64,7 @@ equipments = {
 			steel = 4
 		}
 
-		build_cost_ic = 0.89
+		build_cost_ic = 1.49
 	}
 	manpads_equipment_3 = {
 		year = 2014
@@ -80,7 +80,7 @@ equipments = {
 			tungsten = 1
 		}
 
-		build_cost_ic = 0.92
+		build_cost_ic = 2.12
 	}
 	manpads_equipment_4 = {
 		year = 2022
@@ -96,6 +96,6 @@ equipments = {
 			tungsten = 2
 		}
 
-		build_cost_ic = 0.96
+		build_cost_ic = 2.36
 	}
 }

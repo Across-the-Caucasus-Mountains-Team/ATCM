@@ -36,7 +36,7 @@ equipments = {
 		manpower = 3
 		active = yes
 
-		build_cost_ic = 12.5
+		build_cost_ic = 15.5
 	}
 
 	airborne_combat_vehicle_0 = {
@@ -80,7 +80,7 @@ equipments = {
 
 		manpower = 3
 
-		build_cost_ic = 13.5
+		build_cost_ic = 16.5
 	}
 
 	airborne_combat_vehicle_2 = {
@@ -115,7 +115,7 @@ equipments = {
 
 		manpower = 3
 
-		build_cost_ic = 15.5
+		build_cost_ic = 17.5
 	}
 
 	airborne_combat_vehicle_3 = {
@@ -150,6 +150,6 @@ equipments = {
 
 		manpower = 3
 
-		build_cost_ic = 18.5
+		build_cost_ic = 19.5
 	}
 }
