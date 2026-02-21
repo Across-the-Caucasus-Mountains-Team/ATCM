@@ -1307,10 +1307,6 @@ country_event = {
 				    hours = 8
 			    }
 		    }
-			news_event = {
-				id = news.30
-				hours = 2
-			}
 		}
 	}
 
@@ -1373,7 +1369,7 @@ country_event = {
 		    }
 			hidden_effect = {
 				news_event = {
-					id = news.31
+					id = news.30
 					hours = 4
 				}
 			}
@@ -1406,5 +1402,158 @@ country_event = {
 		add_war_support = 0.01
 		add_manpower = 146
 		army_experience = 95
+	    add_equipment_to_stockpile = { 
+			type = infantry_equipment_1 
+			amount = 146 
+		}
+	}
+}
+
+#Prepare for operation in Kizlyar
+country_event = {
+	id = chechnya.61
+	title = chechnya.61.t
+	desc = chechnya.61.d
+	picture = GFX_Report_event_CHE_kizlyar_raid_preparations
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = chechnya.62
+				days = 10
+			}
+		}
+	}
+
+	option = {
+		name = chechnya.61.a
+		
+	}
+}
+
+#Raid on Kizlyar
+country_event = {
+	id = chechnya.62
+	title = chechnya.62.t
+	desc = chechnya.62.d
+	picture = GFX_Report_event_CHE_kizlyar_operation_is_going
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = chechnya.63
+				hours = 12
+			}
+			RAS = {
+			    country_event = {
+				    id = russia.36
+				    hours = 1
+			    }
+		    }
+		}
+	}
+
+	option = {
+		name = chechnya.62.a
+		
+	}
+}
+
+#Zalozhniki in Kuzlyar
+country_event = {
+	id = chechnya.63
+	title = chechnya.63.t
+	desc = chechnya.63.d
+	picture = GFX_Report_event_CHE_hospital_hostages
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = chechnya.64
+				days = 1
+			}
+			RAS = {
+			    country_event = {
+				    id = russia.37
+				    hours = 2
+			    }
+		    }
+		}
+	}
+
+	option = {
+		name = chechnya.63.a
+		
+	}
+}
+
+#Breakthrough to Pervomaysk
+country_event = {
+	id = chechnya.64
+	title = chechnya.64.t
+	desc = chechnya.64.d
+	picture = GFX_Report_event_CHE_kizlyar_operation_is_going
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = chechnya.65
+				days = 3
+			}
+			RAS = {
+			    country_event = {
+				    id = russia.38
+				    hours = 2
+			    }
+		    }
+		}
+	}
+
+	option = {
+		name = chechnya.64.a
+		
+	}
+}
+
+#Returning to Chechnya
+country_event = {
+	id = chechnya.65
+	title = chechnya.65.t
+	desc = chechnya.65.d
+	picture = GFX_Report_event_CHE_kizlyar_destroyed_busses
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			news_event = {
+				id = news.31
+				hours = 12
+			}
+			RAS = {
+			    country_event = {
+				    id = russia.39
+				    hours = 2
+			    }
+		    }
+		}
+	}
+
+	option = {
+		name = chechnya.65.a
+		add_manpower = 221
+		army_experience = 115
+	    add_equipment_to_stockpile = { 
+			type = infantry_equipment_1 
+			amount = 221 
+		}
 	}
 }

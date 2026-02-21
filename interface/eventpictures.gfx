@@ -39,6 +39,11 @@ spriteTypes = {
 		name = "GFX_news_event_Chechen_revolution"
 		texturefile = "gfx/event_pictures/news_event_Chechen_revolution.png"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_terrorist_attack_in_kizlyar"
+		texturefile = "gfx/event_pictures/news_event_terrorist_attack_in_kizlyar.png"
+	}
 	
 	spriteType = {
 		name = "GFX_Report_event_Barricades"
@@ -53,6 +58,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Report_event_RAS_shooting_at_parliament"
 		texturefile = "gfx/event_pictures/Report_event_RAS_shooting_at_parliament.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_RAS_kizlyar_is_going_on"
+		texturefile = "gfx/event_pictures/Report_event_RAS_kizlyar_is_going_on.png"
 	}
 	
 	spriteType = {
@@ -502,6 +512,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Report_event_CHE_khatab_arrived"
 		texturefile = "gfx/event_pictures/Report_event_CHE_khatab_arrived.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_kizlyar_raid_preparations"
+		texturefile = "gfx/event_pictures/Report_event_CHE_kizlyar_raid_preparations.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_kizlyar_operation_is_going"
+		texturefile = "gfx/event_pictures/Report_event_CHE_kizlyar_operation_is_going.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_hospital_hostages"
+		texturefile = "gfx/event_pictures/Report_event_CHE_hospital_hostages.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_chechen_speech"
+		texturefile = "gfx/event_pictures/Report_event_CHE_chechen_speech.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_kizlyar_destroyed_busses"
+		texturefile = "gfx/event_pictures/Report_event_CHE_kizlyar_destroyed_busses.png"
 	}
 
 	spriteType = {

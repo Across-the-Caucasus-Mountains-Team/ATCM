@@ -664,3 +664,34 @@ news_event = {
 		}
 	}
 }
+
+#Terrorist attack in Kizlyar
+news_event = {
+	id = news.31
+	title = news.31.t
+	desc = news.31.d
+	picture = GFX_news_event_terrorist_attack_in_kizlyar
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.31.a
+		trigger = { TAG = RAS }
+	}
+	option = {
+		name = news.31.b
+		trigger = { TAG = CHE }
+	}
+
+	option = {
+		name = news.31.c
+		trigger = {
+		    NOT = { 
+                tag = RAS
+				tag = CHE
+		    }
+		}
+	}
+}

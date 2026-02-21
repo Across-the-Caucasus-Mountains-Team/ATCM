@@ -33,7 +33,7 @@ country_event = {
 	option = {
 		name = russia.2.a
 		add_war_support = 0.025
-		add_political_power = -50
+		add_political_power = -65
 		custom_effect_tooltip = 15_RAS_tt
 		hidden_effect = {
 		    CHE = { 
@@ -731,5 +731,74 @@ country_event = {
 	 	add_stability = 0.045
 		add_war_support = 0.03
 		add_political_power = 25
+	}
+}
+
+#Chechen attack in Kizlyar
+country_event = {
+	id = russia.36
+	title = russia.36.t
+	desc = russia.36.d
+	picture = GFX_Report_event_RAS_kizlyar_is_going_on
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.36.a
+		add_war_support = -0.01
+		add_stability = -0.02
+		add_manpower = -12
+	}
+}
+
+#Refuges in hospital
+country_event = {
+	id = russia.37
+	title = russia.37.t
+	desc = russia.37.d
+	picture = GFX_Report_event_CHE_hospital_hostages
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.37.a
+		add_war_support = -0.01
+		add_stability = -0.03
+		add_political_power = -25
+	}
+}
+
+#Breakthrough to Pervomaysk
+country_event = {
+	id = russia.38
+	title = russia.38.t
+	desc = russia.38.d
+	picture = GFX_Report_event_CHE_kizlyar_operation_is_going
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.38.a
+		add_war_support = -0.01
+		add_stability = -0.03
+		add_political_power = -25
+		add_manpower = -8
+	}
+}
+
+#Chechens returning
+country_event = {
+	id = russia.39
+	title = russia.39.t
+	desc = russia.39.d
+	picture = GFX_Report_event_CHE_kizlyar_raid_preparations
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia.39.a
+		add_stability = 0.03
+		add_war_support = 0.01
+		add_political_power = 15
 	}
 }

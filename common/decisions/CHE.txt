@@ -325,6 +325,39 @@ CHE_first_chechen_war_decision = {
 		}
 	}
 
+	CHE_conduct_a_raid_on_russian_positions = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 35
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+			RAS = {
+				controls_state = 21
+			}
+			RAS = {
+				controls_state = 20
+			}
+		}
+	    
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_disrupte_Supplies
+		}
+
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+
+	}
+
 	CHE_resistance_in_grozny = {
 
 		icon = GFX_decision_generic_soldie
@@ -625,6 +658,39 @@ CHE_operations_outside_of_chechnya_decision = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = -160 
+			}
+		}
+
+		ai_will_do = {
+			factor = 150		
+		}
+	}
+
+	CHE_prepare_operation_in_kizlyar_decision = {
+
+		icon = GFX_decision_generic_soldie
+
+        cost = 35
+		fire_only_once = yes
+		
+		available = {		
+		    tag = CHE
+			has_global_flag = FirstChechenWar
+			date > 1995.10.12
+		}
+	    
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+			has_completed_focus = CHE_operations_outside_of_chechnya
+		}
+
+		complete_effect = {
+			country_event = chechnya.55
+            add_manpower = -240
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment_1 
+				amount = -240
 			}
 		}
 
