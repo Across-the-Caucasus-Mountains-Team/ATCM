@@ -1,6 +1,6 @@
 scripted_gui = {
 
-    RAS_influence_on_caucasus = {
+    RAS_influence_on_caucasus_decision_window = {
        context_type = decision_category
 	   window_name = "RAS_influence_on_caucasus_decision_window"
  

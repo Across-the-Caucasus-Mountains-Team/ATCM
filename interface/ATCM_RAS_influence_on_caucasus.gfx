@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_RAS_coats_of_arms"
+		textureFile = "gfx/interface/scripted_guis/RUS_guis/RAS_russian_coats_of_arms.png"
+	}
+
+}

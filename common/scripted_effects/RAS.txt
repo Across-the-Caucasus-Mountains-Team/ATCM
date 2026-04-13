@@ -16,3 +16,71 @@ RAS_negotiation_process_fcw_value_clamp_and_update_ui_effect = {
 		max = 100
 	}
 }
+
+#############################
+### Influence on Caucasus ###
+#############################
+RAS_SAK_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_SAK_influence_value
+		min = 0
+		max = 100
+	}
+}
+
+RAS_CHE_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_CHE_influence_value
+		min = 0
+		max = 100
+	}
+}
+
+RAS_ARM_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_ARM_influence_value
+		min = 0
+		max = 100
+	}
+}
+
+RAS_AZR_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_AZR_influence_value
+		min = 0
+		max = 100
+	}
+}
+
+RAS_ADJ_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_ADJ_influence_value
+		min = 0
+		max = 100
+	}
+}
+
+RAS_OST_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_OST_influence_value
+		min = 0
+		max = 100
+	}
+}
+
+RAS_ABK_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_ABK_influence_value
+		min = 0
+		max = 100
+	}
+}
+
+RAS_ARS_influence_value_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = RAS_ARS_influence_value
+		min = 0
+		max = 100
+	}
+}
+#############################

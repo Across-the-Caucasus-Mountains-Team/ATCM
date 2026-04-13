@@ -3041,6 +3041,40 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 25
 			unlock_decision_category_tooltip = RAS_influence_on_caucasus_decision
+			hidden_effect = {
+				set_variable = {
+                    var = RAS_SAK_influence_value
+                    value = 35
+                }
+				set_variable = {
+                    var = RAS_CHE_influence_value
+                    value = 25
+                }
+				set_variable = {
+                    var = RAS_ARM_influence_value
+                    value = 35
+                }
+				set_variable = {
+                    var = RAS_AZR_influence_value
+                    value = 35
+                }
+				set_variable = {
+                    var = RAS_ADJ_influence_value
+                    value = 35
+                }
+				set_variable = {
+                    var = RAS_OST_influence_value
+                    value = 35
+                }
+				set_variable = {
+                    var = RAS_ABK_influence_value
+                    value = 35
+                }
+				set_variable = {
+                    var = RAS_ARS_influence_value
+                    value = 35
+                }
+			}
 		}
 	}
 

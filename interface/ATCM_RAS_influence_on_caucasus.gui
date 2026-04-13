@@ -4,58 +4,75 @@ guiTypes = {
 		size = { width = 345 height = 220 }
 		position = { x = 0 y = 0 }
 
-		iconType = {
-			name = "Georgia_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
-			spriteType = "GFX_SOV_SAK_icon"
+
+		buttonType = {
+			name = "Russian_coats_of_arms_on_caucasus_button"
+			position = { x = 335 y = 18 }
+			spriteType = "GFX_RAS_coats_of_arms"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Azerbaijan_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
+			position = { x = 215 y = 28 }
 			spriteType = "GFX_SOV_AZR_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Armenia_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
+			position = { x = 215 y = 78 }
 			spriteType = "GFX_SOV_ARM_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
-			name = "Chechnya_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
-			spriteType = "GFX_SOV_CHE_icon"
-			alwaystransparent = yes
-		}
-
-		iconType = {
 			name = "Abkhazia_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
+			position = { x = 28 y = 78 }
 			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "South_Ossetia_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
+			position = { x = 28 y = 28 }
+			spriteType = "GFX_SOV_CHE_icon"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Georgia_influence_on_caucasus_icon"
+			position = { x = 28 y = 128 }
+			spriteType = "GFX_SOV_SAK_icon"
+			alwaystransparent = yes
+			pdx_tooltip = "SAK_influence_on_caucasus_tooltip"
+		}
+
+		instantTextBoxType {
+			name = "RAS_SAK_influence_value"
+			text = "RAS_SAK_influence_value_text"
+			font = "hoi_16mbs"
+			position = { x = 88 y = 140 }
+			pdx_tooltip = "[CAT_OPENING]"
+		}
+
+		iconType = {
+			name = "Chechnya_influence_on_caucasus_icon"
+			position = { x = 118 y = 128 }
 			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Adjaria_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
-			spriteType = "GFX_SOV_CHE_icon"
+			position = { x = 118 y = 28 }
+			spriteType = "GFX_SOV_DAG_icon"
 			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "Karabakh_influence_on_caucasus_icon"
-			position = { x = 248 y = 448 }
+			position = { x = 118 y = 78 }
 			spriteType = "GFX_SOV_CHE_icon"
 			alwaystransparent = yes
 		}
