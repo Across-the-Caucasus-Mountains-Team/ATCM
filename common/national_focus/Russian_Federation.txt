@@ -1631,7 +1631,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
+	        add_war_support = 0.065
 			army_experience = 10
 		    add_timed_idea = {
                 idea = RAS_reorganize_our_frontline_idea
