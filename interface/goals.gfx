@@ -162,7 +162,60 @@ spriteTypes = {
 	}
 
 	#### Chechen icons
+
 	
+	SpriteType = {
+		name = "GFX_CHE_connections_with_islamists_around_the_world"
+		texturefile = "gfx/interface/goals/CHE/CHE_connections_with_islamists_around_the_world.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_establish_a_sharia_police_force"
+		texturefile = "gfx/interface/goals/CHE/CHE_establish_a_sharia_police_force.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_establish_military_training_center_caucasus"
+		texturefile = "gfx/interface/goals/CHE/CHE_establish_military_training_center_caucasus.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_establish_the_guard_of_allah"
+		texturefile = "gfx/interface/goals/CHE/CHE_establish_the_guard_of_allah.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_foreign_islamic_volunteers"
+		texturefile = "gfx/interface/goals/CHE/CHE_foreign_islamic_volunteers.png"
+	}
+	SpriteType = {
+		name = "GFX_CHE_hold_ingushetia"
+		texturefile = "gfx/interface/goals/CHE/CHE_hold_ingushetia.png"
+	}	
+	SpriteType = {
+		name = "GFX_CHE_islamization_of_the_army"
+		texturefile = "gfx/interface/goals/CHE/CHE_islamization_of_the_army.png"
+	}	
+	SpriteType = {
+		name = "GFX_CHE_ismalist_propaganda"
+		texturefile = "gfx/interface/goals/CHE/CHE_ismalist_propaganda.png"
+	}
+	SpriteType = {
+		name = "GFX_CHE_sharia_laws"
+		texturefile = "gfx/interface/goals/CHE/CHE_sharia_laws.png"
+	}
+	SpriteType = {
+		name = "GFX_CHE_secure_the_support_of_the_elites"
+		texturefile = "gfx/interface/goals/CHE/CHE_secure_the_support_of_the_elites.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_reorganization_of_courts"
+		texturefile = "gfx/interface/goals/CHE/CHE_reorganization_of_courts.png"
+	}
+
+
+
 	SpriteType = {
 		name = "GFX_CHE_Surrender"
 		texturefile = "gfx/interface/goals/CHE_Surrender.png"
