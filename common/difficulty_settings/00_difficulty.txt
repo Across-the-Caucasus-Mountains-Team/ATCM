@@ -1,0 +1,128 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "strong_RAS"
+		modifier = diff_strong_ai_generic
+		countries = { RAS }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_CHI"
+		modifier = diff_strong_ai_generic
+		countries = { CHI }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_CHE"
+		modifier = diff_strong_ai_generic
+		countries = { CHE }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_SAK"
+		modifier = diff_strong_ai_generic
+		countries = { SAK }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_AZR"
+		modifier = diff_strong_ai_generic
+		countries = { AZR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_ARM"
+		modifier = diff_strong_ai_generic
+		countries = { ARM }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_DAG"
+		modifier = diff_strong_ai_generic
+		countries = { DAG }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_ABK"
+		modifier = diff_strong_ai_generic
+		countries = { ABK }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_ING"
+		modifier = diff_strong_ai_generic
+		countries = { ING }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_OST"
+		modifier = diff_strong_ai_generic
+		countries = { OST }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_TUR"
+		modifier = diff_strong_ai_generic
+		countries = { TUR }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_ADY"
+		modifier = diff_strong_ai_generic
+		countries = { ADY }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_KLM"
+		modifier = diff_strong_ai_generic
+		countries = { KLM }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_PER"
+		modifier = diff_strong_ai_generic
+		countries = { PER }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_ADJ"
+		modifier = diff_strong_ai_generic
+		countries = { ADJ }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_ARS"
+		modifier = diff_strong_ai_generic
+		countries = { ARS }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_KBK"
+		modifier = diff_strong_ai_generic
+		countries = { KBK }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_KCC"
+		modifier = diff_strong_ai_generic
+		countries = { KCC }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_GOM"
+		modifier = diff_strong_ai_generic
+		countries = { GOM }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_KAZ"
+		modifier = diff_strong_ai_generic
+		countries = { KAZ }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "strong_TKM"
+		modifier = diff_strong_ai_generic
+		countries = { TKM }
+		multiplier = 2.0
+	}
+}
