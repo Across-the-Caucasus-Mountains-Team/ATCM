@@ -1,7 +1,2 @@
 music_station = "super_station"
-music = {
-	song = "FirstChechenWar"
-	chance = {
-		factor = 0
-	}
-}
+music = { song = "FirstChechenWar" chance = { modifier = { factor = 1.0 } } }

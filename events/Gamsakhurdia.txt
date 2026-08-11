@@ -51,7 +51,7 @@ country_event = {
 	option = {
 		name = gamsakhurdia.3.a
 		SAK = {
-			Remove_ideas = SAK_Zviadists_in_the_west
+			remove_ideas = SAK_Zviadists_in_the_west
 			add_ideas = SAK_Zviadists_in_the_west_two
 			country_event = { id = Georgia.41 }
 		}	

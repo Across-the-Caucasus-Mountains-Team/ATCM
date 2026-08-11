@@ -1,4 +1,1 @@
-music = {
-	name = "FirstChechenWar"
-	file = "super_events/FirstChechenWar.ogg"
-}
+music = { name = "FirstChechenWar" file = "super_events/FirstChechenWar.ogg" volume = 0.65 }
