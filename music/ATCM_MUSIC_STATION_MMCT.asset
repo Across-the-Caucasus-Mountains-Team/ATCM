@@ -1,39 +1,8 @@
-music = {
-	name = "maintheme"
-	file = "maintheme.ogg"
-}
-
-music = {
-	name = "Abkhazetis_mitsaze"
-	file = "Abkhazetis_mitsaze.ogg"
-}
-
-music = {
-	name = "Pocledni_geroi"
-	file = "Pocledni_geroi.ogg"
-}
-
-music = {
-	name = "Our_Fatherland"
-	file = "Our_Fatherland.ogg"
-}
-
-music = {
-	name = "Zartir_lao"
-	file = "Zartir_lao.ogg"
-}
-
-music = {
-	name = "Dideba"
-	file = "Dideba.ogg"
-}
-
-music = {
-	name = "Gandagana"
-	file = "Gandagana.ogg"
-}
-
-music = {
-	name = "GruzinShanson"
-	file = "GruzinShanson.ogg"
-}
+music = { name = "maintheme" file = "maintheme.ogg" volume = 0.65 }
+music = { name = "Abkhazetis_mitsaze" file = "Abkhazetis_mitsaze.ogg" volume = 0.65 }
+music = { name = "Pocledni_geroi" file = "Pocledni_geroi.ogg" volume = 0.65 }
+music = { name = "Our_Fatherland" file = "Our_Fatherland.ogg" volume = 0.65 }
+music = { name = "Zartir_lao" file = "Zartir_lao.ogg" volume = 0.65 }
+music = { name = "Dideba" file = "Dideba.ogg" volume = 0.65 }
+music = { name = "Gandagana" file = "Gandagana.ogg" volume = 0.65 }
+music = { name = "GruzinShanson" file = "GruzinShanson.ogg" volume = 0.65 }

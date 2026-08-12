@@ -1,70 +1,9 @@
 music_station = "ATCM_MUSIC_STATION_MMCT"
-music = {
-	song = "maintheme"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
-
-music = {
-	song = "Abkhazetis_mitsaze"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
-
-music = {
-	song = "Our_Fatherland"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
-
-music = {
-	song = "Zartir_lao"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
-
-music = {
-	song = "Dideba"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
-
-music = {
-	song = "Gandagana"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
-
-music = {
-	song = "GruzinShanson"
-	chance = {
-		factor = 0
-		modifier = {
-			factor = 100
-		}
-	}
-}
+music = { song = "maintheme" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Abkhazetis_mitsaze" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Pocledni_geroi" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Our_Fatherland" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Zartir_lao" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Dideba" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Gandagana" chance = { modifier = { factor = 1.0 } } }
+music = { song = "GruzinShanson" chance = { modifier = { factor = 1.0 } } }

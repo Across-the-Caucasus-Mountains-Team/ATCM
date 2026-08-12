@@ -1,99 +1,20 @@
-music = {
-	name = "Russky_Mat"
-	file = "Russky_Mat.ogg"
-}
-
-music = {
-	name = "LikeOnWar"
-	file = "LikeOnWar.ogg"
-}
-
-music = {
-	name = "VDVSong"
-	file = "VDVSong.ogg"
-}
-
-music = {
-	name = "SummerWillEnd"
-	file = "SummerWillEnd.ogg"
-}
-
-music = {
-	name = "DontPlaytheFoolAmerica!"
-	file = "DontPlaytheFoolAmerica!.ogg"
-}
-
-music = {
-	name = "HelloMyDearBaby"
-	file = "HelloMyDearBaby.ogg"
-}
-
-music = {
-	name = "HelloMother"
-	file = "HelloMother.ogg"
-}
-
-music = {
-	name = "Soldier"
-	file = "Soldier.ogg"
-}
-
-music = {
-	name = "LetsGoFor..."
-	file = "LetsGoFor....ogg"
-}
-
-music = {
-	name = "Combat"
-	file = "Combat.ogg"
-}
-
-music = {
-	name = "FromTheScrew"
-	file = "FromTheScrew.ogg"
-}
-
-music = {
-	name = "VperedRussia"
-	file = "Russian_Music/VperedRussia.ogg"
-}
-
-music = {
-	name = "ATAS"
-	file = "Russian_Music/ATAS.ogg"
-}
-
-music = {
-	name = "WhenWeWereOnWar"
-	file = "Russian_Music/WhenWeWereOnWar.ogg"
-}
-
-music = {
-	name = "GruppaKrovi"
-	file = "Russian_Music/GruppaKrovi.ogg"
-}
-
-music = {
-	name = "PutinHymn"
-	file = "Russian_Music/PutinHymn.ogg"
-}
-
-music = {
-	name = "RusskyKlinok"
-	file = "Russian_Music/RusskyKlinok.ogg"
-}
-
-music = {
-	name = "ToServeRussia"
-	file = "Russian_Music/ToServeRussia.ogg"
-}
-
-music = {
-	name = "ToWay"
-	file = "Russian_Music/ToWay.ogg"
-}
-
-music = {
-	name = "MyHeartIsCold"
-	file = "Russian_Music/MyHeartIsCold.ogg"
-}
+music = { name = "Russky_Mat" file = "Russky_Mat.ogg" volume = 0.65 }
+music = { name = "LikeOnWar" file = "LikeOnWar.ogg" volume = 0.65 }
+music = { name = "VDVSong" file = "VDVSong.ogg" volume = 0.65 }
+music = { name = "SummerWillEnd" file = "SummerWillEnd.ogg" volume = 0.65 }
+music = { name = "DontPlaytheFoolAmerica!" file = "DontPlaytheFoolAmerica!.ogg" volume = 0.65 }
+music = { name = "HelloMyDearBaby" file = "HelloMyDearBaby.ogg" volume = 0.65 }
+music = { name = "HelloMother" file = "HelloMother.ogg" volume = 0.65 }
+music = { name = "Soldier" file = "Soldier.ogg" volume = 0.65 }
+music = { name = "LetsGoFor..." file = "LetsGoFor....ogg" volume = 0.65 }
+music = { name = "Combat" file = "Combat.ogg" volume = 0.65 }
+music = { name = "FromTheScrew" file = "FromTheScrew.ogg" volume = 0.65 }
+music = { name = "VperedRussia" file = "Russian_Music/VperedRussia.ogg" volume = 0.65 }
+music = { name = "ATAS" file = "Russian_Music/ATAS.ogg" volume = 0.65 }
+music = { name = "WhenWeWereOnWar" file = "Russian_Music/WhenWeWereOnWar.ogg" volume = 0.65 }
+music = { name = "GruppaKrovi" file = "Russian_Music/GruppaKrovi.ogg" volume = 0.65 }
+music = { name = "PutinHymn" file = "Russian_Music/PutinHymn.ogg" volume = 0.65 }
+music = { name = "RusskyKlinok" file = "Russian_Music/RusskyKlinok.ogg" volume = 0.65 }
+music = { name = "ToServeRussia" file = "Russian_Music/ToServeRussia.ogg" volume = 0.65 }
+music = { name = "ToWay" file = "Russian_Music/ToWay.ogg" volume = 0.65 }
+music = { name = "MyHeartIsCold" file = "Russian_Music/MyHeartIsCold.ogg" volume = 0.65 }

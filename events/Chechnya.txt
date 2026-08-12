@@ -105,7 +105,7 @@ country_event = {
 	id = chechnya.5
 	title = chechnya.5.t
 	desc = chechnya.5.d
-	picture = GFX_RReport_event_CHE_Gamsakhurdia_in_chechnya
+	picture = GFX_Report_event_CHE_Gamsakhurdia_in_chechnya
 
 	is_triggered_only = yes
 
@@ -784,7 +784,7 @@ country_event = {
 			mark_focus_tree_layout_dirty = yes
 			set_global_flag = AfterFirstChechenWar
 		}
-		ai_will_do = {
+		ai_chance = {
 			base = -5
 			modifier = {
                 factor = 2
@@ -808,7 +808,7 @@ country_event = {
 					surrender_progress > 0.65
 				}
             }
-			modifer = {
+			modifier = {
 				factor = 25
 				NOT = {
 					controls_state = 126
@@ -827,7 +827,7 @@ country_event = {
 	}
 
 	option = {
-		name = chechnya.33.b
+		name = chechnya.32.b
 		add_stability = -0.175
 		add_political_power = -150
 		hidden_effect = {
