@@ -139,7 +139,7 @@ sub_units = {
 			infantry_equipment = 4
 			manpads_equipment = 4
 			bulletproof_vests_equipment = 8
-			uniform_equipment = 8
+			uniform_equipment = 12
 		}
 		manpower = 12
 		max_organisation = 0
