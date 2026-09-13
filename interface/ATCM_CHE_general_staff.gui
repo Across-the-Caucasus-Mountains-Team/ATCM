@@ -55,7 +55,7 @@ guiTypes = {
 			text = "[get_state_name]"
 			font = "hoi_30header"
 			maxWidth = 315
-			maxHeigth = 12
+			maxHeight = 12
 			position = { x = 1080 y = 365 }
 			pdx_tooltip = "[CAT_OPENING]"
 		}
