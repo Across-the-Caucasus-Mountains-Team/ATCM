@@ -1,0 +1,8 @@
+music = { name = "city_of_mine" file = "che/city_of_mine.ogg" volume = 0.65 }
+music = { name = "Czeczenia" file = "che/Czeczenia.ogg" volume = 0.65 }
+music = { name = "death_or_freedom" file = "che/death_or_freedom.ogg" volume = 0.65 }
+music = { name = "gazavat" file = "che/gazavat.ogg" volume = 0.65 }
+music = { name = "Lezginka" file = "che/Lezginka.ogg" volume = 0.65 }
+music = { name = "ShamilBasayevMusic" file = "che/ShamilBasayevMusic.ogg" volume = 0.65 }
+music = { name = "The_Death_of_Russia" file = "che/The_Death_of_Russia.ogg" volume = 0.65 }
+music = { name = "Allаhu_Akbаr" file = "che/Allаhu_Akbаr.ogg" volume = 0.65 }

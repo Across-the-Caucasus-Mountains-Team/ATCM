@@ -1,6 +1,6 @@
 guiTypes = {
 	containerWindowType = {
-		name = "Chechen_Music_Station_MMCT_faceplate"
+		name = "Chechen_Music_Station_faceplate"
 		position = { x=0 y=0 }
 		size = { width = 590 height = 46 }
 
@@ -111,13 +111,13 @@ guiTypes = {
 	}
 
 	containerWindowType={
-		name = "Chechen_Music_Station_MMCT_stations_entry"
+		name = "Chechen_Music_Station_stations_entry"
 		size = { width = 162 height = 130 }
 		
 		checkBoxType = {
 			name = "select_station_button"
 			position = { x = 0 y = 0 }
-			quadTextureSprite = "GFX_radio_station_cover_Chechen_Music_MMCT"
+			quadTextureSprite = "GFX_radio_Chechen_Music_Station"
 			clicksound = decisions_ui_button
 		}
 	}

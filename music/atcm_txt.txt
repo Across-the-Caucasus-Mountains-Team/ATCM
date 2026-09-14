@@ -1,0 +1,10 @@
+music_station = "ATCM_Music_Station"
+
+music = { song = "Abkhazetis_mitsaze" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Dideba" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Gandagana" chance = { modifier = { factor = 1.0 } } }
+music = { song = "GruzinShanson" chance = { modifier = { factor = 1.0 } } }
+music = { song = "maintheme" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Our_Fatherland" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Pocledni_geroi" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Zartir_lao" chance = { modifier = { factor = 1.0 } } }

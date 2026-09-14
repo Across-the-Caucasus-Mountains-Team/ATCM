@@ -1,9 +1,10 @@
-music_station = "Chechen_Music_Station_MMCT"
+music_station = "Chechen_Music_Station"
+
+music = { song = "Allаhu_Akbаr" chance = { modifier = { factor = 1.0 } } }
 music = { song = "city_of_mine" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Czeczenia" chance = { modifier = { factor = 1.0 } } }
 music = { song = "death_or_freedom" chance = { modifier = { factor = 1.0 } } }
 music = { song = "gazavat" chance = { modifier = { factor = 1.0 } } }
-music = { song = "The_Death_of_Russia" chance = { modifier = { factor = 1.0 } } }
-music = { song = "Αllаhu_Αkbаr" chance = { modifier = { factor = 1.0 } } }
-music = { song = "ShamilBasayevMusic" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Lezginka" chance = { modifier = { factor = 1.0 } } }
+music = { song = "ShamilBasayevMusic" chance = { modifier = { factor = 1.0 } } }
+music = { song = "The_Death_of_Russia" chance = { modifier = { factor = 1.0 } } }

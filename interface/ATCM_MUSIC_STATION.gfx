@@ -1,0 +1,19 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_radio_ATCM_Music_Station"
+		texturefile = "gfx/interface/music/ATCM_Music.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_radio_Russian_Music_Station"
+		texturefile = "gfx/interface/music/Russian_Music.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_radio_Chechen_Music_Station"
+		texturefile = "gfx/interface/music/Chechen_Music.dds"
+		noOfFrames = 2
+	}
+}
