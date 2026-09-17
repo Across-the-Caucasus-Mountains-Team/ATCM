@@ -1,27 +1,14 @@
 state={
-	id=88
+	id=91
 	name="STATE_91"
 	provinces={
-		1082 2140 4737 5250 5607 9526 12224 12249 
+		409 418 489 880 1330 1797 1812 1833 2012 2377 2993 3060 3558 3569 4046 4118 4146 4480 4534 4675 4898 4976 5025 5082 5251 5273 5917 6311 6477 6969 7138 7140 7245 7932 8039 8085 8136 8239 8410 8503 8579 8795 12422 12444 12455 12460 12500 12515 12518 12525 12559 12568 12581 12609 12614 12644 12671 12677 12714 
 	}
 	history={
-	owner = ARM
-	add_core_of = ARM
-	victory_points = { 12249 50 }
-	victory_points = { 5607 1 }
-	victory_points = { 9526 1 }
-	victory_points = { 2140 1 }
-	victory_points = { 5250 1 }
-	victory_points = { 4737 1 }
-	    buildings = {
-			infrastructure = 5
-			industrial_complex = 5
-			arms_factory = 4
-			air_base = 10
-		}
+	owner = TUR
+	add_core_of = TUR
 	}
-	manpower=1420000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
-	local_supplies=0.9
+        manpower=1
+        state_category = town
 }

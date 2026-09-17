@@ -1,14 +1,28 @@
 state={
-	id=77
+	id=80
 	name="STATE_80"
 	provinces={
-		260 271 818 1001 1469 1805 1928 2003 2221 2259 2335 2553 2885 2893 2982 2985 3053 3108 3482 3555 3764 3839 4007 4093 4217 4290 4314 4860 4928 5097 5637 7031 7073 7725 7946 8896 9121 9192 9386 12025 12037 12059 12123 12141 12165 12186 12220 12251 12301 12340 12374 12379 
+		3872 5423 5961 8670 8956 12011 12041 12081 12093 12106 
 	}
 	history={
-	owner = TUR
-	add_core_of = TUR
+	owner = AZR
+	add_core_of = AZR
+	victory_points = { 3872 50 }
+	victory_points = { 5423 1 }
+	victory_points = { 8670 1 }
+	victory_points = { 12081 1 }
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 10
+			3872 = {
+			    naval_base = 5
+			}	
+		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+        manpower=2496000
+        state_category = metropolis
+		local_supplies=0.2
 }
