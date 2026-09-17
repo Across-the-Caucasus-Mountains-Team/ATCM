@@ -7,8 +7,12 @@ state={
 	history={
 	owner = TUR
 	add_core_of = TUR
+	
+		buildings = {
+			infrastructure = 1
+		}
 	}
-	manpower=1
+	manpower=133584
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

@@ -8,8 +8,18 @@ state={
 	owner = TUR
 	add_core_of = TUR
 	victory_points = { 2471 30 }
+	
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 2
+			2471 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=824000
+        manpower=795849
         state_category = large_city
 }

@@ -8,9 +8,14 @@ state={
 	history={
 		owner = TUR
 		add_core_of = TUR
+	
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 
 	buildings_max_level_factor=1.000
-	manpower=830105
+	manpower=826886
 	state_category = large_town
 }
