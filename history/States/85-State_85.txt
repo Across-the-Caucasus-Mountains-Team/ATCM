@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=85
 	name="STATE_85"
 	provinces={
@@ -8,10 +8,10 @@ state={
 	owner = PER
 	add_core_of = PER
 		buildings = {
+			arms_factory = 6
 			infrastructure = 4
 			industrial_complex = 4
-			arms_factory = 1
-			synthetic_refinery = 1
+synthetic_refinery = 1
 			fuel_silo = 1
 			air_base = 2
 		}

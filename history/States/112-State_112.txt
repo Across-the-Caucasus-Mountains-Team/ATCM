@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=112
 	name="STATE_112"
 	provinces={
@@ -9,10 +9,10 @@ state={
 	add_core_of = TUR
 	
 		buildings = {
+			arms_factory = 2
 			infrastructure = 4
 			industrial_complex = 2
-			arms_factory = 1
-			fuel_silo = 1
+fuel_silo = 1
 			air_base = 4
 		}
 	}

@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=18
 	name="STATE_18"
 	provinces={

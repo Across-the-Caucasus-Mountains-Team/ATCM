@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=27
 	name="STATE_27"
 	provinces={
@@ -16,6 +16,7 @@ state={
 		add_core_of = ABK
 		victory_points = { 10771 30 }
 				buildings = {
+					arms_factory = 1
 			infrastructure = 4
 			industrial_complex = 2
 			dockyard = 1

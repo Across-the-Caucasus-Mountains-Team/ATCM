@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=5
 	name="STATE_5"
 	provinces={
@@ -8,6 +8,7 @@ state={
 		owner = KAZ
 		add_core_of = KAZ
 	buildings = {
+		arms_factory = 2
 		infrastructure = 3
 		industrial_complex = 3
 		dockyard = 1

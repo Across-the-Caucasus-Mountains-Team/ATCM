@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=76
 	name="STATE_76"
 	provinces={
@@ -9,10 +9,10 @@ state={
 	add_core_of = AZR
 	
 		buildings = {
+			arms_factory = 1
 			infrastructure = 3
 			industrial_complex = 2
-			arms_factory = 1
-			air_base = 2
+air_base = 2
 		}}
 	buildings_max_level_factor=1.000
         manpower=491500

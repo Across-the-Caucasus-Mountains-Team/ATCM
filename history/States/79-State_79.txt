@@ -1,4 +1,4 @@
-state={
+﻿state={
 	id=79
 	name="STATE_79"
 	provinces={
@@ -9,6 +9,7 @@ state={
 	add_core_of = AZR
 	
 		buildings = {
+			arms_factory = 1
 			infrastructure = 3
 			industrial_complex = 1
 			fuel_silo = 1
