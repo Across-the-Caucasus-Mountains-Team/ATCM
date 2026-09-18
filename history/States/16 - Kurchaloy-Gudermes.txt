@@ -13,17 +13,15 @@ state={
 	history={
 	    owner = CHE
 	    add_core_of = CHE
-		victory_points = { 10670 25 }
 		victory_points = { 7335 20 }
-		victory_points = { 311 15 }
 		victory_points = { 17454 3 }
-		buildings = {
-		    industrial_complex = 1
-			arms_factory = 1
+				buildings = {
 			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
 		}
 	}
-	manpower=298201
+	manpower=169090
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

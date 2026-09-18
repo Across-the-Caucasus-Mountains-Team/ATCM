@@ -7,8 +7,13 @@ state={
 	history={
 	owner = AZR
 	add_core_of = AZR
-	}
-	manpower=740000
+	
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}}
+	manpower=532000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

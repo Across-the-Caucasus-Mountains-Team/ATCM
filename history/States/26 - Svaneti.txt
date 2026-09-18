@@ -12,12 +12,11 @@ state={
 		owner = SAK
 		add_core_of = SAK
 		victory_points = { 6037 15 }
-		buildings = {
+				buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 	}
-	manpower=23000
+	manpower=14800
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

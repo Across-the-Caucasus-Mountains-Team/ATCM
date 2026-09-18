@@ -7,8 +7,15 @@ state={
 	history={
 		owner = KAZ
 		add_core_of = KAZ
+	buildings = {
+		infrastructure = 3
+		industrial_complex = 3
+		dockyard = 1
+		fuel_silo = 2
+		air_base = 2
 	}
+}
 	buildings_max_level_factor=1.000
-	manpower=57052
-	state_category = town
+	manpower=169000
+	state_category=city
 }

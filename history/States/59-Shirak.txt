@@ -8,14 +8,14 @@ state={
 	owner = ARM
 	add_core_of = ARM
 	Victory_points = { 2116 30 }
-	    buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 2
-			air_base = 5
-		}
+	    	    buildings = {
+	    	infrastructure = 4
+	    	industrial_complex = 3
+	    	arms_factory = 1
+	    	air_base = 2
+	    }
 	}
-	manpower=235000
+	manpower=335200
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000

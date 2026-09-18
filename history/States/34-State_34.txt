@@ -7,7 +7,10 @@ state={
 	history={
 	owner = SAK
 	add_core_of = SAK
-	}
+	
+		buildings = {
+			infrastructure = 1
+		}}
 	buildings_max_level_factor=1.000
         manpower=400
         state_category = pastoral

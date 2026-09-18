@@ -9,13 +9,13 @@ state={
 	    owner = DAG
 		add_core_of = DAG
 	    add_core_of = RAS
-	    buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
-		}
+	    	    buildings = {
+	    	infrastructure = 2
+	    	industrial_complex = 1
+	    	air_base = 1
+	    }
 	}
-	manpower=1802579
+	manpower=637000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

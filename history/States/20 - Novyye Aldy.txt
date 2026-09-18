@@ -13,11 +13,11 @@ state={
 		owner = CHE
 		add_core_of = CHE
 		victory_points = { 10569 5 }
-		buildings = {
+				buildings = {
 			infrastructure = 2
 		}
 	}
 	buildings_max_level_factor=1.000
-	manpower=89421
+	manpower=50705
 	state_category = town
 }

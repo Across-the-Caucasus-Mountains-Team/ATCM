@@ -8,20 +8,19 @@ state={
 		owner = SAK
 		add_core_of = ABK
 		victory_points = { 10725 10 }
-		buildings = {
+				buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			arms_factory = 1
-			air_base = 4
+			air_base = 3
 			10725 = {
 				naval_base = 2
-			}	
+				}
 		}
 		start_resistance = yes
 		set_resistance = 45
 	}
 	buildings_max_level_factor=1.000
-	manpower=90000
+	manpower=59200
 	state_category = large_town
 	local_supplies=0.0
 }

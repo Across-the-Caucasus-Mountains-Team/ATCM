@@ -11,18 +11,21 @@ state={
 	victory_points = { 5423 1 }
 	victory_points = { 8670 1 }
 	victory_points = { 12081 1 }
-		buildings = {
+				buildings = {
 			infrastructure = 5
-			industrial_complex = 4
+			industrial_complex = 5
 			arms_factory = 2
-			air_base = 10
+			dockyard = 2
+			synthetic_refinery = 3
+			fuel_silo = 3
+			air_base = 4
 			3872 = {
-			    naval_base = 5
-			}	
+				naval_base = 5
+				}
 		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=2496000
+        manpower=1547300
         state_category = metropolis
 		local_supplies=0.2
 }

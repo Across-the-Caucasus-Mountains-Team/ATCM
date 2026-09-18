@@ -12,14 +12,12 @@ state={
 		victory_points = { 8540 10 }
 		victory_points = { 2264 10 }
 		victory_points = { 10906 20 }
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
+				buildings = {
+			infrastructure = 1
 		}
 	}
 
-	manpower=28500
+	manpower=55700
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

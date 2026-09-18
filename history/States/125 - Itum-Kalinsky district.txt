@@ -15,12 +15,11 @@ state={
 		add_core_of = CHE
 		victory_points = { 8617 3 }
 		victory_points = { 10883 1 }
-		buildings = {
+				buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 	}	
-	manpower=5483
+	manpower=3109
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

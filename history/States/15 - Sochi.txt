@@ -8,15 +8,13 @@ state={
 	owner = RAS
 	add_core_of = RAS
 	victory_points = { 7410 20 }
-		buildings = {
+				buildings = {
 			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 1
-			air_base = 3
-			dockyard = 1
+			industrial_complex = 2
+			air_base = 2
 			7410 = {
 				naval_base = 2
-			}	
+				}
 		}
 	}
 	manpower=350000

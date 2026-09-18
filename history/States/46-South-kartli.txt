@@ -14,15 +14,15 @@ state={
 	add_core_of = SAK
 	victory_points = { 11408 25 }
 	victory_points = { 1100 1 }
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 2
-			air_base = 4
+				buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
 		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=476197
+        manpower=608900
         state_category = large_city
 		local_supplies=0.000
 }

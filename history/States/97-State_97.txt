@@ -7,8 +7,11 @@ state={
 	history={
 	owner = TKM
 	add_core_of = TKM
-	}
+	buildings = {
+		infrastructure = 1
+}
+}
 	buildings_max_level_factor=1.000
         manpower=1
-        state_category = town
+        state_category=tiny_island
 }

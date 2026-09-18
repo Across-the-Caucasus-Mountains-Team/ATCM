@@ -8,8 +8,14 @@ state={
 	owner = AZR
 	add_core_of = AZR
 	Victory_points = { 4027 35 }
-	}
-	manpower=611300
+	
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+		}}
+	manpower=482200
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

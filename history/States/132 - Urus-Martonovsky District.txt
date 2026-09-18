@@ -5,17 +5,18 @@ state={
 	history={
 		owner = CHE
 		add_core_of = CHE
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 3
+				buildings = {
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		victory_points = { 10660 4 }
+		victory_points = { 5606 20 }
 	}
 
 	provinces={
 		704 960 2315 2646 3577 5300 5470 5586 5606 6316 6756 7758 8389 8533 8565 8732 9332 10660 10668 10709 10716 10739 10752 10756 10775 10779 
 	}
-	manpower=127853
+	manpower=72497
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -12,12 +12,12 @@ state={
 	history={
 	    owner = CHE
 	    add_core_of = CHE
-		buildings = {
+				buildings = {
 			infrastructure = 1
 		}
 		victory_points = { 2964 5 }
 	}	
-	manpower = 3094
+	manpower=1754
 	buildings_max_level_factor=1.000
 	state_category= rural
 	local_supplies=0.000

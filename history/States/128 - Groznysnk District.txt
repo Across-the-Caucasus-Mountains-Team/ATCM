@@ -14,13 +14,12 @@ state={
     history={
         owner = CHE
         add_core_of = CHE
-        buildings = {
-            industrial_complex = 3
-            arms_factory = 1
-            infrastructure = 4
+                buildings = {
+        	infrastructure = 2
+        	industrial_complex = 1
         }
     }
-    manpower=103864
+    manpower=58895
     buildings_max_level_factor=1.000
     state_category=city
     local_supplies=0.000

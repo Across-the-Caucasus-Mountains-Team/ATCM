@@ -9,13 +9,14 @@ state={
 	add_core_of = AZR
 	add_core_of = ARM
 	add_core_of = ARS
-	buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 2
-		}
+		buildings = {
+		infrastructure = 2
+		industrial_complex = 1
+		arms_factory = 1
+		air_base = 1
 	}
-	manpower=146573
+	}
+	manpower=133100
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

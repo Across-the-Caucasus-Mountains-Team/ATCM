@@ -9,13 +9,14 @@ state={
 		add_core_of = RAS
 		add_core_of = KBK
 		victory_points = { 7493 35 }
-		buildings = {
-			infrastructure = 2
+				buildings = {
+			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
+			air_base = 2
 		}
 	}
 	buildings_max_level_factor=1.000
-	manpower = 911494
+	manpower=781000
 	state_category = town
 }

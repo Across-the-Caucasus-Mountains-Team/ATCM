@@ -26,15 +26,14 @@ state={
 	victory_points = { 10897 1 }
 	victory_points = { 5967 1 }
 	victory_points = { 370 1 }
-	    buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
-		}
+	    	    buildings = {
+	    	infrastructure = 2
+	    	industrial_complex = 1
+	    }
 		start_resistance = yes
 		set_resistance = 65
 	}
-	manpower=33000
+	manpower=75800
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

@@ -7,9 +7,17 @@ state={
 	history={
 		owner = TKM
 		add_core_of = TKM
+	buildings = {
+		infrastructure = 3
+		industrial_complex = 3
+		dockyard = 1
+		synthetic_refinery = 1
+		fuel_silo = 2
+		air_base = 2
 	}
-	manpower=342798
+}
+	manpower=360500
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }

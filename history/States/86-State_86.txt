@@ -9,13 +9,11 @@ state={
 	add_core_of = SAK
 	add_core_of = OST
 	victory_points = { 6429 10 }
-	    buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
-		}
+	    	    buildings = {
+	    	infrastructure = 1
+	    }
 	}
-	manpower=1783
+	manpower=11600
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

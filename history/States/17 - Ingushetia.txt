@@ -11,14 +11,12 @@ state={
 		add_core_of = ING
 		victory_points = { 6828 15 }
 		victory_points = { 8189 5 }
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 1
-			air_base = 1
+				buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 		}
 	}
 	buildings_max_level_factor=1.000
-	manpower= 414524
+	manpower=192000
 	state_category = city
 }

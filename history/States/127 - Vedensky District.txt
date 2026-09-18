@@ -14,13 +14,11 @@ state={
         owner = CHE
         add_core_of = CHE
         victory_points = { 6626 5 }
-        buildings = {
-            industrial_complex = 2
-            arms_factory = 1
-            infrastructure = 3
+                buildings = {
+        	infrastructure = 2
         }
     }
-    manpower=73923
+    manpower=41917
     buildings_max_level_factor=1.000
     state_category=large_town
     local_supplies=0.000

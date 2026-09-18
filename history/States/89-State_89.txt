@@ -7,8 +7,13 @@ state={
 	history={
 	owner = ARM
 	add_core_of = ARM
-	}
+	
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+		}}
 	buildings_max_level_factor=1.000
-        manpower=248982
+        manpower=278900
         state_category = town
 }

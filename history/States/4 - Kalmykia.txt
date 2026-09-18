@@ -11,13 +11,14 @@ state={
 		owner = RAS
 		add_core_of = RAS
 		add_core_of = KLM
-		buildings = {
-			infrastructure = 1
+				buildings = {
+			infrastructure = 2
 			industrial_complex = 1
+			air_base = 1
 		}	
 	}
 	buildings_max_level_factor=1.000
-	manpower=267133
+	manpower=327000
 	state_category = town
 	local_supplies=0.000
 }

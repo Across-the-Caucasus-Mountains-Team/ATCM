@@ -8,14 +8,12 @@ state={
 		owner = RAS
 		add_core_of = RAS
 		add_core_of = ADY
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 2
-			air_base = 3
+				buildings = {
+			infrastructure = 3
+			industrial_complex = 1
 		}
 	}
-	manpower=450000
+	manpower=287000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

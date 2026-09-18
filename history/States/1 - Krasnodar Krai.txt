@@ -18,17 +18,17 @@ state={
 		victory_points = { 7315 25 }
 		victory_points = { 6623 5 }
 		victory_points = { 9410 3 }
-		buildings = {
+				buildings = {
 			infrastructure = 4
-			industrial_complex = 3
-			air_base = 4
+			industrial_complex = 4
 			arms_factory = 1
+			air_base = 2
 			7315 = {
 				naval_base = 3
-			}	
+				}
 		}
 	}
-	manpower=5838273
+	manpower=3711000
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000
