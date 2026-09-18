@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=59
 	name="STATE_59"
 	provinces={
@@ -9,10 +9,9 @@
 	add_core_of = ARM
 	Victory_points = { 2116 30 }
 	    	    buildings = {
-	    	    	arms_factory = 4
 	    	infrastructure = 4
 	    	industrial_complex = 3
-air_base = 2
+	    	arms_factory = 4	    	air_base = 2
 	    }
 	}
 	manpower=335200

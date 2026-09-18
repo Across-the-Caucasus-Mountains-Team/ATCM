@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=43
 	name="STATE_43"
 	provinces={
@@ -20,7 +20,6 @@
 	victory_points = { 2028 10 }
 	victory_points = { 11458 10 }
 				buildings = {
-					arms_factory = 1
 			infrastructure = 2
 			industrial_complex = 1
 		}

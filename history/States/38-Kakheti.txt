@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=38
 	name="STATE_38"
 	provinces={
@@ -20,7 +20,8 @@
 	    	infrastructure = 3
 	    	industrial_complex = 2
 	    	air_base = 1
-	    }
+	    	    	arms_factory = 1
+}
 	}
 	manpower=444800
 	buildings_max_level_factor=1.000

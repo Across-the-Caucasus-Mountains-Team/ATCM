@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=6
 	name="STATE_6"
 	provinces={
@@ -9,10 +9,10 @@
 		add_core_of = RAS
 		add_core_of = ADY
 				buildings = {
-					arms_factory = 2
 			infrastructure = 3
 			industrial_complex = 1
-		}
+					arms_factory = 1
+}
 	}
 	manpower=287000
 	buildings_max_level_factor=1.000

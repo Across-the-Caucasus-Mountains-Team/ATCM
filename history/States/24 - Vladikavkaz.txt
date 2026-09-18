@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=24
 	name="STATE_24"
 	provinces={
@@ -10,10 +10,9 @@
 		add_core_of = RAS
 		victory_points = { 10767 30 }
 				buildings = {
-					arms_factory = 4
 			infrastructure = 5
 			industrial_complex = 3
-air_base = 3
+			arms_factory = 4			air_base = 3
 		}
 	}
 

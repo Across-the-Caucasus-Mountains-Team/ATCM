@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=123
 	name="STATE_123"
 	provinces={
@@ -9,11 +9,11 @@
 	    add_core_of = RAS
 		add_core_of = ADY
 				buildings = {
-					arms_factory = 2
 			infrastructure = 4
 			industrial_complex = 2
 			air_base = 1
-		}
+					arms_factory = 2
+}
 		victory_points = { 8326 15 }
 	}	
 	manpower=150000

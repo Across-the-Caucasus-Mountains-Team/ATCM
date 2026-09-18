@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=16
 	name="STATE_16"
 	provinces={
@@ -16,11 +16,11 @@
 		victory_points = { 7335 20 }
 		victory_points = { 17454 3 }
 				buildings = {
-					arms_factory = 1
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
-		}
+					arms_factory = 1
+}
 	}
 	manpower=169090
 	buildings_max_level_factor=1.000

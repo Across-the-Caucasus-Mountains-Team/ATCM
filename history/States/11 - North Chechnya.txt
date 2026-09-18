@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=11
 	name="STATE_11"
 	provinces={
@@ -11,7 +11,6 @@
 		owner = CHE
 		add_core_of = CHE
 				buildings = {
-					arms_factory = 1
 			infrastructure = 2
 			industrial_complex = 1
 		}

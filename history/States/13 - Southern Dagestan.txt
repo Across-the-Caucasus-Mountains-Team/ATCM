@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=13
 	name="STATE_13"
 	provinces={
@@ -19,11 +19,11 @@
 		add_core_of = RAS
 		add_core_of = DAG
 				buildings = {
-					arms_factory = 2
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
-		}
+					arms_factory = 3
+}
 	}
 	manpower=908000
 	buildings_max_level_factor=1.000

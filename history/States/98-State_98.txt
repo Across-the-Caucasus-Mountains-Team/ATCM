@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=98
 	name="STATE_98"
 	provinces={
@@ -10,10 +10,9 @@
 		Victory_points = { 8482 25 }
 	
 		buildings = {
-			arms_factory = 1
 			infrastructure = 3
 			industrial_complex = 2
-air_base = 2
+			arms_factory = 1			air_base = 2
 		}}
 	buildings_max_level_factor=1.000
 	manpower=305367

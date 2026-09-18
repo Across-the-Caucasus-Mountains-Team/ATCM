@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=104
 	name="STATE_104"
 	provinces={
@@ -12,7 +12,8 @@
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 1
-		}}
+					arms_factory = 1
+}}
 	buildings_max_level_factor=1.000
         manpower=615900
         state_category = town

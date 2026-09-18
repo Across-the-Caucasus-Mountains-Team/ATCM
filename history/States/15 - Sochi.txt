@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=15
 	name="STATE_15"
 	provinces={
@@ -12,6 +12,7 @@
 			infrastructure = 4
 			industrial_complex = 2
 			air_base = 2
+			arms_factory = 2
 			7410 = {
 				naval_base = 2
 				}

@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=82
 	name="STATE_82"
 	provinces={
@@ -14,7 +14,8 @@
 			synthetic_refinery = 1
 			fuel_silo = 1
 			air_base = 1
-		}}
+					arms_factory = 1
+}}
 	manpower=341900
 	buildings_max_level_factor=1.000
 	state_category=town

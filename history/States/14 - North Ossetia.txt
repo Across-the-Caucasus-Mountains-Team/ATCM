@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=14
 	name="STATE_14"
 	provinces={
@@ -14,10 +14,10 @@
 		owner = RAS
 		add_core_of = RAS
 				buildings = {
-					arms_factory = 2
 			infrastructure = 3
 			industrial_complex = 1
-		}
+					arms_factory = 3
+}
 	}
 	buildings_max_level_factor=1.000
 	manpower=352000
