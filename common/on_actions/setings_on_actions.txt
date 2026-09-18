@@ -1,0 +1,48 @@
+on_actions = {
+	on_startup = {
+		effect = {
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = wal
+						option = WAL_ANNEX_ON
+					}
+				}
+
+				WAL = {
+					annex_country = { target = KAZ }
+					annex_country = { target = TKM }
+
+					every_owned_state = {
+						WAL_make_state_empty_effect = yes
+					}
+				}
+
+				set_global_flag = WAL_annex
+			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = wal
+						option = WALL_ANNEX_ON
+					}
+				}
+
+				WAL = {
+					annex_country = { target = KAZ }
+					annex_country = { target = TKM }
+					annex_country = { target = PER }
+					annex_country = { target = TUR }
+
+					every_owned_state = {
+						WAL_make_state_empty_effect = yes
+					}
+				}
+
+				set_global_flag = WALL_annex
+			}
+		}
+	}
+}

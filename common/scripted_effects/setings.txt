@@ -1,0 +1,139 @@
+WAL_make_state_empty_effect = {
+	add_core_of = WAL
+	set_state_category = wasteland
+
+	remove_building = {
+		type = industrial_complex
+		level = 99
+	}
+
+	remove_building = {
+		type = network_infrastructure
+		level = 99
+	}
+
+	remove_building = {
+		type = social_infrastructure
+		level = 99
+	}
+
+	remove_building = {
+		type = rail_way
+		level = 99
+	}
+
+	remove_building = {
+		type = agro_industrial_complex
+		level = 99
+	}
+
+	remove_building = {
+		type = offices_building
+		level = 99
+	}
+
+	remove_building = {
+		type = chemical_plant
+		level = 99
+	}
+	
+	remove_building = {
+		type = steel_mill
+		level = 99
+	}
+
+	remove_building = {
+		type = ammunition_plant
+		level = 99
+	}
+
+	remove_building = {
+		type = arms_factory
+		level = 99
+	}
+
+	remove_building = {
+		type = dockyard
+		level = 99
+	}
+
+	remove_building = {
+		type = infrastructure
+		level = 99
+	}
+
+	remove_building = {
+		type = air_base
+		level = 99
+	}
+
+	remove_building = {
+		type = anti_air_building
+		level = 99
+	}
+
+	remove_building = {
+		type = synthetic_refinery
+		level = 99
+	}
+
+	remove_building = {
+		type = fuel_silo
+		level = 99
+	}
+
+	remove_building = {
+		type = radar_station
+		level = 99
+	}
+
+	remove_building = {
+		type = rocket_site
+		level = 99
+	}
+
+	remove_building = {
+		type = nuclear_reactor
+		level = 99
+	}
+
+	set_building_level = {
+		type = supply_node
+		level = 0
+		province = {
+			all_provinces = yes
+		}
+	}
+
+	set_building_level = {
+		type = rail_way
+		level = 0
+		province = {
+			all_provinces = yes
+		}
+	}
+
+	set_building_level = {
+		type = naval_base
+		level = 0
+		province = {
+			all_provinces = yes
+		}
+	}
+
+	set_building_level = {
+		type = bunker
+		level = 0
+		province = {
+			all_provinces = yes
+		}
+	}
+
+	set_building_level = {
+		type = coastal_bunker
+		level = 0
+		province = {
+			all_provinces = yes
+		}
+	}
+}

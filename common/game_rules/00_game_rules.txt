@@ -1,3 +1,27 @@
+wal = {
+	name = "WAL_ANNEX"
+	group = "RULE_MOD_SETTINGS"
+
+	default = {
+		name = "WAL_ANNEX_OFF"
+		text = "WAL_ANNEX_OFF"
+		desc = "WAL_ANNEX_OFF_DESC"
+		allow_achievements = yes
+	}
+
+	option = {
+		name = "WAL_ANNEX_ON"
+		text = "WAL_ANNEX_ON"
+		desc = "WAL_ANNEX_ON_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "WALL_ANNEX_ON"
+		text = "WALL_ANNEX_ON"
+		desc = "WALL_ANNEX_ON_DESC"
+		allow_achievements = yes
+	}
+}
 allow_wargoals = {
 	name = "RULE_ALLOW_WARGOALS"
 	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
