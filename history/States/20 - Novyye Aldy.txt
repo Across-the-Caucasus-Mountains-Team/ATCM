@@ -13,7 +13,9 @@ state={
 		owner = CHE
 		add_core_of = CHE
 		victory_points = { 10569 5 }
-				buildings = {
+		victory_points = { 17321 5 }
+		victory_points = { 17402 2 }
+		buildings = {
 			infrastructure = 2
 		}
 	}

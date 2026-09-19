@@ -2,7 +2,7 @@ state={
 	id=21
 	name="STATE_21"
 	provinces={
-		8281 10581 10593 10609 17366 17367 17368 17370 17393 17394 17395 17399 17400 17401 17403
+		8281 10581 10593 10609 17366 17367 17368 17370 17393 17394 17395 17399 17400 17401 17403 17505 17506
 	}
 	
 	resources={
@@ -14,6 +14,11 @@ state={
 		victory_points = { 10581 2 }
 		victory_points = { 10609 50 }
 		victory_points = { 8281 2 }
+		victory_points = { 17367 5 }
+        victory_points = { 10593 5 }
+		victory_points = { 17505 5 }
+		victory_points = { 17506 10 }
+		victory_points = { 17399 3 }
 		owner = CHE
 		add_core_of = CHE
 				buildings = {

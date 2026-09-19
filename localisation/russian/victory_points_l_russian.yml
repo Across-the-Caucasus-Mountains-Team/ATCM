@@ -86,7 +86,7 @@
   VICTORY_POINTS_5489:0 "Сисиан"
   VICTORY_POINTS_10581:0 "Северный Грозный"
   VICTORY_POINTS_10609:0 "Грозный"
-  VICTORY_POINTS_8281:0 "Южный Грозный"
+  VICTORY_POINTS_8281:0 "Нефтеперерабатывающие заводы Грозного"
   VICTORY_POINTS_7315:0 "Новороссийск"
   VICTORY_POINTS_9410:0 "Геленджик"
   VICTORY_POINTS_6623:0 "Анапа"
@@ -153,5 +153,12 @@
   VICTORY_POINTS_8778:0 "Сержень-Юрт"
   VICTORY_POINTS_17454:0 "Цоцин-Юрт"
   VICTORY_POINTS_10660:0 "Гойты"
-  
+  VICTORY_POINTS_17367:0 "Ж/Д станция Грозного"
+  VICTORY_POINTS_17505:0 "Площадь «Минутка»"
+  VICTORY_POINTS_17506:0 "Президентский дворец"
+  VICTORY_POINTS_10593:0 "Центральная больница"
+  VICTORY_POINTS_17399:0 "Консервный завод"
+  VICTORY_POINTS_17321:0 "Аэропорт «Кханкала»"
+  VICTORY_POINTS_17402:0 "Совхоз Родина"
+
   
