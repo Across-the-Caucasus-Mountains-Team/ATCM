@@ -8,15 +8,16 @@ state={
 	owner = ARM
 	add_core_of = ARM
 	victory_points = { 12249 50 }
-	victory_points = { 5607 1 }
-	victory_points = { 9526 1 }
-	victory_points = { 2140 1 }
-	victory_points = { 5250 1 }
-	victory_points = { 4737 1 }
+	victory_points = { 5607 2 }
+	victory_points = { 9526 2 }
+	victory_points = { 2140 2 }
+	victory_points = { 5250 2 }
+	victory_points = { 4737 2 }
 	    	    buildings = {
 	    	infrastructure = 5
 	    	industrial_complex = 5
-	    	arms_factory = 8	    	fuel_silo = 1
+	    	arms_factory = 8
+	    	fuel_silo = 1
 	    	air_base = 4
 	    }
 	}

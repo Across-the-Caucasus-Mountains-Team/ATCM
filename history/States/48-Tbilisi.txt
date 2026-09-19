@@ -15,16 +15,17 @@ state={
 	owner = SAK
 	add_core_of = SAK
 	victory_points = { 5711 50 }
-	victory_points = { 7668 1 }
-	victory_points = { 5650 1 }
-	victory_points = { 8377 1 }
-	victory_points = { 11357 1 }
-	victory_points = { 11370 1 }
-	victory_points = { 11353 1 }
+	victory_points = { 7668 2 }
+	victory_points = { 5650 2 }
+	victory_points = { 8377 2 }
+	victory_points = { 11357 2 }
+	victory_points = { 11370 2 }
+	victory_points = { 11353 2 }
 				buildings = {
 			infrastructure = 5
 			industrial_complex = 5
-			arms_factory = 6			fuel_silo = 1
+			arms_factory = 6
+			fuel_silo = 1
 			air_base = 4
 		}
 	}

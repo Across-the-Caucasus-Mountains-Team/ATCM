@@ -13,11 +13,12 @@ state={
 	owner = SAK
 	add_core_of = SAK
 	victory_points = { 11408 25 }
-	victory_points = { 1100 1 }
+	victory_points = { 1100 2 }
 				buildings = {
 			infrastructure = 4
 			industrial_complex = 3
-			arms_factory = 2			air_base = 2
+			arms_factory = 2
+			air_base = 2
 		}
 	}
 	buildings_max_level_factor=1.000
