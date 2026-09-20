@@ -17503,5 +17503,11 @@
 17502;153;224;103;land;false;plains;1
 17503;224;56;67;land;false;plains;1
 17504;92;224;189;land;false;plains;1
-17505;137;255;137;land;false;urban;0
-17506;255;79;143;land;false;urban;0
+17505;137;255;137;land;false;urban;1
+17506;255;79;143;land;false;urban;1
+17507;144;158;0;land;false;urban;1
+17508;45;158;118;land;false;urban;1
+17509;158;58;86;land;false;urban;1
+17510;47;106;158;land;false;urban;1
+
+
