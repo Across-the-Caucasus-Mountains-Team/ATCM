@@ -3,8 +3,14 @@ state={
 	name="STATE_131"
 
 	history={
+		victory_points = { 10450 3 }
+		victory_points = { 8774 3 }
+		victory_points = { 8564 3 }
 		owner = CHE
 		add_core_of = CHE
+		victory_points = { 8875 5 }
+		victory_points = { 3604 4 }
+		victory_points = { 6342 4 }
 				buildings = {
 			infrastructure = 2
 			industrial_complex = 1

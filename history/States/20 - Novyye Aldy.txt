@@ -12,10 +12,12 @@ state={
 	history={
 		owner = CHE
 		add_core_of = CHE
+		victory_points = { 7018 5 }
+		victory_points = { 10560 6 }
 		victory_points = { 10569 5 }
-		victory_points = { 17321 5 }
+		victory_points = { 17405 4 }
 		victory_points = { 17402 2 }
-		buildings = {
+				buildings = {
 			infrastructure = 2
 		}
 	}

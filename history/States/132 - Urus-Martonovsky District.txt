@@ -3,14 +3,21 @@ state={
 	name="STATE_132"
 
 	history={
+		victory_points = { 5300 3 }
+		victory_points = { 10739 3 }
 		owner = CHE
 		add_core_of = CHE
+		victory_points = { 6316 6 }
+		victory_points = { 10709 5 }
+		victory_points = { 2315 4 }
+		victory_points = { 10660 6 }
+		victory_points = { 10716 4 }
+		victory_points = { 2646 25 }
+		victory_points = { 960 10 }
 				buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		victory_points = { 10660 4 }
-		victory_points = { 5606 20 }
 	}
 
 	provinces={

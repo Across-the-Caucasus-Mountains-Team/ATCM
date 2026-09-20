@@ -7,7 +7,7 @@ state={
 	history={
 		owner = CHE
 		add_core_of = CHE
-		victory_points = { 6744 15 }
+		victory_points = { 6744 20 }
 		victory_points = { 17443 3 }
 		victory_points = { 17440 3 }
 		victory_points = { 17436 3 }
@@ -15,7 +15,8 @@ state={
 				buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			arms_factory = 1		}
+			arms_factory = 1
+		}
 	}
 	manpower=27000
 	buildings_max_level_factor=1.000
