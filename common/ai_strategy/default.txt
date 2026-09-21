@@ -133,7 +133,7 @@ default_unit_production_super_heavies = {
 	enable = {
 		is_major = yes
 		num_of_military_factories > 150 # nly if we have loads of factories
-		NOT = { has_tech = main_battle_tank_chassis } # Abandon Super heavy projects if we start doing modern tanks instead
+		NOT = { has_tech = modern_tank_3 } # Abandon Super heavy projects if we start doing modern tanks instead
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -143,17 +143,6 @@ default_unit_production_super_heavies = {
 	}
 }
 
-default_unit_production_land_cruiser = {
-	enable = {
-		is_special_project_completed = sp:sp_land_land_cruiser
-	}
-	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = role_ratio
-		id = mega_heavy_breakthrough_role
-		value = 2
-	}
-}
 
 default_role_ratios = {
 	enable = {
@@ -1439,11 +1428,8 @@ default_build_a_lw_facility = {
 		is_major = yes
 		num_of_civilian_factories > 40
 		num_of_military_factories > 40
-		OR = { # Don't start until we can build decent tanks of some kind
-			has_tech = improved_light_tank_chassis
-			has_tech = basic_medium_tank_chassis
-			has_tech = improved_heavy_tank_chassis
-		}
+		# ATCM uses the classic modern tank chain instead of NSB chassis techs.
+		has_tech = modern_tank_1
 		land_facility < 1 # one is enough
 	}
 	abort_when_not_enabled = yes

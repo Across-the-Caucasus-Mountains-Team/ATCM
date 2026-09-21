@@ -94,9 +94,7 @@ technologies = {
 		}
 		
 		enable_equipment_modules = { 
-			tank_radio_1
 			radio_navigation_1
-			lc_radio_1 #Module for Land Cruiser
 		}
 		
 		ai_will_do = {
@@ -143,8 +141,6 @@ technologies = {
 		
 		enable_equipment_modules = { 
 			radio_navigation_2
-			tank_radio_2
-			lc_radio_2 #Module for Land Cruiser
 		}
 
 		ai_will_do = {
@@ -187,8 +183,6 @@ technologies = {
 		}
 		
 		enable_equipment_modules = { 
-			tank_radio_3
-			lc_radio_3 #Module for Land Cruiser
 		}
 		
 		ai_will_do = {
@@ -597,7 +591,6 @@ technologies = {
 		# small boost to research speed
 		research_speed_factor = 0.08
 		enable_equipment_modules = {
-			stabilizer
 			bomb_sights_2
 		}
 		path = {
@@ -1060,7 +1053,6 @@ technologies = {
 	land_fort_tech_1 = {
 
 		enable_equipment_modules = {
-			lc_bunker_emplacement #Module for Land Cruiser
 		}
 			
 		path = {
@@ -1532,7 +1524,6 @@ technologies = {
 		start_year = 1944
 		research_cost = 2
 		enable_equipment_modules = {
-			tank_gas_turbine_engine
 			jet_engine_1x
 			jet_engine_2x
 			jet_engine_3x

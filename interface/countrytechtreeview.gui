@@ -710,7 +710,7 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "armour_year7"
+						name = "armour_year8"
 						position = { x = 60 y = 938 }
 						textureFile = ""
 						font = "hoi_36header"
@@ -723,7 +723,7 @@ guiTypes = {
 					}
 
 					instantTextBoxType = {
-						name = "armour_year8"
+						name = "armour_year9"
 						position = { x = 60 y = 1040 }
 						textureFile = ""
 						font = "hoi_36header"

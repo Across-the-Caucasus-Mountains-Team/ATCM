@@ -904,45 +904,16 @@ NOR_trotsky_not_in_mex = {
 }
 
 has_any_tank_tech = {
-	if = {
-		limit = {
-			has_dlc = "No Step Back"
-		}
-		OR = {
-			has_tech = basic_light_tank_chassis
-			has_tech = basic_medium_tank_chassis
-			has_tech = basic_heavy_tank_chassis
-		}
-	}
+	has_tech = modern_tank_1
 }
 
 has_any_tanks = {
-	if = {
-		limit = {
-			has_dlc = "No Step Back"
-		}
-		OR = {
-			has_equipment = { light_tank_chassis_0 > 0}
-			has_equipment = { medium_tank_chassis > 0 }
-			has_equipment = { light_tank_chassis > 0 }
-			has_equipment = { heavy_tank_chassis > 0 }
-		}
-	}
-	else = {
-		OR = {
-			has_equipment = { gw_tank_equipment > 0	}
-			has_equipment = { light_tank_equipment_1 > 0	}
-			has_equipment = { light_tank_equipment_2 > 0	}
-			has_equipment = { light_tank_equipment_3 > 0	}
-			has_equipment = { medium_tank_equipment_1 > 0	}
-			has_equipment = { medium_tank_equipment_2 > 0	}
-			has_equipment = { medium_tank_equipment_3 > 0	}
-			has_equipment = { modern_tank_equipment_1 > 0	}
-			has_equipment = { heavy_tank_equipment_1 > 0	}
-			has_equipment = { heavy_tank_equipment_2 > 0	}
-			has_equipment = { heavy_tank_equipment_3 > 0	}
-			has_equipment = { super_heavy_tank_equipment_1 > 0	}
-		}
+	OR = {
+		has_equipment = { modern_tank_equipment_1 > 0 }
+		has_equipment = { modern_tank_equipment_2 > 0 }
+		has_equipment = { modern_tank_equipment_3 > 0 }
+		has_equipment = { modern_tank_equipment_4 > 0 }
+		has_equipment = { modern_tank_equipment_5 > 0 }
 	}
 }
 
