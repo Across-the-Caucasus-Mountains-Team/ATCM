@@ -1,0 +1,299 @@
+categories =  {
+	unknown = {
+		color = { 255 0 255 }
+	}
+
+	ocean = {
+		naval_terrain = yes
+		color = { 25 76 145 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		naval_mine_hit_chance = -0.75
+	}
+	
+	lakes = {
+		color = { 70 135 190 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+	}
+
+	urban = {
+		color = { 115 115 120 }
+		movement_cost = 1.8
+		ai_terrain_importance_factor = 7.5
+		combat_width = 45
+		combat_support_width = 20
+		match_value = 8
+		sound_type = plains
+
+		units = {
+			attack = -0.45
+			movement = -0.30
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.6
+		supply_flow_penalty_factor = 0.05
+		truck_attrition_factor = 0.6
+	}
+
+	forest = {
+		color = { 55 120 65 }
+		movement_cost = 1.65
+		combat_width = 55
+		combat_support_width = 25
+		ai_terrain_importance_factor = 6.0
+		match_value = 6
+		sound_type = forest
+
+		units = {
+			attack = -0.25
+			movement = -0.25
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.25
+		supply_flow_penalty_factor = 0.12
+		truck_attrition_factor = 0.5
+	}
+
+	hills = {
+		color = { 145 125 80 }
+		movement_cost = 1.6
+		combat_width = 60
+		combat_support_width = 30
+		ai_terrain_importance_factor = 4.0
+		match_value = 3
+		sound_type = desert
+
+		units = {
+			attack = -0.30
+			movement = -0.20
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.10
+		supply_flow_penalty_factor = 0.12
+		truck_attrition_factor = 0.4
+	}
+
+	mountain = {
+		color = { 105 110 115 }
+		movement_cost = 2.3
+		attrition = 0.35
+		combat_width = 40
+		combat_support_width = 20
+		ai_terrain_importance_factor = 10.0
+		match_value = 10
+		sound_type = desert
+
+		units = {
+			attack = -0.60
+			movement = -0.45
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.15
+		supply_flow_penalty_factor = 0.18
+		truck_attrition_factor = 1.2
+	}
+
+	plains = {
+		color = { 125 165 80 }
+		movement_cost = 1.0
+		ai_terrain_importance_factor = 0.1
+		combat_width = 80
+		combat_support_width = 40
+		match_value = 0.5
+		sound_type = plains
+	}
+
+	jungle = {
+		color = { 45 105 45 }
+		movement_cost = 1.8
+		attrition = 0.25
+		combat_width = 45
+		combat_support_width = 20
+
+		ai_terrain_importance_factor = 6.0
+		match_value = 6
+		sound_type = forest
+
+		units = {
+			attack = -0.35
+			movement = -0.35
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.30
+		sickness_chance = 1.0
+		supply_flow_penalty_factor = 0.18
+		truck_attrition_factor = 3.5
+	}
+
+	marsh = {
+		color = { 75 95 65 }
+		movement_cost = 2.4
+		attrition = 0.45
+		combat_width = 40
+		combat_support_width = 20
+		ai_terrain_importance_factor = 9.0
+		match_value = 9
+		sound_type = forest
+
+		units = {
+			attack = -0.40
+			movement = -0.45
+		}
+		
+		sickness_chance = 1.0
+		supply_flow_penalty_factor = 0.22
+		truck_attrition_factor = 5.0
+	}
+
+	desert = {
+		color = { 205 160 90 }
+		movement_cost = 1.15
+		attrition = 0.20
+		combat_width = 75
+		combat_support_width = 35
+		ai_terrain_importance_factor = 8.0
+		match_value = 8
+		sound_type = desert
+
+		units = {
+			attack = -0.10
+			movement = -0.05
+		}
+
+		sickness_chance = 1.0
+		supply_flow_penalty_factor = 0.18
+		truck_attrition_factor = 0.8
+	}
+	
+	water_fjords = {
+		naval_terrain = yes
+		color = { 55 120 150 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		
+		battle_cruiser = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			navy_fuel_consumption_factor = 0.2
+		}
+
+		battleship = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			navy_fuel_consumption_factor = 0.2
+		}
+
+		heavy_cruiser = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			navy_fuel_consumption_factor = 0.2
+		}
+
+		carrier = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			navy_fuel_consumption_factor = 0.2
+		}
+
+		navy_visibility = -0.2
+		positioning = -0.15
+	}
+	
+	water_shallow_sea = {
+		naval_terrain = yes
+		color = { 45 115 175 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		
+		submarine = {
+			navy_visibility = 1.0
+		}
+
+		positioning = -0.05
+		naval_mine_hit_chance = -0.5
+	}
+	
+	water_deep_ocean = {
+		naval_terrain = yes
+		color = { 15 45 110 }
+		movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		
+		destroyer = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+		}
+
+		light_cruiser = {
+			units = {
+				attack = -0.1
+				movement = -0.1
+				defence = -0.1
+			}
+		}
+
+		submarine = {
+			navy_visibility = -0.15
+			units = {
+				movement = -0.25
+			}
+		}
+
+		naval_mine_hit_chance = -0.95
+	}
+}
+
+terrain = {
+	terrain_0					= { type = plains			color = { 	0	 }texture = 1 }
+	terrain_1					= { type = forest			color = { 	1	 }texture = 4 }
+	desert_mountain				= { type = hills			color = { 	2	 }texture = 3 }
+	desert_3					= { type = desert			color = { 	3	 }texture = 9 }
+		
+	terrain_4					= { type = forest			color = { 	4	 }texture = 5 }
+	terrain_5					= { type = plains	 		color = { 	5	 }texture = 0 }
+	terrain_6					= { type = mountain			color = { 	6	 }texture = 11 }
+	terrain_7					= { type = desert			color = { 	7	 }texture = 12 }
+	desert_hills				= { type = desert			color = { 	8	 }texture = 14 }
+	terrain_9					= { type = marsh			color = { 	9	 }texture = 6 }
+	terrain_10					= { type = mountain   		color = { 	10	 }texture = 13 }
+			
+	desert_mountain_11			= { type = mountain			color = { 	11	 }texture = 11 }
+	desert_12					= { type = desert			color = { 	12	 }texture = 8 }
+		
+	forest_13					= { type = urban			color = { 	13	 }texture = 10 spawn_city = yes }
+	forest_14					= { type = lakes			color = { 	14	 }texture = 255 }
+	ocean_15					= { type = ocean			color = { 	15	 }texture = 9 }
+		
+	snow_16						= { type = mountain			color = { 	16	 }texture = 11  perm_snow = yes }
+	plains_17					= { type = plains			color = { 	19	 }texture = 0  perm_snow = yes }
+	
+	hills_blend					= { type = hills			color = { 	17	 }texture = 2 }
+	mountain_variation_sand	 	= { type = mountain			color = { 	18	 }texture = 7 }
+	mountain_variation_grass 	= { type = mountain			color = { 	20	 }texture = 7 }
+	jungle_18					= { type = jungle			color = { 	21	 }texture = 4 }
+	jungle_blend_18				= { type = jungle			color = { 	22	 }texture = 5 }
+	
+	mountain_jungle_27			= { type = mountain			color = { 	27	 }texture = 7 }
+	desert_mountain_tops		= { type = mountain			color = { 	31	 }texture = 15 }
+}
