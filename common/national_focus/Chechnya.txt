@@ -609,7 +609,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_investments_of_islamic_countries
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_investments_of_islamic_countries
 		x = 1
 		y = 3
 		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
@@ -791,7 +791,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_include_mass_islam_into_education
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_include_mass_islam_into_education
 		x = 0
 		y = 1
 		prerequisite = { focus = CHE_foreign_islamic_volunteers }
@@ -928,7 +928,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_radical_islamism
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_radical_islamism
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_deports_of_russians }
@@ -963,7 +963,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_fight_with_moderate
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_fight_with_moderate
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_deports_of_russians }
@@ -1010,7 +1010,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_ideas_of_caucasian_chaliphate
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_ideas_of_caucasian_chaliphate
 		x = 0
 		y = 2
 		prerequisite = { focus = CHE_radical_islamism }
@@ -1287,7 +1287,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_support_azerbajani_radicals
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_support_azerbajani_radicals
 		x = -4
 		y = 1
 		prerequisite = { focus = CHE_ideas_of_caucasian_chaliphate }
@@ -1465,7 +1465,7 @@ focus_tree = {
 	
 	focus = {
 		id = CHE_light_a_fire_in_georgia
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_light_a_fire_in_georgia
 		x = 0
 		y = 1
 		prerequisite = { focus = CHE_ideas_of_caucasian_chaliphate }

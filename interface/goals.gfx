@@ -165,8 +165,43 @@ spriteTypes = {
 
 	
 	SpriteType = {
+		name = "GFX_CHE_include_mass_islam_into_education"
+		texturefile = "gfx/interface/goals/CHE/CHE_include_mass_islam_into_education.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_ideas_of_caucasian_chaliphate"
+		texturefile = "gfx/interface/goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_support_azerbajani_radicals"
+		texturefile = "gfx/interface/goals/CHE/CHE_support_azerbajani_radicals.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHE_radical_islamism"
+		texturefile = "gfx/interface/goals/CHE/CHE_radical_islamism.png"
+	}
+
+	SpriteType = {
 		name = "GFX_CHE_connections_with_islamists_around_the_world"
 		texturefile = "gfx/interface/goals/CHE/CHE_connections_with_islamists_around_the_world.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_investments_of_islamic_countries"
+		texturefile = "gfx/interface/goals/CHE/CHE_investments_of_islamic_countries.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_fight_with_moderate"
+		texturefile = "gfx/interface/goals/CHE/CHE_fight_with_moderate.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHE_light_a_fire_in_georgia"
+		texturefile = "gfx/interface/goals/CHE/CHE_light_a_fire_in_georgia.png"
 	}
 	
 	SpriteType = {
