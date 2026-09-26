@@ -1,13 +1,20 @@
 ﻿l_russian:
- ATCM_MUSIC_STATION_MMCT_TITLE:0 "Радио 'Через Кавказские горы'"
- maintheme:0 "Белая ночь"
- Abkhazetis_mitsaze:0 "Абхазетис мицазе" #Abkhaz nat. anthem
- Pocledni_geroi:0 "Последний герой" #Kino song (The Last Hero)
- Our_Fatherland:0 "Мер Айреник" #Armenian nat. Anthem
- Zartir_lao:0 "Зартир лао" #Armenian nationalist song
- Dideba:0 "Дидеба" #Former Gerogian nat. Anthem
- Gandagana:0 "Гандагана" #Georgian Folk
+ATCM_MUSIC_STATION_MMCT_TITLE: "Радио 'Через Кавказские горы'"
+maintheme: "Белая ночь"
+Abkhazetis_mitsaze: "Абхазетис мицазе" #Abkhaz nat. anthem
+Pocledni_geroi: "Последний герой" #Kino song (The Last Hero)
+Our_Fatherland: "Мер Айреник" #Armenian nat. Anthem
+Zartir_lao: "Зартир лао" #Armenian nationalist song
+Dideba: "Дидеба" #Former Gerogian nat. Anthem
+Gandagana: "Гандагана" #Georgian Folk
 
- Russian_Music_Station:0 "Русское Радио"
- Russky_Mat:0 "Русский мат" #Sektor Gaza song
- VDVSong:0 "С неба привет" #the meme VDV song
+Russian_Music_Station: "Русское Радио"
+Russky_Mat: "Русский мат" #Sektor Gaza song
+VDVSong: "С неба привет" #the meme VDV song
+
+
+Timur_city_of_mine: "Тимур Муцураев - Город мой, ты в огне"
+Timur_mama: "Тимур Муцураев - Мама приезжай и меня забери"
+Timur_schaxid: "Тимур Муцураев - Шахиды в судный день"
+Timur_svechi: "Тимур Муцураев - Погасли свечи"
+Timur_glaza: "Тимур Муцураев - Милые зеленые глаза"

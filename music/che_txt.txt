@@ -1,7 +1,11 @@
 music_station = "Chechen_Music_Station"
 
 music = { song = "Allаhu_Akbаr" chance = { modifier = { factor = 1.0 } } }
-music = { song = "city_of_mine" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Timur_city_of_mine" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Timur_mama" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Timur_schaxid" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Timur_svechi" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Timur_glaza" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Czeczenia" chance = { modifier = { factor = 1.0 } } }
 music = { song = "death_or_freedom" chance = { modifier = { factor = 1.0 } } }
 music = { song = "gazavat" chance = { modifier = { factor = 1.0 } } }
