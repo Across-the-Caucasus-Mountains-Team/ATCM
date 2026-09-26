@@ -1,0 +1,512 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_CHE_include_mass_islam_into_education"
+		texturefile = "gfx/interface/goals/CHE/CHE_include_mass_islam_into_education.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_ideas_of_caucasian_chaliphate"
+		texturefile = "gfx/interface/goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_support_azerbajani_radicals"
+		texturefile = "gfx/interface/goals/CHE/CHE_support_azerbajani_radicals.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_radical_islamism"
+		texturefile = "gfx/interface/goals/CHE/CHE_radical_islamism.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_connections_with_islamists_around_the_world"
+		texturefile = "gfx/interface/goals/CHE/CHE_connections_with_islamists_around_the_world.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_investments_of_islamic_countries"
+		texturefile = "gfx/interface/goals/CHE/CHE_investments_of_islamic_countries.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_fight_with_moderate"
+		texturefile = "gfx/interface/goals/CHE/CHE_fight_with_moderate.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_light_a_fire_in_georgia"
+		texturefile = "gfx/interface/goals/CHE/CHE_light_a_fire_in_georgia.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_establish_a_sharia_police_force"
+		texturefile = "gfx/interface/goals/CHE/CHE_establish_a_sharia_police_force.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_establish_military_training_center_caucasus"
+		texturefile = "gfx/interface/goals/CHE/CHE_establish_military_training_center_caucasus.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_establish_the_guard_of_allah"
+		texturefile = "gfx/interface/goals/CHE/CHE_establish_the_guard_of_allah.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_foreign_islamic_volunteers"
+		texturefile = "gfx/interface/goals/CHE/CHE_foreign_islamic_volunteers.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_hold_ingushetia"
+		texturefile = "gfx/interface/goals/CHE/CHE_hold_ingushetia.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_islamization_of_the_army"
+		texturefile = "gfx/interface/goals/CHE/CHE_islamization_of_the_army.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_ismalist_propaganda"
+		texturefile = "gfx/interface/goals/CHE/CHE_ismalist_propaganda.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_sharia_laws"
+		texturefile = "gfx/interface/goals/CHE/CHE_sharia_laws.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_secure_the_support_of_the_elites"
+		texturefile = "gfx/interface/goals/CHE/CHE_secure_the_support_of_the_elites.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_reorganization_of_courts"
+		texturefile = "gfx/interface/goals/CHE/CHE_reorganization_of_courts.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Surrender"
+		texturefile = "gfx/interface/goals/CHE_Surrender.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_centralize_power"
+		texturefile = "gfx/interface/goals/CHE/CHE_centralize_power.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Total_Control_has_achived"
+		texturefile = "gfx/interface/goals/CHE/CHE_Total_Control_has_achived.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_small_sabotages_units"
+		texturefile = "gfx/interface/goals/CHE/CHE_small_sabotages_units.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_artillery_divisions"
+		texturefile = "gfx/interface/goals/CHE/CHE_Artilerian_divisions.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_harsh_training"
+		texturefile = "gfx/interface/goals/CHE/CHE_harsh_training.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_glory_of_ichkerian_army"
+		texturefile = "gfx/interface/goals/CHE/CHE_glory_of_ichkerian_army.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_guerrilla_warfare"
+		texturefile = "gfx/interface/goals/CHE/CHE_guerrilla_warfare.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_small_groups_tactics"
+		texturefile = "gfx/interface/goals/CHE/CHE_small_groups_tactics.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Fanatical_Resistance"
+		texturefile = "gfx/interface/goals/CHE_Fanatical_Resistance.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_adapt_their_weapon"
+		texturefile = "gfx/interface/goals/CHE/CHE_adapt_their_weapon.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Disrupt_Supply_lines"
+		texturefile = "gfx/interface/goals/CHE_Disrupt_Supply_lines.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Elite_command"
+		texturefile = "gfx/interface/goals/CHE_Elite_command.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_counter_attack"
+		texturefile = "gfx/interface/goals/CHE_counter_attack.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_fight_back_disloyal_elements"
+		texturefile = "gfx/interface/goals/CHE_fight_back_disloyal_elements.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Guns_for_everyone"
+		texturefile = "gfx/interface/goals/CHE_Guns_for_everyone.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_inside_remaining_lands"
+		texturefile = "gfx/interface/goals/CHE_inside_remaining_lands.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Quantity_over_quality"
+		texturefile = "gfx/interface/goals/CHE_Quantity_over_quality.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_homeland_above_all"
+		texturefile = "gfx/interface/goals/CHE_homeland_above_all.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Death_or_freedom"
+		texturefile = "gfx/interface/goals/CHE_Death_or_freedom.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_khatab_influence"
+		texturefile = "gfx/interface/goals/CHE/CHE_khatab_influence.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_build_secular_state"
+		texturefile = "gfx/interface/goals/CHE/CHE_build_secular_state.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_2nd_session_of_the_firs_chechen_national_congress"
+		texturefile = "gfx/interface/goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_propaganda_of_nationalism"
+		texturefile = "gfx/interface/goals/CHE/CHE_propaganda_of_nationalism.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_build_islamic_state"
+		texturefile = "gfx/interface/goals/CHE/CHE_build_islamic_state.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_hold_elections"
+		texturefile = "gfx/interface/goals/CHE/CHE_hold_elections.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_operations_outside_of_chechnya"
+		texturefile = "gfx/interface/goals/CHE_operations_outside_of_chechnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_ukranians_volunters"
+		texturefile = "gfx/interface/goals/CHE/CHE_ukranians_volunters.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_cry_for_help"
+		texturefile = "gfx/interface/goals/CHE/CHE_cry_for_help.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_muslim_volunteers"
+		texturefile = "gfx/interface/goals/CHE/CHE_muslim_volunteers.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_roads_in_mountains"
+		texturefile = "gfx/interface/goals/CHE_roads_in_mountains.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Economy_question"
+		texturefile = "gfx/interface/goals/CHE_Economy_question.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_fund_north"
+		texturefile = "gfx/interface/goals/CHE_fund_north.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_factories_in_grozny"
+		texturefile = "gfx/interface/goals/CHE_factories_in_grozny.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_fight_back"
+		texturefile = "gfx/interface/goals/CHE_fight_back.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_War_correspondents"
+		texturefile = "gfx/interface/goals/CHE_War_correspondents.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_internet"
+		texturefile = "gfx/interface/goals/CHE_internet.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Deny_our_war_crimes"
+		texturefile = "gfx/interface/goals/CHE_Deny_our_war_crimes.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Money_in_return_of_good_propaganda"
+		texturefile = "gfx/interface/goals/CHE_Money_in_return_of_good_propaganda.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Hold_the_line"
+		texturefile = "gfx/interface/goals/CHE_Hold_the_line.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_State_of_emergency"
+		texturefile = "gfx/interface/goals/CHE_State_of_emergency.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Elite_Divisions"
+		texturefile = "gfx/interface/goals/CHE_Elite_Divisions.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Mountains_ghosts"
+		texturefile = "gfx/interface/goals/CHE_Mountains_ghosts.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_for_Chechnya"
+		texturefile = "gfx/interface/goals/CHE_for_Chechnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_propaganda_of_islam"
+		texturefile = "gfx/interface/goals/CHE/CHE_propaganda_of_islam.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Tanks_Nigthmare"
+		texturefile = "gfx/interface/goals/CHE_Tanks_Nigthmare.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Iron_Ghosts"
+		texturefile = "gfx/interface/goals/CHE_Iron_Ghosts.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_For_God"
+		texturefile = "gfx/interface/goals/CHE_For_God.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_for_Dudayev"
+		texturefile = "gfx/interface/goals/CHE_for_Dudayev.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Heavy_equiped"
+		texturefile = "gfx/interface/goals/CHE_Heavy_equiped.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Tank_Training"
+		texturefile = "gfx/interface/goals/CHE_Tank_Training.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Elite_armed_forces"
+		texturefile = "gfx/interface/goals/CHE_Elite_armed_forces.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_fund_warlords"
+		texturefile = "gfx/interface/goals/CHE_fund_warlords.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Urban_training"
+		texturefile = "gfx/interface/goals/CHE_Urban_training.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_irregular_forces"
+		texturefile = "gfx/interface/goals/CHE_irregular_forces.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Weak_army"
+		texturefile = "gfx/interface/goals/CHE_Weak_army.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Operations"
+		texturefile = "gfx/interface/goals/CHE_Operations.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Deport_Russians"
+		texturefile = "gfx/interface/goals/CHE_Deport_Russians.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Future_of_the_Chechen_ingush_republic"
+		texturefile = "gfx/interface/goals/CHE_Future_of_the_Chechen_ingush_republic.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Start_the_revolution"
+		texturefile = "gfx/interface/goals/CHE_Start_the_revolution.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Russia_is_Still_Communist"
+		texturefile = "gfx/interface/goals/CHE_Russia_is_Still_Communist.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Russian_POWS"
+		texturefile = "gfx/interface/goals/CHE_Russian_POWS.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Release_Battle_Footage"
+		texturefile = "gfx/interface/goals/CHE_Release_Battle_Footage.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_General_Staff_of_Chechnya"
+		texturefile = "gfx/interface/goals/CHE_General_Staff_of_Chechnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Elite_Volunnters"
+		texturefile = "gfx/interface/goals/CHE_Elite_Volunnters.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Recruit_Youth"
+		texturefile = "gfx/interface/goals/CHE_Recruit_Youth.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Recruit_Prisoners"
+		texturefile = "gfx/interface/goals/CHE_Recruit_Prisoners.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Recruit_Elderly"
+		texturefile = "gfx/interface/goals/CHE_Recruit_Elderly.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Shortage_of_manpower"
+		texturefile = "gfx/interface/goals/CHE_Shortage_of_manpower.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Aftermath_of_First_Wave"
+		texturefile = "gfx/interface/goals/CHE_Aftermath_of_First_Wave.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Information_war"
+		texturefile = "gfx/interface/goals/CHE_Information_war.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Call_Everyone"
+		texturefile = "gfx/interface/goals/CHE_Call_Everyone.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Battle_of_Grozny"
+		texturefile = "gfx/interface/goals/CHE_Battle_of_Grozny.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Arrests_and_raids"
+		texturefile = "gfx/interface/goals/CHE_Arrests_and_raids.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Control_over_media"
+		texturefile = "gfx/interface/goals/CHE_Control_over_media.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Crackdown_Opposition"
+		texturefile = "gfx/interface/goals/CHE_Crackdown_Opposition.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_national_speech"
+		texturefile = "gfx/interface/goals/CHE_national_speech.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Silent_killing"
+		texturefile = "gfx/interface/goals/CHE_Silent_killing.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Young_patriots"
+		texturefile = "gfx/interface/goals/CHE_Young_patriots.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Loyalists"
+		texturefile = "gfx/interface/goals/CHE_Loyalists.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Disarm_pro_Russians"
+		texturefile = "gfx/interface/goals/CHE_Disarm_pro_Russians.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Muslim_conservatism"
+		texturefile = "gfx/interface/goals/CHE_Muslim_conservatism.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_National_Guard"
+		texturefile = "gfx/interface/goals/CHE_National_Guard.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Report"
+		texturefile = "gfx/interface/goals/CHE_Report.png"
+	}
+}

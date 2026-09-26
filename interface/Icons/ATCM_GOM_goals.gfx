@@ -1,0 +1,92 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_GOM_Guria"
+		texturefile = "gfx/interface/goals/GOM_Guria.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Svaneti"
+		texturefile = "gfx/interface/goals/GOM_Svaneti.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Samegrelo"
+		texturefile = "gfx/interface/goals/GOM_Samegrelo.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Racha"
+		texturefile = "gfx/interface/goals/GOM_Racha.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Imereti"
+		texturefile = "gfx/interface/goals/GOM_Imereti.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Adjara"
+		texturefile = "gfx/interface/goals/GOM_Adjara.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_The_Last_battle"
+		texturefile = "gfx/interface/goals/GOM_The_Last_battle.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_To_East"
+		texturefile = "gfx/interface/goals/GOM_To_East.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_To_Gori"
+		texturefile = "gfx/interface/goals/GOM_To_Gori.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Uprising_in_Imereti"
+		texturefile = "gfx/interface/goals/GOM_Uprising_in_Imereti.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Attack_Samachablo"
+		texturefile = "gfx/interface/goals/GOM_Attack_Samachablo.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Attack_Abkhazia"
+		texturefile = "gfx/interface/goals/GOM_Attack_Abkhazia.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Lost_Lands"
+		texturefile = "gfx/interface/goals/GOM_Lost_Lands.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Attack_South"
+		texturefile = "gfx/interface/goals/GOM_Attack_South.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Cross_Mtkvari"
+		texturefile = "gfx/interface/goals/GOM_Cross_Mtkvari.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_To_Tbilisi"
+		texturefile = "gfx/interface/goals/GOM_To_Tbilisi.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_Regroup"
+		texturefile = "gfx/interface/goals/GOM_Regroup.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOM_now_or_never"
+		texturefile = "gfx/interface/goals/GOM_now_or_never.png"
+	}
+}

@@ -1,0 +1,27 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_ABK_Defend"
+		texturefile = "gfx/interface/goals/ABK/ABK_Defend.png"
+	}
+
+SpriteType = {
+		name = "GFX_ABK_volunteers"
+		texturefile = "gfx/interface/goals/ABK/ABK_volunteers.png"
+	}
+
+SpriteType = {
+		name = "GFX_ABK_suprise_attack"
+		texturefile = "gfx/interface/goals/ABK/ABK_suprise_attack.png"
+	}
+
+SpriteType = {
+		name = "GFX_ABK_retreat"
+		texturefile = "gfx/interface/goals/ABK/ABK_retreat.png"
+	}
+
+SpriteType = {
+		name = "GFX_ABK_militia_in_sukhumi"
+		texturefile = "gfx/interface/goals/ABK/ABK_militia_in_sukhumi.png"
+	}
+}

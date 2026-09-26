@@ -1,0 +1,12 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_TUR_Shining_Example_of_liberalism"
+		texturefile = "gfx/interface/goals/TUR_Shining_Example_of_liberalism.png"
+	}
+
+SpriteType = {
+		name = "GFX_TUR_Deport_Armenians"
+		texturefile = "gfx/interface/goals/TUR_Deport_Armenians.png"
+	}
+}

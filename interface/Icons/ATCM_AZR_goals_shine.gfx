@@ -1,0 +1,622 @@
+spriteTypes = {
+
+spriteType = {
+    name = "GFX_AZR_Soviet_State_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Soviet_State.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Soviet_State.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Soviet_State.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Sovereignty_Question_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Sovereignty_Question.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Sovereignty_Question.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Sovereignty_Question.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Pursue_Independence_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Preservation_of_USSR_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Preservation_of_USSR.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Preservation_of_USSR.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Preservation_of_USSR.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Soviet_Loyalty_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Support_Coup_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Communist_Preservation_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Pursuit_of_Independence_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Pursuit_of_Independence.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Anti_Communist_Protests_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Anti_Communist_Protests.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Anti_Communist_Protests.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Anti_Communist_Protests.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Pro_Democratic_Speeches_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Pro_Democratic_Speeches.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Pro_Democratic_Speeches.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Pro_Democratic_Speeches.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Musavat_Revival_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Musavat_Revival.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Musavat_Revival.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Musavat_Revival.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_New_Parties_Creation_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_New_Parties_Creation.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_New_Parties_Creation.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_New_Parties_Creation.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_AZR_Founding_Democratic_Institutions_shine"
+    texturefile = "gfx/interface/goals/AZR/AZR_Founding_Democratic_Institutions.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Founding_Democratic_Institutions.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/AZR/AZR_Founding_Democratic_Institutions.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+SpriteType = {
+		name = "GFX_AZR_Independence_shine"
+		texturefile = "gfx/interface/goals/AZR/AZR_Independence.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Independence.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Independence.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+SpriteType = {
+		name = "GFX_AZR_Operation_ring_shine"
+		texturefile = "gfx/interface/goals/AZR/AZR_Operation_ring.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Operation_ring.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Operation_ring.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+SpriteType = {
+		name = "GFX_AZR_Operations_shine"
+		texturefile = "gfx/interface/goals/AZR/AZR_Operations.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Operations.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Operations.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+SpriteType = {
+		name = "GFX_AZR_Purge_popular_front_shine"
+		texturefile = "gfx/interface/goals/AZR/AZR_Purge_popular_front.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Purge_popular_front.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Purge_popular_front.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+SpriteType = {
+		name = "GFX_AZR_internal_order_shine"
+		texturefile = "gfx/interface/goals/AZR/AZR_internal_order.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_internal_order.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_internal_order.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+SpriteType = {
+		name = "GFX_AZR_Consolidate_Party_Control_shine"
+		texturefile = "gfx/interface/goals/AZR/AZR_Consolidate_Party_Control.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Consolidate_Party_Control.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Consolidate_Party_Control.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+
+SpriteType = {
+		name = "GFX_AZR_Black_January_shine"
+		texturefile = "gfx/interface/goals/AZR/AZR_Black_January.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Black_January.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/AZR/AZR_Black_January.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,157 @@
+spriteTypes = {
+
+spriteType = {
+    name = "GFX_ABK_Defend_shine"
+    texturefile = "gfx/interface/goals/ABK/ABK_Defend.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_Defend.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_Defend.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_ABK_volunteers_shine"
+    texturefile = "gfx/interface/goals/ABK/ABK_volunteers.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_volunteers.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_volunteers.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_ABK_suprise_attack_shine"
+    texturefile = "gfx/interface/goals/ABK/ABK_suprise_attack.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_suprise_attack.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_suprise_attack.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_ABK_retreat_shine"
+    texturefile = "gfx/interface/goals/ABK/ABK_retreat.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_retreat.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_retreat.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+
+spriteType = {
+    name = "GFX_ABK_militia_in_sukhumi_shine"
+    texturefile = "gfx/interface/goals/ABK/ABK_militia_in_sukhumi.png"
+    effectFile = "gfx/FX/buttonstate.lua"
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_militia_in_sukhumi.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = -90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    animation = {
+        animationmaskfile = "gfx/interface/goals/ABK/ABK_militia_in_sukhumi.png"
+        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+        animationrotation = 90.0
+        animationlooping = no
+        animationtime = 0.75
+        animationdelay = 0
+        animationblendmode = "add"
+        animationtype = "scrolling"
+        animationrotationoffset = { x = 0.0 y = 0.0 }
+        animationtexturescale = { x = 1.0 y = 1.0 }
+    }
+    legacy_lazy_load = no
+}
+}

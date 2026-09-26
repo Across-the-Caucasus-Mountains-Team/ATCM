@@ -1,0 +1,648 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+
+SpriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/goals/goal_generic_trade.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_CHE_Reform_the_Schools"
+		texturefile = "gfx/interface/goals/Goal_CHE_Reform_the_Schools.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_CHE_Aftermath_of_revolution"
+		texturefile = "gfx/interface/goals/Goal_CHE_Aftermath_of_revolution.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_CHE_Chechen_Naxar"
+		texturefile = "gfx/interface/goals/Goal_CHE_Chechen_Naxar.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_CHE_National_Propaganda"
+		texturefile = "gfx/interface/goals/Goal_CHE_National_Propaganda.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_CHE_Recognition"
+		texturefile = "gfx/interface/goals/Goal_CHE_Recognition.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Total_air_supremacy"
+		texturefile = "gfx/interface/goals/Goal_SAK_Total_air_supremacy.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Strike_Zviadists"
+		texturefile = "gfx/interface/goals/Goal_SAK_Strike_Zviadists.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Full_mobilization"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_mobilization.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Agreements_with_russia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Agreements_with_russia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Join_CSTO"
+		texturefile = "gfx/interface/goals/Goal_SAK_Join_CSTO.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Restore_the_order"
+		texturefile = "gfx/interface/goals/Goal_SAK_Restore_the_order.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_From_Sky"
+		texturefile = "gfx/interface/goals/Goal_SAK_From_Sky.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Mkhedrion_Counter_attack"
+		texturefile = "gfx/interface/goals/Goal_SAK_Mkhedrion_Counter_attack.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Bomb_Their_Supply"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bomb_Their_Supply.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Bomb_Them_From_Land"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bomb_Them_From_Land.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_cut_off_Chechen_supply"
+		texturefile = "gfx/interface/goals/Goal_SAK_cut_off_Chechen_supply.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Escape"
+		texturefile = "gfx/interface/goals/Goal_SAK_Escape.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Evacuation_From_Abkhazia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Evacuation_From_Abkhazia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_Last_Steps"
+		texturefile = "gfx/interface/goals/Goal_GAM_Last_Steps.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_Guns_For_Zviadists"
+		texturefile = "gfx/interface/goals/Goal_GAM_Guns_For_Zviadists.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_Explain_why_they_are_traitors"
+		texturefile = "gfx/interface/goals/Goal_GAM_Explain_why_they_are_traitors.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_Corruption_in_the_army"
+		texturefile = "gfx/interface/goals/Goal_GAM_Corruption_in_the_army.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_talks_with_Chechnya"
+		texturefile = "gfx/interface/goals/Goal_GAM_talks_with_Chechnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_Support_from_chechnya"
+		texturefile = "gfx/interface/goals/Goal_GAM_Support_from_chechnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOAL_GAM_Speec_for_zviadists"
+		texturefile = "gfx/interface/goals/GOAL_GAM_Speec_for_zviadists.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_Shevardnadze_is_russophili"
+		texturefile = "gfx/interface/goals/Goal_GAM_Shevardnadze_is_russophili.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_GAM_sabotage_military_council"
+		texturefile = "gfx/interface/goals/Goal_GAM_sabotage_military_council.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Harsh_training"
+		texturefile = "gfx/interface/goals/Goal_SAK_Harsh_training.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Strike_Abkhazia"
+		texturefile = "gfx/interface/goals/Goal_Strike_Abkhazia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Bread_delivery"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bread_delivery.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Legalize_Trade"
+		texturefile = "gfx/interface/goals/Goal_SAK_Legalize_Trade.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Hospital"
+		texturefile = "gfx/interface/goals/Goal_SAK_Hospital.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_International_aid"
+		texturefile = "gfx/interface/goals/Goal_SAK_International_aid.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Privatize_agriculture"
+		texturefile = "gfx/interface/goals/Goal_SAK_Privatize_agriculture.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Reconstructe_the_infastructure"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reconstructe_the_infastructure.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Russia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Russia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Nato"
+		texturefile = "gfx/interface/goals/Goal_SAK_Nato.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Learn_mistakes_from_coup"
+		texturefile = "gfx/interface/goals/Goal_SAK_Learn_mistakes_from_coup.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Discipline"
+		texturefile = "gfx/interface/goals/Goal_SAK_Discipline.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_INDEPENDENCE"
+		texturefile = "gfx/interface/goals/Goal_SAK_INDEPENDENCE.png"
+	}
+
+SpriteType = {
+		name = "GFX_GOAL_SAK_Save_the_Fuel"
+		texturefile = "gfx/interface/goals/GOAL_SAK_Save_the_Fuel.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Status_of_the_Economy"
+		texturefile = "gfx/interface/goals/Goal_SAK_Status_of_the_Economy.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Statue_of_The_Army"
+		texturefile = "gfx/interface/goals/Goal_SAK_Statue_of_The_Army.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_ads_about_military"
+		texturefile = "gfx/interface/goals/Goal_SAK_ads_about_military.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Blitz"
+		texturefile = "gfx/interface/goals/Goal_SAK_Blitz.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Economy_Reform"
+		texturefile = "gfx/interface/goals/Goal_SAK_Economy_Reform.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Large_Speech"
+		texturefile = "gfx/interface/goals/Goal_SAK_Large_Speech.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Reform_The_Military"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reform_The_Military.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Adjara_Question"
+		texturefile = "gfx/interface/goals/Goal_SAK_Adjara_Question.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Clear_Central_Tbilisi"
+		texturefile = "gfx/interface/goals/Goal_SAK_Clear_Central_Tbilisi.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Propaganda_TV"
+		texturefile = "gfx/interface/goals/Goal_SAK_Propaganda_TV.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Ban_Opposition_Media"
+		texturefile = "gfx/interface/goals/Goal_SAK_Ban_Opposition_Media.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Support_Free_Georgia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Support_Free_Georgia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Purge_Zviadists"
+		texturefile = "gfx/interface/goals/Goal_SAK_Purge_Zviadists.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Reinforce_Militia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reinforce_Militia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Fight_Back_Western_Resistance"
+		texturefile = "gfx/interface/goals/Goal_SAK_Fight_Back_Western_Resistance.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Full_Control_on_Parliament"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_Control_on_Parliament.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Full_Control_on_Military"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_Control_on_Military.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Full_Control_on_Media"
+		texturefile = "gfx/interface/goals/Goal_SAK_Full_Control_on_Media.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Contact_Shevardnadze"
+		texturefile = "gfx/interface/goals/Goal_SAK_Contact_Shevardnadze.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_We_Need_President"
+		texturefile = "gfx/interface/goals/Goal_SAK_We_Need_President.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Negotiations_with_Abkhazia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Negotiations_with_Abkhazia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Negotiations_with_south_ossetia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Negotiations_with_south_ossetia.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Negotiations"
+		texturefile = "gfx/interface/goals/Goal_SAK_Negotiations.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Aftermath_of_Coup"
+		texturefile = "gfx/interface/goals/Goal_SAK_Aftermath_of_Coup.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_New_Currency"
+		texturefile = "gfx/interface/goals/Goal_SAK_New_Currency.png"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Armenian_Diaspora"
+		texturefile = "gfx/interface/goals/Goal_ARM_Armenian_Diaspora.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_armenian_hayid"
+		texturefile = "gfx/interface/goals/Goal_ARM_armenian_hayid.dds"
+	}
+
+SpriteType = {
+		name = "GFX_GOAL_ARM_Elections"
+		texturefile = "gfx/interface/goals/GOAL_ARM_Elections.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Sieze_Soviet_guns"
+		texturefile = "gfx/interface/goals/Goal_ARM_Sieze_Soviet_guns.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Lake_Sevan"
+		texturefile = "gfx/interface/goals/Goal_ARM_Lake_Sevan.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Food_Tickets"
+		texturefile = "gfx/interface/goals/Goal_ARM_Food_Tickets.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Forever_united"
+		texturefile = "gfx/interface/goals/Goal_ARM_Forever_united.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Karabakh_Issue"
+		texturefile = "gfx/interface/goals/Goal_ARM_Karabakh_Issue.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Reverse_Operation_ring"
+		texturefile = "gfx/interface/goals/Goal_ARM_Reverse_Operation_ring.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Spitak_Earthquake"
+		texturefile = "gfx/interface/goals/ARM_Spitak_Earthquake.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_ARM_Council_Elections"
+		texturefile = "gfx/interface/goals/ARM_Council_Elections.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Interview_with_journalists"
+		texturefile = "gfx/interface/goals/Goal_SAK_Interview_with_journalists.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Where_is_Kitovani"
+		texturefile = "gfx/interface/goals/Goal_SAK_Where_is_Kitovani.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Raid"
+		texturefile = "gfx/interface/goals/Goal_Generic_Raid.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_We_didnt_done_anything_bad"
+		texturefile = "gfx/interface/goals/Goal_SAK_We_didnt_done_anything_bad.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Arresting"
+		texturefile = "gfx/interface/goals/Goal_Generic_Arresting.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Arrest_bandits"
+		texturefile = "gfx/interface/goals/Goal_Generic_Arrest_bandits.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Prison"
+		texturefile = "gfx/interface/goals/Goal_Generic_Prison.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Eyes_On_Tbilisi"
+		texturefile = "gfx/interface/goals/Goal_SAK_Eyes_On_Tbilisi.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Our_Actions"
+		texturefile = "gfx/interface/goals/Goal_SAK_Our_Actions.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Rise_from_Death"
+		texturefile = "gfx/interface/goals/Goal_SAK_Rise_from_Death.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Coup"
+		texturefile = "gfx/interface/goals/Goal_SAK_Coup.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Blockade"
+		texturefile = "gfx/interface/goals/Goal_Generic_Blockade.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Battle_of_Gagra"
+		texturefile = "gfx/interface/goals/Goal_SAK_Battle_of_Gagra.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Storm_Sokhumi"
+		texturefile = "gfx/interface/goals/Goal_SAK_Storm_Sokhumi.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Mkhedrioni"
+		texturefile = "gfx/interface/goals/Goal_SAK_Mkhedrioni.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_National_Guard"
+		texturefile = "gfx/interface/goals/Goal_SAK_National_Guard.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_WAR"
+		texturefile = "gfx/interface/goals/Goal_SAK_WAR.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Little_Fish"
+		texturefile = "gfx/interface/goals/Goal_SAK_Little_Fish.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Bigger_fish"
+		texturefile = "gfx/interface/goals/Goal_SAK_Bigger_fish.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Close_Mountain_Pass"
+		texturefile = "gfx/interface/goals/Goal_SAK_Close_Mountain_Pass.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Battle_of_tskhinvali"
+		texturefile = "gfx/interface/goals/Goal_SAK_Battle_of_tskhinvali.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_April_Tragedy"
+		texturefile = "gfx/interface/goals/Goal_SAK_April_Tragedy.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Georgianizm"
+		texturefile = "gfx/interface/goals/Goal_SAK_Georgianizm.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_ossetia"
+		texturefile = "gfx/interface/goals/Goal_SAK_ossetia.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_abkhazia"
+		texturefile = "gfx/interface/goals/Goal_SAK_abkhazia.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Georgia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Georgia.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_resources"
+		texturefile = "gfx/interface/goals/Goal_Generic_resources.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_privatization"
+		texturefile = "gfx/interface/goals/Goal_Generic_privatization.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_generic_Orthodox"
+		texturefile = "gfx/interface/goals/Goal_generic_Orthodox.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_School"
+		texturefile = "gfx/interface/goals/Goal_SAK_School.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Start_work"
+		texturefile = "gfx/interface/goals/Goal_SAK_Start_work.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Navy"
+		texturefile = "gfx/interface/goals/Goal_SAK_Navy.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_People"
+		texturefile = "gfx/interface/goals/Goal_SAK_People.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Decommunization"
+		texturefile = "gfx/interface/goals/Goal_Generic_Decommunization.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Coat_of_arms"
+		texturefile = "gfx/interface/goals/Goal_SAK_Coat_of_arms.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Goverment"
+		texturefile = "gfx/interface/goals/Goal_SAK_Goverment.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Constitution"
+		texturefile = "gfx/interface/goals/Goal_Generic_Constitution.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Changes"
+		texturefile = "gfx/interface/goals/Goal_Generic_Changes.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Againts_Orthodox"
+		texturefile = "gfx/interface/goals/Goal_Generic_Againts_Orthodox.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Calm_people"
+		texturefile = "gfx/interface/goals/Goal_SAK_Calm_people.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Close_our_eyes"
+		texturefile = "gfx/interface/goals/Goal_SAK_Close_our_eyes.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Our_Speech"
+		texturefile = "gfx/interface/goals/Goal_SAK_Our_Speech.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Fund_Police"
+		texturefile = "gfx/interface/goals/Goal_SAK_Fund_Police.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Reinforce_Soldiers"
+		texturefile = "gfx/interface/goals/Goal_SAK_Reinforce_Soldiers.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Riot_police"
+		texturefile = "gfx/interface/goals/Goal_SAK_Riot_police.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Propaganda_effort"
+		texturefile = "gfx/interface/goals/Goal_SAK_Propaganda_effort.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_Generic_Gorbachevs_Help"
+		texturefile = "gfx/interface/goals/Goal_Generic_Gorbachevs_Help.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Last_Chances"
+		texturefile = "gfx/interface/goals/Goal_SAK_Last_Chances.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_sabotage"
+		texturefile = "gfx/interface/goals/Goal_SAK_sabotage.dds"
+	}
+
+SpriteType = {
+		name = "GFX_Goal_SAK_Gamsakhurdia"
+		texturefile = "gfx/interface/goals/Goal_SAK_Gamsakhurdia.dds"
+	}
+}

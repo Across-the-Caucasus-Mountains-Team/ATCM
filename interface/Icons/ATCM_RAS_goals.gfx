@@ -1,0 +1,362 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_RAS_additonal_armor"
+		texturefile = "gfx/interface/goals/RAS_additonal_armor.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_additonal_airforce"
+		texturefile = "gfx/interface/goals/RAS_additonal_airforce.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_emergency_state"
+		texturefile = "gfx/interface/goals/RAS_emergency_state.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Accept_new_constitution"
+		texturefile = "gfx/interface/goals/RAS_Accept_new_constitution.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_in_progress_of_economic_reforms"
+		texturefile = "gfx/interface/goals/RAS_in_progress_of_economic_reforms.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Free_trade_marketing"
+		texturefile = "gfx/interface/goals/RAS_Free_trade_marketing.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Reduction_of_government_Spending"
+		texturefile = "gfx/interface/goals/RAS_Reduction_of_government_Spending.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Shock_economic_reforms"
+		texturefile = "gfx/interface/goals/RAS_Shock_economic_reforms.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Vouchers"
+		texturefile = "gfx/interface/goals/RAS_Vouchers.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Save_economy"
+		texturefile = "gfx/interface/goals/RAS_Save_economy.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_New_Union_Treaty"
+		texturefile = "gfx/interface/goals/RAS_New_Union_Treaty.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Retreat_from_baltics"
+		texturefile = "gfx/interface/goals/RAS_Retreat_from_baltics.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Intervantion"
+		texturefile = "gfx/interface/goals/RAS_Intervantion.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_end_of_the_Ussr"
+		texturefile = "gfx/interface/goals/RAS_end_of_the_Ussr.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Support_Chechen_oppositon"
+		texturefile = "gfx/interface/goals/RAS_Support_Chechen_oppositon.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Emergency"
+		texturefile = "gfx/interface/goals/RAS_Emergency.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_RIP"
+		texturefile = "gfx/interface/goals/RAS_RIP.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_defeated"
+		texturefile = "gfx/interface/goals/RAS_defeated.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_like_this_mf"
+		texturefile = "gfx/interface/goals/RAS_like_this_mf.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Held_Referendum"
+		texturefile = "gfx/interface/goals/RAS_Held_Referendum.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_GKCHP"
+		texturefile = "gfx/interface/goals/RAS_GKCHP.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Dislike_this_mf"
+		texturefile = "gfx/interface/goals/RAS_Dislike_this_mf.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_SO"
+		texturefile = "gfx/interface/goals/RAS_SO.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_RIP_Communist_Georgia"
+		texturefile = "gfx/interface/goals/RAS_RIP_Communist_Georgia.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Chechen_protest"
+		texturefile = "gfx/interface/goals/RAS_Chechen_protest.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_congress_two"
+		texturefile = "gfx/interface/goals/RAS_congress_two.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Yeltsin_presidency"
+		texturefile = "gfx/interface/goals/RAS_Yeltsin_presidency.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_additional_infantry_battalions"
+		texturefile = "gfx/interface/goals/RAS/RAS_additional_infantry_battalions.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_bring_in_new_armor"
+		texturefile = "gfx/interface/goals/RAS/RAS_bring_in_new_armor.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_sing_the_snv_two"
+		texturefile = "gfx/interface/goals/RAS/RAS_sing_the_snv_two.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Strike_Chechnya"
+		texturefile = "gfx/interface/goals/RAS_Strike_Chechnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Support_transinistria"
+		texturefile = "gfx/interface/goals/RAS_Support_transinistria.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Peacekeeping_forces_in_Abkhazia"
+		texturefile = "gfx/interface/goals/RAS_Peacekeeping_forces_in_Abkhazia.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_new_forigne_policy"
+		texturefile = "gfx/interface/goals/RAS_new_forigne_policy.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Influence_on_post_soviet_lands"
+		texturefile = "gfx/interface/goals/RAS_Influence_on_post_soviet_lands.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Parliament_resistance"
+		texturefile = "gfx/interface/goals/RAS_Parliament_resistance.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Yeltsin"
+		texturefile = "gfx/interface/goals/RAS_Yeltsin.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_after_coup"
+		texturefile = "gfx/interface/goals/RAS_after_coup.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Congress"
+		texturefile = "gfx/interface/goals/RAS_Congress.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Gayards_resign"
+		texturefile = "gfx/interface/goals/RAS_Gayards_resign.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Leave_gaidar"
+		texturefile = "gfx/interface/goals/RAS_Leave_gaidar.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Black_october"
+		texturefile = "gfx/interface/goals/RAS_Black_october.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_federal_law"
+		texturefile = "gfx/interface/goals/RAS_federal_law.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_failed_blitz"
+		texturefile = "gfx/interface/goals/RAS/RAS_failed_blitz.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_omon_to_chechnya"
+		texturefile = "gfx/interface/goals/RAS/RAS_omon_to_chechnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_organize_the_frontline"
+		texturefile = "gfx/interface/goals/RAS/RAS_organize_the_frontline.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_call_reinforcements"
+		texturefile = "gfx/interface/goals/RAS/RAS_call_reinforcements.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_call_for_air_strikes"
+		texturefile = "gfx/interface/goals/RAS/RAS_call_for_air_strikes.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_OperationsOfOurSpecialServices"
+		texturefile = "gfx/interface/goals/RAS/OperationsOfOurSpecialServisec.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_fsb_and_gru_cooperation"
+		texturefile = "gfx/interface/goals/RAS/RAS_fsb_and_gru_cooperation.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_strengthen_chechen_blockposts"
+		texturefile = "gfx/interface/goals/RAS/RAS_strengthen_chechen_blockposts.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_strengthen_awacs_reconnaissance"
+		texturefile = "gfx/interface/goals/RAS/RAS_strengthen_awacs_reconnaissance.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_try_to_kill_dudayev"
+		texturefile = "gfx/interface/goals/RAS/RAS_try_to_kill_dudayev.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Information_war"
+		texturefile = "gfx/interface/goals/RAS/RAS_Information_war.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_chehcnya_is_terrorist_state"
+		texturefile = "gfx/interface/goals/RAS/RAS_chehcnya_is_terrorist_state.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_conceal_war_crimes"
+		texturefile = "gfx/interface/goals/RAS/RAS_conceal_war_crimes.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_demonization_of_chechen_soldiers"
+		texturefile = "gfx/interface/goals/RAS/RAS_demonization_of_chechen_soldiers.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_humaniration_aid_to_checnya"
+		texturefile = "gfx/interface/goals/RAS/RAS_humaniration_aid_to_checnya.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_start_negotation"
+		texturefile = "gfx/interface/goals/RAS/RAS_start_negotation.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_yes_to_peace"
+		texturefile = "gfx/interface/goals/RAS/RAS_yes_to_peace.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Crush_Zviadists"
+		texturefile = "gfx/interface/goals/RAS_Crush_Zviadists.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Peacekeeping_forces_in_Ossetia"
+		texturefile = "gfx/interface/goals/RAS_Peacekeeping_forces_in_Ossetia.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Georgian_civil_war"
+		texturefile = "gfx/interface/goals/RAS_Georgian_civil_war.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Karabakh_issue"
+		texturefile = "gfx/interface/goals/RAS_Karabakh_issue.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_recognize_their_independence"
+		texturefile = "gfx/interface/goals/RAS_recognize_their_independence.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_rise_of_Rukh"
+		texturefile = "gfx/interface/goals/RAS_rise_of_Rukh.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Slavic_unrest"
+		texturefile = "gfx/interface/goals/RAS_Slavic_unrest.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Clashes"
+		texturefile = "gfx/interface/goals/RAS_Clashes.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_problems_in_the_west"
+		texturefile = "gfx/interface/goals/RAS_problems_in_the_west.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_problems_in_the_south"
+		texturefile = "gfx/interface/goals/RAS_problems_in_the_south.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_continue_perestroika"
+		texturefile = "gfx/interface/goals/RAS_continue_perestroika.png"
+	}
+
+SpriteType = {
+		name = "GFX_RAS_Seventh_years_of_the_Union"
+		texturefile = "gfx/interface/goals/RAS_Seventh_years_of_the_Union.png"
+	}
+}

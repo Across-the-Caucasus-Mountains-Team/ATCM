@@ -1,0 +1,112 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_ARM_War_is_in_here"
+		texturefile = "gfx/interface/goals/ARM_War_is_in_here.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Soviet_jets"
+		texturefile = "gfx/interface/goals/ARM_Soviet_jets.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_ARMENIANS"
+		texturefile = "gfx/interface/goals/ARM_ARMENIANS.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Recruit_pilots"
+		texturefile = "gfx/interface/goals/ARM_Recruit_pilots.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Paramilitaries"
+		texturefile = "gfx/interface/goals/ARM_Paramilitaries.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Ground_Force"
+		texturefile = "gfx/interface/goals/ARM_Ground_Force.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_air_force"
+		texturefile = "gfx/interface/goals/ARM_air_force.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_nintheen_days_deadblock"
+		texturefile = "gfx/interface/goals/ARM_nintheen_days_deadblock.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_referendum"
+		texturefile = "gfx/interface/goals/ARM_referendum.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Tenisions_in_karabakh"
+		texturefile = "gfx/interface/goals/ARM_Tenisions_in_karabakh.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_prepare_for_inavitable"
+		texturefile = "gfx/interface/goals/ARM_prepare_for_inavitable.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Develop_to_war"
+		texturefile = "gfx/interface/goals/ARM_Develop_to_war.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Nagarno_Karabakh_problem"
+		texturefile = "gfx/interface/goals/ARM_Nagarno_Karabakh_problem.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Recruitment_Effort"
+		texturefile = "gfx/interface/goals/ARM_Recruitment_Effort.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Defencive_Line"
+		texturefile = "gfx/interface/goals/ARM_Defencive_Line.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Armenia_First"
+		texturefile = "gfx/interface/goals/ARM_Armenia_First.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Reach_out_to_the_Media"
+		texturefile = "gfx/interface/goals/ARM_Reach_out_to_the_Media.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Rally_The_People"
+		texturefile = "gfx/interface/goals/ARM_Rally_The_People.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_International"
+		texturefile = "gfx/interface/goals/ARM_International.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Start_Hunger_strikes"
+		texturefile = "gfx/interface/goals/ARM_Start_Hunger_strikes.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Fan_the_flames"
+		texturefile = "gfx/interface/goals/ARM_Fan_the_flames.png"
+	}
+
+SpriteType = {
+		name = "GFX_ARM_Strengthen_our_identity"
+		texturefile = "gfx/interface/goals/ARM_Strengthen_our_identity.png"
+	}
+}

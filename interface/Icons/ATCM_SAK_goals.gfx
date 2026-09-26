@@ -1,0 +1,177 @@
+spriteTypes = {
+
+SpriteType = {
+		name = "GFX_SAK_crackdown_kitovani_ng"
+		texturefile = "gfx/interface/goals/SAK_crackdown_kitovani_ng.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_integration_of_ossetia"
+		texturefile = "gfx/interface/goals/SAK/SAK_integration_of_ossetia.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_equal_rights"
+		texturefile = "gfx/interface/goals/SAK/SAK_equal_rights.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_schools_for_everyone"
+		texturefile = "gfx/interface/goals/SAK/SAK_schools_for_everyone.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_more_autonomy"
+		texturefile = "gfx/interface/goals/SAK/SAK_more_autonomy.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_ads_about_military"
+		texturefile = "gfx/interface/goals/SAK_ads_about_military.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Ask_For_Negotiations"
+		texturefile = "gfx/interface/goals/SAK_Ask_For_Negotiations.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Aftermath_coup"
+		texturefile = "gfx/interface/goals/SAK_Aftermath_coup.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_fortify_Prisons"
+		texturefile = "gfx/interface/goals/SAK_fortify_Prisons.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Close_Roki_Tunnel"
+		texturefile = "gfx/interface/goals/SAK_Close_Roki_Tunnel.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_defend_ozurgeti"
+		texturefile = "gfx/interface/goals/SAK_defend_ozurgeti.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_defend_tbilisi"
+		texturefile = "gfx/interface/goals/SAK_defend_tbilisi.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_defend_batumi"
+		texturefile = "gfx/interface/goals/SAK_defend_batumi.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_defend_Gori"
+		texturefile = "gfx/interface/goals/SAK_defend_Gori.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_defend_Kutaisi"
+		texturefile = "gfx/interface/goals/SAK_defend_Kutaisi.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_the_last_round"
+		texturefile = "gfx/interface/goals/SAK_the_last_round.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Lari_currency"
+		texturefile = "gfx/interface/goals/SAK_Lari_currency.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_control_sukhumi"
+		texturefile = "gfx/interface/goals/SAK_control_sukhumi.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Crackdown_Abkhazia"
+		texturefile = "gfx/interface/goals/SAK_Crackdown_Abkhazia.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_integrate_Sukhumi"
+		texturefile = "gfx/interface/goals/SAK_integrate_Sukhumi.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Power_Struggle"
+		texturefile = "gfx/interface/goals/SAK_Power_Struggle.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Where_is_Gamsakhurdia"
+		texturefile = "gfx/interface/goals/SAK_Where_is_Gamsakhurdia.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Defence_of_parliament"
+		texturefile = "gfx/interface/goals/SAK_Defence_of_parliament.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Negotiation_with_abkhazian_officials"
+		texturefile = "gfx/interface/goals/SAK_Negotiation_with_abkhazian_officials.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_National_Speech"
+		texturefile = "gfx/interface/goals/SAK_National_Speech.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Mobilize_Economy"
+		texturefile = "gfx/interface/goals/SAK_Mobilize_Economy.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Reinforce_National_Guard"
+		texturefile = "gfx/interface/goals/SAK_Reinforce_National_Guard.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Ask_For_The_Recognition"
+		texturefile = "gfx/interface/goals/SAK_Ask_For_The_Recognition.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Conflict_in_Ossetia"
+		texturefile = "gfx/interface/goals/SAK_Conflict_in_Ossetia.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Last_steps_Before_independence"
+		texturefile = "gfx/interface/goals/SAK_Last_steps_Before_independence.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Nationalists_Power"
+		texturefile = "gfx/interface/goals/SAK_Nationalists_Power.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Internal_crisis"
+		texturefile = "gfx/interface/goals/SAK_Internal_crisis.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Diplomacy"
+		texturefile = "gfx/interface/goals/SAK_Diplomacy.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Independence_in_diplomacy"
+		texturefile = "gfx/interface/goals/SAK_Independence_in_diplomacy.png"
+	}
+
+SpriteType = {
+		name = "GFX_SAK_Diplomacy_with_West"
+		texturefile = "gfx/interface/goals/SAK_Diplomacy_with_West.png"
+	}
+}
