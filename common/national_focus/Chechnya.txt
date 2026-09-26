@@ -1320,7 +1320,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_secret_deliveries_to_azerbajani_radicals
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_secret_deliveries_to_azerbajani_radicals
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_support_azerbajani_radicals }
@@ -1356,7 +1356,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_send_basayev
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_send_basayev
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_support_azerbajani_radicals }
@@ -1501,7 +1501,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_support_akhazian_separatists
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_support_akhazian_separatists
 		x = 1
 		y = 2
 		prerequisite = { focus = CHE_light_a_fire_in_georgia }
@@ -1538,7 +1538,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_support_osetian_separatists
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_support_osetian_separatists
 		x = -1
 		y = 2
 		prerequisite = { focus = CHE_light_a_fire_in_georgia }
@@ -1575,12 +1575,49 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHE_capture_georgia
+		id = CHE_use_chechen_cells_in_georgia
 		icon = GFX_Goal_unknow
 		x = 0
 		y = 3
 		prerequisite = { focus = CHE_support_akhazian_separatists }
 		prerequisite = { focus = CHE_support_osetian_separatists }
+		relative_position_id = CHE_ideas_of_caucasian_chaliphate
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			add_popularity = {ideology = islam Popularity = 0.05}
+			declare_war_on = {
+                target = SAK
+                type = annex_everything
+            }
+		}	
+	}
+
+	focus = {
+		id = CHE_capture_georgia
+		icon = GFX_Goal_unknow
+		x = 0
+		y = 4
+		prerequisite = { focus = CHE_use_chechen_cells_in_georgia }
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate
 		
 		cost = 10
