@@ -1041,7 +1041,13 @@ country_event = {
 	option = {
 		name = chechnya.43.a
 		hidden_effect = {
-			
+			ING = {
+				transfer_state = 17
+                declare_war_on = {
+                    target = CHE
+                    type = annex_everything
+                }
+			}
 		}
 	}
 }

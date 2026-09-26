@@ -732,8 +732,8 @@ CHE_elections_1991_decision = {
 				limit = {
 					has_country_flag = CHEIslamicRadicalismElections1991
 					check_variable = {
-                        var = add_incersace_islamic_radicalism_to_var_tt
-                        value = 50
+                        var = CHE_islamic_radicalism_value
+                        value = CHE_dudayev_support_value
                         compare = greater_than_or_equals
                     }
 				}
@@ -751,8 +751,8 @@ CHE_elections_1991_decision = {
 				limit = {
 					has_country_flag = CHEIslamicRadicalismElections1991
 					check_variable = {
-                        var = add_incersace_islamic_radicalism_to_var_tt
-                        value = 50
+                        var = CHE_islamic_radicalism_value
+                        value = CHE_dudayev_support_value
                         compare = less_than
                     }
 				}
@@ -771,7 +771,7 @@ CHE_elections_1991_decision = {
 					has_country_flag = CHESupportDudayev
 					check_variable = {
                         var = CHE_dudayev_support_value
-                        value = 50
+                        value = CHE_islamic_radicalism_value
                         compare = greater_than_or_equals
                     }
 				}
@@ -790,7 +790,7 @@ CHE_elections_1991_decision = {
 					has_country_flag = CHESupportDudayev
 					check_variable = {
                         var = CHE_dudayev_support_value
-                        value = 50
+                        value = CHE_islamic_radicalism_value
                         compare = less_than
                     }
 				}
@@ -1308,9 +1308,7 @@ CHE_islamic_republic_stability_decision = {
 		}
 		
 		available = {
-			NOT = {
-			    has_country_flag = CHEBeforeIngushtianUprising
-			}
+			has_country_flag = CHEBeforeIngushtianUprising
 		}
 		
 		selectable_mission = no
