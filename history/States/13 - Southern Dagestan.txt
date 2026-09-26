@@ -10,11 +10,15 @@ state={
 	}
 
 	history={
-		victory_points = { 2243 10 }
-		victory_points = { 9055 15 }
-		victory_points = { 10911 10 }
-		victory_points = { 10606 15 }
+		victory_points = { 2605 20 }
+		victory_points = { 6954 25 }
+		victory_points = { 10911 15 }
+		victory_points = { 10606 25 }
 		victory_points = { 6171 15 }
+		victory_points = { 2446 25 }
+		victory_points = { 8368 15 }
+		victory_points = { 7853 10 }
+		victory_points = { 427 10 }
 		owner = DAG
 		add_core_of = RAS
 		add_core_of = DAG

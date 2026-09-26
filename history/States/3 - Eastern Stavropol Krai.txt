@@ -12,6 +12,7 @@ state={
 	history={
 	    owner = RAS
 	    add_core_of = RAS
+	    victory_points = { 9792 25 }
 	    	    buildings = {
 	    	infrastructure = 3
 	    	industrial_complex = 2

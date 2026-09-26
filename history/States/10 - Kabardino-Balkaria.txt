@@ -8,11 +8,21 @@ state={
 		owner = RAS
 		add_core_of = RAS
 		add_core_of = KBK
-		victory_points = { 7493 35 }
+		victory_points = { 10515 40 }
+		victory_points = { 4690 25 }
+		victory_points = { 3656 25 }
+		victory_points = { 7827 20 }
+		victory_points = { 7343 20 }
+		victory_points = { 7110 20 }
+		victory_points = { 10546 15 }
+		victory_points = { 3715 10 }
+		victory_points = { 10421 10 }
+		victory_points = { 5089 10 }
 				buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			arms_factory = 3			air_base = 2
+			arms_factory = 3
+			air_base = 2
 		}
 	}
 	buildings_max_level_factor=1.000

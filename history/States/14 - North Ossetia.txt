@@ -9,8 +9,12 @@ state={
 		oil = 2
 	}
 	history={
-		victory_points = { 540 15 }
+		victory_points = { 540 20 }
 		victory_points = { 8914 20 }
+		victory_points = { 1188 15 }
+		victory_points = { 6713 10 }
+		victory_points = { 10705 10 }
+		victory_points = { 10678 10 }
 		owner = RAS
 		add_core_of = RAS
 				buildings = {
