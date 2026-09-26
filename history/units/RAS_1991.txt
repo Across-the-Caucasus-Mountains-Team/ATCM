@@ -780,7 +780,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 7493
+		location = 10515
 		division_template = "VDV"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.9
@@ -791,7 +791,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 7493
+		location = 10515
 		division_template = "VDV"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.9
@@ -802,7 +802,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 7493
+		location = 10515
 		division_template = "VDV"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.9
@@ -846,7 +846,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.7
@@ -857,7 +857,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.7
@@ -868,7 +868,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.7
@@ -879,7 +879,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.7
@@ -890,7 +890,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 8
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.7
@@ -901,7 +901,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.5
@@ -912,7 +912,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.5
@@ -923,7 +923,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.45
@@ -934,7 +934,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.45
@@ -945,7 +945,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 13
 		}
-		location = 7493
+		location = 10515
 		division_template = "Mekhanizirovanaya Rota"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.45
@@ -956,7 +956,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 7493
+		location = 10515
 		division_template = "Vzvod reaktivnoy artilleryy"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.45
@@ -967,7 +967,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 7493
+		location = 10515
 		division_template = "Vzvod reaktivnoy artilleryy"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.45
@@ -978,7 +978,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 7493
+		location = 10515
 		division_template = "Vzvod reaktivnoy artilleryy"
 		start_experience_factor = 0.15
 		start_equipment_factor = 0.45
