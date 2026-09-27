@@ -252,7 +252,7 @@ ideas = {
 			modifier = {
 			    war_support_factor = 0.05
 				islam_drift = 0.01
-				weekly_manpower = 250
+				weekly_manpower = 50
 			}
 		}
 		
@@ -295,8 +295,8 @@ ideas = {
 			    army_defence_factor = 0.095
 				stability_factor = -0.35
 				war_support_factor = -0.25
-				conscription = 0.15
-				weekly_manpower = 250
+				conscription = 0.05
+				weekly_manpower = 50
 				army_attack_factor = 0.05
 				consumer_goods_factor = -0.25
 				communism_drift = -0.01
@@ -306,7 +306,7 @@ ideas = {
 				populism_drift = -0.01
 				anarchism_drift = -0.01
 				authoritarianism_drift = -0.01
-				monthly_population = -0.85
+				monthly_population = -0.75
 			}
 		}
 		
@@ -803,6 +803,26 @@ ideas = {
 				junta_drift = -0.01
 				communism_drift = -0.01
 				anarchism_drift = -0.01
+			}
+		}
+		CHE_mountains_ghosts = {
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = GFX_idea_CHE_disorganized_defense_idea
+			
+			modifier = {
+				surrender_limit = 0.1
+				equipment_capture_factor = 0.005
+				modifier_army_sub_unit_mountaineers_attack_factor = 0.10
+				modifier_army_sub_unit_mountaineers_defence_factor = 0.15
 			}
 		}
 	}

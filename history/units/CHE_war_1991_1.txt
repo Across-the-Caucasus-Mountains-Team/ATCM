@@ -96,7 +96,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 17385
+		location = 17368
 		division_template = "Ġaşloyn bataljon"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
