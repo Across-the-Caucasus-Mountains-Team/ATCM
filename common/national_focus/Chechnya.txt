@@ -18,7 +18,7 @@ focus_tree = {
 		id = CHE_future_of_checheno_ingushetii
 		icon = GFX_CHE_Future_of_the_Chechen_ingush_republic
 		x = 6
-		y = 0
+		y = -1
 		
 		cost = 75
 		
@@ -47,7 +47,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 10
 			country_event = chechnya.3
 			add_stability = -0.15
 			add_popularity = {ideology = communism Popularity = -0.05}
@@ -61,6 +60,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
 		relative_position_id = CHE_future_of_checheno_ingushetii
+		mutually_exclusive = { focus = CHE_propaganda_of_islam }
 		
 		cost = 70
 		
@@ -83,7 +83,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_popularity = {ideology = Nationalism Popularity = 0.085}
+			add_popularity = {ideology = Nationalism Popularity = 0.1}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 		}	
 	}
@@ -91,22 +91,19 @@ focus_tree = {
 	focus = {
 		id = CHE_propaganda_of_islam
 		icon = GFX_CHE_propaganda_of_islam
-		x = -3
+		x = 1
 		y = 1
 		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
 		relative_position_id = CHE_future_of_checheno_ingushetii
+		mutually_exclusive = { focus = CHE_propaganda_of_nationalism }
 		
-		cost = 25
+		cost = 70
 		
 		ai_will_do = {
 			factor = -50
 		}
 		
 		available = {
-            has_completed_focus = CHE_start_chechen_revolution
-			NOT = {
-				has_completed_focus = CHE_hold_elections
-			}
 		}
 		
 		bypass = {
@@ -120,8 +117,9 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 25
+			add_political_power = 30
 			add_popularity = {ideology = Islam Popularity = 0.15}
+			add_popularity = {ideology = Nationalism Popularity = 0.05}
 			add_stability = -0.25
             custom_effect_tooltip = 6_CHE_tt
 			hidden_effect = {
@@ -137,9 +135,9 @@ focus_tree = {
 	focus = {
 		id = CHE_2nd_session_of_the_firs_chechen_national_congress
 		icon =  GFX_CHE_propaganda_of_nationalism
-		x = 1
-		y = 1
-		prerequisite = { focus = CHE_future_of_checheno_ingushetii }
+		x = 0
+		y = 2
+		prerequisite = { focus = CHE_propaganda_of_islam focus = CHE_propaganda_of_nationalism }
 		relative_position_id = CHE_future_of_checheno_ingushetii
 		
 		cost = 30
@@ -164,6 +162,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 25
+			add_stability = 0.05
 		    add_popularity = {ideology = Nationalism Popularity = 0.085}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 			country_event = chechnya.23
@@ -173,10 +172,10 @@ focus_tree = {
 	focus = {
 		id = CHE_start_chechen_revolution
 		icon = GFX_CHE_Start_the_revolution
-		x = 6
-		y = 2
-		prerequisite = { focus = CHE_propaganda_of_nationalism }
+		x = 0
+		y = 3
 		prerequisite = { focus = CHE_2nd_session_of_the_firs_chechen_national_congress }
+		relative_position_id = CHE_future_of_checheno_ingushetii
 		
 		cost = 20
 		
@@ -199,7 +198,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-		    add_political_power = 15
+			add_war_support = 0.05
 			add_popularity = {ideology = Nationalism Popularity = 0.075}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 			hidden_effect = {
@@ -216,9 +215,10 @@ focus_tree = {
 	focus = {
 		id = CHE_Aftermath_of_Chechen_revolution
 		icon = GFX_Goal_CHE_Aftermath_of_revolution
-		x = 6
-		y = 3
+		x = 0
+		y = 4
 		prerequisite = { focus = CHE_start_chechen_revolution }
+		relative_position_id = CHE_future_of_checheno_ingushetii
 		
 		cost = 5
 		
@@ -250,9 +250,10 @@ focus_tree = {
 	focus = {
 		id = CHE_hold_elections
 		icon = GFX_CHE_hold_elections
-		x = 6
-		y = 4
+		x = 0
+		y = 5
 		prerequisite = { focus = CHE_Aftermath_of_Chechen_revolution }
+		relative_position_id = CHE_future_of_checheno_ingushetii
 		
 		cost = 5
 		
@@ -5380,7 +5381,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 10
 			add_stability = 0.075
 			remove_ideas = CHE_question_of_currency_idea
 			custom_effect_tooltip = cash_balance_plus_5_tt
@@ -5537,8 +5537,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 25
-			add_stability = 0.05
 			add_war_support = 0.025
 			remove_ideas = CHE_language_issue
 			custom_effect_tooltip = cash_balance_minus_25_tt
@@ -5553,9 +5551,9 @@ focus_tree = {
 		id = CHE_Deport_Russians
 		icon = GFX_CHE_Deport_Russians
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_centralize_power }
+		prerequisite = { focus = CHE_disarm_pro_russian_soldiers }
 		
 		cost = 25
 		
@@ -5578,7 +5576,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 15
 			country_event = chechnya.11
 		}	
 	}
@@ -5612,8 +5609,9 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 65
+			add_political_power = 75
 			add_stability = 0.05
+		    add_popularity = {ideology = Nationalism Popularity = 0.05}
 			add_to_variable = {
                 var = CHE_legitimacy_of_dudayev_value
                 value = 5
@@ -5657,12 +5655,15 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_stability = 0.025
+			add_war_support = 0.025
 			army_experience = 50
 			add_ideas = CHE_National_Guard
-			custom_effect_tooltip = cash_balance_minus_250_tt
+			custom_effect_tooltip = 12_CHE_tt
+			custom_effect_tooltip = cash_balance_minus_75_tt
 			subtract_from_variable = {
 				var = cash
-				value = 250
+				value = 75
 			}
 			hidden_effect = {
 				load_oob = CHE_national_guard
@@ -5674,7 +5675,7 @@ focus_tree = {
 		id = CHE_loyalists
 		icon = GFX_CHE_Loyalists
 		x = 1
-		y = 2
+		y = 3
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Deport_Russians }
 		
@@ -5716,7 +5717,7 @@ focus_tree = {
 		id = CHE_islamic_conservatism
 		icon = GFX_CHE_Muslim_conservatism
 		x = -1
-		y = 2
+		y = 3
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Deport_Russians }
 		
@@ -5751,10 +5752,9 @@ focus_tree = {
 		id = CHE_disarm_pro_russian_soldiers
 		icon = GFX_CHE_Disarm_pro_Russians
 		x = 0
-		y = 3
+		y = 1
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_islamic_conservatism }
-		prerequisite = { focus = CHE_loyalists }
+		prerequisite = { focus = CHE_centralize_power }
 		
 		cost = 30
 		
@@ -5793,9 +5793,9 @@ focus_tree = {
 		x = 0
 		y = 4
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_disarm_pro_russian_soldiers }
-		prerequisite = { focus = CHE_Close_look_at_them }
-		prerequisite = { focus = CHE_Young_patriots }
+		prerequisite = { focus = CHE_loyalists }
+		prerequisite = { focus = CHE_islamic_conservatism }
+		prerequisite = { focus = CHE_Close_look_at_them focus = CHE_Young_patriots }
 		
 		cost = 35
 		
@@ -5820,7 +5820,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 15
 			add_war_support = 0.05
-			add_stability = -0.03
+			add_stability = 0.03
 			add_to_variable = {
                 var = CHE_legitimacy_of_dudayev_value
                 value = 5
@@ -5948,7 +5948,7 @@ focus_tree = {
 			custom_effect_tooltip = cash_balance_minus_15_tt
 			add_to_variable = {
 				var = cash
-				value = 15
+				value = 10
 			}
 		}	
 	}
@@ -5956,7 +5956,7 @@ focus_tree = {
 	focus = {
 		id = CHE_open_factories_in_grozny
 		icon = GFX_CHE_factories_in_grozny
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
@@ -6003,7 +6003,7 @@ focus_tree = {
 	focus = {
 		id = CHE_infastructure_in_mountains
 		icon = GFX_CHE_roads_in_mountains
-		x = 0
+		x = -3
 		y = 1
 		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
@@ -6023,41 +6023,48 @@ focus_tree = {
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			125 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
-				}	
-			}	
-			126 = {
+				}
+			}
+			130 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
-				}	
-			}	
+				}
+			}
 			127 = {
 				add_building_construction = {
 					type = infrastructure 
 					level = 1
 					instant_build = yes
-				}	
-			}	
+				}
+			}
+			124 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+				}
+			}
 			custom_effect_tooltip = cash_balance_minus_150_tt
 			subtract_from_variable = {
 				var = cash
 				value = 150
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -6175,22 +6182,22 @@ focus_tree = {
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.05
 			add_research_slot = 1
-			custom_effect_tooltip = cash_balance_minus_500_tt
+			custom_effect_tooltip = cash_balance_minus_1000_tt
 			subtract_from_variable = {
 				var = cash
-				value = 3500
+				value = 1000
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -6200,61 +6207,60 @@ focus_tree = {
 		y = 2
 		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_Economy_question }
-		
+
 		cost = 35
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			 125 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
-				}	
+				}
 				add_building_construction = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
-				}	
+				}
 				add_extra_state_shared_building_slots = 2
-			}	
+			}
 			126 = {
 				add_building_construction = {
 					type = industrial_complex
 					level = 1
 					instant_build = yes
-				}	
+				}
 				add_building_construction = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
-				}	
+				}
 				add_extra_state_shared_building_slots = 2
-			}	
-			custom_effect_tooltip = cash_balance_minus_500_tt
+			}
 			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
 				var = cash
-				value = 3500
+				value = 500
 			}
 		}	
 	}
@@ -6290,8 +6296,31 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.075
-			add_political_power = 25
+			128 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 1
+				}
+			131 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 1
+				}
+			11 = {
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 1
+				}
+			add_stability = 0.025
 			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
 				var = cash
@@ -6308,7 +6337,7 @@ focus_tree = {
 		relative_position_id = CHE_Economy_question
 		prerequisite = { focus = CHE_fund_businesses_in_north_chechnya }
 		prerequisite = { focus = CHE_industralize_south_chechnya }
-		prerequisite = { focus = CHE_infastructure_in_mountains }
+		prerequisite = { focus = CHE_open_factories_in_grozny }
 		
 		cost = 45
 		
@@ -6320,7 +6349,6 @@ focus_tree = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
-			has_tech = excavation5
 		}
 		
 		bypass = {
@@ -6334,10 +6362,40 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			custom_effect_tooltip = cash_balance_minus_100_tt
+			128 = {
+				add_building_construction = {
+					type = fuel_silo
+					level = 2
+					instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 2
+				add_resource = {
+					type = oil
+					amount = 9
+					}
+				}
+			16 = {
+				add_resource = {
+					type = oil
+					amount = 3
+					}
+				}
+			11 = {
+				add_resource = {
+					type = oil
+					amount = 3
+					}
+				}
+			126 = {
+				add_resource = {
+					type = oil
+					amount = 5
+					}
+				}
+			custom_effect_tooltip = cash_balance_minus_150_tt
 			subtract_from_variable = {
 				var = cash
-				value = 100
+				value = 150
 			}
 		}	
 	}
@@ -6505,8 +6563,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_manpower = 750
-			army_experience = 25
+			custom_effect_tooltip = 12_CHE_tt
 			hidden_effect = {
 				load_oob = CHE_national_guard_raised
 			}
@@ -6580,7 +6637,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -25
 			add_popularity = {ideology = Nationalism Popularity = 0.05}
-			add_stability = -0.075
+			add_stability = -0.05
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value
                 value = 5
@@ -6674,9 +6731,8 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = -25
-			add_stability = -0.05
-			add_war_support = -0.05
+			add_manpower = -250
+			add_political_power = -100
 			add_popularity = {
 				ideology = liberalism
 				popularity = -0.05
@@ -6734,22 +6790,7 @@ focus_tree = {
 			add_political_power = -150
 			add_stability = -0.10
 			add_war_support = -0.15
-			add_popularity = {
-				ideology = liberalism
-				popularity = -0.075
-			}
-			add_popularity = {
-				ideology = junta
-				popularity = -0.075
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = -0.075
-			}
-			add_popularity = {
-				ideology = anarchism
-				popularity = -0.075
-			}
+			add_ideas = CHE_ban_opposition
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value
                 value = 5
@@ -6790,7 +6831,6 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 25
 			add_stability = 0.05
 			add_war_support = 0.05
 		}	
@@ -6865,7 +6905,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 45
+			add_political_power = 50
 			add_war_support = 0.05
 			add_popularity = {ideology = Nationalism Popularity = 0.035}
 			subtract_from_variable = {
@@ -6907,7 +6947,6 @@ focus_tree = {
 		
 		completion_reward = {
 			add_ideas = CHE_Young_patriots_idea
-			add_manpower = 1000
 			add_popularity = { ideology = Nationalism Popularity = 0.05 }
 		}	
 	}

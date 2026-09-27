@@ -225,6 +225,7 @@ country_event = {
 
 	option = {
 		name = chechnya.11.b
+		add_popularity = {ideology = communism Popularity = -0.025}
 		add_war_support = 0.05
 		add_political_power = 50
 		add_stability = -0.1
@@ -233,7 +234,7 @@ country_event = {
 			add_manpower = -5000
 		}
 		127 = {
-			add_manpower = -6000
+			add_manpower = -2000
 		}
 		126 = {
 			add_manpower = -4000
@@ -251,12 +252,18 @@ country_event = {
 			add_manpower = -50
 		}
 		16 = {
-			add_manpower = -780
+			add_manpower = -2780
 		}
-		hidden_effect = { 
+		11 = {
+			add_manpower = -9000
+		}
+		RAS = {
+			country_event = russia.2
+		}
 			RAS = {
-				country_event = russia.2
+				add_stability = -0.05
 			}
+		hidden_effect = { 
 			add_opinion_modifier = {
                 target = RAS
                 modifier = drove_out_the_russians
@@ -608,7 +615,7 @@ country_event = {
 
 	option = {
 		name = chechnya.25.a
-		add_war_support = 0.025
+		add_war_support = 0.05
 		add_stability = -0.05
 		add_timed_idea = {
             idea = CHE_embargo_on_chechnya_idea
