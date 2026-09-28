@@ -201,14 +201,6 @@ CHE_first_chechen_war_decision = {
 
 		complete_effect = {
 			load_oob = CHE_war_1991_1
-		    add_equipment_to_stockpile = { 
-				type = infantry_equipment_1 
-				amount = 750
-			}
-			add_equipment_to_stockpile = { 
-				type = uniform_equipment_0 
-				amount = 650
-			}
 		}
 
 		ai_will_do = {
@@ -234,13 +226,49 @@ CHE_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-		    add_equipment_to_stockpile = { 
-				type = infantry_equipment_1 
+		    add_equipment_to_stockpile = {
+				type = infantry_equipment_0
 				amount = 1500
 			}
+			add_equipment_to_stockpile = {
+				type = uniform_equipment_0
+				amount = 2500
+			}
 			add_equipment_to_stockpile = { 
-				type = uniform_equipment_0 
-				amount = 650
+				type = bulletproof_vests_equipment_0
+				amount = 2000
+			}
+			add_equipment_to_stockpile = {
+				type = modern_tank_equipment_1
+				amount = 16
+			}
+			add_equipment_to_stockpile = {
+				type = grenade_launcher_equipment_0
+				amount = 100
+			}
+			add_equipment_to_stockpile = {
+				type = atgm_equipment_0
+				amount = 12
+			}
+			add_equipment_to_stockpile = {
+				type = apc_0_equipment
+				amount = 24
+			}
+			add_equipment_to_stockpile = {
+				type = ifv_0_equipment
+				amount = 24
+			}
+			add_equipment_to_stockpile = {
+				type = manpads_equipment
+				amount = 36
+			}
+			add_equipment_to_stockpile = {
+				type = mortar_equipment
+				amount = 60
+			}
+			add_equipment_to_stockpile = { 
+				type = support_equipment 
+				amount = 75
 			}
 		}
 

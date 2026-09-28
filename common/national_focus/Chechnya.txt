@@ -529,9 +529,16 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.075
-			add_popularity = {ideology = islam Popularity = 0.05}
-		}	
+			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
+			add_to_variable = { CHE_IS_stability_factor = 0.1 }
+			add_to_variable = { CHE_IS_recruitable_population_factor = 0.05 }
+			add_to_variable = { CHE_IS_drift_defence_factor = 0.075 }
+			add_to_variable = { CHE_IS_islam_drift = 0.01 }
+			add_to_variable = { CHE_IS_monthly_population = 0.05 }
+			add_to_variable = { CHE_IS_political_power_gain = -0.05 }
+			add_to_variable = { CHE_IS_research_speed_factor = -0.05 }
+			add_to_variable = { CHE_IS_production_factory_efficiency_gain_factor = -0.05 }
+		}
 	}
 
 	focus = {
@@ -543,29 +550,40 @@ focus_tree = {
 		relative_position_id = CHE_sharia_laws
 		
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-			add_stability = 0.05
-			add_popularity = {ideology = islam Popularity = 0.05}
-		}	
+			add_to_variable = { CHE_IS_stability_factor = 0.05 }
+			add_to_variable = { CHE_IS_recruitable_population_factor = 0.025 }
+			add_to_variable = { CHE_IS_drift_defence_factor = 0.125 }
+			add_to_variable = { CHE_IS_islam_drift = 0.01 }
+			add_to_variable = { CHE_IS_monthly_population = 0.025 }
+			add_to_variable = { CHE_IS_political_power_gain = 0.05 }
+			add_to_variable = { CHE_IS_research_speed_factor = 0.025 }
+			add_to_variable = { CHE_IS_production_factory_efficiency_gain_factor = 0.025 }
+			add_to_variable = { CHE_IS_army_core_defence_factor = 0.05 }
+			add_to_variable = { CHE_IS_army_core_attack_factor = 0.05 }
+			add_to_variable = { CHE_IS_resistance_target_on_our_occupied_states = 0.10 }
+			add_to_variable = { CHE_IS_compliance_growth_on_our_occupied_states = 0.10 }
+			add_to_variable = { CHE_IS_CHE_IS_drift_defence_factor = 0.05 }
+		}
 	}
 
 	focus = {
@@ -575,7 +593,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = CHE_establish_a_sharia_police_force }
 		relative_position_id = CHE_sharia_laws
-		
+
 		cost = 10
 		
 		ai_will_do = {
@@ -4762,7 +4780,7 @@ focus_tree = {
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
 			army_experience = -25
-		}	
+		}
 	}
 
 	focus = {
