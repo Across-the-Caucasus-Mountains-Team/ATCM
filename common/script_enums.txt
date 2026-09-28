@@ -139,7 +139,6 @@ script_enum_equipment_category = {
 	amphibious
 	anti_air
 	artillery
-	anti_tank
 	rocket
 	flame
 	land_cruiser
@@ -189,7 +188,6 @@ script_enum_equipment_bonus_type = {
 	amphibious
 	anti_air
 	artillery
-	anti_tank
 	rocket
 	flame
 	land_cruiser
@@ -215,7 +213,6 @@ script_enum_equipment_bonus_type = {
 	destroyer
 	infantry_equipment
 	artillery_equipment
-	anti_tank_equipment
 	amphibious_mechanized_equipment
 	amphibious_mechanized_equipment_1
 	amphibious_mechanized_equipment_2
@@ -223,9 +220,6 @@ script_enum_equipment_bonus_type = {
 	anti_air_equipment_1
 	anti_air_equipment_2
 	anti_air_equipment_3
-	anti_tank_equipment_1
-	anti_tank_equipment_2
-	anti_tank_equipment_3
 	armored_car_equipment
 	gw_armored_car_equipment
 	armored_car_equipment_1
@@ -381,27 +375,8 @@ script_enum_equipment_bonus_type = {
 	submarine_4
 	support_equipment
 	support_equipment_1
-	light_tank_chassis
-	light_tank_chassis_0
-	light_tank_chassis_1
-	light_tank_chassis_2
-	light_tank_chassis_3
-	medium_tank_chassis
-	medium_tank_chassis_0
-	medium_tank_chassis_1
-	medium_tank_chassis_2
-	medium_tank_chassis_3
-	heavy_tank_chassis
-	heavy_tank_chassis_0
-	heavy_tank_chassis_1
-	heavy_tank_chassis_2
-	heavy_tank_chassis_3
 	modern_tank_chassis
 	modern_tank_chassis_1
-	super_heavy_tank_chassis
-	super_heavy_tank_chassis_1
-	amphibious_tank_chassis
-	amphibious_tank_chassis_1
 	train_equipment
 	train_equipment_1
 	train_equipment_2
@@ -509,141 +484,17 @@ script_enum_equipment_bonus_type = {
 	strat_bomber_equipment_2
 	strat_bomber_equipment_3
 	jet_strat_bomber_equipment_1
-	light_tank_aa_chassis
-	light_tank_artillery_chassis
-	light_tank_destroyer_chassis
-	light_tank_amphibious_chassis
-	light_tank_flame_chassis
-	medium_tank_aa_chassis
-	medium_tank_artillery_chassis
-	medium_tank_destroyer_chassis
-	medium_tank_amphibious_chassis
-	medium_tank_flame_chassis
-	heavy_tank_aa_chassis
-	heavy_tank_artillery_chassis
-	heavy_tank_destroyer_chassis
-	heavy_tank_amphibious_chassis
-	heavy_tank_flame_chassis
-	super_heavy_tank_aa_chassis
-	super_heavy_tank_artillery_chassis
-	super_heavy_tank_destroyer_chassis
 	modern_tank_aa_chassis
 	modern_tank_artillery_chassis
 	modern_tank_destroyer_chassis
-	light_tank_aa_chassis_0
-	light_tank_aa_chassis_1
-	light_tank_aa_chassis_2
-	light_tank_aa_chassis_3
-	light_tank_artillery_chassis_0
-	light_tank_artillery_chassis_1
-	light_tank_artillery_chassis_2
-	light_tank_artillery_chassis_3
-	light_tank_destroyer_chassis_0
-	light_tank_destroyer_chassis_1
-	light_tank_destroyer_chassis_2
-	light_tank_destroyer_chassis_3
-	light_tank_amphibious_chassis_0
-	light_tank_amphibious_chassis_1
-	light_tank_amphibious_chassis_2
-	light_tank_amphibious_chassis_3
-	light_tank_flame_chassis_0
-	light_tank_flame_chassis_1
-	light_tank_flame_chassis_2
-	light_tank_flame_chassis_3
-	medium_tank_aa_chassis_0
-	medium_tank_aa_chassis_1
-	medium_tank_aa_chassis_2
-	medium_tank_aa_chassis_3
-	medium_tank_artillery_chassis_0
-	medium_tank_artillery_chassis_1
-	medium_tank_artillery_chassis_2
-	medium_tank_artillery_chassis_3
-	medium_tank_destroyer_chassis_0
-	medium_tank_destroyer_chassis_1
-	medium_tank_destroyer_chassis_2
-	medium_tank_destroyer_chassis_3
-	medium_tank_amphibious_chassis_0
-	medium_tank_amphibious_chassis_1
-	medium_tank_amphibious_chassis_2
-	medium_tank_amphibious_chassis_3
-	medium_tank_flame_chassis_0
-	medium_tank_flame_chassis_1
-	medium_tank_flame_chassis_2
-	medium_tank_flame_chassis_3
-	heavy_tank_aa_chassis_0
-	heavy_tank_aa_chassis_1
-	heavy_tank_aa_chassis_2
-	heavy_tank_aa_chassis_3
-	heavy_tank_artillery_chassis_0
-	heavy_tank_artillery_chassis_1
-	heavy_tank_artillery_chassis_2
-	heavy_tank_artillery_chassis_3
-	heavy_tank_destroyer_chassis_0
-	heavy_tank_destroyer_chassis_1
-	heavy_tank_destroyer_chassis_2
-	heavy_tank_destroyer_chassis_3
-	heavy_tank_amphibious_chassis_0
-	heavy_tank_amphibious_chassis_1
-	heavy_tank_amphibious_chassis_2
-	heavy_tank_amphibious_chassis_3
-	heavy_tank_flame_chassis_0
-	heavy_tank_flame_chassis_1
-	heavy_tank_flame_chassis_2
-	heavy_tank_flame_chassis_3
-	super_heavy_tank_aa_chassis_1
-	super_heavy_tank_artillery_chassis_1
-	super_heavy_tank_destroyer_chassis_1
 	modern_tank_aa_chassis_1
 	modern_tank_artillery_chassis_1
 	modern_tank_destroyer_chassis_1
 	gw_tank_equipment
-	light_tank_equipment_1
-	light_tank_equipment_2
-	light_tank_equipment_3
-	light_tank_artillery_equipment_1
-	light_tank_artillery_equipment_2
-	light_tank_artillery_equipment_3
-	light_tank_destroyer_equipment_1
-	light_tank_destroyer_equipment_2
-	light_tank_destroyer_equipment_3
-	light_tank_aa_equipment_1
-	light_tank_aa_equipment_2
-	light_tank_aa_equipment_3
-	medium_tank_equipment_1
-	medium_tank_equipment_2
-	medium_tank_equipment_3
-	medium_tank_artillery_equipment_1
-	medium_tank_artillery_equipment_2
-	medium_tank_artillery_equipment_3
-	medium_tank_destroyer_equipment_1
-	medium_tank_destroyer_equipment_2
-	medium_tank_destroyer_equipment_3
-	medium_tank_aa_equipment_1
-	medium_tank_aa_equipment_2
-	medium_tank_aa_equipment_3
-	heavy_tank_equipment_1
-	heavy_tank_equipment_2
-	heavy_tank_equipment_3
-	heavy_tank_artillery_equipment_1
-	heavy_tank_artillery_equipment_2
-	heavy_tank_artillery_equipment_3
-	heavy_tank_destroyer_equipment_1
-	heavy_tank_destroyer_equipment_2
-	heavy_tank_destroyer_equipment_3
-	heavy_tank_aa_equipment_1
-	heavy_tank_aa_equipment_2
-	heavy_tank_aa_equipment_3
 	modern_tank_equipment_1
 	modern_tank_artillery_equipment_1
 	modern_tank_destroyer_equipment_1
 	modern_tank_aa_equipment_1
-	super_heavy_tank_equipment_1
-	super_heavy_tank_artillery_equipment_1
-	super_heavy_tank_destroyer_equipment_1
-	super_heavy_tank_aa_equipment_1
-	amphibious_tank_equipment_1
-	amphibious_tank_equipment_2
-	supersonic_fighter_equipment_1
 	manpads_equipment
 	manpads_equipment_1
 	manpads_equipment_2

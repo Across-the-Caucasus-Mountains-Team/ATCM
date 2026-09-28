@@ -38,7 +38,6 @@ sub_units = {
 		weight = 1
 		supply_consumption = 0.14
 
-		#WE GOOD AT SUPPRESS 
 		suppression = 1
 
 		forest = {

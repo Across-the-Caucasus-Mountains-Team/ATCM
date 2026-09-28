@@ -50,7 +50,6 @@ equipments = {
 		fuel_consumption = 1.8
 	}
 
-	# post ww2 apc
 	ifv_0_equipment = {
 		year = 1960
 	
@@ -60,7 +59,6 @@ equipments = {
 		visual_level = 0
 	}
 
-	# post ww2 ifv
 	ifv_1_equipment = {
 		year = 1955
 	

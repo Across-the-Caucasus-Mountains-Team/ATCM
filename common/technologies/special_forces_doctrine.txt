@@ -809,7 +809,6 @@ technologies = {
 		
 		categories = {
 			special_forces_doctrine
-			#marine_tech
 			cat_marines_doctrine
 		}
 
@@ -840,20 +839,7 @@ technologies = {
 			 breakthrough = 0.1
 			 max_organisation = 5
 		}
-		
-		pioneer_support = {
-			battalion_mult = {
-				category = category_amphibious_tanks
-				armor = 0.15
-				breakthrough = 0.15
-			}
-		}
-		
-		
-		on_research_complete = {
-			add_ideas = GEN_cheaper_amphib
-		}
-		
+
 		doctrine = yes	
 		research_cost = 2.25
 		
@@ -893,13 +879,6 @@ technologies = {
 		}
 		
 		anti_air = {
-			 battalion_mult = {
-				category = category_marines
-				defense = 0.05
-			}
-		}
-		
-		anti_tank = {
 			 battalion_mult = {
 				category = category_marines
 				defense = 0.05

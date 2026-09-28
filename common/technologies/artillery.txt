@@ -1,6 +1,5 @@
 technologies = {
 	@anti_air = -7
-	@anti_tank = 7
 	@rocket_artillery = 3
 
 	reactive_artillery = {

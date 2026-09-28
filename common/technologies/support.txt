@@ -1801,11 +1801,4 @@ technologies = {
 			factor = 0
 		}
 	}
-
-
-	### SPECIAL PROJECTS ###
-
-
-
-
 }

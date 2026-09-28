@@ -493,7 +493,7 @@ CHE_first_chechen_war_decision = {
                 }
                 10 = {
 			        add_equipment_to_stockpile = { 
-				        type = anti_tank_equipment_1 
+				        type = atgm_equipment 
 				        amount = 10
 			        }
                 }

@@ -285,12 +285,6 @@ default_surplus_management = {
 		value = 3
 	}
 
-	ai_strategy = {  # Potentially move into a "specialization" strategy
-		type = equipment_production_surplus_management
-		id = anti_tank_equipment
-		value = 2
-	}
-
 	ai_strategy = {
 		type = equipment_production_surplus_management
 		id = convoy

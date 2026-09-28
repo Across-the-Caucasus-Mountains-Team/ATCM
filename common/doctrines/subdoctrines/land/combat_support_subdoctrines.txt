@@ -66,10 +66,6 @@ fire_concentration = {
 		
 		weakpoint_studies = {
 		#5
-			anti_tank_brigade = {
-				ap_attack = 0.1
-				hard_attack = 0.1
-			}
 			artillery_brigade = {
 				soft_attack = 0.05
 			}
