@@ -472,10 +472,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		enable_subunits = {
-			pioneer_support
-		}
-		
 		doctrine = yes	
 		research_cost = 2.25
 		
@@ -513,15 +509,7 @@ technologies = {
 		xor = { marines_shore_parties }
 		
 		force_use_small_tech_layout = yes
-		
-		pioneer_support = {
-			jungle = {
-				attack = 0.15
-				defence = 0.10
-				movement = 0.10
-			}
-		}
-		
+	
 		path = {
 			leads_to_tech = marines_recon 
 			research_cost_coeff = 1
@@ -564,15 +552,7 @@ technologies = {
 			leads_to_tech = marines_recon 
 			research_cost_coeff = 1
 		}
-		
-		pioneer_support = {
-			amphibious = {
-				attack = 0.25
-				defence = 0.15
-				movement = 0.20
-			}
-		}
-		
+
 		doctrine = yes	
 		research_cost = 2.25
 		
@@ -792,15 +772,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		
-		pioneer_support = {
-			battalion_mult = {
-				category = category_line_artillery
-				max_organisation = 2
-				add = yes
-			}
-		}
-		
 		shore_bombardment_bonus = 0.15
 		special_forces_attack_factor = 0.10
 			
@@ -833,12 +804,6 @@ technologies = {
 		xp_unlock_cost = 60
 		
 		force_use_small_tech_layout = yes
-
-		amphibious_mechanized = {
-			 soft_attack = 0.1
-			 breakthrough = 0.1
-			 max_organisation = 5
-		}
 
 		doctrine = yes	
 		research_cost = 2.25

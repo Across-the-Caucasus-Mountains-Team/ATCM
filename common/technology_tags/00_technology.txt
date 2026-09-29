@@ -106,7 +106,6 @@ technology_categories = {
 	cat_rangers_doctrine
 	naval_armor
 	naval_artillery
-	helicopter_tech
 	pykrete_tech
 	transport_planes_cat
 

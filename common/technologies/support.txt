@@ -101,11 +101,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_armored_engineer_tech
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.25
 		start_year = 1936
 		folder = {
@@ -175,20 +170,6 @@ technologies = {
 			}
 		}
 
-		assault_engineer = {
-			breakthrough = 0.1
-			fort = {
-				attack = 0.15
-			}
-		}
-
-		armored_engineer = {
-			entrenchment = 1
-			fort = {
-				defence = 0.15
-			}
-		}
-
 		enable_equipment_modules = {
 			#flamethrower #MM: Moved to Special Project sp_land_flamethrower_tank
 		}
@@ -255,22 +236,6 @@ technologies = {
 			}
 		}
 
-		assault_engineer = {
-			breakthrough = 0.1
-			river = {
-				attack = 0.1
-			}
-		}
-
-		armored_engineer = {
-			entrenchment = 1
-			river = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.15
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_engineers4
 			research_cost_coeff = 1
@@ -320,21 +285,6 @@ technologies = {
 			urban = {
 				attack = 0.1
 				defence = 0.1
-			}
-		}
-
-		assault_engineer = {
-			breakthrough = 0.1
-			urban = {
-				attack = 0.15
-			}
-		}
-
-		armored_engineer = {
-			entrenchment = 1
-			urban = {
-				defence = 0.15
-				movement = 0.15
 			}
 		}
 
@@ -389,11 +339,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_helicopter_artillery_observers_tech
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.25
 		start_year = 1936
 		folder = {
@@ -441,10 +386,6 @@ technologies = {
 			recon = 2
 		}
 
-		helicopter_recon = {
-			recon = 1
-		}
-
 		path = {
 			leads_to_tech = tech_recon3
 			research_cost_coeff = 1
@@ -488,14 +429,6 @@ technologies = {
 			recon = 2
 		}
 
-		helicopter_recon = {
-			recon = 1
-		}
-
-		helicopter_brigade = {
-			recon = 2
-		}
-
 		path = {
 			leads_to_tech = tech_recon4
 			research_cost_coeff = 1
@@ -535,10 +468,6 @@ technologies = {
 	tech_recon4 = {
 
 		category_recon = {
-			recon = 2
-		}
-
-		helicopter_recon = {
 			recon = 2
 		}
 
@@ -1147,11 +1076,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_helicopter_med_evac_tech
-			research_cost_coeff = 1
-		}
-
 		dependencies = {
 			motorised_infantry = 1
 		}
@@ -1195,16 +1119,6 @@ technologies = {
 		field_hospital = {
 			casualty_trickleback = 0.10
 			experience_loss_factor = -0.10
-		}
-
-		helicopter_field_hospital = {
-			casualty_trickleback = 0.12
-			experience_loss_factor = -0.08
-
-			battalion_mult = {
-				category = category_all_infantry
-				default_morale = 0.05
-			}
 		}
 
 		path = {
@@ -1253,26 +1167,6 @@ technologies = {
 			experience_loss_factor = -0.10
 		}
 
-		helicopter_field_hospital = {
-			casualty_trickleback = 0.12
-			experience_loss_factor = -0.08
-
-			battalion_mult = {
-				category = category_all_infantry
-				default_morale = 0.05
-			}
-		}
-
-		helicopter_brigade = {
-			casualty_trickleback = 0.15
-			experience_loss_factor = -0.1
-
-			battalion_mult = {
-				category = category_all_infantry
-				default_morale = 0.05
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_field_hospital4
 			research_cost_coeff = 1
@@ -1316,16 +1210,6 @@ technologies = {
 		field_hospital = {
 			casualty_trickleback = 0.1
 			experience_loss_factor = -0.10
-		}
-
-		helicopter_field_hospital = {
-			casualty_trickleback = 0.12
-			experience_loss_factor = -0.08
-
-			battalion_mult = {
-				category = category_all_infantry
-				default_morale = 0.05
-			}
 		}
 
 		research_cost = 2.0
@@ -1391,11 +1275,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_helicopter_transport_pods_tech
-			research_cost_coeff = 1
-		}
-
 		dependencies = {
 			motorised_infantry = 1
 		}
@@ -1445,10 +1324,6 @@ technologies = {
 			fuel_consumption_factor = -0.05
 		}
 
-		helicopter_transport = {
-			supply_consumption_factor = -0.12
-		}
-
 		path = {
 			leads_to_tech = tech_logistics_company3
 			research_cost_coeff = 1
@@ -1495,14 +1370,6 @@ technologies = {
 			fuel_consumption_factor = -0.05
 		}
 
-		helicopter_transport = {
-			supply_consumption_factor = -0.12
-		}
-
-		helicopter_brigade = {
-			supply_consumption_factor = -0.12
-		}
-
 		path = {
 			leads_to_tech = tech_logistics_company4
 			research_cost_coeff = 1
@@ -1546,10 +1413,6 @@ technologies = {
 		logistics_company = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
-		}
-
-		helicopter_transport = {
-			supply_consumption_factor = -0.15
 		}
 
 		research_cost = 2.0

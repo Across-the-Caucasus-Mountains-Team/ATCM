@@ -2752,19 +2752,6 @@ technologies = {
 	}
 
 	######### FROM ITALIAN FOCUS ##########
-	blackshirt_assault_battalion_tech = {
-
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			blackshirt_assault_battalion
-		}
-	}
 
 	mountain_warfare_militias_tech = { #Hidden tech showed as part of ITA_grande_rivolta_rurale_ns national spirit
 
