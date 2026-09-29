@@ -250,9 +250,8 @@ ideas = {
 			picture = CHE_Volunteers
 			
 			modifier = {
-			    war_support_factor = 0.05
 				islam_drift = 0.01
-				weekly_manpower = 50
+				weekly_manpower = 25
 			}
 		}
 		

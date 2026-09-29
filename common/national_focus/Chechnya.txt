@@ -460,9 +460,17 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.05
-			add_popularity = {ideology = islam Popularity = 0.05}
-		}	
+			custom_effect_tooltip = 13_CHE_tt
+			add_popularity = {ideology = islam Popularity = 0.02}
+			add_to_variable = { CHE_IS_stability_factor = 0.10 }
+			add_to_variable = { CHE_IS_islam_drift = 0.01 }
+			add_to_variable = { CHE_IS_nationalism_drift = -0.05 }
+			add_to_variable = { CHE_IS_conservatism_drift = -0.05 }
+			add_to_variable = { CHE_IS_political_power_gain = 0.05 }
+			add_to_variable = { party_popularity_stability_factor = 0.05 }
+			add_to_variable = { CHE_IS_drift_defence_factor = 0.05 }
+			add_to_variable = { CHE_IS_party_popularity_stability_factor = 0.10 }
+		}
 	}
 
 	focus = {
@@ -494,9 +502,14 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.075
-			add_war_support = 0.05
+			custom_effect_tooltip = 13_CHE_tt
 			add_popularity = {ideology = islam Popularity = 0.05}
+			add_to_variable = { CHE_IS_war_support_factor = 0.10 }
+			add_to_variable = { CHE_IS_stability_factor = 0.03 }
+			add_to_variable = { CHE_IS_nationalism_drift = -0.10 }
+			add_to_variable = { CHE_IS_conservatism_drift = -0.05 }
+			add_to_variable = { CHE_IS_political_power_gain = -0.05 }
+			add_to_variable = { CHE_IS_drift_defence_factor = 0.05 }
 		}	
 	}
 
@@ -529,6 +542,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = 13_CHE_tt
 			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
 			add_to_variable = { CHE_IS_stability_factor = 0.1 }
 			add_to_variable = { CHE_IS_recruitable_population_factor = 0.05 }
@@ -570,6 +584,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
+			custom_effect_tooltip = 13_CHE_tt
 			add_to_variable = { CHE_IS_stability_factor = 0.05 }
 			add_to_variable = { CHE_IS_recruitable_population_factor = 0.025 }
 			add_to_variable = { CHE_IS_drift_defence_factor = 0.125 }
@@ -581,7 +596,7 @@ focus_tree = {
 			add_to_variable = { CHE_IS_army_core_defence_factor = 0.05 }
 			add_to_variable = { CHE_IS_army_core_attack_factor = 0.05 }
 			add_to_variable = { CHE_IS_resistance_target_on_our_occupied_states = 0.10 }
-			add_to_variable = { CHE_IS_compliance_growth_on_our_occupied_states = 0.10 }
+			add_to_variable = { CHE_IS_compliance_growth_on_our_occupied_states = -0.10 }
 			add_to_variable = { CHE_IS_CHE_IS_drift_defence_factor = 0.05 }
 		}
 	}
@@ -589,31 +604,31 @@ focus_tree = {
 	focus = {
 		id = CHE_connections_with_islamists_around_the_world
 		icon = GFX_CHE_connections_with_islamists_around_the_world
-		x = 1
-		y = 2
-		prerequisite = { focus = CHE_establish_a_sharia_police_force }
-		relative_position_id = CHE_sharia_laws
+		x = 0
+		y = 1
+		prerequisite = { focus = CHE_islamization_of_the_army }
+		relative_position_id = CHE_islamization_of_the_army
 
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.075
 			add_popularity = {ideology = islam Popularity = 0.05}
@@ -629,10 +644,10 @@ focus_tree = {
 	focus = {
 		id = CHE_investments_of_islamic_countries
 		icon = GFX_CHE_investments_of_islamic_countries
-		x = 1
-		y = 3
-		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
-		relative_position_id = CHE_sharia_laws
+		x = 0
+		y = 1
+		prerequisite = { focus = CHE_foreign_islamic_volunteers }
+		relative_position_id = CHE_foreign_islamic_volunteers
 		
 		cost = 10
 		
@@ -653,11 +668,26 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.075
 			add_popularity = {ideology = islam Popularity = 0.05}
 			remove_ideas = CHE_question_of_currency_idea
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -720,8 +750,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 50
-			add_popularity = {ideology = islam Popularity = 0.075}
+			add_popularity = {ideology = islam Popularity = 0.05}
 			add_ideas = CHE_islamization_of_the_army_idea
 		}	
 	}
@@ -729,35 +758,39 @@ focus_tree = {
 	focus = {
 		id = CHE_establish_the_guard_of_allah
 		icon = GFX_CHE_establish_the_guard_of_allah
-		x = 0
-		y = 1
-		prerequisite = { focus = CHE_islamization_of_the_army }
-		relative_position_id = CHE_islamization_of_the_army
-		
+		x = 1
+		y = 2
+		prerequisite = { focus = CHE_establish_a_sharia_police_force }
+		relative_position_id = CHE_sharia_laws
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		    
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
 		search_filters = { }
-		
+
 		completion_reward = {
-			army_experience = 75
-			add_manpower = 3000
-			add_popularity = {ideology = islam Popularity = 0.05}
+			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = 14_CHE_tt
+			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
+			hidden_effect = {
+			load_oob = CHE_guard_of_allah
+			}
+			add_popularity = {ideology = islam Popularity = 0.01}
 		}	
 	}
 
@@ -766,7 +799,7 @@ focus_tree = {
 		icon = GFX_CHE_foreign_islamic_volunteers
 		x = -1
 		y = 2
-		prerequisite = { focus = CHE_establish_the_guard_of_allah }
+		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
 		relative_position_id = CHE_islamization_of_the_army
 		
 		cost = 10
@@ -790,20 +823,16 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			army_experience = 75
-			add_manpower = 5000
+			army_experience = 50
+			add_manpower = 3000
 			add_equipment_to_stockpile = { 
-				type = infantry_equipment_1 
-				amount = 1750
-			}
-			add_equipment_to_stockpile = { 
-				type = uniform_equipment_0 
-				amount = 1750
+				type = uniform_equipment_1
+				amount = 3000
 			}
 			unlock_decision_tooltip = CHE_attract_addition_islamic_volunteer
 			add_timed_idea = {
 				idea = CHE_volunteers_from_muslim_world_idea
-				days = 115
+				days = 440
 			}
 		}	
 	}
@@ -811,10 +840,10 @@ focus_tree = {
 	focus = {
 		id = CHE_include_mass_islam_into_education
 		icon = GFX_CHE_include_mass_islam_into_education
-		x = 0
-		y = 1
-		prerequisite = { focus = CHE_foreign_islamic_volunteers }
-		relative_position_id = CHE_foreign_islamic_volunteers
+		x = 1
+		y = 3
+		prerequisite = { focus = CHE_establish_the_guard_of_allah }
+		relative_position_id = CHE_sharia_laws
 		
 		cost = 25
 		
@@ -838,6 +867,14 @@ focus_tree = {
 		
 		completion_reward = {
 			remove_ideas = CHE_language_issue
+			custom_effect_tooltip = 13_CHE_tt
+			add_to_variable = { CHE_IS_war_support_factor = 0.10 }
+			add_to_variable = { CHE_IS_stability_factor = 0.05 }
+			add_to_variable = { CHE_IS_Research_speed_factor = -0.10 }
+			add_to_variable = { CHE_IS_nationalism_drift = -0.03 }
+			add_to_variable = { CHE_IS_conservatism_drift = -0.05 }
+			add_to_variable = { CHE_IS_drift_defence_factor = 0.10 }
+			add_to_variable = { CHE_IS_monthly_population = 0.10 }
 		}	
 	}
 
@@ -872,8 +909,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = 0.075
-			add_popularity = {ideology = islam Popularity = 0.05}
+			country_event = chechnya.66
 		}	
 	}
 
@@ -6678,7 +6714,7 @@ focus_tree = {
 	focus = {
 		id = CHE_crackdown_The_opposition
 		icon = GFX_Goal_unknow
-		x = -4
+		x = 4
 		y = 1
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_centralize_power }
@@ -6718,7 +6754,7 @@ focus_tree = {
 	focus = {
 		id = CHE_raids_on_the_opposition
 		icon = GFX_CHE_Arrests_and_raids
-		x = -3
+		x = 3
 		y = 2
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_crackdown_The_opposition }
@@ -6774,7 +6810,7 @@ focus_tree = {
 	focus = {
 		id = CHE_silent_liquidations
 		icon = GFX_Goal_unknow
-		x = -5
+		x = 5
 		y = 2
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_crackdown_The_opposition}
@@ -6829,7 +6865,7 @@ focus_tree = {
 	focus = {
 		id = CHE_Close_look_at_them
 		icon = GFX_Goal_unknow
-		x = -4
+		x = 4
 		y = 3
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_silent_liquidations}
@@ -6874,7 +6910,7 @@ focus_tree = {
 	focus = {
 		id = CHE_Control_over_Media
 		icon = GFX_CHE_Control_over_media
-		x = 4
+		x = -4
 		y = 1
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_centralize_power }
@@ -6908,7 +6944,7 @@ focus_tree = {
 	focus = {
 		id = CHE_Silent_opposition_media
 		icon = GFX_Goal_unknow
-		x = 3
+		x = -3
 		y = 2
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Control_over_Media }
@@ -6948,7 +6984,7 @@ focus_tree = {
 	focus = {
 		id = CHE_Nationalist_Speechs
 		icon = GFX_CHE_national_speech
-		x = 5
+		x = -5
 		y = 2
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Control_over_Media }
@@ -6988,7 +7024,7 @@ focus_tree = {
 	focus = {
 		id = CHE_Young_patriots
 		icon = GFX_CHE_Young_patriots
-		x = 4
+		x = -4
 		y = 3
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_Nationalist_Speechs }

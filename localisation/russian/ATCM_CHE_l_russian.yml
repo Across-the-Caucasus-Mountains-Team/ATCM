@@ -126,6 +126,8 @@
   CHE_foreign_islamic_volunteers:0 "Иностранные исламские волонтеры"
   CHE_connections_with_islamists_around_the_world:0 "Связи с исламистами по всему миру"
   CHE_hold_ingushetia:0 "Удержать Ингушетию"
+  CHE_include_mass_islam_into_education:0 "Исламские школи"
+  CHE_investments_of_islamic_countries:0 "Инвестиции из мусульманских стран"
 
 
 
@@ -143,6 +145,8 @@
   10_CHE_tt:0 "§YФокус §!§R"Использовать влияние Хаттаба"§! §Yбудет разблокирован§!"
   11_CHE_tt:0 "§YВо время войны ополченцы будут лучше вооружены§!"
   12_CHE_tt:0 "§YВ Грозном появятся несколько бригад спецназа§!"
+  13_CHE_tt:0 "§YМодификаторы идеи Исламское государство будут изменены§!"
+  14_CHE_tt:0 "§YБудет создана очень элитнная Гвадрия Алалаха§!"
 
   drove_out_the_russians:0 "Выгнять русских"
   CHE_Khattab_Arrived:0 "Хаттаб прибыл"
@@ -195,6 +199,7 @@
   CHE_Unrecognized_Country_desc:0 "\n\n\n\n£GFX_idea_unrecognized_country_desc_photo\n\n\n\n\n\n\n  Никто не признаёт нашу независимость…"
   CHE_Military_Training:0 "Военные учения"
   CHE_Islamic_Conservatism_idea:0 "Идея Исламского Консерватизма"
+  CHE_Islamic_state_idea:0 "Исламское государство"
   CHE_Young_patriots_idea:0 "Молодые Патриоты"
   CHE_Young_patriots_idea_desc:0 "\n\n\n\n£GFX_idea_young_patriots_desc_photo\n\n\n\n\n\n\n Молодые бойцы — это живые мученики, готовые умереть за свою Родину!"
   CHE_National_Guard:0 "Национальная гвардия"
