@@ -69,6 +69,22 @@ spriteTypes = {
 		name = "GFX_idea_CHE_lack_of_experience_in_building_fortifications"
 		textureFile = "/gfx/interface/ideas/CHE/CHE_lack_of_experience_in_building_fortifications.png"
 	}
+	spriteType = {
+		name = "GFX_idea_CHE_ban_opposition"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_ban_opposition.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHE_mountains_ghosts"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_mountains_ghosts.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHE_freedom_or_death"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_freedom_or_death.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHE_night"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_night.png"
+	}
 	
 	
 

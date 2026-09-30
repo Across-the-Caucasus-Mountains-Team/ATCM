@@ -2441,16 +2441,48 @@ focus_tree = {
 			load_oob = CHE_Elite_Divisions
 		}
 	}
-
 	focus = {
-		id = CHE_Sleepless_Enemy_of_the_tanks
+		id = CHE_night_operations
 		icon = GFX_CHE_Tanks_Nigthmare
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = CHE_Elite_Divisions
 		prerequisite = { focus = CHE_Elite_Divisions }
 		
-		cost = 25
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+		
+		completion_reward = {
+		add_ideas = CHE_night
+		}	
+	}
+
+	focus = {
+		id = CHE_Sleepless_Enemy_of_the_tanks
+		icon = GFX_CHE_Tanks_Nigthmare
+		x = 0
+		y = 2
+		relative_position_id = CHE_Elite_Divisions
+		prerequisite = { focus = CHE_night_operations }
+		
+		cost = 20
 		
 		ai_will_do = {
 			factor = 100
@@ -2491,7 +2523,7 @@ focus_tree = {
 	focus = {
 		id = CHE_Ghosts_of_the_mountains
 		icon = GFX_CHE_Mountains_ghosts
-		x = 0
+		x = -2
 		y = 1
 		relative_position_id = CHE_Elite_Divisions
 		prerequisite = { focus = CHE_Elite_Divisions }
@@ -3752,13 +3784,12 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_ideas = CHE_freedom_or_death
 			add_war_support = 0.075
-			add_stability = 0.075
-			add_manpower = 3000
-			add_political_power = 90
+			add_manpower = 1500
 			add_popularity = {
 				ideology = nationalism
-				popularity = 0.1
+				popularity = 0.05
 			}
 		}	
 	}
