@@ -330,8 +330,6 @@ technologies = {
 	#		factor = 1
 	#		modifier = {
 	#			OR = {
-	#				tag = ENG
-	#				tag = USA
 	#			}
 	#			factor = 5
 	#		}
@@ -1693,24 +1691,6 @@ technologies = {
 			nuclear
 		}
 		special_project_specialization = { specialization_nuclear }
-	}
-
-	lar_decryption_bonus_tech = {
-				
-		research_cost = 1.5 #Carrier Variant
-		start_year = 1944
-
-		# only from focus!!! #####
-		allow = {
-			always = no
-		}
-		decryption_power = 10
-
-		
-		ai_will_do = {
-			factor = 0
-		}
-		################
 	}
 
 

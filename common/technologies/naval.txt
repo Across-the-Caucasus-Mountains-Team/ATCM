@@ -1133,40 +1133,4 @@ technologies = {
 		}
 		special_project_specialization = { specialization_naval }
 	}
-
-	
-
-	######## JAPAN FOCUS TREE UNLOCK ########
-	torpedo_cruiser = {
-
-		enable_equipments = { 
-			torpedo_cruiser
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		# only from focus!!! #####
-		allow = {
-			always = no
-		}
-	}
-
-	fleet_submarines = {
-	
-	}
-
-	#cruiser_submarine = {
-		#enable_equipments = {
-			#cruiser_submarine
-		#}
-
-		#research_cost = 1
-		#start_year = 1936
-
-		#allow = {
-			#always = no
-		#}
-	#}
-	
 }

@@ -489,11 +489,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 20
-			modifier = {
-				factor = 0
-				tag = USA
-				NOT = { has_tech = special_forces_paratroopers }
-			}
 		}
 		
 		ai_research_weights = {
