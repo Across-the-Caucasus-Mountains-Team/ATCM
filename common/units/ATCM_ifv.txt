@@ -23,39 +23,40 @@ sub_units = {
 
 		combat_width = 2
 
-		need = {
-			ifv_equipment = 5
-			infantry_equipment = 25
-			bulletproof_vests_equipment = 20
-			uniform_equipment = 40
-		}
-
-		manpower = 40
-		max_organisation = 70
+		max_strength = 75
+		max_organisation = 65
 		default_morale = 0.3
+		manpower = 100
 		training_time = 180
-		max_strength = 15
-		weight = 1.2
-		supply_consumption = 0.18
+		suppression = 2
+		weight = 1
+		supply_consumption = 0.48
+		initiative = 0.03
 
-		#WE GOOD AT SUPPRESS 
-		suppression = 1
+		need = {
+			infantry_equipment = 100
+			bulletproof_vests_equipment = 100
+			uniform_equipment = 100
+			ifv_equipment  = 12
+			support_equipment = 15
+			grenade_launcher_equipment = 10
+		}
 
 		forest = {
-		    attack = -0.2
-			movement = -0.4
+		    attack = -0.1
+			movement = -0.15
+		}
+		hills = 	{
+			attack = -0.1
+			movement = -0.1
 		}
 		mountain = 	{
-		    attack = -0.1
-		    movement = -0.15
-		}
-		jungle = {
-		    attack = -0.3
-			movement = -0.5
+		    attack = -0.25
+		    movement = -0.3
 		}
 		marsh = {
-		    attack = -0.1 
-			movement = -0.2
+		    attack = -0.15
+			movement = -0.25
 		}
 		desert = {
 			attack = 0.05
@@ -66,8 +67,12 @@ sub_units = {
 			movement = -0.05
 		}
 		river = { 
-			attack = -0.2 
+			attack = -0.15
 			movement = -0.2
+		}
+		urban = {
+			attack = -0.1
+			movement = -0.05
 		}
 		amphibious = { 
 			attack = -0.4
