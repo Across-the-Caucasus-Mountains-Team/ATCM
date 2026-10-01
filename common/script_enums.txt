@@ -492,5 +492,4 @@ script_enum_equipment_bonus_type = {
 	manpads_equipment_1
 	manpads_equipment_2
 	manpads_equipment_3
-	manpads_equipment_4
 }
