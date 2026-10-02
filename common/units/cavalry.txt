@@ -1,7 +1,3 @@
-# options for map_icon_category:
-# For land units: infantry,armored,other
-# For sea units: ship,transport,uboat
-
 sub_units = {
 
 	cavalry = {
@@ -23,50 +19,37 @@ sub_units = {
 			category_army
 		}
 
-		
 		combat_width = 2
-		
-		#Size Definitions
+
 		max_organisation = 70
 		max_strength = 25
 		default_morale = 0.3
 		manpower = 80
-
-		#Misc Abilities
 		maximum_speed = 0.6
 		training_time = 120		
 		weight = 0.5
-		
 		supply_consumption = 0.06
-
-		#Offensive Abilities
 		suppression = 2
-	
+
 		need = {
-			infantry_equipment = 80
+			infantry_equipment = 60
+			bulletproof_vests_equipment = 60
+			uniform_equipment = 80
 		}
 
 		forest = {
 			attack = -0.05
 		}
-
 		hills = {
 			attack = -0.05
 		}
-
 		mountain = {
 			attack = -0.1
 			movement = -0.05
 		}
-
-		jungle = {
-			attack = -0.1
-		}
-
 		urban = {
 			attack = -0.05
 		}
-
 		amphibious = {
 			attack = -0.4
 		}
@@ -125,10 +108,6 @@ sub_units = {
 		mountain = {
 			attack = -0.1
 			movement = -0.05
-		}
-
-		jungle = {
-			attack = -0.1
 		}
 
 		marsh = {

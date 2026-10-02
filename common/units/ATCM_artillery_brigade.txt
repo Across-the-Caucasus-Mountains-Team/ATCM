@@ -52,11 +52,6 @@ sub_units = {
 			movement = -0.2
 		}
 
-		jungle = {
-			attack = -0.25
-			movement = -0.2
-		}
-
 		marsh = {
 			attack = -0.2
 			movement = -0.3
@@ -132,11 +127,6 @@ sub_units = {
 			movement = -0.2
 		}
 
-		jungle = {
-			attack = -0.25
-			movement = -0.5
-		}
-
 		marsh = {
 			attack = -0.2
 			movement = -0.3
@@ -203,11 +193,6 @@ sub_units = {
 		}
 
 		mountain = {
-			movement = -0.2
-		}
-
-		jungle = {
-			attack = -0.25
 			movement = -0.2
 		}
 
@@ -286,10 +271,6 @@ sub_units = {
 			movement = -0.2
 		}
 
-		jungle = {
-			attack = -0.25
-			movement = -0.5
-		}
 
 		marsh = {
 			attack = -0.2

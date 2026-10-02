@@ -12,47 +12,40 @@ sub_units = {
 			infantry
 			support
 		}
-		
+
 		group = support
-		
+
 		categories = {
 			category_support_battalions
 			category_army
 		}
-		
+
 		battalion_mult = {
 			category = category_all_infantry
 			default_morale = 0.20
 		}
-	
+
 		combat_width = 0
-	
-		#Size Definitions
 		max_strength = 1
 		max_organisation = 0	
 		default_morale = 0.3
 		manpower = 75
 		training_time = 180
-
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.02
 		can_be_parachuted = yes
-		
-		# Important Ability
 		suppression_factor = 0.20
 
 		essential = {
 			infantry_equipment
 			support_equipment
 		}
-		
+
 		need = {
 			support_equipment = 25
 			infantry_equipment = 50
 		}
-
-		same_support_type = military_police # blocks adding other MP types to template
+		same_support_type = military_police
 	}
 
 	motorized_military_police = {
@@ -68,14 +61,14 @@ sub_units = {
 			infantry
 			support
 		}
-		
+
 		group = support
-		
+
 		categories = {
 			category_support_battalions
 			category_army
 		}
-		
+
 		battalion_mult = {
 			category = category_all_infantry
 			default_morale = 0.20
@@ -85,37 +78,31 @@ sub_units = {
 			category = category_vehicle_infantry
 			suppression_factor = 0.20
 		}
-	
+
 		combat_width = 0
-	
-		#Size Definitions
 		max_strength = 2 
 		max_organisation = 10 
 		default_morale = 0.3 
 		manpower = 55 
 		training_time = 200 
-
-		#Misc Abilities
-		weight = 0.1 #MP: 0.1
+		weight = 0.1
 		supply_consumption = 0.03
 		can_be_parachuted = no
-		
-		# Important Ability
 		suppression_factor = 0.3
-		recon = 1 #Recon: 1
+		recon = 1
 
 		essential = {
 			infantry_equipment
 			support_equipment
 			motorbike_equipment
 		}
-		
+
 		need = {
 			support_equipment = 5 
 			infantry_equipment = 20
 			motorbike_equipment = 20
 		}
 
-		same_support_type = military_police # blocks adding other MP types to template
+		same_support_type = military_police
 	}
 }
