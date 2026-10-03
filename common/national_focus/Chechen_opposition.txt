@@ -178,7 +178,7 @@ focus_tree = {
 	focus = {
 		id = CHI_forces_in_nadtchernom_region
 		icon = GFX_goal_unknown
-		x = -1
+		x = -2
 		y = 4
 		prerequisite = { focus = CHI_liberate_chchnya }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
@@ -212,7 +212,7 @@ focus_tree = {
 	focus = {
 		id = CHI_forces_in_argun
 		icon = GFX_goal_unknown
-		x = 1
+		x = 0
 		y = 4
 		prerequisite = { focus = CHI_liberate_chchnya }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
@@ -247,12 +247,11 @@ focus_tree = {
 		id = CHI_storming_of_grozny
 		icon = GFX_goal_unknown
 		x = 0
-		y = 5
-		prerequisite = { focus = CHI_forces_in_nadtchernom_region }
-		prerequisite = { focus = CHI_forces_in_argun }
+		y = 6
+		prerequisite = { focus = CHI_russians_specialists }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
 		
-		cost = 25
+		cost = 3
 		
 		ai_will_do = {
 			factor = 100
@@ -275,18 +274,26 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.075
 			load_oob = CHI_argun_forces
+			hidden_effect = {
+				CHE = {
+					country_event = {
+						id = chechnya.66
+						days = 4
+					}
+				}
+			}
 		}	
 	}
 
 	focus = {
 		id = CHI_russian_support
 		icon = GFX_goal_unknown
-		x = 4
+		x = 2
 		y = 4
 		prerequisite = { focus = CHI_liberate_chchnya }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
 		
-		cost = 5
+		cost = 25
 		
 		ai_will_do = {
 			factor = 100
@@ -319,9 +326,11 @@ focus_tree = {
 	focus = {
 		id = CHI_russians_specialists
 		icon = GFX_goal_unknown
-		x = 0
+		x = -2
 		y = 1
+		prerequisite = { focus = CHI_forces_in_argun }
 		prerequisite = { focus = CHI_russian_support }
+		prerequisite = { focus = CHI_forces_in_nadtchernom_region }
 		relative_position_id = CHI_russian_support
 		
 		cost = 5
@@ -349,7 +358,7 @@ focus_tree = {
 			add_manpower = 650
 			add_timed_idea = {
                 idea = CHI_russians_specalists_idea
-                days = 180
+                days = 210
             }
 			load_oob = CHI_russian_tanks
 		}	

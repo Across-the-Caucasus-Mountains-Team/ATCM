@@ -1595,3 +1595,22 @@ country_event = {
 		name = chechnya.66.b
 	}
 }
+
+#Found russian officers and soldiers in the ranks of the opposition 
+country_event = {
+	id = chechnya.67
+	title = chechnya.67.t
+	desc = chechnya.67.d
+	picture = GFX_Report_event_RAS_failed_blitz
+
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = chechnya.67.a
+		
+	}
+}
