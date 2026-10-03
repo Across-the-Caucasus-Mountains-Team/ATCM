@@ -19,7 +19,7 @@ focus_tree = {
 		icon = GFX_CHE_Future_of_the_Chechen_ingush_republic
 		x = 6
 		y = -1
-		
+
 		cost = 75
 		
 		ai_will_do = {
@@ -100,7 +100,7 @@ focus_tree = {
 		cost = 70
 		
 		ai_will_do = {
-			factor = -50
+			factor = 0
 		}
 		
 		available = {
@@ -467,9 +467,8 @@ focus_tree = {
 			add_to_variable = { CHE_IS_nationalism_drift = -0.05 }
 			add_to_variable = { CHE_IS_conservatism_drift = -0.05 }
 			add_to_variable = { CHE_IS_political_power_gain = 0.05 }
-			add_to_variable = { party_popularity_stability_factor = 0.05 }
 			add_to_variable = { CHE_IS_drift_defence_factor = 0.05 }
-			add_to_variable = { CHE_IS_party_popularity_stability_factor = 0.10 }
+			add_to_variable = { CHE_IS_party_popularity_stability_factor = 0.15 }
 		}
 	}
 
@@ -597,7 +596,6 @@ focus_tree = {
 			add_to_variable = { CHE_IS_army_core_attack_factor = 0.05 }
 			add_to_variable = { CHE_IS_resistance_target_on_our_occupied_states = 0.10 }
 			add_to_variable = { CHE_IS_compliance_growth_on_our_occupied_states = -0.10 }
-			add_to_variable = { CHE_IS_CHE_IS_drift_defence_factor = 0.05 }
 		}
 	}
 
@@ -870,7 +868,7 @@ focus_tree = {
 			custom_effect_tooltip = 13_CHE_tt
 			add_to_variable = { CHE_IS_war_support_factor = 0.10 }
 			add_to_variable = { CHE_IS_stability_factor = 0.05 }
-			add_to_variable = { CHE_IS_Research_speed_factor = -0.10 }
+			add_to_variable = { CHE_IS_research_speed_factor = -0.10 }
 			add_to_variable = { CHE_IS_nationalism_drift = -0.03 }
 			add_to_variable = { CHE_IS_conservatism_drift = -0.05 }
 			add_to_variable = { CHE_IS_drift_defence_factor = 0.10 }
@@ -1946,19 +1944,20 @@ focus_tree = {
 		
 		search_filters = { }
 		
-		completion_reward = {
-			custom_effect_tooltip = 2_CHE_tt
-			if = {
-				limit = {
-					NOT = {
-					    has_completed_focus = CHE_irregular_forces
-					}
-				}
-				load_oob = CHE_war_1991_1
-				else = {
-				    load_oob = CHE_war_1991_1_improved
-			    }
+completion_reward = {
+	custom_effect_tooltip = 2_CHE_tt
+
+	if = {
+		limit = {
+			NOT = {
+				has_completed_focus = CHE_irregular_forces
 			}
+		}
+		load_oob = CHE_war_1991_1
+	}
+	else = {
+		load_oob = CHE_war_1991_1_improved
+	}
 			21 = {
 				add_building_construction = {
 					type = bunker

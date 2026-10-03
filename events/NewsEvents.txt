@@ -20,7 +20,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = SAK
-				TAG = RUS
+				TAG = RAS
 			}
 		}
 	}
@@ -30,7 +30,7 @@ news_event = {
 	}
 	option = {
 		name = news.1.c
-		trigger = { TAG = RUS }
+		trigger = { TAG = RAS }
 	}
 }
 

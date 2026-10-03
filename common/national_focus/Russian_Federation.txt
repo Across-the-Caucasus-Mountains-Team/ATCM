@@ -601,7 +601,7 @@ focus_tree = {
 	focus = {
 		id = RAS_attack_grozny
 		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { Focus = RAS_failed_blitz }
+		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
 		x = 0
 		y = 1
@@ -650,7 +650,7 @@ focus_tree = {
 	focus = {
 		id = RAS_move_south_chechnya
 		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { Focus = RAS_attack_grozny }
+		prerequisite = { focus = RAS_attack_grozny }
 		relative_position_id = RAS_attack_grozny
 		x = 0
 		y = 2
@@ -700,7 +700,7 @@ focus_tree = {
 	focus = {
 		id = RAS_conduct_mountain_cleanups
 		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { Focus = RAS_move_south_chechnya }
+		prerequisite = { focus = RAS_move_south_chechnya }
 		relative_position_id = RAS_attack_grozny
 		x = 0
 		y = 3
@@ -744,11 +744,11 @@ focus_tree = {
 	focus = {
 		id = RAS_the_war_dragged_on
 		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { Focus = RAS_conduct_mountain_cleanups }
-		prerequisite = { Focus = RAS_additional_infantry_battalions }
-		prerequisite = { Focus = RAS_additional_shipments_to_the_cto_zone }
-		prerequisite = { Focus = RAS_additional_special_forces }
-		prerequisite = { Focus = RAS_liquidation_of_the_main_terrorist }
+		prerequisite = { focus = RAS_conduct_mountain_cleanups }
+		prerequisite = { focus = RAS_additional_infantry_battalions }
+		prerequisite = { focus = RAS_additional_shipments_to_the_cto_zone }
+		prerequisite = { focus = RAS_additional_special_forces }
+		prerequisite = { focus = RAS_liquidation_of_the_main_terrorist }
 		relative_position_id = RAS_attack_grozny
 		x = -1
 		y = 4
@@ -785,7 +785,7 @@ focus_tree = {
 	focus = {
 		id = RAS_information_war
 		icon = GFX_RAS_Information_war
-		prerequisite = { Focus = RAS_failed_blitz }
+		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
 		x = 7
 		y = 1
@@ -867,7 +867,7 @@ focus_tree = {
 	focus = {
 		id = RAS_demonization_of_chechen_soldiers
 		icon = GFX_RAS_demonization_of_chechen_soldiers
-		prerequisite = { Focus = RAS_information_war }
+		prerequisite = { focus = RAS_information_war }
 		relative_position_id = RAS_information_war
 		x = 1
 		y = 1
@@ -945,7 +945,7 @@ focus_tree = {
 	focus = {
 		id = RAS_conceal_war_crimes
 		icon = GFX_RAS_conceal_war_crimes
-		prerequisite = { Focus = RAS_information_war }
+		prerequisite = { focus = RAS_information_war }
 		relative_position_id = RAS_information_war
 		x = -1
 		y = 1
@@ -1024,8 +1024,8 @@ focus_tree = {
 	focus = {
 		id = RAS_chehcnya_is_terrorist_state
 		icon = GFX_RAS_chehcnya_is_terrorist_state
-		prerequisite = { Focus = RAS_conceal_war_crimes }
-		prerequisite = { Focus = RAS_demonization_of_chechen_soldiers }
+		prerequisite = { focus = RAS_conceal_war_crimes }
+		prerequisite = { focus = RAS_demonization_of_chechen_soldiers }
 		relative_position_id = RAS_information_war
 		x = 0
 		y = 2
@@ -1103,7 +1103,7 @@ focus_tree = {
 	focus = {
 		id = RAS_chehcnya_is_our_historical_state
 		icon = GFX_RAS_chehcnya_is_terrorist_state
-		prerequisite = { Focus = RAS_chehcnya_is_terrorist_state }
+		prerequisite = { focus = RAS_chehcnya_is_terrorist_state }
 		relative_position_id = RAS_information_war
 		x = 0
 		y = 3
@@ -1181,7 +1181,7 @@ focus_tree = {
 	focus = {
 		id = RAS_humanitarion_help
 		icon = GFX_RAS_humaniration_aid_to_checnya
-		prerequisite = { Focus = RAS_failed_blitz }
+		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
 		x = 10
 		y = 1
@@ -1268,7 +1268,7 @@ focus_tree = {
 	focus = {
 		id = RAS_start_negotiation_processes
 		icon = GFX_RAS_yes_to_peace
-		prerequisite = { Focus = RAS_humanitarion_help }
+		prerequisite = { focus = RAS_humanitarion_help }
 		relative_position_id = RAS_humanitarion_help
 		x = 0
 		y = 1
@@ -1337,7 +1337,7 @@ focus_tree = {
 	focus = {
 		id = RAS_yes_to_peace
 		icon = GFX_RAS_start_negotation
-		prerequisite = { Focus = RAS_start_negotiation_processes }
+		prerequisite = { focus = RAS_start_negotiation_processes }
 		relative_position_id = RAS_humanitarion_help
 		x = 0
 		y = 2
@@ -1404,7 +1404,7 @@ focus_tree = {
 	focus = {
 		id = RAS_operations_of_our_special_services
 		icon = GFX_RAS_OperationsOfOurSpecialServices
-		prerequisite = { Focus = RAS_failed_blitz }
+		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
 		x = 3
 		y = 1
@@ -1442,7 +1442,7 @@ focus_tree = {
 	focus = {
 		id = RAS_fsb_and_gru_cooperation
 		icon = GFX_RAS_fsb_and_gru_cooperation
-		prerequisite = { Focus = RAS_operations_of_our_special_services }
+		prerequisite = { focus = RAS_operations_of_our_special_services }
 		relative_position_id = RAS_operations_of_our_special_services
 		x = 0
 		y = 1
@@ -1479,7 +1479,7 @@ focus_tree = {
 	focus = {
 		id = RAS_strengthen_awacs_reconnaissance
 		icon = GFX_RAS_strengthen_awacs_reconnaissance
-		prerequisite = { Focus = RAS_fsb_and_gru_cooperation }
+		prerequisite = { focus = RAS_fsb_and_gru_cooperation }
 		relative_position_id = RAS_operations_of_our_special_services
 		x = -1
 		y = 2
@@ -1521,7 +1521,7 @@ focus_tree = {
 	focus = {
 		id = RAS_strengthen_the_border_with_chechnya
 		icon = GFX_RAS_strengthen_chechen_blockposts
-		prerequisite = { Focus = RAS_fsb_and_gru_cooperation }
+		prerequisite = { focus = RAS_fsb_and_gru_cooperation }
 		relative_position_id = RAS_operations_of_our_special_services
 		x = 1
 		y = 2
@@ -1563,8 +1563,8 @@ focus_tree = {
 	focus = {
 		id = RAS_liquidation_of_the_main_terrorist
 		icon = GFX_RAS_try_to_kill_dudayev
-		prerequisite = { Focus = RAS_strengthen_awacs_reconnaissance }
-		prerequisite = { Focus = RAS_strengthen_the_border_with_chechnya }
+		prerequisite = { focus = RAS_strengthen_awacs_reconnaissance }
+		prerequisite = { focus = RAS_strengthen_the_border_with_chechnya }
 		relative_position_id = RAS_operations_of_our_special_services
 		x = 0
 		y = 3
@@ -1602,7 +1602,7 @@ focus_tree = {
 	focus = {
 		id = RAS_reorganize_our_frontline
 		icon = GFX_RAS_organize_the_frontline
-		prerequisite = { Focus = RAS_failed_blitz }
+		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
 		x = -4
 		y = 1
@@ -1645,7 +1645,7 @@ focus_tree = {
 	focus = {
 		id = RAS_call_for_air_strikes
 		icon = GFX_RAS_call_for_air_strikes
-		prerequisite = { Focus = RAS_reorganize_our_frontline }
+		prerequisite = { focus = RAS_reorganize_our_frontline }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 0
 		y = 1
@@ -1698,7 +1698,7 @@ focus_tree = {
 	focus = {
 		id = RAS_call_for_reinforcements
 		icon = GFX_RAS_call_reinforcements
-		prerequisite = { Focus = RAS_reorganize_our_frontline }
+		prerequisite = { focus = RAS_reorganize_our_frontline }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 2
 		y = 1
@@ -1737,9 +1737,9 @@ focus_tree = {
 	focus = {
 		id = RAS_bring_in_new_armour
 		icon = GFX_RAS_bring_in_new_armor
-		prerequisite = { Focus = RAS_call_for_air_strikes }
-		prerequisite = { Focus = RAS_call_for_omon }
-		prerequisite = { Focus = RAS_call_for_reinforcements }
+		prerequisite = { focus = RAS_call_for_air_strikes }
+		prerequisite = { focus = RAS_call_for_omon }
+		prerequisite = { focus = RAS_call_for_reinforcements }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 0
 		y = 2
@@ -1777,7 +1777,7 @@ focus_tree = {
 	focus = {
 		id = RAS_additional_special_forces
 		icon = GFX_RAS_additional_infantry_battalions
-		prerequisite = { Focus = RAS_bring_in_new_armour }
+		prerequisite = { focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 2
 		y = 3
@@ -1816,7 +1816,7 @@ focus_tree = {
 	focus = {
 		id = RAS_additional_infantry_battalions
 		icon = GFX_RAS_additional_infantry_battalions
-		prerequisite = { Focus = RAS_bring_in_new_armour }
+		prerequisite = { focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 0
 		y = 3
@@ -1855,7 +1855,7 @@ focus_tree = {
 	focus = {
 		id = RAS_additional_shipments_to_the_cto_zone
 		icon = GFX_RAS_additional_infantry_battalions
-		prerequisite = { Focus = RAS_bring_in_new_armour }
+		prerequisite = { focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = -2
 		y = 3
@@ -1928,7 +1928,7 @@ focus_tree = {
 	        add_war_support = 0.05
 		    add_political_power = 25
 			custom_effect_tooltip = 12_RAS_tt
-			custom_effect_toolip = 3_RAS_tt
+			custom_effect_tooltip = 3_RAS_tt
 		}
 	}
 

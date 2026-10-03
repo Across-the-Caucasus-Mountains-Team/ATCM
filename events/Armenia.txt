@@ -22,7 +22,7 @@ country_event = {
 		}	
 		RAS = {
 			set_autonomy = {
-				target = ARS
+				target = ARM
 				autonomous_state = autonomy_free
 				end_wars = no
 				end_civil_wars = no
