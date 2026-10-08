@@ -651,7 +651,7 @@ focus_tree = {
 			}
 			send_equipment = {
 				target = OST
-				type = artillery_equipment
+				type = towed_artillery_equipment
 				amount = 100
 			}
 			add_manpower = -3800

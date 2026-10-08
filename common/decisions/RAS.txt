@@ -955,7 +955,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
             add_equipment_to_stockpile = { 
-				type = artillery_equipment_1 
+				type = towed_artillery_equipment_1 
 				amount = 75 
 			}	
 			add_equipment_to_stockpile = { 

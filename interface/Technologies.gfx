@@ -83,8 +83,8 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_archetype_artillery_equipment_medium"
-		texturefile = "gfx/interface/archetypes/archetype_artillery_equipment.dds"
+		name = "GFX_archetype_towed_artillery_equipment_medium"
+		texturefile = "gfx/interface/technologies/D20.png"
 	}	
 	
 	SpriteType = {
@@ -210,8 +210,8 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_gw_artillery_medium"
-		texturefile = "gfx/interface/technologies/Art_1_comintern.dds"
+		name = "GFX_towed_artillery_1_medium"
+		texturefile = "gfx/interface/technologies/D20.png"
 	}	
 	
 	SpriteType = {
@@ -271,6 +271,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/antiair1.dds"
 	}	
 	
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/D20.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/D30.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/2A36.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/2A65.png"
+	}
+
 	SpriteType = {
 		name = "GFX_rocket_artillery4_medium"
 		texturefile = "gfx/interface/technologies/Rocket_Art_2_allies.dds"
@@ -287,28 +308,33 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_artillery5_medium"
+		name = "GFX_towed_artillery_6_medium"
 		texturefile = "gfx/interface/technologies/artillery5.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_artillery4_medium"
-		texturefile = "gfx/interface/technologies/Art_3_comintern.dds"
+		name = "GFX_towed_artillery_7_medium"
+		texturefile = "gfx/interface/technologies/2A65.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_5_medium"
+		texturefile = "gfx/interface/technologies/2A36.png"
 	}	
 	
 	SpriteType = {
-		name = "GFX_artillery3_medium"
+		name = "GFX_towed_artillery_4_medium"
 		texturefile = "gfx/interface/technologies/artillery3.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_artillery2_medium"
+		name = "GFX_towed_artillery_3_medium"
 		texturefile = "gfx/interface/technologies/artillery2.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_artillery1_medium"
-		texturefile = "gfx/interface/technologies/Art_2_comintern.dds"
+		name = "GFX_towed_artillery_2_medium"
+		texturefile = "gfx/interface/technologies/D30.png"
 	}	
 	
 	SpriteType = {
@@ -4568,4 +4594,59 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Verba.png"
 	}
 
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment"
+		texturefile = "gfx/interface/technologies/D20.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_medium"
+		texturefile = "gfx/interface/technologies/D20.png"
+	}
+
+	SpriteType = {
+		name = "GFX_archetype_towed_artillery_equipment"
+		texturefile = "gfx/interface/technologies/D20.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_1"
+		texturefile = "gfx/interface/technologies/D20.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_1_small"
+		texturefile = "gfx/interface/technologies/D20.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_2"
+		texturefile = "gfx/interface/technologies/D30.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_2_small"
+		texturefile = "gfx/interface/technologies/D30.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_3"
+		texturefile = "gfx/interface/technologies/2A36.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_3_small"
+		texturefile = "gfx/interface/technologies/2A36.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_4"
+		texturefile = "gfx/interface/technologies/2A65.png"
+	}
+
+	SpriteType = {
+		name = "GFX_towed_artillery_equipment_4_small"
+		texturefile = "gfx/interface/technologies/2A65.png"
+	}
 }

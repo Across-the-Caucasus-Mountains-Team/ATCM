@@ -16,7 +16,7 @@ set_technology = {
 	tech_trucks = 1
 	motorised_infantry = 1
 	paratroopers = 1
-	gw_artillery = 1
+	towed_artillery_1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
 }

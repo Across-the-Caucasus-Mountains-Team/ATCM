@@ -4,7 +4,7 @@ equipments = {
 		year = 1936
 
 		is_archetype = yes
-		picture = archetype_artillery_equipment		
+		picture = archetype_towed_artillery_equipment		
 		type = railway_gun
 		group_by = archetype
 		
