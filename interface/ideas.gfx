@@ -81,12 +81,21 @@ spriteTypes = {
 		name = "GFX_idea_CHE_freedom_or_death"
 		textureFile = "/gfx/interface/ideas/CHE/CHE_freedom_or_death.png"
 	}
+
 	spriteType = {
 		name = "GFX_idea_CHE_night"
 		textureFile = "/gfx/interface/ideas/CHE/CHE_night.png"
 	}
-	
-	
+
+    spriteType = {
+        name = "GFX_idea_CHE_Army_islam"
+        texturefile = "gfx/interface/ideas/CHE/CHE_Army_islam.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_CHE_opposition_power_idea"
+        texturefile = "gfx/interface/ideas/CHE/CHE_opposition_power_idea.png"
+    }
 
 	spriteType = {
 		name = "GFX_idea_state_of_emergency"

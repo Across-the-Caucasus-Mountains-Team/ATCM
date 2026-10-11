@@ -581,7 +581,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = state_of_emergency
+			picture = CHE_Army_islam
 			
 			modifier = {
                 army_org_factor = 0.15		
@@ -729,7 +729,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GFX_idea_CHE_disorganized_defense_idea
+			picture = CHE_opposition_power_idea
 			
 			modifier = {
 				weekly_manpower = -35

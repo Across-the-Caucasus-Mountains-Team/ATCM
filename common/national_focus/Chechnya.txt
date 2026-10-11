@@ -1445,7 +1445,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_islamic_uprising_in_azerbaijan
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_islamic_uprising_in_azerbaijan
 		x = 0
 		y = 2
 		prerequisite = { focus = CHE_secret_deliveries_to_azerbajani_radicals }
@@ -1629,7 +1629,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_use_chechen_cells_in_georgia
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_use_chechen_cells_in_georgia
 		x = 0
 		y = 3
 		prerequisite = { focus = CHE_support_akhazian_separatists }
@@ -1667,7 +1667,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_capture_georgia
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_capture_georgia
 		x = 0
 		y = 4
 		prerequisite = { focus = CHE_use_chechen_cells_in_georgia }
@@ -2442,7 +2442,7 @@ completion_reward = {
 	}
 	focus = {
 		id = CHE_night_operations
-		icon = GFX_CHE_Tanks_Nigthmare
+		icon = GFX_CHE_night_operations
 		x = 0
 		y = 1
 		relative_position_id = CHE_Elite_Divisions
@@ -3078,7 +3078,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_preapare_operation_in_budenovsk
-		icon = GFX_CHE_counter_attack
+		icon = GFX_CHE_preapare_operation_in_budenovsk
 		x = 2
 		y = 3
 		relative_position_id = CHE_Operations
@@ -4735,7 +4735,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_chechen_air_force
-		icon = GFX_CHE_Elite_armed_forces
+		icon = GFX_CHE_chechen_air_force
 		x = 7
 		y = 1
 		relative_position_id = CHE_Weak_military
@@ -4770,7 +4770,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_modernization_of_airfields
-		icon = GFX_CHE_Elite_armed_forces
+		icon = GFX_CHE_modernization_of_airfields
 		x = 7
 		y = 2
 		relative_position_id = CHE_Weak_military
@@ -5924,7 +5924,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_new_constitution
-		icon = GFX_CHE_Total_Control_has_achived
+		icon = GFX_CHE_new_constitution
 		x = 0
 		y = 4
 		relative_position_id = CHE_centralize_power
@@ -6743,7 +6743,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_crackdown_The_opposition
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_Crackdown_Opposition
 		x = 4
 		y = 1
 		relative_position_id = CHE_centralize_power
@@ -6839,7 +6839,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_silent_liquidations
-		icon = GFX_Goal_unknow
+		icon = GFX_CHE_Silent_killing
 		x = 5
 		y = 2
 		relative_position_id = CHE_centralize_power
