@@ -469,6 +469,12 @@ scripted_gui = {
 					21 = {
 						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
 					}
+					110 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
+					111 = {
+						add_dynamic_modifier = { modifier = general_staff_attack_modifier scope = CHE days = 30 }
+					}
 					set_country_flag = General_Staff_attack_started
 					country_event = {
 						id = general_staff.1
@@ -663,6 +669,12 @@ scripted_gui = {
 						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
 					}
 					21 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					110 = {
+						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
+					}
+					111 = {
 						add_dynamic_modifier = { modifier = general_staff_defense_modifier scope = CHE days = 30 }
 					}
 					set_country_flag = General_Staff_defence_started
@@ -861,6 +873,12 @@ scripted_gui = {
 					21 = {
 						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
 					}
+					110 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
+					111 = {
+						add_dynamic_modifier = { modifier = general_staff_strengthen_defense_modifier scope = CHE days = 30 }
+					}
 					set_country_flag = General_Staff_strengthen_defense_started
 					country_event = {
 						id = general_staff.3
@@ -1055,6 +1073,12 @@ scripted_gui = {
 						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
 					}
 					21 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					110 = {
+						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+					}
+					111 = {
 						add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
 					}
 					set_country_flag = General_Staff_disrupt_logistics_started

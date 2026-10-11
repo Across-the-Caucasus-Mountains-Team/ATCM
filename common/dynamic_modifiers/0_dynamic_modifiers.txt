@@ -129,10 +129,10 @@ CHE_unprepared_attack = {
 
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
-	army_attack_factor = -0.65
-    army_speed_factor = -0.45
-	army_org_factor = -0.35
-	ai_focus_aggressive_factor = -0.5
+	army_attack_factor = -0.50
+    army_speed_factor = -0.50
+	army_org_factor = -0.2
+	ai_focus_aggressive_factor = -0.9
 }
 
 CHE_prepared_defense = {

@@ -1,52 +1,19 @@
 buildings = {
 
-	# show_on_map:
-	#    if it is provincial building, then show_on_map = X is amount per each province
-	#    if it is state building, then show_on_map = X is amount per state
-	#
-	# province_max:
-	# if province_max is set, then building is provincial
-	#
-	## Modifiers:
-	## country_modifiers - accept only country modifiers
-	## state_modifiers - accept only state modifiers
-	## enable_for_controllers - Country modifiers will apply only if the controller of province/state is in the list, or if the list is empty
-	## Example:
-	#
-	# building = {
-	# 	country_modifiers = {
-	#      enable_for_controllers { GER ENG } # Here you can list countries which can accept the country modifiers of this building
-	# 		modifiers = {
-	#           #Here you can add country modifiers
-	#			political_power_factor = 2.0
-	#       }
-	#   }
-	#   
-	#   state_modifiers = {
-	#       #Here you can add state modifiers
-	#   	local_building_slots_factor = 2
-	#   }
-	# 
-	#   disable_grow_animation = yes # Disables the grow animation for the building, default = no
-	#   missing_tech_loc = <bindable localization> # See script concept bindable localization
-	#   repair_speed_factor = 0.5 # Optional. Factor for how fast the building is repaired (default = 1.0)
-
 	infrastructure = {
 		base_cost = 6000
 		icon_frame = 3
 		infrastructure = yes
 		value = 1
-
 		show_modifier = yes
 		allied_build = yes
-
 		infrastructure_construction_effect = yes
 		level_cap = {
 			state_max = 5
 		}
 		country_modifiers = {
 			modifiers = {
-				max_fuel_building = 1.5 #k
+				max_fuel_building = 1.5 
 			}
 		}
 	}
@@ -82,7 +49,8 @@ buildings = {
 
 	air_base = {
 		show_on_map = 1
-		base_cost = 1250
+		base_cost = 2000
+		per_level_extra_cost = 500
 		icon_frame = 5
 		air_base = yes
 		value = 1

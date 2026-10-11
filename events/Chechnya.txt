@@ -1596,21 +1596,56 @@ country_event = {
 	}
 }
 
-#Found russian officers and soldiers in the ranks of the opposition 
+
+#Found russian officers and soldiers in the ranks of the opposition
 country_event = {
-	id = chechnya.67
-	title = chechnya.67.t
-	desc = chechnya.67.d
-	picture = GFX_Report_event_RAS_failed_blitz
+    id = chechnya.67
+    title = chechnya.67.t
+    desc = chechnya.67.d
+    picture = GFX_Report_event_RAS_failed_blitz
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	immediate = {
+    immediate = {
 
-	}
+    }
 
-	option = {
-		name = chechnya.67.a
-		
-	}
+    option = {
+        name = chechnya.67.a
+    }
+}
+
+#Air force
+country_event = {
+    id = chechnya.68
+    title = chechnya.68.t
+    desc = chechnya.68d
+    picture = GFX_Report_event_RAS_failed_blitz
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    immediate = {
+
+    }
+
+    option = {
+		name = chechnya.68.a
+
+		air_experience = 30
+
+		add_equipment_to_stockpile = {
+			type = jet_fighter_equipment_1
+			variant_name = "Mig"
+			amount = 3
+			producer = RAS
+        }
+
+		add_equipment_to_stockpile = {
+			type = CAS_equipment_1
+			variant_name = "L"
+			amount = 10
+			producer = RAS
+        }
+    }
 }

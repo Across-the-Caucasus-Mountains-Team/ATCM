@@ -26,6 +26,7 @@ NDefines.NAir.AIR_WING_MAX_STATS_BOMBING = 1000 -- 100
 NDefines.NMilitary.WAR_SCORE_AIR_IC_LOSS_FACTOR = 0.1							-- war score gained for every IC of damage done to an enemy's air mission
 NDefines.NMilitary.WAR_SCORE_LAND_DAMAGE_FACTOR = 0.1          				-- war score gained for every strengh damage done to an enemy's army
 NDefines.NMilitary.WAR_SCORE_ATTACKER_AND_WINNER_FACTOR = 1.2					-- factor applied to war score gained for strength damage done when being the attacker and the winner
+NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 50 -- 200
 NDefines.NMilitary.WAR_SCORE_LAND_IC_LOSS_FACTOR = 0.1         				-- war score gained for every IC damage done to an enemy's army
 NDefines.NMilitary.WAR_SCORE_PROVINCE_FACTOR = 2.0							-- war score gained when capturing a province for the first time multiplied by province's worth
 NDefines.NMilitary.WAR_SCORE_LEND_LEASE_GIVEN_IC_FACTOR = 0.001  				-- war score gained for every IC of lend lease sent to allies

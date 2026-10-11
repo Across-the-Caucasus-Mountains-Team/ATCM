@@ -4752,20 +4752,31 @@ completion_reward = {
 				has_global_flag = FirstChechenWar
 			}
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
 		search_filters = { }
-		
+
+
 		completion_reward = {
-			air_experience = 50
-		}	
+		set_technology = {
+            jet_fighter1 = 1
+            CAS1 = 1
+            CAS2 = 1
+            popup = no
+        }
+
+    country_event = {
+        id = chechnya.68
+				hours = 1
+			}
+		}
 	}
 
 	focus = {
@@ -4786,7 +4797,6 @@ completion_reward = {
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
-			has_completed_focus = CHE_glory_of_ichkerian_army
 		}
 		
 		bypass = {
@@ -4798,10 +4808,35 @@ completion_reward = {
 		available_if_capitulated = no
 		
 		search_filters = { }
-		
+
 		completion_reward = {
-			air_experience = 50
-		}	
+			110 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 10612
+					level = 4
+					instant_build = yes
+				}
+			}
+			11 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 17476
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	focus = {
@@ -6772,7 +6807,7 @@ completion_reward = {
 		completion_reward = {
 			add_political_power = -25
 			add_popularity = {ideology = Nationalism Popularity = 0.05}
-			add_stability = -0.05
+			add_stability = -0.025
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value
                 value = 5
@@ -6812,7 +6847,7 @@ completion_reward = {
 		completion_reward = {
 			add_political_power = -50
 			add_stability = -0.05
-			add_war_support = -0.075
+			add_war_support = -0.05
 			add_popularity = {
 				ideology = liberalism
 				popularity = -0.05
@@ -6867,6 +6902,7 @@ completion_reward = {
 		
 		completion_reward = {
 			add_manpower = -250
+			add_stability = -0.01
 			add_political_power = -100
 			add_popularity = {
 				ideology = liberalism
@@ -7283,7 +7319,7 @@ completion_reward = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
