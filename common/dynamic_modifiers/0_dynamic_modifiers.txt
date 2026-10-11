@@ -21,7 +21,7 @@ SAK_Weak_Georgian_Armed_forces = { #NATIONAL SPIRIT
 	icon = GFX_idea_SAK_Weak_Armed_Forces
 
 	war_support_factor = SAK_wgaf_war_support_factor #-0.15
-	Conscription = SAK_wgaf_Conscription #-0.02
+	Conscription = SAK_wgaf_Conscription #-0.01
 	army_attack_factor = SAK_wdaf_army_attack_factor #-0.25
 	army_defence_factor = SAK_wdaf_army_defence_factor #-0.25
 	army_org_factor = SAK_wdaf_army_org_factor #-0.5
@@ -65,7 +65,7 @@ CHE_Weak_Chechen_armed_forces = { #NATIONAL SPIRIT
 	icon = GFX_idea_CHE_weak_army
 
 	war_support_factor = CHE_wcaf_war_support_factor #-0.15
-	Conscription = CHE_wcaf_Conscription #-0.02
+	Conscription = CHE_wcaf_Conscription #-0.01
 	army_attack_factor = CHE_wcaf_army_attack_factor #-0.25
 	army_defence_factor = CHE_wcaf_army_defence_factor #-0.25
 	army_org_factor = CHE_wcaf_army_org_factor #-0.5

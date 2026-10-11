@@ -9,3 +9,10 @@ add_ideas = {
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	limited_exports
+}
+

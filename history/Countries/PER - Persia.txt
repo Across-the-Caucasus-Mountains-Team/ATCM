@@ -37,3 +37,10 @@ recruit_character = PER_akbar_hashemi_rafsanjani
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
+
+add_ideas = {
+	extensive_conscription
+	partial_economic_mobilisation
+	limited_exports
+}
+

@@ -129,7 +129,6 @@ set_popularities = {
 }	
 
 add_ideas = {
-	extensive_conscription
 	universal_health_care
 	welfare_state
 	free_universities
@@ -168,6 +167,13 @@ recruit_character = RAS_Yegor_Gaidar
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
+
+add_ideas = {
+	extensive_conscription
+	partial_economic_mobilisation
+	limited_exports
+}
+
 
 #Azerbajian hotfix
 AZR = {

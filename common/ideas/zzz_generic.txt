@@ -15,9 +15,7 @@ ideas = {
 			
 			modifier = {
 			}
-		}
-
-		
+		}		
 
 		continuous_naval_production = {
 			allowed = {
@@ -723,7 +721,7 @@ ideas = {
 			picture = generic_manpower_bonus
 	
 			modifier = {
-				conscription = 0.02
+				conscription = 0.01
 				resistance_damage_to_garrison = -0.1 
 			}
 		}
@@ -796,7 +794,7 @@ ideas = {
 	
 			modifier = {
 				stability_factor = 0.05
-				weekly_manpower = 400
+				weekly_manpower = 100
 			}
 		}
 	

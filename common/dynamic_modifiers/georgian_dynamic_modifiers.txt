@@ -3,7 +3,7 @@ SAK_georgian_civil_war = {
 
 	icon = GFX_idea_SAK_Weak_Armed_Forces
 
-	conscription = SAK_wgaf_conscription #-0.02
+	conscription = SAK_wgaf_conscription #-0.01
 	army_attack_factor = SAK_wdaf_army_attack_factor #-0.25
 	army_org_factor = SAK_wdaf_army_org_factor #-0.5
 	army_speed_factor = SAK_wdaf_army_speed_factor #-0.15

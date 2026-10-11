@@ -45,5 +45,12 @@ recruit_character = ADJ_Aslan_Abashidze
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
 
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	limited_exports
+}
+
+
 1996.1.1 = {
 }

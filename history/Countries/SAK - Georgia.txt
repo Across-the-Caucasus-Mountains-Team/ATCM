@@ -68,7 +68,7 @@ add_ideas = {
 
 add_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
 set_variable = { SAK_wgaf_war_support_factor = -0.1 }
-set_variable = { SAK_wgaf_Conscription = -0.02 }
+set_variable = { SAK_wgaf_Conscription = -0.005 }
 set_variable = { SAK_wdaf_army_attack_factor = -0.2 }
 set_variable = { SAK_wdaf_army_defence_factor = -0.2 }
 set_variable = { SAK_wdaf_army_org_factor = -0.45 }
@@ -102,6 +102,13 @@ recruit_character = SAK_Boris_Grigolashvili
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	limited_exports
+}
+
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes

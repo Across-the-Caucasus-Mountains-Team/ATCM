@@ -40,7 +40,6 @@ set_popularities = {
 add_ideas = {
 	universal_health_care
 	free_universities
-	limited_conscription
 }	
 
 recruit_character = CHI_Umar_Dzhunitovich
@@ -57,3 +56,9 @@ set_variable = { CHE_wcaf_army_attack_factor = -0.15 }
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	limited_exports
+}

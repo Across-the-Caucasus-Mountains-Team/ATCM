@@ -66,7 +66,6 @@ add_ideas = {
 	welfare_state
 	free_universities
 	police_state
-	limited_conscription
 
 	CHE_memories_of_deportations
 	CHE_language_issue
@@ -74,7 +73,7 @@ add_ideas = {
 
 add_dynamic_modifier = { modifier = CHE_Weak_Chechen_armed_forces }
 set_variable = { CHE_wcaf_war_support_factor = -0.15 }
-set_variable = { CHE_wcaf_Conscription = -0.02 }
+set_variable = { CHE_wcaf_Conscription = -0.005 }
 set_variable = { CHE_wcaf_army_attack_factor = -0.25 }
 set_variable = { CHE_wcaf_army_defence_factor = -0.25 }
 set_variable = { CHE_wcaf_army_org_factor = -0.5 }
@@ -95,6 +94,13 @@ recruit_character = CHE_isa_astamirov
 
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	limited_exports
+}
+
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes

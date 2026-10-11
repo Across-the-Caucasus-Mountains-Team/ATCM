@@ -43,5 +43,12 @@ recruit_character = TUR_turgut_ozal
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
 
+add_ideas = {
+	extensive_conscription
+	low_economic_mobilisation
+	export_focus
+}
+
+
 1996.1.1 = {
 }

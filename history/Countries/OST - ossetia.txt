@@ -44,5 +44,12 @@ recruit_character = OST_provisional_government
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
 
+add_ideas = {
+	volunteer_only
+	low_economic_mobilisation
+	limited_exports
+}
+
+
 1996.1.1 = {
 }

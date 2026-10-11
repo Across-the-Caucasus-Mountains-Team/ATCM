@@ -4,7 +4,7 @@ ideas = {
 
 
         SAK_Tbilisi_syndrome = {
-			
+
 			allowed = {
 				original_tag = SAK
 			}
@@ -124,7 +124,7 @@ ideas = {
 				war_support_Factor = -0.05
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
-				conscription = 0.05
+				conscription = 0.01
 			}
 		}
 		
@@ -148,7 +148,7 @@ ideas = {
 				war_support_Factor = -0.15
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
-				conscription = 0.05
+				conscription = 0.015
 			}
 		}
 		
@@ -322,7 +322,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.05
-				conscription = 0.1
+				conscription = 0.005
 				mobilization_speed = 0.25
 				training_time_factor = -0.15
 			}
@@ -344,7 +344,7 @@ ideas = {
 			
 			modifier = {
 				war_support_Factor = -0.15
-				conscription = 0.05
+				conscription = 0.025
 				conscription_factor = 0.10
 				mobilization_speed = 0.25
 			}
@@ -415,7 +415,7 @@ ideas = {
 				war_support_factor = -0.15
 				stability_factor = -0.05
 				monthly_population = -0.15
-				weekly_manpower = -500
+				weekly_manpower = -100
 			}
 		}
 		

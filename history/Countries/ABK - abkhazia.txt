@@ -45,5 +45,12 @@ recruit_character = ABK_shamil_basayev
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
 
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	limited_exports
+}
+
+
 1996.1.1 = {
 }

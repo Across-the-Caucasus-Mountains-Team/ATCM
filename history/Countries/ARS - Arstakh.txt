@@ -45,6 +45,13 @@ add_ideas = {
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
 
+add_ideas = {
+	volunteer_only
+	low_economic_mobilisation
+	limited_exports
+}
+
+
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 }

@@ -41,6 +41,13 @@ recruit_character = AZR_ilham_aliyev
 set_variable = { cash = 1 }
 ATCM_economy_setup = yes
 
+add_ideas = {
+	limited_conscription
+	low_economic_mobilisation
+	limited_exports
+}
+
+
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 	promote_character = AZR_heydar_aliyev

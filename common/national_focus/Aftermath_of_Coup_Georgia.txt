@@ -1208,7 +1208,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 25
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.001 }
+            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
             add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
@@ -1249,7 +1249,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 25
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.001 }
+            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
             add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
@@ -1367,7 +1367,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 50
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.001 }
+            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
             add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
@@ -1476,7 +1476,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 10
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.001 }
+            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
             add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
             add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
@@ -1549,7 +1549,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
-            set_variable = { SAK_wgaf_Conscription = 0.01 }
+            set_variable = { SAK_wgaf_Conscription = 0.002 }
             set_variable = { SAK_wdaf_army_attack_factor = -0.25 }
             set_variable = { SAK_wdaf_army_org_factor = -0.15 }
             set_variable = { SAK_wdaf_army_speed_factor = -0.15 }

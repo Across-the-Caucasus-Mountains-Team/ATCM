@@ -2401,7 +2401,7 @@ technologies = {
 
 	revolutionary_mass_assault = {
 
-		conscription = 0.02
+		conscription = 0.01
 		infantry = {
 			combat_width = -0.2
 		}

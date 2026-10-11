@@ -4837,7 +4837,7 @@ completion_reward = {
 		
 		completion_reward = {
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.02 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.005 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.0025 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.03 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.01 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.03 }
@@ -4882,7 +4882,7 @@ completion_reward = {
 		completion_reward = {
 			army_experience = 25
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.1 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.005 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.0025 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.07 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.07 }
@@ -4973,7 +4973,7 @@ completion_reward = {
 		
 		completion_reward = {
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.002 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.07 }
@@ -5022,7 +5022,7 @@ completion_reward = {
 		
 		completion_reward = {
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.02 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.0005 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.01 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.02 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.03 }
@@ -5117,7 +5117,7 @@ completion_reward = {
 		completion_reward = {
 			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.0005 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.1 }
@@ -5165,7 +5165,7 @@ completion_reward = {
 		
 		completion_reward = {
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.003 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.0015 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.06 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.02 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.09 }
@@ -5220,7 +5220,7 @@ completion_reward = {
 		completion_reward = {
 			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.08 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.001 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.0005 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.1 }
@@ -5270,7 +5270,7 @@ completion_reward = {
 		completion_reward = {
 			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
-			add_to_variable = { CHE_wcaf_Conscription = 0.003 }
+			add_to_variable = { CHE_wcaf_Conscription = 0.0015 }
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.09 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.09 }
 			add_to_variable = { CHE_wcaf_army_org_factor = 0.05 }
