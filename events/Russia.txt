@@ -592,6 +592,9 @@ country_event = {
 	option = {
 		name = russia.29.a
 		add_war_support = 0.025
+		RAS = {
+			activate_mission = RAS_hold_airport
+		}
 	}
 }
 
@@ -786,19 +789,40 @@ country_event = {
 	}
 }
 
-#Chechens returning
+
+# Chechens returning
 country_event = {
-	id = russia.39
-	title = russia.39.t
-	desc = russia.39.d
-	picture = GFX_Report_event_CHE_kizlyar_raid_preparations
+    id = russia.39
+    title = russia.39.t
+    desc = russia.39.d
+    picture = GFX_Report_event_CHE_kizlyar_raid_preparations
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = russia.39.a
-		add_stability = 0.03
-		add_war_support = 0.01
-		add_political_power = 15
-	}
+    option = {
+        name = russia.39.a
+        add_stability = 0.03
+        add_war_support = 0.01
+        add_political_power = 15
+    }
+}
+
+country_event = {
+    id = russia.40
+    title = russia.40.t
+    desc = russia.40.d
+    picture = GFX_Report_event_CHE_battle_is_in_here
+
+    is_triggered_only = yes
+
+    option = {
+        name = russia.40.a
+        add_war_support = 0.025
+
+        set_country_flag = RAS_airport_reinforcements_unlocked
+        set_country_flag = RAS_samashki_vdv_unlocked
+
+        unlock_decision_tooltip = RAS_send_airport_reinforcements
+        unlock_decision_tooltip = RAS_send_VDV_to_Samashki
+    }
 }

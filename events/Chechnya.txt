@@ -729,7 +729,7 @@ country_event = {
 			load_oob = RAS_VDV_landing_in_grozny
 		    country_event = {
 			    id = russia.29
-			    hours = 3
+			    hours = 1
 		    }
 	    }
 	}

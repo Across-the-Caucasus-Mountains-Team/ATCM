@@ -22,7 +22,7 @@ units = {
 		}
 		location = 17402
 		division_template = "VDV"
-		start_experience_factor = 0.35
+		start_experience_factor = 0.5
 	}
 	division = {	
 	    division_name = {
@@ -31,6 +31,6 @@ units = {
 		}
 		location = 10569
 		division_template = "VDV"
-		start_experience_factor = 0.35
+		start_experience_factor = 0.5
 	}
 }	

@@ -4763,7 +4763,6 @@ completion_reward = {
 		
 		search_filters = { }
 
-
 		completion_reward = {
 		set_technology = {
             jet_fighter1 = 1
