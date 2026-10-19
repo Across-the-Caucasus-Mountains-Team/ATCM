@@ -182,7 +182,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_infantry_weapons1_medium"
 		texturefile = "gfx/interface/technologies/infantry1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/infantry4.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/infantry4.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry3_medium"
@@ -4463,17 +4473,17 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_bbm_2_medium"
-		texturefile = "gfx/interface/technologies/bbm1.png"
+		texturefile = "gfx/interface/technologies/bbm2.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bbm_3_medium"
-		texturefile = "gfx/interface/technologies/bbm1.png"
+		texturefile = "gfx/interface/technologies/bbm3.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bbm_4_medium"
-		texturefile = "gfx/interface/technologies/bbm1.png"
+		texturefile = "gfx/interface/technologies/bbm4.png"
 	}
 
 	SpriteType = {
@@ -4483,17 +4493,17 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_bbm_chassis_1_medium"
-		texturefile = "gfx/interface/technologies/bbm1.png"
+		texturefile = "gfx/interface/technologies/bbm2.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bbm_chassis_2_medium"
-		texturefile = "gfx/interface/technologies/bbm1.png"
+		texturefile = "gfx/interface/technologies/bbm3.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bbm_chassis_3_medium"
-		texturefile = "gfx/interface/technologies/bbm1.png"
+		texturefile = "gfx/interface/technologies/bbm4.png"
 	}
 
     ########################

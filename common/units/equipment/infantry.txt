@@ -87,7 +87,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 9
-		hard_attack = 1.5
+		hard_attack = 1.2
 		ap_attack = 5
 		air_attack = 0
 		
@@ -98,9 +98,9 @@ equipments = {
 		
 	}
 	
-	# Advanced weapons  ~1942
+	# Advanced weapons  ~2005
 	infantry_equipment_3 = {
-		year = 1942
+		year = 2005
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_2
@@ -113,12 +113,38 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 12
-		hard_attack = 2
+		hard_attack = 1.3
 		ap_attack = 10
 		air_attack = 0
 		
 		reliability = 0.8
 		build_cost_ic = 0.75
+		resources = {
+			steel = 4
+		}
+	}
+
+	# Advanced weapons  ~2015
+	infantry_equipment_4 = {
+		year = 2015
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_3
+		priority = 10
+		visual_level = 4
+		
+		#Defensive Abilities
+		defense = 38
+		breakthrough = 7
+
+		#Offensive Abilities
+		soft_attack = 15.2
+		hard_attack = 1.3
+		ap_attack = 13
+		air_attack = 0
+		
+		reliability = 0.8
+		build_cost_ic = 0.79
 		resources = {
 			steel = 4
 		}
