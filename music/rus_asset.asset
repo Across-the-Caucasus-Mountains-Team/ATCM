@@ -19,4 +19,4 @@ music = { name = "light_flashes" file = "rus/light_flashes.ogg" volume = 0.65 }
 music = { name = "mozdok" file = "rus/mozdok.ogg" volume = 0.65 }
 music = { name = "speznaz" file = "rus/speznaz.ogg" volume = 0.65 }
 music = { name = "sindrom" file = "rus/sindrom.ogg" volume = 0.65 }
-music = { name = "sindrom" file = "rus/VKraiuMagnoli.ogg" volume = 0.65 }
+music = { name = "VKraiuMagnoli" file = "rus/VKraiuMagnoli.ogg" volume = 0.65 }

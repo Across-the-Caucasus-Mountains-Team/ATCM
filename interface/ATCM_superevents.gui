@@ -35,6 +35,7 @@ guiTypes = {
 			spriteType = "GFX_sp_event_RAS_First_Chechen_War"
 			position = {x = 0 y = 0}
 		}
+
 		
 		###############
 		###INTERFACE###
@@ -43,11 +44,11 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "super_quote"
-			position = { x = 301 y = 316 }
+			position = { x = 335 y = 316 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "[get_super_event_quote]"
-			maxWidth = 336
+			maxWidth = 306
 			maxHeight = 110
 			fixedsize = yes	
 			format = right
