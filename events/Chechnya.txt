@@ -1619,7 +1619,7 @@ country_event = {
 country_event = {
     id = chechnya.68
     title = chechnya.68.t
-    desc = chechnya.68d
+    desc = chechnya.68.d
     picture = GFX_Report_event_RAS_failed_blitz
 
     is_triggered_only = yes
@@ -1647,5 +1647,25 @@ country_event = {
 			amount = 10
 			producer = RAS
         }
+    }
+}
+
+#Aftermatch of Chechen revolution
+country_event = {
+    id = chechnya.69
+    title = chechnya.69.t
+    desc = chechnya.69.d
+    picture = GFX_Report_event_RAS_failed_blitz
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    immediate = {
+
+    }
+
+    option = {
+		name = chechnya.69.a
+
     }
 }
