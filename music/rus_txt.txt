@@ -21,3 +21,4 @@ music = { song = "light_flashes" chance = { modifier = { factor = 1.0 } } }
 music = { song = "mozdok" chance = { modifier = { factor = 1.0 } } }
 music = { song = "speznaz" chance = { modifier = { factor = 1.0 } } }
 music = { song = "sindrom" chance = { modifier = { factor = 1.0 } } }
+music = { song = "VKraiuMagnoli" chance = { modifier = { factor = 1.0 } } }
