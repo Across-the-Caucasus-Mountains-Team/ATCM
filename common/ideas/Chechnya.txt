@@ -77,7 +77,7 @@ ideas = {
 			picture = GFX_idea_CHE_disorganized_defense_idea
 			
 			modifier = {
-				surrender_limit = 0.4
+				surrender_limit = 0.1
 				army_core_attack_factor = 0.025
 				equipment_capture_factor = 0.02
 				monthly_population = -0.65
@@ -98,7 +98,7 @@ ideas = {
 			picture = GFX_idea_CHE_disorganized_defense_idea
 			
 			modifier = {
-				surrender_limit = 0.8
+				surrender_limit = 0.5
 				army_core_attack_factor = 0.05
 				equipment_capture_factor = 0.03
 				monthly_population = -0.85
@@ -735,9 +735,9 @@ ideas = {
 				weekly_manpower = -35
 				army_org_factor = -0.25	
 				political_power_cost = 0.15
-				communism_drift = 0.01
-				liberalism_drift = 0.02
-				conservatism_drift = 0.02
+				communism_drift = 0.02
+				liberalism_drift = 0.03
+				conservatism_drift = 0.03
 				Junta_drift = 0.01
 				populism_drift = 0.01
 				anarchism_drift = 0.01
@@ -818,7 +818,7 @@ ideas = {
 			picture = GFX_idea_CHE_mountains_ghosts
 			
 			modifier = {
-				surrender_limit = 0.1
+				surrender_limit = 0.15
 				equipment_capture_factor = 0.005
 				modifier_army_sub_unit_mountaineers_attack_factor = 0.10
 				modifier_army_sub_unit_mountaineers_defence_factor = 0.15
@@ -838,7 +838,7 @@ ideas = {
 			picture = GFX_idea_CHE_freedom_or_death
 			
 			modifier = {
-				surrender_limit = 0.1
+				surrender_limit = 0.25
 			}
 		}
 		CHE_night = {
