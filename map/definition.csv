@@ -17403,7 +17403,7 @@
 17402;216;127;82;land;false;plains;1
 17403;51;68;127;land;false;urban;1
 17404;140;151;216;land;false;plains;1
-17405;104;151;216;land;false;plains;1
+17405;104;151;216;land;false;urban;1
 17406;43;168;155;land;false;plains;1
 17407;71;127;84;land;false;plains;1
 17408;73;127;49;land;false;plains;1
@@ -17509,3 +17509,12 @@
 17508;45;158;118;land;false;urban;1
 17509;158;58;86;land;false;urban;1
 17510;47;106;158;land;false;urban;1
+17511;137;79;133;land;false;plains;1
+17512;190;99;22;land;false;plains;1
+17513;115;103;114;land;false;plains;1
+17514;143;25;135;land;false;plains;1
+17515;170;100;42;land;false;plains;1
+17516;161;116;158;land;false;plains;1
+17517;110;86;66;land;false;plains;1
+17518;102;28;35;land;false;plains;1
+17519;125;60;66;land;false;plains;1
