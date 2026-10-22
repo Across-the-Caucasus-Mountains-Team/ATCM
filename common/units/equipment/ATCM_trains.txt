@@ -1,7 +1,6 @@
 equipments = {
-	#archetype
 	train_equipment = {
-		year = 1910
+		year = 1945
 
 		is_archetype = yes
 		is_buildable = no
@@ -10,36 +9,29 @@ equipments = {
 		picture = archetype_train
 		group_by = archetype
 		sprite = train
-
 		interface_category = interface_category_land
 
-		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
-
+		armor_value = 0
 		lend_lease_cost = 20
-
 		build_cost_ic = 70
 		resources = {
 			steel = 1
 		}
 	}
-	# regular trains
-	train_equipment_1 = {
-		year = 1910
 
+	train_equipment_1 = {
+		year = 1945
 		archetype = train_equipment
 		priority = 10
-
-		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
-
+		armor_value = 0
 		build_cost_ic = 70
 		resources = {
 			steel = 1
 		}
 	}
-	# cheap trains
-	train_equipment_2 = {
-		year = 1940
 
+	train_equipment_2 = {
+		year = 1990
 		archetype = train_equipment
 		parent = train_equipment_1
 		priority = 20
@@ -49,15 +41,15 @@ equipments = {
 			steel = 1
 		}
 	}
-	# armored trains
+
 	train_equipment_3 = {
-		year = 1936
+		year = 1990
 
 		archetype = train_equipment
 		parent = train_equipment_1
 		priority = 30
 
-		armor_value = 250 # HP = BASE_TRAIN_HP + armor_value
+		armor_value = 250 
 		air_attack = 18
 
 		build_cost_ic = 105

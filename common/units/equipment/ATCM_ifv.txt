@@ -20,15 +20,13 @@ equipments = {
 			tank_gun_upgrade
 		}
 
-		#Misc Abilities
 		maximum_speed 	= 12
 		reliability 	= 0.8
 		#recon 			= 2
 
-		#Defensive Abilities
 		defense 		= 13
 		breakthrough 	= 21
-		hardness 		= 1
+		hardness 		= 0.55
 		armor_value 	= 10
 
 		#Offensive Abilities
@@ -73,7 +71,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 18
 		breakthrough = 29
-		hardness = 0.5
+		hardness = 0.55
 		armor_value = 15
 
 		#Offensive Abilities
@@ -106,7 +104,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 22
 		breakthrough = 34
-		hardness = 0.5
+		hardness = 0.6
 		armor_value = 17
 
 		#Offensive Abilities
@@ -139,7 +137,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 29
 		breakthrough = 38
-		hardness = 0.5
+		hardness = 0.65
 		armor_value = 17
 
 		#Offensive Abilities
