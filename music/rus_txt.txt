@@ -4,7 +4,6 @@ music = { song = "visota776" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Combat" chance = { modifier = { factor = 1.0 } } }
 music = { song = "bodun" chance = { modifier = { factor = 1.0 } } }
 music = { song = "FromTheScrew" chance = { modifier = { factor = 1.0 } } }
-music = { song = "GruppaKrovi" chance = { modifier = { factor = 1.0 } } }
 music = { song = "HelloMother" chance = { modifier = { factor = 1.0 } } }
 music = { song = "HelloMyDearBaby" chance = { modifier = { factor = 1.0 } } }
 music = { song = "LetsGoFor..." chance = { modifier = { factor = 1.0 } } }
@@ -14,7 +13,6 @@ music = { song = "grachi" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Kiss_rails" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Russky_Mat" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Soldier" chance = { modifier = { factor = 1.0 } } }
-music = { song = "SummerWillEnd" chance = { modifier = { factor = 1.0 } } }
 music = { song = "kosinka" chance = { modifier = { factor = 1.0 } } }
 music = { song = "vernuvshis" chance = { modifier = { factor = 1.0 } } }
 music = { song = "light_flashes" chance = { modifier = { factor = 1.0 } } }
@@ -22,3 +20,9 @@ music = { song = "mozdok" chance = { modifier = { factor = 1.0 } } }
 music = { song = "speznaz" chance = { modifier = { factor = 1.0 } } }
 music = { song = "sindrom" chance = { modifier = { factor = 1.0 } } }
 music = { song = "VKraiuMagnoli" chance = { modifier = { factor = 1.0 } } }
+music = { song = "RodinaSmert" chance = { modifier = { factor = 1.0 } } }
+music = { song = "SummerWillEnd" chance = { modifier = { factor = 1.0 } } }
+music = { song = "GruppaKrovi" chance = { modifier = { factor = 1.0 } } }
+music = { song = "SpokoynayaNoch" chance = { modifier = { factor = 1.0 } } }
+music = { song = "ZakroiDver" chance = { modifier = { factor = 1.0 } } }
+music = { song = "MolchatDomaToska" chance = { modifier = { factor = 1.0 } } }
