@@ -2,4 +2,22 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 9067;1003;sea;16666;-1;-1;-1;-1;;ChechenIsland
 4869;13639;sea;17097;-1;-1;-1;-1;;AzeriIsland
+
+
+
+4127;5342;impassable;-1;-1;-1;-1;-1;;Chechnya
+182;3324;impassable;-1;-1;-1;-1;-1;;Chechnya
+7760;3324;impassable;-1;-1;-1;-1;-1;;Chechnya
+10816;3324;impassable;-1;-1;-1;-1;-1;;Chechnya
+10805;3324;impassable;-1;-1;-1;-1;-1;;Chechnya
+10805;3987;impassable;-1;-1;-1;-1;-1;;Chechnya
+10805;6059;impassable;-1;-1;-1;-1;-1;;Chechnya
+
+
+5395;4827;impassable;-1;-1;-1;-1;-1;;Chechnya
+5395;10986;impassable;-1;-1;-1;-1;-1;;Chechnya
+5395;6553;impassable;-1;-1;-1;-1;-1;;Chechnya
+5395;3020;impassable;-1;-1;-1;-1;-1;;Chechnya
+
+
 -1;-1;;-1;-1;-1;-1;-1;-1
