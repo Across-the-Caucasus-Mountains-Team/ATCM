@@ -2628,7 +2628,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_establish_engineer_squads
-		icon = GFX_CHE_General_Staff_of_Chechnya
+		icon = GFX_Goal_unknow
 		x = 1
 		y = 1
 		relative_position_id = CHE_General_Staff_of_Chechnya
