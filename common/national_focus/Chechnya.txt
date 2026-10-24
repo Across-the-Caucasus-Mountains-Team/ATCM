@@ -359,20 +359,19 @@ focus_tree = {
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-			add_political_power = 25
 			add_war_support = 0.05
+			add_stability = -0.25
 			add_popularity = {ideology = islam Popularity = 0.05}
 			country_event = chechnya.39
 			unlock_decision_category_tooltip = CHE_islamic_republic_stability_decision
-			add_stability = -0.25
 			hidden_effect = {
 				clr_country_flag = CHEIslamicRadicalismElections1991
 			    mark_focus_tree_layout_dirty = yes		
@@ -422,11 +421,12 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+		custom_effect_tooltip = 13_CHE_tt
+			hidden_effect = {
 			country_event = {
 				id = chechnya.70
 				hours = 1
 			}
-			hidden_effect = {
 				country_event = {
 					id = chechnya.40
 					days = 19
@@ -4752,6 +4752,9 @@ completion_reward = {
 		}
 
 		available = {
+			NOT = {
+				has_country_flag = CHE_Dudayev_arrested
+			}
 			NOT = {
 				has_global_flag = FirstChechenWar
 			}
