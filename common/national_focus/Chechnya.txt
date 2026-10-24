@@ -422,7 +422,10 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 25
+			country_event = {
+				id = chechnya.70
+				hours = 1
+			}
 			hidden_effect = {
 				country_event = {
 					id = chechnya.40
@@ -909,7 +912,7 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = chechnya.66
-		}	
+		}
 	}
 
 	focus = {
@@ -921,9 +924,9 @@ focus_tree = {
 		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
 		prerequisite = { focus = CHE_foreign_islamic_volunteers }
 		relative_position_id = CHE_reorganization_of_courts
-		
+
 		cost = 35
-		
+
 		ai_will_do = {
 			factor = 100
 		}
