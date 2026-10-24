@@ -11,9 +11,9 @@ sub_units = {
 		type = {
 			armor
 		}
-		
+
 		group = armor
-		
+
 		categories = {
 			category_tanks
 			category_front_line
@@ -21,28 +21,26 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 2
-
 		need = {
 			uniform_equipment = 45
-			infantry_equipment = 55
+			infantry_equipment = 15
 			bulletproof_vests_equipment = 18
 			modern_tank_equipment = 13
 		}
+
+		combat_width = 2
 		manpower = 45
 		max_organisation = 40
 		max_strength = 100
 		default_morale = 0.3
 		training_time = 240
 		weight = 1.5
-		
 		supply_consumption = 0.25
-
 		breakthrough = 0.15
 		suppression = 1
-		
+
 		plains = {
-			attack = 0.25
+			attack = 0.20
 			defence = -0.1
 		}
 		forest = {
@@ -54,22 +52,23 @@ sub_units = {
 			movement = -0.2
 		}
 		mountain = 	{
-			attack = -0.2
+			attack = -0.25
 			movement = -0.4
 		}
 		marsh = {
-			attack = -0.1 
-			movement = -0.1
+			attack = -0.3
+			movement = -0.4
 		}
 		urban = {
 			attack = -0.4
 			defence = -0.1
+			movement = -0.10
 		}
-		river = { 
-			attack = -0.2 
-			movement = -0.2
+		river = {
+			attack = -0.25
+			movement = -0.20
 		}
-		amphibious = { 
+		amphibious = {
 			attack = -0.7
 		}
 	}

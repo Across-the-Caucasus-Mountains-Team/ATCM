@@ -1,8 +1,6 @@
 equipments = {
-
 	ifv_equipment = {
 		year = 1955
-	
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
@@ -10,9 +8,8 @@ equipments = {
 		picture = archetype_armored_car_equipment			
 		type = armor
 		group_by = archetype
-		
 		interface_category = interface_category_armor
-		
+
 		upgrades = {
 			tank_reliability_upgrade
 			ac_engine_upgrade
@@ -20,137 +17,102 @@ equipments = {
 			tank_gun_upgrade
 		}
 
-		maximum_speed 	= 12
-		reliability 	= 0.8
-		#recon 			= 2
-
-		defense 		= 13
-		breakthrough 	= 21
-		hardness 		= 0.55
-		armor_value 	= 10
-
-		#Offensive Abilities
-		soft_attack 	= 19
-		hard_attack 	= 5
-		ap_attack 		= 8
-		air_attack 		= 0.01
-
-		#Space taken in convoy
+		maximum_speed = 12
+		reliability = 0.8
+		defense = 13
+		breakthrough = 21
+		hardness = 0.55
+		armor_value = 12
+		soft_attack = 19
+		hard_attack = 5
+		ap_attack = 8
 		lend_lease_cost = 10
-		
-		build_cost_ic 	= 16.5
+		build_cost_ic = 16.5
+		fuel_consumption = 1.8
 		resources = {
 			steel = 2
 		}
-
-		fuel_consumption = 1.8
 	}
 
 	ifv_0_equipment = {
-		year = 1960
-	
+		year = 1955
 		archetype = ifv_equipment
 		active = yes
-		priority = 05
+		priority = 5
 		visual_level = 0
 	}
 
 	ifv_1_equipment = {
-		year = 1955
-	
+		year = 1960
 		archetype = ifv_equipment
 		parent = ifv_0_equipment
 		priority = 5
 		visual_level = 0
-		
-		
-		#Misc Abilities
-		maximum_speed 	= 9
-		reliability 	= 0.84
 
-		#Defensive Abilities
+		maximum_speed = 9
+		reliability = 0.84
 		defense = 18
 		breakthrough = 29
 		hardness = 0.55
-		armor_value = 15
-
-		#Offensive Abilities
+		armor_value = 16
 		soft_attack = 22
 		hard_attack = 9
 		ap_attack = 26
-		air_attack = 0
-
 		build_cost_ic = 16.5
+		fuel_consumption = 1.8
 		resources = {
 			steel = 2
 			tungsten = 1
 		} 
-		fuel_consumption 	= 1.8
 	}
 
 	ifv_2_equipment = {
 		year = 1975
-		
 		archetype = ifv_equipment
 		parent = ifv_1_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
 
-		#Misc Abilities
-		maximum_speed 	= 13
-		reliability 	= 0.88
-
-		#Defensive Abilities
+		maximum_speed = 13
+		reliability = 0.88
 		defense = 22
 		breakthrough = 34
 		hardness = 0.6
-		armor_value = 17
-
-		#Offensive Abilities
+		armor_value = 20
 		soft_attack = 26
 		hard_attack = 11
 		ap_attack = 29
-		air_attack = 0
-
 		build_cost_ic = 18.5 
+		fuel_consumption = 2.4
 		resources = {
 			steel = 3
 			tungsten = 1
 		}
-		fuel_consumption 	= 7.9
 	}
 
 	ifv_3_equipment = {
 		year = 1985
-		
 		archetype = ifv_equipment
 		parent = ifv_2_equipment
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
 
-		#Misc Abilities
-		maximum_speed 	= 17
-		reliability 	= 0.92
-
-		#Defensive Abilities
+		maximum_speed = 17
+		reliability = 0.92
 		defense = 29
 		breakthrough = 38
 		hardness = 0.65
-		armor_value = 17
-
-		#Offensive Abilities
+		armor_value = 24
 		soft_attack = 32
 		hard_attack = 11
 		ap_attack = 31
-		air_attack = 0	
-		
 		build_cost_ic = 20.5
+		fuel_consumption = 2.5
 		resources = {
 			steel = 4
 			tungsten = 1
 		}
-		fuel_consumption 	= 2.1
 	}
 }

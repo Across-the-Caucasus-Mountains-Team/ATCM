@@ -22,17 +22,17 @@ sub_units = {
 		combat_width = 2
 
 		max_organisation = 70
-		max_strength = 25
+		max_strength = 30
 		default_morale = 0.3
 		manpower = 80
 		maximum_speed = 0.6
-		training_time = 120		
+		training_time = 100	
 		weight = 0.5
 		supply_consumption = 0.06
 		suppression = 2
 
 		need = {
-			infantry_equipment = 60
+			infantry_equipment = 70
 			bulletproof_vests_equipment = 60
 			uniform_equipment = 80
 		}
@@ -45,10 +45,14 @@ sub_units = {
 		}
 		mountain = {
 			attack = -0.1
-			movement = -0.05
+			movement = -0.2
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.25
 		}
 		urban = {
-			attack = -0.05
+			attack = -0.1
 		}
 		amphibious = {
 			attack = -0.4
@@ -73,62 +77,50 @@ sub_units = {
 			category_cavalry
 			category_army
 		}
-		
+
 		combat_width = 2
-		
-		#Size Definitions
 		max_organisation = 70
 		max_strength = 30
 		default_morale = 0.3
 		manpower = 90
-
-		#Misc Abilities
 		maximum_speed = 0.4
 		training_time = 160		
 		weight = 0.6
-		
 		supply_consumption = 0.1
-
-		#Offensive Abilities
 		suppression = 2
-	
+
 		need = {
-			infantry_equipment = 90
+			infantry_equipment = 80
+			bulletproof_vests_equipment = 70
+			uniform_equipment = 90
 		}
 
 		forest = {
 			attack = -0.05
 		}
-
 		hills = {
 			attack = -0.05
 			movement = -0.05
 		}
-
 		mountain = {
 			attack = -0.1
 			movement = -0.05
 		}
-
 		marsh = {
-			movement = 0.05
+			movement = -0.25
 		}
-
 		plains = {
 			movement = 0.15
 		}
-
 		urban = {
 			attack = -0.05
 			movement = -0.05
 		}
-
 		desert = {
 			attack = 0.05
 			defence = 0.05
 			movement = 0.1
 		}
-
 		amphibious = {
 			attack = -0.4
 		}

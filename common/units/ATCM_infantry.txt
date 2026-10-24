@@ -52,7 +52,6 @@ sub_units = {
 		urban = {
 			attack = 0.10
 			defence = 0.20
-			movement = 0.05
 		}
 		forest = {
 			attack = 0.05
@@ -64,8 +63,8 @@ sub_units = {
 			attack = 0.05
 		}
 		river = {
-			attack = -0.25
-			movement = -0.20
+			attack = -0.1
+			movement = -0.15
 		}
 	}
 	
@@ -111,11 +110,11 @@ sub_units = {
 			bulletproof_vests_equipment = 100
 			uniform_equipment = 100
 			support_equipment = 20
-			grenade_launcher_equipment = 15
+			grenade_launcher_equipment = 14
 		}
 
 		plains = {
-			attack = -0.20
+			attack = -0.15
 			defence = 0.05
 		}
 		marsh = {
@@ -257,7 +256,6 @@ sub_units = {
 		urban = {
 			attack = 0.10
 			defence = 0.20
-			movement = 0.05
 		}
 		forest = {
 			attack = 0.05
@@ -269,8 +267,8 @@ sub_units = {
 			attack = 0.05
 		}
 		river = {
-			attack = -0.25
-			movement = -0.20
+			attack = -0.15
+			movement = -0.15
 		}
 		hills = {
 			attack = 0.25
@@ -278,9 +276,9 @@ sub_units = {
 			movement = 0.2
 		}
 		mountain = {
-			attack = 0.15
-			defence = 0.25
-			movement = 0.1
+			attack = 0.3
+			defence = 0.35
+			movement = 0.15
 		}
 	}
 
@@ -329,6 +327,38 @@ sub_units = {
 			grenade_launcher_equipment = 20
 			airborne_combat_vehicle = 14
 		}
+
+		forest = {
+		    attack = -0.1
+			movement = -0.12
+		}
+		hills = 	{
+			attack = -0.1
+			movement = -0.1
+		}
+		mountain = 	{
+		    attack = -0.25
+		    movement = -0.25
+		}
+		marsh = {
+		    attack = -0.15
+			movement = -0.28
+		}
+		desert = {
+			attack = 0.05
+			movement = 0.15
+		}
+		urban = {
+			attack = -0.15
+			movement = -0.05
+		}
+		river = { 
+			attack = -0.10
+			movement = -0.15
+		}
+		amphibious = { 
+			attack = -0.30
+		}
 	}
 
 	motorized = {
@@ -376,14 +406,15 @@ sub_units = {
 
 		forest = {
 			attack = -0.1
-			movement = -0.5
+			movement = -0.30
 		}
 		mountain = {
 			attack = -0.05
+			movement = -0.35
 		}
 		marsh = {
 			attack = -0.1
-			movement = -0.3
+			movement = -0.45
 		}
 		urban = {
 			attack = -0.1
@@ -501,9 +532,9 @@ sub_units = {
 		defense = -0.15
 
 		need = {
-			infantry_equipment = 35 # was 100 
-			bulletproof_vests_equipment = 25
-			uniform_equipment = 35
+			infantry_equipment = 30
+			bulletproof_vests_equipment = 20
+			uniform_equipment = 34
 	        grenade_launcher_equipment = 4
 		}
 
@@ -587,12 +618,15 @@ sub_units = {
 
 		forest = {
 			attack = -0.2
+			movement = -0.25
 		}
 		mountain = {
 			attack = -0.05
+			movement = -0.30
 		}
 		marsh = {
 			attack = -0.1
+			movement = -0.35
 		}
 		urban = {
 			attack = -0.2
@@ -699,12 +733,12 @@ sub_units = {
 		urban = {
 			attack = 0.20
 			defence = 0.15
-			movement = 0.10
+			movement = 0.05
 		}
 		forest = {
 			attack = 0.15
 			defence = 0.15
-			movement = 0.10
+			movement = 0.05
 		}
 		fort = {
             defence = 0.10
