@@ -20,10 +20,10 @@ ideas = {
 				stability_factor = -0.45
 				consumer_goods_factor = 0.45
 				production_factory_efficiency_gain_factor = -0.15
-				production_factory_max_efficiency_factor = -0.15
+				production_factory_max_efficiency_factor = -0.35
 				production_speed_industrial_complex_factor = -0.45
 				research_speed_factor = -0.2
-				communism_drift = -0.01
+				communism_drift = -0.03
 			}
 		}
 		
@@ -64,7 +64,8 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				war_support_factor = -0.05
-				liberalism_drift = 0.01
+				liberalism_drift = 0.03
+				communism_drift = -0.02
 			}
 		}
 		
@@ -138,6 +139,7 @@ ideas = {
 				stability_factor = -0.05
 				political_power_factor = -0.5
 				political_advisor_cost_factor = 0.15
+				communism_drift = -0.01
 			}
 		}
 	}
