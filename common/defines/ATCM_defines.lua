@@ -74,3 +74,13 @@ NDefines.NMilitary.MIN_DIVISION_BRIGADE_HEIGHT = 4		-- Min height of regiments i
 NDefines.NMilitary.DIVISIONAL_COMMANDER_TRAIT_XP_REQUIREMENT = 600.0	--Get a trait if any valid options & xp gained >= this
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5
+
+NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.40 -- speed bonus when retreating 0.25 vanilla
+NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.25
+
+NDefines.NAI.PLAN_ATTACK_MIN_ORG_FACTOR_HIGH = 0.4
+NDefines.NAI.PLAN_ATTACK_MIN_STRENGTH_FACTOR_HIGH = 0.2
+NDefines.NAI.ORG_UNIT_WEAK = 0.15						-- Organization % for unit to be considered weak
+NDefines.NAI.STR_UNIT_WEAK = 0.4						-- Strength (equipment) % for unit to be considered weak
+NDefines.NAI.AT_WAR_THREAT_FACTOR = 2.0					-- How much increase in threat does AI feel for being in war against osmeone
+NDefines.NAI.HOURS_BETWEEN_ENCIRCLEMENT_DISCOVERY = 24
