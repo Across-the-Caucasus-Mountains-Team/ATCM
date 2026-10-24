@@ -558,6 +558,36 @@ spriteTypes = {
 		name = "GFX_Report_event_russian_blockposts"
 		texturefile = "gfx/event_pictures/Report_event_russian_blockposts.png"
 	}
+	
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_sufiskoe_duhovenstvo_question"
+		texturefile = "gfx/event_pictures/Report_event_CHE_sufiskoe_duhovenstvo_question.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_svetskie_musulmane_question"
+		texturefile = "gfx/event_pictures/Report_event_CHE_svetskie_musulmane_question.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_eldery_question"
+		texturefile = "gfx/event_pictures/Report_event_CHE_eldery_question.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_oil_refinery_question"
+		texturefile = "gfx/event_pictures/Report_event_CHE_oil_refinery_question.png"
+	}
+
+	spriteType = {
+		name = "GFX_Report_event_CHE_Communist_question"
+		texturefile = "gfx/event_pictures/Report_event_CHE_Communist_question.png"
+	}
+
+
+
+
 
 	spriteType = {
 		name = "GFX_News_event_Gamsakhurdia"

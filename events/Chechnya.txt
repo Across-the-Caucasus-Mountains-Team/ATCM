@@ -1699,7 +1699,7 @@ country_event = {
     id = chechnya.70
     title = chechnya.70.t
     desc = chechnya.70.d
-    picture = GFX_Report_event_CHE_election_1991
+    picture = GFX_Report_event_CHE_Communist_question
 
     is_triggered_only = yes
     fire_only_once = yes
@@ -1751,7 +1751,7 @@ country_event = {
     id = chechnya.72
     title = chechnya.72.t
     desc = chechnya.72.d
-    picture = GFX_Report_event_RAS_fsb_report
+    picture = GFX_Report_event_CHE_oil_refinery_question
 
     is_triggered_only = yes
     fire_only_once = yes
@@ -1772,7 +1772,7 @@ country_event = {
     id = chechnya.73
     title = chechnya.73.t
     desc = chechnya.73.d
-    picture = GFX_Report_event_congress
+    picture = GFX_Report_event_CHE_eldery_question
 
     is_triggered_only = yes
     fire_only_once = yes
@@ -1792,7 +1792,7 @@ country_event = {
     id = chechnya.74
     title = chechnya.74.t
     desc = chechnya.74.d
-    picture = GFX_Report_event_CHE_election_1991
+    picture = GFX_Report_event_CHE_svetskie_musulmane_question
 
     is_triggered_only = yes
     fire_only_once = yes
@@ -1813,7 +1813,7 @@ country_event = {
     id = chechnya.75
     title = chechnya.75.t
     desc = chechnya.75.d
-    picture = GFX_Report_event_congress
+    picture = GFX_Report_event_CHE_sufiskoe_duhovenstvo_question
 
     is_triggered_only = yes
     fire_only_once = yes
