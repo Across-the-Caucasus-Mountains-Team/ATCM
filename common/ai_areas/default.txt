@@ -11,4 +11,10 @@ areas = {
 		}
 	}
 
+
+	north_chechnya = {
+		strategic_regions = {
+			4
+		}
+	}
 }

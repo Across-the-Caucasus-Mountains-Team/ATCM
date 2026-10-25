@@ -13,12 +13,14 @@ CHE_GROZNY_CONTROL = {
 		type = front_unit_request
 		area = grozny
 		value = 300
+		execute_order = yes	
 	}
 
 	ai_strategy = {
 		type  = force_concentration_front_factor
 		area = grozny        
 		value = 30
+		execute_order = yes	
 	}
 
 	#ai_strategy = {
@@ -31,6 +33,71 @@ CHE_GROZNY_CONTROL = {
 	#	priority = 140
 	#}
 }
+
+CHE_chechen_war_is_going = {
+	allowed = {
+		original_tag = CHE
+	}
+
+	enable = {
+		has_war_with = RAS
+	}
+
+	abort = {
+		NOT = {
+			has_war_with = RAS
+		}
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -1500
+	}
+	
+	ai_strategy = {
+		type = front_unit_request
+		tag = RAS
+		value = 150
+	}
+
+	ai_strategy = {
+		type = front_control
+		tag = RAS
+		ordertype = front
+		execution_type = balanced
+		manual_attack = yes
+		execute_order = yes	
+	}
+}
+
+CHE_northern_chechnya = {
+	allowed = {
+		original_tag = CHE
+	}
+	enable = {
+		has_country_flag = CHE_preparation_in_grozny
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = north_chechnya
+		value = -300
+		execute_order = yes	
+	}
+
+	#ai_strategy = {
+	#	type = front_control
+	#	tag = CHE
+	#	ordertype = front
+	#	execution_type = balanced
+	#	execute_order = yes
+	#	manual_attack = yes
+	#	priority = 140
+	#}
+}
+
+
+
 
 
 

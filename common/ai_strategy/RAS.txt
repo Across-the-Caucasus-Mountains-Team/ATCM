@@ -1,0 +1,61 @@
+##############################
+# 1.
+##############################
+RAS_chechen_war_is_going = {
+	allowed = {
+		original_tag = RAS
+	}
+
+	enable = {
+		has_war_with = CHE
+	}
+
+	abort = {
+		NOT = {
+			has_war_with = CHE
+		}
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -1500
+	}
+	
+	ai_strategy = {
+		type = front_unit_request
+		tag = CHE
+		value = 150
+	}
+
+	ai_strategy = {
+		type = front_control
+		tag = CHE
+		ordertype = front
+		execution_type = balanced
+		manual_attack = yes
+		execute_order = yes	
+	}
+}
+
+RAS_inter_war = {
+	allowed = {
+		original_tag = RAS
+	}
+
+	enable = {
+		NOT = {
+			has_war_with = CHE
+		}
+	}
+
+	abort = {
+		has_war_with = CHE
+	}
+	
+	ai_strategy = {
+		type = prepare_for_war
+		tag = CHE
+		value = 250
+	}
+}
+
