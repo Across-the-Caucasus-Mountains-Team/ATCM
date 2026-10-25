@@ -11,9 +11,8 @@ state={
 	victory_points = { 2151 2 }
 		buildings = {
 			infrastructure = 2
-		}}
-	}	
-	impassable = yes
+		}
+	}
 	manpower=6000
 	buildings_max_level_factor=1.000
 	state_category=rural

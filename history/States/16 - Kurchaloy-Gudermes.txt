@@ -16,6 +16,7 @@ state={
 		victory_points = { 9472 3 }
 		victory_points = { 6983 3 }
 		victory_points = { 17416 3 }
+		victory_points = { 3533 3 }
 		victory_points = { 4450 4 }
 		victory_points = { 8080 10 }
 		victory_points = { 7218 8 }
@@ -32,7 +33,7 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
-					arms_factory = 1
+			arms_factory = 1
 }
 	}
 	manpower=169090

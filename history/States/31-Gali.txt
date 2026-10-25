@@ -6,8 +6,8 @@ state={
 	}
 	
 	resources = {
-	    Tungsten = 10
-		Chromium = 10
+	    tungsten = 10
+		chromium = 10
 	}
 	
 	history={

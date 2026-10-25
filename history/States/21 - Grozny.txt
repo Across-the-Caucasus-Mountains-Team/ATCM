@@ -7,7 +7,7 @@ state={
 	
 	resources={
 		tungsten=13
-		Steel=23
+		steel=23
 	}
 	
 	history={
@@ -22,9 +22,6 @@ state={
 		victory_points = { 17505 5 }
 		victory_points = { 17506 10 }
 		victory_points = { 17399 3 }
-		victory_points = { 8086 3 }
-		victory_points = { 10556 3 }
-		victory_points = { 17522 3 }
 				buildings = {
 			infrastructure = 5
 			industrial_complex = 3

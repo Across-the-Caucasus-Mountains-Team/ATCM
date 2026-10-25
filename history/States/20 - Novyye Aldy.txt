@@ -13,9 +13,12 @@ state={
 		owner = CHE
 		add_core_of = CHE
 		victory_points = { 7018 5 }
+		victory_points = { 8086 3 }
 		victory_points = { 10560 6 }
+		victory_points = { 10556 3 }
 		victory_points = { 17405 4 }
 		victory_points = { 17402 2 }
+		victory_points = { 17522 3 }
 				buildings = {
 			infrastructure = 2
 		}

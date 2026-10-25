@@ -11,7 +11,7 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
-					arms_factory = 1
+			arms_factory = 1
 }
 	}
 	manpower=1141625

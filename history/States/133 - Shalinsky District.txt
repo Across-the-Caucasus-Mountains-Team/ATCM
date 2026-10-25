@@ -9,7 +9,6 @@ state={
 		add_core_of = CHE
 		victory_points = { 2359 6 }
 		victory_points = { 7116 3 }
-		victory_points = { 3533 3 }
 		victory_points = { 8778 20 }
 				buildings = {
 			infrastructure = 3
