@@ -1,0 +1,21 @@
+state={
+	id=120
+	name="STATE_120"
+	provinces={
+		1556 2151 2550 5999 
+	}
+	history={
+	owner = SAK
+	add_core_of = SAK
+	add_core_of = CHE
+	victory_points = { 2151 2 }
+		buildings = {
+			infrastructure = 2
+		}}
+	}	
+	impassable = yes
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
