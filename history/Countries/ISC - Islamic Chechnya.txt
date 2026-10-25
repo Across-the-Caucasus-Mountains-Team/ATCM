@@ -1,0 +1,86 @@
+capital = 21
+
+set_research_slots = 2
+
+#load_oob = CHE_1991
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	towed_artillery_1 = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	modern_tank_1 = 1
+	IFV_1 = 1
+	mortar_weapons = 1
+	mortar_weapons1 = 1
+	anti_tank_infantry_weapon = 1
+	anti_tank_infantry_weapon1 = 1
+	uniform_equipment = 1
+	uniform_equipment1 = 1
+	atgm_equipment = 1
+	atgm_equipment1 = 1
+	APC_1 = 1
+	APC_2 = 1
+	sniper_company = 1
+	portable_anti_aircraft_missile_system = 1
+	portable_anti_aircraft_missile_system_1 = 1
+	bbm_1 = 1
+	bbm_2 = 1
+	reactive_artillery = 1
+}
+
+set_politics = {
+	ruling_party = islam
+	last_election = "1992.9.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	islam = 100
+}	
+
+add_ideas = {
+	universal_health_care
+	welfare_state
+	free_universities
+	police_state
+}	
+
+add_dynamic_modifier = { modifier = CHE_Weak_Chechen_armed_forces }
+set_variable = { CHE_wcaf_war_support_factor = -0.15 }
+set_variable = { CHE_wcaf_Conscription = 0.005 }
+set_variable = { CHE_wcaf_army_attack_factor = -0.15 }
+set_variable = { CHE_wcaf_army_defence_factor = -0.15 }
+set_variable = { CHE_wcaf_army_org_factor = -0.1 }
+set_variable = { CHE_wcaf_army_speed_factor = -0.15 }
+set_variable = { CHE_wcaf_war_stability_factor = -0.1 }
+set_variable = { CHE_wcaf_army_org_regain = -0.15 }
+
+
+recruit_character = ISC_shamil_basayev
+
+
+set_variable = { cash = 1 }
+ATCM_economy_setup = yes
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	limited_exports
+}

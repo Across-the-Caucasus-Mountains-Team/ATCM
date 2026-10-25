@@ -1672,5 +1672,36 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 			factor = 175		
 		}
 	}
+
+	RAS_propose_peace = {
+
+		icon = GFX_decision_generic_soldie
+        cost = 25
+		fire_only_once = no
+		days_re_enable = 50
+		
+		available = {		
+		    tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_yes_to_peace
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_yes_to_peace
+		}
+
+		complete_effect = {
+			add_stability = 0.05
+            CHE = {
+                country_event = russia.13
+			}
+		}
+
+		ai_will_do = {
+			factor = 175		
+		}
+	}	
 	
 }

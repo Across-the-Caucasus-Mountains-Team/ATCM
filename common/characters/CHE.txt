@@ -110,6 +110,13 @@ characters={
 			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
 			}
 		}
+		country_leader={
+			ideology= generic_islam
+			traits={ # 
+			}
+			expire="2040.4.21.1"
+			id=-1
+		}
 		corps_commander = {
 			traits = { old_guard infantry_leader }
 			skill = 3
@@ -130,6 +137,34 @@ characters={
 			}
 		}
 	}
+
+	ISC_shamil_basayev = {
+		name = "Shamil Basayev"
+		portraits = {
+			army = {
+			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
+			}
+		}
+		country_leader={
+			ideology= generic_islam
+			traits={ # 
+			}
+			expire="2040.4.21.1"
+			id=-1
+		}
+		corps_commander = {
+			traits = { old_guard infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 1201
+			#visible = {
+
+			#}
+		}
+	}	
 	
 	CHE_ruslan_gelayev = {
 		name = "Ruslan Gelayev"
