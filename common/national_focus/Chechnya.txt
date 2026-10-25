@@ -421,6 +421,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+		set_variable = { CHE_elite_compromises = 0 }
 		custom_effect_tooltip = 13_CHE_tt
 			hidden_effect = {
 			country_event = {
@@ -519,7 +520,7 @@ focus_tree = {
 	focus = {
 		id = CHE_sharia_laws
 		icon = GFX_CHE_sharia_laws
-		x = 2
+		x = -2
 		y = 2
 		prerequisite = { focus = CHE_secure_the_support_of_the_elites }
 		relative_position_id = CHE_build_islamic_state
@@ -726,7 +727,7 @@ focus_tree = {
 	focus = {
 		id = CHE_islamization_of_the_army
 		icon = GFX_CHE_islamization_of_the_army
-		x = -2
+		x = 2
 		y = 2
 		prerequisite = { focus = CHE_secure_the_support_of_the_elites }
 		relative_position_id = CHE_build_islamic_state
@@ -760,7 +761,7 @@ focus_tree = {
 	focus = {
 		id = CHE_establish_the_guard_of_allah
 		icon = GFX_CHE_establish_the_guard_of_allah
-		x = 1
+		x = -1
 		y = 2
 		prerequisite = { focus = CHE_establish_a_sharia_police_force }
 		relative_position_id = CHE_sharia_laws
@@ -799,7 +800,7 @@ focus_tree = {
 	focus = {
 		id = CHE_foreign_islamic_volunteers
 		icon = GFX_CHE_foreign_islamic_volunteers
-		x = -1
+		x = 1
 		y = 2
 		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
 		relative_position_id = CHE_islamization_of_the_army
@@ -842,7 +843,7 @@ focus_tree = {
 	focus = {
 		id = CHE_include_mass_islam_into_education
 		icon = GFX_CHE_include_mass_islam_into_education
-		x = 1
+		x = -1
 		y = 3
 		prerequisite = { focus = CHE_establish_the_guard_of_allah }
 		relative_position_id = CHE_sharia_laws
@@ -5971,7 +5972,7 @@ completion_reward = {
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_loyalists }
 		prerequisite = { focus = CHE_islamic_conservatism }
-		prerequisite = { focus = CHE_Close_look_at_them focus = CHE_Young_patriots }
+		prerequisite = { focus = CHE_Close_look_at_them focus = CHE_establish_the_guard_of_allah }
 		
 		cost = 35
 		
@@ -6788,7 +6789,7 @@ completion_reward = {
 		x = 4
 		y = 1
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_centralize_power }
+		prerequisite = { focus = CHE_centralize_power focus = CHE_Young_patriots }
 		
 		cost = 15
 		
@@ -6812,7 +6813,6 @@ completion_reward = {
 		
 		completion_reward = {
 			add_political_power = -25
-			add_popularity = {ideology = Nationalism Popularity = 0.05}
 			add_stability = -0.025
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value

@@ -97,6 +97,12 @@ CHE_Islamic_state_idea = { #NATIONAL SPIRIT
 	liberalism_drift = CHE_IS_liberalism_drift
 	drift_defence_factor = CHE_IS_drift_defence_factor
 	consumer_goods_factor = CHE_IS_consumer_goods_factor
+    army_org_factor = CHE_IS_army_org_factor
+    air_mission_efficiency = CHE_IS_air_mission_efficiency
+    mobilization_speed = CHE_IS_mobilization_speed
+    industrial_capacity_factory = CHE_IS_industrial_capacity_factory
+    production_speed_buildings_factor = CHE_IS_production_speed_buildings_factor
+    production_factory_efficiency_gain_factor = CHE_IS_production_factory_efficiency_gain_factor
 }
 
 RAS_road_to_grozny = {

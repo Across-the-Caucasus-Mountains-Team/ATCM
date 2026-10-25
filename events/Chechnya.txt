@@ -968,6 +968,12 @@ country_event = {
 		set_variable = { CHE_IS_monthly_population = 0 }
 		set_variable = { CHE_IS_islam_drift = 0 }
 		set_variable = { CHE_IS_consumer_goods_factor = 0 }
+		set_variable = { CHE_IS_industrial_capacity_factory = 0 }
+		set_variable = { CHE_IS_production_speed_buildings_factor = 0 }
+		set_variable = { CHE_IS_production_factory_efficiency_gain_factor = 0 }
+		set_variable = { CHE_IS_army_org_factor = 0 }
+		set_variable = { CHE_IS_air_mission_efficiency = 0 }
+		set_variable = { CHE_IS_mobilization_speed = 0 }
 		add_dynamic_modifier = { modifier = CHE_Islamic_state_idea }
 		drop_cosmetic_tag = yes
 		RAS = {
@@ -1603,14 +1609,17 @@ country_event = {
 		}
 	}
 }
-#futer ingushetian
-country_event = {
-	id = chechnya.66
-	title = chechnya.66.t
-	desc = chechnya.66.d
-	picture = GFX_Report_event_CHE_kizlyar_destroyed_busses
 
-	is_triggered_only = yes
+
+# Future of Ingushetia
+country_event = {
+    id = chechnya.66
+    title = chechnya.66.t
+    desc = chechnya.66.d
+    picture = GFX_Report_event_CHE_kizlyar_destroyed_busses
+
+    is_triggered_only = yes
+    fire_only_once = yes
 
 	option = {
 		name = chechnya.66.a
@@ -1714,6 +1723,7 @@ country_event = {
         add_to_variable = { CHE_IS_army_core_attack_factor = -0.05 }
         add_to_variable = { CHE_IS_army_core_defence_factor = -0.05 }
         add_to_variable = { CHE_IS_drift_defence_factor = -0.10 }
+		add_to_variable = { CHE_elite_compromises = 1 }
 
         custom_effect_tooltip = 13_CHE_tt
 
@@ -1783,15 +1793,15 @@ country_event = {
     option = {
         name = chechnya.71.b
 
+		add_to_variable = { CHE_IS_air_mission_efficiency = 0.10 }
         custom_effect_tooltip = 13_CHE_tt
-
         country_event = chechnya.72
     }
 
     option = {
         name = chechnya.71.c
 
-		add_to_variable = { CHE_IS_war_support_factor = 0.05 }
+		add_to_variable = { CHE_IS_army_org_factor = 0.025 }
         add_to_variable = { CHE_IS_army_core_attack_factor = 0.005 }
         add_to_variable = { CHE_IS_army_core_defence_factor = 0.005 }
         add_to_variable = { CHE_IS_war_support_factor = 0.10 }
@@ -1799,6 +1809,7 @@ country_event = {
         add_to_variable = { CHE_IS_nationalism_drift = 0.10 }
         add_to_variable = { CHE_IS_drift_defence_factor = -0.30 }
         add_to_variable = { CHE_IS_stability_factor = 0.10 }
+		add_to_variable = { CHE_elite_compromises = 2 }
 
         custom_effect_tooltip = 13_CHE_tt
 
@@ -1822,8 +1833,9 @@ country_event = {
         add_to_variable = { CHE_IS_war_support_factor = -0.10 }
         add_to_variable = { CHE_IS_drift_defence_factor = -0.10 }
         add_to_variable = { CHE_IS_islam_drift = -0.03 }
-        add_to_variable = { CHE_IS_consumer_goods_factor = 0.05 }
+        add_to_variable = { CHE_IS_consumer_goods_factor = -0.05 }
 		add_to_variable = { CHE_IS_political_power_gain = 0.05 }
+		add_to_variable = { CHE_elite_compromises = 1 }
 
         custom_effect_tooltip = 13_CHE_tt
 
@@ -1872,6 +1884,7 @@ country_event = {
     option = {
         name = chechnya.73.a
 
+		add_to_variable = { CHE_IS_mobilization_speed = -0.05 }
         add_to_variable = { CHE_IS_stability_factor = 0.10 }
         add_to_variable = { CHE_IS_compliance_growth_on_our_occupied_states = -0.10 }
         add_to_variable = { CHE_IS_resistance_target_on_our_occupied_states = 0.05 }
@@ -1880,6 +1893,7 @@ country_event = {
         add_to_variable = { CHE_IS_drift_defence_factor = -0.10 }
         add_to_variable = { CHE_IS_consumer_goods_factor = 0.05 }
 		add_to_variable = { CHE_IS_political_power_gain = -0.05 }
+		add_to_variable = { CHE_elite_compromises = 1 }
 
         custom_effect_tooltip = 13_CHE_tt
 
@@ -1889,6 +1903,7 @@ country_event = {
     option = {
         name = chechnya.73.b
 
+		add_to_variable = { CHE_IS_mobilization_speed = 0.10 }
         add_to_variable = { CHE_IS_stability_factor = -0.10 }
         add_to_variable = { CHE_IS_army_core_attack_factor = 0.025 }
         add_to_variable = { CHE_IS_army_core_defence_factor = 0.025 }
@@ -1931,6 +1946,7 @@ country_event = {
         add_to_variable = { CHE_IS_stability_factor = 0.10 }
         add_to_variable = { CHE_IS_liberalism_drift = 0.02 }
         add_to_variable = { CHE_IS_conservatism_drift = 0.05 }
+		add_to_variable = { CHE_elite_compromises = 1 }
 
         custom_effect_tooltip = 13_CHE_tt
 
@@ -1955,19 +1971,37 @@ country_event = {
         add_to_variable = { CHE_IS_war_support_factor = -0.05 }
         add_to_variable = { CHE_IS_conservatism_drift = 0.03 }
         add_to_variable = { CHE_IS_islam_drift = -0.01 }
-
+		add_to_variable = { CHE_elite_compromises = 1 }
+		if = {
+			limit = {
+				check_variable = {
+					var = CHE_elite_compromises
+					value = 6
+					compare = greater_than_or_equals
+				}
+			}
+			country_event = chechnya.76
+		}
         custom_effect_tooltip = 13_CHE_tt
     }
 
     option = {
         name = chechnya.75.b
 
-        add_to_variable = { CHE_IS_stability_factor = -0.10 }
         add_to_variable = { CHE_IS_islam_drift = 0.05 }
         add_to_variable = { CHE_IS_stability_factor = -0.10 }
         add_to_variable = { CHE_IS_drift_defence_factor = 0.10 }
 		add_to_variable = { CHE_IS_political_power_gain = 0.05 }
-
+		add_to_variable = { CHE_IS_mobilization_speed = 0.05 }
+		if = {
+			limit = {
+				check_variable = {
+					var = CHE_elite_compromises
+					value = 6
+					compare = greater_than_or_equals
+				}
+			}
+		}
         custom_effect_tooltip = 13_CHE_tt
     }
 }
