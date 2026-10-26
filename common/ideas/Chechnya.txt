@@ -143,7 +143,7 @@ ideas = {
 			picture = unknow
 			
 			modifier = {
-				training_time_factor = -0.45
+				training_time_factor = -0.40
 				experience_gain_army_factor = 0.15
 			}
 		}
@@ -186,8 +186,8 @@ ideas = {
 			picture = CHE_Young_patriots
 			
 			modifier = {
-				war_support_Factor = 0.2
-				conscription = 0.005
+				war_support_Factor = 0.05
+				conscription = 0.0025
 				nationalism_drift = 0.01
 			}
 		}
@@ -228,11 +228,12 @@ ideas = {
 			picture = CHE_Nationalist_Propaganda
 			
 			modifier = {
-			    war_support_factor = 0.3
+			    war_support_factor = 0.15
 				army_core_defence_factor = 0.075
-				army_core_attack_factor = 0.055
+				army_core_attack_factor = 0.05
 				nationalism_drift = 0.01
-				surrender_limit = 0.5
+				surrender_limit = 0.15
+				conscription = 0.001
 				monthly_population = 0.05
 			}
 		}
@@ -304,7 +305,6 @@ ideas = {
 				liberalism_drift = -0.01
 				Conservatism_drift = -0.01
 				Junta_drift = -0.01
-				populism_drift = -0.01
 				anarchism_drift = -0.01
 				authoritarianism_drift = -0.01
 				monthly_population = -0.75
@@ -651,9 +651,9 @@ ideas = {
 			picture = CHE_drug_shortage_crisis_idea
 			
 			modifier = {
-				monthly_population = -0.25	
+				monthly_population = -0.30
                 stability_factor = -0.15
-				weekly_manpower = -75		
+				weekly_manpower = -50
 			}
 		}
 
@@ -672,9 +672,9 @@ ideas = {
 			picture = CHE_drug_shortage_crisis_idea
 			
 			modifier = {
-				monthly_population = -0.15	
+				monthly_population = -0.15
                 stability_factor = -0.05
-				weekly_manpower = -25		
+				weekly_manpower = -25
 			}
 		}
 
@@ -734,14 +734,13 @@ ideas = {
 			picture = CHE_opposition_power_idea
 			
 			modifier = {
-				weekly_manpower = -35
+				weekly_manpower = -25
 				army_org_factor = -0.25	
 				political_power_cost = 0.15
 				communism_drift = 0.02
 				liberalism_drift = 0.03
 				conservatism_drift = 0.03
 				Junta_drift = 0.01
-				populism_drift = 0.01
 				anarchism_drift = 0.01
 				authoritarianism_drift = 0.03
 			}
@@ -769,12 +768,9 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.15
-				communism_drift = 0.01
-				liberalism_drift = 0.02
-				conservatism_drift = 0.02
+				communism_drift = 0.03
+				conservatism_drift = 0.03
 				Junta_drift = 0.01
-				populism_drift = 0.01
-				anarchism_drift = 0.01
 				authoritarianism_drift = 0.03
 			}
 

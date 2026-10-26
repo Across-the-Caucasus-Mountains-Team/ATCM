@@ -30,7 +30,7 @@ sub_units = {
 
 		combat_width = 2
 		manpower = 45
-		max_organisation = 40
+		max_organisation = 30
 		max_strength = 100
 		default_morale = 0.3
 		training_time = 240
@@ -44,16 +44,16 @@ sub_units = {
 			defence = -0.1
 		}
 		forest = {
-			attack = -0.3
-			movement = -0.4
+			attack = -0.25
+			movement = -0.35
 		}
 		hills = 	{
-			attack = -0.1
-			movement = -0.2
+			attack = -0.15
+			movement = -0.25
 		}
 		mountain = 	{
-			attack = -0.25
-			movement = -0.4
+			attack = -0.3
+			movement = -0.5
 		}
 		marsh = {
 			attack = -0.3
@@ -61,7 +61,7 @@ sub_units = {
 		}
 		urban = {
 			attack = -0.4
-			defence = -0.1
+			defence = -0.15
 			movement = -0.10
 		}
 		river = {

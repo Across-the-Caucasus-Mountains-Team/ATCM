@@ -10,6 +10,7 @@ state={
 		victory_points = { 10569 5 }
 				buildings = {
 			air_base = 2
+			infrastructure = 3
 		}
 	}
 	buildings_max_level_factor=1.000

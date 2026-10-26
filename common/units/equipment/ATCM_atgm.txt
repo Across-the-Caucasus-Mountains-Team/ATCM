@@ -76,7 +76,7 @@ equipments = {
 		visual_level = 3
 
 		soft_attack = 1.5
-		ap_attack = 205
+		ap_attack = 180
 		hard_attack = 21
 		reliability = 0.8
 		build_cost_ic = 26.5
@@ -93,7 +93,7 @@ equipments = {
 		visual_level = 4
 
 		soft_attack = 1.9
-		ap_attack = 270
+		ap_attack = 225
 		hard_attack = 32
 		reliability = 0.82
 		build_cost_ic = 32

@@ -20,7 +20,7 @@ focus_tree = {
 		x = 6
 		y = -1
 
-		cost = 75
+		cost = 60
 		
 		ai_will_do = {
 			factor = 100
@@ -117,10 +117,9 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 30
 			add_popularity = {ideology = Islam Popularity = 0.15}
 			add_popularity = {ideology = Nationalism Popularity = 0.05}
-			add_stability = -0.25
+			add_stability = -0.2
             custom_effect_tooltip = 6_CHE_tt
 			hidden_effect = {
 				country_event = {
@@ -163,7 +162,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
-		    add_popularity = {ideology = Nationalism Popularity = 0.085}
+		    add_popularity = {ideology = Nationalism Popularity = 0.075}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 			country_event = chechnya.23
 		}	
@@ -199,8 +198,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_war_support = 0.05
-			add_popularity = {ideology = Nationalism Popularity = 0.075}
-			add_popularity = {ideology = Islam Popularity = 0.02}
+			add_popularity = {ideology = communism Popularity = -0.10}
 			hidden_effect = {
 				news_event = {
 					id = news.22
@@ -289,7 +287,7 @@ focus_tree = {
 				}
 				country_event = chechnya.18
 			}
-			add_political_power = 35
+			add_political_power = 25
 			add_stability = 0.05
 			hidden_effect = {
 				set_country_flag = CHE_Elections_1991
@@ -386,6 +384,10 @@ focus_tree = {
 				country_event = {
 					id = chechnya.44
 					days = 3
+				}
+				country_event = {
+					id = chechnya.24
+					days = 65
 				}
 				add_ideas = CHE_russian_troops_in_chechnya 
 			}
@@ -1842,10 +1844,8 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_political_power = 100
-			add_popularity = {
-				ideology = nationalism
-				popularity = 0.1
-			}
+			add_popularity = {ideology = islam Popularity = 0.1}
+			add_popularity = { ideology = Nationalism Popularity = 0.1 }
 			add_stability = -0.35
 			hidden_effect = {
 				country_event = {
@@ -2651,28 +2651,28 @@ completion_reward = {
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 25
 			add_ideas = CHE_engineer_squads
 			add_equipment_to_stockpile = { 
 				type = uniform_equipment 
 				amount = 250
-			}		
+			}
 			add_equipment_to_stockpile = { 
 				type = bulletproof_vests_equipment 
 				amount = 250
-			}		
+			}
 			add_equipment_to_stockpile = { 
 				type = support_equipment 
 				amount = 250
-			}			
+			}
 			if = {
 				limit = {
 					has_idea = CHE_lack_of_experience_in_building_fortifications
@@ -3791,10 +3791,7 @@ completion_reward = {
 			add_ideas = CHE_freedom_or_death
 			add_war_support = 0.075
 			add_manpower = 1500
-			add_popularity = {
-				ideology = nationalism
-				popularity = 0.05
-			}
+			add_popularity = {ideology = nationalism Popularity = 0.05}
 		}	
 	}
 
@@ -3829,10 +3826,7 @@ completion_reward = {
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = 0.05
-			add_popularity = {
-				ideology = nationalism
-				popularity = 0.1
-			}
+			add_popularity = { ideology = Nationalism Popularity = 0.1}
 			add_manpower = -3800
 			unlock_decision_tooltip = CHE_strengthen_dudayev_security
 		}	
@@ -3917,10 +3911,7 @@ completion_reward = {
 		completion_reward = {
 			add_war_support = 0.075
 			add_political_power = 50
-			add_popularity = {
-				ideology = nationalism
-				popularity = 0.1
-			}
+			add_popularity = { ideology = Nationalism Popularity = 0.1}
 		}	
 	}
 
@@ -4185,7 +4176,7 @@ completion_reward = {
 		
 		completion_reward = {
 			add_ideas = CHE_wartime_propaganda
-			add_popularity = { ideology = Nationalism Popularity = 0.05 }
+			add_popularity = { ideology = nationalism Popularity = 0.05 }
 			custom_effect_tooltip = cash_balance_minus_125_tt
 			subtract_from_variable = {
 				var = cash
@@ -4843,6 +4834,11 @@ completion_reward = {
 					instant_build = yes
 				}
 			}
+			custom_effect_tooltip = cash_balance_minus_100_tt
+			subtract_from_variable = {
+				var = cash
+				value = 100
+			}
 		}
 	}
 
@@ -4974,11 +4970,6 @@ completion_reward = {
 			add_to_variable = { CHE_wcaf_army_speed_factor = 0.1 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt
-			custom_effect_tooltip = cash_balance_minus_45_tt
-			subtract_from_variable = {
-				var = cash
-				value = 45
-			}
 		}	
 	}
 
@@ -5636,9 +5627,7 @@ completion_reward = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_war_support = 0.05
-			add_stability = 0.025
-			add_political_power = 25
+			add_political_power = 100
 		}	
 	}
 
@@ -5788,7 +5777,7 @@ completion_reward = {
 		completion_reward = {
 			add_political_power = 75
 			add_stability = 0.05
-		    add_popularity = {ideology = Nationalism Popularity = 0.05}
+		    add_popularity = {ideology = nationalism Popularity = 0.05}
 			add_to_variable = {
                 var = CHE_legitimacy_of_dudayev_value
                 value = 5
@@ -5972,7 +5961,7 @@ completion_reward = {
 		relative_position_id = CHE_centralize_power
 		prerequisite = { focus = CHE_loyalists }
 		prerequisite = { focus = CHE_islamic_conservatism }
-		prerequisite = { focus = CHE_Close_look_at_them focus = CHE_establish_the_guard_of_allah }
+		prerequisite = { focus = CHE_Close_look_at_them focus = CHE_Young_patriots }
 		
 		cost = 35
 		
@@ -6125,7 +6114,7 @@ completion_reward = {
 			custom_effect_tooltip = cash_balance_minus_15_tt
 			add_to_variable = {
 				var = cash
-				value = 10
+				value = 15
 			}
 		}	
 	}
@@ -6615,7 +6604,7 @@ completion_reward = {
 		
 		completion_reward = {
 			add_political_power = 50
-			add_stability = -0.15
+			add_stability = -0.1
 		}	
 	}
 
@@ -6699,11 +6688,11 @@ completion_reward = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_political_power = 50
-			add_stability = -0.15
+			add_political_power = 75
+			add_stability = -0.025
 			add_to_variable = {
                 var = CHE_legitimacy_of_dudayev_value
-                value = 2.5
+                value = 3
                 tooltip = add_legitimacy_of_dudayev_to_var_tt
             }
 		}	
@@ -6755,7 +6744,7 @@ completion_reward = {
 		relative_position_id = CHE_the_situation_is_getting_out_of_control
 		prerequisite = { focus = CHE_raise_the_national_guard }
 		
-		cost = 55
+		cost = 50
 		
 		ai_will_do = {
 			factor = 100
@@ -6778,7 +6767,7 @@ completion_reward = {
 		search_filters = { }
 		
 		completion_reward = {
-			add_stability = -0.075
+			add_stability = -0.05
             unlock_decision_tooltip = CHE_prepare_defence_in_grozny
 		}	
 	}
@@ -6789,7 +6778,7 @@ completion_reward = {
 		x = 4
 		y = 1
 		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_centralize_power focus = CHE_Young_patriots }
+		prerequisite = { focus = CHE_centralize_power focus = CHE_establish_the_guard_of_allah }
 		
 		cost = 15
 		
@@ -6872,7 +6861,7 @@ completion_reward = {
 			}
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value
-                value = 5
+                value = 10
                 tooltip = sub_5_from_power_of_opposition_chechnya_tt
             }
 		}	
@@ -6928,7 +6917,7 @@ completion_reward = {
 			}
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value
-                value = 5
+                value = 10
                 tooltip = sub_5_from_power_of_opposition_chechnya_tt
             }
 		}	
@@ -6970,7 +6959,7 @@ completion_reward = {
 			add_ideas = CHE_ban_opposition
 			subtract_from_variable = {
                 var = CHE_power_of_opposition_value
-                value = 5
+                value = 20
                 tooltip = sub_5_from_power_of_opposition_chechnya_tt
             }
 			hidden_effect = {

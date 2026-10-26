@@ -71,4 +71,7 @@
  cash_balance_minus_500_tt:0 "Баланс бюджета: §R-500млн§!"
  cash_balance_minus_1000_tt:0 "Баланс бюджета: §R-1000млн§!"
  cash_balance_plus_5_tt:0 "Баланс бюджета: §G+5млн§!"
-
+ cash_balance_plus_10_tt:0 "Баланс бюджета: §G+10млн§!"
+ cash_balance_plus_25_tt:0 "Баланс бюджета: §G+25млн§!"
+ cash_balance_plus_50_tt:0 "Баланс бюджета: §G+50млн§!"
+ cash_balance_plus_100_tt:0 "Баланс бюджета: §G+100млн§!"

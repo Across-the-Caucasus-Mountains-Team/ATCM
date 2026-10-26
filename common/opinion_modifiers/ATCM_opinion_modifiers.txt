@@ -10,7 +10,6 @@
 
 opinion_modifiers = {
 
-
 	drove_out_the_russians = {
 		value = -50
 	}

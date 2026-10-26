@@ -219,8 +219,8 @@ country_event = {
 
 	option = {
 		name = chechnya.11.a
-		add_stability = 0.1
 		add_war_support = -0.05
+		add_popularity = {ideology = Nationalism Popularity = -0.05}
 	}
 
 	option = {
@@ -592,11 +592,19 @@ country_event = {
 
 	option = {
 		name = chechnya.24.a
-		add_political_power = 25
 		add_equipment_to_stockpile = { 
-			type = infantry_equipment_1 
-			amount = 500
+			type = infantry_equipment_0
+			amount = 360
 		}
+			add_equipment_to_stockpile = { 
+				type = support_equipment 
+				amount = 45
+			}
+			add_equipment_to_stockpile = { 
+				type = uniform_equipment 
+				amount = 220
+			}
+			add_popularity = {ideology = Islam Popularity = 0.005}
 	}
 }
 

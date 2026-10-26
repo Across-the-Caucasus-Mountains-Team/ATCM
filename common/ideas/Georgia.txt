@@ -298,7 +298,6 @@ ideas = {
 				liberalism_drift = -0.1
 				Conservatism_drift = -0.1
 				Junta_drift = -0.1
-				populism_drift = -0.1
 				anarchism_drift = -0.1
 				authoritarianism_drift = -0.1
 				army_attack_factor = 0.15

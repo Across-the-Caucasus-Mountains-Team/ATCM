@@ -8,6 +8,7 @@ state={
 	history={
 		owner = SAK
 		add_core_of = ABK
+		add_core_of = SAK
 		victory_points = { 8944 15 }
 		victory_points = { 8437 10 }
 				buildings = {
@@ -16,8 +17,6 @@ state={
 			dockyard = 1
 			air_base = 1
 		}
-		start_resistance = yes
-		set_resistance = 45
 	}
 
 	manpower=97900
