@@ -66,10 +66,15 @@ spriteTypes = {
 		name = "GFX_decision_cat_SAK_emergency"
 		texturefile = "gfx/interface/decisions/decision_cat_SAK_emergency.png"
 	}
-	
+
 	spriteType = {
 		name = "GFX_decision_SAK_arrest_Jaba"
 		texturefile = "gfx/interface/decisions/decision_SAK_arrest_Jaba.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_decision_BTR"
+		texturefile = "gfx/interface/decisions/btr.png"
 	}
 	
 	spriteType = {

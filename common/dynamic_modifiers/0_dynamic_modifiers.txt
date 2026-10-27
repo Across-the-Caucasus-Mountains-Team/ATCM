@@ -180,3 +180,14 @@ RAS_protests_in_region = {
     army_speed_factor = -0.55
 	army_org_factor = -0.15
 }
+
+CHE_chechen_insurgency = {
+
+	enable = { always = yes }
+	icon = GFX_idea_chechen_insurgency
+    army_speed_factor = -0.15
+	army_org_factor = -0.05
+	dig_in_speed_factor = -0.15
+	resistance_activity = 0.5	
+    compliance_growth = -0.3
+}

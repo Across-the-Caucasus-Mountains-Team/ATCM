@@ -29,7 +29,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="Russian_infowar_value"
-			position = { x = -205 y = 205 }
+			position = { x = 95 y = 211 }
 			font = "hoi_30header"
 			text = "RUS_Infowar"
 			format = centre
@@ -38,7 +38,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="Chechen_infowar_value"
-			position = { x = 15 y = 205 }
+			position = { x = 315 y = 211 }
 			font = "hoi_30header"
 			text = "CHE_Infowar"
 			format = centre

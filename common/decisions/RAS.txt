@@ -747,58 +747,58 @@ RAS_first_chechen_war_decision = {
 	}
 
 	RAS_send_airport_reinforcements = {
-	icon = GFX_decision_generic_soldier
-	cost = 15
-	fire_only_once = yes
+	    icon = GFX_decision_generic_soldier
+	    cost = 15
+	    fire_only_once = yes
 
-	visible = {
-		has_country_flag = RAS_airport_reinforcements_unlocked
-	}
+	    visible = {
+		    has_country_flag = RAS_airport_reinforcements_unlocked
+	    }
 
-	available = {
-		controls_state = 111
-	}
+	    available = {
+		    controls_state = 111
+	    }
 
-	complete_effect = {
-		clr_country_flag = RAS_airport_reinforcements_unlocked
-		load_oob = RAS_VDV_landing_in_grozny_2
+	    complete_effect = {
+		    clr_country_flag = RAS_airport_reinforcements_unlocked
+		    load_oob = RAS_VDV_landing_in_grozny_2
+        }
+
+        ai_will_do = {
+            factor = 10
+        }
+
+	    highlight_states = {
+		    highlight_state_targets = {
+			    state = 111
+		    }
+		    highlight_color_while_active = 3
+		    highlight_color_before_active = 2
+        }
     }
 
-    ai_will_do = {
-        factor = 10
-    }
+    RAS_send_VDV_to_Samashki = {
+        icon = GFX_decision_generic_soldier
+        cost = 10
+        fire_only_once = yes
 
-	highlight_states = {
-		highlight_state_targets = {
-			state = 111
-		}
-		highlight_color_while_active = 3
-		highlight_color_before_active = 2
-    }
-}
+        visible = {
+            has_country_flag = RAS_samashki_vdv_unlocked
+        }
 
-RAS_send_VDV_to_Samashki = {
-    icon = GFX_decision_generic_soldier
-    cost = 10
-    fire_only_once = yes
+        available = {
+            controls_state = 111
+        }
 
-    visible = {
-        has_country_flag = RAS_samashki_vdv_unlocked
-    }
+        complete_effect = {
+            clr_country_flag = RAS_samashki_vdv_unlocked
+            load_oob = RAS_VDV_hankala
+        }
 
-    available = {
-        controls_state = 111
+        ai_will_do = {
+            factor = 10
+        }
     }
-
-    complete_effect = {
-        clr_country_flag = RAS_samashki_vdv_unlocked
-        load_oob = RAS_VDV_hankala
-    }
-
-    ai_will_do = {
-        factor = 10
-    }
-}
 
 
 	RAS_take_Grozny = {
@@ -1217,6 +1217,406 @@ RAS_send_VDV_to_Samashki = {
 			highlight_color_before_active = 2
 		}
 	}
+
+	RAS_mvd_conduct_northern_chechnya_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 35
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 11
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			11 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 11
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
+	RAS_mvd_conduct_nadterechny_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 35
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 131
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			131 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 131
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}	
+
+	RAS_mvd_conduct_groznensky_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 45
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 128
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			128 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 128
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+	
+	RAS_mvd_conduct_argun_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 45
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 134
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			134 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 134
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+	
+	RAS_mvd_conduct_kurchalovo_gudemersky_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 55
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 16
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			16 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 16
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}	
+
+	RAS_mvd_conduct_shali_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 55
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 133
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			133 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 133
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}	
+
+	RAS_mvd_conduct_urus_martanovsky_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 55
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 132
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			132 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 132
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+	
+	RAS_mvd_conduct_martanovsky_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 55
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 126
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			126 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 126
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
+	RAS_mvd_conduct_shatoy_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 55
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 130
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			130 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 130
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
+	RAS_mvd_conduct_itum_kalinsky_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 55
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 125
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			125 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 125
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
+	RAS_mvd_conduct_shatoy_district_cleanups = {
+
+		icon = GFX_decision_BTR
+        cost = 55
+		fire_only_once = yes
+		
+		available = {		
+			has_global_flag = FirstChechenWar
+			controls_state = 124
+		}
+	    
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_conduct_cleanups_against_insurgency
+		}
+
+		complete_effect = {
+			124 = {
+                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+		}
+
+		ai_will_do = {
+			factor = 20	
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 124
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
+
+
+
+	
 
 	RAS_improve_logistic = {
 

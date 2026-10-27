@@ -787,7 +787,7 @@ focus_tree = {
 		icon = GFX_RAS_Information_war
 		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
-		x = 7
+		x = 8
 		y = 1
 
 		cost = 15
@@ -1183,7 +1183,7 @@ focus_tree = {
 		icon = GFX_RAS_humaniration_aid_to_checnya
 		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
-		x = 10
+		x = 11
 		y = 1
 
 		cost = 15
@@ -1559,6 +1559,43 @@ focus_tree = {
 			custom_effect_tooltip = 5_RAS_tt
 		}
 	}
+
+	focus = {
+		id = RAS_conduct_cleanups_against_insurgency
+		icon = GFX_RAS_strengthen_chechen_blockposts
+		prerequisite = { focus = RAS_strengthen_the_border_with_chechnya }
+		relative_position_id = RAS_operations_of_our_special_services
+		x = 2
+		y = 3
+
+		cost = 5
+
+		ai_will_do = {
+			base = 5
+			factor = 105
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 35
+	        custom_effect_tooltip = RAS_conduct_cleanups_against_insurgency_tt
+		}
+	}	
 
 	focus = {
 		id = RAS_liquidation_of_the_main_terrorist

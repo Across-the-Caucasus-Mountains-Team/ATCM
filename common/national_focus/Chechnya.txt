@@ -2044,6 +2044,50 @@ completion_reward = {
 		completion_reward = {
 			custom_effect_tooltip = 1_CHE_tt
 			load_oob = CHE_war_1991_2
+			hidden_effect = {
+				21 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    20 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    128 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    11 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    131 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }	
+			    126 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    16 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }	
+			    132 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }	
+			    133 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }	
+			    134 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    130 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    127 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    125 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }
+			    124 = {
+                    add_dynamic_modifier = { modifier = CHE_chechen_insurgency scope = RAS }
+                }																								
+			}
 		}	
 	}
 

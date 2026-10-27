@@ -98,6 +98,11 @@ spriteTypes = {
     }	
 
     spriteType = {
+        name = "GFX_idea_chechen_insurgency"
+        texturefile = "gfx/interface/ideas/chechen_insurgency.png"
+    }	
+
+    spriteType = {
         name = "GFX_idea_CHE_opposition_power_idea"
         texturefile = "gfx/interface/ideas/CHE/CHE_opposition_power_idea.png"
     }

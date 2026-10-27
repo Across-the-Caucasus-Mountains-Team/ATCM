@@ -204,3 +204,15 @@ RAS_send_VDV_to_Samashki_desc:0 "Командование предлагает �
 
 
  RAS_awacs_reconnaissance:0 "Разведка ДРЛО"
+ RAS_conduct_cleanups_against_insurgency_tt:0 "£decision_icon_small Решения о проведении §Yзачисток регионов от террористов§! будут разблокированы"
+ RAS_mvd_conduct_northern_chechnya_cleanups:0 "Зачистки в Северной Чечне"
+ RAS_mvd_conduct_nadterechny_district_cleanups:0 "Зачистки в Надтеречном районе"
+ RAS_mvd_conduct_groznensky_district_cleanups:0 "Зачистки в Грозненском районе"
+ RAS_mvd_conduct_argun_district_cleanups:0 "Зачистки в Аргунском районе"
+ RAS_mvd_conduct_kurchalovo_gudemersky_district_cleanups:0 "Зачистки в Курчалоевском-Гудермесском районе"
+ RAS_mvd_conduct_shali_district_cleanups:0 "Зачистки в Шалинском районе"
+ RAS_mvd_conduct_urus_martanovsky_district_cleanups:0 "Зачистки в Урус-Мартановском районе"
+ RAS_mvd_conduct_martanovsky_district_cleanups:0 "Зачистки в Мартановском районе"
+ RAS_mvd_conduct_shatoy_district_cleanups:0 "Зачистки в Шатойском районе"
+ RAS_mvd_conduct_itum_kalinsky_district_cleanups:0 "Зачистки в Итум-Калинском районе"
+ RAS_take_tough_measures:0 "Во все тяжкие"
