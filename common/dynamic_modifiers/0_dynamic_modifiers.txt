@@ -108,10 +108,11 @@ CHE_Islamic_state_idea = { #NATIONAL SPIRIT
 RAS_road_to_grozny = {
 
 	enable = { always = yes }
-	icon = GFX_idea_CHE_weak_army
+	icon = GFX_idea_Russian_attack
     army_speed_factor = 0.2
 	army_org_factor = 0.15
-	army_attack_factor = 0.10
+	army_attack_factor = 0.15
+	breakthrough_factor = 0.1
 }
 
 RAS_chechen_mountains = {
@@ -127,7 +128,7 @@ RAS_chechen_mountains = {
 RAS_road_to_south_chechnya = {
 
 	enable = { always = yes }
-	icon = GFX_idea_CHE_weak_army
+	icon = GFX_idea_Russian_attack
     army_speed_factor = 0.2
 	army_org_factor = 0.15
 	army_attack_factor = 0.05

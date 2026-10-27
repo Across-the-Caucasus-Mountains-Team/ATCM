@@ -25,6 +25,17 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/CHE/CHE_connections_with_islamists_around_the_world.png"
 	}
 
+    SpriteType = {
+		name = "GFX_CHE_spread_mutsuraev_creative_work"
+		texturefile = "gfx/interface/goals/CHE/CHE_spread_mutsuraev_creative_work.png"
+	}
+
+    SpriteType = {
+		name = "GFX_CHE_start_operation_of_jihad"
+		texturefile = "gfx/interface/goals/CHE/CHE_start_operation_of_jihad.png"
+	}	
+
+
 SpriteType = {
 		name = "GFX_CHE_investments_of_islamic_countries"
 		texturefile = "gfx/interface/goals/CHE/CHE_investments_of_islamic_countries.png"

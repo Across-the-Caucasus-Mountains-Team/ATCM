@@ -2688,10 +2688,10 @@ completion_reward = {
 	focus = {
 		id = CHE_adapt_their_weapons
 		icon = GFX_CHE_adapt_their_weapon
-		x = -1
+		x = 0
 		y = 1
-		relative_position_id = CHE_General_Staff_of_Chechnya
-		prerequisite = { focus = CHE_General_Staff_of_Chechnya }
+		relative_position_id = CHE_death_or_freedom
+		prerequisite = { focus = CHE_death_or_freedom }
 		
 		cost = 15
 		
@@ -2989,7 +2989,7 @@ completion_reward = {
 		id = CHE_disrupte_Supplies
 		icon = GFX_CHE_Disrupt_Supply_lines
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_Operations }
 		
@@ -3041,10 +3041,11 @@ completion_reward = {
 	focus = {
 		id = CHE_operations_outside_of_chechnya
 		icon = GFX_CHE_operations_outside_of_chechnya
-		x = 0
-		y = 2
+		x = 4
+		y = 3
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_disrupte_Supplies }
+		prerequisite = { focus = CHE_State_of_Emergency }
 		
 		cost = 10
 		
@@ -3084,8 +3085,8 @@ completion_reward = {
 	focus = {
 		id = CHE_preapare_operation_in_budenovsk
 		icon = GFX_CHE_preapare_operation_in_budenovsk
-		x = 2
-		y = 3
+		x = 6
+		y = 4
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_operations_outside_of_chechnya }
 		
@@ -3118,8 +3119,8 @@ completion_reward = {
 	focus = {
 		id = CHE_counter_offensive
 		icon = GFX_CHE_counter_attack
-		x = 0
-		y = 3
+		x = 4
+		y = 4
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_operations_outside_of_chechnya }
 		
@@ -3153,9 +3154,9 @@ completion_reward = {
 
 	focus = {
 		id = CHE_start_operation_of_jihad
-		icon = GFX_CHE_counter_attack
-		x = 0
-		y = 4
+		icon = GFX_CHE_start_operation_of_jihad
+		x = 4
+		y = 5
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_counter_offensive }
 		
@@ -3316,7 +3317,7 @@ completion_reward = {
 	focus = {
 		id = CHE_set_traps
 		icon = GFX_CHE_Report
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_Operations }
@@ -3356,7 +3357,7 @@ completion_reward = {
 	focus = {
 		id = CHE_hit_and_run
 		icon = GFX_CHE_Report
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_Operations }
@@ -3421,7 +3422,7 @@ completion_reward = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = CHE_hold_the_line_idea
-				days = 75
+				days = 35
 			}	
 		}	
 	}
@@ -3457,7 +3458,7 @@ completion_reward = {
 		completion_reward = {
 			add_timed_idea = {
 				idea = CHE_hold_the_line_idea
-				days = 50
+				days = 10
 			}	
 		}	
 	}
@@ -3465,7 +3466,7 @@ completion_reward = {
 	focus = {
 		id = CHE_handicraft_production
 		icon = GFX_Goal_unknow
-		x = 9
+		x = 10
 		y = 1
 		relative_position_id = CHE_Aftermath_of_First_wave
 		prerequisite = { focus = CHE_Aftermath_of_First_wave }
@@ -3762,7 +3763,7 @@ completion_reward = {
 	focus = {
 		id = CHE_death_or_freedom
 		icon = GFX_CHE_Death_or_freedom
-		x = -1
+		x = 0
 		y = 3
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_State_of_Emergency }
@@ -3798,7 +3799,7 @@ completion_reward = {
 	focus = {
 		id = CHE_fight_back_disloyal_elements
 		icon = GFX_CHE_fight_back_disloyal_elements
-		x = 3
+		x = 4
 		y = 3
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_State_of_Emergency }
@@ -3836,9 +3837,9 @@ completion_reward = {
 		id = CHE_guns_for_everyone
 		icon = GFX_CHE_Guns_for_everyone
 		x = -1
-		y = 4
-		relative_position_id = CHE_inside_remaining_lands
-		prerequisite = { focus = CHE_death_or_freedom }
+		y = 1
+		relative_position_id = CHE_General_Staff_of_Chechnya
+		prerequisite = { focus = CHE_General_Staff_of_Chechnya }
 		
 		cost = 7
 		
@@ -3883,7 +3884,7 @@ completion_reward = {
 	focus = {
 		id = CHE_homeland_above_all
 		icon = GFX_CHE_homeland_above_all
-		x = 1
+		x = 2
 		y = 3
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_State_of_Emergency }
@@ -3918,7 +3919,7 @@ completion_reward = {
 	focus = {
 		id = CHE_quantity_over_quality
 		icon = GFX_CHE_Quantity_over_quality
-		x = 1
+		x = 2
 		y = 4
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_homeland_above_all }
@@ -4575,6 +4576,82 @@ completion_reward = {
 			}
 		}	
 	}
+
+	focus = {
+		id = CHE_spread_mutsuraev_creative_work
+		icon = GFX_CHE_spread_mutsuraev_creative_work
+		x = 5
+		y = 7
+		relative_position_id = CHE_The_Battle_is_in_here
+		prerequisite = { focus = CHE_fight_back_russian_misinformation }
+		
+		cost = 10
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+		}
+		
+		bypass = {
+
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		search_filters = { }
+		
+		completion_reward = {
+			scoped_play_song = "Timur_city_of_mine"
+			add_political_power = 15
+			add_stability = 0.03
+			add_war_support = 0.08
+			add_to_variable = {
+                var = CHE_chechen_infowar_value
+                value = 5
+                tooltip = add_to_chechen_infowar_tt
+            }
+			hidden_effect = {
+				subtract_from_variable = {
+                    var = RAS_russian_infowar_value
+                    value = 5
+                }
+				clamp_variable = {
+                    var = RAS_russian_infowar_value
+                    min = 0
+				    max = 100
+                }
+				clamp_variable = {
+                    var = CHE_chechen_infowar_value
+                    min = 0
+				    max = 100
+                }
+				RAS = {
+					add_to_variable = {
+                        var = CHE_chechen_infowar_value
+                        value = 5
+                    }
+					subtract_from_variable = {
+                        var = RAS_russian_infowar_value
+                        value = 5
+                    }
+				    clamp_variable = {
+                        var = RAS_russian_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				    clamp_variable = {
+                        var = CHE_chechen_infowar_value
+                        min = 0
+				        max = 100
+                    }
+				}
+			}
+		}	
+	}	
 
 	focus = {
 		id = CHE_Russia_is_still_communist
