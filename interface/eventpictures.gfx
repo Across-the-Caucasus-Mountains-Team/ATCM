@@ -584,10 +584,10 @@ spriteTypes = {
 		name = "GFX_Report_event_CHE_Communist_question"
 		texturefile = "gfx/event_pictures/Report_event_CHE_Communist_question.png"
 	}
-
-
-
-
+	spriteType = {
+		name = "GFX_Report_event_CHE_victory_of_dudayev"
+		texturefile = "gfx/event_pictures/Report_event_CHE_victory_of_dudayev.png"
+	}
 
 	spriteType = {
 		name = "GFX_News_event_Gamsakhurdia"

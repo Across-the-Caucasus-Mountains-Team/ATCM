@@ -1,0 +1,32 @@
+division_template = {
+	name = "Otryad-basayva"
+	division_names_group = Otryad-basayva
+
+	regiments = {
+		special_forces_infantry = { x = 0 y = 0 }
+		special_forces_infantry = { x = 0 y = 1 }
+		special_forces_infantry = { x = 1 y = 0 }
+		special_forces_infantry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+        engineer = { x = 0 y = 3 }
+	}
+	is_locked = yes
+}
+
+units = {
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4881
+		division_template = "Otryad-basayva"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+}	

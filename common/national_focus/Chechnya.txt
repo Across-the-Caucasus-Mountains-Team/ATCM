@@ -83,6 +83,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = 18_CHE_tt
 			add_popularity = {ideology = Nationalism Popularity = 0.1}
 			add_popularity = {ideology = Islam Popularity = 0.05}
 		}	
@@ -117,10 +118,11 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = 19_CHE_tt
+            custom_effect_tooltip = 6_CHE_tt
 			add_popularity = {ideology = Islam Popularity = 0.15}
 			add_popularity = {ideology = Nationalism Popularity = 0.05}
 			add_stability = -0.2
-            custom_effect_tooltip = 6_CHE_tt
 			hidden_effect = {
 				country_event = {
 					id = chechnya.20
@@ -365,6 +367,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
+			custom_effect_tooltip = 19_CHE_tt
 			add_war_support = 0.05
 			add_stability = -0.25
 			add_popularity = {ideology = islam Popularity = 0.05}
@@ -1767,6 +1770,7 @@ focus_tree = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = 18_CHE_tt
 			add_political_power = 25
 			add_stability = 0.025
 			add_war_support = 0.05
@@ -1848,10 +1852,6 @@ focus_tree = {
 			add_popularity = { ideology = Nationalism Popularity = 0.1 }
 			add_stability = -0.35
 			hidden_effect = {
-				country_event = {
-				    id = chechnya.8
-                    days = 9
-				}
 				add_ideas = CHE_first_chechen_war_idea
 				subtract_from_variable = {
 				    var = cash
@@ -2224,10 +2224,10 @@ completion_reward = {
 			        }
                 }
                 2 = {
-                    add_manpower = 600
+					add_manpower = 600
 					add_equipment_to_stockpile = { 
 				        type = infantry_equipment_1 
-				        amount = 320
+						amount = 320
 			        }
                 }
             }
@@ -2332,7 +2332,6 @@ completion_reward = {
 		search_filters = { }
 		
 		completion_reward = {
-			remove_ideas = CHE_manpower_shortage_idea	
 				}
 	}
 
@@ -2633,7 +2632,7 @@ completion_reward = {
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = modern_tank_equipment_1 
-				amount = 60
+				amount = 50
 			}
 			load_oob = CHE_iron_ghost_first_chechen_war
 		}	
@@ -2762,7 +2761,7 @@ completion_reward = {
 			army_experience = 25
 			add_equipment_to_stockpile = { 
 				type = modern_tank_equipment_1 
-				amount = 8
+				amount = 6
 			}
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
@@ -2774,15 +2773,15 @@ completion_reward = {
 			}
 			add_equipment_to_stockpile = { 
 				type = atgm_equipment_0 
-				amount = 12
+				amount = 24
 			}
 			add_equipment_to_stockpile = { 
 				type = apc_0_equipment 
-				amount = 24
+				amount = 12
 			}
 			add_equipment_to_stockpile = { 
 				type = ifv_1_equipment 
-				amount = 24
+				amount = 12
 			}
 			add_equipment_to_stockpile = { 
 				type = manpads_equipment 
@@ -3413,7 +3412,7 @@ completion_reward = {
 		}
 		
 		available = {
-			casualties > 25200
+			casualties > 19200
 			OR = {
 				has_completed_focus = CHE_irregular_forces
 				AND = {
@@ -4847,9 +4846,10 @@ completion_reward = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = 18_CHE_tt
 			army_experience = 25
 			add_war_support = 0.025
-			add_manpower = 5500
+			add_manpower = 5000
             custom_effect_tooltip = 11_CHE_tt
 			hidden_effect = {
 				
@@ -5222,20 +5222,22 @@ completion_reward = {
 				has_global_flag = FirstChechenWar
 			}
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
+			custom_effect_tooltip = 19_CHE_tt
 			army_experience = 50
 			add_war_support = 0.025
+			add_to_variable = { CHE_wcaf_war_support_factor = 0.025 }
 			custom_effect_tooltip = cash_balance_minus_45_tt
 			subtract_from_variable = {
 				var = cash
@@ -5274,7 +5276,7 @@ completion_reward = {
 		available_if_capitulated = no
 		
 		search_filters = { }
-		
+
 		completion_reward = {
 			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
@@ -5286,6 +5288,10 @@ completion_reward = {
 			add_to_variable = { CHE_wcaf_war_stability_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_army_org_regain = 0.05 }
 			army_experience = -75
+			add_timed_idea = {
+				idea = CHE_Military_Training
+				days = 90
+			}
 			subtract_from_variable = {
 				var = cash
 				value = 25
@@ -5429,6 +5435,18 @@ completion_reward = {
 		search_filters = { }
 		
 		completion_reward = {
+			add_equipment_to_stockpile = { 
+				type = grenade_launcher_equipment
+				amount = 160
+			}
+			add_equipment_to_stockpile = { 
+				type = atgm_equipment_0 
+				amount = 20
+			}
+			add_equipment_to_stockpile = { 
+				type = mortar_equipment 
+				amount = 80
+			}
 			custom_effect_tooltip = 3_CHE_tt
 			add_to_variable = { CHE_wcaf_war_support_factor = 0.05 }
 			add_to_variable = { CHE_wcaf_Conscription = 0.0015 }
@@ -5480,6 +5498,7 @@ completion_reward = {
 		search_filters = { }
 		
 		completion_reward = {
+			custom_effect_tooltip = 20_CHE_tt
 			add_to_variable = { CHE_wcaf_army_attack_factor = 0.075 }
 			add_to_variable = { CHE_wcaf_army_defence_factor = 0.05 }
 			custom_effect_tooltip = 3_CHE_tt

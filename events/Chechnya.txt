@@ -156,7 +156,7 @@ country_event = {
 	}
 }
 
-#manpower shortage
+#nothing
 country_event = {
 	id = chechnya.8
 	title = chechnya.8.t
@@ -167,7 +167,6 @@ country_event = {
 
 	option = {
 		name = chechnya.8.a
-		add_ideas = CHE_manpower_shortage_idea
 	}
 }
 
@@ -272,7 +271,7 @@ country_event = {
 	}
 }
 
-#Russia has imposed an embargo on us
+#Russia has imposed an embargo on us nothing
 country_event = {
 	id = chechnya.12
 	title = chechnya.12.t
@@ -318,7 +317,9 @@ country_event = {
 
 	option = {
 		name = chechnya.13.a
+		add_popularity = {ideology = nationalism Popularity = -0.10}
 		add_stability = -0.15
+		add_war_support = -0.10
 		add_country_leader_role = {
 			character = CHE_Zelimkhan_Yandarbiev
 			promote_leader = yes		
@@ -348,6 +349,7 @@ country_event = {
 
 	option = {
 		name = chechnya.14.a
+		add_popularity = {ideology = nationalism Popularity = 0.05}
 		add_war_support = 0.05
 		add_political_power = 25
 	}
@@ -358,7 +360,7 @@ country_event = {
 	id = chechnya.15
 	title = chechnya.15.t
 	desc = chechnya.15.d
-	picture = GFX_Report_event_CHE_dudayev_is_dead
+	picture = GFX_Report_event_CHE_shamil_basayev
 
 	is_triggered_only = yes
 
@@ -407,7 +409,7 @@ country_event = {
 	id = chechnya.17
 	title = chechnya.17.t
 	desc = chechnya.17.d
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_CHE_manpower_shortage
 
 	is_triggered_only = yes
 
@@ -417,7 +419,7 @@ country_event = {
 
 	option = {
 		name = chechnya.17.a
-		add_stability = -0.15
+		add_stability = -0.05
 		add_political_power = -25
 		hidden_effect = {
 			country_event = {
@@ -456,7 +458,7 @@ country_event = {
 	id = chechnya.19
 	title = chechnya.19.t
 	desc = chechnya.19.d
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_CHE_manpower_shortage
 
 	is_triggered_only = yes
 
@@ -517,8 +519,7 @@ country_event = {
 
 	option = {
 		name = chechnya.21.a
-		add_stability = -0.075
-		add_political_power = -25
+		add_stability = -0.10
 		add_popularity = {ideology = Nationalism Popularity = -0.05}	
 		131 = { transfer_state_to = CHI }
 	}
@@ -538,7 +539,7 @@ country_event = {
 
 	option = {
 		name = chechnya.22.a
-		add_stability = 0.075
+		add_stability = 0.05
 		add_political_power = 50
 		activate_mission = CHE_chechen_election_1991_mission
 		unlock_decision_category_tooltip = CHE_elections_1991_decision
@@ -547,7 +548,7 @@ country_event = {
 
 	option = {
 		name = chechnya.22.b
-		add_stability = -0.15
+		add_stability = -0.10
 		add_popularity = {ideology = islam Popularity = 0.10}	
 		activate_mission = CHE_chechen_election_1991_mission
 		unlock_decision_category_tooltip = CHE_elections_1991_decision
@@ -570,7 +571,6 @@ country_event = {
 
 	option = {
 		name = chechnya.23.a
-		add_political_power = 25
 		add_popularity = {ideology = Nationalism Popularity = 0.05}	
 		custom_effect_tooltip = 16_RAS_tt
 	}
@@ -623,7 +623,8 @@ country_event = {
 
 	option = {
 		name = chechnya.25.a
-		add_war_support = 0.05
+		add_popularity = {ideology = Nationalism Popularity = 0.025}
+		add_popularity = {ideology = Islam Popularity = 0.025}
 		add_stability = -0.05
 		add_timed_idea = {
             idea = CHE_embargo_on_chechnya_idea
@@ -667,6 +668,7 @@ country_event = {
 
 	option = {
 		name = chechnya.27.a
+		add_manpower = 8
 	    set_country_flag = CHE_Khattab_Arrived
 		custom_effect_tooltip = 10_CHE_tt
 	}
@@ -1094,9 +1096,13 @@ country_event = {
 
 	option = {
 		name = chechnya.43.a
+		add_stability = -0.10
+		add_war_support = -0.20
+		add_popularity = {ideology = islam Popularity = -0.10}
 		hidden_effect = {
 			ING = {
 				transfer_state = 17
+				load_oob = ING_uprising
                 declare_war_on = {
                     target = CHE
                     type = annex_everything
@@ -1132,9 +1138,13 @@ country_event = {
 
 	option = {
 		name = chechnya.45.a
-		add_political_power = 25
 		add_stability = -0.05
 		remove_ideas = CHE_opposition_power_idea
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 10
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 	}
 }
 
@@ -1215,6 +1225,7 @@ country_event = {
 
 	option = {
 		name = chechnya.50.a
+		add_manpower = -36
 		add_political_power = -25
 		add_stability = -0.025
 		hidden_effect = {
@@ -1255,6 +1266,12 @@ country_event = {
 	option = {
 		name = chechnya.52.a
 		add_political_power = -50
+		add_popularity = {ideology = Nationalism Popularity = -0.05}
+			subtract_from_variable = {
+                var = CHE_legitimacy_of_dudayev_value
+                value = 5
+                tooltip = 21_CHE_tt
+            }
 		hidden_effect = {
 			country_event = {
 				id = chechnya.53
@@ -1277,6 +1294,11 @@ country_event = {
 		name = chechnya.53.a
 		add_political_power = 35
 		add_stability = -0.025
+			subtract_from_variable = {
+                var = CHE_power_of_opposition_value
+                value = 5
+                tooltip = sub_5_from_power_of_opposition_chechnya_tt
+            }
 	}
 }
 
@@ -1654,6 +1676,7 @@ country_event = {
 
     option = {
         name = chechnya.67.a
+		army_experience = 5
     }
 }
 

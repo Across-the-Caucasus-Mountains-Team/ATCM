@@ -132,7 +132,9 @@
   CHE_spread_mutsuraev_creative_work:0 "Распространить творчество Муцураева"
 
 
-
+  add_incersace_islamic_radicalism_to_var_tt:0 "§YУвеличить §RИсламский радикализм§!"
+  add_dudayev_support_to_var_tt:0 "§YУвеличить поддержку §RДудаева§!"
+  sub_5_from_power_of_opposition_chechnya_tt:0 "§RУменьшится сила оппозиции§!"
   add_legitimacy_of_dudayev_to_var_tt:0 "§CПовысить легитимность §!§YДудаева§!"
   add_CHE_opposition_power_to_var_tt:0 "§CУсилить §!§RОппозицию§!"
   1_CHE_tt:0 "§RВ Чечне появятся несколько дивизий ополчения§!"
@@ -152,6 +154,10 @@
   15_CHE_tt:0 "§YНачнётся цепочка событий§!"
   16_CHE_tt:0 "§RБудет заблокирована ветка авиационных фокусов§!"
   17_CHE_tt:0 "§RУхудиштся организация дивизий§!"
+  18_CHE_tt:0 "§GИсторический путь§!"
+  19_CHE_tt:0 "§RНЕ Исторический путь§!"
+  20_CHE_tt:0 "§GБудет создано 5 артиллерийских батальонов§!"
+  21_CHE_tt:0 "§RУменьшится легитимность §!§YДудаева§!"
 
   drove_out_the_russians:0 "Выгнять русских"
   CHE_Khattab_Arrived:0 "Хаттаб прибыл"
@@ -196,9 +202,6 @@
 
   CHE_elections_1991_decision:0 "Выборы 1991 года"
   CHE_elections_1991_decision_desc:0 "Чеченская Республика находится в процессе первых в своей истории президентских выборов. Ситуация нестабильна: центральная советская власть рушится, и регион действует вне контроля Москвы. Хотя большая часть населения поддерживает независимость, другие опасаются изоляции или войны. \n\nПоддержка Дудаева: §Y[?CHE_dudayev_support_value|%%]§! \n\nИсламский радикализм: §Y[?CHE_islamic_radicalism_value|%%]§!"
-  add_incersace_islamic_radicalism_to_var_tt:0 "§YУвеличить §RИсламский радикализм§!"
-  add_dudayev_support_to_var_tt:0 "§YУвеличить поддержку §RДудаева§!"
-  sub_5_from_power_of_opposition_chechnya_tt:0 "§RУменьшится сила оппозиции§!"
   CHE_support_islamic_radicalism_decision:0 "Поддержать исламский радикализм"
  
  
@@ -220,7 +223,6 @@
   CHE_hold_the_line_idea:0 "Держать позиции!"
   CHE_State_of_emergency_idea:0 "Чрезвычайное Положение"
   CHE_general_staff:0 "Главный Штаб"
-  CHE_manpower_shortage_idea:0 "Нехватка людских ресурсов"
   CHE_hit_and_run_idea:0 "Бей и беги"
   CHE_wartime_propaganda:0 "Пропаганда военного времени"
   CHE_wartime_propaganda_two:0 "Расширенная пропаганда военного времени"

@@ -1,0 +1,183 @@
+focus_tree = {
+	id = Ing
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ING
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 50 y = 900 }
+
+focus = {
+    id = ING_chechnya_side
+    icon = GFX_goal_generic_political_pressure
+    x = 0
+    y = 0
+    cost = 1
+
+    mutually_exclusive = {
+        focus = ING_rusia_side
+    }
+
+    available = {
+        OR = {
+            has_war_with = RAS
+            is_subject_of = CHE
+        }
+    }
+
+    completion_reward = {
+			add_popularity = {ideology = islam popularity = 0.25}
+			add_popularity = {ideology = Nationalism popularity = 0.1}
+    }
+}
+focus = {
+    id = ING_volunters_from_islamic_world
+    icon = GFX_goal_generic_political_pressure
+    x = -2
+    y = 1
+    cost = 10
+		relative_position_id = ING_chechnya_side
+		prerequisite = { focus = ING_chechnya_side }
+
+
+    available = {
+        OR = {
+            has_war_with = RAS
+            is_subject_of = CHE
+        }
+    }
+
+    completion_reward = {
+			add_popularity = {ideology = islam popularity = 0.05}
+			load_oob = ING_islamic_volunters
+    }
+}
+focus = {
+    id = ING_Schamil_basayev
+    icon = GFX_goal_generic_political_pressure
+    x = 0
+    y = 1
+    cost = 10
+		relative_position_id = ING_chechnya_side
+		prerequisite = { focus = ING_chechnya_side }
+
+    available = {
+        OR = {
+            has_war_with = RAS
+            is_subject_of = CHE
+        }
+    }
+
+    completion_reward = {
+			add_popularity = {ideology = islam popularity = 0.05}
+			load_oob = ING_otryad_schamila
+					add_equipment_to_stockpile = {
+				        type = infantry_equipment_1 
+				        amount = 50
+			        }
+					add_equipment_to_stockpile = { 
+				        type = bulletproof_vests_equipment_1 
+				        amount = 50
+			        }
+					add_equipment_to_stockpile = { 
+				        type = uniform_equipment_0 
+				        amount = 200
+			        }
+    }
+}
+
+ focus = {
+    id = ING_mountain
+    icon = GFX_goal_generic_political_pressure
+    x = 2
+    y = 1
+    cost = 10
+		relative_position_id = ING_chechnya_side
+		prerequisite = { focus = ING_chechnya_side }
+
+    available = {
+        OR = {
+            has_war_with = RAS
+            is_subject_of = CHE
+        }
+    }
+
+    completion_reward = {
+			load_oob = ING_mountains
+			add_ideas = CHE_mountains_ghosts
+    }
+}
+
+focus = {
+    id = ING_rusia_side
+    icon = GFX_goal_generic_attack_allies
+    x = 4
+    y = 0
+    cost = 1
+
+    mutually_exclusive = {
+        focus = ING_chechnya_side
+    }
+
+    available = {
+        has_war_with = CHE
+    }
+
+    completion_reward = {
+			add_popularity = {ideology = islam popularity = -0.25}
+			add_popularity = {ideology = Nationalism popularity = -0.1}
+			add_stability = 0.1
+			add_political_power = 100
+    }
+}
+focus = {
+    id = ING_weapons_from_rusia
+    icon = GFX_goal_generic_attack_allies
+    x = 1
+    y = 1
+    cost = 10
+		relative_position_id = ING_rusia_side
+		prerequisite = { focus = ING_rusia_side }
+
+    available = {
+        has_war_with = CHE
+    }
+
+    completion_reward = {
+					add_equipment_to_stockpile = {
+				        type = infantry_equipment_1 
+				        amount = 600
+			        }
+					add_equipment_to_stockpile = { 
+				        type = bulletproof_vests_equipment_1 
+				        amount = 600
+			        }
+					add_equipment_to_stockpile = { 
+				        type = uniform_equipment_0 
+				        amount = 1000
+			        }
+    }
+}
+focus = {
+    id = ING_green_people
+    icon = GFX_goal_generic_attack_allies
+    x = 1
+    y = 2
+    cost = 10
+		relative_position_id = ING_rusia_side
+		prerequisite = { focus = ING_weapons_from_rusia }
+
+    available = {
+        has_war_with = CHE
+    }
+
+    completion_reward = {
+			load_oob = ING_green_peoples
+    }
+}
+
+}
