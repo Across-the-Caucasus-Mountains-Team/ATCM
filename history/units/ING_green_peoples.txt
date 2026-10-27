@@ -1,0 +1,49 @@
+division_template = {
+	name = "Green-peoples"
+
+	division_names_group = ING_Inf_03
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+	}
+
+	support = {
+        recon = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
+        engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 5567
+		division_template = "Green-peoples"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 8461
+		division_template = "Green-peoples"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 8321
+		division_template = "Green-peoples"
+		start_experience_factor = 0.3
+	}
+}
