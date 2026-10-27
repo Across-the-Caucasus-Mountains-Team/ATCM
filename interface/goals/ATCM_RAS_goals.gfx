@@ -359,4 +359,10 @@ SpriteType = {
 		name = "GFX_RAS_Seventh_years_of_the_Union"
 		texturefile = "gfx/interface/goals/RAS_Seventh_years_of_the_Union.png"
 	}
+    SpriteType = {
+		name = "GFX_RAS_shell_chechnya"
+		texturefile = "gfx/interface/goals/RAS/RAS_shell_chechnya.png"
+	}
+
+
 }

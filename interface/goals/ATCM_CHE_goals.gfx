@@ -35,6 +35,10 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/CHE/CHE_start_operation_of_jihad.png"
 	}	
 
+    SpriteType = {
+		name = "GFX_CHE_Hit_and_run"
+		texturefile = "gfx/interface/goals/CHE/CHE_Hit_and_run.png"
+	}	
 
 SpriteType = {
 		name = "GFX_CHE_investments_of_islamic_countries"

@@ -3356,7 +3356,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_hit_and_run
-		icon = GFX_CHE_Report
+		icon = GFX_CHE_Hit_and_run
 		x = 1
 		y = 1
 		relative_position_id = CHE_Operations
@@ -3372,7 +3372,12 @@ completion_reward = {
 			casualties > 25200
 			OR = {
 				has_completed_focus = CHE_irregular_forces
-				casualties > 8500
+				AND = {
+					casualties > 8500
+					NOT = {
+				        controls_state = 20
+			        }
+				}
 			}
 		}
 		
@@ -3388,6 +3393,8 @@ completion_reward = {
 		
 		completion_reward = {
 			add_ideas = CHE_hit_and_run_idea
+			add_to_variable = { CHE_wcaf_army_org_factor = -0.03 }
+			custom_effect_tooltip = 17_CHE_tt
 		}	
 	}
 

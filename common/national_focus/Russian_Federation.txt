@@ -3485,7 +3485,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_shell_chechnya
-		icon = GFX_RAS_Strike_Chechnya
+		icon = GFX_RAS_shell_chechnya
 		prerequisite = { focus = RAS_send_an_ultimatum_to_dudayev }
 		relative_position_id = RAS_support_chechen_opposition
 		x = 0
