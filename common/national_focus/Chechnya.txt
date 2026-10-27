@@ -2733,8 +2733,8 @@ completion_reward = {
 		icon = GFX_CHE_adapt_their_weapon
 		x = 0
 		y = 1
-		relative_position_id = CHE_death_or_freedom
-		prerequisite = { focus = CHE_death_or_freedom }
+		relative_position_id = CHE_establish_engineer_squads
+		prerequisite = { focus = CHE_establish_engineer_squads }
 		
 		cost = 15
 		
@@ -3813,7 +3813,7 @@ completion_reward = {
 	focus = {
 		id = CHE_death_or_freedom
 		icon = GFX_CHE_Death_or_freedom
-		x = 0
+		x = -1
 		y = 3
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_State_of_Emergency }
@@ -3849,7 +3849,7 @@ completion_reward = {
 	focus = {
 		id = CHE_fight_back_disloyal_elements
 		icon = GFX_CHE_fight_back_disloyal_elements
-		x = 4
+		x = 3
 		y = 3
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_State_of_Emergency }
@@ -3934,7 +3934,7 @@ completion_reward = {
 	focus = {
 		id = CHE_homeland_above_all
 		icon = GFX_CHE_homeland_above_all
-		x = 2
+		x = 1
 		y = 3
 		relative_position_id = CHE_inside_remaining_lands
 		prerequisite = { focus = CHE_State_of_Emergency }
@@ -3969,10 +3969,10 @@ completion_reward = {
 	focus = {
 		id = CHE_quantity_over_quality
 		icon = GFX_CHE_Quantity_over_quality
-		x = 2
-		y = 4
-		relative_position_id = CHE_inside_remaining_lands
-		prerequisite = { focus = CHE_homeland_above_all }
+		x = 0
+		y = 1
+		relative_position_id = CHE_guns_for_everyone
+		prerequisite = { focus = CHE_guns_for_everyone }
 		
 		cost = 25
 		
@@ -5555,7 +5555,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_gain_experience_in_building_fortifications
-		icon = GFX_CHE_glory_of_ichkerian_army
+		icon = GFX_Goal_unknow
 		x = 0
 		y = 6
 		relative_position_id = CHE_Weak_military
@@ -6224,7 +6224,7 @@ completion_reward = {
 		ai_will_do = {
 			factor = 30
 			modifier = {
-				factor = 90
+				factor = 70
 				has_completed_focus = CHE_liquidation_of_constutional_court
 			}
 		}
