@@ -826,3 +826,32 @@ country_event = {
         unlock_decision_tooltip = RAS_send_VDV_to_Samashki
     }
 }
+
+
+# Массовое убийство в Самашках
+country_event = {
+    id = russia.41
+    title = russia.41.t
+    desc = russia.41.d
+    picture = GFX_Report_event_russian_blockposts
+
+    is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			news_event = {
+				id = news.32
+				hours = 6
+			}
+		}
+	}
+
+    option = {
+        name = russia.41.a
+        add_war_support = -0.025
+		add_stability = -0.05
+        128 = {
+			add_manpower = -160
+		}
+    }
+}

@@ -594,5 +594,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event_Gamsakhurdia.png"
 	}
 
+	spriteType = {
+		name = "GFX_news_event_samashki_massacre"
+		texturefile = "gfx/event_pictures/news_event_samashki_massacre.png"
+	}	
+
 
 }	

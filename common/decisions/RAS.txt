@@ -1293,7 +1293,7 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_groznensky_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 45
+        cost = 15
 		fire_only_once = yes
 		
 		available = {		
@@ -1310,6 +1310,12 @@ RAS_first_chechen_war_decision = {
 		complete_effect = {
 			128 = {
                 remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+			}
+			hidden_effect = {
+				country_event = {
+					id = russia.41
+					days = 1
+				}
 			}
 		}
 

@@ -695,3 +695,34 @@ news_event = {
 		}
 	}
 }
+
+#Masscare in samashky
+news_event = {
+	id = news.32
+	title = news.32.t
+	desc = news.32.d
+	picture = GFX_news_event_samashki_massacre
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.32.a
+		trigger = { TAG = RAS }
+	}
+	option = {
+		name = news.32.b
+		trigger = { TAG = CHE }
+	}
+
+	option = {
+		name = news.32.c
+		trigger = {
+		    NOT = { 
+                tag = RAS
+				tag = CHE
+		    }
+		}
+	}
+}
