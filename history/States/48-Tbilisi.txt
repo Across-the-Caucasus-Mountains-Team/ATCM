@@ -4,12 +4,10 @@ state={
 	provinces={
 		2649 4518 5650 5711 7668 8377 11353 11357 11370 
 	}
-	
 	resources = {
-	    oil = 15
-		aluminium = 16
-		steel = 39
+		oil = 15
 	}
+	
 	
 	history={
 	owner = SAK

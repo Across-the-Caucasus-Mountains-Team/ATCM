@@ -5,10 +5,6 @@ state={
 		449 1865 2432 2911 4127 4266 6356 6613 6995 8617 10883 
 	}
 	
-	resources = {
-	    tungsten = 3
-		chromium = 2
-	}	
 	
 	history={
 	    owner = CHE

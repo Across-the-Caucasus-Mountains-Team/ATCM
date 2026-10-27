@@ -5,9 +5,6 @@ state={
 		1735 2964 5395 5716 7680 10909
 	}
 	
-	resources = {
-	    tungsten = 20
-	}	
 	
 	history={
 	    owner = CHE

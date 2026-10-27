@@ -5,11 +5,6 @@ state={
 		506 5054 6043 10740 10753 10761 10771 
 	}
 	
-	resources={
-		oil=15
-		steel=13
-		aluminium=14
-	}
 	
 	history={
 		owner = SAK

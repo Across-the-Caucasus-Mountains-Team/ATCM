@@ -4,6 +4,9 @@ state={
 	provinces={
 		3872 5423 5961 8670 8956 12011 12041 12081 12093 12106 
 	}
+	resources = {
+		oil = 25
+	}
 	history={
 	owner = AZR
 	add_core_of = AZR

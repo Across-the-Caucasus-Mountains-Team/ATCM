@@ -4,6 +4,9 @@ state={
 	provinces={
 		1082 2140 4737 5250 5607 9526 12224 12249 
 	}
+	resources = {
+		aluminium = 15
+	}
 	history={
 	owner = ARM
 	add_core_of = ARM
