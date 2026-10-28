@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 	
-	    ARM_The_Armenian_National_movement = {
+		ARM_The_Armenian_National_movement = {
 			
 			allowed = {
 				original_tag = ARM
@@ -17,7 +17,7 @@ ideas = {
 			picture = unknown
 			
 			modifier = {
-			    political_power_gain = 1
+				political_power_gain = 1
 				Stability_Factor = 0.15
 				War_support_Factor = 0.1
 				Nationalism_drift = 0.1
@@ -27,7 +27,7 @@ ideas = {
 		}
 
 
-        ARM_Angry_People = {
+		ARM_Angry_People = {
 			
 			allowed = {
 				original_tag = ARM
@@ -103,10 +103,10 @@ ideas = {
 			picture = unknown
 			
 			modifier = {
-			    Stability_Factor = -0.05
+				Stability_Factor = -0.05
 				communism_drift = -0.1
 			}
 		}
 	}
-}	
+}
 		

@@ -12,7 +12,7 @@ RAS_external_default_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        has_country_flag = criticalbudgetdeficit   
+		has_country_flag = criticalbudgetdeficit   
 	}
 	visible_when_empty = yes
 }

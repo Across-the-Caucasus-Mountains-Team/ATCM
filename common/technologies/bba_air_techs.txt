@@ -21,7 +21,7 @@ technologies = {
 
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @transport_plane_x y = 2 } 
+			position = { x = @transport_plane_x y = 2 }
 		}
 		
 		categories = {
@@ -55,7 +55,7 @@ technologies = {
 		
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @transport_plane_x y = 6 } 
+			position = { x = @transport_plane_x y = 6 }
 		}
 		
 		categories = {
@@ -84,7 +84,7 @@ technologies = {
 		
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @transport_plane_x y = 12 } 
+			position = { x = @transport_plane_x y = 12 }
 		}
 		
 		categories = {
@@ -256,7 +256,7 @@ technologies = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_jet_engine	
 			}
-		}				
+		}
 
 		research_cost = 2
 		start_year = 1940
@@ -331,7 +331,7 @@ technologies = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_axial_jet_engine	
 			}
-		}		
+		}
 		research_cost = 2
 		start_year = 1944
 
@@ -389,7 +389,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
-			} 
+			}
 		}
 
 		is_special_project_tech = yes
@@ -574,7 +574,7 @@ technologies = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_jet_engine	
 			}
-		}		
+		}
 		research_cost = 2
 		start_year = 1940
 		folder = {
@@ -682,7 +682,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
-			} 
+			}
 		}
 
 		is_special_project_tech = yes
@@ -805,7 +805,7 @@ technologies = {
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_air_mothership_aircraft	
-				}						
+				}
 			}
 		}
 		enable_equipments = {
@@ -890,7 +890,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
-			} 
+			}
 		}
 
 		is_special_project_tech = yes
@@ -1607,7 +1607,7 @@ technologies = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_jet_engine	
 			}
-		}		
+		}
 		research_cost = 1
 		start_year = 1936
 
@@ -1673,7 +1673,7 @@ technologies = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_axial_jet_engine	
 			}
-		}		
+		}
 		research_cost = 1.5
 		start_year = 1940
 

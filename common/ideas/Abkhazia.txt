@@ -78,7 +78,7 @@ ideas = {
 			picture = ABK_hold_the_line
 			
 			modifier = {
-			    army_defence_factor = 0.45
+				army_defence_factor = 0.45
 				army_speed_factor = 0.2
 			}
 		}
@@ -98,10 +98,10 @@ ideas = {
 			picture = SAK_blitz_Abkhazia
 			
 			modifier = {
-			    army_attack_factor = 0.25
+				army_attack_factor = 0.25
 				breakthrough_factor = 0.15
 				weekly_manpower = -15
 			}
 		}
 	}
-}	
+}

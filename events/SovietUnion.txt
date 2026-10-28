@@ -80,7 +80,7 @@ country_event = {
 		country_event = {
 			id = soviet_union.6
 			hours = 6
-		}	
+		}
 	}
 }
 
@@ -392,7 +392,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-    immediate = {
+	immediate = {
 		hidden_effect = {
 			CHE = {
 				country_event = {
@@ -404,7 +404,7 @@ country_event = {
 					days = 17
 				}
 			}
-		}	
+		}
 	}
 
 	option = {
@@ -422,7 +422,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-    immediate = {
+	immediate = {
 		hidden_effect = {
 			country_event = {
 				id = news.26
@@ -434,7 +434,7 @@ country_event = {
 					hours = 15
 				}
 			}
-		}	
+		}
 	}
 
 	option = {
@@ -452,7 +452,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-    immediate = {
+	immediate = {
 	
 	}
 

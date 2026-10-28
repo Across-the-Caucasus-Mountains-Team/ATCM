@@ -54,7 +54,7 @@ country_event = {
 			remove_ideas = SAK_Zviadists_in_the_west
 			add_ideas = SAK_Zviadists_in_the_west_two
 			country_event = { id = Georgia.41 }
-		}	
+		}
 	}
 }
 
@@ -70,11 +70,11 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			SAK = {
-			    country_event = { 
+				country_event = { 
 					id = Georgia.54
-				    hours = 6
+					hours = 6
 				}
-		    }
+			}
 			news_event = {
 				id = news.29
 				days = 1

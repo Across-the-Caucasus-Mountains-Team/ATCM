@@ -74,12 +74,12 @@ economy_decisions = {
 
 		complete_effect = {
 			set_variable = { node_goal = num_of_supply_nodes }
-			add_to_variable = { node_goal = 3 } #maximum 3 additional nodes
+			add_to_variable = { node_goal = 3 }#maximum 3 additional nodes
 		}
 
 		cancel_trigger = {
 			
-			 check_variable = { node_goal < num_of_supply_nodes } #if the number of supply nodes exceeds the old number by +3, immediately cancel
+			 check_variable = { node_goal < num_of_supply_nodes }#if the number of supply nodes exceeds the old number by +3, immediately cancel
 		}
 	}
 	seize_some_trains_woo = { #repeating train seize
@@ -108,7 +108,7 @@ economy_decisions = {
 			}
 			add_stability = -0.05
 		}
-	}			
+	}
 }
 
 propaganda_efforts = {
@@ -181,7 +181,7 @@ propaganda_efforts = {
 		
 		remove_trigger = {
 			has_war = no
-        }
+		}
 		
 		cost = 100
 
@@ -244,7 +244,7 @@ propaganda_efforts = {
 		
 		remove_trigger = {
 			has_war = no
-        }
+		}
 		
 		cost = 100
 
@@ -299,7 +299,7 @@ propaganda_efforts = {
 		
 		remove_trigger = {
 			has_war = no
-        }
+		}
 		
 		cost = 100
 

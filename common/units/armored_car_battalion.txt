@@ -27,7 +27,7 @@ sub_units = {
 			infantry_equipment = 80
 			bulletproof_vests_equipment = 80
 			uniform_equipment = 100
-	        grenade_launcher_equipment = 10
+			grenade_launcher_equipment = 10
 			support_equipment = 20
 		}
 		manpower = 100
@@ -40,15 +40,15 @@ sub_units = {
 		suppression = 3
 
 		forest = {
-		    attack = -0.2
+			attack = -0.2
 			movement = -0.35
 		}
 		mountain = 	{
-		    attack = -0.1
-		    movement = -0.35
+			attack = -0.1
+			movement = -0.35
 		}
 		marsh = {
-		    attack = -0.1 
+			attack = -0.1 
 			movement = -0.45
 		}
 		desert = {
@@ -63,6 +63,6 @@ sub_units = {
 		}
 		amphibious = { 
 			attack = -0.4
-		}	
+		}
 	}
 }

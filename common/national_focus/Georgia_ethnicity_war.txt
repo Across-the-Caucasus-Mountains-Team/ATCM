@@ -3,13 +3,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 5
 			tag = SAK
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 3000 y = 500 }
@@ -19,35 +19,35 @@ focus_tree = {
 		icon = GFX_Goal_SAK_Our_Actions
 		x = 8
 		y = 0
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-            
+			
 		}
 
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			hidden_effect = {
-			    country_event = { 
-				    id = Georgia.18
-				    days = 88
-			    }
+				country_event = { 
+					id = Georgia.18
+					days = 88
+				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -56,31 +56,31 @@ focus_tree = {
 		prerequisite = { focus = SAK_Our_Actions }
 		x = 5
 		y = 1
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			OST = {
 				exists = no
 			}
 		}
-		
+
 		bypass = {
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -90,25 +90,25 @@ focus_tree = {
 		relative_position_id = SAK_integration_of_south_ossetia
 		x = 0
 		y = 1
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.025
@@ -119,10 +119,10 @@ focus_tree = {
 				add_compliance = 10
 			}
 			swap_ideas = {
-                remove_idea = SAK_Clashes_in_south_ossetia
-                add_idea = SAK_Clashes_in_south_ossetia_two
-            }
-		}	
+				remove_idea = SAK_Clashes_in_south_ossetia
+				add_idea = SAK_Clashes_in_south_ossetia_two
+			}
+		}
 	}
 
 	focus = {
@@ -132,25 +132,25 @@ focus_tree = {
 		relative_position_id = SAK_integration_of_south_ossetia
 		x = 0
 		y = 2
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.025
@@ -161,10 +161,10 @@ focus_tree = {
 				add_compliance = 10
 			}
 			swap_ideas = {
-                remove_idea = SAK_Clashes_in_south_ossetia_two
-                add_idea = SAK_Clashes_in_south_ossetia_three
-            }
-		}	
+				remove_idea = SAK_Clashes_in_south_ossetia_two
+				add_idea = SAK_Clashes_in_south_ossetia_three
+			}
+		}
 	}
 
 	focus = {
@@ -174,25 +174,25 @@ focus_tree = {
 		relative_position_id = SAK_integration_of_south_ossetia
 		x = 0
 		y = 3
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = -50
 			add_stability = 0.025
@@ -203,7 +203,7 @@ focus_tree = {
 				add_compliance = 55
 			}
 			remove_ideas = SAK_Clashes_in_south_ossetia_three
-		}	
+		}
 	}
 
 	focus = {
@@ -213,19 +213,19 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_Our_Actions
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-           
+		   
 		}
-		
+
 		bypass = {
-            OR = {
+			OR = {
 				OST = {
 					exists = no
 				}
@@ -234,20 +234,20 @@ focus_tree = {
 				has_war_with = OST
 			}
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			declare_war_on = {
-         	   target = OST
-         	   type = annex_everything
-            }
+		 	   target = OST
+		 	   type = annex_everything
+			}
 			news_event = { id = news.15 }
-		}	
+		}
 	}
 
 	focus = {
@@ -257,32 +257,32 @@ focus_tree = {
 		x = 4
 		y = 1
 		relative_position_id = SAK_Our_Actions
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-           
+		   
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_ideas = SAK_State_of_emergency
 			set_country_flag = SAK_Emergency
 			News_event = { id = news.2 }
-		}	
+		}
 	}
 
 	focus = {
@@ -292,30 +292,30 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SAK_Our_eyes_In_Tbilisi
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-           
+		   
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = -0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -325,31 +325,31 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SAK_Our_eyes_In_Tbilisi
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
    
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = -75
 			add_stability = -0.1
-		}	
+		}
 	}
 
 	focus = {
@@ -359,30 +359,30 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_Arrest_Oppositions
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			remove_ideas = SAK_Mkhedrioni
-		}	
+		}
 	}
 
 	focus = {
@@ -392,31 +392,31 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_Raid_their_offices
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-         
+		 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 20
 			add_stability = 0.025
-		}	
+		}
 	}
 
 	focus = {
@@ -427,33 +427,33 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = Sak_Arrest_bandits
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-         
+		 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_manpower = -300
 			add_stability = 0.05
-            add_war_support = -0.05
+			add_war_support = -0.05
 			add_political_power = 50
-		}	
+		}
 	}
 
 	focus = {
@@ -463,31 +463,31 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SAK_Crackdown_kitovani_national_guard
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-        
-		}
 		
+		}
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.15
-		}	
+		}
 	}
 
 	focus = {
@@ -497,32 +497,32 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SAK_Crackdown_kitovani_national_guard
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-        
-		}
 		
+		}
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.05
 			add_war_support = 0.025
-		}	
+		}
 	}
 
 	focus = {
@@ -532,27 +532,27 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SAK_Raid_their_offices
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-        
-		}
 		
+		}
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.15
 			add_war_support = 0.15
@@ -560,7 +560,7 @@ focus_tree = {
 				ideology = communism
 				popularity = -0.15
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -570,17 +570,17 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_Little_fish
-		
+
 		cost = 8
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 			OR = {
 				OST = {
@@ -590,16 +590,16 @@ focus_tree = {
 				owns_state = 33
 			}
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			load_oob = SAK_ng
-		}	
+		}
 	}
 
 	focus = {
@@ -609,17 +609,17 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SAK_Send_National_Guard
-		
+
 		cost = 7
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 			OR = {
 				OST = {
@@ -629,18 +629,18 @@ focus_tree = {
 				owns_state = 33
 			}
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_timed_idea = {
 				idea = SAK_Battle_of_Tskhinvali
 				days = 21
-			}	
+			}
 		}
 	}
 
@@ -651,17 +651,17 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SAK_Send_National_Guard
-		
+
 		cost = 7
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 			OR = {
 				OST = {
@@ -671,16 +671,16 @@ focus_tree = {
 				owns_state = 33
 			}
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			country_event = { id = Georgia.19 }
-		}	
+		}
 	}
 
 	focus = {
@@ -692,27 +692,27 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_Close_Rock_mountain_pass
-		
+
 		cost = 7
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			27 = {
 				add_compliance = 30
@@ -731,7 +731,7 @@ focus_tree = {
 				popularity = -0.1
 			}
 			add_stability = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -743,27 +743,27 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_Battle_of_tskhinvali
-		
+
 		cost = 7
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_popularity = {
 				ideology = nationalism
@@ -786,7 +786,7 @@ focus_tree = {
 				add_manpower = -50
 			}
 			add_stability = -0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -796,30 +796,30 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_Crackdown_Abkhazians
-		
+
 		cost = 7
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			custom_effect_tooltip = in_dev_focus_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -829,30 +829,30 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_negotiate_with_Abkhazia
-		
+
 		cost = 7
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = -0.075
-		}	
+		}
 	}
-}	
+}

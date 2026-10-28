@@ -1,12 +1,12 @@
 scripted_gui = {
 
-    RAS_general_staff_decision_window = {
-       context_type = decision_category
+	RAS_general_staff_decision_window = {
+	   context_type = decision_category
 	   window_name = "RAS_general_staff_decision_window"
  
-        visible = {
-            tag = RAS
-        }
+		visible = {
+			tag = RAS
+		}
  
 		effects = {
 			RAS_general_staff_map_button_click = {
@@ -19,22 +19,22 @@ scripted_gui = {
 				}
 			}
 		}
-        triggers = {
-        }
+		triggers = {
+		}
 		
 		properties = {
 			
 		}
-    }
+	}
 
-    RAS_general_staff_window = {
-       context_type = player_context 
+	RAS_general_staff_window = {
+	   context_type = player_context 
 	   window_name = "RAS_general_staff_window"
  
-        visible = {
-            tag = RAS
-            check_variable = { RAS_show_general_staff > 0 }
-        }
+		visible = {
+			tag = RAS
+			check_variable = { RAS_show_general_staff > 0 }
+		}
  
 		effects = {
 			close_map_button_click = {
@@ -199,8 +199,8 @@ scripted_gui = {
 			}
 			button_urus_martonovsky_district_click = {
 				set_variable = { CHE_urus_martonovsky_district_selected = 1 }
-			    if = {
-				    limit = { has_variable = CHE_grozny_selected }
+				if = {
+					limit = { has_variable = CHE_grozny_selected }
 					clear_variable = CHE_grozny_selected
 				}
 				if = {
@@ -234,12 +234,12 @@ scripted_gui = {
 				if = {
 					limit = { has_variable = CHE_groznensky_district_selected }
 					clear_variable = CHE_groznensky_district_selected
-				}				
+				}
 			}
 			button_shalinsky_district_click = {
 				set_variable = { CHE_shalinsky_district_selected = 1 }
-		        if = {
-				    limit = { has_variable = CHE_grozny_selected }
+				if = {
+					limit = { has_variable = CHE_grozny_selected }
 					clear_variable = CHE_grozny_selected
 				}
 				if = {
@@ -273,12 +273,12 @@ scripted_gui = {
 				if = {
 					limit = { has_variable = CHE_groznensky_district_selected }
 					clear_variable = CHE_groznensky_district_selected
-				}				
+				}
 			}
 			button_vedensky_district_click = {
 				set_variable = { CHE_vedensky_district_selected = 1 }
 				if = {
-				    limit = { has_variable = CHE_grozny_selected }
+					limit = { has_variable = CHE_grozny_selected }
 					clear_variable = CHE_grozny_selected
 				}
 				if = {
@@ -317,7 +317,7 @@ scripted_gui = {
 			button_south_chechnya_click = {
 				set_variable = { CHE_south_chechnya_selected = 1 }
 				if = {
-				    limit = { has_variable = CHE_grozny_selected }
+					limit = { has_variable = CHE_grozny_selected }
 					clear_variable = CHE_grozny_selected
 				}
 				if = {
@@ -351,12 +351,12 @@ scripted_gui = {
 				if = {
 					limit = { has_variable = CHE_groznensky_district_selected }
 					clear_variable = CHE_groznensky_district_selected
-				}				
+				}
 			}
 			button_shatoisky_district_click = {
 				set_variable = { CHE_shatoisky_district_selected = 1 }
-			    if = {
-				    limit = { has_variable = CHE_grozny_selected }
+				if = {
+					limit = { has_variable = CHE_grozny_selected }
 					clear_variable = CHE_grozny_selected
 				}
 				if = {
@@ -394,8 +394,8 @@ scripted_gui = {
 			}
 			button_groznensky_district_click = {
 				set_variable = { CHE_groznensky_district_selected = 1 }
-			    if = {
-				    limit = { has_variable = CHE_grozny_selected }
+				if = {
+					limit = { has_variable = CHE_grozny_selected }
 					clear_variable = CHE_grozny_selected
 				}
 				if = {
@@ -429,17 +429,17 @@ scripted_gui = {
 				if = {
 					limit = { has_variable = CHE_shatoisky_district_selected }
 					clear_variable = CHE_shatoisky_district_selected
-				}				
+				}
 			}
 			RAS_button_general_staff_attack_click = { 
 				if = {
 					limit = {
 						command_power > 14
 						check_variable = {
-                            var = CHE_north_chechnya_selected
-                            value = 1
-                            compare = equals
-                        }
+							var = CHE_north_chechnya_selected
+							value = 1
+							compare = equals
+						}
 						NOT = {
 							has_country_flag = General_Staff_attack_started
 						}
@@ -631,10 +631,10 @@ scripted_gui = {
 					limit = {
 						command_power > 14
 						check_variable = {
-                            var = CHE_north_chechnya_selected
-                            value = 1
-                            compare = equals
-                        }
+							var = CHE_north_chechnya_selected
+							value = 1
+							compare = equals
+						}
 						NOT = {
 							has_country_flag = General_Staff_defence_started
 						}
@@ -826,10 +826,10 @@ scripted_gui = {
 					limit = {
 						command_power > 14
 						check_variable = {
-                            var = CHE_north_chechnya_selected
-                            value = 1
-                            compare = equals
-                        }
+							var = CHE_north_chechnya_selected
+							value = 1
+							compare = equals
+						}
 						NOT = {
 							has_country_flag = General_Staff_strengthen_defense_started
 						}
@@ -1019,9 +1019,9 @@ scripted_gui = {
 			}
 		}
 
-        triggers = {
+		triggers = {
 
-        }
+		}
 		
 		properties = {
 			Empty_background_image = {
@@ -1109,5 +1109,5 @@ scripted_gui = {
 			}
 			
 		}
-    }
+	}
 }

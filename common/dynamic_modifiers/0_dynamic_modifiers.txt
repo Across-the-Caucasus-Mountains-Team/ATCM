@@ -39,8 +39,8 @@ SAK_Poor_Agricultural_economy = { #NATIONAL SPIRIT
 	Research_speed_factor = SAK_pac_Research_speed_factor #-0.5
 	consumer_goods_factor = SAK_pac_consumer_goods_factor #0.5
 	stability_factor =  SAK_pac_stability_factor #-0.3
-    production_factory_efficiency_gain_factor = SAK_pac_production_factory_efficiency_gain_factor #-0.15
-    production_factory_max_efficiency_factor = SAK_pac_production_factory_max_efficiency_factor #-0.15
+	production_factory_efficiency_gain_factor = SAK_pac_production_factory_efficiency_gain_factor #-0.15
+	production_factory_max_efficiency_factor = SAK_pac_production_factory_max_efficiency_factor #-0.15
 	production_speed_industrial_complex_factor = SAK_pac_production_speed_industrial_complex_factor #-0.35
 	
 }
@@ -97,19 +97,19 @@ CHE_Islamic_state_idea = { #NATIONAL SPIRIT
 	liberalism_drift = CHE_IS_liberalism_drift
 	drift_defence_factor = CHE_IS_drift_defence_factor
 	consumer_goods_factor = CHE_IS_consumer_goods_factor
-    army_org_factor = CHE_IS_army_org_factor
-    air_mission_efficiency = CHE_IS_air_mission_efficiency
-    mobilization_speed = CHE_IS_mobilization_speed
-    industrial_capacity_factory = CHE_IS_industrial_capacity_factory
-    production_speed_buildings_factor = CHE_IS_production_speed_buildings_factor
-    production_factory_efficiency_gain_factor = CHE_IS_production_factory_efficiency_gain_factor
+	army_org_factor = CHE_IS_army_org_factor
+	air_mission_efficiency = CHE_IS_air_mission_efficiency
+	mobilization_speed = CHE_IS_mobilization_speed
+	industrial_capacity_factory = CHE_IS_industrial_capacity_factory
+	production_speed_buildings_factor = CHE_IS_production_speed_buildings_factor
+	production_factory_efficiency_gain_factor = CHE_IS_production_factory_efficiency_gain_factor
 }
 
 RAS_road_to_grozny = {
 
 	enable = { always = yes }
 	icon = GFX_idea_Russian_attack
-    army_speed_factor = 0.2
+	army_speed_factor = 0.2
 	army_org_factor = 0.15
 	army_attack_factor = 0.15
 	breakthrough_factor = 0.1
@@ -120,7 +120,7 @@ RAS_chechen_mountains = {
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
 	army_attack_factor = -0.65
-    army_speed_factor = -0.45
+	army_speed_factor = -0.45
 	army_org_factor = -0.35
 	ai_focus_aggressive_factor = -0.5
 }
@@ -129,7 +129,7 @@ RAS_road_to_south_chechnya = {
 
 	enable = { always = yes }
 	icon = GFX_idea_Russian_attack
-    army_speed_factor = 0.2
+	army_speed_factor = 0.2
 	army_org_factor = 0.15
 	army_attack_factor = 0.05
 }
@@ -139,7 +139,7 @@ CHE_unprepared_attack = {
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
 	army_attack_factor = -0.50
-    army_speed_factor = -0.50
+	army_speed_factor = -0.50
 	army_org_factor = -0.2
 	ai_focus_aggressive_factor = -0.9
 }
@@ -177,7 +177,7 @@ RAS_protests_in_region = {
 
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
-    army_speed_factor = -0.55
+	army_speed_factor = -0.55
 	army_org_factor = -0.15
 }
 
@@ -185,9 +185,9 @@ CHE_chechen_insurgency = {
 
 	enable = { always = yes }
 	icon = GFX_idea_chechen_insurgency
-    army_speed_factor = -0.15
+	army_speed_factor = -0.15
 	army_org_factor = -0.05
 	dig_in_speed_factor = -0.15
 	resistance_activity = 0.5	
-    compliance_growth = -0.3
+	compliance_growth = -0.3
 }

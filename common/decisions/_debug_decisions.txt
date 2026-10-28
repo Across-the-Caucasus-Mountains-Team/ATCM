@@ -15,7 +15,7 @@ debug_decisions = {
 			set_global_flag = show_debug_decisions_flag
 		}
 	}
- 
+
 	debug_hide_decisions = {
 		priority = -1
 		allowed = {
@@ -56,9 +56,6 @@ debug_decisions = {
 
 	start_chechen_war = {
 		priority = -1
-		allowed = {
-			always = yes 
-		}
 
 		visible = {
 			is_ai = no
@@ -87,9 +84,6 @@ debug_decisions = {
 			is_debug = yes
 			has_global_flag = show_debug_decisions_flag
 		}
-		allowed = {
-         
-		}
 		complete_effect = {
 			CHE = {
 				complete_national_focus =  CHE_General_Staff_of_Chechnya
@@ -109,9 +103,7 @@ debug_decisions = {
 			is_debug = yes
 			has_global_flag = show_debug_decisions_flag
 		}
-		allowed = {
-         
-		}
+
 		complete_effect = {
 			CHE = {
 				complete_national_focus =  CHE_operations_outside_of_chechnya

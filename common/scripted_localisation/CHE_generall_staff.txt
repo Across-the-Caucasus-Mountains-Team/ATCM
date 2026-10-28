@@ -1,645 +1,645 @@
 defined_text = {
-    name = get_North_chechnya_icon
+	name = get_North_chechnya_icon
 
-    text = {
-        trigger = {
-            11 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_North_Chechnya_State"
-    }
+	text = {
+		trigger = {
+			11 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_North_Chechnya_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                11 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_North_Chechnya_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				11 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_North_Chechnya_Captured"
+	}
 }
 
 defined_text = {
-    name = get_South_chechnya_icon
+	name = get_South_chechnya_icon
 
-    text = {
-        trigger = {
-            124 = {
-                is_fully_controlled_by = CHE
-            }
-            125 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_South_Chechnya_State"
-    }
+	text = {
+		trigger = {
+			124 = {
+				is_fully_controlled_by = CHE
+			}
+			125 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_South_Chechnya_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                124 = {
-                    is_fully_controlled_by = CHE
-                }
-                125 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_South_Chechnya_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				124 = {
+					is_fully_controlled_by = CHE
+				}
+				125 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_South_Chechnya_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Shalinsky_district_icon
+	name = get_Shalinsky_district_icon
 
-    text = {
-        trigger = {
-            132 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Shalinsky_District_State"
-    }
+	text = {
+		trigger = {
+			132 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Shalinsky_District_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                132 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Shalinsky_District_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				132 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Shalinsky_District_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Urus_Martonovsky_icon
+	name = get_Urus_Martonovsky_icon
 
-    text = {
-        trigger = {
-            126 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Urus_Martonovsky_State"
-    }
+	text = {
+		trigger = {
+			126 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Urus_Martonovsky_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                126 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Urus_Martonovsky_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				126 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Urus_Martonovsky_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Vedensky_District_icon
+	name = get_Vedensky_District_icon
 
-    text = {
-        trigger = {
-            127 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Vedensky_District_State"
-    }
+	text = {
+		trigger = {
+			127 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Vedensky_District_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                127 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Vedensky_District_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				127 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Vedensky_District_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Gudemarsky_District_icon
+	name = get_Gudemarsky_District_icon
 
-    text = {
-        trigger = {
-            16 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Gudemersky_District_State"
-    }
+	text = {
+		trigger = {
+			16 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Gudemersky_District_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                16 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Gudemersky_District_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				16 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Gudemersky_District_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Grozny_icon
+	name = get_Grozny_icon
 
-    text = {
-        trigger = {
-            21 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Grozny_State"
-    }
+	text = {
+		trigger = {
+			21 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Grozny_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                21 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Grozny_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				21 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Grozny_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Groznensky_district_icon
+	name = get_Groznensky_district_icon
 
-    text = {
-        trigger = {
-            128 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Groznensky_District_State"
-    }
+	text = {
+		trigger = {
+			128 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Groznensky_District_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                128 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Groznensky_District_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				128 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Groznensky_District_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Achoi_Martanovsky_icon
+	name = get_Achoi_Martanovsky_icon
 
-    text = {
-        trigger = {
-            132 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Achoi_Martanovsky_State"
-    }
+	text = {
+		trigger = {
+			132 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Achoi_Martanovsky_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                132 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Achoi_Martanovsky_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				132 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Achoi_Martanovsky_Captured"
+	}
 }
 
 defined_text = {
-    name = get_Shatoysky_icon
+	name = get_Shatoysky_icon
 
-    text = {
-        trigger = {
-            130 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_Shatoisky_District_State"
-    }
+	text = {
+		trigger = {
+			130 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_Shatoisky_District_State"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                130 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Shatoisky_District_Captured"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				130 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Shatoisky_District_Captured"
+	}
 }
 
 
 ### Buttons
 defined_text = {
-    name = get_button_north_chechnya
+	name = get_button_north_chechnya
 
-    text = {
-        trigger = {
-            11 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			11 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                11 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				11 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_grozny
+	name = get_button_grozny
 
-    text = {
-        trigger = {
-            21 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			21 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                21 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				21 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_south_chechnya
+	name = get_button_south_chechnya
 
-    text = {
-        trigger = {
-            124 = {
-                is_fully_controlled_by = CHE
-            }
-            125 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			124 = {
+				is_fully_controlled_by = CHE
+			}
+			125 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                124 = {
-                    is_fully_controlled_by = CHE
-                }
-                125 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				124 = {
+					is_fully_controlled_by = CHE
+				}
+				125 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_shalinsky_district
+	name = get_button_shalinsky_district
 
-    text = {
-        trigger = {
-            132 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			132 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                132 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				132 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_urus_martonovsky_district
+	name = get_button_urus_martonovsky_district
 
-    text = {
-        trigger = {
-            126 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			126 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                126 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				126 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_vedensky_district
+	name = get_button_vedensky_district
 
-    text = {
-        trigger = {
-            127 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			127 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                127 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				127 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_gudemarsky_district
+	name = get_button_gudemarsky_district
 
-    text = {
-        trigger = {
-            16 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			16 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                16 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				16 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = button_groznensky_district
+	name = button_groznensky_district
 
-    text = {
-        trigger = {
-            128 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			128 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                128 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				128 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_achoi_martanovsky_district
+	name = get_button_achoi_martanovsky_district
 
-    text = {
-        trigger = {
-            132 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			132 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                132 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				132 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 defined_text = {
-    name = get_button_shatoisky_district
+	name = get_button_shatoisky_district
 
-    text = {
-        trigger = {
-            130 = {
-                is_fully_controlled_by = CHE
-            }
-        }
-        localization_key = "GFX_CHE_Chechen_General_Staff_Button"
-    }
+	text = {
+		trigger = {
+			130 = {
+				is_fully_controlled_by = CHE
+			}
+		}
+		localization_key = "GFX_CHE_Chechen_General_Staff_Button"
+	}
 
-    text = {
-        trigger = {
-            NOT = {
-                130 = {
-                    is_fully_controlled_by = CHE
-                }
-            }
-        }
-        localization_key = "GFX_Russian_Embleme"
-    }
+	text = {
+		trigger = {
+			NOT = {
+				130 = {
+					is_fully_controlled_by = CHE
+				}
+			}
+		}
+		localization_key = "GFX_Russian_Embleme"
+	}
 }
 
 ## Images of city
 
 defined_text = {
-    name = get_Empty_background_image
+	name = get_Empty_background_image
 
-    text = {
-        trigger = {
-            has_variable = CHE_grozny_selected
-        }
-        localization_key = "GFX_Grozny_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_grozny_selected
+		}
+		localization_key = "GFX_Grozny_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_north_chechnya_selected
-        }
-        localization_key = "GFX_North_Chechnya_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_north_chechnya_selected
+		}
+		localization_key = "GFX_North_Chechnya_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_groznensky_district_selected
-        }
-        localization_key = "GFX_Groznensky_District_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_groznensky_district_selected
+		}
+		localization_key = "GFX_Groznensky_District_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_south_chechnya_selected
-        }
-        localization_key = "GFX_South_Chechnya_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_south_chechnya_selected
+		}
+		localization_key = "GFX_South_Chechnya_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_achoi_martanovsky_district_selected
-        }
-        localization_key = "GFX_Achoi_Martanovsky_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_achoi_martanovsky_district_selected
+		}
+		localization_key = "GFX_Achoi_Martanovsky_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_gudemarsky_district_selected
-        }
-        localization_key = "GFX_Gudermes_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_gudemarsky_district_selected
+		}
+		localization_key = "GFX_Gudermes_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_shalinsky_district_selected
-        }
-        localization_key = "GFX_Shalinsky_District_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_shalinsky_district_selected
+		}
+		localization_key = "GFX_Shalinsky_District_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_shatoisky_district_selected
-        }
-        localization_key = "GFX_Shatoisky_District_image"
-    }
-    
-    text = {
-        trigger = {
-            has_variable = CHE_vedensky_district_selected
-        }
-        localization_key = "GFX_Vedensky_District_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_shatoisky_district_selected
+		}
+		localization_key = "GFX_Shatoisky_District_image"
+	}
+	
+	text = {
+		trigger = {
+			has_variable = CHE_vedensky_district_selected
+		}
+		localization_key = "GFX_Vedensky_District_image"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_urus_martonovsky_district_selected
-        }
-        localization_key = "GFX_Urus_Martanovsky_District_image"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_urus_martonovsky_district_selected
+		}
+		localization_key = "GFX_Urus_Martanovsky_District_image"
+	}
 }
 
 ## Names of states
 
 defined_text = {
-    name = get_state_name
+	name = get_state_name
 
-    text = {
-        trigger = {
-            has_variable = CHE_grozny_selected
-        }
-        localization_key = "Grozny_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_grozny_selected
+		}
+		localization_key = "Grozny_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_north_chechnya_selected
-        }
-        localization_key = "North_Chechnya_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_north_chechnya_selected
+		}
+		localization_key = "North_Chechnya_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_groznensky_district_selected
-        }
-        localization_key = "Groznensky_District_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_groznensky_district_selected
+		}
+		localization_key = "Groznensky_District_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_south_chechnya_selected
-        }
-        localization_key = "South_Chechnya_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_south_chechnya_selected
+		}
+		localization_key = "South_Chechnya_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_achoi_martanovsky_district_selected
-        }
-        localization_key = "Achoi_Martanovsky_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_achoi_martanovsky_district_selected
+		}
+		localization_key = "Achoi_Martanovsky_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_gudemarsky_district_selected
-        }
-        localization_key = "Gudemarsky_District_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_gudemarsky_district_selected
+		}
+		localization_key = "Gudemarsky_District_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_shalinsky_district_selected
-        }
-        localization_key = "Shalinsky_District_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_shalinsky_district_selected
+		}
+		localization_key = "Shalinsky_District_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_shatoisky_district_selected
-        }
-        localization_key = "Shatoisky_District_select"
-    }
-    
-    text = {
-        trigger = {
-            has_variable = CHE_vedensky_district_selected
-        }
-        localization_key = "Vedensky_District_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_shatoisky_district_selected
+		}
+		localization_key = "Shatoisky_District_select"
+	}
+	
+	text = {
+		trigger = {
+			has_variable = CHE_vedensky_district_selected
+		}
+		localization_key = "Vedensky_District_select"
+	}
 
-    text = {
-        trigger = {
-            has_variable = CHE_urus_martonovsky_district_selected
-        }
-        localization_key = "Urus_Martanovsky_District_select"
-    }
+	text = {
+		trigger = {
+			has_variable = CHE_urus_martonovsky_district_selected
+		}
+		localization_key = "Urus_Martanovsky_District_select"
+	}
 }

@@ -3,13 +3,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 5
 			tag = SAK
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 6000 y = 500 }
@@ -19,27 +19,27 @@ focus_tree = {
 		icon = GFX_SAK_Aftermath_coup
 		x = 6
 		y = 0
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			hidden_effect = {
 				country_event = {
@@ -57,7 +57,7 @@ focus_tree = {
 					days = 261
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -67,30 +67,30 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_Aftermath_of_Coup }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			country_event = { id = Georgia.14 }
-		}	
+		}
 	}
 
 	focus = {
@@ -100,31 +100,31 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_ask_for_negotiations }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -134,30 +134,30 @@ focus_tree = {
 		y = 4
 		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_We_need_President }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			country_event = { id = Georgia.15 days = 1 }
-		}	
+		}
 	}
 
 	focus = {
@@ -167,31 +167,31 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Contact_Shevardnadze }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -201,34 +201,34 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_media }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.025
 			add_timed_idea = {
 				idea = SAK_Propaganda_Campaign
 				days = 45
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -238,41 +238,41 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_media }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
-		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
-		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
-		    add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
-		    add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
-		    add_to_variable = { SAK_aig_political_power_gain = 0.01 }
-		    add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
-	    	add_to_variable = { SAK_aig_monthly_population = 0.10 }
-		    add_to_variable = { SAK_aig_weekly_manpower = 1 }
-	    	add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
+			add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
+			add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
+			add_to_variable = { SAK_aig_political_power_gain = 0.01 }
+			add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
+			add_to_variable = { SAK_aig_monthly_population = 0.10 }
+			add_to_variable = { SAK_aig_weekly_manpower = 1 }
+			add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
 			custom_effect_tooltip = 1_SAK_tt
 			add_stability = -0.1
-		}	
+		}
 	}
 
 	focus = {
@@ -283,27 +283,27 @@ focus_tree = {
 		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_ban_Opposition_media }
 		prerequisite = { focus = SAK_Start_Propaganda_Campaign }
-		
+
 		cost = 25
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.05
 			add_timed_idea = {
@@ -311,7 +311,7 @@ focus_tree = {
 				days = 45
 			}
 			add_political_power = -45
-		}	
+		}
 	}
 
 	focus = {
@@ -322,27 +322,27 @@ focus_tree = {
 		relative_position_id = SAK_Ensure_Full_Control_on_media
 		prerequisite = { focus = SAK_Support_Svobodnaya_Gruziya }
 		prerequisite = { focus = SAK_Reinforce_Militia }
-		
+
 		cost = 2
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.025
 			custom_effect_tooltip = cash_balance_plus_5_tt
@@ -350,7 +350,7 @@ focus_tree = {
 				var = cash
 				value = 5
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -360,31 +360,31 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Contact_Shevardnadze }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -394,43 +394,43 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_Military }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_manpower = -7500
-		    add_war_support = -0.15
+			add_war_support = -0.15
 			add_stability = -0.15
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
-		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
-		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
-		    add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
-		    add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
-		    add_to_variable = { SAK_aig_political_power_gain = 0.01 }
-		    add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
-	    	add_to_variable = { SAK_aig_monthly_population = 0.10 }
-		    add_to_variable = { SAK_aig_weekly_manpower = 1 }
-	    	add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
+			add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
+			add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
+			add_to_variable = { SAK_aig_political_power_gain = 0.01 }
+			add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
+			add_to_variable = { SAK_aig_monthly_population = 0.10 }
+			add_to_variable = { SAK_aig_weekly_manpower = 1 }
+			add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
 			custom_effect_tooltip = 1_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -440,40 +440,40 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Purge_Zviadists }
-		
+
 		cost = 25
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_manpower = 250
 			add_timed_idea = {
 				idea = SAK_Reinforce_Militia_idea
 				days = 100
-			}	
+			}
 			hidden_effect = {
 				country_event = {
 					id = Georgia.50
 					days = 101
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -483,32 +483,32 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Purge_Zviadists }
-		
+
 		cost = 25
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
 			add_war_support = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -519,31 +519,31 @@ focus_tree = {
 		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Fight_back_Zviadists_Resistance }
 		prerequisite = { focus = SAK_Adjara_Autonomy_Question }
-		
+
 		cost = 2
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.025
 			army_experience = 25
-		}	
+		}
 	}
 
 	focus = {
@@ -554,32 +554,32 @@ focus_tree = {
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Start_Economy_Reform }
 		prerequisite = { focus = SAK_Start_military_Reform }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 90
 			add_stability = 0.15
 			add_war_support = 0.075
-		}	
+		}
 	}
 
 	focus = {
@@ -589,30 +589,30 @@ focus_tree = {
 		y = 6
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_The_Large_Speech }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-            has_country_flag = WonInCivilWar
+			has_country_flag = WonInCivilWar
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.15
-		}	
+		}
 	}
 
 	focus = {
@@ -622,32 +622,32 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Contact_Shevardnadze
 		prerequisite = { focus = SAK_Contact_Shevardnadze }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 95
 			add_stability = 0.1
 			add_war_support = 0.1
-		}	
+		}
 	}
 
 	focus = {
@@ -657,41 +657,41 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_Parliament }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.05
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
-		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
-		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
-		    add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
-		    add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
-		    add_to_variable = { SAK_aig_political_power_gain = 0.01 }
-		    add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
-	    	add_to_variable = { SAK_aig_monthly_population = 0.10 }
-		    add_to_variable = { SAK_aig_weekly_manpower = 1 }
-	    	add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
+			add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
+			add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
+			add_to_variable = { SAK_aig_political_power_gain = 0.01 }
+			add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
+			add_to_variable = { SAK_aig_monthly_population = 0.10 }
+			add_to_variable = { SAK_aig_weekly_manpower = 1 }
+			add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
 			custom_effect_tooltip = 1_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -702,30 +702,30 @@ focus_tree = {
 		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Clear_Tbilisi_From_Criminals }
 		prerequisite = { focus = SAK_Strenght_Parliament_Guard }
-		
+
 		cost = 25
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			has_country_flag = Adjara_is_semiindependent
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-            country_event = { id = Georgia.13 }
-		}	
+			country_event = { id = Georgia.13 }
+		}
 	}
 
 	focus = {
@@ -735,41 +735,41 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
 		prerequisite = { focus = SAK_Ensure_Full_Control_on_Parliament }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_manpower = 500
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
-		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
-		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
-		    add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
-		    add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
-		    add_to_variable = { SAK_aig_political_power_gain = 0.01 }
-		    add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
-	    	add_to_variable = { SAK_aig_monthly_population = 0.10 }
-		    add_to_variable = { SAK_aig_weekly_manpower = 1 }
-	    	add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
+			add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
+			add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
+			add_to_variable = { SAK_aig_political_power_gain = 0.01 }
+			add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
+			add_to_variable = { SAK_aig_monthly_population = 0.10 }
+			add_to_variable = { SAK_aig_weekly_manpower = 1 }
+			add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
 			custom_effect_tooltip = 1_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -779,17 +779,17 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Aftermath_of_Coup
 		prerequisite = { focus = SAK_Aftermath_of_Coup }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 			OR = {
 				OST = {
@@ -799,19 +799,19 @@ focus_tree = {
 				owns_state = 33
 			}
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_threat = -10
 			OST = {
 				country_event = { id = ossetia.1 }
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -819,30 +819,30 @@ focus_tree = {
 		icon = GFX_Goal_SAK_Statue_of_The_Army
 		x = 20
 		y = 0
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-            has_completed_focus = SAK_Start_military_Reform
+			has_completed_focus = SAK_Start_military_Reform
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 25
-		}	
+		}
 	}
 
 	focus = {
@@ -850,29 +850,29 @@ focus_tree = {
 		icon = GFX_Goal_SAK_Status_of_the_Economy
 		x = 29
 		y = 0
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-            has_completed_focus = SAK_Start_Economy_Reform
+			has_completed_focus = SAK_Start_Economy_Reform
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		}	
+		}
 	}
 
 	focus = {
@@ -881,36 +881,36 @@ focus_tree = {
 		x = 32
 		y = 1
 		prerequisite = { focus = SAK_status_of_the_Economy }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
-		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
-		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
-		    add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
+			add_to_variable = { SAK_pac_stability_factor = 0.05 }
+			add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
 			add_political_power = -25
-		}	
+		}
 	}
 
 	focus = {
@@ -921,36 +921,36 @@ focus_tree = {
 		prerequisite = { focus = SAK_International_aid_and_investments }
 		prerequisite = { focus = SAK_Daily_bread_delivery_car }
 		prerequisite = { focus = SAK_liberalize_trade_and_markets }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = -50
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
-		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
-		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
-		    add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
+			add_to_variable = { SAK_pac_stability_factor = 0.05 }
+			add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -959,37 +959,37 @@ focus_tree = {
 		x = 31
 		y = 3
 		prerequisite = { focus = SAK_privatize_agriculturale_sectors }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			remove_ideas = SAK_Overcrowded_Hospitals
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
-		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
-		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
-		    add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
+			add_to_variable = { SAK_pac_stability_factor = 0.05 }
+			add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
 			add_political_power = -100
-		}	
+		}
 	}
 
 	focus = {
@@ -998,37 +998,37 @@ focus_tree = {
 		x = 27
 		y = 3
 		prerequisite = { focus = SAK_privatize_agriculturale_sectors }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			remove_ideas = SAK_Ruins_of_central_tbilisi
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
-		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
-		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
-		    add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
+			add_to_variable = { SAK_pac_stability_factor = 0.05 }
+			add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
 			add_political_power = -100
-		}	
+		}
 	}
 
 	focus = {
@@ -1037,37 +1037,37 @@ focus_tree = {
 		x = 29
 		y = 4
 		prerequisite = { focus = SAK_privatize_agriculturale_sectors }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.1
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
-		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
-		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
-		    add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
+			add_to_variable = { SAK_pac_stability_factor = 0.05 }
+			add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
 			add_political_power = -100
-		}	
+		}
 	}
 
 	focus = {
@@ -1076,51 +1076,51 @@ focus_tree = {
 		x = 29
 		y = 1
 		prerequisite = { focus = SAK_status_of_the_Economy }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
-		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
-		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
-		    add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
-		    add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
-		    add_to_variable = { SAK_aig_political_power_gain = 0.01 }
-		    add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
-	    	add_to_variable = { SAK_aig_monthly_population = 0.10 }
-		    add_to_variable = { SAK_aig_weekly_manpower = 1 }
-	    	add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
+			add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
+			add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
+			add_to_variable = { SAK_aig_political_power_gain = 0.01 }
+			add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
+			add_to_variable = { SAK_aig_monthly_population = 0.10 }
+			add_to_variable = { SAK_aig_weekly_manpower = 1 }
+			add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
-		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
-		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
-		    add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
+			add_to_variable = { SAK_pac_stability_factor = 0.05 }
+			add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
 			custom_effect_tooltip = cash_balance_plus_5_tt
 			add_to_variable = {
 				var = cash
 				value = 5
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -1129,53 +1129,53 @@ focus_tree = {
 		x = 26
 		y = 1
 		prerequisite = { focus = SAK_status_of_the_Economy }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.075
 			add_war_support = 0.05
 			add_to_variable = { SAK_aig_war_support_factor = 0.01 }
-		    add_to_variable = { SAK_aig_stability_factor = 0.01 }
-		    add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
-		    add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
-		    add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
-		    add_to_variable = { SAK_aig_political_power_gain = 0.01 }
-		    add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
-	    	add_to_variable = { SAK_aig_monthly_population = 0.10 }
-		    add_to_variable = { SAK_aig_weekly_manpower = 1 }
-	    	add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_stability_factor = 0.01 }
+			add_to_variable = { SAK_aig_consumer_goods_factor = -0.01 }
+			add_to_variable = { SAK_aig_Anarchist_drift = -0.01 }
+			add_to_variable = { SAK_aig_drift_defence_factor = 0.01 }
+			add_to_variable = { SAK_aig_political_power_gain = 0.01 }
+			add_to_variable = { SAK_aig_Research_speed_factor = 0.01 }
+			add_to_variable = { SAK_aig_monthly_population = 0.10 }
+			add_to_variable = { SAK_aig_weekly_manpower = 1 }
+			add_to_variable = { SAK_aig_party_popularity_stability_factor = 0.01 }
 			add_to_variable = { SAK_pac_Research_speed_factor = 0.05 }
-		    add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
-		    add_to_variable = { SAK_pac_stability_factor = 0.05 }
-		    add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
-		    add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
+			add_to_variable = { SAK_pac_consumer_goods_factor = -0.05 }
+			add_to_variable = { SAK_pac_stability_factor = 0.05 }
+			add_to_variable = { SAK_pac_production_factory_efficiency_gain_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_factory_max_efficiency_factor = 0.01 }
+			add_to_variable = { SAK_pac_production_speed_industrial_complex_factor = 0.05 }
 			custom_effect_tooltip = 3_SAK_tt
 			custom_effect_tooltip = cash_balance_plus_5_tt
 			add_to_variable = {
 				var = cash
 				value = 5
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -1184,39 +1184,39 @@ focus_tree = {
 		x = 23
 		y = 1
 		prerequisite = { focus = SAK_status_of_the_army }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 25
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
-            add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
+			add_to_variable = { SAK_wgaf_Conscription = 0.002 }
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 2_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -1227,37 +1227,37 @@ focus_tree = {
 		prerequisite = { focus = SAK_status_of_the_army }
 
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 25
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
-            add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
+			add_to_variable = { SAK_wgaf_Conscription = 0.002 }
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 2_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -1266,27 +1266,27 @@ focus_tree = {
 		x = 17
 		y = 2
 		prerequisite = { focus = SAK_Blitz_Training }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_fuel = 10000
 			swap_ideas = {
@@ -1296,7 +1296,7 @@ focus_tree = {
 			custom_effect_tooltip = 2_SAK_tt
 			add_stability = -0.05
 			add_war_support = -0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -1305,36 +1305,36 @@ focus_tree = {
 		x = 20
 		y = 2
 		prerequisite = { focus = SAK_mistakes_from_coup_and_war }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.05
 			add_manpower = 100
 			add_timed_idea = {
 				idea = SAK_military_propaganda
 				days = 180
-			}	
+			}
 			custom_effect_tooltip = 2_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -1345,37 +1345,37 @@ focus_tree = {
 		prerequisite = { focus = SAK_discipline_in_the_army }
 
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 50
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
-            add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
+			add_to_variable = { SAK_wgaf_Conscription = 0.002 }
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 2_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -1388,28 +1388,28 @@ focus_tree = {
 		mutually_exclusive = { focus = SAK_Russian_Doctrine }
 
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 25
-		}	
+		}
 	}
 
 	focus = {
@@ -1420,30 +1420,30 @@ focus_tree = {
 		prerequisite = { focus = SAK_Harsh_Training }
 		prerequisite = { focus = SAK_ads_about_military }
 		mutually_exclusive = { focus = SAK_Nato_Doctrine }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 25
-		}	
+		}
 	}
 
 	focus = {
@@ -1452,39 +1452,39 @@ focus_tree = {
 		x = 20
 		y = 1
 		prerequisite = { focus = SAK_status_of_the_army }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 10
 			add_to_variable = { SAK_wgaf_war_support_factor = 0.021 }
-            add_to_variable = { SAK_wgaf_Conscription = 0.002 }
-            add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
-            add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
-            add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
+			add_to_variable = { SAK_wgaf_Conscription = 0.002 }
+			add_to_variable = { SAK_wdaf_army_attack_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_defence_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_speed_factor = 0.01 }
+			add_to_variable = { SAK_wdaf_war_stability_factor = 0.05 }
+			add_to_variable = { SAK_wdaf_army_org_regain = 0.05 }
 			custom_effect_tooltip = 2_SAK_tt
-		}	
+		}
 	}
 
 	focus = {
@@ -1492,30 +1492,30 @@ focus_tree = {
 		icon = GFX_SAK_the_last_round
 		x = 20
 		y = 7
-		
+
 		cost = 3
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-            always = no
+			always = no
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -1527,34 +1527,34 @@ focus_tree = {
 		prerequisite = { focus = SAK_Civil_war_is_started }
 
 		cost = 2
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.05
 			add_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
-            set_variable = { SAK_wgaf_Conscription = 0.002 }
-            set_variable = { SAK_wdaf_army_attack_factor = -0.25 }
-            set_variable = { SAK_wdaf_army_org_factor = -0.15 }
-            set_variable = { SAK_wdaf_army_speed_factor = -0.15 }
-            set_variable = { SAK_wdaf_army_org_regain = -0.25 }
-		}	
+			set_variable = { SAK_wgaf_Conscription = 0.002 }
+			set_variable = { SAK_wdaf_army_attack_factor = -0.25 }
+			set_variable = { SAK_wdaf_army_org_factor = -0.15 }
+			set_variable = { SAK_wdaf_army_speed_factor = -0.15 }
+			set_variable = { SAK_wdaf_army_org_regain = -0.25 }
+		}
 	}
 
 	focus = {
@@ -1564,34 +1564,34 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_strike_Zviadists }
-		
+
 		cost = 3
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_to_variable = { SAK_wdaf_army_speed_factor = 0.05 }
 			add_timed_idea = {
-                idea = SAK_evacuation_from_abkhazia_idea
-                days = 25
-            }
-		}	
+				idea = SAK_evacuation_from_abkhazia_idea
+				days = 25
+			}
+		}
 	}
 
 	focus = {
@@ -1601,30 +1601,30 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_strike_Zviadists }
-		
+
 		cost = 3
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_to_variable = { SAK_wdaf_army_speed_factor = 0.05 }
-		}	
+		}
 	}
 
 	focus = {
@@ -1635,93 +1635,93 @@ focus_tree = {
 		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Evacuation_from_Abkhazia }
 		prerequisite = { focus = SAK_Emergency_evacuation_from_western_Georgia }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_manpower = 500
 			add_ideas = SAK_mobilization_idea
 			add_to_variable = { SAK_wdaf_army_org_factor = 0.05 }
 			hidden_effect = {
-			    division_template = {
-	                name = "Bolo Khazis Militsia"
-	                regiments = {
-                        militia = { x = 0 y = 0 }
-		                militia = { x = 0 y = 1 }
-		                militia = { x = 0 y = 2 }
-                        militia = { x = 1 y = 0 }
-	                }
-                    support = {
-                        engineer = { x = 0 y = 0 }
-		                recon = { x = 0 y = 1 }
-		                mortar = { x = 0 y = 2 }
-		                military_police = { x = 0 y = 3 }
-	                }
+				division_template = {
+					name = "Bolo Khazis Militsia"
+					regiments = {
+						militia = { x = 0 y = 0 }
+						militia = { x = 0 y = 1 }
+						militia = { x = 0 y = 2 }
+						militia = { x = 1 y = 0 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						recon = { x = 0 y = 1 }
+						mortar = { x = 0 y = 2 }
+						military_police = { x = 0 y = 3 }
+					}
 
-			        is_locked = yes
-                }
+					is_locked = yes
+				}
 				random_owned_state = {
-			        create_unit = {
-				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
-				        owner = SAK
-				        count = 2
-			        }
-		        }
-			    random_owned_state = {
-			        create_unit = {
-				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
-				        owner = SAK
-				        count = 2
-			        }
-		        }
-			    random_owned_state = {
-			        create_unit = {
-				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
-				        owner = SAK
-				        count = 2
-			        }
-		        }
-			    random_owned_state = {
-			        create_unit = {
-				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
-				        owner = SAK
-				        count = 2
-			        }
-		        }
-			    random_owned_state = {
-			        create_unit = {
-				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
-				        owner = SAK
-				        count = 1
-			        }
-		        }
-			    random_owned_state = {
-			        create_unit = {
-				        division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.03"
-				        owner = SAK
-				        count = 2
-			        }
-		        }
+					create_unit = {
+						division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+						owner = SAK
+						count = 2
+					}
+				}
+				random_owned_state = {
+					create_unit = {
+						division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+						owner = SAK
+						count = 2
+					}
+				}
+				random_owned_state = {
+					create_unit = {
+						division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+						owner = SAK
+						count = 2
+					}
+				}
+				random_owned_state = {
+					create_unit = {
+						division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+						owner = SAK
+						count = 2
+					}
+				}
+				random_owned_state = {
+					create_unit = {
+						division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+						owner = SAK
+						count = 1
+					}
+				}
+				random_owned_state = {
+					create_unit = {
+						division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.03"
+						owner = SAK
+						count = 2
+					}
+				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -1731,30 +1731,30 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Civil_war_is_started }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
-		}	
+		}
 	}
 
 	focus = {
@@ -1764,29 +1764,29 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Join_CSTO
 		prerequisite = { focus = SAK_Join_CSTO }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		}	
+		}
 	}
 
 	focus = {
@@ -1796,31 +1796,31 @@ focus_tree = {
 		y = 4
 		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Full_Mobilization }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 25
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
-		}	
+		}
 	}
 
 	focus = {
@@ -1830,30 +1830,30 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Bomb_them_from_Ground
 		prerequisite = { focus = SAK_Bomb_them_from_Ground }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
-		}	
+		}
 	}
 
 	focus = {
@@ -1863,29 +1863,29 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAK_Bomb_them_from_Ground
 		prerequisite = { focus = SAK_Mkhedrion_counter_attack }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		}	
+		}
 	}
 
 	focus = {
@@ -1895,30 +1895,30 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAK_Bomb_them_from_Ground
 		prerequisite = { focus = SAK_Cut_off_Chechen_support }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -1929,117 +1929,117 @@ focus_tree = {
 		relative_position_id = SAK_Total_Air_Supremacy
 		prerequisite = { focus = SAK_Restore_The_Order_once_for_all }
 		prerequisite = { focus = SAK_Total_Air_Supremacy }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
-            NOT = {
+			NOT = {
 				country_exists = GOM
 			}
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_stability = 0.15
 			add_political_power = 25
 			remove_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
 			hidden_effect = {
-			    35 = {
-				    set_building_level = {
-					    type = bunker
-					    level = 0
-					    province = {
-						    id = 11024
-						    id = 2670
-						    id = 11032
-						    id = 11056
-						    id = 11073
-						    id = 11085
-						    id = 8622
-					    }
-					    instant_build = yes
-				    }
-			    }
+				35 = {
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 11024
+							id = 2670
+							id = 11032
+							id = 11056
+							id = 11073
+							id = 11085
+							id = 8622
+						}
+						instant_build = yes
+					}
+				}
 				49 = {
-				    set_building_level = {
-					    type = bunker
-					    level = 0
-					    province = {
-						    id = 5335
-						    id = 5365
-						    id = 11384
-						    id = 7490
-						    id = 11401
-						    id = 9233
-					    }
-					    instant_build = yes
-				    }
-			    }
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 5335
+							id = 5365
+							id = 11384
+							id = 7490
+							id = 11401
+							id = 9233
+						}
+						instant_build = yes
+					}
+				}
 				48 = {
-				    set_building_level = {
-					    type = bunker
-					    level = 0
-					    province = {
-						    id = 2649
-						    id = 4518
-						    id = 5650
-						    id = 5711
-						    id = 7668
-						    id = 8377
-						    id = 11353
-						    id = 11357
-						    id = 11370
-					    }
-					    instant_build = yes
-				    }
-			    }
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 2649
+							id = 4518
+							id = 5650
+							id = 5711
+							id = 7668
+							id = 8377
+							id = 11353
+							id = 11357
+							id = 11370
+						}
+						instant_build = yes
+					}
+				}
 				41 = {
-				    set_building_level = {
-					    type = bunker
-					    level = 0
-					    province = {
-						    id = 7664
-						    id = 4545
-						    id = 3885
-						    id = 6666
-						    id = 1359
-						    id = 3553
-					    }
-					    instant_build = yes
-				    }
-			    }
-			    42 = {
-				    add_building_construction = {
-					    type = bunker
-					    level = 0
-					    province = {
-						    id = 5464
-					    }
-					    instant_build = yes
-				    }
-			    }
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 7664
+							id = 4545
+							id = 3885
+							id = 6666
+							id = 1359
+							id = 3553
+						}
+						instant_build = yes
+					}
+				}
+				42 = {
+					add_building_construction = {
+						type = bunker
+						level = 0
+						province = {
+							id = 5464
+						}
+						instant_build = yes
+					}
+				}
 				set_country_flag = WonInCivilWar
 				SAK = {
-		            delete_unit = {
-                        division_template = "Bolo Khazis Militsia" 
-		            }
+					delete_unit = {
+						division_template = "Bolo Khazis Militsia" 
+					}
 				}
 
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -2049,31 +2049,31 @@ focus_tree = {
 		y = 4
 		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Full_Mobilization }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			air_experience = 25
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
-		}	
+		}
 	}
 
 	focus = {
@@ -2084,35 +2084,35 @@ focus_tree = {
 		relative_position_id = SAK_Full_Mobilization
 		prerequisite = { focus = SAK_Bomb_them_from_Ground }
 		prerequisite = { focus = SAK_Bomb_them_from_Sky }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_timed_idea = {
-                idea = SAK_ground_support_idea
-                days = 35
-            }
+				idea = SAK_ground_support_idea
+				days = 35
+			}
 			army_experience = 25
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.10 }
-		}	
+		}
 	}
 
 	focus = {
@@ -2122,72 +2122,72 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAK_Full_Mobilization
 		prerequisite = { focus = SAK_ground_support }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 150
 		}
-		
+
 		available = {
-            surrender_progress > 0.65
+			surrender_progress > 0.65
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.10 }
 			random_owned_state = {
-			    create_unit = {
-				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
-				    owner = SAK
-				    count = 4
-			    }
-		    }
+				create_unit = {
+					division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+					owner = SAK
+					count = 4
+				}
+			}
 			random_owned_state = {
-			    create_unit = {
-				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
-				    owner = SAK
-				    count = 4
-			    }
-		    }
+				create_unit = {
+					division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+					owner = SAK
+					count = 4
+				}
+			}
 			random_owned_state = {
-			    create_unit = {
-				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
-				    owner = SAK
-				    count = 2
-			    }
-		    }
+				create_unit = {
+					division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.05"
+					owner = SAK
+					count = 2
+				}
+			}
 			random_owned_state = {
-			    create_unit = {
-				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
-				    owner = SAK
-				    count = 2
-			    }
-		    }
+				create_unit = {
+					division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+					owner = SAK
+					count = 2
+				}
+			}
 			random_owned_state = {
-			    create_unit = {
-				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
-				    owner = SAK
-				    count = 1
-			    }
-		    }
+				create_unit = {
+					division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.02"
+					owner = SAK
+					count = 1
+				}
+			}
 			random_owned_state = {
-			    create_unit = {
-				    division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.03"
-				    owner = SAK
-				    count = 2
-			    }
-		    }
-		}	
+				create_unit = {
+					division = "name = \"Bolo Khazis Militsia\" division_template = \"Bolo Khazis Militsia\" start_experience_factor = 0.03"
+					owner = SAK
+					count = 2
+				}
+			}
+		}
 	}
 
 	focus = {
@@ -2197,30 +2197,30 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Bomb_them_from_Sky
 		prerequisite = { focus = SAK_Bomb_them_from_Sky }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
-		}	
+		}
 	}
 
 	focus = {
@@ -2230,27 +2230,27 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAK_Bomb_them_from_Sky
 		prerequisite = { focus = SAK_Strike_Zugdidi }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			GOM = {
 				add_timed_idea = {
@@ -2258,7 +2258,7 @@ focus_tree = {
 					days = 35
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -2268,31 +2268,31 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAK_Bomb_them_from_Sky
 		prerequisite = { focus = SAK_bomb_zviadists_supply_lines }
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			air_experience = 25
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
-		}	
+		}
 	}
 
 	focus = {
@@ -2302,31 +2302,31 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Civil_war_is_started
 		prerequisite = { focus = SAK_Civil_war_is_started }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.025
 			army_experience = 50
-		}	
+		}
 	}
 
 	focus = {
@@ -2336,27 +2336,27 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortifications }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			has_full_control_of_state = 35
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			35 = {
 				add_building_construction = {
@@ -2374,7 +2374,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -2384,27 +2384,27 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortifications }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			has_full_control_of_state = 41
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			41 = {
 				add_building_construction = {
@@ -2421,7 +2421,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -2431,27 +2431,27 @@ focus_tree = {
 		y = 1
 		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortifications }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			has_full_control_of_state = 48
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			48 = {
 				add_building_construction = {
@@ -2471,7 +2471,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -2481,27 +2481,27 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortify_Kutaisi }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			has_full_control_of_state = 49
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			49 = {
 				add_building_construction = {
@@ -2518,7 +2518,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -2528,27 +2528,27 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAK_Fortifications
 		prerequisite = { focus = SAK_Fortify_Gori }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			has_full_control_of_state = 42
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			42 = {
 				add_building_construction = {
@@ -2560,6 +2560,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}	
+		}
 	}
-}	
+}

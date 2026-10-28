@@ -41,7 +41,7 @@ country_event = {
 
 	option = {
 		name = abkhazia.2.a
-        retire_character = Shamil_Basayev
+		retire_character = Shamil_Basayev
 		hidden_effect = {
 			CHE = {
 				country_event = chechnya.35
@@ -69,7 +69,7 @@ country_event = {
 		add_equipment_to_stockpile = { 
 			type = uniform_equipment_0 
 			amount = 3500 
-		}		
+		}
 		add_equipment_to_stockpile = { 
 			type = bulletproof_vests_equipment_0 
 			amount = 2500 
@@ -77,7 +77,7 @@ country_event = {
 		add_equipment_to_stockpile = { 
 			type = support_equipment_1 
 			amount = 950 
-		}		
+		}
 		add_manpower = 1000
 	}
 }

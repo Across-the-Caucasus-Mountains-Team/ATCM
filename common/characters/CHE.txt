@@ -107,7 +107,7 @@ characters={
 		name = "Shamil Basayev"
 		portraits = {
 			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
+				large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
 			}
 		}
 		country_leader={
@@ -129,7 +129,7 @@ characters={
 				has_completed_focus = CHE_Weak_military
 				NOT = {
 					OR = {
-					    has_country_flag = SmailBasayevKilled
+						has_country_flag = SmailBasayevKilled
 						has_country_flag = BasayevInAbkhazia
 					}
 				}
@@ -142,7 +142,7 @@ characters={
 		name = "Shamil Basayev"
 		portraits = {
 			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
+				large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
 			}
 		}
 		country_leader={
@@ -164,13 +164,13 @@ characters={
 
 			#}
 		}
-	}	
+	}
 	
 	CHE_ruslan_gelayev = {
 		name = "Ruslan Gelayev"
 		portraits = {
 			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Ruslan_Gelayev.png"
+				large="gfx/leaders/CHE/portrait_CHE_Ruslan_Gelayev.png"
 			}
 		}
 		corps_commander = {
@@ -194,7 +194,7 @@ characters={
 		name = "Abalaev Khadzhievich"
 		portraits = {
 			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Abalaev_Khadzhievich.png"
+				large="gfx/leaders/CHE/portrait_CHE_Abalaev_Khadzhievich.png"
 			}
 		}
 		corps_commander = {
@@ -218,7 +218,7 @@ characters={
 		name = "Vakha Arsanov"
 		portraits = {
 			army = {
-			    large="GFX_CHE_vakha_arsanov_portrait"
+				large="GFX_CHE_vakha_arsanov_portrait"
 			}
 		}
 		corps_commander = {
@@ -242,7 +242,7 @@ characters={
 		name = "Aslambek Abdulkhadzhiev"
 		portraits = {
 			army = {
-			    large="GFX_CHE_aslambek_abdulkhadzhiev_portrait"
+				large="GFX_CHE_aslambek_abdulkhadzhiev_portrait"
 			}
 		}
 		corps_commander = {
@@ -266,7 +266,7 @@ characters={
 		name = "Isa Astamirov"
 		portraits = {
 			army = {
-			    large="GFX_CHE_isa_astamirov_portrait"
+				large="GFX_CHE_isa_astamirov_portrait"
 			}
 		}
 		corps_commander = {

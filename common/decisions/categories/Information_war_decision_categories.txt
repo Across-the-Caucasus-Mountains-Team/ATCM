@@ -12,12 +12,12 @@ information_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-	    OR = {
-		    tag = RAS
+		OR = {
+			tag = RAS
 			tag = CHE
 		}
 		OR = {
-		    has_global_flag = FirstChechenWar
+			has_global_flag = FirstChechenWar
 			has_global_flag = SecondChechenWar
 		}
 	}

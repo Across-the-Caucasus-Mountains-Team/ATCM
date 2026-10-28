@@ -22,7 +22,7 @@ country_event = {
 	option = {
 		name = superevent.1.a
 		
-        set_global_flag = SOV_august_coup_supervent_flag
+		set_global_flag = SOV_august_coup_supervent_flag
 		set_global_flag = Visbile_sp_events
 		play_song = "SummerWillEnd"
 	}
@@ -47,7 +47,7 @@ country_event = {
 	option = {
 		name = superevent.2.a
 		
-        set_global_flag = SOV_end_of_ussr_supervent_flag
+		set_global_flag = SOV_end_of_ussr_supervent_flag
 		set_global_flag = Visbile_sp_events
 		play_song = "Pocledni_geroi"
 	}
@@ -72,7 +72,7 @@ country_event = {
 	option = {
 		name = superevent.3.a
 		
-        set_global_flag = RAS_black_october_supervent_flag
+		set_global_flag = RAS_black_october_supervent_flag
 		set_global_flag = Visbile_sp_events
 		play_song = "maintheme"
 	}
@@ -97,7 +97,7 @@ country_event = {
 	option = {
 		name = superevent.4.a
 		
-        set_global_flag = RAS_First_Chechen_War_supervent_flag
+		set_global_flag = RAS_First_Chechen_War_supervent_flag
 		set_global_flag = Visbile_sp_events
 		play_song = "FirstChechenWar"			
 	}

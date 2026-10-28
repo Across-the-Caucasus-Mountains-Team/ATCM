@@ -3,13 +3,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 1
 			tag = SAK
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 50 y = 900 }
@@ -19,27 +19,27 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 4
 		y = 0
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			base = 10
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = {  }
-		
+
 		completion_reward = {
 		}
 	}
@@ -53,27 +53,27 @@ focus_tree = {
 		prerequisite = {
 			focus = SAK_arrest_gamasakhurdia
 		}
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			base = 10
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = {  }
-		
+
 		completion_reward = {
 		}
 	}
@@ -90,27 +90,27 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SAK_embrace_the_legacy_of_stalin
 		}
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			base = 10
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = {  }
-		
+
 		completion_reward = {
 		}
 	}
@@ -124,27 +124,27 @@ focus_tree = {
 		prerequisite = {
 			focus = SAK_continue_the_course
 		}
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			base = 10
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = {  }
-		
+
 		completion_reward = {
 		}
 	}
@@ -158,27 +158,27 @@ focus_tree = {
 		prerequisite = {
 			focus = SAK_continue_the_course
 		}
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			base = 10
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = {  }
-		
+
 		completion_reward = {
 		}
 	}
@@ -195,27 +195,27 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SAK_continue_the_course
 		}
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			base = 10
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = {  }
-		
+
 		completion_reward = {
 		}
 	}

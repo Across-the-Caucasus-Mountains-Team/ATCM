@@ -11,7 +11,7 @@ SAK_fight_back_zviadists_category = {
 		tag = SAK
 	}
 	visible = {	
-	    tag = SAK
+		tag = SAK
 		has_completed_focus = SAK_Fight_back_Zviadists_Resistance
 	}
 }
@@ -24,7 +24,7 @@ SAK_State_emergency_category = {
 		tag = SAK
 	}
 	visible = {	
-	    tag = SAK
+		tag = SAK
 		has_completed_focus = SAK_Our_eyes_In_Tbilisi
 		NOT = { has_completed_focus = SAK_Aftermath_of_Coup }
 	}
@@ -38,7 +38,7 @@ SAK_Preparations_for_Abkhazia_war_category = {
 		tag = SAK
 	}
 	visible = {	
-	    tag = SAK
+		tag = SAK
 		has_country_flag = Preparation_for_war
 		NOT = { has_country_flag = war_in_abkhazia }
 	}
@@ -52,7 +52,7 @@ ARM_Recruitment_category = {
 		tag = ARM
 	}
 	visible = {	
-	    tag = ARM
+		tag = ARM
 		has_completed_focus = ARM_Recruitment_effort
 	}
 	

@@ -11,30 +11,30 @@ bookmarks = {
 			history = "SAK_Across_the_Caucasus_DESC"
 			ideology = nationalism
 			ideas = {
-			    SAK_Clashes_in_south_ossetia
+				SAK_Clashes_in_south_ossetia
 				SAK_No_To_Soviet_Russia
 				SAK_Poor_Agricultural_economy
 			}
 			focuses = {
-			    SAK_the_last_steps_toward_independence
+				SAK_the_last_steps_toward_independence
 				SAK_tensions_in_south_ossetia
 				SAK_independence_referendum
 			}
 		}
 		
-	    "RAS"={
+		"RAS"={
 			history = "RAS_Across_the_Caucasus_DESC"
 			ideology = Communisten
 			ideas = {
-			    RAS_hardliners_protest
+				RAS_hardliners_protest
 				RAS_Memories_of_afhganistan_war
-			    
+				
 			}
 			focuses = {
-			    RAS_seventieth_years_of_the_union
+				RAS_seventieth_years_of_the_union
 				RAS_problems_in_the_south
 				RAS_Treaty_of_Union
 			}
 		}
 	}
-}	
+}

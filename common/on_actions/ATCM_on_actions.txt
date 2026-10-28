@@ -7,7 +7,6 @@ on_actions = {
 			ATCM_economy_setup = yes
 			set_global_flag = add_remove_cash_flag
 
-
 		}
 	}
 }

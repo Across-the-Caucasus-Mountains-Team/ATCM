@@ -14,23 +14,23 @@ country_event = {
 					has_global_flag = USSR_Colapsed
 				}
 			}
-		    NOT = {
-			    is_puppet_of = RAS
-		    }
+			NOT = {
+				is_puppet_of = RAS
+			}
 		}
 		NOT = {
-            tag = RAS
+			tag = RAS
 			has_country_flag = criticalbudgetdeficit
 		}
 		check_variable = {
-            var = cash
-            value = 0
-            compare = less_than_or_equals
-        }
+			var = cash
+			value = 0
+			compare = less_than_or_equals
+		}
 	}
 	mean_time_to_happen = {
-        days = 150
-    }   
+		days = 150
+	}
 
 	immediate = {
 		set_country_flag = criticalbudgetdeficit

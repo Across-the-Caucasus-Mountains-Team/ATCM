@@ -13,7 +13,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = modern_tank_2
+			leads_to_tech = modern_tank_2
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -72,7 +72,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = modern_tank_3
+			leads_to_tech = modern_tank_3
 			research_cost_coeff = 1
 		}
 
@@ -111,7 +111,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = modern_tank_4
+			leads_to_tech = modern_tank_4
 			research_cost_coeff = 1
 		}
 
@@ -150,7 +150,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = modern_tank_5
+			leads_to_tech = modern_tank_5
 			research_cost_coeff = 1
 		}
 
@@ -189,7 +189,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = modern_tank_3
+			leads_to_tech = modern_tank_3
 			research_cost_coeff = 1
 		}
 
@@ -217,16 +217,16 @@ technologies = {
 	IFV_1 = { #Leichttraktor
 
 		enable_equipments = {
-            ifv_0_equipment
+			ifv_0_equipment
 		}
 		enable_subunits = {
-            infantry_fighting_vehicle
+			infantry_fighting_vehicle
 		}
 		on_research_complete_limit = {
 			
 		}
 		path = {
-		    leads_to_tech = IFV_2
+			leads_to_tech = IFV_2
 			research_cost_coeff = 1
 		}
 
@@ -251,10 +251,10 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-    IFV_2 = { #Leichttraktor
+	IFV_2 = { #Leichttraktor
 
 		enable_equipments = {
-            ifv_1_equipment
+			ifv_1_equipment
 		}
 		enable_subunits = {
 
@@ -263,7 +263,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = IFV_3
+			leads_to_tech = IFV_3
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -311,7 +311,7 @@ technologies = {
 	IFV_3 = { #Leichttraktor
 
 		enable_equipments = {
-            ifv_2_equipment
+			ifv_2_equipment
 		}
 		enable_subunits = {
 
@@ -320,7 +320,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = IFV_4
+			leads_to_tech = IFV_4
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -368,7 +368,7 @@ technologies = {
 	IFV_4 = { #Leichttraktor
 
 		enable_equipments = {
-            ifv_3_equipment
+			ifv_3_equipment
 		}
 		enable_subunits = {
 
@@ -430,15 +430,15 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = APC_2
+			leads_to_tech = APC_2
 			research_cost_coeff = 1
 		}
 		path = {
-		    leads_to_tech = IFV_1
+			leads_to_tech = IFV_1
 			research_cost_coeff = 1
 		}
 		path = {
-		    leads_to_tech = bmd_1
+			leads_to_tech = bmd_1
 			research_cost_coeff = 1
 		}
 
@@ -470,7 +470,7 @@ technologies = {
 	APC_2 = { #Leichttraktor
 
 		enable_equipments = {
-            apc_1_equipment
+			apc_1_equipment
 		}
 		enable_subunits = {
 
@@ -479,7 +479,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = APC_3
+			leads_to_tech = APC_3
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -510,7 +510,7 @@ technologies = {
 	APC_3 = { #Leichttraktor
 
 		enable_equipments = {
-            apc_2_equipment
+			apc_2_equipment
 		}
 		enable_subunits = {
 
@@ -519,7 +519,7 @@ technologies = {
 			
 		}
 		path = {
-		    leads_to_tech = APC_4
+			leads_to_tech = APC_4
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
@@ -550,7 +550,7 @@ technologies = {
 	APC_4 = { #Leichttraktor
 
 		enable_equipments = {
-            apc_3_equipment
+			apc_3_equipment
 		}
 		enable_subunits = {
 
@@ -562,7 +562,7 @@ technologies = {
 		
 		}
 		path = {
-		    leads_to_tech = APC_5
+			leads_to_tech = APC_5
 		}
 		research_cost = 2
 		start_year = 1980
@@ -588,7 +588,7 @@ technologies = {
 	APC_5 = { #Leichttraktor
 
 		enable_equipments = {
-            apc_4_equipment
+			apc_4_equipment
 		}
 		enable_subunits = {
 

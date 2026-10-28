@@ -1,21 +1,21 @@
 RAS_soviet_separatism_decision = {
 
-    SOV_suppres_the_chechen_opposition = {
+	SOV_suppres_the_chechen_opposition = {
 
 		icon = GFX_decision_generic_Guns_from_communists
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = yes
@@ -26,10 +26,10 @@ RAS_soviet_separatism_decision = {
 			add_war_support = -0.015
 			add_stability = -0.015
 			add_to_variable = { 
-			    var = CHE_separatism_value
-                value = -5 
-                tooltip = SOV_add_minus_5_to_separatism_tt
-            }
+				var = CHE_separatism_value
+				value = -5 
+				tooltip = SOV_add_minus_5_to_separatism_tt
+			}
 		}
 
 		ai_will_do = {
@@ -37,22 +37,22 @@ RAS_soviet_separatism_decision = {
 		}
 	}
 
-    SOV_suppres_the_georgian_opposition = {
+	SOV_suppres_the_georgian_opposition = {
 
 		icon = GFX_decision_generic_Guns_from_communists
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }		
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = yes
@@ -62,11 +62,11 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = -0.015
 			add_stability = -0.015
-            add_to_variable = { 
-			    var = SAK_separatism_value
-                value = -5 
-                tooltip = SOV_add_minus_5_to_separatism_tt
-            }
+			add_to_variable = { 
+				var = SAK_separatism_value
+				value = -5 
+				tooltip = SOV_add_minus_5_to_separatism_tt
+			}
 		}
 
 		ai_will_do = {
@@ -74,22 +74,22 @@ RAS_soviet_separatism_decision = {
 		}
 	}
 
-    SOV_suppres_the_armenian_opposition = {
+	SOV_suppres_the_armenian_opposition = {
 
 		icon = GFX_decision_generic_Guns_from_communists
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = yes
@@ -99,11 +99,11 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = -0.015
 			add_stability = -0.015
-            add_to_variable = { 
-			    var = ARM_separatism_value
-                value = -5 
-                tooltip = SOV_add_minus_5_to_separatism_tt
-            }
+			add_to_variable = { 
+				var = ARM_separatism_value
+				value = -5 
+				tooltip = SOV_add_minus_5_to_separatism_tt
+			}
 		}
 
 		ai_will_do = {
@@ -111,22 +111,22 @@ RAS_soviet_separatism_decision = {
 		}
 	}
 
-    SOV_suppres_the_azerbajani_opposition = {
+	SOV_suppres_the_azerbajani_opposition = {
 
 		icon = GFX_decision_generic_Guns_from_communists
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = yes
@@ -136,11 +136,11 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = -0.015
 			add_stability = -0.015
-            add_to_variable = { 
-			    var = AZR_separatism_value
-                value = -5 
-                tooltip = SOV_add_minus_5_to_separatism_tt
-            }
+			add_to_variable = { 
+				var = AZR_separatism_value
+				value = -5 
+				tooltip = SOV_add_minus_5_to_separatism_tt
+			}
 		}
 
 		ai_will_do = {
@@ -148,22 +148,22 @@ RAS_soviet_separatism_decision = {
 		}
 	}
 
-    SOV_suppres_the_dagestani_opposition = {
+	SOV_suppres_the_dagestani_opposition = {
 
 		icon = GFX_decision_generic_Guns_from_communists
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = yes
@@ -174,15 +174,15 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = -0.015
 			add_stability = -0.015
-            add_to_variable = { 
-                var = SOV_separatism_DAG_value
-                value = -5 
-                tooltip = SOV_add_minus_5_to_separatism_tt
-            }
+			add_to_variable = { 
+				var = SOV_separatism_DAG_value
+				value = -5 
+				tooltip = SOV_add_minus_5_to_separatism_tt
+			}
 		}
 
 		ai_will_do = {
-		    factor = 10
+			factor = 10
 		}
 	}
 
@@ -191,17 +191,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_fund
 		
 		available = {	
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -212,9 +212,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_stability = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.05
-            }
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -227,17 +227,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_fund
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -248,9 +248,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_stability = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.05
-            }
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -263,17 +263,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_fund
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -284,9 +284,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_stability = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.05
-            }
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -299,17 +299,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_fund
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -320,9 +320,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_stability = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.05
-            }
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -335,17 +335,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_fund
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -356,9 +356,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_stability = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.05
-            }
+				ideology = communism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -371,17 +371,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_propaganda
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -392,9 +392,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.025
-            }
+				ideology = communism
+				popularity = 0.025
+			}
 		}
 		
 		ai_will_do = {
@@ -407,17 +407,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_propaganda
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -428,9 +428,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.025
-            }
+				ideology = communism
+				popularity = 0.025
+			}
 		}
 		
 		ai_will_do = {
@@ -443,17 +443,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_propaganda
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -464,9 +464,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.025
-            }
+				ideology = communism
+				popularity = 0.025
+			}
 		}
 		
 		ai_will_do = {
@@ -479,17 +479,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_propaganda
 		
 		available = {
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = no
@@ -500,9 +500,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.025
-            }
+				ideology = communism
+				popularity = 0.025
+			}
 		}
 		
 		ai_will_do = {
@@ -515,17 +515,17 @@ RAS_soviet_separatism_decision = {
 		icon = GFX_decision_generic_propaganda
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			NOT = {
-			    has_global_flag = USSR_Colapsed
-		    }			
+				has_global_flag = USSR_Colapsed
+			}
 		}
 		
 		fire_only_once = yes
@@ -536,9 +536,9 @@ RAS_soviet_separatism_decision = {
 		complete_effect = {
 			add_war_support = 0.025
 			add_popularity = {
-                ideology = communism
-                popularity = 0.025
-            }
+				ideology = communism
+				popularity = 0.025
+			}
 		}
 
 		ai_will_do = {
@@ -553,7 +553,7 @@ RAS_soviet_separatism_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 124
-        
+		
 		#Fail trigger
 		available = {
 			has_global_flag = USSR_Colapsed
@@ -569,7 +569,7 @@ RAS_soviet_separatism_decision = {
 
 		timeout_effect = {
 			complete_national_focus = RAS_end_of_the_ussr
-	    }
+		}
 	}
 }
 
@@ -578,13 +578,13 @@ RAS_preparing_for_war_decision = {
 	RAS_prepare_for_airborne_landing_at_grozny_airport = {
 
 		icon = GFX_decision_generic_soldier
-        cost = 15
+		cost = 15
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_completed_focus = RAS_additional_aviation
@@ -592,7 +592,7 @@ RAS_preparing_for_war_decision = {
 		}
 
 		complete_effect = {
-            set_country_flag = VDVLanding_at_Grozny_Airport_Prepared
+			set_country_flag = VDVLanding_at_Grozny_Airport_Prepared
 			custom_effect_tooltip = 20_RAS_tt
 		}
 
@@ -604,13 +604,13 @@ RAS_preparing_for_war_decision = {
 	RAS_support_chechen_opposition = {
 
 		icon = GFX_decision_generic_soldier
-        cost = 35
+		cost = 35
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_completed_focus = RAS_support_chechen_opposition
@@ -621,9 +621,9 @@ RAS_preparing_for_war_decision = {
 				add_stability = 0.025
 				army_experience = 25
 				add_equipment_to_stockpile = { 
-				    type = infantry_equipment_1 
-			 	    amount = 750
-			    }
+					type = infantry_equipment_1 
+			 		amount = 750
+				}
 			}
 		}
 
@@ -635,20 +635,20 @@ RAS_preparing_for_war_decision = {
 
 RAS_first_chechen_war_decision = {
 
-    RAS_failed_blitzkrieg_decision = {
+	RAS_failed_blitzkrieg_decision = {
 
 		icon = GFX_decision_generic_soldier
 		is_good = no
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 35
-        
+		
 		#Fail trigger
 		available = {
 			CHE = { 
 				NOT = {
 					controls_state = 20
-			        controls_state = 21
+					controls_state = 21
 					controls_state = 11
 					controls_state = 128
 					controls_state = 16
@@ -672,10 +672,10 @@ RAS_first_chechen_war_decision = {
 			country_event = russia.6
 			hidden_effect = {
 				CHE = {
-                    country_event = { id = chechnya.9 }
-                } 
+					country_event = { id = chechnya.9 }
+				}
 			}
-	    }
+		}
 
 		highlight_states = {
 			highlight_state_targets = {
@@ -747,58 +747,58 @@ RAS_first_chechen_war_decision = {
 	}
 
 	RAS_send_airport_reinforcements = {
-	    icon = GFX_decision_generic_soldier
-	    cost = 15
-	    fire_only_once = yes
+		icon = GFX_decision_generic_soldier
+		cost = 15
+		fire_only_once = yes
 
-	    visible = {
-		    has_country_flag = RAS_airport_reinforcements_unlocked
-	    }
+		visible = {
+			has_country_flag = RAS_airport_reinforcements_unlocked
+		}
 
-	    available = {
-		    controls_state = 111
-	    }
+		available = {
+			controls_state = 111
+		}
 
-	    complete_effect = {
-		    clr_country_flag = RAS_airport_reinforcements_unlocked
-		    load_oob = RAS_VDV_landing_in_grozny_2
-        }
+		complete_effect = {
+			clr_country_flag = RAS_airport_reinforcements_unlocked
+			load_oob = RAS_VDV_landing_in_grozny_2
+		}
 
-        ai_will_do = {
-            factor = 10
-        }
+		ai_will_do = {
+			factor = 10
+		}
 
-	    highlight_states = {
-		    highlight_state_targets = {
-			    state = 111
-		    }
-		    highlight_color_while_active = 3
-		    highlight_color_before_active = 2
-        }
-    }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 111
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+	}
 
-    RAS_send_VDV_to_Samashki = {
-        icon = GFX_decision_generic_soldier
-        cost = 10
-        fire_only_once = yes
+	RAS_send_VDV_to_Samashki = {
+		icon = GFX_decision_generic_soldier
+		cost = 10
+		fire_only_once = yes
 
-        visible = {
-            has_country_flag = RAS_samashki_vdv_unlocked
-        }
+		visible = {
+			has_country_flag = RAS_samashki_vdv_unlocked
+		}
 
-        available = {
-            controls_state = 111
-        }
+		available = {
+			controls_state = 111
+		}
 
-        complete_effect = {
-            clr_country_flag = RAS_samashki_vdv_unlocked
-            load_oob = RAS_VDV_hankala
-        }
+		complete_effect = {
+			clr_country_flag = RAS_samashki_vdv_unlocked
+			load_oob = RAS_VDV_hankala
+		}
 
-        ai_will_do = {
-            factor = 10
-        }
-    }
+		ai_will_do = {
+			factor = 10
+		}
+	}
 
 
 	RAS_take_Grozny = {
@@ -808,15 +808,15 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 35
-        
+		
 		#Fail trigger
 		available = {
 			NOT = {
-			    CHE = { 
-				    controls_state = 21
-			        controls_state = 20
-			    }
-		    }
+				CHE = { 
+					controls_state = 21
+					controls_state = 20
+				}
+			}
 		}
 
 		activation = {
@@ -833,7 +833,7 @@ RAS_first_chechen_war_decision = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_political_power = 55
-	    }
+		}
 
 		highlight_states = {
 			highlight_state_targets = {
@@ -852,13 +852,13 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+		
 		#Fail trigger
 		available = {
 			NOT = {
-			    CHE = { 
-				    controls_province = 10670
-			    }
+				CHE = { 
+					controls_province = 10670
+				}
 			}
 		}
 
@@ -876,11 +876,11 @@ RAS_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.015
 			add_political_power = 25
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 10670 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 10670 }
+		}
 	}
 
 	RAS_take_Gudermes = {
@@ -890,13 +890,13 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+		
 		#Fail trigger
 		available = {
 			NOT = {
-			    CHE = { 
-				    controls_province = 7335
-			    }
+				CHE = { 
+					controls_province = 7335
+				}
 			}
 		}
 
@@ -914,11 +914,11 @@ RAS_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.01
 			add_political_power = 35
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 7335 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 7335 }
+		}
 	}
 
 	RAS_take_UrusMartan = {
@@ -928,14 +928,14 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+		
 		#Fail trigger
 		available = {
 			NOT = {
-			    CHE = { 
-				    controls_province = 5606
-			    }
-		    }
+				CHE = { 
+					controls_province = 5606
+				}
+			}
 		}
 
 		activation = {
@@ -952,11 +952,11 @@ RAS_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.01
 			add_political_power = 15
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 5606 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 5606 }
+		}
 	}
 
 	RAS_take_Argun = {
@@ -966,13 +966,13 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+		
 		#Fail trigger
 		available = {
 			NOT = { 
-			    CHE = { 
-				    controls_province = 6744
-			    }
+				CHE = { 
+					controls_province = 6744
+				}
 			}
 		}
 
@@ -990,27 +990,27 @@ RAS_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.01
 			add_political_power = 35
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 6744 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 6744 }
+		}
 	}
 
 	RAS_additional_supplies_to_the_front = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 55
+		cost = 55
 		fire_only_once = no
 		days_re_enable = 30	
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_reorganize_our_frontline
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1018,7 +1018,7 @@ RAS_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-		    add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 1750
 			}
@@ -1041,16 +1041,16 @@ RAS_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 45
+		cost = 45
 		fire_only_once = no
 		days_re_enable = 30
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_reorganize_our_frontline
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1058,10 +1058,10 @@ RAS_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = towed_artillery_equipment_1 
 				amount = 75 
-			}	
+			}
 			add_equipment_to_stockpile = { 
 				type = mortar_equipment_1 
 				amount = 35 
@@ -1082,16 +1082,16 @@ RAS_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 50
+		cost = 50
 		fire_only_once = no
 		days_re_enable = 30
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_additional_shipments_to_the_cto_zone
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1099,7 +1099,7 @@ RAS_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            add_manpower = 2500	
+			add_manpower = 2500	
 		}
 
 		ai_will_do = {
@@ -1110,15 +1110,15 @@ RAS_first_chechen_war_decision = {
 	RAS_conduct_sharoi_cleanups = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 185
+		cost = 185
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1127,7 +1127,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			124 = {
-                remove_dynamic_modifier = { modifier = RAS_chechen_mountains }
+				remove_dynamic_modifier = { modifier = RAS_chechen_mountains }
 			}
 		}
 
@@ -1147,15 +1147,15 @@ RAS_first_chechen_war_decision = {
 	RAS_conduct_itum_calinsky_cleanups = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 195
+		cost = 195
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1164,7 +1164,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			125 = {
-                remove_dynamic_modifier = { modifier = RAS_chechen_mountains }
+				remove_dynamic_modifier = { modifier = RAS_chechen_mountains }
 			}
 		}
 
@@ -1184,15 +1184,15 @@ RAS_first_chechen_war_decision = {
 	RAS_conduct_shatoysky_cleanups = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 205
+		cost = 205
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1201,7 +1201,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			130 = {
-                remove_dynamic_modifier = { modifier = RAS_chechen_mountains }
+				remove_dynamic_modifier = { modifier = RAS_chechen_mountains }
 			}
 		}
 
@@ -1221,14 +1221,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_northern_chechnya_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 35
+		cost = 35
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 11
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1237,7 +1237,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			11 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1257,14 +1257,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_nadterechny_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 35
+		cost = 35
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 131
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1273,7 +1273,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			131 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1288,19 +1288,19 @@ RAS_first_chechen_war_decision = {
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
 		}
-	}	
+	}
 
 	RAS_mvd_conduct_groznensky_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 15
+		cost = 15
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 128
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1309,7 +1309,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			128 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 			hidden_effect = {
 				country_event = {
@@ -1335,14 +1335,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_argun_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 45
+		cost = 45
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 134
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1351,7 +1351,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			134 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1371,14 +1371,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_kurchalovo_gudemersky_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 55
+		cost = 55
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 16
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1387,7 +1387,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			16 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1402,19 +1402,19 @@ RAS_first_chechen_war_decision = {
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
 		}
-	}	
+	}
 
 	RAS_mvd_conduct_shali_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 55
+		cost = 55
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 133
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1423,7 +1423,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			133 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1438,19 +1438,19 @@ RAS_first_chechen_war_decision = {
 			highlight_color_while_active = 3
 			highlight_color_before_active = 2
 		}
-	}	
+	}
 
 	RAS_mvd_conduct_urus_martanovsky_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 55
+		cost = 55
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 132
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1459,7 +1459,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			132 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1479,14 +1479,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_martanovsky_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 55
+		cost = 55
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 126
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1495,7 +1495,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			126 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1515,14 +1515,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_shatoy_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 55
+		cost = 55
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 130
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1531,7 +1531,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			130 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1551,14 +1551,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_itum_kalinsky_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 55
+		cost = 55
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 125
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1567,7 +1567,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			125 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1587,14 +1587,14 @@ RAS_first_chechen_war_decision = {
 	RAS_mvd_conduct_shatoy_district_cleanups = {
 
 		icon = GFX_decision_BTR
-        cost = 55
+		cost = 55
 		fire_only_once = yes
 		
 		available = {		
 			has_global_flag = FirstChechenWar
 			controls_state = 124
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1603,7 +1603,7 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			124 = {
-                remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
+				remove_dynamic_modifier = { modifier = CHE_chechen_insurgency }
 			}
 		}
 
@@ -1620,20 +1620,16 @@ RAS_first_chechen_war_decision = {
 		}
 	}
 
-
-
-	
-
 	RAS_improve_logistic = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 90
+		cost = 90
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1641,10 +1637,10 @@ RAS_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            add_timed_idea = {
-                idea = RAS_improved_logistic
-                days = 225
-            }
+			add_timed_idea = {
+				idea = RAS_improved_logistic
+				days = 225
+			}
 			add_equipment_to_stockpile = {
 				type = train_equipment_1
 				amount = 55
@@ -1663,23 +1659,23 @@ RAS_first_chechen_war_decision = {
 	RAS_take_tough_measures = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 250
+		cost = 250
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_country_flag = TheWarDraggedOn
 			casualties_k > 55
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
 		}
 
 		complete_effect = {
-            set_country_flag = TakeToughMeasures
+			set_country_flag = TakeToughMeasures
 			custom_effect_tooltip = 17_RAS_tt
 		}
 
@@ -1691,15 +1687,15 @@ RAS_first_chechen_war_decision = {
 	RAS_nuclear_strike_on_chechnya = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 175
+		cost = 175
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			casualties_k > 120
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1707,7 +1703,7 @@ RAS_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            custom_effect_tooltip = 18_RAS_tt
+			custom_effect_tooltip = 18_RAS_tt
 		}
 
 		ai_will_do = {
@@ -1718,15 +1714,15 @@ RAS_first_chechen_war_decision = {
 	RAS_begin_partial_mobilization = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 175
+		cost = 175
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			casualties_k > 120
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1734,7 +1730,7 @@ RAS_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            custom_effect_tooltip = 18_RAS_tt
+			custom_effect_tooltip = 18_RAS_tt
 			load_oob = RAS_infantry_battalions_first_chechen_war
 			load_oob = RAS_infantry_battalions_first_chechen_war
 		}
@@ -1751,14 +1747,14 @@ RAS_special_services_decision = {
 	RAS_start_operations_wolf_hunting = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 50
+		cost = 50
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = SecondChechenWar
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = SecondChechenWar
@@ -1766,7 +1762,7 @@ RAS_special_services_decision = {
 
 		complete_effect = {
 			custom_effect_tooltip = 8_RAS_tt
-            add_war_support = 0.075
+			add_war_support = 0.075
 		}
 
 		ai_will_do = {
@@ -1777,18 +1773,18 @@ RAS_special_services_decision = {
 	RAS_strengthen_the_patrol_of_awacs_aircraft = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 50
+		cost = 50
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_strengthen_awacs_reconnaissance
 			NOT = {
 				has_idea = RAS_awacs_reconnaissance
 			}
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1796,10 +1792,10 @@ RAS_special_services_decision = {
 		}
 
 		complete_effect = {
-            air_experience = 25
+			air_experience = 25
 			add_timed_idea = {
-                idea = RAS_awacs_reconnaissance
-                days = 125
+				idea = RAS_awacs_reconnaissance
+				days = 125
 			}
 			custom_effect_tooltip = 9_RAS_tt
 			hidden_effect = {
@@ -1815,17 +1811,17 @@ RAS_special_services_decision = {
 	RAS_liquidation_of_dudayev = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 75
+		cost = 75
 		fire_only_once = no
 		days_re_enable = 65
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_liquidation_of_the_main_terrorist
 			has_country_flag = EnhancedAWACSreconnaissance
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1837,20 +1833,20 @@ RAS_special_services_decision = {
 
 		complete_effect = {
 			random_list = {
-                60 = {
-                    CHE = {
-                        country_event = chechnya.13
+				60 = {
+					CHE = {
+						country_event = chechnya.13
 					}
 					add_war_support = 0.075
 					add_political_power = 35
-                }
-                40 = {
-                    CHE = {
-                        country_event = chechnya.14
+				}
+				40 = {
+					CHE = {
+						country_event = chechnya.14
 					}
 					country_event = russia.14
-                }
-            }
+				}
+			}
 			hidden_effect = {
 				CHE = {
 					country_event = 1
@@ -1870,15 +1866,15 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 	RAS_find_communication_channels_with_chechnya = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 25
+		cost = 25
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1886,19 +1882,19 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            add_stability = 0.05
+			add_stability = 0.05
 			add_to_variable = {
-                var = RAS_negotiation_process_fcw_value
-                value = 10
-                tooltip = add_10_to_negotation_progress_fcw_tt
-            }
+				var = RAS_negotiation_process_fcw_value
+				value = 10
+				tooltip = add_10_to_negotation_progress_fcw_tt
+			}
 			set_country_flag = FoundChannelWithChechnya
 			hidden_effect = {
 				clamp_variable = {
-				    var = RAS_negotiation_process_fcw_value
-				    min = 0
-				    max = 100
-			    }
+					var = RAS_negotiation_process_fcw_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
 						var = RAS_negotiation_process_fcw_value
@@ -1906,10 +1902,10 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 						tooltip = add_20_to_negotation_progress_fcw_tt
 					}
 					clamp_variable = {
-				        var = RAS_negotiation_process_fcw_value
-				        min = 0
-				        max = 100
-			        }
+						var = RAS_negotiation_process_fcw_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -1922,15 +1918,15 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 	RAS_meeting_of_delegations_of_countries = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 25
+		cost = 25
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1939,20 +1935,20 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            add_stability = 0.05
+			add_stability = 0.05
 			add_to_variable = {
-                var = RAS_negotiation_process_fcw_value
-                value = 20
-                tooltip = add_20_to_negotation_progress_fcw_tt
-            }
+				var = RAS_negotiation_process_fcw_value
+				value = 20
+				tooltip = add_20_to_negotation_progress_fcw_tt
+			}
 			clr_country_flag = FoundChannelWithChechnya
 			set_country_flag = NegotationRound2
 			hidden_effect = {
 				clamp_variable = {
-				    var = RAS_negotiation_process_fcw_value
-				    min = 0
-				    max = 100
-			    }
+					var = RAS_negotiation_process_fcw_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
 						var = RAS_negotiation_process_fcw_value
@@ -1960,10 +1956,10 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 						tooltip = add_20_to_negotation_progress_fcw_tt
 					}
 					clamp_variable = {
-				        var = RAS_negotiation_process_fcw_value
-				        min = 0
-				        max = 100
-			        }
+						var = RAS_negotiation_process_fcw_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -1976,15 +1972,15 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 	RAS_meeting_of_delegations_of_countries_2 = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 25
+		cost = 25
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -1993,20 +1989,20 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            add_stability = 0.05
+			add_stability = 0.05
 			add_to_variable = {
-                var = RAS_negotiation_process_fcw_value
-                value = 20
-                tooltip = add_20_to_negotation_progress_fcw_tt
-            }
+				var = RAS_negotiation_process_fcw_value
+				value = 20
+				tooltip = add_20_to_negotation_progress_fcw_tt
+			}
 			clr_country_flag = NegotationRound2
 			set_country_flag = RASCeaseFire
 			hidden_effect = {
 				clamp_variable = {
-				    var = RAS_negotiation_process_fcw_value
-				    min = 0
-				    max = 100
-			    }
+					var = RAS_negotiation_process_fcw_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
 						var = RAS_negotiation_process_fcw_value
@@ -2014,10 +2010,10 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 						tooltip = add_20_to_negotation_progress_fcw_tt
 					}
 					clamp_variable = {
-				        var = RAS_negotiation_process_fcw_value
-				        min = 0
-				        max = 100
-			        }
+						var = RAS_negotiation_process_fcw_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -2030,15 +2026,15 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 	RAS_cease_fire = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 25
+		cost = 25
 		fire_only_once = yes
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -2047,18 +2043,18 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-            add_stability = 0.05
+			add_stability = 0.05
 			add_to_variable = {
-                var = RAS_negotiation_process_fcw_value
-                value = 30
-                tooltip = add_20_to_negotation_progress_fcw_tt
-            }
+				var = RAS_negotiation_process_fcw_value
+				value = 30
+				tooltip = add_20_to_negotation_progress_fcw_tt
+			}
 			hidden_effect = {
 				clamp_variable = {
-				    var = RAS_negotiation_process_fcw_value
-				    min = 0
-				    max = 100
-			    }
+					var = RAS_negotiation_process_fcw_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
 						var = RAS_negotiation_process_fcw_value
@@ -2066,10 +2062,10 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 						tooltip = add_20_to_negotation_progress_fcw_tt
 					}
 					clamp_variable = {
-				        var = RAS_negotiation_process_fcw_value
-				        min = 0
-				        max = 100
-			        }
+						var = RAS_negotiation_process_fcw_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -2082,16 +2078,16 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 	RAS_propose_peace = {
 
 		icon = GFX_decision_generic_soldie
-        cost = 25
+		cost = 25
 		fire_only_once = no
 		days_re_enable = 50
 		
 		available = {		
-		    tag = RAS
+			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_yes_to_peace
 		}
-	    
+		
 		visible = {
 			tag = RAS
 			has_global_flag = FirstChechenWar
@@ -2100,14 +2096,14 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 
 		complete_effect = {
 			add_stability = 0.05
-            CHE = {
-                country_event = russia.13
+			CHE = {
+				country_event = russia.13
 			}
 		}
 
 		ai_will_do = {
 			factor = 175		
 		}
-	}	
+	}
 	
 }

@@ -9,9 +9,9 @@ technologies = {
 		}
 
 		enable_subunits = {
-            motorized_rocket_brigade
-            rocket_artillery_brigade
-        }
+			motorized_rocket_brigade
+			rocket_artillery_brigade
+		}
 
 		path = {
 			leads_to_tech = reactive_artillery_1

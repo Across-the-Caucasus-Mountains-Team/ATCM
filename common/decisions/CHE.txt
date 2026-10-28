@@ -1,19 +1,18 @@
-
 CHE_first_chechen_war_decision = {
 
-    CHE_hold_Grozny = {
+	CHE_hold_Grozny = {
 
 		icon = GFX_decision_generic_soldier
 		is_good = yes
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 35
-        
+
 		#Fail trigger
 		available = {
 			RAS = { 
 				controls_state = 21
-			    controls_state = 20
+				controls_state = 20
 			}
 		}
 
@@ -30,7 +29,7 @@ CHE_first_chechen_war_decision = {
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_manpower = 1500
-	    }
+		}
 
 		highlight_states = {
 			highlight_state_targets = {
@@ -49,7 +48,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+		
 		#Fail trigger
 		available = {
 			RAS = { 
@@ -70,11 +69,11 @@ CHE_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.015
 			add_manpower = 350
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 10670 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 10670 }
+		}
 	}
 
 	CHE_hold_Gudermes = {
@@ -84,10 +83,10 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+
 		#Fail trigger
 		available = {
-			RAS = { 
+			RAS = {
 				controls_province = 7335
 			}
 		}
@@ -105,11 +104,11 @@ CHE_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.01
 			add_manpower = 250
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 7335 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 7335 }
+		}
 	}
 
 	CHE_hold_UrusMartan = {
@@ -119,7 +118,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+		
 		#Fail trigger
 		available = {
 			RAS = { 
@@ -140,11 +139,11 @@ CHE_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.01
 			add_manpower = 150
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 5606 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 5606 }
+		}
 	}
 
 	CHE_hold_Argun = {
@@ -154,7 +153,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-        
+		
 		#Fail trigger
 		available = {
 			RAS = { 
@@ -175,25 +174,25 @@ CHE_first_chechen_war_decision = {
 			add_stability = 0.025
 			add_war_support = 0.01
 			add_manpower = 150
-	    }
+		}
 
-        highlight_states = { 
-            highlight_provinces = { 6744 }
-        }
+		highlight_states = { 
+			highlight_provinces = { 6744 }
+		}
 	}
 
 	CHE_mobilize_additional_forces_in_Grozny = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
-		
-		available = {		
-		    tag = CHE
+
+		available = {
+			tag = CHE
 			has_global_flag = FirstChechenWar
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -212,21 +211,21 @@ CHE_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_global_flag = FirstChechenWar
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
 		}
 
 		complete_effect = {
-		    add_equipment_to_stockpile = {
+			add_equipment_to_stockpile = {
 				type = infantry_equipment_0
 				amount = 1500
 			}
@@ -281,14 +280,14 @@ CHE_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_global_flag = FirstChechenWar
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -297,25 +296,25 @@ CHE_first_chechen_war_decision = {
 
 		complete_effect = {
 			random_list = {
-                10 = {
-		            add_equipment_to_stockpile = { 
-				        type = modern_tank_equipment_1 
-				        amount = 15
-			        }	
-                }
 				10 = {
-		            add_equipment_to_stockpile = { 
-				        type = modern_tank_equipment_1 
-				        amount = 8
-			        }	
-                }
+					add_equipment_to_stockpile = { 
+						type = modern_tank_equipment_1 
+						amount = 15
+					}
+				}
 				10 = {
-		            add_equipment_to_stockpile = { 
-				        type = modern_tank_equipment_1 
-				        amount = 5
-			        }	
-                }
-            }
+					add_equipment_to_stockpile = { 
+						type = modern_tank_equipment_1 
+						amount = 8
+					}
+				}
+				10 = {
+					add_equipment_to_stockpile = { 
+						type = modern_tank_equipment_1 
+						amount = 5
+					}
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -327,14 +326,14 @@ CHE_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_global_flag = FirstChechenWar
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -342,7 +341,7 @@ CHE_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-		    add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = modern_tank_equipment_1 
 				amount = 3
 			}
@@ -357,11 +356,11 @@ CHE_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 35
+		cost = 35
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			RAS = {
 				controls_state = 21
 			}
@@ -369,7 +368,7 @@ CHE_first_chechen_war_decision = {
 				controls_state = 20
 			}
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -390,11 +389,11 @@ CHE_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			RAS = {
 				controls_state = 21
 			}
@@ -402,7 +401,7 @@ CHE_first_chechen_war_decision = {
 				controls_state = 20
 			}
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -438,16 +437,16 @@ CHE_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			RAS = {
 				controls_state = 11
 			}
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -483,8 +482,8 @@ CHE_first_chechen_war_decision = {
 		available = {
 			OR = { 
 				NOT = {
-			        has_global_flag = FirstChechenWar 
-			    }	
+					has_global_flag = FirstChechenWar 
+				}
 			}
 		}
 		
@@ -501,41 +500,41 @@ CHE_first_chechen_war_decision = {
 		timeout_effect = {
 			activate_mission = CHE_monthly_weapon_supplies
 			random_list = {
-                10 = {
-			        add_equipment_to_stockpile = { 
-				        type = infantry_equipment_1 
-				        amount = 150
-			        } 	
-                }
-                10 = {
-			        add_equipment_to_stockpile = { 
-				        type = infantry_equipment_1 
-				        amount = 250
-			        } 
-                }
-                5 = {
-			        add_equipment_to_stockpile = { 
-				        type = modern_tank_equipment_1 
-				        amount = 1
-			        }
-                }
-                10 = {
-			        add_equipment_to_stockpile = { 
-				        type = atgm_equipment 
-				        amount = 10
-			        }
-                }
 				10 = {
-                    add_manpower = 150
-                }
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment_1 
+						amount = 150
+					}
+				}
 				10 = {
-                    custom_effect_tooltip = cash_balance_plus_5_tt
-			        add_to_variable = {
-				        var = cash
-				        value = 5
-			        }
-                }
-            }
+					add_equipment_to_stockpile = { 
+						type = infantry_equipment_1 
+						amount = 250
+					}
+				}
+				5 = {
+					add_equipment_to_stockpile = { 
+						type = modern_tank_equipment_1 
+						amount = 1
+					}
+				}
+				10 = {
+					add_equipment_to_stockpile = { 
+						type = atgm_equipment 
+						amount = 10
+					}
+				}
+				10 = {
+					add_manpower = 150
+				}
+				10 = {
+					custom_effect_tooltip = cash_balance_plus_5_tt
+					add_to_variable = {
+						var = cash
+						value = 5
+					}
+				}
+			}
 		}
 		
 		complete_effect = {
@@ -547,14 +546,14 @@ CHE_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 150
+		cost = 150
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_global_flag = FirstChechenWar
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -565,7 +564,7 @@ CHE_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-		    custom_effect_tooltip = 8_CHE_tt
+			custom_effect_tooltip = 8_CHE_tt
 			set_global_flag = DudayevsSecurityStrengthened
 		}
 
@@ -581,15 +580,15 @@ CHE_general_staff_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_global_flag = FirstChechenWar
 			has_completed_focus = CHE_start_operation_of_jihad
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -598,10 +597,10 @@ CHE_general_staff_decision = {
 
 		complete_effect = {
 			add_timed_idea = {
-                idea = CHE_operation_jihad_idea
-                days = 90
-            }
-		    add_equipment_to_stockpile = { 
+				idea = CHE_operation_jihad_idea
+				days = 90
+			}
+			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 500
 			}
@@ -620,13 +619,13 @@ CHE_general_staff_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 45
-        
+		
 		#Fail trigger
 		available = {
 			NOT = { 
 				RAS = {
-                    controls_state = 21
-			        controls_state = 20
+					controls_state = 21
+					controls_state = 20
 				}
 			}
 		}
@@ -643,7 +642,7 @@ CHE_general_staff_decision = {
 		timeout_effect = {
 			add_stability = 0.035
 			add_war_support = 0.015
-	    }
+		}
 
 		highlight_states = {
 			highlight_state_targets = {
@@ -665,15 +664,15 @@ CHE_operations_outside_of_chechnya_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 35
+		cost = 35
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_global_flag = FirstChechenWar
 			has_completed_focus = CHE_preapare_operation_in_budenovsk
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -682,7 +681,7 @@ CHE_operations_outside_of_chechnya_decision = {
 
 		complete_effect = {
 			country_event = chechnya.55
-            add_manpower = -160
+			add_manpower = -160
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = -160 
@@ -698,15 +697,15 @@ CHE_operations_outside_of_chechnya_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 35
+		cost = 35
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_global_flag = FirstChechenWar
 			date > 1995.10.12
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_global_flag = FirstChechenWar
@@ -715,7 +714,7 @@ CHE_operations_outside_of_chechnya_decision = {
 
 		complete_effect = {
 			country_event = chechnya.61
-            add_manpower = -240
+			add_manpower = -240
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = -240
@@ -742,7 +741,7 @@ CHE_elections_1991_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 25
-        
+		
 		#Fail trigger
 		available = {
 			NOT = {
@@ -760,93 +759,93 @@ CHE_elections_1991_decision = {
 				limit = {
 					has_country_flag = CHEIslamicRadicalismElections1991
 					check_variable = {
-                        var = CHE_islamic_radicalism_value
-                        value = CHE_dudayev_support_value
-                        compare = greater_than_or_equals
-                    }
+						var = CHE_islamic_radicalism_value
+						value = CHE_dudayev_support_value
+						compare = greater_than_or_equals
+					}
 				}
 				country_event = chechnya.15
 				set_politics = { 
-			        ruling_party = islam
-			        elections_allowed = no
-		        }
-		        add_popularity = {
-			        ideology = islam
-			        popularity = 0.05
-		        }
+					ruling_party = islam
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = islam
+					popularity = 0.05
+				}
 			}
 			if = {
 				limit = {
 					has_country_flag = CHEIslamicRadicalismElections1991
 					check_variable = {
-                        var = CHE_islamic_radicalism_value
-                        value = CHE_dudayev_support_value
-                        compare = less_than
-                    }
+						var = CHE_islamic_radicalism_value
+						value = CHE_dudayev_support_value
+						compare = less_than
+					}
 				}
 				country_event = chechnya.16
 				set_politics = { 
-			        ruling_party = nationalism
-			        elections_allowed = no
-		        }
-		        add_popularity = {
-			        ideology = nationalism
-			        popularity = 0.05
-		        }
+					ruling_party = nationalism
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = nationalism
+					popularity = 0.05
+				}
 			}
 			if = {
 				limit = {
 					has_country_flag = CHESupportDudayev
 					check_variable = {
-                        var = CHE_dudayev_support_value
-                        value = CHE_islamic_radicalism_value
-                        compare = greater_than_or_equals
-                    }
+						var = CHE_dudayev_support_value
+						value = CHE_islamic_radicalism_value
+						compare = greater_than_or_equals
+					}
 				}
 				country_event = chechnya.16
 				set_politics = { 
-			        ruling_party = nationalism
-			        elections_allowed = no
-		        }
-		        add_popularity = {
-			        ideology = nationalism
-			        popularity = 0.05
-		        } 
+					ruling_party = nationalism
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = nationalism
+					popularity = 0.05
+				}
 			}
 			if = {
 				limit = {
 					has_country_flag = CHESupportDudayev
 					check_variable = {
-                        var = CHE_dudayev_support_value
-                        value = CHE_islamic_radicalism_value
-                        compare = less_than
-                    }
+						var = CHE_dudayev_support_value
+						value = CHE_islamic_radicalism_value
+						compare = less_than
+					}
 				}
-			    country_event = chechnya.15
+				country_event = chechnya.15
 				set_politics = { 
-			        ruling_party = islam
-			        elections_allowed = no
-		        }
-		        add_popularity = {
-			        ideology = islam
-			        popularity = 0.05
-		        }
+					ruling_party = islam
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = islam
+					popularity = 0.05
+				}
 			}
-	    }
+		}
 	}
 
 	CHE_support_dudayev_decision = {
 
 		icon = GFX_decision_generic_soldier
 
-        cost = 50
+		cost = 50
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_country_flag = CHE_Elections_1991
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_country_flag = CHE_Elections_1991
@@ -856,12 +855,12 @@ CHE_elections_1991_decision = {
 		}
 
 		complete_effect = {
-            add_popularity = {ideology = Nationalism Popularity = 0.075}
+			add_popularity = {ideology = Nationalism popularity = 0.075}
 			add_to_variable = {
-                var = CHE_dudayev_support_value
-                value = 10
-                tooltip = add_dudayev_support_to_var_tt
-            }
+				var = CHE_dudayev_support_value
+				value = 10
+				tooltip = add_dudayev_support_to_var_tt
+			}
 		}
 
 		ai_will_do = {
@@ -869,7 +868,7 @@ CHE_elections_1991_decision = {
 			modifier = {
 				is_historical_focus_on = yes 
 				add = 45
-			}			
+			}
 		}
 	}
 
@@ -877,14 +876,14 @@ CHE_elections_1991_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 50
+		cost = 50
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_country_flag = CHE_Elections_1991
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_country_flag = CHE_Elections_1991
@@ -894,16 +893,16 @@ CHE_elections_1991_decision = {
 		}
 
 		complete_effect = {
-            add_popularity = {ideology = islam Popularity = 0.15}
+			add_popularity = {ideology = islam popularity = 0.15}
 			add_to_variable = {
-                var = CHE_islamic_radicalism_value
-                value = 20
-                tooltip = add_incersace_islamic_radicalism_to_var_tt
-            }
+				var = CHE_islamic_radicalism_value
+				value = 20
+				tooltip = add_incersace_islamic_radicalism_to_var_tt
+			}
 			subtract_from_variable = {
-                var = CHE_dudayev_support_value
-                value = 20
-                tooltip = add_basayev_support_to_var_tt #TODO
+				var = CHE_dudayev_support_value
+				value = 20
+				tooltip = add_basayev_support_to_var_tt #TODO
 			}
 		}
 
@@ -913,11 +912,11 @@ CHE_elections_1991_decision = {
 			modifier = {
 				is_historical_focus_on = yes 
 				add = -35
-			}	
+			}
 			modifier = {
 				is_historical_focus_on = no 
 				add = 25
-			}	
+			}
 		}
 	}
 
@@ -925,14 +924,14 @@ CHE_elections_1991_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 50
+		cost = 50
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			has_country_flag = CHE_Elections_1991
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_country_flag = CHE_Elections_1991
@@ -943,12 +942,12 @@ CHE_elections_1991_decision = {
 		}
 
 		complete_effect = {
-            add_popularity = {ideology = islam Popularity = 0.15}
+			add_popularity = {ideology = islam popularity = 0.15}
 			add_to_variable = {
-                var = CHE_islamic_radicalism_value
-                value = 20
-                tooltip = add_incersace_islamic_radicalism_to_var_tt
-            }
+				var = CHE_islamic_radicalism_value
+				value = 20
+				tooltip = add_incersace_islamic_radicalism_to_var_tt
+			}
 			set_country_flag = CHEIslamicRadicalismElections1991
 		}
 
@@ -958,11 +957,11 @@ CHE_elections_1991_decision = {
 			modifier = {
 				is_historical_focus_on = yes 
 				add = -35
-			}	
+			}
 			modifier = {
 				is_historical_focus_on = no 
 				add = 25
-			}	
+			}
 		}
 	}
 
@@ -974,18 +973,18 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 50
+		cost = 50
 		fire_only_once = no
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			check_variable = {
-                var = CHE_power_of_opposition_value
-                value = 35
-                compare = greater_than_or_equals
-            }
+				var = CHE_power_of_opposition_value
+				value = 35
+				compare = greater_than_or_equals
+			}
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_completed_focus = CHE_build_secular_state
@@ -995,12 +994,12 @@ CHE_stability_of_republic_decision = {
 		}
 
 		complete_effect = {
-		    add_stability = 0.025
+			add_stability = 0.025
 			subtract_from_variable = {
-                var = CHE_power_of_opposition_value
-                value = 5
-                tooltip = sub_5_from_power_of_opposition_chechnya_tt
-            }
+				var = CHE_power_of_opposition_value
+				value = 5
+				tooltip = sub_5_from_power_of_opposition_chechnya_tt
+			}
 		}
 
 		ai_will_do = {
@@ -1012,18 +1011,18 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 25
+		cost = 25
 		fire_only_once = no
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			check_variable = {
-                var = CHE_power_of_opposition_value
-                value = 35
-                compare = greater_than_or_equals
-            }
+				var = CHE_power_of_opposition_value
+				value = 35
+				compare = greater_than_or_equals
+			}
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_completed_focus = CHE_build_secular_state
@@ -1033,13 +1032,13 @@ CHE_stability_of_republic_decision = {
 		}
 
 		complete_effect = {
-		    add_stability = -0.025
+			add_stability = -0.025
 			add_manpower = -5
 			subtract_from_variable = {
-                var = CHE_power_of_opposition_value
-                value = 5
-                tooltip = sub_5_from_power_of_opposition_chechnya_tt
-            }
+				var = CHE_power_of_opposition_value
+				value = 5
+				tooltip = sub_5_from_power_of_opposition_chechnya_tt
+			}
 		}
 
 		ai_will_do = {
@@ -1051,18 +1050,18 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = no
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 			check_variable = {
-                var = CHE_power_of_opposition_value
-                value = 35
-                compare = greater_than_or_equals
-            }
+				var = CHE_power_of_opposition_value
+				value = 35
+				compare = greater_than_or_equals
+			}
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_completed_focus = CHE_build_secular_state
@@ -1073,10 +1072,10 @@ CHE_stability_of_republic_decision = {
 
 		complete_effect = {
 			subtract_from_variable = {
-                var = CHE_power_of_opposition_value
-                value = 5
-                tooltip = sub_5_from_power_of_opposition_chechnya_tt
-            }
+				var = CHE_power_of_opposition_value
+				value = 5
+				tooltip = sub_5_from_power_of_opposition_chechnya_tt
+			}
 			custom_effect_tooltip = cash_balance_minus_65_tt
 			subtract_from_variable = {
 				var = cash
@@ -1098,9 +1097,9 @@ CHE_stability_of_republic_decision = {
 		available = {
 			OR = { 
 				NOT = {
-			        has_country_flag = CHE_dudayev_dicatorship
-			    }
-			    has_country_flag = CHEChechenOppositionUprising		
+					has_country_flag = CHE_dudayev_dicatorship
+				}
+				has_country_flag = CHEChechenOppositionUprising		
 			}
 		}
 		
@@ -1110,10 +1109,10 @@ CHE_stability_of_republic_decision = {
 			always = no
 			NOT = {
 				check_variable = {
-				    var = CHE_power_of_opposition_value
-				    value = 100
-				    compare = greater_than_or_equals
-			    }
+					var = CHE_power_of_opposition_value
+					value = 100
+					compare = greater_than_or_equals
+				}
 			}
 		}
 		
@@ -1125,46 +1124,46 @@ CHE_stability_of_republic_decision = {
 			activate_mission = CHE_weekly_power_of_opposition_value
 			custom_effect_tooltip = add_CHE_opposition_power_to_var_tt
 			hidden_effect = {
-			    random_list = {
-                    10 = {
-                        add_to_variable = {
-                           var = CHE_power_of_opposition_value
-                            value = 3
-                        }
-                    } 
-                    10 = {
-                        add_to_variable = {
-                            var = CHE_power_of_opposition_value
-                            value = 2.5
-                        }
+				random_list = {
+					10 = {
+						add_to_variable = {
+						   var = CHE_power_of_opposition_value
+							value = 3
+						}
+					}
+					10 = {
+						add_to_variable = {
+							var = CHE_power_of_opposition_value
+							value = 2.5
+						}
 						add_stability = -0.025
-                    }
-                    5 = {
-                        add_to_variable = {
-                            var = CHE_power_of_opposition_value
-                            value = 3.5
-                        }
+					}
+					5 = {
+						add_to_variable = {
+							var = CHE_power_of_opposition_value
+							value = 3.5
+						}
 						add_stability = -0.035
-                    }
-                    10 = {
-                        add_to_variable = {
-                            var = CHE_power_of_opposition_value
-                            value = 2
-                        }
-                    }
-				    15 = {
-                        add_to_variable = {
-                            var = CHE_power_of_opposition_value
-                            value = 1
-                        }
-                    }
-                }	
+					}
+					10 = {
+						add_to_variable = {
+							var = CHE_power_of_opposition_value
+							value = 2
+						}
+					}
+					15 = {
+						add_to_variable = {
+							var = CHE_power_of_opposition_value
+							value = 1
+						}
+					}
+				}
 			}
 			clamp_variable = {
-                var = CHE_power_of_opposition_value
-                min = 0
+				var = CHE_power_of_opposition_value
+				min = 0
 				max = 100
-            }
+			}
 		}
 		
 		complete_effect = {
@@ -1180,16 +1179,16 @@ CHE_stability_of_republic_decision = {
 			has_completed_focus = CHE_military_training
 		}
 		available = {		
-		    NOT = {
+			NOT = {
 				has_idea = CHE_Military_Training
 			}
 		}
 		icon = GFX_decision_coat_of_arms_donetsk_oblast
 		
-	    fire_only_once = no
+		fire_only_once = no
 		cost = 125
 		complete_effect = {
-		    army_experience = 35
+			army_experience = 35
 			add_timed_idea = {
 				idea = CHE_Military_Training
 				days = 45
@@ -1214,11 +1213,11 @@ CHE_stability_of_republic_decision = {
 		}
 		icon = GFX_decision_coat_of_arms_donetsk_oblast
 		
-	    fire_only_once = no
+		fire_only_once = no
 		cost = 35
 		days_re_enable = 30
 		complete_effect = {
-		    
+			
 		}
 		ai_will_do = {
 			factor = 120
@@ -1229,24 +1228,24 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_completed_focus = CHE_russian_threat
 			NOT = {
-			    has_global_flag = FirstChechenWar
-		    }
+				has_global_flag = FirstChechenWar
+			}
 		}
 
 		complete_effect = {
 			custom_effect_tooltip = 9_CHE_tt
-            set_country_flag = PreparedDefenceGrozny
+			set_country_flag = PreparedDefenceGrozny
 		}
 
 		ai_will_do = {
@@ -1267,23 +1266,23 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_idea = CHE_drug_shortage_crisis_idea
 		}
 
 		complete_effect = {
-            swap_ideas = {
-                remove_idea = CHE_drug_shortage_crisis_idea
-                add_idea = CHE_drug_shortage_crisis_idea_2
-            }
+			swap_ideas = {
+				remove_idea = CHE_drug_shortage_crisis_idea
+				add_idea = CHE_drug_shortage_crisis_idea_2
+			}
 			custom_effect_tooltip = cash_balance_minus_65_tt
 			subtract_from_variable = {
 				var = cash
@@ -1301,20 +1300,20 @@ CHE_stability_of_republic_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 125
+		cost = 125
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_idea = CHE_drug_shortage_crisis_idea_2
 		}
 
 		complete_effect = {
-            remove_ideas = CHE_drug_shortage_crisis_idea_2
+			remove_ideas = CHE_drug_shortage_crisis_idea_2
 			custom_effect_tooltip = cash_balance_minus_65_tt
 			subtract_from_variable = {
 				var = cash
@@ -1363,13 +1362,13 @@ CHE_islamic_republic_stability_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_completed_focus = CHE_foreign_islamic_volunteers
@@ -1378,13 +1377,13 @@ CHE_islamic_republic_stability_decision = {
 		complete_effect = {
 			random_list = {
 				40 = {
-                    add_manpower = 895
+					add_manpower = 895
 				}
 				30 = {
-                    add_manpower = 1295
+					add_manpower = 1295
 				}
 				20 = {
-                    add_manpower = 1425
+					add_manpower = 1425
 				}
 			}
 		}
@@ -1398,13 +1397,13 @@ CHE_islamic_republic_stability_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_completed_focus = CHE_investments_of_islamic_countries
@@ -1431,19 +1430,19 @@ CHE_islamic_republic_stability_decision = {
 		ai_will_do = {
 			factor = 40		
 		}
-	}	
+	}
 
 	CHE_hold_raids_against_moderate = {
 
 		icon = GFX_decision_generic_soldie
 
-        cost = 75
+		cost = 75
 		fire_only_once = yes
 		
 		available = {		
-		    tag = CHE
+			tag = CHE
 		}
-	    
+		
 		visible = {
 			tag = CHE
 			has_completed_focus = CHE_build_islamic_state
@@ -1451,10 +1450,10 @@ CHE_islamic_republic_stability_decision = {
 
 		complete_effect = {
 			subtract_from_variable = {
-                var = CHE_moderate_opposition_value
-                value = 5
-                tooltip = sub_5_from_power_of_moderate_opposition_chechnya_tt
-            }
+				var = CHE_moderate_opposition_value
+				value = 5
+				tooltip = sub_5_from_power_of_moderate_opposition_chechnya_tt
+			}
 		}
 
 		ai_will_do = {
@@ -1476,11 +1475,11 @@ CHE_islamic_republic_stability_decision = {
 		}
 		icon = GFX_decision_coat_of_arms_donetsk_oblast
 		
-	    fire_only_once = no
+		fire_only_once = no
 		cost = 35
 		days_re_enable = 30
 		complete_effect = {
-		    
+			
 		}
 		ai_will_do = {
 			factor = 120

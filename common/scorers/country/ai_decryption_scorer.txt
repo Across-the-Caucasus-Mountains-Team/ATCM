@@ -1,5 +1,3 @@
-
-
 ai_decryption_target_scorer = {
 	targets = {
 		target_array = potential_and_current_enemies

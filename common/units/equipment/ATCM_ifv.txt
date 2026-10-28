@@ -63,7 +63,7 @@ equipments = {
 		resources = {
 			steel = 2
 			tungsten = 1
-		} 
+		}
 	}
 
 	ifv_2_equipment = {

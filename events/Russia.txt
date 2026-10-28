@@ -36,8 +36,8 @@ country_event = {
 		add_political_power = -75
 		custom_effect_tooltip = 15_RAS_tt
 		hidden_effect = {
-		    CHE = { 
-			    country_event = chechnya.25
+			CHE = { 
+				country_event = chechnya.25
 			}
 		}
 	}
@@ -254,7 +254,7 @@ country_event = {
 			id = superevent.3
 			days = 2
 		}
-	} 
+	}
 
 	option = {
 		name = russia.12.a
@@ -297,9 +297,9 @@ country_event = {
 				days = 3
 			}
 			annex_country = {
-                target = CHI
-                transfer_troops = no
-            }
+				target = CHI
+				transfer_troops = no
+			}
 			mark_focus_tree_layout_dirty = yes
 			set_global_flag = AfterFirstChechenWar
 		}
@@ -348,7 +348,7 @@ country_event = {
 		add_stability = -0.05
 		24 = {
 			set_demilitarized_zone = yes
-		}	
+		}
 		RAS = {
 			country_event = {
 				id = russia.16
@@ -399,7 +399,7 @@ country_event = {
 		add_stability = 0.025
 		24 = {
 			set_demilitarized_zone = no
-		}	
+		}
 	}
 }
 
@@ -447,7 +447,7 @@ country_event = {
 	option = {
 		name = russia.20.a
 		RAS = {
-		    country_event = russia.21
+			country_event = russia.21
 		}
 	}
 }
@@ -610,7 +610,7 @@ country_event = {
 			has_war_with = CHE
 		}
 		RAS = {
-		    controls_state = 21
+			controls_state = 21
 			controls_state = 20   
 		}
 		NOT = { has_global_flag = grozny_captured_by_russia }
@@ -622,9 +622,9 @@ country_event = {
 	}
 	
 	immediate = {
-        set_global_flag = grozny_captured_by_russia
+		set_global_flag = grozny_captured_by_russia
 		hidden_effect = {
-		    CHE = {
+			CHE = {
 				country_event = {
 					id = chechnya.37
 					hours = 2
@@ -659,13 +659,13 @@ country_event = {
 		name = russia.31.a
 		add_war_support = -0.025
 		17 = {
-            add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
+			add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
 		}
 		13 = {
-            add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
+			add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
 		}
 		8 = {
-            add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
+			add_dynamic_modifier = { modifier = RAS_protests_in_region scope = RAS days = 15 }
 		}
 	}
 }
@@ -792,50 +792,50 @@ country_event = {
 
 # Chechens returning
 country_event = {
-    id = russia.39
-    title = russia.39.t
-    desc = russia.39.d
-    picture = GFX_Report_event_CHE_kizlyar_raid_preparations
+	id = russia.39
+	title = russia.39.t
+	desc = russia.39.d
+	picture = GFX_Report_event_CHE_kizlyar_raid_preparations
 
-    is_triggered_only = yes
+	is_triggered_only = yes
 
-    option = {
-        name = russia.39.a
-        add_stability = 0.03
-        add_war_support = 0.01
-        add_political_power = 15
-    }
+	option = {
+		name = russia.39.a
+		add_stability = 0.03
+		add_war_support = 0.01
+		add_political_power = 15
+	}
 }
 
 country_event = {
-    id = russia.40
-    title = russia.40.t
-    desc = russia.40.d
-    picture = GFX_Report_event_CHE_battle_is_in_here
+	id = russia.40
+	title = russia.40.t
+	desc = russia.40.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
 
-    is_triggered_only = yes
+	is_triggered_only = yes
 
-    option = {
-        name = russia.40.a
-        add_war_support = 0.025
+	option = {
+		name = russia.40.a
+		add_war_support = 0.025
 
-        set_country_flag = RAS_airport_reinforcements_unlocked
-        set_country_flag = RAS_samashki_vdv_unlocked
+		set_country_flag = RAS_airport_reinforcements_unlocked
+		set_country_flag = RAS_samashki_vdv_unlocked
 
-        unlock_decision_tooltip = RAS_send_airport_reinforcements
-        unlock_decision_tooltip = RAS_send_VDV_to_Samashki
-    }
+		unlock_decision_tooltip = RAS_send_airport_reinforcements
+		unlock_decision_tooltip = RAS_send_VDV_to_Samashki
+	}
 }
 
 
 # Массовое убийство в Самашках
 country_event = {
-    id = russia.41
-    title = russia.41.t
-    desc = russia.41.d
-    picture = GFX_Report_event_russian_blockposts
+	id = russia.41
+	title = russia.41.t
+	desc = russia.41.d
+	picture = GFX_Report_event_russian_blockposts
 
-    is_triggered_only = yes
+	is_triggered_only = yes
 
 	immediate = {
 		hidden_effect = {
@@ -846,12 +846,12 @@ country_event = {
 		}
 	}
 
-    option = {
-        name = russia.41.a
-        add_war_support = -0.025
+	option = {
+		name = russia.41.a
+		add_war_support = -0.025
 		add_stability = -0.05
-        128 = {
+		128 = {
 			add_manpower = -160
 		}
-    }
+	}
 }

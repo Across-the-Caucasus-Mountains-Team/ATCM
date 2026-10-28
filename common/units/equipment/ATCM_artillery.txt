@@ -1,87 +1,87 @@
 equipments = {
 	towed_artillery_equipment = {
-        year = 1955
-        is_archetype = yes
-        picture = towed_artillery_equipment_1
-        type = { artillery infantry }
-        group_by = archetype
-        interface_category = interface_category_land
-        reliability = 0.85
-        defense = 9
-        breakthrough = 4
-        hardness = 0
-        armor_value = 0
-        soft_attack = 36
-        hard_attack = 2.0
-        ap_attack = 6
-        air_attack = 0
-        lend_lease_cost = 4
-        build_cost_ic = 3.3
-        resources = { steel = 3 }
-    }
+		year = 1955
+		is_archetype = yes
+		picture = towed_artillery_equipment_1
+		type = { artillery infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		reliability = 0.85
+		defense = 9
+		breakthrough = 4
+		hardness = 0
+		armor_value = 0
+		soft_attack = 36
+		hard_attack = 2.0
+		ap_attack = 6
+		air_attack = 0
+		lend_lease_cost = 4
+		build_cost_ic = 3.3
+		resources = { steel = 3 }
+	}
 	towed_artillery_equipment_1 = {
-        picture = towed_artillery_equipment_1
-        year = 1955
-        archetype = towed_artillery_equipment
-        priority = 50
-        visual_level = 0
-        reliability = 0.85
-        defense = 9
-        breakthrough = 4
-        soft_attack = 36
-        hard_attack = 2.0
-        ap_attack = 6
-        build_cost_ic = 3.3
-        resources = { steel = 3 }
-    }
+		picture = towed_artillery_equipment_1
+		year = 1955
+		archetype = towed_artillery_equipment
+		priority = 50
+		visual_level = 0
+		reliability = 0.85
+		defense = 9
+		breakthrough = 4
+		soft_attack = 36
+		hard_attack = 2.0
+		ap_attack = 6
+		build_cost_ic = 3.3
+		resources = { steel = 3 }
+	}
 	towed_artillery_equipment_2 = {
-        picture = towed_artillery_equipment_2
-        year = 1960
-        archetype = towed_artillery_equipment
-        parent = towed_artillery_equipment_1
-        priority = 60
-        visual_level = 1
-        reliability = 0.92
-        defense = 12
-        breakthrough = 5
-        soft_attack = 31
-        hard_attack = 1.7
-        ap_attack = 4
-        build_cost_ic = 2.6
-        resources = { steel = 2 }
-    }
+		picture = towed_artillery_equipment_2
+		year = 1960
+		archetype = towed_artillery_equipment
+		parent = towed_artillery_equipment_1
+		priority = 60
+		visual_level = 1
+		reliability = 0.92
+		defense = 12
+		breakthrough = 5
+		soft_attack = 31
+		hard_attack = 1.7
+		ap_attack = 4
+		build_cost_ic = 2.6
+		resources = { steel = 2 }
+	}
 	towed_artillery_equipment_3 = {
-        picture = towed_artillery_equipment_3
-        year = 1976
-        archetype = towed_artillery_equipment
-        parent = towed_artillery_equipment_2
-        priority = 70
-        visual_level = 2
-        reliability = 0.81
-        defense = 11
-        breakthrough = 5
-        soft_attack = 45
-        hard_attack = 3.7
-        ap_attack = 10
-        build_cost_ic = 4.3
-        resources = { steel = 4 tungsten = 1 }
-    }
+		picture = towed_artillery_equipment_3
+		year = 1976
+		archetype = towed_artillery_equipment
+		parent = towed_artillery_equipment_2
+		priority = 70
+		visual_level = 2
+		reliability = 0.81
+		defense = 11
+		breakthrough = 5
+		soft_attack = 45
+		hard_attack = 3.7
+		ap_attack = 10
+		build_cost_ic = 4.3
+		resources = { steel = 4 tungsten = 1 }
+	}
 	towed_artillery_equipment_4 = {
-        picture = towed_artillery_equipment_4
-        year = 1987
-        archetype = towed_artillery_equipment
-        parent = towed_artillery_equipment_3
-        priority = 80
-        visual_level = 3
-        reliability = 0.88
-        defense = 14
-        breakthrough = 6
-        soft_attack = 49
-        hard_attack = 3.4
-        ap_attack = 9
-        build_cost_ic = 4.6
-        resources = { steel = 3 tungsten = 1 }
-    }
+		picture = towed_artillery_equipment_4
+		year = 1987
+		archetype = towed_artillery_equipment
+		parent = towed_artillery_equipment_3
+		priority = 80
+		visual_level = 3
+		reliability = 0.88
+		defense = 14
+		breakthrough = 6
+		soft_attack = 49
+		hard_attack = 3.4
+		ap_attack = 9
+		build_cost_ic = 4.6
+		resources = { steel = 3 tungsten = 1 }
+	}
 	
 	#GRAD 
 	motorized_rocket_equipment = {
@@ -139,7 +139,7 @@ equipments = {
 		priority = 70
 		visual_level = 0
 
-	    #Defensive Abilities
+		#Defensive Abilities
 		defense = 19
 		breakthrough = 14
 		hardness = 0
@@ -151,7 +151,7 @@ equipments = {
 		ap_attack = 3
 		air_attack = 0
 
-        build_cost_ic = 19
+		build_cost_ic = 19
 		resources = {
 			rubber = 2
 			tungsten = 2
@@ -179,7 +179,7 @@ equipments = {
 		ap_attack = 4.35
 		air_attack = 0
 
-        build_cost_ic = 22
+		build_cost_ic = 22
 		resources = {
 			rubber = 3
 			tungsten = 3
@@ -207,7 +207,7 @@ equipments = {
 		ap_attack = 4.35
 		air_attack = 0
 
-        build_cost_ic = 22
+		build_cost_ic = 22
 		resources = {
 			rubber = 3
 			tungsten = 3
@@ -235,7 +235,7 @@ equipments = {
 		ap_attack = 4.35
 		air_attack = 0
 
-        build_cost_ic = 25
+		build_cost_ic = 25
 		resources = {
 			rubber = 3
 			tungsten = 3

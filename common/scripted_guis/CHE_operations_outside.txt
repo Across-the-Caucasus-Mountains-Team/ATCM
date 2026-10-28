@@ -1,12 +1,12 @@
 scripted_gui = {
 
-    CHE_operations_decision_window = {
-       context_type = decision_category
+	CHE_operations_decision_window = {
+	   context_type = decision_category
 	   window_name = "CHE_operations_decision_window"
  
-        visible = {
-            tag = CHE
-        }
+		visible = {
+			tag = CHE
+		}
  
 		effects = {
 			operations_outside_button_click = {
@@ -19,22 +19,22 @@ scripted_gui = {
 				}
 			}
 		}
-        triggers = {
-        }
+		triggers = {
+		}
 		
 		properties = {
 			
 		}
-    }
+	}
 
-    CHE_operations_window = {
-       context_type = player_context 
+	CHE_operations_window = {
+	   context_type = player_context 
 	   window_name = "CHE_operations_window"
  
-        visible = {
-            tag = CHE
-            check_variable = { CHE_show_operations_outside > 0 }
-        }
+		visible = {
+			tag = CHE
+			check_variable = { CHE_show_operations_outside > 0 }
+		}
  
 		effects = {
 			close_operations_outside_button_click = {
@@ -42,12 +42,12 @@ scripted_gui = {
 			}
 		}
 
-        triggers = {
+		triggers = {
 
-        }
+		}
 		
 		properties = {
 			
 		}
-    }
+	}
 }

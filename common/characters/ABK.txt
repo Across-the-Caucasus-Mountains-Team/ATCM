@@ -12,13 +12,13 @@ characters={
 			expire="5022.8.30.1"
 			id=-1
 		}
-    }
+	}
 
 	ABK_shamil_basayev = {
 		name = "Shamil Basayev"
 		portraits = {
 			army = {
-			    large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
+				large="gfx/leaders/CHE/portrait_CHE_Shamil_Basayev.png"
 			}
 		}
 		corps_commander = {
@@ -36,4 +36,4 @@ characters={
 			}
 		}
 	}
-}	
+}

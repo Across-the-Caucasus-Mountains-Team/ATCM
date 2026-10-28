@@ -3,14 +3,14 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = ARM
 		}
 	}
 
-	
+
 	default = no
 
 	continuous_focus_position = { x = 2550 y = 950 }
@@ -20,31 +20,31 @@ focus_tree = {
 		icon = GFX_ARM_Strengthen_our_identity
 		x = 5
 		y = 0
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    add_political_power = 150
+			add_political_power = 150
 			add_war_support = 0.15
-		}	
+		}
 	}
 
 	focus = {
@@ -54,30 +54,30 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = ARM_Strengthen_our_national_identity }
 		relative_position_id = ARM_Strengthen_our_national_identity
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-            add_ideas = ARM_Angry_People
-		}	
+			add_ideas = ARM_Angry_People
+		}
 	}
 
 	focus = {
@@ -87,31 +87,31 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = ARM_Fan_The_Flames }
 		relative_position_id = ARM_Fan_The_Flames
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = -25
 			add_stability = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -121,31 +121,31 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = ARM_Fan_The_Flames }
 		relative_position_id = ARM_Fan_The_Flames
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.01
-		}	
+		}
 	}
 
 	focus = {
@@ -155,33 +155,33 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = ARM_Reach_out_to_the_media }
 		relative_position_id = ARM_Reach_out_to_the_media
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_timed_idea = {
 				idea = ARM_Pro_Armenian_Propaganda
 				days = 30
-			}	
-		}	
+			}
+		}
 	}
 
 	focus = {
@@ -191,33 +191,33 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = ARM_Promote_Pro_Armenian_Propaganda }
 		relative_position_id = ARM_Promote_Pro_Armenian_Propaganda
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_timed_idea = {
 				idea = ARM_Pro_Armenian_Propaganda
 				days = 30
-			}	
-		}	
+			}
+		}
 	}
 
 	focus = {
@@ -227,27 +227,27 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = ARM_Fan_The_Flames }
 		relative_position_id = ARM_Fan_The_Flames
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = -75
 			add_war_support = 0.05
@@ -255,7 +255,7 @@ focus_tree = {
 			idea = ARM_Hunger_Strikes_idea
 			days = 30
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -265,34 +265,34 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = ARM_Begin_the_hunger_strike }
 		relative_position_id = ARM_Begin_the_hunger_strike
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.1
 			add_popularity = {
 				ideology = Communism
 				popularity = -0.15
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -302,34 +302,34 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = ARM_Rally_the_people }
 		relative_position_id = ARM_Rally_the_people
-		
+
 		cost = 16
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.1
 			add_popularity = {
 				ideology = Communism
 				popularity = -0.01
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -341,34 +341,34 @@ focus_tree = {
 		prerequisite = { focus = ARM_Gain_International_Support }
 		prerequisite = { focus = ARM_Promote_Pro_Armenian_Propaganda }
 		prerequisite = { focus = ARM_Rally_the_people }
-		
+
 		cost = 17
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = -150
 			add_popularity = {
 				ideology = communism
 				popularity = -0.10
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -378,27 +378,27 @@ focus_tree = {
 		y = 1
 		relative_position_id = ARM_Discredit_The_USSR
 		prerequisite = { focus = ARM_Discredit_The_USSR }
-		
+
 		cost = 17
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_popularity = {
 				ideology = liberalism
@@ -410,7 +410,7 @@ focus_tree = {
 			hidden_effect = {
 				news_event = { id = news.4 }
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -442,7 +442,7 @@ focus_tree = {
 	completion_reward = {
 		add_command_power = 25
 		army_experience = 50
-	}	
+	}
 }
 
 focus = {
@@ -476,7 +476,7 @@ focus = {
 	completion_reward = {
 		add_command_power = 25
 		army_experience = 50
-	}	
+	}
 }
 
 focus = {
@@ -511,7 +511,7 @@ focus = {
 		add_command_power = 25
 		army_experience = 50
 		unlock_decision_category_tooltip = ARM_Recruitment_category
-	}	
+	}
 }
 
 focus = {
@@ -545,7 +545,7 @@ focus = {
 	completion_reward = {
 		add_command_power = 25
 		army_experience = 50
-	}	
+	}
 }
 
 focus = {
@@ -579,7 +579,7 @@ focus = {
 	completion_reward = {
 		add_command_power = 25
 		army_experience = 50
-	}	
+	}
 }
 
 focus = {
@@ -617,7 +617,7 @@ focus = {
 		custom_effect_tooltip = generic_skip_one_line_tt
 		custom_effect_tooltip = new_focus_tree_tt
 		mark_focus_tree_layout_dirty = yes
-	}	
+	}
 }
 
 focus = {
@@ -659,7 +659,7 @@ focus = {
 		add_war_support = 0.075
 		add_manpower = 500
 		add_stability = -0.10
-	}	
+	}
 }
 
 focus = {
@@ -695,7 +695,7 @@ focus = {
 		AZR = {
 			country_event = { id = Azerbaijan.2 }
 		}
-	}	
+	}
 }
 
 focus = {
@@ -727,7 +727,7 @@ focus = {
 	search_filters = { }
 	
 	completion_reward = {
-	}	
+	}
 }
 
 focus = {
@@ -760,7 +760,7 @@ focus = {
 	
 	completion_reward = {
 		army_experience = 100
-	}	
+	}
 }
 
 focus = {
@@ -796,7 +796,7 @@ focus = {
 			type = infantry_equipment_1 
 			amount = 2500 
 		}
-	}	
+	}
 }
 
 focus = {
@@ -830,11 +830,11 @@ focus = {
 	completion_reward = {
 		add_manpower = 2540
 		add_political_power = 25
-	    add_equipment_to_stockpile = { 
+		add_equipment_to_stockpile = { 
 			type = infantry_equipment_1 
 			amount = 1000 
 		}
-	}	
+	}
 }
 
 focus = {
@@ -868,7 +868,7 @@ focus = {
 	completion_reward = {
 		add_manpower = 47000
 		add_war_support = 0.05
-	}	
+	}
 }
 
 focus = {
@@ -901,7 +901,7 @@ focus = {
 	
 	completion_reward = {
 		air_experience = 100
-	}	
+	}
 }
 
 focus = {
@@ -933,7 +933,7 @@ focus = {
 	search_filters = { }
 	
 	completion_reward = {
-	}	
+	}
 }
 
 focus = {
@@ -965,7 +965,7 @@ focus = {
 	search_filters = { }
 	
 	completion_reward = {
-	}	
+	}
 }
 
 focus = {
@@ -1000,7 +1000,7 @@ focus = {
 		add_manpower = 250
 		add_war_support = 0.05
 		air_experience = 25
-	}	
+	}
 }
 
 focus = {
@@ -1037,6 +1037,6 @@ focus = {
 	search_filters = { }
 	
 	completion_reward = {
-	}	
+	}
 }
-}	
+}

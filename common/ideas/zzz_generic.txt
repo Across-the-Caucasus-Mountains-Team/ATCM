@@ -1,4 +1,4 @@
-ideas = {
+﻿ideas = {
 
 	hidden_ideas = {
 		
@@ -15,7 +15,7 @@ ideas = {
 			
 			modifier = {
 			}
-		}		
+		}
 
 		continuous_naval_production = {
 			allowed = {
@@ -32,7 +32,6 @@ ideas = {
 				industrial_capacity_dockyard = 0.2
 			}
 		}
-
 
 		continuous_air_production = {
 			allowed = {
@@ -98,7 +97,7 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-			}		
+			}
 		}
 
 #		sp_multi_charge_large_caliber_gun_small_size_ns = { #MM: Used for Small version of V-3 SP. Uncomment if Code Support gets implemented 
@@ -120,60 +119,6 @@ ideas = {
 
 	# Special ones that can be applied on other countries through focus system.
 	country = {
-		damage_to_naval_base_low = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = POL_disjointed_industry
-			
-			removal_cost = -1
-			
-			modifier = {
-				refit_speed = -0.05
-				repair_speed_factor = -0.05
-			}
-		}
-		damage_to_naval_base_medium = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			picture = POL_disjointed_industry
-			
-			removal_cost = -1
-			
-			modifier = {
-				refit_speed = -0.1
-				repair_speed_factor = -0.1
-			}
-		}
-		damage_to_naval_base_high = {
-			allowed = {
-				always = no
-			}
-
-			picture = POL_disjointed_industry
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				refit_speed = -0.25
-				repair_speed_factor = -0.25
-			}
-		}
 		
 		TO_chose_neutrality = {
 
@@ -231,26 +176,8 @@ ideas = {
 
 			picture = generic_infantry_bonus
 
-			
 			modifier = {
 				nationalism_drift = 0.1
-			}
-		}
-		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
-			
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_infantry_bonus
-
-			
-			modifier = {
-				navy_fuel_consumption_factor = -1
-				air_fuel_consumption_factor = -1
-				#spotting_chance = 5
 			}
 		}
 
@@ -317,8 +244,7 @@ ideas = {
 		}
 		
 		communist_influence = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -338,8 +264,7 @@ ideas = {
 		}
 
 		democratic_influence = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -461,72 +386,9 @@ ideas = {
 				authoritarianism_acceptance = 35
 			}
 		}
-		
-		soviet_german_friendship = {
-			allowed = {
-				always = no
-			}
 
-			allowed_civil_war = {
-				OR = {
-					AND = {
-						tag = GER
-						has_government = nationalism
-						SOV = {
-							has_government = communism
-						}
-					}
-					AND = {
-						tag = SOV
-						has_government = communism
-						GER = {
-							has_government = nationalism
-						}
-					}
-				}
-			}
-
-			cancel = {
-				OR = {
-					AND = {
-						tag = GER
-						is_subject = yes
-						has_war_with = SOV
-						NOT = { is_in_faction_with = SOV }
-					}
-					AND = {
-						tag = SOV
-						is_subject = yes
-						has_war_with = GER
-						NOT = { is_in_faction_with = GER }
-					}
-				}
-			}
-
-			on_remove = {
-				if = {
-					limit = {
-						tag = GER
-						is_in_faction_with = SOV
-					}
-					GER = {
-						dismantle_faction = yes
-					}
-				}
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				custom_modifier_tooltip = GER_dimantle_faction_tt
-				communism_acceptance = 100
-				nationalism_acceptance = 100
-			}
-		}
-		
 		communist_pressure = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -545,8 +407,7 @@ ideas = {
 		}
 		# from decision
 		socialist_education = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -607,8 +468,7 @@ ideas = {
 		}
 		# from decision
 		nation_building = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -666,8 +526,7 @@ ideas = {
 		}
 		
 		collectivist_ethos_focus = {
-			
-		
+
 			allowed = {
 				always = no
 			}
@@ -686,8 +545,7 @@ ideas = {
 		}
 	
 		liberty_ethos_focus = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -706,8 +564,7 @@ ideas = {
 		}
 	
 		militarism_focus = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -727,8 +584,7 @@ ideas = {
 		}
 	
 		military_youth_focus = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -751,8 +607,7 @@ ideas = {
 		}
 	
 		paramilitarism_focus = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -775,8 +630,7 @@ ideas = {
 		}
 	
 		indoctrination_focus = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -799,8 +653,7 @@ ideas = {
 		}
 	
 		ideological_fanaticism_focus = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -825,8 +678,7 @@ ideas = {
 		}
 	
 		political_commissars_focus = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -845,8 +697,7 @@ ideas = {
 		}
 	
 		neutrality_idea = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -868,14 +719,13 @@ ideas = {
 				send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
-				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_badass_factor = 0.01	# Will receive 1% of the threat from others
 				ai_get_ally_desire_factor = -100
 			}
 		}
 	
 		deterrence = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -952,7 +802,7 @@ ideas = {
 				stability_factor = 0.10
 				war_support_factor = 0.1
 			}
-		}	
+		}
 
 		idea_political_correctness = {
 			allowed = {
@@ -969,7 +819,7 @@ ideas = {
 			
 			modifier = {
 				foreign_subversive_activites = -0.75
-			}			
+			}
 		}
 
 		communism_banned = {
@@ -1009,8 +859,7 @@ ideas = {
 		}
 
 		race_for_the_bomb = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -1034,8 +883,7 @@ ideas = {
 		}
 
 		race_for_the_bomb_outclassed = {
-			
-			
+
 			allowed = {
 				always = no
 			}
@@ -1281,7 +1129,7 @@ ideas = {
 			modifier = {
 				army_core_attack_factor = 0.25 
 			}
-		}	
+		}
 
 		idea_weapons_for_the_resistance = {
 
@@ -1301,7 +1149,7 @@ ideas = {
 				resistance_growth_on_our_occupied_states = 0.1 
 				resistance_damage_to_garrison_on_our_occupied_states = 0.25 
 			}
-		}	
+		}
 		MTG_naval_treaty_adherent = {
 
 			allowed = {

@@ -4,7 +4,7 @@ update_operation_ai = {
 	# old target is no longer relevant
 	if = {
 		limit = {
-			NOT = { check_variable = { generic_operation_target = 0 } }
+			NOT = { check_variable = { generic_operation_target = 0 }}
 			var:generic_operation_target = {
 				OR = {
 					exists = no
@@ -33,14 +33,14 @@ update_operation_ai = {
 		limit = { is_operative_captured = yes }
 		add_to_temp_variable = { min_needed_operative_for_operations = 1 }
 		if = {
-			limit = { check_variable = { captor = 0 } }
+			limit = { check_variable = { captor = 0 }}
 			set_temp_variable = { captor = operative_captor }
 		}
 	}
 	set_variable = { rescue_operative_from = 0 }
 	if = {
-		limit = { NOT = { check_variable = { captor = 0 } } }
-		set_variable = { rescue_operative_from = captor } # used in ai strat generic_operation_ai_rescue
+		limit = { NOT = { check_variable = { captor = 0 }}}
+		set_variable = { rescue_operative_from = captor }# used in ai strat generic_operation_ai_rescue
 		add_to_temp_variable = { min_needed_operative_for_operations = 2 }
 	}
 	
@@ -56,7 +56,7 @@ update_operation_ai = {
 	if = {
 		# if found a target pick an operation
 		limit = { 
-			NOT = { check_variable = { generic_operation_target = 0 } }
+			NOT = { check_variable = { generic_operation_target = 0 }}
 			# if we are already preparing for current one no need to recalc
 			OR = {
 				check_variable = { generic_operation_type_to_run = 0 }
@@ -103,9 +103,9 @@ update_operation_ai = {
 			var:generic_operation_target = {
 				if = {
 					limit = { 
-						has_navy_size = { size > 0 } 
+						has_navy_size = { size > 0 }
 						PREV = {
-							has_navy_size = { size > 0 } 
+							has_navy_size = { size > 0 }
 						}
 					}
 					set_temp_variable = { score = num_ships }
@@ -131,8 +131,8 @@ update_operation_ai = {
 				if = {
 					limit = { 
 						PREV = {
-							NOT = { tag = ENG } # ENG already does it against GER
-							NOT = { has_government = fascism } 
+							NOT = { tag = ENG }# ENG already does it against GER
+							NOT = { has_government = fascism }
 							NOT = {
 								has_operation_token = {
 									tag = var:generic_operation_target
@@ -214,8 +214,8 @@ update_operation_ai = {
 				array = operation_types_scores
 			}
 			if = {
-				limit = { check_variable = { v > 0 } }
-				set_variable = { generic_operation_type_to_run = operation_types^i } # used in ai strat generic_operation_ai
+				limit = { check_variable = { v > 0 }}
+				set_variable = { generic_operation_type_to_run = operation_types^i }# used in ai strat generic_operation_ai
 			}
 		}
 		else =

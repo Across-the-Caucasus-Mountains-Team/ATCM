@@ -222,7 +222,7 @@ technologies = {
 
 		enable_equipments = { 
 			light_cruiser_3
-		}	
+		}
 		
 		path = {
 			leads_to_tech = advanced_light_cruiser 
@@ -1007,7 +1007,7 @@ technologies = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_naval_midget_submarine
-			}			
+			}
 		}
 
 		research_cost = 1.5
@@ -1051,7 +1051,7 @@ technologies = {
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_naval_aip_engine
-				}				
+				}
 			}
 		}
 				

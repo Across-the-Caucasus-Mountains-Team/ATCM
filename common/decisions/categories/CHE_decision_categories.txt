@@ -13,7 +13,7 @@ CHE_first_chechen_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_global_flag = FirstChechenWar
 	}
 	visible_when_empty = yes
@@ -28,7 +28,7 @@ CHE_peace_negotiations_first_chechen_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_global_flag = FirstChechenWar
 	}
 	visible_when_empty = yes
@@ -43,7 +43,7 @@ CHE_general_staff_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_global_flag = FirstChechenWar
 		has_completed_focus = CHE_General_Staff_of_Chechnya
 	}
@@ -60,7 +60,7 @@ CHE_operations_outside_of_chechnya_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_global_flag = FirstChechenWar
 		has_completed_focus = CHE_operations_outside_of_chechnya
 	}
@@ -77,7 +77,7 @@ CHE_elections_1991_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_country_flag = CHE_Elections_1991
 	}
 	visible_when_empty = yes
@@ -92,7 +92,7 @@ CHE_stability_of_republic_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_completed_focus = CHE_build_secular_state
 		NOT = {
 			has_global_flag = FirstChechenWar
@@ -110,7 +110,7 @@ CHE_islamic_republic_stability_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_completed_focus = CHE_build_islamic_state
 	}
 	visible_when_empty = yes
@@ -125,7 +125,7 @@ CHE_battle_for_power_after_dudayev_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_global_flag = Dudayev_is_dead
 	}
 	visible_when_empty = yes
@@ -140,7 +140,7 @@ CHE_rebuilding_country = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = CHE
+		tag = CHE
 		has_completed_focus = CHE_rebuilidng_of_our_country
 	}
 	visible_when_empty = yes

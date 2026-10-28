@@ -3,13 +3,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = CHI
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 6000 y = 500 }
@@ -19,33 +19,33 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 6
 		y = 0
-		
+
 		cost = 30
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
 			add_ideas = CHI_chechen_opposition_army
 			load_oob = CHI_1993
-		}	
+		}
 	}
 
 	focus = {
@@ -55,32 +55,32 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = CHI_congress_of_the_peoples_of_chechnya }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
-		
+
 		cost = 30
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
 			add_war_support = 0.15
-		}	
+		}
 	}
 
 	focus = {
@@ -90,27 +90,27 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = CHI_adopt_a_decree_on_power }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
-		
+
 		cost = 3
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_manpower = 650
@@ -118,7 +118,7 @@ focus_tree = {
 				type = infantry_equipment_1 
 				amount = 1500
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -128,40 +128,40 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = CHI_prepare_the_armed_forces }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
-		
+
 		cost = 35
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 500
 			}
 			declare_war_on = {
-                target = CHE
-                type = annex_everything
-            }
+				target = CHE
+				type = annex_everything
+			}
 			hidden_effect = {
 
 				CHE = {
-				    set_country_flag = CHEChechenOppositionUprising
+					set_country_flag = CHEChechenOppositionUprising
 					country_event = {
 						id = chechnya.31
 						hours = 1
@@ -172,7 +172,7 @@ focus_tree = {
 					}
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -182,31 +182,31 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = CHI_liberate_chchnya }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			load_oob = CHI_more_forces
-		}	
+		}
 	}
 
 	focus = {
@@ -216,31 +216,31 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = CHI_liberate_chchnya }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			load_oob = CHI_argun_forces
-		}	
+		}
 	}
 
 	focus = {
@@ -250,27 +250,27 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = CHI_russians_specialists }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
-		
+
 		cost = 3
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.075
 			load_oob = CHI_argun_forces
@@ -282,7 +282,7 @@ focus_tree = {
 					}
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -292,35 +292,35 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = CHI_liberate_chchnya }
 		relative_position_id = CHI_congress_of_the_peoples_of_chechnya
-		
+
 		cost = 25
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_manpower = 650
 			add_political_power = 25
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 750
-			}	
-		}	
+			}
+		}
 	}
 
 	focus = {
@@ -332,35 +332,35 @@ focus_tree = {
 		prerequisite = { focus = CHI_russian_support }
 		prerequisite = { focus = CHI_forces_in_nadtchernom_region }
 		relative_position_id = CHI_russian_support
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 45
 			add_manpower = 650
 			add_timed_idea = {
-                idea = CHI_russians_specalists_idea
-                days = 210
-            }
+				idea = CHI_russians_specalists_idea
+				days = 210
+			}
 			load_oob = CHI_russian_tanks
-		}	
+		}
 	}
 }

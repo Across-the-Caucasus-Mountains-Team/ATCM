@@ -3,7 +3,7 @@ ideas = {
 	country = {
 
 
-        AZR_Black_January_idea = {
+		AZR_Black_January_idea = {
 			
 			allowed = {
 				original_tag = AZR
@@ -24,4 +24,4 @@ ideas = {
 			}
 		}
 	}
-}	
+}

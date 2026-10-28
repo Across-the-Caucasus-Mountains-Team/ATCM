@@ -184,7 +184,7 @@ news_event = {
 				TAG = ABK
 			}
 		}
-	}	
+	}
 		
 	option = {
 		name = news.7.b
@@ -315,7 +315,7 @@ news_event = {
 			NOT = {
 				TAG = RAS
 			}
-		}	
+		}
 	}
 	
 	option = {
@@ -459,10 +459,10 @@ news_event = {
 	option = {
 		name = news.20.c
 		trigger = {
-		    NOT = { 
-                tag = RAS
+			NOT = { 
+				tag = RAS
 				tag = CHE
-		    }
+			}
 		}
 	}
 }
@@ -657,10 +657,10 @@ news_event = {
 	option = {
 		name = news.30.c
 		trigger = {
-		    NOT = { 
-                tag = RAS
+			NOT = { 
+				tag = RAS
 				tag = CHE
-		    }
+			}
 		}
 	}
 }
@@ -688,10 +688,10 @@ news_event = {
 	option = {
 		name = news.31.c
 		trigger = {
-		    NOT = { 
-                tag = RAS
+			NOT = { 
+				tag = RAS
 				tag = CHE
-		    }
+			}
 		}
 	}
 }
@@ -719,10 +719,10 @@ news_event = {
 	option = {
 		name = news.32.c
 		trigger = {
-		    NOT = { 
-                tag = RAS
+			NOT = { 
+				tag = RAS
 				tag = CHE
-		    }
+			}
 		}
 	}
 }

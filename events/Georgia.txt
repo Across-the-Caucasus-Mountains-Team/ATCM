@@ -307,7 +307,7 @@ country_event = {
 		add_ideas = SAK_Zviadists_in_the_west
 		37 = {
 			set_demilitarized_zone = yes
-		}	
+		}
 		add_ideas = SAK_Overcrowded_Hospitals
 		add_ideas = SAK_Ruins_of_central_tbilisi
 		add_ideas = SAK_Mkhedrioni
@@ -374,7 +374,7 @@ country_event = {
 		add_manpower = -34
 		OST = {
 			add_manpower = -12
-		}	
+		}
 	}
 }
 
@@ -773,10 +773,10 @@ country_event = {
 		add_timed_idea = {
 			idea = SAK_Blitz_in_Abkhazia
 			days = 45
-		}	
+		}
 		ABK = {
 			load_oob = ABK_1991
-		}	
+		}
 		add_threat = 10
 	}
 	
@@ -791,10 +791,10 @@ country_event = {
 		add_timed_idea = {
 			idea = SAK_Blitz_in_Abkhazia
 			days = 45
-		}	
+		}
 		ABK = {
 			load_oob = ABK_1991
-		}	
+		}
 		ABK = { 
 			change_tag_from = ROOT 
 		}
@@ -846,7 +846,7 @@ country_event = {
 			OST = {
 				load_oob = OST_1991
 			}
-		}	
+		}
 		add_threat = 10
 	}
 	
@@ -863,7 +863,7 @@ country_event = {
 			OST = {
 				load_oob = OST_1991
 			}
-		}	
+		}
 		OST = { 
 			change_tag_from = ROOT 
 		}
@@ -967,7 +967,7 @@ country_event = {
 					days = 45
 				}
 			}
-		}	
+		}
 		ai_chance = { factor = 10 }
 	}
 }
@@ -1007,8 +1007,8 @@ country_event = {
 			country_event = {
 				id = Georgia.48
 				days = 35
-			}	
-		}	
+			}
+		}
 	}
 }
 
@@ -1029,12 +1029,12 @@ country_event = {
 		add_popularity = {
 			ideology = nationalism
 			popularity = -0.025
-		}	
+		}
 		hidden_effect = {
 			country_event = {
 				id = Georgia.49
 				days = 25
-			}	
+			}
 		}
 	}
 }
@@ -1056,7 +1056,7 @@ country_event = {
 		add_manpower = -23
 		48 = {
 			set_demilitarized_zone = yes
-		}	
+		}
 	}
 }
 
@@ -1108,7 +1108,7 @@ country_event = {
 		add_popularity = {
 			ideology = nationalism
 			popularity = 0.15
-		}	
+		}
 	}
 }
 

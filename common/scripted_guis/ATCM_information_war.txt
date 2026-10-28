@@ -1,21 +1,21 @@
 scripted_gui = {
 
-    CHE_information_war_window = {
-       context_type = decision_category
+	CHE_information_war_window = {
+	   context_type = decision_category
 	   window_name = "CHE_information_war_window"
  
-        visible = {
-            tag = CHE
-        }
+		visible = {
+			tag = CHE
+		}
  
 		effects = {
 			
 		}
-        triggers = {
-        }
+		triggers = {
+		}
 		
 		properties = {
 			
 		}
-    }
+	}
 }

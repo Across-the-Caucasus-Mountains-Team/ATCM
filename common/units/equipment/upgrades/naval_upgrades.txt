@@ -79,7 +79,7 @@ upgrades = {
 		level_requirements = {
 			6 = {
 				is_special_project_completed = sp:sp_naval_anechoic_tiles
-			}	
+			}
 		}
 	}
 	sub_engine_upgrade = {

@@ -366,7 +366,7 @@ technologies = {
 		path = {
 			leads_to_tech = mortar_weapons1
 			research_cost_coeff = 1
-		}		
+		}
 
 		enable_subunits = {
 			mortar
@@ -396,7 +396,7 @@ technologies = {
 		path = {
 			leads_to_tech = mortar_weapons2
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1960
@@ -422,7 +422,7 @@ technologies = {
 		path = {
 			leads_to_tech = improved_mortrar_weapons
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1960
@@ -505,7 +505,7 @@ technologies = {
 		path = {
 			leads_to_tech = mortar_weapons4
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1995
@@ -546,7 +546,7 @@ technologies = {
 
 	anti_tank_infantry_weapon = {
 
-	    category_light_infantry = {
+		category_light_infantry = {
 			hard_attack = 0.05
 		}
 
@@ -592,7 +592,7 @@ technologies = {
 		path = {
 			leads_to_tech = anti_tank_infantry_weapon2
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1960
@@ -622,7 +622,7 @@ technologies = {
 		path = {
 			leads_to_tech = improved_ammo_for_rpg
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1960
@@ -703,7 +703,7 @@ technologies = {
 		path = {
 			leads_to_tech = anti_tank_infantry_weapon4
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1995
@@ -756,7 +756,7 @@ technologies = {
 
 	uniform_equipment = {
 
-	    category_light_infantry = {
+		category_light_infantry = {
 			defense = 0.05
 		}
 
@@ -768,7 +768,7 @@ technologies = {
 		path = {
 			leads_to_tech = uniform_equipment1
 			research_cost_coeff = 1
-		}		
+		}
 
 		enable_subunits = {
 
@@ -800,7 +800,7 @@ technologies = {
 		path = {
 			leads_to_tech = uniform_equipment2
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1960
@@ -827,7 +827,7 @@ technologies = {
 		path = {
 			leads_to_tech = improved_equipment_for_infantry
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1960
@@ -915,7 +915,7 @@ technologies = {
 		path = {
 			leads_to_tech = uniform_equipment4
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1995
@@ -969,7 +969,7 @@ technologies = {
 
 	atgm_equipment = {
 
-	    atgm_company = {
+		atgm_company = {
 			hard_attack = 0.05
 		}
 
@@ -980,10 +980,10 @@ technologies = {
 		path = {
 			leads_to_tech = atgm_equipment1
 			research_cost_coeff = 1
-		}		
+		}
 
 		enable_subunits = {
-            atgm_company
+			atgm_company
 		}
 
 		research_cost = 1.5
@@ -1015,7 +1015,7 @@ technologies = {
 		path = {
 			leads_to_tech = atgm_equipment2
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1970
@@ -1045,7 +1045,7 @@ technologies = {
 		path = {
 			leads_to_tech = atgm_equipment3
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1975
@@ -1076,7 +1076,7 @@ technologies = {
 		path = {
 			leads_to_tech = atgm_equipment4
 			research_cost_coeff = 1
-		}		
+		}
 
 		research_cost = 1.5
 		start_year = 1990
@@ -1564,7 +1564,7 @@ technologies = {
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
 
-		allow_branch = { NOT = { has_dlc = "Arms Against Tyranny" } }
+		allow_branch = { NOT = { has_dlc = "Arms Against Tyranny" }}
 
 		#dependencies = {
 		#	OR = {

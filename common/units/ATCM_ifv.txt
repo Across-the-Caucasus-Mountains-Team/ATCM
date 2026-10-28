@@ -40,7 +40,7 @@ sub_units = {
 		}
 
 		forest = {
-		    attack = -0.1
+			attack = -0.1
 			movement = -0.20
 		}
 		hills = {
@@ -48,11 +48,11 @@ sub_units = {
 			movement = -0.1
 		}
 		mountain = 	{
-		    attack = -0.25
-		    movement = -0.3
+			attack = -0.25
+			movement = -0.3
 		}
 		marsh = {
-		    attack = -0.15
+			attack = -0.15
 			movement = -0.35
 		}
 		desert = {

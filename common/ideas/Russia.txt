@@ -61,13 +61,13 @@ ideas = {
 			modifier = {
 				air_cas_efficiency = 0.15
 				air_cas_present_factor = 0.15
-                breakthrough_factor = 0.15
+				breakthrough_factor = 0.15
 			}
 
 			targeted_modifier = {
-                tag = CHE
-                attack_bonus_against = 0.05
-            }
+				tag = CHE
+				attack_bonus_against = 0.05
+			}
 		}
 
 		RAS_reorganize_our_frontline_idea = {
@@ -87,7 +87,7 @@ ideas = {
 			modifier = {
 				army_speed_factor = 0.075
 				army_defence_factor = 0.15
-	            dig_in_speed_factor = 0.15
+				dig_in_speed_factor = 0.15
 			}
 		}
 
@@ -238,13 +238,13 @@ ideas = {
 				breakthrough_factor = 0.235
 				army_attack_factor = 0.17
 				army_speed_factor = 0.15
-			    army_defence_factor = 0.05				
+				army_defence_factor = 0.05				
 			}
 
 			targeted_modifier = {
-                tag = CHE
-                attack_bonus_against = 0.15
-            }
+				tag = CHE
+				attack_bonus_against = 0.15
+			}
 		}
 
 		RAS_roadblock_idea = {
@@ -264,14 +264,14 @@ ideas = {
 			modifier = {
 				army_speed_factor = 0.075
 				supply_node_range = 0.05
-			    army_defence_factor = 0.05	
+				army_defence_factor = 0.05	
 				army_org_regain = 0.05			
 			}
 
 			targeted_modifier = {
-                tag = CHE
-                defence_bonus_against = 0.05
-            }
+				tag = CHE
+				defence_bonus_against = 0.05
+			}
 		}
 	}
-}	
+}

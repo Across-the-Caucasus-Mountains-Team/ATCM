@@ -20,7 +20,7 @@ technologies = {
 		}
 		enable_subunits = {
 			rangers_support
-		}		
+		}
 		###########
 		
 		force_use_small_tech_layout = yes
@@ -33,7 +33,7 @@ technologies = {
 		path = {
 			leads_to_tech = ski_troops
 			research_cost_coeff = 1
-		}	
+		}
 
 		path = {
 			leads_to_tech = rangers
@@ -887,7 +887,7 @@ technologies = {
 		
 		force_use_small_tech_layout = yes
 		
-		#xor = { special_forces_mountaineers special_forces_marines } 
+		#xor = { special_forces_mountaineers special_forces_marines }
 	
 		paratroopers_special_forces_contribution_factor = -0.10
 		transport_plane = {
@@ -1354,14 +1354,14 @@ technologies = {
 		categories = {
 			special_forces_doctrine
 			cat_rangers_doctrine
-		}		
+		}
 		category_special_forces = {
 			max_organisation = 5
 			soft_attack = 0.05
 		}
 		enable_subunits = {
 			rangers_support
-		}	
+		}
 		doctrine = yes	
 		research_cost = 2.25
 		
@@ -1376,10 +1376,10 @@ technologies = {
 		folder = {
 			name = special_forces_doctrine_folder
 			position = { x = 0 y = 0 }
-		}		
+		}
 		on_research_complete = {
 			remove_potential_special_forces_tree = yes
-		}		
+		}
 	}
 
 	rangers_jaegers_training = {
@@ -1411,7 +1411,7 @@ technologies = {
 		categories = {
 			special_forces_doctrine
 			cat_rangers_doctrine
-		}		
+		}
 		
 		folder = {
 			name = special_forces_doctrine_folder
@@ -1531,7 +1531,7 @@ technologies = {
 		folder = {
 			name = special_forces_doctrine_folder
 			position = { x = -1 y = 6 }
-		}			
+		}
 	}
 
 	rangers_fire_support_integration = {
@@ -1573,7 +1573,7 @@ technologies = {
 		folder = {
 			name = special_forces_doctrine_folder
 			position = { x = 1 y = 6 }
-		}			
+		}
 	}
 
 	rangers_urban_combat = {
@@ -1590,7 +1590,7 @@ technologies = {
 		path = {
 			leads_to_tech = rangers_backbone_doctrine
 			research_cost_coeff = 1
-		}		
+		}
 		category_rangers = {
 			default_morale = 0.1
 			supply_consumption = -0.02		
@@ -1615,7 +1615,7 @@ technologies = {
 		folder = {
 			name = special_forces_doctrine_folder
 			position = { x = 0 y = 8 }
-		}	
+		}
 	}
 
 	elite_rangers_doctrine = {

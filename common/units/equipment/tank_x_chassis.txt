@@ -71,7 +71,7 @@ equipments = {
 	}
 
 	modern_tank_equipment_3 = {
-        sprite = df_eq_modern_tank_equipment_3
+		sprite = df_eq_modern_tank_equipment_3
 
 		year = 1970
 		archetype = modern_tank_equipment
@@ -105,7 +105,7 @@ equipments = {
 	}
 
 	modern_tank_equipment_4 = {
-        sprite = df_eq_modern_tank_equipment_4
+		sprite = df_eq_modern_tank_equipment_4
 
 		year = 1975
 		archetype = modern_tank_equipment
@@ -139,7 +139,7 @@ equipments = {
 	}
 
 	modern_tank_equipment_5 = {
-        sprite = df_eq_modern_tank_equipment_5
+		sprite = df_eq_modern_tank_equipment_5
 
 		year = 1990
 		archetype = modern_tank_equipment

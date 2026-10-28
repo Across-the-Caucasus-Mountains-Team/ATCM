@@ -3,13 +3,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 5
 			tag = SAK
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1100 }
@@ -19,27 +19,27 @@ focus_tree = {
 		icon = GFX_Goal_SAK_Rise_from_Death
 		x = 5
 		y = 0
-		
+
 		cost = 10
 		 
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
-		
+
 		completion_reward = {
 			add_political_power = 150
 			add_stability = 0.35
@@ -56,7 +56,7 @@ focus_tree = {
 					days = 156
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -66,34 +66,34 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_rise_from_the_dead
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			add_popularity = { ideology = communism popularity = -0.25 }
 			add_timed_idea = {
 				idea = SAK_decommunization_idea
 				days = 365
-			}	
-		}	
+			}
+		}
 	}
 
 	focus = {
@@ -109,23 +109,23 @@ focus_tree = {
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		}	
+		}
 	}
 
 	focus = {
@@ -135,31 +135,31 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = SAK_begin_our_work
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -169,27 +169,27 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SAK_mtavroba
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			country_event = { id = Georgia.2 }
 			add_timed_idea = {
@@ -201,7 +201,7 @@ focus_tree = {
 				ideology = nationalism
 				popularity = 0.1
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -211,27 +211,27 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_mtavroba
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.05
@@ -239,7 +239,7 @@ focus_tree = {
 				ideology = nationalism
 				popularity = 0.05
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -249,27 +249,27 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SAK_mtavroba
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.075
@@ -277,7 +277,7 @@ focus_tree = {
 				ideology = nationalism
 				popularity = 0.05
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -287,29 +287,29 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = SAK_mtavroba
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		}	
+		}
 	}
 
 	focus = {
@@ -319,29 +319,29 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = SAK_mtavroba
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		}	
+		}
 	}
 
 	focus = {
@@ -355,32 +355,32 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SAK_nationalize_resources
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.05 
 			add_stability = -0.075
 			country_event = { id = Georgia.7 }
-		}	
+		}
 	}
 
 	focus = {
@@ -390,31 +390,31 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = SAK_begin_our_work
-		
+
 		cost = 1
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -424,32 +424,32 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SAK_khalkhi
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_RESEARCH }
-		
+
 		completion_reward = {
 			add_stability = 0.025
 			ATCM_increase_education_spending = yes
 			country_event = { id = Georgia.3 }
-		}	
+		}
 	}
 
 	focus = {
@@ -459,33 +459,33 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_khalkhi
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.05
 			add_stability = 0.05
 			add_popularity = { ideology = nationalism popularity = 0.1 }
-		}	
+		}
 	}
 
 	focus = {
@@ -495,33 +495,33 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SAK_khalkhi
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_STABILITY }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			add_war_support = 0.05
 			add_stability = 0.05
 			country_event = { id = Georgia.4 }
-		}	
+		}
 	}
 
 	focus = {
@@ -531,35 +531,35 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SAK_rebuild_the_faith
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_INDUSTRY }
-		
+
 		completion_reward = {
 			add_political_power = -25
 			add_stability = 0.05
 			add_timed_idea = {
 				days = 60
 				idea = SAK_New_Currency
-			}	
-		}	
+			}
+		}
 	}
 
 	focus = {
@@ -569,27 +569,27 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SAK_reform_schools
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
-		
+
 		completion_reward = {
 			remove_ideas = SAK_Tbilisi_syndrome
 			add_timed_idea = {
@@ -597,7 +597,7 @@ focus_tree = {
 				days = 90
 			}
 			country_event = { id = Georgia.5 }
-		}	
+		}
 	}
 
 	focus = {
@@ -611,32 +611,32 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SAK_georgianization_policies
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			has_completed_focus = SAK_abkhazians
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.05 
 			add_stability = -0.075
 			country_event = { id = Georgia.6 }
-		}	
+		}
 	}
 
 	focus = {
@@ -647,32 +647,32 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = SAK_abkhazians
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_political_power = -105
 			add_war_support = -0.15
 			add_stability = -0.15
 			country_event = { id = Georgia.12 }
-		}	
+		}
 	}
-}	
+}

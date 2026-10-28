@@ -28,7 +28,7 @@ country_event = {
 				end_wars = no
 				end_civil_wars = no
 			}
-		}	
+		}
 	}
 }
 

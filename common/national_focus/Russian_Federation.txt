@@ -11,7 +11,7 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 1
 			tag = RAS
@@ -36,7 +36,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -54,7 +54,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
+			add_stability = 0.05
 		}
 	}
 
@@ -76,7 +76,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -90,7 +90,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.025
+			add_stability = 0.025
 			add_political_power = 25
 		}
 	}
@@ -113,7 +113,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -127,7 +127,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	       add_political_power = 25
+		   add_political_power = 25
 		}
 	}
 
@@ -149,7 +149,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -164,7 +164,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.025
-	        army_experience = 50
+			army_experience = 50
 			hidden_effect = {
 				mark_focus_tree_layout_dirty = yes
 			}
@@ -190,7 +190,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -204,7 +204,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        army_experience = 50
+			army_experience = 50
 		}
 	}
 
@@ -228,7 +228,7 @@ focus_tree = {
 		allow_branch = {
 			has_completed_focus = RAS_victory
 		}
-		
+
 		bypass = {
 
 		}
@@ -242,7 +242,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        army_experience = 25
+			army_experience = 25
 		}
 	}
 
@@ -264,7 +264,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -278,7 +278,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        army_experience = 25
+			army_experience = 25
 		}
 	}
 
@@ -300,7 +300,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -314,7 +314,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        army_experience = 25
+			army_experience = 25
 		}
 	}
 
@@ -336,7 +336,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -350,7 +350,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        army_experience = 25
+			army_experience = 25
 			hidden_effect = {
 				country_event = russia.26
 			}
@@ -375,7 +375,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -389,7 +389,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        army_experience = 25
+			army_experience = 25
 		}
 	}
 
@@ -411,7 +411,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -425,7 +425,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        army_experience = 25
+			army_experience = 25
 		}
 	}
 
@@ -447,7 +447,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -461,7 +461,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
+			add_stability = 0.05
 			add_political_power = 35
 			add_war_support = -0.075
 		}
@@ -483,14 +483,14 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
 
 		allow_branch = {
 			NOT = {
-                has_completed_focus = RAS_victory
+				has_completed_focus = RAS_victory
 			}
 		}
 
@@ -503,19 +503,19 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
-		    add_political_power = 50
+			add_stability = 0.05
+			add_political_power = 50
 			unlock_decision_category_tooltip = RAS_eltsin_support_decision
 			set_variable = {
-                var = RAS_eltsin_support_value
-                value = 75
-            }
+				var = RAS_eltsin_support_value
+				value = 75
+			}
 			hidden_effect = {
-		        country_event = {
-			        id = russia.3
-				    days = 612
-		        }
-		    }
+				country_event = {
+					id = russia.3
+					days = 612
+				}
+			}
 		}
 	}
 
@@ -538,7 +538,7 @@ focus_tree = {
 		available = {
 			has_completed_focus = RAS_emergency_powers
 		}
-		
+
 		bypass = {
 
 		}
@@ -552,8 +552,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
-		    add_political_power = 25
+			add_war_support = 0.05
+			add_political_power = 25
 		}
 	}
 
@@ -572,9 +572,9 @@ focus_tree = {
 		}
 
 		available = {
-		    always = no
+			always = no
 		}
-		
+
 		bypass = {
 
 		}
@@ -592,9 +592,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = -0.075
+			add_stability = -0.075
 			add_war_support = -0.15
-		    add_political_power = -150
+			add_political_power = -150
 		}
 	}
 
@@ -616,7 +616,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -631,19 +631,19 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.025
-	        army_experience = 25
+			army_experience = 25
 			21 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+			}
 			20 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+			}
 			128 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+			}
 			11 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+			}
 		}
 	}
 
@@ -663,9 +663,9 @@ focus_tree = {
 		}
 
 		available = {
-		    has_full_control_of_state = 21
+			has_full_control_of_state = 21
 		}
-		
+
 		bypass = {
 
 		}
@@ -679,20 +679,20 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
-	        army_experience = 10
+			add_war_support = 0.025
+			army_experience = 10
 			126 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+			}
 			132 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+			}
 			133 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+			}
 			16 = {
-                add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
-            }
+				add_dynamic_modifier = { modifier = RAS_road_to_south_chechnya scope = RAS days = 20 }
+			}
 			unlock_decision_tooltip = RAS_improve_logistic
 		}
 	}
@@ -713,12 +713,12 @@ focus_tree = {
 		}
 
 		available = {
-		    has_full_control_of_state = 16
+			has_full_control_of_state = 16
 			has_full_control_of_state = 133
 			has_full_control_of_state = 132
 			date > 1995.01.02
 		}
-		
+
 		bypass = {
 
 		}
@@ -732,8 +732,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
-	        army_experience = 10
+			add_war_support = 0.025
+			army_experience = 10
 			add_political_power = 50
 			unlock_decision_tooltip = RAS_conduct_sharoi_cleanups
 			unlock_decision_tooltip = RAS_conduct_itum_calinsky_cleanups
@@ -764,7 +764,7 @@ focus_tree = {
 			date > 1996.01.02
 			casualties_k > 50
 		}
-		
+
 		bypass = {
 
 		}
@@ -778,7 +778,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        country_event = russia.25
+			country_event = russia.25
 		}
 	}
 
@@ -802,9 +802,9 @@ focus_tree = {
 		}
 
 		available = {
-		    has_completed_focus = RAS_attack_grozny
+			has_completed_focus = RAS_attack_grozny
 		}
-		
+
 		bypass = {
 
 		}
@@ -818,47 +818,47 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 75
+			add_political_power = 75
 			add_war_support = 0.025
 			add_to_variable = {
-                var = RAS_russian_infowar_value
-                value = 5
-                tooltip = add_to_russian_infowar_tt
-            }
+				var = RAS_russian_infowar_value
+				value = 5
+				tooltip = add_to_russian_infowar_tt
+			}
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
-                    value = 5
-                }
+					var = CHE_chechen_infowar_value
+					value = 5
+				}
 				clamp_variable = {
-                    var = RAS_russian_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = RAS_russian_infowar_value
+					min = 0
+					max = 100
+				}
 				clamp_variable = {
-                    var = CHE_chechen_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = CHE_chechen_infowar_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
-                        value = 5
-                    }
+						var = RAS_russian_infowar_value
+						value = 5
+					}
 					subtract_from_variable = {
-                        var = CHE_chechen_infowar_value
-                        value = 5
-                    }
-				    clamp_variable = {
-                        var = RAS_russian_infowar_value
-                        min = 0
-				        max = 100
-                    }
-				    clamp_variable = {
-                        var = CHE_chechen_infowar_value
-                        min = 0
-				        max = 100
-                    }
+						var = CHE_chechen_infowar_value
+						value = 5
+					}
+					clamp_variable = {
+						var = RAS_russian_infowar_value
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = CHE_chechen_infowar_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -882,7 +882,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -896,47 +896,47 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_war_support = 0.05
 			add_to_variable = {
-                var = RAS_russian_infowar_value
-                value = 5
-                tooltip = add_to_russian_infowar_tt
-            }
+				var = RAS_russian_infowar_value
+				value = 5
+				tooltip = add_to_russian_infowar_tt
+			}
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
-                    value = 5
-                }
+					var = CHE_chechen_infowar_value
+					value = 5
+				}
 				clamp_variable = {
-                    var = RAS_russian_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = RAS_russian_infowar_value
+					min = 0
+					max = 100
+				}
 				clamp_variable = {
-                    var = CHE_chechen_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = CHE_chechen_infowar_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
-                        value = 5
-                    }
+						var = RAS_russian_infowar_value
+						value = 5
+					}
 					subtract_from_variable = {
-                        var = CHE_chechen_infowar_value
-                        value = 5
-                    }
-				    clamp_variable = {
-                        var = RAS_russian_infowar_value
-                        min = 0
-				        max = 100
-                    }
-				    clamp_variable = {
-                        var = CHE_chechen_infowar_value
-                        min = 0
-				        max = 100
-                    }
+						var = CHE_chechen_infowar_value
+						value = 5
+					}
+					clamp_variable = {
+						var = RAS_russian_infowar_value
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = CHE_chechen_infowar_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -960,7 +960,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -974,48 +974,48 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 50
+			add_political_power = 50
 			add_stability = 0.05
 			add_war_support = 0.025
 			add_to_variable = {
-                var = RAS_russian_infowar_value
-                value = 5
-                tooltip = add_to_russian_infowar_tt
-            }
+				var = RAS_russian_infowar_value
+				value = 5
+				tooltip = add_to_russian_infowar_tt
+			}
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
-                    value = 5
-                }
+					var = CHE_chechen_infowar_value
+					value = 5
+				}
 				clamp_variable = {
-                    var = RAS_russian_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = RAS_russian_infowar_value
+					min = 0
+					max = 100
+				}
 				clamp_variable = {
-                    var = CHE_chechen_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = CHE_chechen_infowar_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
-                        value = 5
-                    } 
+						var = RAS_russian_infowar_value
+						value = 5
+					}
 					subtract_from_variable = {
-                        var = CHE_chechen_infowar_value
-                        value = 5
-                    }
-				    clamp_variable = {
-                        var = RAS_russian_infowar_value
-                        min = 0
-				        max = 100
-                    }
-				    clamp_variable = {
-                        var = CHE_chechen_infowar_value
-                        min = 0
-				        max = 100
-                    }
+						var = CHE_chechen_infowar_value
+						value = 5
+					}
+					clamp_variable = {
+						var = RAS_russian_infowar_value
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = CHE_chechen_infowar_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -1040,7 +1040,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1054,47 +1054,47 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 75
+			add_political_power = 75
 			add_war_support = 0.075
 			add_to_variable = {
-                var = RAS_russian_infowar_value
-                value = 5
-                tooltip = add_to_russian_infowar_tt
-            }
+				var = RAS_russian_infowar_value
+				value = 5
+				tooltip = add_to_russian_infowar_tt
+			}
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
-                    value = 5
-                }
+					var = CHE_chechen_infowar_value
+					value = 5
+				}
 				clamp_variable = {
-                    var = RAS_russian_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = RAS_russian_infowar_value
+					min = 0
+					max = 100
+				}
 				clamp_variable = {
-                    var = CHE_chechen_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = CHE_chechen_infowar_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
-                        value = 5
-                    }
+						var = RAS_russian_infowar_value
+						value = 5
+					}
 					subtract_from_variable = {
-                        var = CHE_chechen_infowar_value
-                        value = 5
-                    }
-				    clamp_variable = {
-                        var = RAS_russian_infowar_value
-                        min = 0
-				        max = 100
-                    }
-				    clamp_variable = {
-                        var = CHE_chechen_infowar_value
-                        min = 0
-				        max = 100
-                    }
+						var = CHE_chechen_infowar_value
+						value = 5
+					}
+					clamp_variable = {
+						var = RAS_russian_infowar_value
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = CHE_chechen_infowar_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -1118,7 +1118,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1132,47 +1132,47 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 75
+			add_political_power = 75
 			add_war_support = 0.075
 			add_to_variable = {
-                var = RAS_russian_infowar_value
-                value = 5
-                tooltip = add_to_russian_infowar_tt
-            }
+				var = RAS_russian_infowar_value
+				value = 5
+				tooltip = add_to_russian_infowar_tt
+			}
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
-                    value = 5
-                }
+					var = CHE_chechen_infowar_value
+					value = 5
+				}
 				clamp_variable = {
-                    var = RAS_russian_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = RAS_russian_infowar_value
+					min = 0
+					max = 100
+				}
 				clamp_variable = {
-                    var = CHE_chechen_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = CHE_chechen_infowar_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
-                        value = 5
-                    }
+						var = RAS_russian_infowar_value
+						value = 5
+					}
 					subtract_from_variable = {
-                        var = CHE_chechen_infowar_value
-                        value = 5
-                    }
-				    clamp_variable = {
-                        var = RAS_russian_infowar_value
-                        min = 0
-				        max = 100
-                    }
-				    clamp_variable = {
-                        var = CHE_chechen_infowar_value
-                        min = 0
-				        max = 100
-                    }
+						var = CHE_chechen_infowar_value
+						value = 5
+					}
+					clamp_variable = {
+						var = RAS_russian_infowar_value
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = CHE_chechen_infowar_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -1196,16 +1196,16 @@ focus_tree = {
 		allow_branch = {
 			has_global_flag = Fail_Blitz_First_ChechenWar
 			NOT = {
-                CHE = {
+				CHE = {
 					has_completed_focus = CHE_build_islamic_state
 				}
 			}
 		}
 
 		available = {
-		    has_completed_focus = RAS_attack_grozny
+			has_completed_focus = RAS_attack_grozny
 		}
-		
+
 		bypass = {
 
 		}
@@ -1219,47 +1219,47 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.05
 			add_to_variable = {
-                var = RAS_russian_infowar_value
-                value = 5
-                tooltip = add_to_russian_infowar_tt
-            }
+				var = RAS_russian_infowar_value
+				value = 5
+				tooltip = add_to_russian_infowar_tt
+			}
 			hidden_effect = {
 				subtract_from_variable = {
-                    var = CHE_chechen_infowar_value
-                    value = 5
-                }
+					var = CHE_chechen_infowar_value
+					value = 5
+				}
 				clamp_variable = {
-                    var = RAS_russian_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = RAS_russian_infowar_value
+					min = 0
+					max = 100
+				}
 				clamp_variable = {
-                    var = CHE_chechen_infowar_value
-                    min = 0
-				    max = 100
-                }
+					var = CHE_chechen_infowar_value
+					min = 0
+					max = 100
+				}
 				CHE = {
 					add_to_variable = {
-                        var = RAS_russian_infowar_value
-                        value = 5
-                    }
+						var = RAS_russian_infowar_value
+						value = 5
+					}
 					subtract_from_variable = {
-                        var = CHE_chechen_infowar_value
-                        value = 5
-                    }
-				    clamp_variable = {
-                        var = RAS_russian_infowar_value
-                        min = 0
-				        max = 100
-                    }
-				    clamp_variable = {
-                        var = CHE_chechen_infowar_value
-                        min = 0
-				        max = 100
-                    }
+						var = CHE_chechen_infowar_value
+						value = 5
+					}
+					clamp_variable = {
+						var = RAS_russian_infowar_value
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = CHE_chechen_infowar_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -1278,19 +1278,19 @@ focus_tree = {
 		ai_will_do = {
 			base = 5
 			modifier = {
-                factor = 25
-                casualties_k > 8
-            }
+				factor = 25
+				casualties_k > 8
+			}
 			modifier = {
 				factor = 35
-                date > 1996.01.01
-            }
+				date > 1996.01.01
+			}
 		}
 
 		available = {
-		    date > 1995.01.05
+			date > 1995.01.05
 		}
-		
+
 		bypass = {
 
 		}
@@ -1304,14 +1304,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = 0.075
 			unlock_decision_tooltip = RAS_meeting_of_delegations_of_countries
 			add_to_variable = {
-                var = RAS_negotiation_process_fcw_value
-                value = 20
-                tooltip = add_20_to_negotation_progress_fcw_tt
-            }
+				var = RAS_negotiation_process_fcw_value
+				value = 20
+				tooltip = add_20_to_negotation_progress_fcw_tt
+			}
 			clamp_variable = {
 				var = RAS_negotiation_process_fcw_value
 				min = 0
@@ -1325,10 +1325,10 @@ focus_tree = {
 						tooltip = add_20_to_negotation_progress_fcw_tt
 					}
 					clamp_variable = {
-				        var = RAS_negotiation_process_fcw_value
-				        min = 0
-				        max = 100
-			        }
+						var = RAS_negotiation_process_fcw_value
+						min = 0
+						max = 100
+					}
 				}
 			}
 		}
@@ -1347,39 +1347,39 @@ focus_tree = {
 		ai_will_do = {
 			base = -5
 			modifier = {
-                factor = 2
-                date > 1996.01.01
-            }
+				factor = 2
+				date > 1996.01.01
+			}
 			modifier = {
-                factor = 12
-                casualties_k > 20
-            }
+				factor = 12
+				casualties_k > 20
+			}
 			modifier = {
-                factor = 3
-                has_war_support < 0.25
-            }
+				factor = 3
+				has_war_support < 0.25
+			}
 			modifier = {
-                factor = -3
-                has_war_support > 0.55
-            }
+				factor = -3
+				has_war_support > 0.55
+			}
 			modifier = {
-                factor = -16
-                CHE = {
+				factor = -16
+				CHE = {
 					surrender_progress > 0.65
 				}
-            }
+			}
 		}
 
 		available = {
-		    check_variable = {
-                var = RAS_negotiation_process_fcw_value
-                value = 100
-                compare = greater_than_or_equals
+			check_variable = {
+				var = RAS_negotiation_process_fcw_value
+				value = 100
+				compare = greater_than_or_equals
 				tooltip = 11_RAS_tt
-            }
+			}
 			date > 1996.01.05
 		}
-		
+
 		bypass = {
 
 		}
@@ -1396,7 +1396,7 @@ focus_tree = {
 			add_political_power = 150
 			add_stability = 0.15
 			CHE = {
-                country_event = russia.13
+				country_event = russia.13
 			}
 		}
 	}
@@ -1417,9 +1417,9 @@ focus_tree = {
 		}
 
 		available = {
-		    has_completed_focus = RAS_attack_grozny
+			has_completed_focus = RAS_attack_grozny
 		}
-		
+
 		bypass = {
 
 		}
@@ -1433,8 +1433,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
-		    add_political_power = 50
+			add_war_support = 0.05
+			add_political_power = 50
 			army_experience = 10
 		}
 	}
@@ -1457,7 +1457,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1472,7 +1472,7 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 35
-		    add_political_power = 50
+			add_political_power = 50
 		}
 	}
 
@@ -1494,7 +1494,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1508,11 +1508,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
-		    air_experience = 25
+			add_war_support = 0.025
+			air_experience = 25
 			add_timed_idea = {
-                idea = RAS_awacs_reconnaissance
-                days = 125
+				idea = RAS_awacs_reconnaissance
+				days = 125
 			}
 			unlock_decision_tooltip = RAS_strengthen_the_patrol_of_awacs_aircraft
 		}
@@ -1536,7 +1536,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1550,8 +1550,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.075
-		    add_political_power = 25
+			add_stability = 0.075
+			add_political_power = 25
 			add_timed_idea = {
 				idea = RAS_roadblock_idea
 				days = 185
@@ -1578,7 +1578,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1593,9 +1593,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 35
-	        custom_effect_tooltip = RAS_conduct_cleanups_against_insurgency_tt
+			custom_effect_tooltip = RAS_conduct_cleanups_against_insurgency_tt
 		}
-	}	
+	}
 
 	focus = {
 		id = RAS_liquidation_of_the_main_terrorist
@@ -1614,9 +1614,9 @@ focus_tree = {
 		}
 
 		available = {
-		    date > 1995.01.05
+			date > 1995.01.05
 		}
-		
+
 		bypass = {
 
 		}
@@ -1630,8 +1630,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
-		    add_political_power = 25
+			add_stability = 0.05
+			add_political_power = 25
 			unlock_decision_tooltip = RAS_liquidation_of_dudayev
 		}
 	}
@@ -1652,9 +1652,9 @@ focus_tree = {
 		}
 
 		available = {
-		    has_completed_focus = RAS_attack_grozny
+			has_completed_focus = RAS_attack_grozny
 		}
-		
+
 		bypass = {
 
 		}
@@ -1668,12 +1668,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.065
+			add_war_support = 0.065
 			army_experience = 10
-		    add_timed_idea = {
-                idea = RAS_reorganize_our_frontline_idea
-                days = 90
-            }
+			add_timed_idea = {
+				idea = RAS_reorganize_our_frontline_idea
+				days = 90
+			}
 			load_oob = RAS_reorganize_frontline_first_chechen_war
 			unlock_decision_tooltip = RAS_additional_supplies_to_the_front
 		}
@@ -1697,7 +1697,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1711,24 +1711,24 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_war_support = 0.025
+			add_war_support = 0.025
 			air_experience = 25
 			add_timed_idea = {
-                idea = RAS_call_for_air_strikes_idea
-                days = 180
-            }
+				idea = RAS_call_for_air_strikes_idea
+				days = 180
+			}
 			add_equipment_to_stockpile = {
-	            type = CAS_equipment_1
-	            variant_name = "Су-25"
-	            amount = 50
-	            producer = RAS
-            }
-            add_equipment_to_stockpile = {
-	            type = CAS_equipment_2
-	            variant_name = "Су-30"
-	            amount = 10
-	            producer = RAS
-            }
+				type = CAS_equipment_1
+				variant_name = "Су-25"
+				amount = 50
+				producer = RAS
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2
+				variant_name = "Су-30"
+				amount = 10
+				producer = RAS
+			}
 		}
 	}
 
@@ -1750,7 +1750,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1764,9 +1764,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
+			add_war_support = 0.025
 			army_experience = 25
-		    add_political_power = 50
+			add_political_power = 50
 			load_oob = RAS_reinforcements_first_chechen_war
 		}
 	}
@@ -1791,7 +1791,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1805,8 +1805,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
-		    add_political_power = 50
+			add_war_support = 0.025
+			add_political_power = 50
 			load_oob = RAS_armour_reinforcements_first_chechen_war
 		}
 	}
@@ -1829,7 +1829,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1843,8 +1843,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
-		    add_political_power = 25
+			add_war_support = 0.025
+			add_political_power = 25
 			army_experience = 35
 			load_oob = RAS_infantry_battalions_first_chechen_war
 		}
@@ -1868,7 +1868,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1882,8 +1882,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
-		    add_political_power = 25
+			add_war_support = 0.025
+			add_political_power = 25
 			army_experience = 25
 			load_oob = RAS_infantry_battalions_first_chechen_war
 		}
@@ -1907,7 +1907,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1921,8 +1921,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.025
-		    add_political_power = 25
+			add_war_support = 0.025
+			add_political_power = 25
 			army_experience = 25
 			unlock_decision_tooltip = RAS_additional_manpower_in_the_kto
 			load_oob = RAS_infantry_battalions_first_chechen_war
@@ -1947,7 +1947,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -1962,8 +1962,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.075
-	        add_war_support = 0.05
-		    add_political_power = 25
+			add_war_support = 0.05
+			add_political_power = 25
 			custom_effect_tooltip = 12_RAS_tt
 			custom_effect_tooltip = 3_RAS_tt
 		}
@@ -1987,7 +1987,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2001,9 +2001,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.075
-		    add_political_power = 50
-            custom_effect_tooltip = 1_RAS_tt
+			add_stability = 0.075
+			add_political_power = 50
+			custom_effect_tooltip = 1_RAS_tt
 			custom_effect_tooltip = 12_RAS_tt
 			CHE = {
 				country_event = chechnya.46
@@ -2029,7 +2029,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2043,8 +2043,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
-		    add_political_power = 50
+			add_war_support = 0.05
+			add_political_power = 50
 		}
 	}
 
@@ -2067,7 +2067,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2081,8 +2081,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.075
-		    add_political_power = -125
+			add_stability = 0.075
+			add_political_power = -125
 			custom_effect_tooltip = 12_RAS_tt
 		}
 	}
@@ -2105,7 +2105,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2119,7 +2119,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
+			add_stability = 0.05
 		}
 	}
 
@@ -2142,7 +2142,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2156,8 +2156,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = -0.15
-		    add_political_power = 75
+			add_stability = -0.15
+			add_political_power = 75
 			custom_effect_tooltip = 2_RAS_tt
 			custom_effect_tooltip = 13_RAS_tt
 		}
@@ -2181,7 +2181,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2195,7 +2195,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.025
+			add_stability = 0.025
 			custom_effect_tooltip = 13_RAS_tt
 		}
 	}
@@ -2218,7 +2218,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2232,7 +2232,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	       add_political_power = 25
+		   add_political_power = 25
 		   add_stability = 0.075
 		}
 	}
@@ -2253,9 +2253,9 @@ focus_tree = {
 		}
 
 		available = {
-		    always = no
+			always = no
 		}
-		
+
 		bypass = {
 
 		}
@@ -2291,22 +2291,22 @@ focus_tree = {
 		available = {
 			has_country_flag = OpenAccessInNextUpdates
 		}
-		
+
 		bypass = {
 
 		}
 
 		offset = {
-            x = 2
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAS_parliamentary_resistance
-            }
-        }
+			x = 2
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = RAS_parliamentary_resistance
+			}
+		}
 
 		allow_branch = {
 			if = {
@@ -2335,7 +2335,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-            mark_focus_tree_layout_dirty = yes
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 
@@ -2357,7 +2357,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2393,7 +2393,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2429,7 +2429,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2472,16 +2472,16 @@ focus_tree = {
 		}
 
 		offset = {
-            x = -2
-            y = 0
-            trigger = {
-                has_game_rule = {
-                    rule = obsolete_focus_branches_visibility
-                    option = HIDE
-                }
-                has_completed_focus = RAS_supporty_eltcin
-            }
-        }
+			x = -2
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = RAS_supporty_eltcin
+			}
+		}
 
 		allow_branch = {
 			if = {
@@ -2496,11 +2496,11 @@ focus_tree = {
 				}
 			}
 			NOT = {
-                has_completed_focus = RAS_victory
+				has_completed_focus = RAS_victory
 			}
 			has_completed_focus = RAS_black_october
 		}
-		
+
 		bypass = {
 
 		}
@@ -2514,8 +2514,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
-		    add_political_power = 65
+			add_war_support = 0.05
+			add_political_power = 65
 			mark_focus_tree_layout_dirty = yes
 		}
 	}
@@ -2538,7 +2538,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2552,8 +2552,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
-		    add_political_power = 75
+			add_war_support = 0.05
+			add_political_power = 75
 		}
 	}
 
@@ -2575,7 +2575,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2589,8 +2589,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.10
-		    add_political_power = 65
+			add_stability = 0.10
+			add_political_power = 65
 		}
 	}
 
@@ -2610,9 +2610,9 @@ focus_tree = {
 		}
 
 		available = {
-		    date > 1995.01.01
+			date > 1995.01.01
 		}
-		
+
 		bypass = {
 
 		}
@@ -2620,7 +2620,7 @@ focus_tree = {
 		allow_branch = {
 			has_completed_focus = RAS_supporty_eltcin
 			NOT = {
-                has_completed_focus = RAS_victory
+				has_completed_focus = RAS_victory
 			}
 		}
 
@@ -2633,7 +2633,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 95
+			add_political_power = 95
 			mark_focus_tree_layout_dirty = yes
 			country_event = russia.27
 		}
@@ -2656,9 +2656,9 @@ focus_tree = {
 		}
 
 		available = {
-		    always = no
+			always = no
 		}
-		
+
 		bypass = {
 
 		}
@@ -2666,7 +2666,7 @@ focus_tree = {
 		allow_branch = {
 			has_completed_focus = RAS_new_elections
 			NOT = {
-                has_completed_focus = RAS_victory
+				has_completed_focus = RAS_victory
 			}
 		}
 
@@ -2679,7 +2679,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 50
+			add_political_power = 50
 		}
 	}
 
@@ -2702,7 +2702,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2710,7 +2710,7 @@ focus_tree = {
 		allow_branch = {
 			has_completed_focus = RAS_new_elections
 			NOT = {
-                has_completed_focus = RAS_victory
+				has_completed_focus = RAS_victory
 			}
 		}
 
@@ -2723,7 +2723,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 50
+			add_political_power = 50
 		}
 	}
 
@@ -2745,7 +2745,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2760,7 +2760,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
-		    add_political_power = -50
+			add_political_power = -50
 			custom_effect_tooltip = 19_RAS_tt
 			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
@@ -2788,7 +2788,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2803,7 +2803,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.075
-		    add_political_power = -250
+			add_political_power = -250
 			custom_effect_tooltip = 19_RAS_tt
 			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
@@ -2831,7 +2831,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2845,7 +2845,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 50
+			add_political_power = 50
 		}
 	}
 
@@ -2869,7 +2869,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2884,7 +2884,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.075
-		    add_political_power = -75
+			add_political_power = -75
 			custom_effect_tooltip = cash_balance_minus_500_tt
 			subtract_from_variable = {
 				var = cash
@@ -2909,9 +2909,9 @@ focus_tree = {
 		}
 
 		available = {
-		    always = no
+			always = no
 		}
-		
+
 		bypass = {
 
 		}
@@ -2948,7 +2948,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -2962,8 +2962,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_stability = 0.075
-		    add_political_power = -250
+			add_stability = 0.075
+			add_political_power = -250
 			remove_ideas = RAS_large_external_debt
 		}
 	}
@@ -2984,7 +2984,7 @@ focus_tree = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
@@ -2998,8 +2998,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
-		    add_political_power = 50
+			add_war_support = 0.05
+			add_political_power = 50
 		}
 	}
 
@@ -3021,7 +3021,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -3035,12 +3035,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
+			add_stability = 0.05
 			hidden_effect = {
 				news_event = {
-                    id = news.24
-                    days = 1
-                }
+					id = news.24
+					days = 1
+				}
 			}
 		}
 	}
@@ -3062,7 +3062,7 @@ focus_tree = {
 
 		available = {
 		}
-		
+
 		bypass = {
 
 		}
@@ -3076,41 +3076,41 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			unlock_decision_category_tooltip = RAS_influence_on_caucasus_decision
 			hidden_effect = {
 				set_variable = {
-                    var = RAS_SAK_influence_value
-                    value = 35
-                }
+					var = RAS_SAK_influence_value
+					value = 35
+				}
 				set_variable = {
-                    var = RAS_CHE_influence_value
-                    value = 25
-                }
+					var = RAS_CHE_influence_value
+					value = 25
+				}
 				set_variable = {
-                    var = RAS_ARM_influence_value
-                    value = 35
-                }
+					var = RAS_ARM_influence_value
+					value = 35
+				}
 				set_variable = {
-                    var = RAS_AZR_influence_value
-                    value = 35
-                }
+					var = RAS_AZR_influence_value
+					value = 35
+				}
 				set_variable = {
-                    var = RAS_ADJ_influence_value
-                    value = 35
-                }
+					var = RAS_ADJ_influence_value
+					value = 35
+				}
 				set_variable = {
-                    var = RAS_OST_influence_value
-                    value = 35
-                }
+					var = RAS_OST_influence_value
+					value = 35
+				}
 				set_variable = {
-                    var = RAS_ABK_influence_value
-                    value = 35
-                }
+					var = RAS_ABK_influence_value
+					value = 35
+				}
 				set_variable = {
-                    var = RAS_ARS_influence_value
-                    value = 35
-                }
+					var = RAS_ARS_influence_value
+					value = 35
+				}
 			}
 		}
 	}
@@ -3133,7 +3133,7 @@ focus_tree = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
@@ -3147,8 +3147,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_war_support = 0.05
-		    add_political_power = 10
+			add_war_support = 0.05
+			add_political_power = 10
 			army_experience = 25
 			custom_effect_tooltip = 7_RAS_tt
 		}
@@ -3174,7 +3174,7 @@ focus_tree = {
 				exists = yes
 			}
 		}
-		
+
 		bypass = {
 
 		}
@@ -3194,7 +3194,7 @@ focus_tree = {
 			}
 			add_manpower = -1000
 			ABK = { 
-			    load_oob = ABK_russian_support_1991
+				load_oob = ABK_russian_support_1991
 			}
 		}
 	}
@@ -3219,7 +3219,7 @@ focus_tree = {
 				exists = yes
 			}
 		}
-		
+
 		bypass = {
 
 		}
@@ -3239,7 +3239,7 @@ focus_tree = {
 			}
 			add_manpower = -1000
 			OST = { 
-			    load_oob = OST_second_russian_support_1991
+				load_oob = OST_second_russian_support_1991
 			}
 		}
 	}
@@ -3265,7 +3265,7 @@ focus_tree = {
 				has_war_with = SAK
 			}
 		}
-		
+
 		bypass = {
 
 		}
@@ -3279,9 +3279,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
+			add_stability = 0.05
 			add_war_support = 0.05
-		    add_political_power = 50
+			add_political_power = 50
 		}
 	}
 
@@ -3303,7 +3303,7 @@ focus_tree = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
@@ -3318,7 +3318,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
-	        army_experience = 50
+			army_experience = 50
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 2500 
@@ -3342,10 +3342,10 @@ focus_tree = {
 		}
 
 		available = {
-            has_completed_focus = RAS_accept_new_constitution
+			has_completed_focus = RAS_accept_new_constitution
 			date > 1993.01.05
 		}
-		
+
 		bypass = {
 
 		}
@@ -3390,9 +3390,9 @@ focus_tree = {
 		}
 
 		available = {
-            has_completed_focus = RAS_accept_new_constitution
+			has_completed_focus = RAS_accept_new_constitution
 		}
-		
+
 		bypass = {
 
 		}
@@ -3407,15 +3407,15 @@ focus_tree = {
 
 		completion_reward = {
 			add_timed_idea = {
-                idea = RAS_emergency_redeployment_idea
-                days = 25
-            }
+				idea = RAS_emergency_redeployment_idea
+				days = 25
+			}
 			add_war_support = 0.05
 			custom_effect_tooltip = 7_RAS_tt
 			hidden_effect = { 
-                load_oob = RAS_infantry_battalions_first_chechen_war
-			    load_oob = RAS_armour_reinforcements_first_chechen_war
-			    load_oob = RAS_omon_first_chechen_war
+				load_oob = RAS_infantry_battalions_first_chechen_war
+				load_oob = RAS_armour_reinforcements_first_chechen_war
+				load_oob = RAS_omon_first_chechen_war
 			}
 		}
 	}
@@ -3436,9 +3436,9 @@ focus_tree = {
 		}
 
 		available = {
-            has_completed_focus = RAS_accept_new_constitution
+			has_completed_focus = RAS_accept_new_constitution
 		}
-		
+
 		bypass = {
 
 		}
@@ -3458,17 +3458,17 @@ focus_tree = {
 			set_country_flag = VDVLandingInProgress
 			unlock_decision_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
 			add_equipment_to_stockpile = {
-	            type = CAS_equipment_1
-	            variant_name = "Су-25"
-	            amount = 190
-	            producer = RAS
-            }
-            add_equipment_to_stockpile = {
-	            type = CAS_equipment_2
-	            variant_name = "Су-30"
-	            amount = 15
-	            producer = RAS
-            }
+				type = CAS_equipment_1
+				variant_name = "Су-25"
+				amount = 190
+				producer = RAS
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2
+				variant_name = "Су-30"
+				amount = 15
+				producer = RAS
+			}
 		}
 	}
 
@@ -3491,9 +3491,9 @@ focus_tree = {
 		available = {
 			date > 1994.10.01
 		}
-		
+
 		bypass = {
-            CHE = {
+			CHE = {
 				has_completed_focus = CHE_holy_jihad_against_russia
 			}
 		}
@@ -3508,13 +3508,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.05
-            CHE = {
-                country_event = russia.20
+			CHE = {
+				country_event = russia.20
 			}
 			mark_focus_tree_layout_dirty = yes
 			hidden_effect = {
 				CHE = {
-				    country_event = ai_stragecy.1
+					country_event = ai_stragecy.1
 				}
 			}
 		}
@@ -3538,7 +3538,7 @@ focus_tree = {
 		available = {
 			date > 1993.10.05
 		}
-		
+
 		bypass = {
  
 		}
@@ -3560,34 +3560,34 @@ focus_tree = {
 			custom_effect_tooltip = 14_RAS_tt
 			hidden_effect = {
 				21 = {
-				    damage_building = {
-                        type = infrastructure
-                        damage = 2
-                    }
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
 				}
 				21 = {
-				    damage_building = {
-                        type = arms_factory
-                        damage = 1
-                    }
+					damage_building = {
+						type = arms_factory
+						damage = 1
+					}
 				}
 				20 = {
-				    damage_building = {
-                        type = infrastructure
-                        damage = 1
-                    }
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
 				}
 				11 = {
-				    damage_building = {
-                        type = infrastructure
-                        damage = 1
-                    }
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
 				}
 				125 = {
-				    damage_building = {
-                        type = infrastructure
-                        damage = 1
-                    }
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
 				}
 				country_event = {
 					id = chechnya.38
@@ -3599,14 +3599,14 @@ focus_tree = {
 				}
 				CHE = {
 					country_event = {
-					    id = chechnya.38
-					    days = 1
-				    }
+						id = chechnya.38
+						days = 1
+					}
 				}
 				news_event = {
-                    id = news.23
-                    days = 1
-                }
+					id = news.23
+					days = 1
+				}
 			}
 		}
 	}
@@ -3627,9 +3627,9 @@ focus_tree = {
 		}
 
 		available = {
-            has_completed_focus = RAS_accept_new_constitution
+			has_completed_focus = RAS_accept_new_constitution
 		}
-		
+
 		bypass = {
 
 		}
@@ -3641,17 +3641,17 @@ focus_tree = {
 		complete_tooltip = {
 
 		}
-      
+	  
 		completion_reward = {
 			add_war_support = 0.05
 			add_timed_idea = {
-                idea = RAS_blitz_chechnya_idea
-                days = 25
+				idea = RAS_blitz_chechnya_idea
+				days = 25
 			}
-	        declare_war_on = {
-                target = CHE
-                type = annex_everything
-            }    
+			declare_war_on = {
+				target = CHE
+				type = annex_everything
+			}
 			activate_mission  = RAS_failed_blitzkrieg_decision
 			activate_mission = RAS_take_Grozny
 			activate_mission = RAS_take_Shali
@@ -3662,8 +3662,8 @@ focus_tree = {
 			hidden_effect = {
 				set_global_flag = FirstChechenWar
 				CHE = {
-				    country_event = { id = Chechnya.6 }
-			    }
+					country_event = { id = Chechnya.6 }
+				}
 				country_event = superevent.4
 				if = {
 					limit = {
@@ -3681,7 +3681,7 @@ focus_tree = {
 					}
 				}
 				if = {
-				    limit = {
+					limit = {
 						RAS = { 
 							is_ai = yes
 						}
@@ -3696,21 +3696,21 @@ focus_tree = {
 					add_ideas = GEN_AI_buff_idea
 				}
 				country_event = {
-                    id = russia.22
-                    days = 4
-                }
-                if = {
+					id = russia.22
+					days = 4
+				}
+				if = {
 					limit = {
 						NOT = {
-                            has_completed_focus = CHE_build_islamic_state
+							has_completed_focus = CHE_build_islamic_state
 						}
 					}
 					CHE = {
-					    country_event = {
-						    id = chechnya.27
-						    days = 32
-				 	    }
-				    }
+						country_event = {
+							id = chechnya.27
+							days = 32
+				 		}
+					}
 				}
 				124 = {
 					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
@@ -3722,9 +3722,9 @@ focus_tree = {
 					add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
 				}
 				puppet = {
-                    target = CHI
-                    end_wars = no
-                }
+					target = CHI
+					end_wars = no
+				}
 				13 = {
 					add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
 				}
@@ -3747,54 +3747,54 @@ focus_tree = {
 						}
 					}
 					17 = {
-					    add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
+						add_dynamic_modifier = { modifier = CHE_unprepared_attack scope = CHE  }
 					}
 				}
 				set_variable = {
-                    var = RAS_russian_infowar_value
-                    value = 50
+					var = RAS_russian_infowar_value
+					value = 50
 					tooltip = set_var_to_100_tt
-                }
+				}
 				set_variable = {
-                    var = CHE_chechen_infowar_value
-                    value = 50
+					var = CHE_chechen_infowar_value
+					value = 50
 					tooltip = set_var_to_100_tt
-                }
+				}
 				CHE = {
-				    set_variable = {
-                        var = RAS_russian_infowar_value
-                        value = 50
-					    tooltip = set_var_to_100_tt
-                    }
-				    set_variable = {
-                        var = CHE_chechen_infowar_value
-                        value = 50
-					    tooltip = set_var_to_100_tt
-                    }					
+					set_variable = {
+						var = RAS_russian_infowar_value
+						value = 50
+						tooltip = set_var_to_100_tt
+					}
+					set_variable = {
+						var = CHE_chechen_infowar_value
+						value = 50
+						tooltip = set_var_to_100_tt
+					}
 				}
 				21 = {
-                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-                }
-			    20 = {
-                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-                }
-			    128 = {
-                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-                }
-			    11 = {
-                    add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
-                }
+					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+				}
+				20 = {
+					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+				}
+				128 = {
+					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+				}
+				11 = {
+					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+				}
 
 				if = {
 					limit = {
 						has_country_flag = VDVLanding_at_Grozny_Airport_Prepared
 					}
 					CHE = {
-					    country_event = {
-                            id = chechnya.30
-                            days = 5
-                        }
-				    }
+						country_event = {
+							id = chechnya.30
+							days = 5
+						}
+					}
 				}
 				if = {
 					limit = {
@@ -3808,11 +3808,11 @@ focus_tree = {
 						has_country_flag = PreparedDefenceGrozny
 					}
 					21 = {
-                        add_dynamic_modifier = { modifier = CHE_prepared_defense scope = CHE days = 25 }
-                    }
-			        20 = {
-                        add_dynamic_modifier = { modifier = CHE_prepared_defense scope = CHE days = 25 }
-                    }
+						add_dynamic_modifier = { modifier = CHE_prepared_defense scope = CHE days = 25 }
+					}
+					20 = {
+						add_dynamic_modifier = { modifier = CHE_prepared_defense scope = CHE days = 25 }
+					}
 				}
 			}
 		}
@@ -3836,7 +3836,7 @@ focus_tree = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
@@ -3852,7 +3852,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.025
 			army_experience = 35
-	        load_oob = RAS_omon_first_chechen_war
+			load_oob = RAS_omon_first_chechen_war
 		}
 	}
 
@@ -3870,9 +3870,9 @@ focus_tree = {
 		}
 
 		available = {
-		    has_completed_focus = RAS_emergency_powers
+			has_completed_focus = RAS_emergency_powers
 		}
-		
+
 		bypass = {
 
 		}
@@ -3886,8 +3886,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.05
-		    add_political_power = 15
+			add_stability = 0.05
+			add_political_power = 15
 		}
 	}
 
@@ -3908,7 +3908,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -3922,8 +3922,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.10
-		    add_political_power = 15
+			add_stability = 0.10
+			add_political_power = 15
 			custom_effect_tooltip = 4_RAS_tt
 		}
 	}
@@ -3946,7 +3946,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -3960,11 +3960,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.075
-		    add_political_power = 50
+			add_stability = 0.075
+			add_political_power = 50
 			custom_effect_tooltip = 4_RAS_tt
 			hidden_effect = {
-                
+				
 			}
 		}
 	}
@@ -3987,7 +3987,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -4001,13 +4001,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		    add_political_power = 25
+			add_political_power = 25
 			add_stability = -0.15
-		    hidden_effect = {
-                country_event = {
-			        id = russia.23
-				    days = 86
-		        }
+			hidden_effect = {
+				country_event = {
+					id = russia.23
+					days = 86
+				}
 			}
 			custom_effect_tooltip = 4_RAS_tt
 		}
@@ -4031,7 +4031,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -4045,17 +4045,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = 0.075
+			add_stability = 0.075
 			add_political_power = 25
-		    add_ideas = free_trade
-		    custom_effect_tooltip = 4_RAS_tt
+			add_ideas = free_trade
+			custom_effect_tooltip = 4_RAS_tt
 			custom_effect_tooltip = cash_balance_plus_5_tt
 			add_to_variable = {
 				var = cash
 				value = 5
 			}
 			hidden_effect = {
-                
+				
 			}
 		}
 	}
@@ -4080,7 +4080,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -4094,7 +4094,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	        add_stability = -0.075
+			add_stability = -0.075
 			custom_effect_tooltip = 4_RAS_tt
 			custom_effect_tooltip = cash_balance_plus_5_tt
 			add_to_variable = {
@@ -4102,7 +4102,7 @@ focus_tree = {
 				value = 5
 			}
 			hidden_effect = {
-                
+				
 			}
 		}
 	}
@@ -4125,7 +4125,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -4139,7 +4139,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-	    add_war_support = 0.05
+		add_war_support = 0.05
 		add_political_power = 50
 		
 		
@@ -4162,9 +4162,9 @@ focus_tree = {
 		}
 
 		available = {
-		    date > 1995.01.01
+			date > 1995.01.01
 		}
-		
+
 		bypass = {
 
 		}
@@ -4200,7 +4200,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -4234,11 +4234,11 @@ focus_tree = {
 		}
 
 		available = {
-		    NOT = {
+			NOT = {
 				has_idea = RAS_hyperinflation
 			}
 		}
-		
+
 		bypass = {
 
 		}
@@ -4274,7 +4274,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}
@@ -4310,7 +4310,7 @@ focus_tree = {
 		available = {
 		
 		}
-		
+
 		bypass = {
 
 		}

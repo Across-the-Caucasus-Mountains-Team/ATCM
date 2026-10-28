@@ -15,7 +15,7 @@ technologies = {
 		start_year = 1933
 		folder = {
 			name = air_techs_folder
-			position = { x = 1 y = 2 } 
+			position = { x = 1 y = 2 }
 		}
 		
 		categories = {
@@ -48,7 +48,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = air_techs_folder
-			position = { x = 1 y = 6 } 
+			position = { x = 1 y = 6 }
 		}
 		
 		categories = {
@@ -76,7 +76,7 @@ technologies = {
 		start_year = 1948
 		folder = {
 			name = air_techs_folder
-			position = { x = 1 y = 12 } 
+			position = { x = 1 y = 12 }
 		}
 		
 		categories = {
@@ -188,7 +188,7 @@ technologies = {
 		enable_equipments = {
 			fighter_equipment_1
 			
-		}	
+		}
 		path = {
 			leads_to_tech = fighter2
 			research_cost_coeff = 1
@@ -295,7 +295,7 @@ technologies = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_jet_engine	
 			}
-		}			
+		}
 		path = {
 			leads_to_tech = fighter3
 			research_cost_coeff = 1
@@ -496,7 +496,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_jet_engine
-			} 
+			}
 		}
 		on_research_complete = {
 			custom_effect_tooltip = {
@@ -549,7 +549,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
-			} 
+			}
 		}
 
 		enable_equipments = {
@@ -612,7 +612,7 @@ technologies = {
 
 		enable_equipments = {
 			CAS_equipment_1
-		}	
+		}
 		path = {
 			leads_to_tech = CAS2
 			research_cost_coeff = 1
@@ -653,7 +653,7 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-				    has_war_with = SAK
+					has_war_with = SAK
 					has_war_with = CHE
 				}
 				tag = RAS
@@ -1158,7 +1158,7 @@ technologies = {
 
 		enable_equipments = {
 			heavy_fighter_equipment_1
-		}	
+		}
 		path = {
 			leads_to_tech = heavy_fighter2
 			research_cost_coeff = 1
@@ -1340,7 +1340,7 @@ technologies = {
 		enable_equipments = {
 			tac_bomber_equipment_1
 			
-		}	
+		}
 		path = {
 			leads_to_tech = tactical_bomber2
 			research_cost_coeff = 1
@@ -1406,7 +1406,7 @@ technologies = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_jet_engine	
 			}
-		}		
+		}
 		on_research_complete = {
 			if = {
 				limit = {
@@ -1517,7 +1517,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_jet_engine
-			} 
+			}
 		}
 		on_research_complete = {
 			custom_effect_tooltip = {
@@ -1564,7 +1564,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
-			} 
+			}
 		}
 
 		enable_equipments = {
@@ -1623,7 +1623,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = RAS
-			}	
+			}
 		}
 	}
 	
@@ -1647,11 +1647,11 @@ technologies = {
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_air_bouncing_bomb	
-				}	
+				}
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_air_earthshaker_bomb	
-				}														
+				}
 			}
 		}
 	
@@ -1732,7 +1732,7 @@ technologies = {
 		allow = { 	 		
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
-			} 
+			}
 		}
 
 		enable_equipments = {

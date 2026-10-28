@@ -217,7 +217,7 @@ ideologies = {
 			
 			gkchp = {
 				can_be_randomly_selected = no
-			}	
+			}
 		}
 
 		dynamic_faction_names = {
@@ -355,7 +355,7 @@ ideologies = {
 			
 			all_national_congress_of_the_chechen_people = {
 				can_be_randomly_selected = no
-			}	
+			}
 			
 			ossetian_government = {
 				can_be_randomly_selected = no
@@ -533,4 +533,4 @@ ideologies = {
 		
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
 	}
-}	
+}

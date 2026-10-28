@@ -41,6 +41,6 @@ equipments = {
 			steel = 4
 			tungsten = 2
 			chromium = 2
-		}		
+		}
 	}
 }

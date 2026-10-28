@@ -44,15 +44,15 @@ sub_units = {
 		suppression = 2
 
 		forest = {
-		    attack = -0.15
+			attack = -0.15
 			movement = -0.25
 		}
 		mountain = 	{
-		    attack = -0.1
-		    movement = -0.35
+			attack = -0.1
+			movement = -0.35
 		}
 		marsh = {
-		    attack = -0.05
+			attack = -0.05
 			movement = -0.40
 		}
 		desert = {
@@ -69,6 +69,6 @@ sub_units = {
 		}
 		amphibious = { 
 			attack = -0.4
-		}	
+		}
 	}
 }

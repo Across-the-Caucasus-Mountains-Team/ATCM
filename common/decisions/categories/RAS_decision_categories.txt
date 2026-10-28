@@ -12,7 +12,7 @@ RAS_soviet_separatism_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		NOT = {
 			has_global_flag = USSR_Colapsed
 		}
@@ -30,7 +30,7 @@ RAS_eltsin_support_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_completed_focus = RAS_presidency_of_eltsin 
 	}
 	visible_when_empty = yes
@@ -45,7 +45,7 @@ RAS_influence_on_caucasus_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_completed_focus = RAS_return_influence_on_postsoviet_area 
 	}
 	scripted_gui = RAS_influence_on_caucasus_decision_window
@@ -61,7 +61,7 @@ RAS_preparing_for_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_country_flag = VDVLandingInProgress
 		NOT = {
 			has_global_flag = FirstChechenWar
@@ -78,7 +78,7 @@ RAS_first_chechen_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_global_flag = FirstChechenWar
 	}
 	scripted_gui = RAS_general_staff_decision_window
@@ -94,7 +94,7 @@ RAS_special_services_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_global_flag = FirstChechenWar
 	}
 	visible_when_empty = yes
@@ -109,7 +109,7 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_global_flag = FirstChechenWar
 	}
 	visible_when_empty = no
@@ -124,7 +124,7 @@ RAS_second_chechen_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_global_flag = SecondChechenWar
 	}
 	visible_when_empty = yes
@@ -139,7 +139,7 @@ RAS_third_chechen_war_decision = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_global_flag = ThirdChechenWar
 	}
 	visible_when_empty = yes
@@ -154,7 +154,7 @@ RAS_elections_1996 = {
 	picture = GFX_decision_RAS_separatism
 
 	visible = {
-        tag = RAS
+		tag = RAS
 		has_global_flag = ThirdChechenWar
 	}
 	visible_when_empty = yes

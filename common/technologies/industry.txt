@@ -141,7 +141,7 @@ technologies = {
 			modifier = {
 				factor = 10
 				date > "1941.1.1"
-			}			
+			}
 		}
 		
 		categories = {
@@ -395,7 +395,7 @@ technologies = {
 			modifier = {
 				factor = 10
 				date > "1939.1.1"
-			}			
+			}
 		}
 		
 		categories = {
@@ -471,7 +471,7 @@ technologies = {
 			modifier = {
 				factor = 20
 				date > "1943.1.1"
-			}			
+			}
 		}
 		
 		categories = {
@@ -607,7 +607,7 @@ technologies = {
 			modifier = {
 				factor = 10
 				date > "1939.1.1"
-			}			
+			}
 		}
 		
 		categories = {
@@ -736,45 +736,45 @@ technologies = {
 			modifier = {
 				factor = 3
 				oil > 20
-			}	
+			}
 			modifier = {
 				factor = 4
 				oil > 30
-			}	
+			}
 			
 			modifier = {
 				factor = 2
 				num_of_military_factories > 10
-			}	
+			}
 			modifier = {
 				factor = 3
 				num_of_military_factories > 20
-			}	
+			}
 			modifier = {
 				factor = 4
 				num_of_military_factories > 30
-			}	
+			}
 			modifier = {
 				factor = 4
 				num_of_military_factories > 40
-			}	
+			}
 			modifier = {
 				factor = 4
 				num_of_military_factories > 50
-			}	
+			}
 
 			modifier = {
 				factor = 2
 				num_of_naval_factories > 10
-			}	
+			}
 			modifier = {
 				factor = 3
 				num_of_naval_factories > 20
-			}	
+			}
 			modifier = {
 				factor = 4
 				num_of_naval_factories > 30
-			}	
+			}
 			modifier = {
 				factor = 4
 				num_of_naval_factories > 40
@@ -830,24 +830,24 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 10
-			}	
+			}
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 20
-			}	
+			}
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 30
-			}	
+			}
 
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 10
-			}	
+			}
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 20
-			}	
+			}
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
@@ -891,20 +891,20 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 20
-			}	
+			}
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 30
-			}	
+			}
 
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 20
-			}	
+			}
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
-			}			
+			}
 		}
 		
 	}
@@ -943,13 +943,13 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 30
-			}	
+			}
 
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
-			}				
-		}		
+			}
+		}
 	}
 
 	fuel_refining4 = {
@@ -986,13 +986,13 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 30
-			}	
+			}
 
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 30
-			}				
-		}		
+			}
+		}
 	}
 
 	fuel_refining5 = {
@@ -1025,13 +1025,13 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				num_of_military_factories > 40
-			}	
+			}
 
 			modifier = {
 				factor = 1.5
 				num_of_naval_factories > 40
-			}				
-		}		
+			}
+		}
 	}
 	
 	synth_oil_experiments = {
@@ -1075,11 +1075,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				oil > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1120,11 +1120,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				oil > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1166,11 +1166,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				oil > 30
-			}		
+			}
 		}
 		
 		ai_research_weights = {
@@ -1212,11 +1212,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				rubber > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				rubber > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1253,11 +1253,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				oil > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				oil > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1306,11 +1306,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				rubber > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				rubber > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1358,11 +1358,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				rubber > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				rubber > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1410,11 +1410,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				rubber > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				rubber > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1457,11 +1457,11 @@ technologies = {
 			modifier = {
 				factor = 0.5
 				rubber > 20
-			}	
+			}
 			modifier = {
 				factor = 0.5
 				rubber > 30
-			}			
+			}
 		}
 		
 		ai_research_weights = {
@@ -1566,7 +1566,7 @@ technologies = {
 		path = {
 			leads_to_tech = construction3 
 			research_cost_coeff = 1
-		}		
+		}
 		path = {
 			leads_to_tech = excavation2 
 			research_cost_coeff = 1
@@ -1591,7 +1591,7 @@ technologies = {
 			modifier = {
 				factor = 10
 				date > "1937.1.1"
-			}			
+			}
 		}
 	}
 
@@ -1645,7 +1645,7 @@ technologies = {
 				}
 			}
 		}
-	}	
+	}
 	
 	construction3 = {
 
@@ -1744,7 +1744,7 @@ technologies = {
 				}
 			}
 		}
-	}		
+	}
 	
 	construction4 = {
 
@@ -1839,7 +1839,7 @@ technologies = {
 				}
 			}
 		}
-	}			
+	}
 	
 	construction5 = {
 
@@ -2016,7 +2016,7 @@ technologies = {
 				}
 			}
 		}
-	}		
+	}
 	
 	basic_train = {
 		enable_equipments = {

@@ -3,13 +3,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = AZR
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 3000 y = 500 }
@@ -19,109 +19,109 @@ focus_tree = {
 		icon = GFX_AZR_Soviet_State
 		x = 5
 		y = 0
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    add_political_power = 50
+			add_political_power = 50
 			add_war_support = 0.05
 			add_stability = -0.05
-		}	
+		}
 	}
 
-    focus = {
+	focus = {
 		id = AZR_Sovereignty_Question
 		icon = GFX_AZR_Sovereignty_Question
 		x = 0
 		y = 1
 		prerequisite = { focus = AZR_Soviet_State }
 		relative_position_id = AZR_Soviet_State
-		
+
 		cost = 50
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    add_political_power = 20
+			add_political_power = 20
 			add_war_support = 0.05 #Indep_mech
 			add_stability = -0.10
 		}
-    }
+	}
 
 
-    # ##########################################################################
-    # #      ###      ### #### ####      ##### ##### ###      ###      ###    ##
-    # # ######## #### ### #### #### ########## ##### ### ######## ######## ### #
-    # #      ### #### ### #### ####      ##### ##### ###      ###      ###    ##
-    # ###### ###      #### ## ##### ########## ##### ######## ######## ### ### #
-    # #      ### #### #####  ######      ######     ####      ###      ### ### #
-    # ##########################################################################
+	# ##########################################################################
+	# #	  ###	  ### #### ####	  ##### ##### ###	  ###	  ###	##
+	# # ######## #### ### #### #### ########## ##### ### ######## ######## ### #
+	# #	  ### #### ### #### ####	  ##### ##### ###	  ###	  ###	##
+	# ###### ###	  #### ## ##### ########## ##### ######## ######## ### ### #
+	# #	  ### #### #####  ######	  ######	 ####	  ###	  ### ### #
+	# ##########################################################################
 
-    focus = {
+	focus = {
 		id = AZR_Preservation_of_USSR
 		icon = GFX_AZR_Preservation_of_USSR
 		x = -1
 		y = 1
 		prerequisite = { focus = AZR_Sovereignty_Question }
 		relative_position_id = AZR_Sovereignty_Question
-		
+
 		cost = 40
-		
+
 		ai_will_do = {
 			factor = 0
 		}
 		
-        mutually_exclusive = {
-            focus = AZR_Pursuit_of_Independence
-        }
+		mutually_exclusive = {
+			focus = AZR_Pursuit_of_Independence
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-            add_opinion = {
-                target = RAS
-                value = 10
-            }
+			add_opinion = {
+				target = RAS
+				value = 10
+			}
 		}
-    }
+	}
 
 	focus = {
 		id = AZR_Soviet_Loyalty
@@ -129,17 +129,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-        prerequisite = { focus = AZR_Preservation_of_USSR }
+		prerequisite = { focus = AZR_Preservation_of_USSR }
 		relative_position_id = AZR_Preservation_of_USSR
-		
-        cost = 30
+
+		cost = 30
 
 		completion_reward = {
 			add_political_power = 50
-			add_opinion = {
-                target = RAS
-                value = 20
-            }
 			add_stability = -0.075
 		}
 	}
@@ -153,14 +149,14 @@ focus_tree = {
 
 		prerequisite = { focus = AZR_Soviet_Loyalty }
 		relative_position_id = AZR_Soviet_Loyalty
-		
-        cost = 35
-		
-        completion_reward = {
+
+		cost = 35
+
+		completion_reward = {
 			add_popularity = {
-                ideology = communism
-                popularity = -0.05
-            }
+				ideology = communism
+				popularity = -0.05
+			}
 			add_stability = -0.15
 			add_war_support = -0.05
 		}
@@ -170,83 +166,79 @@ focus_tree = {
 		id = AZR_Communist_Preservation
 		icon = GFX_AZR_Communist_Preservation
 		
-        x = 0
+		x = 0
 		y = 1
 		
-        prerequisite = { focus = AZR_Support_Coup }
+		prerequisite = { focus = AZR_Support_Coup }
 		relative_position_id = AZR_Support_Coup
-		
-        cost = 30
-		
-        completion_reward = {
+
+		cost = 30
+
+		completion_reward = {
 			add_popularity = {
-                ideology = communism
-                popularity = 0.15
-            }
+				ideology = communism
+				popularity = 0.15
+			}
 			add_political_power = 20
 		}
 	}
 
-    # ######################################
-    # #  ###  ### ###   #####      ###    ##
-    # ###### # ## ### ##  ### ######## ### #
-    # #  ### #  # ### ### ###      ### ### #
-    # #  ### ## # ### ##  ### ########    ##
-    # #  ### ###  ###   #####      ### #####
-    # ######################################
+	# ######################################
+	# #  ###  ### ###   #####	  ###	##
+	# ###### # ## ### ##  ### ######## ### #
+	# #  ### #  # ### ### ###	  ### ### #
+	# #  ### ## # ### ##  ### ########	##
+	# #  ### ###  ###   #####	  ### #####
+	# ######################################
 
-    focus = {
+	focus = {
 		id = AZR_Pursuit_of_Independence
 		icon = GFX_AZR_Pursuit_of_Independence
 		x = 1
 		y = 1
 		prerequisite = { focus = AZR_Sovereignty_Question }
 		relative_position_id = AZR_Sovereignty_Question
-		
+
 		cost = 25
-		
+
 		ai_will_do = {
 			factor = 100
 		}
 		
-        mutually_exclusive = {
-            focus = AZR_Preservation_of_USSR
-        }
+		mutually_exclusive = {
+			focus = AZR_Preservation_of_USSR
+		}
 
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-            add_stability = -0.10
-            add_war_support = 0.10 # Indep_mech
-            add_opinion = {
-                target = RAS
-                value = -10
-            }
+			add_stability = -0.10
+			add_war_support = 0.10 # Indep_mech
 		}
-    }
-    
-    focus = {
+	}
+	
+	focus = {
 		id = AZR_Anti_Communist_Protests
 		icon = GFX_AZR_Anti_Communist_Protests
 		x = 0
 		y = 1
 		prerequisite = { focus = AZR_Pursuit_of_Independence }
 		relative_position_id = AZR_Pursuit_of_Independence
-		
+
 		cost = 25
-		
+
 		ai_will_do = {
 			factor = 100
 		}
@@ -254,38 +246,34 @@ focus_tree = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-            add_political_power = 20
-            add_stability = -0.10
-            add_war_support = 0.05 # Indep_mech
-            add_opinion = {
-                target = RAS
-                value = -20
-            }
+			add_political_power = 20
+			add_stability = -0.10
+			add_war_support = 0.05
 		}
-    }
-    
-    focus = {
+	}
+	
+	focus = {
 		id = AZR_Pro_Democratic_Speeches
 		icon = GFX_AZR_Pro_Democratic_Speeches
 		x = 0
 		y = 1
 		prerequisite = { focus = AZR_Anti_Communist_Protests }
 		relative_position_id = AZR_Anti_Communist_Protests
-		
+
 		cost = 30
-		
+
 		ai_will_do = {
 			factor = 100
 		}
@@ -293,37 +281,33 @@ focus_tree = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-            add_stability = 0.10
-            add_war_support = 0.05 # Indep_mech
-            add_opinion = {
-                target = RAS
-                value = -10
-            }
+			add_stability = 0.10
+			add_war_support = 0.05
 		}
-    }
-    
-    focus = {
+	}
+	
+	focus = {
 		id = AZR_New_Parties_Creation
 		icon = GFX_AZR_New_Parties_Creation
 		x = 4
 		y = 1
 		prerequisite = { focus = AZR_Pursuit_of_Independence }
 		relative_position_id = AZR_Pursuit_of_Independence
-		
+
 		cost = 40
-		
+
 		ai_will_do = {
 			factor = 100
 		}
@@ -331,41 +315,41 @@ focus_tree = {
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-            add_political_power = 100
-            add_stability = 0.10
+			add_political_power = 100
+			add_stability = 0.10
 		}
-    }
+	}
 
 	focus = {
 		id = AZR_Musavat_Revival
 		icon = GFX_AZR_Musavat_Revival
 		
-        x = 2
+		x = 2
 		y = 1
 		
-        prerequisite = { focus = AZR_Pursuit_of_Independence }
+		prerequisite = { focus = AZR_Pursuit_of_Independence }
 		relative_position_id = AZR_Pursuit_of_Independence
-		
-        cost = 30
-		
-        completion_reward = {
+
+		cost = 30
+
+		completion_reward = {
 			add_stability = 0.05
 			add_popularity = {
-                ideology = liberalism
-                popularity = 0.1
-            }
+				ideology = liberalism
+				popularity = 0.1
+			}
 		}
 	}
 
@@ -373,16 +357,16 @@ focus_tree = {
 		id = AZR_Founding_Democratic_Institutions
 		icon = GFX_AZR_Founding_Democratic_Institutions
 		
-        x = 1
+		x = 1
 		y = 1
 		
-        prerequisite = { focus = AZR_Musavat_Revival }
-        prerequisite = { focus = AZR_New_Parties_Creation }
+		prerequisite = { focus = AZR_Musavat_Revival }
+		prerequisite = { focus = AZR_New_Parties_Creation }
 		relative_position_id = AZR_Musavat_Revival
-		
-        cost = 40
-		
-        completion_reward = {
+
+		cost = 40
+
+		completion_reward = {
 			add_political_power = 25
 			add_stability = 0.05
 		}
@@ -392,21 +376,21 @@ focus_tree = {
 		id = AZR_Declare_Independence
 		icon = GFX_AZR_Declare_Independence
 		
-        x = 2
+		x = 2
 		y = 1
 		
-        prerequisite = { focus = AZR_Pro_Democratic_Speeches }
-        prerequisite = { focus = AZR_Founding_Democratic_Institutions }
+		prerequisite = { focus = AZR_Pro_Democratic_Speeches }
+		prerequisite = { focus = AZR_Founding_Democratic_Institutions }
 		relative_position_id = AZR_Pro_Democratic_Speeches
-		
-        cost = 60
-		
-        completion_reward = {
+
+		cost = 60
+
+		completion_reward = {
 			country_event = Azerbaijan.1
 			news_event = {
-                id = news.6
-                days = 2
-            }
+				id = news.6
+				days = 2
+			}
 		}
 	}
-}	
+}

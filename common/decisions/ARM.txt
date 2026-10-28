@@ -7,9 +7,9 @@ ARM_Recruitment_category = {
 		highlight_states = { State = 89 }
 		
 		available = {	
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -40,9 +40,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -73,9 +73,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -106,9 +106,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -139,9 +139,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -172,9 +172,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -205,9 +205,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -238,9 +238,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -271,9 +271,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -304,9 +304,9 @@ ARM_Recruitment_category = {
 		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
 		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		    tag = ARM
+			tag = ARM
 		}
-	    
+		
 		visible = {
 			tag = ARM
 		}
@@ -328,4 +328,4 @@ ARM_Recruitment_category = {
 			factor = 10		
 		}
 	}
-}	
+}

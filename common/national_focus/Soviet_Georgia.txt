@@ -1,47 +1,46 @@
 focus_tree = {
 	id = Georgia_focus
-	
+
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 10
 			tag = SAK
 		}
 	}
-	
-	default = no
 
+	default = no
 	continuous_focus_position = { x = 50 y = 900 }
-	
+
 	focus = {
 		id = SAK_gamsakhurdia_speech
 		icon = GFX_Goal_SAK_Gamsakhurdia
 		x = 5
 		y = 0
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
-		
+
 		completion_reward = {
-		    add_political_power = 50
+			add_political_power = 50
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_popularity = { ideology = communism popularity = -0.05 }
@@ -49,10 +48,10 @@ focus_tree = {
 			hidden_effect = {
 				country_event = { 
 					id = Georgia.39 
-			        days = 2
-			    }
+					days = 2
+				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -62,31 +61,31 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_gamsakhurdia_speech
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			add_political_power = 75
 			add_popularity = { ideology = nationalism popularity = 0.025 }
-		}	
+		}
 	}
 
 	focus = {
@@ -96,32 +95,32 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_the_last_steps_toward_independence
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
-		
+
 		completion_reward = {
 			add_political_power = 50
 			add_war_support = 0.05
 			add_popularity = { ideology = nationalism popularity = 0.1 }
-		}	
+		}
 	}
 
 	focus = {
@@ -133,28 +132,28 @@ focus_tree = {
 		relative_position_id = SAK_consolidate_the_nationalist_government
 
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			country_event = { id = Georgia.8 }
-		}	
+		}
 	}
 
 	focus = {
@@ -164,27 +163,27 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_shida_konplikti
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_XP }
-		
+
 		completion_reward = {
 			add_manpower = 500
 			army_experience = 20
@@ -197,7 +196,7 @@ focus_tree = {
 				var = cash
 				value = 15
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -207,30 +206,30 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SAK_shida_konplikti
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			country_event = { id = Georgia.9 }
-		}	
+		}
 	}
 
 	focus = {
@@ -240,29 +239,29 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SAK_shida_konplikti
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 			NOT = {
 				has_idea = civilian_economy
 			}
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		
+
 		completion_reward = {
 			add_ideas = low_economic_mobilisation
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -271,7 +270,7 @@ focus_tree = {
 				var = cash
 				value = 5
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -281,31 +280,31 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = SAK_consolidate_the_nationalist_government
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
-		
+
 		completion_reward = {
 			add_political_power = 75
 			add_stability = 0.05
-		}	
+		}
 	}
 
 	focus = {
@@ -315,27 +314,27 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SAK_diplomatia
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			add_political_power = 25
 			custom_effect_tooltip = SAK_ask_for_international_recognition_tt
@@ -343,7 +342,7 @@ focus_tree = {
 				var = cash
 				value = 0.1
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -353,30 +352,30 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SAK_diplomatia
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			add_political_power = 25
-		}	
+		}
 	}
 
 	focus = {
@@ -386,27 +385,27 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SAK_diplomatia
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			add_political_power = 50
 		}
@@ -424,31 +423,31 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SAK_mobilize_the_economy
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
 		completion_reward = {
 			country_event = { id = georgia.10 hours = 6 }
 			remove_ideas = SAK_Gamsakhurdias_Speechs
 			custom_effect_tooltip = new_focus_tree_tt
-		}	
+		}
 	}
 }

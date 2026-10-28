@@ -11,17 +11,17 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-	    name = adjara.1.a
+		name = adjara.1.a
 		custom_effect_tooltip = 1_ADJ_tt
 		ai_chance = { factor = 50 }
-	}		
+	}
 
-    option = {
-	    name = adjara.1.b
+	option = {
+		name = adjara.1.b
 		49 = { transfer_state_to = SAK }
 		45 = { transfer_state_to = SAK }
 		ai_chance = { factor = 50 }
-	}		
+	}
 }
 
 #Shevardnadze Militia crossed the border
@@ -34,15 +34,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-	    name = adjara.2.a
+		name = adjara.2.a
 		add_threat = 10
 		add_manpower = 50000
 		SAK = {
-		    declare_war_on = {
-            target = ADJ
-            type = annex_everything
-      		}
-        }
+			declare_war_on = {
+			target = ADJ
+			type = annex_everything
+	  		}
+		}
 		load_oob = ADJ_1991
-	}	
+	}
 }

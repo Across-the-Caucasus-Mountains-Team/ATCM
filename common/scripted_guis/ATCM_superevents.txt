@@ -54,13 +54,13 @@ scripted_gui = {
 						has_global_flag = RAS_black_october_supervent_flag
 					}
 					clr_global_flag = RAS_black_october_supervent_flag
-				}		
+				}
 				if = {
 					limit = {
 						has_global_flag = RAS_First_Chechen_War_supervent_flag
 					}
 					clr_global_flag = RAS_First_Chechen_War_supervent_flag
-				}		
+				}
 			}
 		}
 	}

@@ -1,159 +1,159 @@
 sub_units = {
 	artillery_brigade = {
 
-        abbreviation = "ART"
-        sprite = artillery
-        map_icon_category = infantry
-        priority = 1198
-        ai_priority = 100
-        active = yes
-        is_artillery_brigade = yes
-        type = { infantry artillery }
-        group = combat_support
-        categories = { category_army category_line_artillery category_artillery }
-        combat_width = 3
-        manpower = 105
+		abbreviation = "ART"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		is_artillery_brigade = yes
+		type = { infantry artillery }
+		group = combat_support
+		categories = { category_army category_line_artillery category_artillery }
+		combat_width = 3
+		manpower = 105
 
-        essential = { towed_artillery_equipment motorized_equipment }
-        need = {
-            towed_artillery_equipment = 12
-            motorized_equipment = 12
-            infantry_equipment = 18
-            uniform_equipment = 105
-            bulletproof_vests_equipment = 30
-            support_equipment = 9
-        }
-        max_strength = 3.0
-        max_organisation = 10
-        default_morale = 0.10
-        training_time = 120
-        weight = 0.55
-        supply_consumption = 0.26
-        forest = { attack = -0.15 movement = -0.20 }
-        hills = { movement = -0.10 }
-        mountain = { attack = -0.10 movement = -0.25 }
-        marsh = { attack = -0.20 movement = -0.30 }
-        fort = { attack = 0.10 }
-        river = { attack = -0.15 movement = -0.15 }
-        amphibious = { attack = -0.40 }
-    }
+		essential = { towed_artillery_equipment motorized_equipment }
+		need = {
+			towed_artillery_equipment = 12
+			motorized_equipment = 12
+			infantry_equipment = 18
+			uniform_equipment = 105
+			bulletproof_vests_equipment = 30
+			support_equipment = 9
+		}
+		max_strength = 3.0
+		max_organisation = 10
+		default_morale = 0.10
+		training_time = 120
+		weight = 0.55
+		supply_consumption = 0.26
+		forest = { attack = -0.15 movement = -0.20 }
+		hills = { movement = -0.10 }
+		mountain = { attack = -0.10 movement = -0.25 }
+		marsh = { attack = -0.20 movement = -0.30 }
+		fort = { attack = 0.10 }
+		river = { attack = -0.15 movement = -0.15 }
+		amphibious = { attack = -0.40 }
+	}
 	mot_artillery_brigade = {
 
-        abbreviation = "MART"
-        sprite = artillery
-        map_icon_category = infantry
-        priority = 1198
-        ai_priority = 100
-        active = yes
-        is_artillery_brigade = yes
-        type = { motorized artillery }
-        group = mobile_combat_support
-        categories = { category_army category_line_artillery category_artillery category_mobile_and_mobile_combat_sup }
-        combat_width = 3
-        transport = motorized_equipment
+		abbreviation = "MART"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1198
+		ai_priority = 100
+		active = yes
+		is_artillery_brigade = yes
+		type = { motorized artillery }
+		group = mobile_combat_support
+		categories = { category_army category_line_artillery category_artillery category_mobile_and_mobile_combat_sup }
+		combat_width = 3
+		transport = motorized_equipment
 
-        essential = { towed_artillery_equipment motorized_equipment }
-        manpower = 120
+		essential = { towed_artillery_equipment motorized_equipment }
+		manpower = 120
 
-        need = {
-            towed_artillery_equipment = 12
-            motorized_equipment = 18
-            infantry_equipment = 20
-            uniform_equipment = 120
-            bulletproof_vests_equipment = 35
-            support_equipment = 12
-        }
-        max_strength = 3.5
-        max_organisation = 10
-        default_morale = 0.10
-        training_time = 120
-        weight = 0.65
-        supply_consumption = 0.3
-        forest = { attack = -0.15 movement = -0.30 }
-        hills = { movement = -0.15 }
-        mountain = { attack = -0.10 movement = -0.35 }
-        marsh = { attack = -0.20 movement = -0.40 }
-        fort = { attack = 0.10 }
-        river = { attack = -0.15 movement = -0.20 }
-        amphibious = { attack = -0.40 }
-    }
+		need = {
+			towed_artillery_equipment = 12
+			motorized_equipment = 18
+			infantry_equipment = 20
+			uniform_equipment = 120
+			bulletproof_vests_equipment = 35
+			support_equipment = 12
+		}
+		max_strength = 3.5
+		max_organisation = 10
+		default_morale = 0.10
+		training_time = 120
+		weight = 0.65
+		supply_consumption = 0.3
+		forest = { attack = -0.15 movement = -0.30 }
+		hills = { movement = -0.15 }
+		mountain = { attack = -0.10 movement = -0.35 }
+		marsh = { attack = -0.20 movement = -0.40 }
+		fort = { attack = 0.10 }
+		river = { attack = -0.15 movement = -0.20 }
+		amphibious = { attack = -0.40 }
+	}
 	rocket_artillery_brigade = {
 
 
-        abbreviation = "RART"
-        sprite = artillery
-        map_icon_category = infantry
-        priority = 1199
-        ai_priority = 90
-        active = no
-        is_artillery_brigade = yes
-        type = { artillery rocket }
-        group = combat_support
-        categories = { category_army category_line_artillery category_artillery }
-        combat_width = 3
-        manpower = 100
+		abbreviation = "RART"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 1199
+		ai_priority = 90
+		active = no
+		is_artillery_brigade = yes
+		type = { artillery rocket }
+		group = combat_support
+		categories = { category_army category_line_artillery category_artillery }
+		combat_width = 3
+		manpower = 100
 
-        essential = { motorized_rocket_equipment }
-        need = {
-            motorized_rocket_equipment = 6
-            motorized_equipment = 4
-            infantry_equipment = 12
-            uniform_equipment = 100
-            bulletproof_vests_equipment = 25
-            support_equipment = 9
-        }
-        max_organisation = 10
-        default_morale = 0.10
-        max_strength = 3.0
-        training_time = 120
-        weight = 0.7
-        supply_consumption = 0.33
-        forest = { attack = -0.20 movement = -0.25 }
-        hills = { movement = -0.10 }
-        mountain = { attack = -0.15 movement = -0.30 }
-        marsh = { attack = -0.20 movement = -0.35 }
-        fort = { attack = 0.05 }
-        river = { attack = -0.20 movement = -0.20 }
-        amphibious = { attack = -0.45 }
-    }
+		essential = { motorized_rocket_equipment }
+		need = {
+			motorized_rocket_equipment = 6
+			motorized_equipment = 4
+			infantry_equipment = 12
+			uniform_equipment = 100
+			bulletproof_vests_equipment = 25
+			support_equipment = 9
+		}
+		max_organisation = 10
+		default_morale = 0.10
+		max_strength = 3.0
+		training_time = 120
+		weight = 0.7
+		supply_consumption = 0.33
+		forest = { attack = -0.20 movement = -0.25 }
+		hills = { movement = -0.10 }
+		mountain = { attack = -0.15 movement = -0.30 }
+		marsh = { attack = -0.20 movement = -0.35 }
+		fort = { attack = 0.05 }
+		river = { attack = -0.20 movement = -0.20 }
+		amphibious = { attack = -0.45 }
+	}
 	motorized_rocket_brigade = {
 
-        abbreviation = "MRKT"
-        sprite = motorized
-        map_icon_category = infantry
-        priority = 1199
-        ai_priority = 100
-        active = no
-        is_artillery_brigade = yes
-        type = { artillery motorized rocket }
-        group = mobile_combat_support
-        categories = { category_army category_line_artillery category_artillery category_mobile_and_mobile_combat_sup }
-        combat_width = 3
-        transport = motorized_equipment
+		abbreviation = "MRKT"
+		sprite = motorized
+		map_icon_category = infantry
+		priority = 1199
+		ai_priority = 100
+		active = no
+		is_artillery_brigade = yes
+		type = { artillery motorized rocket }
+		group = mobile_combat_support
+		categories = { category_army category_line_artillery category_artillery category_mobile_and_mobile_combat_sup }
+		combat_width = 3
+		transport = motorized_equipment
 
-        essential = { motorized_rocket_equipment motorized_equipment }
-        manpower = 115
+		essential = { motorized_rocket_equipment motorized_equipment }
+		manpower = 115
 
-        need = {
-            motorized_rocket_equipment = 6
-            motorized_equipment = 10
-            infantry_equipment = 15
-            uniform_equipment = 115
-            bulletproof_vests_equipment = 30
-            support_equipment = 12
-        }
-        max_organisation = 10
-        default_morale = 0.10
-        max_strength = 3.2
-        training_time = 120
-        weight = 0.75
-        supply_consumption = 0.37
-        forest = { attack = -0.15 movement = -0.30 }
-        hills = { movement = -0.15 }
-        mountain = { attack = -0.15 movement = -0.35 }
-        marsh = { attack = -0.20 movement = -0.45 }
-        fort = { attack = 0.05 }
-        river = { attack = -0.15 movement = -0.20 }
-        amphibious = { attack = -0.45 }
-    }
+		need = {
+			motorized_rocket_equipment = 6
+			motorized_equipment = 10
+			infantry_equipment = 15
+			uniform_equipment = 115
+			bulletproof_vests_equipment = 30
+			support_equipment = 12
+		}
+		max_organisation = 10
+		default_morale = 0.10
+		max_strength = 3.2
+		training_time = 120
+		weight = 0.75
+		supply_consumption = 0.37
+		forest = { attack = -0.15 movement = -0.30 }
+		hills = { movement = -0.15 }
+		mountain = { attack = -0.15 movement = -0.35 }
+		marsh = { attack = -0.20 movement = -0.45 }
+		fort = { attack = 0.05 }
+		river = { attack = -0.15 movement = -0.20 }
+		amphibious = { attack = -0.45 }
+	}
 }

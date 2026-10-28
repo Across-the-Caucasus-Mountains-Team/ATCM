@@ -77,7 +77,7 @@ buildings = {
 		level_cap = {
 			province_max = 1
 		}
-	}	
+	}
 	
 	rail_way = {
 		base_cost = 50
@@ -144,7 +144,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 		level_cap = {
 			province_max = 10
-		}		
+		}
 	}
 
 	coastal_bunker = {
@@ -185,7 +185,7 @@ buildings = {
 			enemy_attrition = 0.1
 			state_production_speed_bunker_factor = 0.1
 			state_production_speed_coastal_bunker_factor = 0.1
-		}		
+		}
 	}
 
 	dockyard = {

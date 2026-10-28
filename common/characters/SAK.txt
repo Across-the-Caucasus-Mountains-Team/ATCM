@@ -47,8 +47,8 @@ characters={
 	SAK_Tengiz_Kitovani = {
 		name = "Tengiz Kitovani"
 		portraits = {
-		    army = {
-			    large = "gfx/leaders/SAK/portrait_sak_Tengiz_kitovani.png"
+			army = {
+				large = "gfx/leaders/SAK/portrait_sak_Tengiz_kitovani.png"
 				small = "gfx/interface/ideas/portrait_SAK_Tengiz_Kitovani_Small.png"
 			}
 		}
@@ -74,7 +74,7 @@ characters={
 			}
 			cost = 150
 		}
-	}	
+	}
 	
 	SAK_Avtandil_Tskitishvili = {
 		name = "Avtandil Tskitishvili"
@@ -104,14 +104,14 @@ characters={
 			planning_skill = 4
 			logistics_skill = 2
 			legacy_id = 0
-		}	
+		}
 	}
 	
 	SAK_Geno_Adamia = {
 		name = "Geno Adamia"
 		portraits = {
 			army = {
-			    large = "gfx/leaders/SAK/portrait_sak_Geno_Adamia.png"
+				large = "gfx/leaders/SAK/portrait_sak_Geno_Adamia.png"
 			}
 		}
 		corps_commander = {
@@ -128,7 +128,7 @@ characters={
 		name = "Boris Grigolashvili"
 		portraits = {
 			army = {
-			    large = "gfx/leaders/SAK/portrait_sak_Boris_Grigolashvili.png"
+				large = "gfx/leaders/SAK/portrait_sak_Boris_Grigolashvili.png"
 			}
 		}
 		corps_commander = {
@@ -145,7 +145,7 @@ characters={
 		name = "Giorgi Karkarashvili"
 		portraits = {
 			army = {
-			    large = "gfx/leaders/SAK/portrait_sak_giorgi_karkarashvili.png"
+				large = "gfx/leaders/SAK/portrait_sak_giorgi_karkarashvili.png"
 			}
 		}
 		corps_commander = {
@@ -163,7 +163,7 @@ characters={
 		name = "Jaba Ioseliani"
 		portraits = {
 			army = {
-			    large = "gfx/leaders/SAK/portrait_sak_Jaba_ioseliani.png"
+				large = "gfx/leaders/SAK/portrait_sak_Jaba_ioseliani.png"
 			}
 		}
 		corps_commander = {
@@ -290,4 +290,4 @@ characters={
 			}
 		}
 	}
-}	
+}

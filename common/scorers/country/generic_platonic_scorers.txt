@@ -1,5 +1,5 @@
 fascist_major_scorer = { #Finds biggest Fascist
-    # Valid example of mission scorer:
+	# Valid example of mission scorer:
 	targets = {
 		# describe the target to consider
 		targets_dynamic = no
@@ -15,7 +15,7 @@ fascist_major_scorer = { #Finds biggest Fascist
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -61,7 +61,7 @@ democratic_major_scorer = { # Finds biggest Democratic Nation
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -104,7 +104,7 @@ communist_major_scorer = { # Finds biggest Communist
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -147,7 +147,7 @@ non_aligned_major_scorer = { # Finds biggest Non-Aligned
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -242,7 +242,7 @@ local_fascist_country = {
 							THIS.capital_scope = { is_on_continent = asia }
 						}
 						FROM.capital_scope = { is_on_continent = australia }
-					}	
+					}
 				}
 				factor = 3
 			}
@@ -263,7 +263,7 @@ local_fascist_country = {
 }
 
 fascist_bully_scorer = { #Finds meanest fascist
-    # Valid example of mission scorer:
+	# Valid example of mission scorer:
 	targets = {
 		# describe the target to consider
 		targets_dynamic = no
@@ -321,7 +321,7 @@ democratic_faction_leader_scorer = { # Finds biggest Democratic Nation
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -374,7 +374,7 @@ democratic_sleeping_giant_scorer = { #Finds the least armed big democratic count
 			modifier = {
 				always = yes 
 				add = -has_added_tension_amount
-			}        
+			}
 			modifier = {
 				is_major = yes
 				add = 30
@@ -388,16 +388,16 @@ democratic_sleeping_giant_scorer = { #Finds the least armed big democratic count
 				factor = 0 
 			}
 		}
-	}   
+	}
 }
 
 
 ###################################################
-###########       BY CONTINTENT     ###############
+###########	   BY CONTINTENT	 ###############
 ###################################################
 
 european_fascist_major_scorer = { #Finds biggest Fascist in Europe
-    # Valid example of mission scorer:
+	# Valid example of mission scorer:
 	targets = {
 		# describe the target to consider
 		targets_dynamic = no
@@ -413,7 +413,7 @@ european_fascist_major_scorer = { #Finds biggest Fascist in Europe
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -437,7 +437,7 @@ european_fascist_major_scorer = { #Finds biggest Fascist in Europe
 				factor = 0 
 			}
 			modifier = {
-				NOT = { THIS.capital_scope = { is_on_continent = europe } }
+				NOT = { THIS.capital_scope = { is_on_continent = europe }}
 			}
 		}
 	}
@@ -459,7 +459,7 @@ european_democratic_major_scorer = { # Finds biggest Democratic Nation in Europe
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -502,7 +502,7 @@ european_communist_major_scorer = { # Finds biggest Communist in Europe
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -526,7 +526,7 @@ european_communist_major_scorer = { # Finds biggest Communist in Europe
 				factor = 0 
 			}
 			modifier = {
-				NOT = { THIS.capital_scope = { is_on_continent = europe } }
+				NOT = { THIS.capital_scope = { is_on_continent = europe }}
 				factor = 0 
 			}
 		}
@@ -549,7 +549,7 @@ european_non_aligned_major_scorer = { # Finds biggest Non-Aligned in Europe
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -573,7 +573,7 @@ european_non_aligned_major_scorer = { # Finds biggest Non-Aligned in Europe
 				factor = 0 
 			}
 			modifier = {
-				NOT = { THIS.capital_scope = { is_on_continent = europe } }
+				NOT = { THIS.capital_scope = { is_on_continent = europe }}
 				factor = 0 
 			}
 		}
@@ -581,7 +581,7 @@ european_non_aligned_major_scorer = { # Finds biggest Non-Aligned in Europe
 }
 
 asian_fascist_major_scorer = { #Finds biggest Fascist in Asia
-    # Valid example of mission scorer:
+	# Valid example of mission scorer:
 	targets = {
 		# describe the target to consider
 		targets_dynamic = no
@@ -597,7 +597,7 @@ asian_fascist_major_scorer = { #Finds biggest Fascist in Asia
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -622,9 +622,9 @@ asian_fascist_major_scorer = { #Finds biggest Fascist in Asia
 			}
 			modifier = {
 				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = asia } } 
-					NOT = { THIS.capital_scope = { is_on_continent = australia } }
-					NOT = { THIS.capital_scope = { is_on_continent = middle_east } }
+					NOT = { THIS.capital_scope = { is_on_continent = asia }}
+					NOT = { THIS.capital_scope = { is_on_continent = australia }}
+					NOT = { THIS.capital_scope = { is_on_continent = middle_east }}
 				}
 				factor = 0
 			}
@@ -648,7 +648,7 @@ asian_democratic_major_scorer = { # Finds biggest Democratic Nation in Asia
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -691,7 +691,7 @@ asian_communist_major_scorer = { # Finds biggest Communist in Asia
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -734,7 +734,7 @@ asian_non_aligned_major_scorer = { # Finds biggest Non-Aligned in Asia
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -762,7 +762,7 @@ asian_non_aligned_major_scorer = { # Finds biggest Non-Aligned in Asia
 }
 
 american_fascist_major_scorer = { #Finds biggest Fascist in the Americas
-    # Valid example of mission scorer:
+	# Valid example of mission scorer:
 	targets = {
 		# describe the target to consider
 		targets_dynamic = no
@@ -778,7 +778,7 @@ american_fascist_major_scorer = { #Finds biggest Fascist in the Americas
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -821,7 +821,7 @@ american_democratic_major_scorer = { # Finds biggest Democratic Nation in the Am
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -842,8 +842,8 @@ american_democratic_major_scorer = { # Finds biggest Democratic Nation in the Am
 			}
 			modifier = {
 				OR = { 
-					NOT = { THIS.capital_scope = { is_on_continent = south_america } } 
-					NOT = { THIS.capital_scope = { is_on_continent = north_america } }
+					NOT = { THIS.capital_scope = { is_on_continent = south_america }}
+					NOT = { THIS.capital_scope = { is_on_continent = north_america }}
 				}
 				factor = 0 
 			}
@@ -867,7 +867,7 @@ american_communist_major_scorer = { # Finds biggest Communist in the Americas
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 
@@ -906,7 +906,7 @@ american_non_aligned_major_scorer = { # Finds biggest Non-Aligned in The America
 			modifier = {
 				always = yes 
 				add = has_added_tension_amount
-			}        
+			}
 			# Add total number of Divisions 
 			modifier = {
 				always = yes 

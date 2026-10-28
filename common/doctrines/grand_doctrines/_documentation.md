@@ -6,44 +6,44 @@
 
 ```
 mobile_warfare = {
-    folder = land   # Refers to the script name of a folder
-    name = GRAND_DOCTRINE_MOBILE_WARFARE   # Loc key
-    description = GRAND_DOCTRINE_MOBILE_WARFARE_DESC   # Bindable loc
-    icon = GFX_mobile_warfare_medium  # Refers to the script name of an icon
-    available = yes # Trigger that determines whether the doctrine can be selected
-    visible = yes # Trigger that determines whether the doctrine is shown in the list at all
+	folder = land   # Refers to the script name of a folder
+	name = GRAND_DOCTRINE_MOBILE_WARFARE   # Loc key
+	description = GRAND_DOCTRINE_MOBILE_WARFARE_DESC   # Bindable loc
+	icon = GFX_mobile_warfare_medium  # Refers to the script name of an icon
+	available = yes # Trigger that determines whether the doctrine can be selected
+	visible = yes # Trigger that determines whether the doctrine is shown in the list at all
 
-    xp_cost = 100
-    xp_type = army   # army, navy or air
+	xp_cost = 100
+	xp_type = army   # army, navy or air
 
-    ai_will_do = { }
+	ai_will_do = { }
 
-    tracks = {   # Refer to script names of tracks
-        infantry
-        artillery_support
-        armor
-        operations
-    }
-    
-    max_track_rows = 2 # Optional: unlimited by default
-    max_track_columns = 2 # Optional: unlimited by default
+	tracks = {   # Refer to script names of tracks
+		infantry
+		artillery_support
+		armor
+		operations
+	}
+	
+	max_track_rows = 2 # Optional: unlimited by default
+	max_track_columns = 2 # Optional: unlimited by default
 
-    # ACTIVATION EFFECTS - SEE BELOW
+	# ACTIVATION EFFECTS - SEE BELOW
 
-    milestones = {   # NOTE: milestones are in the same order as the tracks
-        {
-            # ACTIVATION EFFECTS - SEE BELOW
-        }
-        {
-            # ACTIVATION EFFECTS - SEE BELOW
-        }
-        {
-            # ACTIVATION EFFECTS - SEE BELOW
-        }
-        {
-            # ACTIVATION EFFECTS - SEE BELOW
-        }
-    }
+	milestones = {   # NOTE: milestones are in the same order as the tracks
+		{
+			# ACTIVATION EFFECTS - SEE BELOW
+		}
+		{
+			# ACTIVATION EFFECTS - SEE BELOW
+		}
+		{
+			# ACTIVATION EFFECTS - SEE BELOW
+		}
+		{
+			# ACTIVATION EFFECTS - SEE BELOW
+		}
+	}
 }
 ```
 
@@ -60,8 +60,8 @@ army_speed_factor = 0.10
 If you prefer, the Modifiers can also be scripted in an explicit block, like so:
 ```
 modifiers = {
-    planning_speed = 0.4
-    army_speed_factor = 0.10
+	planning_speed = 0.4
+	army_speed_factor = 0.10
 }
 ```
 
@@ -74,10 +74,10 @@ enable_tactic = tactic_elastic_defense
 ### Add unit stat bonuses:
 ```
 category_tanks = {
-    max_organisation = 1
+	max_organisation = 1
 }
 armored_car = {
-    max_organisation = 2
+	max_organisation = 2
 }
 ```
 
@@ -86,21 +86,21 @@ armored_car = {
 (Note: use this instead of the add_equipment_bonus effect, since the effect will not remove the bonus if the doctrine is changed)
 ```
 equipment_bonus = {
-    capital_ship = {
-        naval_range = 0.10
-        instant = yes
-    }
+	capital_ship = {
+		naval_range = 0.10
+		instant = yes
+	}
 }
 ```
 
 ### Any scripted effects:
 ```
 effect = { 
-    add_tech_bonus = {
-        bonus = 0.5
-        uses = 1
-        category = cat_light_armor
-        name = [GRAND_DOCTRINE_NAME_LOC_KEY]
-    }
+	add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = cat_light_armor
+		name = [GRAND_DOCTRINE_NAME_LOC_KEY]
+	}
 }
 ```

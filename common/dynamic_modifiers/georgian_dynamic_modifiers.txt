@@ -14,7 +14,7 @@ SAK_evacuate = {
 
 	enable = { always = yes }
 	icon = GFX_idea_SAK_Weak_Armed_Forces
-    army_speed_factor = 0.35
+	army_speed_factor = 0.35
 	army_org_factor = -0.25
 	army_attack_factor = -0.15
 }
@@ -23,7 +23,7 @@ SAK_counter_offensive = {
 
 	enable = { always = yes }
 	icon = GFX_idea_SAK_Weak_Armed_Forces
-    army_speed_factor = 0.35
+	army_speed_factor = 0.35
 	army_org_factor = -0.25
 	army_attack_factor = -0.15
 }

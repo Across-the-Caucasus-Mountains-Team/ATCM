@@ -3,13 +3,13 @@ focus_tree = {
 	
 	country = {
 		factor = 0
-		
+
 		modifier = {
 			add = 30
 			tag = GOM
 		}
 	}
-	
+
 	default = no
 
 	continuous_focus_position = { x = 6000 y = 500 }
@@ -19,32 +19,32 @@ focus_tree = {
 		icon = GFX_Goal_GAM_talks_with_Chechnya
 		x = 4
 		y = 0
-		
+
 		cost = 45
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    add_political_power = 300
+			add_political_power = 300
 			add_war_support = 0.1
 			add_stability = 0.1
-		}	
+		}
 	}
 
 	focus = {
@@ -53,27 +53,27 @@ focus_tree = {
 		x = 4
 		y = 1
 		prerequisite = { focus = GUM_Talks_with_chechnya }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.1
 			add_stability = 0.1
@@ -82,7 +82,7 @@ focus_tree = {
 				add_war_support = -0.05
 				add_political_power = -100
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -91,34 +91,34 @@ focus_tree = {
 		x = 4
 		y = 2
 		prerequisite = { focus = GUM_Speechs_for_zviadists_in_Georgia }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 250
-			}	
-            army_experience = 50
-		}	
+			}
+			army_experience = 50
+		}
 	}
 
 	focus = {
@@ -127,33 +127,33 @@ focus_tree = {
 		x = 4
 		y = 3
 		prerequisite = { focus = GUM_send_guns_to_zviadists }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    add_equipment_to_stockpile = { 
+			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 250
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -162,30 +162,30 @@ focus_tree = {
 		x = 4
 		y = 4
 		prerequisite = { focus = GUM_ask_for_money_and_guns_from_chechnya }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			army_experience = 50
-		}	
+		}
 	}
 
 	focus = {
@@ -194,35 +194,35 @@ focus_tree = {
 		x = 2
 		y = 5
 		prerequisite = { focus = GUM_Sabotage_military_council }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    SAK = {
+			SAK = {
 				country_event = {
 					id = Georgia.53
 					days = 1
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -231,46 +231,46 @@ focus_tree = {
 		x = 6
 		y = 5
 		prerequisite = { focus = GUM_Sabotage_military_council }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			26 = {
-			    damage_building = {
-                    type = infrastructure
-                    damage = 1
-				}	
 				damage_building = {
-                    type = industrial_complex
-                    damage = 1
-				}	
-            }
-		    SAK = {
+					type = infrastructure
+					damage = 1
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			SAK = {
 				add_stability = -0.1
 				add_popularity = {
 					ideology = authoritarianism
 					popularity = -0.15
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -279,27 +279,27 @@ focus_tree = {
 		x = 6
 		y = 6
 		prerequisite = { focus = GUM_sabotages_in_mestia }
-		
+
 		cost = 5
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
@@ -307,10 +307,10 @@ focus_tree = {
 			}
 			add_manpower = 980
 			army_experience = 50
-		    SAK = {
+			SAK = {
 				add_manpower = -980
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -319,35 +319,35 @@ focus_tree = {
 		x = 2
 		y = 6
 		prerequisite = { focus = GUM_blame_Shevardnadze_Russophilia }
-		
+
 		cost = 10
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
-		    SAK = {
+			SAK = {
 				country_event = {
 					id = Georgia.53
 					days = 1
 				}
 			}
-		}	
+		}
 	}
 
 	focus = {
@@ -357,32 +357,32 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = GUM_explain_why_military_council_is_traitor }
 		prerequisite = { focus = GUM_Collaboration_in_the_military }
-		
+
 		cost = 15
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_war_support = 0.1
 			add_stability = 0.1
 			army_experience = 50
-		}	
+		}
 	}
 
 	focus = {
@@ -391,36 +391,36 @@ focus_tree = {
 		x = 4
 		y = 8
 		prerequisite = { focus = GUM_Last_steps_before_crossing_border }
-		
+
 		cost = 20
-		
+
 		ai_will_do = {
 			factor = 100
 		}
-		
+
 		available = {
 			date > 1993.08.18
 		}
-		
+
 		bypass = {
 
 		}
-		
+
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		
+
 		search_filters = { }
-		
+
 		completion_reward = {
 			add_equipment_to_stockpile = { 
 				type = infantry_equipment_1 
 				amount = 150
 			}
-		    37 = { transfer_state_to = GOM }
+			37 = { transfer_state_to = GOM }
 			22 = { transfer_state_to = CHE }
 			goto_state = 37
 			load_focus_tree = Gamsakhurdia_in_georgia
-		}	
+		}
 	}
-}	
+}

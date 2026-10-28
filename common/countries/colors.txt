@@ -11,17 +11,17 @@ AZR = {
 TUR = {
 	color = rgb { 127 0 0 }
 	color_ui = rgb { 0 100 49 }
-}	
+}
 
 ARM = {
 	color = rgb { 255 178 0 }
 	color_ui = rgb { 42 100 100 }
-}	
+}
 
 ARS = {
 	color = rgb { 255 178 0 }
 	color_ui = rgb { 42 100 100 }
-}	
+}
 
 RAS = {
 	color = rgb { 0 127 14 }
@@ -31,7 +31,7 @@ RAS = {
 OST = {
 	color = rgb { 255 174 1 }
 	color_ui = rgb { 255 174 1 }
-}	
+}
 
 CHE = {
 	color = rgb { 27 80 26 }
