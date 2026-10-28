@@ -363,6 +363,11 @@ SpriteType = {
 		name = "GFX_RAS_shell_chechnya"
 		texturefile = "gfx/interface/goals/RAS/RAS_shell_chechnya.png"
 	}
+    SpriteType = {
+		name = "GFX_RAS_ultimatum_to_chechnya"
+		texturefile = "gfx/interface/goals/RAS/RAS_ultimatum_to_chechnya.png"
+	}
+
 
 
 }
