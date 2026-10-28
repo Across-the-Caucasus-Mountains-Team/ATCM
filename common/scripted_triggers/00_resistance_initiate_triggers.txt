@@ -1,6 +1,14 @@
-﻿# ATCM: resistance is possible on controlled, passable states with cores of another country.
 should_initiate_resistance = {
-    impassable = no
-    check_variable = { core_countries^num > 0 }
-    NOT = { is_core_of = FROM }
+	impassable = no
+	OR = {
+		check_variable = { core_countries^num > 0 }# have no cores
+		AND = {
+			has_state_flag = SPR_original_core
+			FROM = {
+				original_tag = SPR
+			}
+			has_global_flag = scw_over
+		}
+	}
+	NOT = { is_core_of = FROM  }# never for our cores
 }
