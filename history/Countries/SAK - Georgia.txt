@@ -6,7 +6,13 @@ load_oob = SAK_1991
 
 set_country_flag = StartguiOpen
 
-set_cosmetic_tag = SOV_SAK
+1991.1.1 = {
+	set_cosmetic_tag = SOV_SAK
+}
+
+1996.1.1 = {
+	drop_cosmetic_tag = yes
+}
 
 # Starting tech
 set_technology = {
@@ -52,6 +58,23 @@ set_technology = {
 	bbm_1 = 1
 	bbm_2 = 1
 	reactive_artillery = 1
+}
+
+1996.1.1 = {
+		set_politics = {
+			ruling_party = nationalism
+			last_election = "1999.9.17"
+			election_frequency = 48
+			elections_allowed = yes	
+		}
+
+		set_popularities = {
+			junta = 20
+			communism = 10
+			nationalism = 63
+			conservatism = 7
+		}
+	}
 }
 
 add_ideas = {
@@ -108,7 +131,11 @@ add_ideas = {
 	civilian_economy
 	limited_exports
 }
-
+1996.1.1 = {
+	load_focus_tree = {
+		tree = Independent_Georgia_focus
+	}
+}
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes

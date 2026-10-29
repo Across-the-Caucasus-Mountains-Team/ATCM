@@ -25,18 +25,36 @@ set_technology = {
 	basic_train = 1
 }
 
-set_politics = {
-	ruling_party = liberalism
-	last_election = "1990.5.20"
-	election_frequency = 48
-	elections_allowed = no
+1991.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1990.9.17"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		liberalism = 20
+		communism = 60
+		nationalism = 13
+		conservatism = 7 
+	}
 }
 
-set_popularities = {
-	liberalism = 63
-	communism = 7
-	nationalism = 20
-	conservatism = 10
+1996.1.1 = {
+	set_politics = {
+		ruling_party = liberalism
+		last_election = "1998.5.20"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		liberalism = 63
+		communism = 7
+		nationalism = 20
+		conservatism = 10
+	}
 }
 
 add_ideas = {

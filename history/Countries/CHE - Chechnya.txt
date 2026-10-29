@@ -104,4 +104,38 @@ add_ideas = {
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
+	set_province_controller = 657
+	set_province_controller = 960
+	set_province_controller = 1690
+	set_province_controller = 2315
+	set_province_controller = 3577
+	set_province_controller = 4035
+	set_province_controller = 4699
+	set_province_controller = 5214
+	set_province_controller = 5215
+	set_province_controller = 5272
+	set_province_controller = 5504
+	set_province_controller = 5586
+	set_province_controller = 6756
+	set_province_controller = 7758
+	set_province_controller = 8389
+	set_province_controller = 9079
+	set_province_controller = 10540
+	set_province_controller = 10555
+	set_province_controller = 10597
+	set_province_controller = 10603
+	set_province_controller = 10716
+	set_province_controller = 10739
+	set_province_controller = 10752
+	set_province_controller = 10756
+	set_province_controller = 10775
+	set_province_controller = 17415
+	set_province_controller = 17523
+}
+
+1996.1.1 = {
+    set_politics = {
+        ruling_party = nationalism
+        elections_allowed = yes
+    }
 }

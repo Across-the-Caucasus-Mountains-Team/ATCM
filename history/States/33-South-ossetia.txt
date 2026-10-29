@@ -9,6 +9,10 @@ state={
 	history={
 	owner = SAK
 	add_core_of = OST
+		1996.1.1 = {
+			owner = OST 
+			add_core_of = OST
+		}
 	victory_points = { 3719 25 }
 	victory_points = { 545 40 }
 	victory_points = { 11076 2 }
@@ -34,3 +38,4 @@ state={
 	state_category=town
 	local_supplies=0.000
 }
+

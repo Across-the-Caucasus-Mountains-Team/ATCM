@@ -8,38 +8,6 @@ set_country_flag = StartguiOpen
 
 set_cosmetic_tag = SOV_RAS
 
-set_autonomy = {
-	target = SAK
-	autonomous_state = soviet_republic
-	freedom_level = 0.3
-}
-set_autonomy = {
-	target = ARM
-	autonomous_state = soviet_republic
-	freedom_level = 0.5
-}
-set_autonomy = {
-	target = AZR
-	autonomous_state = soviet_republic
-	freedom_level = 0.7
-}
-set_autonomy = {
-	target = CHE
-	autonomous_state = soviet_republic
-	freedom_level = 0.3
-}
-set_autonomy = {
-	target = ARS
-	autonomous_state = soviet_republic
-	freedom_level = 0.7
-}
-
-set_autonomy = {
-	target = DAG
-	autonomous_state = autonomy_integrated_puppet
-	freedom_level = 0.05
-}
-
 # Separatism values
 add_to_variable = {
 	var = CHE_separatism_value
@@ -114,19 +82,21 @@ set_technology = {
 
 }
 
-set_politics = {
-	ruling_party = communism
-	last_election = "1990.9.17"
-	election_frequency = 48
-	elections_allowed = no
-}
+1991.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1990.9.17"
+		election_frequency = 48
+		elections_allowed = no
+	}
 
-set_popularities = {
-	liberalism = 20
-	communism = 60
-	nationalism = 13
-	conservatism = 7 
-}	
+	set_popularities = {
+		liberalism = 20
+		communism = 60
+		nationalism = 13
+		conservatism = 7 
+	}
+}
 
 add_ideas = {
 	universal_health_care
@@ -174,62 +144,241 @@ add_ideas = {
 	limited_exports
 }
 
-
-#Azerbajian hotfix
-AZR = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1990.5.20"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		junta = 13
-		communism = 70
-		nationalism = 10
-		conservatism = 7
+1991.1.1 = {
+	set_autonomy = {
+		target = SAK
+		autonomous_state = soviet_republic
 	}
 }
 
-#Georgia hotfix
-SAK = {
-	set_politics = {
-		ruling_party = nationalism
-		last_election = "1990.9.17"
-		election_frequency = 48
-		elections_allowed = yes	
+1991.1.1 = {
+	set_autonomy = {
+		target = ARM
+		autonomous_state = soviet_republic
 	}
+}
 
-	set_popularities = {
-		junta = 20
-		communism = 10
-		nationalism = 63
-		conservatism = 7
+1991.1.1 = {
+	set_autonomy = {
+		target = AZR
+		autonomous_state = soviet_republic
+	}
+}
+
+1991.1.1 = {
+	set_autonomy = {
+		target = DAG
+		autonomous_state = autonomy_supervised_state
+	}
+}
+
+
+1991.1.1 = {
+	set_autonomy = {
+		target = ARS
+		autonomous_state = soviet_republic
+	}
+}
+
+1991.1.1 = {
+	set_autonomy = {
+		target = CHE
+		autonomous_state = soviet_republic
 	}
 }
 
 1996.1.1 = {
-	drop_cosmetic_tag = yes
+	end_puppet = SAK
+	end_puppet = ARM
+	end_puppet = AZR
+	end_puppet = ARS
+	end_puppet = CHE
+}
 
-	set_autonomy = {
-		target = SAK
-		autonomous_state = autonomy_free
-	}
-	set_autonomy = {
-		target = ARM
-		autonomous_state = autonomy_free
-	}
-	set_autonomy = {
-		target = AZR
-		autonomous_state = autonomy_free
-	}
-	set_autonomy = {
-		target = CHE
-		autonomous_state = autonomy_free
-	}
-	set_autonomy = {
-		target = ARS
-		autonomous_state = autonomy_free
+1996.1.1 = {
+	drop_cosmetic_tag = yes
+	set_global_flag = ATCM_scenario_1996
+	has_focus = RAS_second_presidency_of_eltsin
+	has_focus = RAS_continue_economic_reforms
+	has_focus = RAS_form_a_new_government
+	has_focus = RAS_series_of_military_reforms
+	has_focus = RAS_combat_military_disloyalty
+	has_focus = RAS_lessons_of_the_first_chechen_war
+	has_focus = RAS_measures_to_ensure_military_construction
+	has_focus = RAS_new_minister_of_defense
+	has_focus = RAS_optimization_of_expenses_in_the_armed_forces
+	has_focus = RAS_optimization_of_expenses_in_the_aviation
+	has_focus = RAS_optimization_of_expenses_in_the_navy_fleet
+	has_focus = RAS_sign_peace_agreement_with_chechnya
+	has_focus = RAS_presidency_of_eltsin
+	has_focus = RAS_intervantions
+	has_focus = RAS_failed_blitz
+	has_focus = RAS_attack_grozny
+	has_focus = RAS_move_south_chechnya
+	has_focus = RAS_conduct_mountain_cleanups
+	has_focus = RAS_the_war_dragged_on
+	has_focus = RAS_information_war
+	has_focus = RAS_demonization_of_chechen_soldiers
+	has_focus = RAS_conceal_war_crimes
+	has_focus = RAS_chehcnya_is_terrorist_state
+	has_focus = RAS_chehcnya_is_our_historical_state
+	has_focus = RAS_humanitarion_help
+	has_focus = RAS_start_negotiation_processes
+	has_focus = RAS_yes_to_peace
+	has_focus = RAS_operations_of_our_special_services
+	has_focus = RAS_fsb_and_gru_cooperation
+	has_focus = RAS_strengthen_awacs_reconnaissance
+	has_focus = RAS_strengthen_the_border_with_chechnya
+	has_focus = RAS_conduct_cleanups_against_insurgency
+	has_focus = RAS_liquidation_of_the_main_terrorist
+	has_focus = RAS_reorganize_our_frontline
+	has_focus = RAS_call_for_air_strikes
+	has_focus = RAS_call_for_reinforcements
+	has_focus = RAS_bring_in_new_armour
+	has_focus = RAS_additional_special_forces
+	has_focus = RAS_additional_infantry_battalions
+	has_focus = RAS_additional_shipments_to_the_cto_zone
+	has_focus = RAS_emergency_powers
+	has_focus = RAS_updated_federal_treaty
+	has_focus = RAS_the_seventh_congress_of_deputies
+	has_focus = RAS_resignation_of_gaidar
+	has_focus = RAS_maintain_yeltsins_image
+	has_focus = RAS_leave_gaidar
+	has_focus = RAS_discrediting_parliament
+	has_focus = RAS_the_eighth_congress_of_deputies
+	has_focus = RAS_black_october
+	has_focus = RAS_parliamentary_resistance
+	has_focus = RAS_eltsin_resignation
+	has_focus = RAS_purge_yeltsin_administration
+	has_focus = RAS_can_we_build_democracy
+	has_focus = RAS_supporty_eltcin
+	has_focus = RAS_declare_emergency_state
+	has_focus = RAS_accept_new_constitution
+	has_focus = RAS_new_elections
+	has_focus = RAS_dissolve_the_duma
+	has_focus = RAS_conduct_elections_fairly
+	has_focus = RAS_propaganda_against_opponents
+	has_focus = RAS_use_administrative_resource
+	has_focus = RAS_use_oligarchs_money_for_election_campaign
+	has_focus = RAS_sign_populist_decrees
+	has_focus = RAS_victory
+	has_focus = RAS_deal_with_debt
+	has_focus = RAS_new_forgein_politic
+	has_focus = RAS_sign_snv
+	has_focus = RAS_return_influence_on_postsoviet_area
+	has_focus = RAS_georgia_civil_war
+	has_focus = RAS_abkhazia_war
+	has_focus = RAS_south_ossetia_war
+	has_focus = RAS_crush_zviadists
+	has_focus = RAS_support_transnistria
+	has_focus = RAS_support_chechen_opposition
+	has_focus = RAS_transport_troops_to_the_chehcen_border
+	has_focus = RAS_additional_aviation
+	has_focus = RAS_send_an_ultimatum_to_dudayev
+	has_focus = RAS_shell_chechnya
+	has_focus = RAS_blitz_chechnya
+	has_focus = RAS_call_for_omon
+	has_focus = RAS_save_the_russian_economy
+	has_focus = RAS_shock_economic_reforms
+	has_focus = RAS_voucher_privatization
+	has_focus = RAS_decree_on_price_liberalization
+	has_focus = RAS_free_trade_decree
+	has_focus = RAS_reduction_of_government_spending
+	has_focus = RAS_on_the_progress_of_economic_reforms
+	has_focus = RAS_collateral_auction_program
+	has_focus = RAS_central_bank_tough_policy
+	has_focus = RAS_support_south_russian_economy
+	has_focus = RAS_expand_factories_in_krasondar
+	has_focus = RAS_support_dagestani_industry
+	set_province_controller = 639
+	set_province_controller = 1224
+	set_province_controller = 1479
+	set_province_controller = 1533
+	set_province_controller = 1669
+	set_province_controller = 1672
+	set_province_controller = 2481
+	set_province_controller = 2675
+	set_province_controller = 3230
+	set_province_controller = 3571
+	set_province_controller = 5622
+	set_province_controller = 5674
+	set_province_controller = 5855
+	set_province_controller = 5882
+	set_province_controller = 6716
+	set_province_controller = 6891
+	set_province_controller = 6920
+	set_province_controller = 7335
+	set_province_controller = 7419
+	set_province_controller = 8098
+	set_province_controller = 8139
+	set_province_controller = 9028
+	set_province_controller = 9165
+	set_province_controller = 9191
+	set_province_controller = 9449
+	set_province_controller = 9472
+	set_province_controller = 10530
+	set_province_controller = 10574
+	set_province_controller = 10605
+	set_province_controller = 10613
+	set_province_controller = 10618
+	set_province_controller = 10643
+	set_province_controller = 10644
+	set_province_controller = 10648
+	set_province_controller = 10652
+	set_province_controller = 10679
+	set_province_controller = 10691
+	set_province_controller = 10706
+	set_province_controller = 10724
+	set_province_controller = 10743
+	set_province_controller = 17416
+	set_province_controller = 17453
+	set_province_controller = 17455
+	set_province_controller = 17456
+	set_province_controller = 17457
+	set_province_controller = 17458
+	set_province_controller = 17459
+	set_province_controller = 17460
+	set_province_controller = 17461
+	set_province_controller = 17462
+	set_province_controller = 17463
+	set_province_controller = 17464
+	set_province_controller = 17465
+	set_province_controller = 17466
+	set_province_controller = 17467
+	set_province_controller = 17468
+	set_province_controller = 17524
+	set_province_controller = 17525
+	set_province_controller = 17526
+	set_province_controller = 17527
+	set_province_controller = 17528
+	set_province_controller = 17529
+	set_province_controller = 17530
+}
+
+1996.1.1 = {
+    declare_war_on = {
+        target = CHE
+        type = annex_everything
+    }
+}
+
+1996.1.1 = {
+    set_politics = {
+        ruling_party = liberalism
+        elections_allowed = yes
+    }
+}
+
+1996.1.1 = {
+	load_focus_tree = Russian_Federation_focus
+}
+
+1996.1.1 = {
+	mark_focus_tree_layout_dirty = yes
+	set_global_flag = Fail_Blitz_First_ChechenWar
+	complete_national_focus = {
+		focus = RAS_failed_blitz
+		use_side_message = yes
 	}
 }
+

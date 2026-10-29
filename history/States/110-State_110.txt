@@ -12,6 +12,9 @@ state={
 			air_base = 1
 			infrastructure = 3
 		}
+		1996.1.1 = {
+			controller = RAS
+		}
 	}
 	buildings_max_level_factor=1.000
         manpower=2916

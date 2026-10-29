@@ -7,6 +7,10 @@ state={
 	history={
 		owner = SAK
 		add_core_of = ABK
+		1996.1.1 = {
+			owner = ABK 
+			add_core_of = ABK
+		}
 		victory_points = { 10725 10 }
 				buildings = {
 			infrastructure = 3
@@ -24,3 +28,4 @@ state={
 	state_category = large_town
 	local_supplies=0.0
 }
+

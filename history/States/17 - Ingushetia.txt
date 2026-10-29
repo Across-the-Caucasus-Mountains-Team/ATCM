@@ -21,6 +21,10 @@ state={
 			industrial_complex = 1
 					arms_factory = 1
 }
+		1996.1.1 = {
+			owner = RAS
+			controller = RAS
+		}
 	}
 	buildings_max_level_factor=1.000
 	manpower=192000

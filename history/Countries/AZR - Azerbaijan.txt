@@ -2,7 +2,13 @@ capital = 80
 
 set_research_slots = 4
 
-set_cosmetic_tag = SOV_AZR
+1991.1.1 = {
+	set_cosmetic_tag = SOV_AZR
+}
+
+1996.1.1 = {
+	drop_cosmetic_tag
+}
 
 # Starting tech
 set_technology = {
@@ -25,6 +31,38 @@ set_technology = {
 	basic_train = 1
 }
 
+1991.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1990.9.17"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		liberalism = 20
+		communism = 60
+		nationalism = 13
+		conservatism = 7 
+	}
+}
+
+1996.1.1 = {
+	set_politics = {
+		ruling_party = authoritarianism
+		last_election = "1998.5.20"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		authoritarianism = 73
+		communism = 7
+		nationalism = 10
+		conservatism = 10
+	}
+}
+
 add_ideas = {
 	universal_health_care
 	welfare_state
@@ -45,23 +83,4 @@ add_ideas = {
 	limited_conscription
 	low_economic_mobilisation
 	limited_exports
-}
-
-
-1996.1.1 = {
-	drop_cosmetic_tag = yes
-	promote_character = AZR_heydar_aliyev
-
-	set_politics = {
-		ruling_party = authoritarianism
-		last_election = "1993.10.3"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		authoritarianism = 60
-		communism = 33
-		conservatism = 7
-	}
 }

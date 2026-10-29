@@ -12,6 +12,10 @@ state={
 		owner = SAK
 		add_core_of = ABK
 		add_core_of = SAK
+		1996.1.1 = {
+			owner = ABK 
+			add_core_of = ABK
+		}
 		victory_points = { 8944 15 }
 		victory_points = { 8437 10 }
 				buildings = {
@@ -27,3 +31,4 @@ state={
 	state_category=large_town
 	local_supplies=0.000
 }
+

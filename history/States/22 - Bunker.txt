@@ -10,7 +10,11 @@ state={
 	
 		buildings = {
 			infrastructure = 1
-		}}
+		}
+		1996.1.1 = {
+			controller = RAS
+		}
+	}
 	buildings_max_level_factor=1.000
 	manpower=192
 	state_category = town

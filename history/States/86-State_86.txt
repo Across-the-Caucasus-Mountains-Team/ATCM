@@ -8,6 +8,10 @@ state={
 	owner = SAK
 	add_core_of = SAK
 	add_core_of = OST
+		1996.1.1 = {
+			owner = OST 
+			add_core_of = OST
+		}
 	victory_points = { 6429 10 }
 	    	    buildings = {
 	    	infrastructure = 1

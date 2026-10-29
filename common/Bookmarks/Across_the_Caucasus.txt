@@ -11,11 +11,11 @@ bookmarks = {
 			history = "CHE_Across_the_Caucasus_DESC"
 			ideology = Communism
 			ideas = {
-				CHE_memories_of_deportations
+			    CHE_memories_of_deportations
 				CHE_language_issue
 			}
 			focuses = {
-				CHE_start_chechen_revolution
+			    CHE_start_chechen_revolution
 				CHE_The_Battle_is_in_here
 				CHE_Deport_Russians
 			}
@@ -25,12 +25,12 @@ bookmarks = {
 			history = "RAS_Across_the_Caucasus_DESC"
 			ideology = Communism
 			ideas = {
-				RAS_Boris_Yeltsin_idea
+			    RAS_Boris_Yeltsin_idea
 				RAS_Memories_of_afhganistan_war
-				RAS_Failed_perestroika
+			    RAS_Failed_perestroika
 			}
 			focuses = {
-				RAS_seventieth_years_of_the_union
+			    RAS_seventieth_years_of_the_union
 				RAS_problems_in_the_south
 				RAS_after_of_the_gkhp
 			}
@@ -40,12 +40,12 @@ bookmarks = {
 			history = "SAK_Across_the_Caucasus_DESC"
 			ideology = nationalism
 			ideas = {
-				SAK_Clashes_in_south_ossetia
+			    SAK_Clashes_in_south_ossetia
 				SAK_Mkhedrioni
 				SAK_Gamsakhurdias_Speechs
 			}
 			focuses = {
-				SAK_the_last_steps_toward_independence
+			    SAK_the_last_steps_toward_independence
 				SAK_tensions_in_south_ossetia
 				SAK_independence_referendum
 			}
@@ -68,8 +68,8 @@ bookmarks = {
 			history = "ARM_Across_the_Caucasus_DESC"
 			ideology = nationalism
 			ideas = {
-				ARM_memories_of_Spitak_earthquake
-				ARM_The_Armenian_National_movement
+			    ARM_memories_of_Spitak_earthquake
+			    ARM_The_Armenian_National_movement
 			}
 			focuses = {
 				ARM_Nagarno_karabakh_problem
@@ -85,7 +85,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-			}
+			}	
 		}
 		"TUR"={
 			history = "TUR_Across_the_Caucasus_DESC"
@@ -94,7 +94,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-			}
+			}	
 		}
 		"PER"={
 			history = "PER_Across_the_Caucasus_DESC"
@@ -103,7 +103,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-			}
+			}	
 		}
 	}
-}
+}	
