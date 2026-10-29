@@ -11,7 +11,6 @@ state={
 			owner = ABK 
 			add_core_of = ABK
 		}
-	}
 		victory_points = { 1752 10 }
 				buildings = {
 			infrastructure = 3

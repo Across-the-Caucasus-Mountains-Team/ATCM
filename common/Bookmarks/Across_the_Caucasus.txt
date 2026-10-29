@@ -9,7 +9,7 @@ bookmarks = {
 
 		"CHE"={
 			history = "CHE_Across_the_Caucasus_DESC"
-			ideology = Communism
+			ideology = communism
 			ideas = {
 			    CHE_memories_of_deportations
 				CHE_language_issue
@@ -23,7 +23,7 @@ bookmarks = {
 
 		"RAS"={
 			history = "RAS_Across_the_Caucasus_DESC"
-			ideology = Communism
+			ideology = communism
 			ideas = {
 			    RAS_Boris_Yeltsin_idea
 				RAS_Memories_of_afhganistan_war
@@ -53,7 +53,7 @@ bookmarks = {
 
 		"AZR"={
 			history = "AZR_Across_the_Caucasus_DESC"
-			ideology = nationalism
+			ideology = communism
 			ideas = {
 				AZR_Black_January_idea
 			}
@@ -66,7 +66,7 @@ bookmarks = {
 
 		"ARM"={
 			history = "ARM_Across_the_Caucasus_DESC"
-			ideology = nationalism
+			ideology = communism
 			ideas = {
 			    ARM_memories_of_Spitak_earthquake
 			    ARM_The_Armenian_National_movement
@@ -89,7 +89,7 @@ bookmarks = {
 		}
 		"TUR"={
 			history = "TUR_Across_the_Caucasus_DESC"
-			ideology = liberalism
+			ideology = conservatism
 			minor = yes
 			ideas = {
 			}
