@@ -26,7 +26,7 @@ bookmarks = {
 		}
 		
 		"SAK"={
-			history = "ARM_2000_DESC"
+			history = "SAK_2000_DESC"
 			ideology = nationalism
 			ideas = {
 			}
