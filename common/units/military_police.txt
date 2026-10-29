@@ -42,8 +42,10 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 25
+			support_equipment = 10
 			infantry_equipment = 50
+			uniform_equipment = 75
+			bulletproof_vests_equipment = 50
 		}
 		same_support_type = military_police
 	}
@@ -94,13 +96,11 @@ sub_units = {
 		essential = {
 			infantry_equipment
 			support_equipment
-			motorbike_equipment
 		}
 
 		need = {
 			support_equipment = 5 
 			infantry_equipment = 20
-			motorbike_equipment = 20
 		}
 
 		same_support_type = military_police

@@ -199,8 +199,6 @@ script_enum_equipment_bonus_type = {
 	mothership_equipment_0
 	strat_bomber_intercontinental_equipment
 	strat_bomber_intercontinental_equipment_1
-	motorbike_equipment
-	motorbike_equipment_1
 
 	# Equipment archetypes & types
 	land_cruiser_chassis
