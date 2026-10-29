@@ -149,23 +149,22 @@ add_ideas = {
 		target = SAK
 		autonomous_state = soviet_republic
 	}
-}
-
-1991.1.1 = {
 	set_autonomy = {
 		target = ARM
 		autonomous_state = soviet_republic
 	}
-}
-
-1991.1.1 = {
 	set_autonomy = {
 		target = AZR
 		autonomous_state = soviet_republic
 	}
-}
-
-1991.1.1 = {
+	set_autonomy = {
+		target = ARS
+		autonomous_state = soviet_republic
+	}
+	set_autonomy = {
+		target = CHE
+		autonomous_state = soviet_republic
+	}
 	set_autonomy = {
 		target = DAG
 		autonomous_state = autonomy_supervised_state
@@ -173,19 +172,8 @@ add_ideas = {
 }
 
 
-1991.1.1 = {
-	set_autonomy = {
-		target = ARS
-		autonomous_state = soviet_republic
-	}
-}
 
-1991.1.1 = {
-	set_autonomy = {
-		target = CHE
-		autonomous_state = soviet_republic
-	}
-}
+
 
 1996.1.1 = {
 	end_puppet = SAK

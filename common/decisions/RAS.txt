@@ -656,6 +656,9 @@ RAS_first_chechen_war_decision = {
 					controls_state = 125
 					controls_state = 124
 					controls_state = 127
+					controls_state = 131
+					controls_state = 133
+					controls_state = 134
 				}
 			}
 		}

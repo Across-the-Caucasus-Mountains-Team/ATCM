@@ -3652,6 +3652,12 @@ focus_tree = {
 				target = CHE
 				type = annex_everything
 			}
+			DAG = {
+			    declare_war_on = {
+				    target = CHE
+				    type = annex_everything
+			    }				
+			}
 			activate_mission  = RAS_failed_blitzkrieg_decision
 			activate_mission = RAS_take_Grozny
 			activate_mission = RAS_take_Shali
