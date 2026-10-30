@@ -4,6 +4,11 @@ state={
 	provinces={
 		10776 
 	}
+	
+	resources = {
+		steel = 10
+	}
+		
 	history={
 		owner = RAS
 		add_core_of = RAS

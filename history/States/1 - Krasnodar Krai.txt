@@ -6,8 +6,8 @@ state={
 	}
 	resources = {
 		oil = 38
+		steel = 39
 	}
-
 	
 	history = {
 		owner = RAS
