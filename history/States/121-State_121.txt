@@ -8,14 +8,6 @@ state={
 	owner = WAL
 	add_core_of = WAL
 	}
-	resources = { 
-		steel = 500 
-		aluminium = 500 
-		rubber = 1000 
-		tungsten = 1000 
-		chromium = 1000 
-		coal = 1000 
-	} 
 	impassable = yes
 	manpower=1
 	buildings_max_level_factor=1.000
