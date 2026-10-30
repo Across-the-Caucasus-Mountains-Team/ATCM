@@ -5,9 +5,6 @@ state={
 		10776 
 	}
 	
-	resources = {
-		steel = 10
-	}
 		
 	history={
 		owner = RAS

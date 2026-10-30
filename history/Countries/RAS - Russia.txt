@@ -110,6 +110,8 @@ add_ideas = {
 	RAS_Boris_Yeltsin_idea
 	RAS_reformists_protest
 	RAS_big_criminality
+	RAS_resources_beyond_caucasus
+
 }
 
 add_dynamic_modifier = { modifier = RAS_Separatism }

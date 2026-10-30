@@ -13,7 +13,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = GFX_idea_CHE_abandoned_MIC
 			
 			modifier = {
@@ -34,9 +34,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = GFX_idea_CHE_destroyed_economy
-			
+
 			modifier = {
 				consumer_goods_factor = 0.45
 				production_speed_buildings_factor = -0.25
@@ -55,9 +55,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_Unrecognized_Country
-			
+
 			modifier = {
 				consumer_goods_factor = 0.35
 			}
@@ -73,12 +73,12 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_disorganized_defense_idea
-			
+
 			modifier = {
 				surrender_limit = 0.1
-				army_core_attack_factor = 0.025
+				army_core_defence_factor = 0.025
+				attack_bonus_against = -0.025
 				equipment_capture_factor = 0.02
 				monthly_population = -0.65
 				repair_speed_factor = -0.75
@@ -95,20 +95,20 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_disorganized_defense_idea
-			
+
 			modifier = {
-				surrender_limit = 0.5
-				army_core_attack_factor = 0.05
+				surrender_limit = 0.35
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.025
 				equipment_capture_factor = 0.03
 				monthly_population = -0.85
-				repair_speed_factor = -0.95
+				repair_speed_factor = -0.75
 			}
 		}
 
 		CHE_Unrecognized_Country = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -118,9 +118,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_Unrecognized_Country
-			
+
 			modifier = {
 				stability_Factor = -0.15
 				war_support_Factor = -0.15
@@ -129,7 +128,7 @@ ideas = {
 		}
 		
 		CHE_Military_Training = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -139,9 +138,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = unknow
-			
+
 			modifier = {
 				training_time_factor = -0.40
 				experience_gain_army_factor = 0.15
@@ -159,20 +157,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_Muslim_conservatism_idea
-			
+
 			modifier = {
 				monthly_population = 0.15
 				stability_Factor = 0.075
-				war_support_Factor = 0.05
 				nationalism_drift = 0.03
 				islam_drift = 0.02
 			}
 		}
-		
+
 		CHE_Young_patriots_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -182,18 +178,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_Young_patriots
-			
+
 			modifier = {
 				war_support_Factor = 0.05
 				conscription = 0.0025
 				nationalism_drift = 0.01
 			}
 		}
-		
+
 		CHE_National_Guard = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -203,18 +199,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_National_Guard
-			
+
 			modifier = {
-				army_core_defence_factor = 0.05
-				army_core_attack_factor = 0.045
+				army_org_factor = 0.05
+				army_org_regain = 0.025
 				nationalism_drift = 0.01
 			}
 		}
-		
+
 		CHE_Nationalist_Propagandas_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -224,9 +220,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_Nationalist_Propaganda
-			
+
 			modifier = {
 				war_support_factor = 0.15
 				army_core_defence_factor = 0.075
@@ -239,7 +235,7 @@ ideas = {
 		}
 
 		CHE_volunteers_from_muslim_world_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -249,17 +245,16 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_Volunteers
-			
+
 			modifier = {
 				islam_drift = 0.01
 				weekly_manpower = 25
 			}
 		}
-		
+
 		CHE_hold_the_line_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -269,18 +264,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = SAK_Tbilisi_Syndrome
-			
+
 			modifier = {
-				army_defence_factor = 0.265
+				army_defence_factor = 0.225
 				army_speed_factor = 0.1
 				army_dig_in_speed_factor = 0.05
 			}
 		}
-		
+
 		CHE_State_of_emergency_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -290,16 +285,16 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = state_of_emergency
-			
+
 			modifier = {
-				army_defence_factor = 0.095
-				stability_factor = -0.35
-				war_support_factor = -0.25
+				army_defence_factor = 0.085
+				army_attack_factor = 0.05
+				stability_factor = -0.3
+				war_support_factor = -0.2
 				conscription = 0.025
 				weekly_manpower = 50
-				army_attack_factor = 0.05
+				drift_defence_factor = 0.1
 				consumer_goods_factor = -0.25
 				communism_drift = -0.01
 				liberalism_drift = -0.01
@@ -310,9 +305,9 @@ ideas = {
 				monthly_population = -0.75
 			}
 		}
-		
+
 		CHE_general_staff = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -322,19 +317,19 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_General_staff_of_chechnya
-			
+
 			modifier = {
-				planning_speed = 0.10
-				max_planning_factor = 0.10
-				army_defence_factor = 0.055
-				army_attack_factor = 0.035
+				planning_speed = 0.15
+				max_planning_factor = 0.15
+				army_defence_factor = 0.05
+				army_attack_factor = 0.025
 			}
 		}
-		
+
 		CHE_hit_and_run_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -344,18 +339,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = SAK_Tbilisi_Syndrome
-			
+
 			modifier = {
-				army_attack_factor = 0.1
-				army_speed_factor = 0.075
-				army_night_attack_factor = 0.05
+				army_attack_factor = 0.075
+				army_speed_factor = 0.1
 			}
 		}
 		
 		CHE_wartime_propaganda = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -365,18 +359,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_war_time_propaganda
-			
+
 			modifier = {
-				army_attack_factor = 0.035
+				army_defence_factor = 0.025
 				war_support_weekly_factor = 0.01
 				weekly_manpower = 10
 			}
 		}
-		
+
 		CHE_wartime_propaganda_two = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -386,18 +380,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_war_time_propaganda
-			
+
 			modifier = {
-				army_attack_factor = 0.075
+				army_defence_factor = 0.05
 				war_support_weekly_factor = 0.02
-				weekly_manpower = 50
+				weekly_manpower = 30
 			}
 		}
-		
+
 		CHE_memories_of_deportations = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -407,18 +400,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_memories_of_deportation
-			
+
 			modifier = {
 				communism_drift = -0.04
 				nationalism_drift = 0.01
 				islam_drift = 0.01
 			}
 		}
-		
+
 		CHE_language_issue = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -428,17 +420,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_Language_issue
-			
+
 			modifier = {
-				political_power_cost = 0.65
+				political_power_cost = 0.6
 				stability_factor = -0.15
+				war_support_weekly_factor = -0.005
 			}
 		}
 
 		CHE_engineer_squads = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -448,18 +440,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_Language_issue
-			
+
 			modifier = {
-				army_defence_factor = 0.08
+				army_defence_factor = 0.07
 				dig_in_speed_factor = 0.075
 				max_dig_in_factor = 0.05
 			}
 		}
 
 		CHE_use_their_weapons_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -469,17 +461,15 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_Language_issue
-			
+
 			modifier = {
 				equipment_capture_factor = 0.075
-				army_org_factor = 0.025
 			}
 		}
 
 		CHE_operation_jihad_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -489,24 +479,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = state_of_emergency
-			
+
 			modifier = {
-				army_attack_factor = 0.15
+				army_attack_factor = 0.35
 				army_defence_factor = 0.15
 				breakthrough_factor = 0.1
-				weekly_manpower = 75
-			}
-
-			targeted_modifier = {
-				tag = RAS
-				attack_bonus_against = 0.175
 			}
 		}
 
 		CHE_sleepless_enemy_of_the_tanks_ideas = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -516,16 +500,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = state_of_emergency
-			
+
 			modifier = {
-				army_core_attack_factor = 0.1
+				ap_attack = 0.15
+				hard_attack = 0.05
 			}
 		}
 
 		CHE_disorganized_defense_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -537,11 +522,10 @@ ideas = {
 			removal_cost = -1
 			
 			picture = GFX_idea_CHE_disorganized_defense_idea
-			
+
 			modifier = {
-				army_core_attack_factor = 0.05
 				army_defence_factor = -0.15
-				army_org_factor = -0.15				
+				army_org_factor = -0.15
 				max_dig_in_factor = -0.15
 				dig_in_speed_factor = -0.075
 			}
@@ -553,7 +537,7 @@ ideas = {
 		}
 
 		CHE_islamization_of_the_army_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -563,18 +547,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_Army_islam
-			
+
 			modifier = {
-				army_org_factor = 0.15		
+				army_org_factor = 0.15
 				army_core_attack_factor = 0.1		
 				islam_drift = 0.01
 			}
 		}
 
 		CHE_holy_jihad_against_russia_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -584,9 +568,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = state_of_emergency
-			
+
 			modifier = {
 				army_org_factor = 0.15				
 			}
@@ -596,9 +580,9 @@ ideas = {
 				attack_bonus_against = 0.25
 			}
 		}
-		
+
 		CHE_embargo_on_chechnya_idea = {
-			
+	
 			allowed = {
 				original_tag = CHE
 			}
@@ -608,9 +592,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = state_of_emergency
-			
+
 			modifier = {
 				production_speed_buildings_factor = -0.15
 				consumer_goods_factor = 0.25				
@@ -618,7 +602,7 @@ ideas = {
 		}
 
 		CHE_drug_shortage_crisis_idea = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -628,9 +612,9 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			picture = CHE_drug_shortage_crisis_idea
-			
+
 			modifier = {
 				monthly_population = -0.30
 				stability_factor = -0.15
@@ -639,7 +623,7 @@ ideas = {
 		}
 
 		CHE_drug_shortage_crisis_idea_2 = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -649,9 +633,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_drug_shortage_crisis_idea
-			
+
 			modifier = {
 				monthly_population = -0.15
 				stability_factor = -0.05
@@ -660,7 +643,7 @@ ideas = {
 		}
 
 		CHE_lack_of_experience_in_building_fortifications = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -670,18 +653,17 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_lack_of_experience_in_building_fortifications
-			
+
 			modifier = {
 				land_bunker_effectiveness_factor = -0.5
-				production_speed_bunker_factor = -0.45
-				army_defence_factor = -0.05
+				production_speed_bunker_factor = -0.4
+				army_defence_factor = -0.075
 			}
 		}
 
 		CHE_lack_of_experience_in_building_fortifications_2 = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -691,9 +673,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_lack_of_experience_in_building_fortifications
-			
+
 			modifier = {
 				land_bunker_effectiveness_factor = -0.25
 				production_speed_bunker_factor = -0.15
@@ -711,9 +692,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = CHE_opposition_power_idea
-			
+
 			modifier = {
 				weekly_manpower = -25
 				army_org_factor = -0.25	
@@ -734,7 +714,7 @@ ideas = {
 		}
 
 		CHE_russian_troops_in_chechnya = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -744,9 +724,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_disorganized_defense_idea
-			
+
 			modifier = {
 				political_power_cost = 0.15
 				communism_drift = 0.03
@@ -761,8 +740,9 @@ ideas = {
 				defense_bonus_against = -0.15
 			}
 		}
+
 		CHE_ban_opposition = {
-			
+
 			allowed = {
 				original_tag = CHE
 			}
@@ -772,17 +752,18 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_ban_opposition
-			
+
 			modifier = {
 				drift_defence_factor = 0.1
 				liberalism_drift = -0.01
 				junta_drift = -0.01
 				communism_drift = -0.01
 				anarchism_drift = -0.01
+				authoritarianism_drift = -0.01
 			}
 		}
+
 		CHE_mountains_ghosts = {
 			allowed = {
 				original_tag = CHE
@@ -793,9 +774,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_mountains_ghosts
-			
+
 			modifier = {
 				surrender_limit = 0.15
 				equipment_capture_factor = 0.005
@@ -803,6 +783,7 @@ ideas = {
 				modifier_army_sub_unit_mountaineers_defence_factor = 0.15
 			}
 		}
+
 		CHE_freedom_or_death = {
 			allowed = {
 				original_tag = CHE
@@ -813,13 +794,13 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
 			picture = GFX_idea_CHE_freedom_or_death
-			
+
 			modifier = {
-				surrender_limit = 0.25
+				surrender_limit = 0.30
 			}
 		}
+
 		CHE_night = {
 			allowed = {
 				original_tag = CHE
@@ -829,10 +810,9 @@ ideas = {
 				always = yes
 			}
 
-			removal_cost = -1
-			
+			removal_cost = -1	
 			picture = GFX_idea_CHE_night
-			
+
 			modifier = {
 			land_night_attack = 0.25
 			army_org_regain = 0.05

@@ -1,28 +1,6 @@
 ideas = {
 
 	country = {
-		RAS_hyperinflation = {
-			
-			allowed = {
-				original_tag = RAS
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-			
-			picture = RAS_hyperinflation
-			
-			modifier = {
-				stability_factor = -0.35
-				consumer_goods_factor = 0.25
-				production_factory_efficiency_gain_factor = -0.15
-				production_factory_max_efficiency_factor = -0.15
-				production_speed_industrial_complex_factor = -0.45
-			}
-		}
 
 		RAS_large_external_debt = {
 			
@@ -40,12 +18,12 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.15
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.30
 			}
 		}
 
 		RAS_call_for_air_strikes_idea = {
-			
+
 			allowed = {
 				original_tag = RAS
 			}
@@ -137,7 +115,7 @@ ideas = {
 		}
 
 		RAS_improved_logistic = {
-			
+
 			allowed = {
 				original_tag = RAS
 			}
@@ -172,8 +150,10 @@ ideas = {
 			
 			modifier = {
 				stability_Factor = -0.15
-				political_power_gain = -0.25
-				consumer_goods_factor = 0.15
+				political_power_gain = -0.20
+				consumer_goods_factor = 0.10
+				monthly_population = -0.10
+				weekly_manpower = -25
 			}
 		}
 
@@ -236,9 +216,9 @@ ideas = {
 			
 			modifier = {
 				breakthrough_factor = 0.235
-				army_attack_factor = 0.17
-				army_speed_factor = 0.15
-				army_defence_factor = 0.05				
+				army_attack_factor = 0.175
+				army_speed_factor = 0.20
+				army_defence_factor = -0.05				
 			}
 
 			targeted_modifier = {
@@ -248,7 +228,7 @@ ideas = {
 		}
 
 		RAS_roadblock_idea = {
-			
+
 			allowed = {
 				original_tag = RAS
 			}
@@ -260,9 +240,9 @@ ideas = {
 			removal_cost = -1
 			
 			picture = state_of_emergency
-			
+
 			modifier = {
-				army_speed_factor = 0.075
+				army_speed_factor = -0.025
 				supply_node_range = 0.05
 				army_defence_factor = 0.05	
 				army_org_regain = 0.05			
@@ -271,6 +251,27 @@ ideas = {
 			targeted_modifier = {
 				tag = CHE
 				defence_bonus_against = 0.05
+			}
+		}
+
+		RAS_resources_beyond_caucasus = {
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = state_of_emergency
+
+			modifier = {
+				country_resource_oil = 240
+				country_resource_steel = 160
+				country_resource_aluminium = 80
+				country_resource_tungsten = 40
+				country_resource_chromium = 30
 			}
 		}
 	}

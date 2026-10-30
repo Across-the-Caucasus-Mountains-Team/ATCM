@@ -59,6 +59,20 @@ RAS_Separatism = { #NATIONAL SPIRIT
 	
 }
 
+RAS_hyperinflation = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = RAS_hyperinflation
+
+    stability_factor = RAS_hyp_inf_stability_factor
+    consumer_goods_factor = RAS_hyp_inf_consumer_goods_factor
+    production_factory_efficiency_gain_factor = RAS_hyp_inf_production_factory_efficiency_gain_factor
+    production_factory_max_efficiency_factor = RAS_hyp_inf_production_factory_max_efficiency_factor
+    production_speed_industrial_complex_factor = RAS_hyp_inf_production_speed_industrial_complex_factor
+    political_power_factor = RAS_hyp_inf_political_power_factor
+
+}
+
 CHE_Weak_Chechen_armed_forces = { #NATIONAL SPIRIT
 	enable = { always = yes }
 
@@ -110,7 +124,7 @@ RAS_road_to_grozny = {
 	enable = { always = yes }
 	icon = GFX_idea_Russian_attack
 	army_speed_factor = 0.2
-	army_org_factor = 0.15
+	army_org_factor = 0.2
 	army_attack_factor = 0.15
 	breakthrough_factor = 0.1
 }
@@ -119,10 +133,10 @@ RAS_chechen_mountains = {
 
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
-	army_attack_factor = -0.65
+	army_attack_factor = -0.60
 	army_speed_factor = -0.45
-	army_org_factor = -0.35
-	ai_focus_aggressive_factor = -0.5
+	army_org_factor = -0.30
+	ai_focus_aggressive_factor = -0.6
 }
 
 RAS_road_to_south_chechnya = {
@@ -130,7 +144,7 @@ RAS_road_to_south_chechnya = {
 	enable = { always = yes }
 	icon = GFX_idea_Russian_attack
 	army_speed_factor = 0.2
-	army_org_factor = 0.15
+	army_org_factor = 0.2
 	army_attack_factor = 0.05
 }
 
@@ -150,7 +164,6 @@ CHE_prepared_defense = {
 	icon = GFX_idea_CHE_weak_army
 	army_org_factor = 0.15
 	army_defence_factor = 0.075
-	army_speed_factor = 0.05
 }
 
 CHI_rebellious_region = {
@@ -168,7 +181,7 @@ CHE_planned_counterattack = {
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
 	army_org_factor = 0.15
-	army_attack_factor = 0.15
+	army_attack_factor = 0.20
 	army_defence_factor = 0.05
 	army_speed_factor = 0.05
 }
@@ -177,7 +190,7 @@ RAS_protests_in_region = {
 
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
-	army_speed_factor = -0.55
+	army_speed_factor = -0.50
 	army_org_factor = -0.15
 }
 

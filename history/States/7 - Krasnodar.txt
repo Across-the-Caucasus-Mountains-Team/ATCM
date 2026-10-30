@@ -5,9 +5,6 @@ state={
 		1142 4787 5258 9717 9729 9731 
 	}
 	
-	resources = {
-		steel = 30
-	}
 		
 	history={
 		owner = RAS

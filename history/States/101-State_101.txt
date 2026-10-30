@@ -4,6 +4,9 @@ state={
 	provinces={
 		140 3219 6072 7072 7743 8715 12830 12874 12933 
 	}
+	resources = {
+		oil = 24
+	}
 
 	history={
 	owner = TKM

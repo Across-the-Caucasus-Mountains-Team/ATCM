@@ -4,6 +4,14 @@ state={
 	provinces={
 		15230 16488 16870 17373 17374 17375 17376 17377 17378 17382 17384 17385 17386 17387 17388 17389 17390 17391 17392 
 	}
+	resources = { 
+		steel = 500 
+		aluminium = 500 
+		rubber = 1000 
+		tungsten = 1000 
+		chromium = 1000 
+		coal = 1000 
+	} 
 	history={
 	owner = WAL
 	add_core_of = WAL
