@@ -4,6 +4,16 @@ state={
 	provinces={
 		13640 
 	}
+	
+	resources = { 
+		steel = 100
+		aluminium = 100 
+		rubber = 100 
+		tungsten = 100 
+		chromium = 100 
+		coal = 100 
+	} 
+	
 	history={
 	owner = TKM
 	add_core_of = TKM
