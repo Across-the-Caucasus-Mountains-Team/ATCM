@@ -1,0 +1,1380 @@
+division_template = {
+	name = "Pekhotniy-batalyon"
+
+	division_names_group = CHE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Tankoviy-batalyon"
+
+	division_names_group = CHE_Arm_01
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		armoured_personnel_carrier = { x = 1 y = 0 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+	is_locked = yes
+}
+
+division_template = {
+	name = "Gornostrelkoviy-batalyon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Motorizebuli-danakofi"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_Mot_01
+
+	regiments = {
+		armoured_personnel_carrier = { x = 0 y = 0 }
+	    armoured_personnel_carrier = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Elite Divisions"
+
+	division_names_group = CHE_Elite_Divisions
+
+	regiments = {
+		armoured_personnel_carrier = { x = 0 y = 0 }
+		armoured_personnel_carrier = { x = 0 y = 1 }
+		armoured_personnel_carrier = { x = 1 y = 0 }
+		armoured_personnel_carrier = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		atgm_company = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 3 }
+	}
+
+	is_locked = yes
+}
+
+division_template = {
+	name = "Artillerin bataljon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_Art_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	    artillery_brigade  = { x = 1 y = 0 }
+		artillery_brigade  = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Ghosts-of-the-Mountains"
+	
+	division_names_group = CHE_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
+	}
+	is_locked = yes
+}
+
+division_template = {
+	name = "Guard of allah"
+	division_names_group = CHE_guard_of_allah
+	template_counter = 105
+	priority = 2
+	regiments = {
+		special_forces_infantry = { x = 0 y = 0 }
+		special_forces_infantry = { x = 0 y = 1 }
+		special_forces_infantry = { x = 0 y = 2 }
+		special_forces_infantry = { x = 1 y = 0 }
+		special_forces_infantry = { x = 1 y = 1 }
+		special_forces_infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		atgm_company = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 3 }
+		mortar = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
+		artillery = { x = 1 y = 1 }
+		signal_company = { x = 1 y = 2 }
+		logistics_company = { x = 1 y = 3 }
+	}
+
+	is_locked = yes
+}
+
+division_template = {
+	name = "Q̇oman gvardi"
+
+	division_names_group = CHE_Inf_01
+
+	regiments = {
+		special_forces_infantry = { x = 0 y = 0 }
+		special_forces_infantry = { x = 0 y = 1 }
+        special_forces_infantry = { x = 1 y = 0 }
+		special_forces_infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		atgm_company = { x = 1 y = 0 }
+		field_hospital = { x = 1 y = 1 }
+	}
+
+	is_locked = yes
+}
+
+division_template = {
+	name = "Tanks-hunters"
+
+	division_names_group = CHE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		atgm_company = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 3 }
+	}
+	is_locked = yes
+}
+
+division_template = {
+	name = "Ġaşloyn bataljon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Nizam docu bataljon"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_inf_02
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+        irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 1 y = 0 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Artillerin bataljon 2"
+	#Note: precursor to Gebirgs-Divisions
+	division_names_group = CHE_Art_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	    artillery_brigade  = { x = 1 y = 0 }
+		artillery_brigade  = { x = 1 y = 1 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Policia"
+
+	division_names_group = CHE_pol_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+	}
+	
+	support = {
+        military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Volunteers"
+
+	division_names_group = CHE_vol_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 4428
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10759
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 10756
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 6634
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 9407
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 10726
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 10745
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 8
+			}
+			location = 7758
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 9
+			}
+			location = 4182
+			division_template = "Pekhotniy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10739
+			division_template = "Gornostrelkoviy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 6457
+			division_template = "Gornostrelkoviy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 829
+			division_template = "Gornostrelkoviy-batalyon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7576
+			division_template = "Motorizebuli-danakofi"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 2315
+			division_template = "Motorizebuli-danakofi"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 6940
+			division_template = "Motorizebuli-danakofi"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 960
+			division_template = "Motorizebuli-danakofi"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 3577
+			division_template = "Tankoviy-batalyon"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.7
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7336
+			division_template = "Elite Divisions"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.8
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10603
+			division_template = "Elite Divisions"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.8
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 9079
+			division_template = "Elite Divisions"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 657
+			division_template = "Elite Divisions"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 5215
+			division_template = "Artillerin bataljon"
+			start_experience_factor = 0.15
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10597
+			division_template = "Artillerin bataljon"
+			start_experience_factor = 0.25
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 10716
+			division_template = "Artillerin bataljon"
+			start_experience_factor = 0.25
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 17523
+			division_template = "Artillerin bataljon"
+			start_experience_factor = 0.125
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 5272
+			division_template = "Artillerin bataljon"
+			start_experience_factor = 0.125
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 5504
+			division_template = "Ghosts-of-the-Mountains"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 4699
+			division_template = "Ghosts-of-the-Mountains"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 8389
+			division_template = "Ghosts-of-the-Mountains"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 4035
+			division_template = "Ghosts-of-the-Mountains"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 17454
+			division_template = "Ghosts-of-the-Mountains"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 17451
+			division_template = "Ghosts-of-the-Mountains"
+			start_experience_factor = 0.5
+		}
+
+	division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 1035
+			division_template = "Guard of allah"
+			start_experience_factor = 0.8
+		}
+
+	division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10584
+			division_template = "Guard of allah"
+			start_experience_factor = 0.8
+		}
+
+	division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 7447
+			division_template = "Guard of allah"
+			start_experience_factor = 0.8
+		}
+
+	division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 8080
+			division_template = "Guard of allah"
+			start_experience_factor = 0.8
+		}
+
+	division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 885
+			division_template = "Guard of allah"
+			start_experience_factor = 0.8
+		}
+
+	division = {
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 10661
+			division_template = "Guard of allah"
+			start_experience_factor = 0.8
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 5214
+			division_template = "Tankoviy-batalyon"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.8
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 31
+			division_template = "Tankoviy-batalyon"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.8
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 7218
+			division_template = "Tankoviy-batalyon"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 416
+			division_template = "Tankoviy-batalyon"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.4
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7612
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 10663
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 7531
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 4450
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10684
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 5296
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 3896
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 2274
+			division_template = "Q̇oman gvardi"
+			start_experience_factor = 0.6
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 4998
+			division_template = "Tanks-hunters"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.4
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 6487
+			division_template = "Tanks-hunters"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.8
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 2500
+			division_template = "Tanks-hunters"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 8797
+			division_template = "Tanks-hunters"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 1857
+			division_template = "Ġaşloyn bataljon"
+			start_experience_factor = 0.4
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 6702
+			division_template = "Ġaşloyn bataljon"
+			start_experience_factor = 0.4
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 2300
+			division_template = "Ġaşloyn bataljon"
+			start_experience_factor = 0.45
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10747
+			division_template = "Ġaşloyn bataljon"
+			start_experience_factor = 0.65
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 5611
+			division_template = "Ġaşloyn bataljon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 6983
+			division_template = "Ġaşloyn bataljon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7872
+			division_template = "Ġaşloyn bataljon"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 7512
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.2
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 2753
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.2
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 9425
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.2
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10764
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.2
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10769
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.1
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 2902
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.1
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10774
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.1
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 850
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.1
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 9274
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.05
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 3731
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.05
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 3027
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.05
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10789
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.05
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 5469
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.05
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10794
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.05
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 6551
+			division_template = "Nizam docu bataljon"
+			start_experience_factor = 0.05
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 1399
+			division_template = "Artillerin bataljon 2"
+			start_experience_factor = 0.1
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 1596
+			division_template = "Artillerin bataljon 2"
+			start_experience_factor = 0.1
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 9074
+			division_template = "Artillerin bataljon 2"
+			start_experience_factor = 0.3
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 7286
+			division_template = "Artillerin bataljon 2"
+			start_experience_factor = 0.2
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 10835
+			division_template = "Policia"
+			start_experience_factor = 0.3
+			start_equipment_factor = 0.3
+			start_manpower_factor = 0.9
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 4158
+			division_template = "Policia"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.4
+			start_manpower_factor = 0.7
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 8599
+			division_template = "Policia"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.7
+			start_manpower_factor = 0.8
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 9418
+			division_template = "Policia"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.8
+			start_manpower_factor = 0.4
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 10806
+			division_template = "Policia"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 5586
+			division_template = "Policia"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 7064
+			division_template = "Policia"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 8
+			}
+			location = 10852
+			division_template = "Policia"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 9
+			}
+			location = 10819
+			division_template = "Policia"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 10
+			}
+			location = 2696
+			division_template = "Policia"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 1
+			}
+			location = 1865
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 2
+			}
+			location = 6620
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 3
+			}
+			location = 5896
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 4
+			}
+			location = 6356
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 5
+			}
+			location = 8617
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 6
+			}
+			location = 2960
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 7
+			}
+			location = 6613
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 8
+			}
+			location = 104
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 9
+			}
+			location = 10820
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 10
+			}
+			location = 2911
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 11
+			}
+			location = 3429
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 12
+			}
+			location = 10804
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 13
+			}
+			location = 10814
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 14
+			}
+			location = 460
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 15
+			}
+			location = 8767
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 16
+			}
+			location = 7200
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+
+	division = {	
+			division_name = {
+				is_name_ordered = yes
+				name_order = 17
+			}
+			location = 9475
+			division_template = "Volunteers"
+			start_experience_factor = 0.5
+		}
+}

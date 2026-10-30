@@ -53,4 +53,13 @@ add_ideas = {
 
 
 1996.1.1 = {
+	set_completed_focus = ABK_suprise_attack
+	set_completed_focus = ABK_chaotic_retreat_to_gumsta_river
+	set_completed_focus = ABK_militia_in_sukhumi
+	set_completed_focus = ABK_volunteers_from_north_caucasus
+	set_completed_focus = ABK_hold_the_line
+	set_completed_focus = ABK_march_offensive
+	set_completed_focus = ABK_finally_peace
+	set_completed_focus = ABK_international_relations
+	set_completed_focus = ABK_sign_with_baskhortastan_friendship_deal
 }

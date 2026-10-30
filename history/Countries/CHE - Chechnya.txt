@@ -2,7 +2,7 @@ capital = 21
 
 set_research_slots = 2
 
-load_oob = CHE_1991
+oob = "CHE_1991"
 
 set_country_flag = StartguiOpen
 
@@ -104,6 +104,7 @@ add_ideas = {
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
+	oob = "CHE_1996"
 	set_province_controller = 657
 	set_province_controller = 960
 	set_province_controller = 1690
@@ -131,11 +132,4 @@ add_ideas = {
 	set_province_controller = 10775
 	set_province_controller = 17415
 	set_province_controller = 17523
-}
-
-1996.1.1 = {
-    set_politics = {
-        ruling_party = nationalism
-        elections_allowed = yes
-    }
 }

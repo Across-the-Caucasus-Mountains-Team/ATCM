@@ -6,29 +6,50 @@ load_oob = SAK_1991
 
 set_country_flag = StartguiOpen
 
-1991.1.1 = {
-	set_cosmetic_tag = SOV_SAK
-}
-
 1996.1.1 = {
 	drop_cosmetic_tag = yes
-	load_focus_tree = {
-		tree = Independent_Georgia_focus
-	}
-		set_politics = {
-			ruling_party = nationalism
-			last_election = "1999.9.17"
-			election_frequency = 48
-			elections_allowed = yes	
-		}
 
-		set_popularities = {
-			junta = 20
-			communism = 10
-			nationalism = 63
-			conservatism = 7
-		}
+	set_completed_focus = SAK_Our_Actions
+	set_completed_focus = SAK_integration_of_south_ossetia
+	set_completed_focus = SAK_equal_rights_to_ossetians
+	set_completed_focus = SAK_public_schools_for_everyone
+	set_completed_focus = SAK_more_autonomy
+	set_completed_focus = SAK_Little_fish
+	set_completed_focus = SAK_Our_eyes_In_Tbilisi
+	set_completed_focus = SAK_Arrest_Oppositions
+	set_completed_focus = SAK_Raid_their_offices
+	set_completed_focus = Sak_Arrest_bandits
+	set_completed_focus = SAK_Fortify_Political_Prisons
+	set_completed_focus = SAK_Crackdown_kitovani_national_guard
+	set_completed_focus = SAK_Our_National_Speechs
+	set_completed_focus = SAK_Interview_with_foreign_journalists
+	set_completed_focus = SAK_Ban_Communism
+	set_completed_focus = SAK_Send_National_Guard
+	set_completed_focus = SAK_Battle_of_tskhinvali
+	set_completed_focus = SAK_Close_Rock_mountain_pass
+	set_completed_focus = SAK_negotiate_with_Abkhazia
+	set_completed_focus = SAK_Crackdown_Abkhazians
+	set_completed_focus = SAK_Take_Sukhumi
+	set_completed_focus = SAK_Integrate_Abkhazia
+
+	load_focus_tree = {
+		tree = Georgia_ethnicity_war
 	}
+
+	set_politics = {
+		ruling_party = nationalism
+		last_election = "1999.9.17"
+		election_frequency = 48
+		elections_allowed = yes	
+	}
+
+	set_popularities = {
+		junta = 20
+		communism = 0
+		nationalism = 73
+		conservatism = 7
+	}
+}
 
 # Starting tech
 set_technology = {

@@ -52,4 +52,12 @@ add_ideas = {
 
 
 1996.1.1 = {
+	set_completed_focus = OST_arrise_ossetia
+	set_completed_focus = OST_battle_for_tskhinvali
+	set_completed_focus = OST_rise_up_militia
+	set_completed_focus = OST_disrupte_enemy_supply
+	set_completed_focus = OST_fortify_java
+	set_completed_focus = OST_weapons
+	set_completed_focus = OST_forgein_volounteers
+	set_completed_focus = OST_general_staff_organization
 }

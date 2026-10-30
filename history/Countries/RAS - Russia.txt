@@ -144,6 +144,11 @@ add_ideas = {
 	limited_exports
 }
 
+set_autonomy = {
+	target = DAG
+	autonomous_state = autonomy_supervised_state
+}
+
 1991.1.1 = {
 	set_autonomy = {
 		target = SAK
@@ -165,10 +170,6 @@ add_ideas = {
 		target = CHE
 		autonomous_state = soviet_republic
 	}
-	set_autonomy = {
-		target = DAG
-		autonomous_state = autonomy_supervised_state
-	}
 }
 
 
@@ -185,7 +186,7 @@ add_ideas = {
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
-	set_global_flag = ATCM_scenario_1996
+	oob = "RAS_1996"
 	has_focus = RAS_second_presidency_of_eltsin
 	has_focus = RAS_continue_economic_reforms
 	has_focus = RAS_form_a_new_government

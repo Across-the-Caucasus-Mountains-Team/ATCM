@@ -7,6 +7,19 @@ set_research_slots = 4
 }
 
 1996.1.1 = {
+	set_completed_focus = AZR_Soviet_State
+	set_completed_focus = AZR_Sovereignty_Question
+	set_completed_focus = AZR_Preservation_of_USSR
+	set_completed_focus = AZR_Soviet_Loyalty
+	set_completed_focus = AZR_Support_Coup
+	set_completed_focus = AZR_Communist_Preservation
+	set_completed_focus = AZR_Pursuit_of_Independence
+	set_completed_focus = AZR_Anti_Communist_Protests
+	set_completed_focus = AZR_Pro_Democratic_Speeches
+	set_completed_focus = AZR_New_Parties_Creation
+	set_completed_focus = AZR_Musavat_Revival
+	set_completed_focus = AZR_Founding_Democratic_Institutions
+	set_completed_focus = AZR_Declare_Independence
 	drop_cosmetic_tag = yes
 }
 

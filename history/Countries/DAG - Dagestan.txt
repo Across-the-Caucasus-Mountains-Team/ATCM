@@ -49,5 +49,11 @@ add_ideas = {
 }
 
 
-1996.1.1 = {
+1991.1.1 = {
+	set_cosmetic_tag = DAG_1991
+}
+
+1994.1.1 = {
+	set_cosmetic_tag = DAG_1994
+	end_cosmetic_tag = DAG_1991
 }
