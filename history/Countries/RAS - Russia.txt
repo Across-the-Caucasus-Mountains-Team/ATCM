@@ -98,20 +98,14 @@ set_technology = {
 	}
 }
 
-add_ideas = {
-	universal_health_care
-	welfare_state
-	free_universities
-	police_state
 
-	RAS_Memories_of_afhganistan_war
-	RAS_Failed_perestroika
-	RAS_hardliners_protest
-	RAS_Boris_Yeltsin_idea
-	RAS_reformists_protest
-	RAS_big_criminality
-	RAS_resources_beyond_caucasus
-
+1991.1.1 = {
+	add_ideas = {
+		RAS_big_criminality
+		RAS_resources_beyond_caucasus
+		RAS_plundered_army
+		RAS_hyperinflation
+	}
 }
 
 add_dynamic_modifier = { modifier = RAS_Separatism }
@@ -146,12 +140,11 @@ add_ideas = {
 	limited_exports
 }
 
-set_autonomy = {
-	target = DAG
-	autonomous_state = autonomy_supervised_state
-}
-
 1991.1.1 = {
+	set_autonomy = {
+		target = DAG
+		autonomous_state = soviet_republic
+	}
 	set_autonomy = {
 		target = SAK
 		autonomous_state = soviet_republic
@@ -175,7 +168,16 @@ set_autonomy = {
 }
 
 
+1991.28.11 = {
+	end_puppet = DAG
+}
 
+1991.29.11 = {
+	set_autonomy = {
+		target = DAG
+		autonomous_state = autonomy_special_autonomous_republic
+	}
+}
 
 
 1996.1.1 = {

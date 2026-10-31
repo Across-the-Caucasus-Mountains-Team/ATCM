@@ -26,10 +26,10 @@ set_technology = {
 }
 	
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = communism
 	last_election = "1991.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -50,7 +50,19 @@ add_ideas = {
 
 
 1991.1.1 = {
+	set_cosmetic_tag = DAG_communism
+}
+
+1991.25.12 = {
 	set_cosmetic_tag = DAG_1991
+	end_cosmetic_tag = DAG_communism
+	
+	set_politics = {
+		ruling_party = liberalism
+		last_election = "1991.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
 }
 
 1994.1.1 = {

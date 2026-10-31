@@ -1,0 +1,44 @@
+autonomy_state = {
+	id = autonomy_special_autonomous_republic
+	
+	default = no
+	
+	is_puppet = yes
+	
+	min_autonomy_level = autonomy_special_autonomous_republic
+	
+	can_change_topics = {
+		can_declare_war = no
+		can_decline_call_to_war = no
+		can_be_spied_on = yes
+	}
+	
+	can_take_level = {
+		always = no
+	}
+	
+	can_lose_level = {
+		always = yes
+	}
+	
+	master_modifier = {
+		cic_to_target = 1.00
+		mic_to_target = 1.00
+		
+		extra_trade_to_target_factor = 1.0
+		
+		autonomy_manpower_share = 1.00
+	}
+	
+	subjugated_modifier = {
+		local_resources_factor = 1.0
+		custom_modifier_tooltip = autonomy_special_autonomous_republic_tt
+	}
+	
+	trade_license_occupation_cost = -1.0
+	rules = {
+		can_call_subject_into_war = yes
+		can_build_factories_on_subject = yes
+		can_occupy_subject = yes
+	}
+}

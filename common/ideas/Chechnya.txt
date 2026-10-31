@@ -23,6 +23,28 @@ ideas = {
 				production_speed_arms_factory_factor = -0.45
 			}
 		}
+		
+		CHE_ne_pristypnaa_krenost = {
+			allowed = {
+				original_tag = CHE
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHE_abandoned_MIC
+			
+			modifier = {
+				army_defence_factor = 0.75
+				war_support_Factor = 0.25
+				army_org_factor = 0.1
+				army_attack_factor = -0.35
+				surrender_limit = 0.5
+			}
+		}
 
 		CHE_destroyed_economy = {
 			allowed = {

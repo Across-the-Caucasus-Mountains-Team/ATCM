@@ -61,15 +61,17 @@ set_popularities = {
 	conservatism = 17
 }	
 
-add_ideas = {
-	universal_health_care
-	welfare_state
-	free_universities
-	police_state
+1991.1.1 = {
+	add_ideas = {
+		universal_health_care
+		welfare_state
+		free_universities
+		police_state
 
-	CHE_memories_of_deportations
-	CHE_language_issue
-}	
+		CHE_memories_of_deportations
+		CHE_language_issue
+	}
+}
 
 add_dynamic_modifier = { modifier = CHE_Weak_Chechen_armed_forces }
 set_variable = { CHE_wcaf_war_support_factor = -0.15 }
@@ -104,6 +106,24 @@ add_ideas = {
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
+	add_ideas = {
+		CHE_abandoned_MIC
+		CHE_destroyed_economy
+		CHE_National_Guard
+		CHE_Young_patriots_idea
+		CHE_ban_opposition
+		CHE_Islamic_Conservatism_idea
+		CHE_general_staff
+		CHE_ne_pristypnaa_krenost
+	}
+	set_variable = { CHE_wcaf_war_support_factor = 0.07 }
+	set_variable = { CHE_wcaf_Conscription = 0.0015 }
+	set_variable = { CHE_wcaf_army_attack_factor = 0 }
+	set_variable = { CHE_wcaf_army_defence_factor = -0.01 }
+	set_variable = { CHE_wcaf_army_org_factor = -0.25 }
+	set_variable = { CHE_wcaf_army_speed_factor = 0.03 }
+	set_variable = { CHE_wcaf_war_stability_factor = -0.18 }
+	set_variable = { CHE_wcaf_army_org_regain = 0.02 }
 	oob = "CHE_1996"
 	set_province_controller = 657
 	set_province_controller = 960

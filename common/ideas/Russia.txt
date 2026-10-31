@@ -21,6 +21,27 @@ ideas = {
 				consumer_goods_factor = 0.30
 			}
 		}
+		
+		RAS_zamorozenii_front = {
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_CHE_abandoned_MIC
+			
+			modifier = {
+				army_defence_factor = 0.5
+				war_support_Factor = -0.25
+				army_org_factor = 0.1
+				army_attack_factor = -0.75
+			}
+		}
 
 		RAS_call_for_air_strikes_idea = {
 
