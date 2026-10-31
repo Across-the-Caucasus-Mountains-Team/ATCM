@@ -368,8 +368,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = 19_CHE_tt
-			add_war_support = 0.05
-			add_stability = -0.25
+			add_stability = -0.20
 			add_popularity = {ideology = islam popularity = 0.05}
 			country_event = chechnya.39
 			unlock_decision_category_tooltip = CHE_islamic_republic_stability_decision
@@ -391,6 +390,10 @@ focus_tree = {
 				country_event = {
 					id = chechnya.24
 					days = 65
+				}
+				country_event = {
+					id = chechnya.40
+					days = 20
 				}
 				add_ideas = CHE_russian_troops_in_chechnya 
 			}
@@ -433,10 +436,6 @@ focus_tree = {
 				id = chechnya.70
 				hours = 1
 			}
-				country_event = {
-					id = chechnya.40
-					days = 19
-				}
 			}
 		}
 	}
@@ -474,8 +473,9 @@ focus_tree = {
 			add_popularity = {ideology = islam popularity = 0.02}
 			add_to_variable = { CHE_IS_stability_factor = 0.10 }
 			add_to_variable = { CHE_IS_islam_drift = 0.01 }
-			add_to_variable = { CHE_IS_nationalism_drift = -0.05 }
-			add_to_variable = { CHE_IS_conservatism_drift = -0.05 }
+			add_to_variable = { CHE_IS_communism_drift = -0.03 }
+			add_to_variable = { CHE_IS_liberalism_drift = -0.03 }
+			add_to_variable = { CHE_IS_conservatism_drift = -0.03 }
 			add_to_variable = { CHE_IS_political_power_gain = 0.05 }
 			add_to_variable = { CHE_IS_drift_defence_factor = 0.05 }
 			add_to_variable = { CHE_IS_party_popularity_stability_factor = 0.15 }
@@ -879,9 +879,9 @@ focus_tree = {
 			add_to_variable = { CHE_IS_war_support_factor = 0.10 }
 			add_to_variable = { CHE_IS_stability_factor = 0.05 }
 			add_to_variable = { CHE_IS_research_speed_factor = -0.10 }
-			add_to_variable = { CHE_IS_nationalism_drift = -0.03 }
-			add_to_variable = { CHE_IS_conservatism_drift = -0.05 }
-			add_to_variable = { CHE_IS_drift_defence_factor = 0.10 }
+			add_to_variable = { CHE_IS_communism_drift = -0.02 }
+			add_to_variable = { CHE_IS_conservatism_drift = -0.03 }
+			add_to_variable = { CHE_IS_drift_defence_factor = 0.05 }
 			add_to_variable = { CHE_IS_monthly_population = 0.10 }
 		}
 	}

@@ -1329,34 +1329,43 @@ CHE_stability_of_republic_decision = {
 }
 
 CHE_islamic_republic_stability_decision = {
-	CHE_ingushetian_uprising = {
-		icon = GFX_decision_UKR_maidan_supress_the_protests
-		allowed = {
-			original_tag = CHE
-		}
-		
-		available = {
-			has_country_flag = CHEBeforeIngushtianUprising
-		}
-		
-		selectable_mission = no
-		
-		activation = {
-			has_country_flag = CHEBeforeIngushtianUprising
-		}
-		
-		days_mission_timeout = 195
-		fire_only_once = no
-		is_good = no
-		
-		timeout_effect = {
+CHE_ingushetian_uprising = {
+	icon = GFX_decision_UKR_maidan_supress_the_protests
+	allowed = {
+		original_tag = CHE
+	}
+
+	available = {
+		always = no
+	}
+
+	selectable_mission = no
+
+	activation = {
+		has_country_flag = CHEBeforeIngushtianUprising
+		NOT = { has_country_flag = CHE_ingushetian_hold }
+	}
+
+	cancel_trigger = {
+		has_country_flag = CHE_ingushetian_hold
+	}
+
+	days_mission_timeout = 195
+	fire_only_once = yes
+	is_good = no
+
+	timeout_effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = CHE_ingushetian_hold }
+			}
 			country_event = chechnya.43
 		}
-		
-		complete_effect = {
-			
-		}
 	}
+
+	complete_effect = {
+	}
+}
 
 	CHE_attract_addition_islamic_volunteer = {
 

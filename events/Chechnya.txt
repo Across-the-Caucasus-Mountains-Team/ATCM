@@ -960,16 +960,16 @@ country_event = {
 
 	option = {
 		name = chechnya.39.a
-		set_variable = { CHE_IS_war_support_factor = 0 }
-		set_variable = { CHE_IS_stability_factor = -0.1 }
+		set_variable = { CHE_IS_war_support_factor = -0.1 }
+		set_variable = { CHE_IS_stability_factor = -0.2 }
 		set_variable = { CHE_IS_nationalism_drift = 0.1 }
-		set_variable = { CHE_IS_conservatism_drift = 0.05 }
+		set_variable = { CHE_IS_conservatism_drift = 0.07 }
 		set_variable = { CHE_IS_communism_drift = 0.05 }
 		set_variable = { CHE_IS_liberalism_drift = 0.03 }
 		set_variable = { CHE_IS_drift_defence_factor = -0.10 }
 		set_variable = { CHE_IS_political_power_gain = -0.15 }
 		set_variable = { CHE_IS_research_speed_factor = 0 }
-		set_variable = { CHE_IS_party_popularity_stability_factor = 0 }
+		set_variable = { CHE_IS_party_popularity_stability_factor = -0.15 }
 		set_variable = { CHE_IS_compliance_growth_on_our_occupied_states = 0 }
 		set_variable = { CHE_IS_resistance_target_on_our_occupied_states = 0 }
 		set_variable = { CHE_IS_army_core_attack_factor = 0 }
@@ -1023,13 +1023,17 @@ country_event = {
 
 	option = {
 		name = chechnya.40.a
-		add_political_power = -25
 		add_stability = -0.05
 		activate_mission = CHE_ingushetian_uprising
 		hidden_effect = {
-			country_event = {
-				id = chechnya.41
-				days = 19
+			if = {
+				limit = {
+					NOT = { has_country_flag = CHE_ingushetian_hold }
+				}
+				country_event = {
+					id = chechnya.41
+					days = 20
+				}
 			}
 		}
 	}
@@ -1053,9 +1057,14 @@ country_event = {
 			days = -15
 		}
 		hidden_effect = {
-			country_event = {
-				id = chechnya.42
-				days = 5
+			if = {
+				limit = {
+					NOT = { has_country_flag = CHE_ingushetian_hold }
+				}
+				country_event = {
+					id = chechnya.42
+					days = 5
+				}
 			}
 		}
 	}
@@ -1108,6 +1117,21 @@ country_event = {
 					type = annex_everything
 				}
 			}
+		}
+	}
+	option = {
+		name = chechnya.43.b
+		add_political_power = -75
+		hidden_effect = {
+			RAS = {
+				add_stability = 0.025
+				transfer_state = 17
+				country_event = chechnya.2
+			}
+		}
+		news_event = { 
+			id = news.8 
+			days = 3
 		}
 	}
 }
@@ -1653,10 +1677,14 @@ country_event = {
 
 	option = {
 		name = chechnya.66.a
+		set_country_flag = CHE_ingushetian_hold
 		release_puppet = ING
+		tooltip = 22_CHE_tt
 	}
 	option = {
 		name = chechnya.66.b
+		set_country_flag = CHE_ingushetian_hold
+		tooltip = 23_CHE_tt
 	}
 }
 
