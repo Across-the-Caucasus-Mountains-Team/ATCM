@@ -1688,7 +1688,6 @@ country_event = {
 	}
 }
 
-
 #Found russian officers and soldiers in the ranks of the opposition
 country_event = {
 	id = chechnya.67

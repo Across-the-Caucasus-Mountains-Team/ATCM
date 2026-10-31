@@ -650,10 +650,6 @@ technologies = {
 			sniper_company
 		}
 
-		sniper_company = {
-			soft_attack = 0.05
-		}
-
 		research_cost = 1.25
 		start_year = 1970
 		folder = {
@@ -700,6 +696,7 @@ technologies = {
 
 		sniper_company = {
 			soft_attack = 0.05
+			recon = 0.01
 		}
 
 		research_cost = 1.25
@@ -746,6 +743,7 @@ technologies = {
 
 		sniper_company = {
 			soft_attack = 0.05
+			recon = 0.01
 		}
 
 		research_cost = 1.25
@@ -792,6 +790,7 @@ technologies = {
 
 		sniper_company = {
 			soft_attack = 0.075
+			recon = 0.015
 		}
 
 		research_cost = 1.25

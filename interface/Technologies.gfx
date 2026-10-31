@@ -2281,17 +2281,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_iw_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/light_plane_4.dds"
+		texturefile = "gfx/interface/technologies/mig21.png"
 	}
 
 	SpriteType = {
 		name = "GFX_basic_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/light_plane_3.dds"
+		texturefile = "gfx/interface/technologies/mig23.png"
 	}
 
 	SpriteType = {
 		name = "GFX_improved_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/light_plane_2.dds"
+		texturefile = "gfx/interface/technologies/mig29.png"
 	}
 
 	SpriteType = {
@@ -2306,22 +2306,22 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_iw_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_5.dds"
+		texturefile = "gfx/interface/technologies/su24.png"
 	}	
 	
 	SpriteType = {
 		name = "GFX_basic_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_1.dds"
+		texturefile = "gfx/interface/technologies/su25.png"
 	}		
 	
 	SpriteType = {
 		name = "GFX_improved_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_2.dds"
+		texturefile = "gfx/interface/technologies/su27.png"
 	}		
 	
 	SpriteType = {
 		name = "GFX_advanced_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_3.dds"
+		texturefile = "gfx/interface/technologies/su30.png"
 	}	
 	SpriteType = {
 		name = "GFX_modern_medium_airframe_medium"
@@ -3312,15 +3312,15 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_light_plane_2_medium"
-		texturefile = "gfx/interface/technologies/light_plane_2.dds"
+		texturefile = "gfx/interface/technologies/mig29.png"
 	}
 	SpriteType = {
 		name = "GFX_light_plane_3_medium"
-		texturefile = "gfx/interface/technologies/light_plane_3.dds"
+		texturefile = "gfx/interface/technologies/mig23.png"
 	}
 	SpriteType = {
 		name = "GFX_light_plane_4_medium"
-		texturefile = "gfx/interface/technologies/light_plane_4.dds"
+		texturefile = "gfx/interface/technologies/mig21.png"
 	}
 	SpriteType = {
 		name = "GFX_light_plane_5_medium"
@@ -3336,11 +3336,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_medium_plane_2_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_2.dds"
+		texturefile = "gfx/interface/technologies/su24.png"
 	}
 	SpriteType = {
 		name = "GFX_medium_plane_1_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_1.dds"
+		texturefile = "gfx/interface/technologies/su25.png"
 	}
 	SpriteType = {
 		name = "GFX_jet_plane_1_medium"
@@ -3349,7 +3349,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_heavy_plane_2_medium"
-		texturefile = "gfx/interface/technologies/heavy_plane_2.dds"
+		texturefile = "gfx/interface/technologies/su27.png"
 	}
 	SpriteType = {
 		name = "GFX_medium_plane_4_medium"
@@ -3357,7 +3357,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_medium_plane_3_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_3.dds"
+		texturefile = "gfx/interface/technologies/su30.png"
 	}
 	SpriteType = {
 		name = "GFX_heavy_plane_1_medium"
@@ -4115,42 +4115,42 @@ spriteTypes = {
     ###
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik1.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik1.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik1.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik2.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik2.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_5_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik2.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_6_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik2.png"
 	}
 
 	SpriteType = {
 		name = "GFX_bulletproof_vests_equipment_7_medium"
-		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
+		texturefile = "gfx/interface/technologies/bronik2.png"
 	}
 
 	SpriteType = {
