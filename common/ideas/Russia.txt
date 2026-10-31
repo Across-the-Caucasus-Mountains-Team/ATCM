@@ -290,6 +290,7 @@ ideas = {
 			modifier = {
 				country_resource_oil = 240
 				country_resource_steel = 160
+				country_resource_coal = 80
 				country_resource_aluminium = 80
 				country_resource_tungsten = 40
 				country_resource_chromium = 30
