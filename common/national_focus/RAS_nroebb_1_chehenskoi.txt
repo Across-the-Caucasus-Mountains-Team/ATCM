@@ -1,0 +1,461 @@
+focus_tree = {
+	id = RAS_nroebb_1_chehenskoi
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = 
+		}
+	}
+	default = no
+	focus = {
+		id = khasavyurt_agreements
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 20
+		y = 0
+
+	}
+	focus = {
+		id = chechnya_still_hostile_state
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = economic_reform_1997
+		icon = GFX_goal_unknown
+		cost = 0
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = vpk_reform
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = economic_reform_1997
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = uralvagonzavod_reform
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = vpk_reform
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = kurganmashzavod
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = uralvagonzavod_reform
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = ak_105
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = kurganmashzavod
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = kalashnikov_concern_reform
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = kurganmashzavod
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = new_equipment
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = kalashnikov_concern_reform
+		}
+		prerequisite = {
+			focus = ak_105
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = concessions_to_oligarchs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = economic_reform_1997
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = oligopoly_of_oligarchs
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = concessions_to_oligarchs
+		}
+		mutually_exclusive = {
+			focus = open_oligarchy
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = open_oligarchy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = concessions_to_oligarchs
+		}
+		mutually_exclusive = {
+			focus = oligopoly_of_oligarchs
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = rosneft_company
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = open_oligarchy
+			focus = oligopoly_of_oligarchs
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = economic_liberalization
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = open_oligarchy
+			focus = oligopoly_of_oligarchs
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = gazprom_company
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = open_oligarchy
+			focus = oligopoly_of_oligarchs
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = market_economy
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = economic_liberalization
+		}
+		prerequisite = {
+			focus = rosneft_company
+		}
+		prerequisite = {
+			focus = gazprom_company
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = investments_in_cis
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = economic_reform_1997
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = donbas_coal
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = investments_in_cis
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = bulba
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = donbas_coal
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = shameful_defeat
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = khasavyurt_agreements
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = strengthening_vertical_of_power
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = shameful_defeat
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = police_reform
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = strengthening_vertical_of_power
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = fight_against_drug_trafficking_afghanistan
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = police_reform
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = media_law_1996
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = strengthening_vertical_of_power
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = pressure_on_ntv_media_group
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = media_law_1996
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = pension_reform_1997
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = pressure_on_ntv_media_group
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = support_russian_orthodox_church
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = pension_reform_1997
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = increase_social_benefits
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = pension_reform_1997
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = preparation_for_elections
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = support_russian_orthodox_church
+		}
+		prerequisite = {
+			focus = increase_social_benefits
+		}
+		x = 20
+		y = 8
+
+	}
+	focus = {
+		id = learn_from_budyonnovsk
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = strengthening_vertical_of_power
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = creation_unified_counter_terrorism_center
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = learn_from_budyonnovsk
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = special_operations_in_chechnya
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = chechnya_still_hostile_state
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = weapon_supplies_to_separatists
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = chechnya_still_hostile_state
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = support_chechen_opposition
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = chechnya_still_hostile_state
+		}
+		prerequisite = {
+			focus = weapon_supplies_to_separatists
+		}
+		prerequisite = {
+			focus = special_operations_in_chechnya
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = learn_from_mistakes
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = support_chechen_opposition
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = deploy_aviation
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = learn_from_mistakes
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = organize_supplies
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = learn_from_mistakes
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = russian_spetsnaz_attack
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = deploy_aviation
+		}
+		prerequisite = {
+			focus = organize_supplies
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = yeltsin_successor
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = preparation_for_elections
+		}
+		x = 20
+		y = 9
+
+	}
+}
