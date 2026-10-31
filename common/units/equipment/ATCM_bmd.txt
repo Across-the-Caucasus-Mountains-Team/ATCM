@@ -39,7 +39,7 @@ equipments = {
 	}
 
 	airborne_combat_vehicle_1 = {
-		year = 1980
+		year = 1970
 		archetype = airborne_combat_vehicle
 		parent = airborne_combat_vehicle_0
 		priority = 10
@@ -66,7 +66,7 @@ equipments = {
 	}
 
 	airborne_combat_vehicle_2 = {
-		year = 2000
+		year = 1980
 		archetype = airborne_combat_vehicle
 		parent = airborne_combat_vehicle_1
 		priority = 10
@@ -93,7 +93,7 @@ equipments = {
 	}
 
 	airborne_combat_vehicle_3 = {
-		year = 2020
+		year = 2000
 		archetype = airborne_combat_vehicle
 		parent = airborne_combat_vehicle_2
 		priority = 10

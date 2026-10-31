@@ -1,6 +1,6 @@
 equipments = {
 	apc_equipment = {
-		year = 1955
+		year = 1945
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
@@ -29,12 +29,12 @@ equipments = {
 		build_cost_ic = 11.5
 		fuel_consumption = 1.83
 		resources = {
-			steel = 2
+			steel = 4
 		}
 	}
 
 	apc_0_equipment = {
-		year = 1960
+		year = 1945
 		archetype = apc_equipment
 		active = yes
 		priority = 05
@@ -42,7 +42,7 @@ equipments = {
 	}
 
 	apc_1_equipment = {
-		year = 1975
+		year = 1960
 		archetype = apc_equipment
 		parent = apc_0_equipment
 		priority = 5
@@ -59,10 +59,13 @@ equipments = {
 		ap_attack = 4
 		build_cost_ic = 13
 		fuel_consumption = 0.8
+		resources = {
+			steel = 5
+		}
 	}
 
 	apc_2_equipment = {
-		year = 1985
+		year = 1970
 		archetype = apc_equipment
 		parent = apc_1_equipment
 		priority = 5
@@ -79,10 +82,13 @@ equipments = {
 		ap_attack = 4
 		build_cost_ic = 15
 		fuel_consumption = 0.8
+		resources = {
+			steel = 6
+		}
 	}
 
 	apc_3_equipment = {
-		year = 1995
+		year = 1980
 		archetype = apc_equipment
 		parent = apc_2_equipment
 		priority = 10
@@ -99,10 +105,13 @@ equipments = {
 		ap_attack = 4
 		build_cost_ic = 16
 		fuel_consumption = 0.8
+		resources = {
+			steel = 6
+		}
 	}
 
 	apc_4_equipment = {
-		year = 1995
+		year = 1990
 		archetype = apc_equipment
 		parent = apc_3_equipment
 		priority = 10
@@ -120,5 +129,8 @@ equipments = {
 		air_attack = 0
 		build_cost_ic = 17
 		fuel_consumption = 0.8
+		resources = {
+			steel = 6
+		}
 	}
 }

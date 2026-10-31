@@ -33,7 +33,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1980
+		start_year = 1955
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
@@ -60,7 +60,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1985
+		start_year = 1960
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
@@ -278,7 +278,7 @@ technologies = {
 			manpads_equipment_1
 		}
 		enable_subunits = {
-			
+
 		}
 
 		path = {
@@ -308,7 +308,7 @@ technologies = {
 			manpads_equipment_2
 		}
 		enable_subunits = {
-			
+
 		}
 
 		path = {
@@ -338,7 +338,7 @@ technologies = {
 			manpads_equipment_3
 		}
 		enable_subunits = {
-			
+
 		}
 
 		research_cost = 1.5
@@ -362,7 +362,7 @@ technologies = {
 		enable_equipments = {
 			mortar_equipment_0
 		}
-		
+
 		path = {
 			leads_to_tech = mortar_weapons1
 			research_cost_coeff = 1
@@ -378,11 +378,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -392,7 +392,7 @@ technologies = {
 		enable_equipments = {
 			mortar_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = mortar_weapons2
 			research_cost_coeff = 1
@@ -404,11 +404,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 2 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -418,7 +418,7 @@ technologies = {
 		enable_equipments = {
 			mortar_equipment_2
 		}
-		
+
 		path = {
 			leads_to_tech = improved_mortrar_weapons
 			research_cost_coeff = 1
@@ -430,11 +430,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 5 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -501,7 +501,7 @@ technologies = {
 		enable_equipments = {
 			mortar_equipment_3
 		}
-		
+
 		path = {
 			leads_to_tech = mortar_weapons4
 			research_cost_coeff = 1
@@ -513,11 +513,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 9 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -534,11 +534,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 12 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -553,7 +553,7 @@ technologies = {
 		enable_equipments = {
 			grenade_launcher_equipment_0
 		}
-		
+
 		path = {
 			leads_to_tech = anti_tank_infantry_weapon1
 			research_cost_coeff = 1
@@ -569,11 +569,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -588,7 +588,7 @@ technologies = {
 		enable_equipments = {
 			grenade_launcher_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = anti_tank_infantry_weapon2
 			research_cost_coeff = 1
@@ -600,11 +600,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 2 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -618,7 +618,7 @@ technologies = {
 		enable_equipments = {
 			grenade_launcher_equipment_2
 		}
-		
+
 		path = {
 			leads_to_tech = improved_ammo_for_rpg
 			research_cost_coeff = 1
@@ -630,11 +630,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 5 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -699,7 +699,7 @@ technologies = {
 		enable_equipments = {
 			grenade_launcher_equipment_3
 		}
-		
+
 		path = {
 			leads_to_tech = anti_tank_infantry_weapon4
 			research_cost_coeff = 1
@@ -711,11 +711,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 9 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -744,11 +744,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 12 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -764,7 +764,7 @@ technologies = {
 			uniform_equipment_0
 			bulletproof_vests_equipment_0
 		}
-		
+
 		path = {
 			leads_to_tech = uniform_equipment1
 			research_cost_coeff = 1
@@ -780,11 +780,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -796,7 +796,7 @@ technologies = {
 			uniform_equipment_1
 			bulletproof_vests_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = uniform_equipment2
 			research_cost_coeff = 1
@@ -808,11 +808,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 2 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -823,7 +823,7 @@ technologies = {
 			uniform_equipment_2
 			bulletproof_vests_equipment_2
 		}
-		
+
 		path = {
 			leads_to_tech = improved_equipment_for_infantry
 			research_cost_coeff = 1
@@ -835,11 +835,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 5 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -911,7 +911,7 @@ technologies = {
 		category_vehicle_infantry = {
 			defense = 0.05
 		}
-		
+
 		path = {
 			leads_to_tech = uniform_equipment4
 			research_cost_coeff = 1
@@ -923,11 +923,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 9 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -957,11 +957,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 12 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -976,7 +976,7 @@ technologies = {
 		enable_equipments = {
 			atgm_equipment_0
 		}
-		
+
 		path = {
 			leads_to_tech = atgm_equipment1
 			research_cost_coeff = 1
@@ -992,11 +992,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1011,7 +1011,7 @@ technologies = {
 		enable_equipments = {
 			atgm_equipment_1
 		}
-		
+
 		path = {
 			leads_to_tech = atgm_equipment2
 			research_cost_coeff = 1
@@ -1023,11 +1023,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 3 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1041,7 +1041,7 @@ technologies = {
 		enable_equipments = {
 			atgm_equipment_2
 		}
-		
+
 		path = {
 			leads_to_tech = atgm_equipment3
 			research_cost_coeff = 1
@@ -1053,11 +1053,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 6 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1072,7 +1072,7 @@ technologies = {
 		enable_equipments = {
 			atgm_equipment_2
 		}
-		
+
 		path = {
 			leads_to_tech = atgm_equipment4
 			research_cost_coeff = 1
@@ -1084,11 +1084,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 9 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1110,11 +1110,11 @@ technologies = {
 			name = infantry_folder
 			position = { x = 0 y = 12 }
 		}
-		
+
 		categories = {
 			infantry_weapons
 		}
-		
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1566,14 +1566,6 @@ technologies = {
 
 		allow_branch = { NOT = { has_dlc = "Arms Against Tyranny" }}
 
-		#dependencies = {
-		#	OR = {
-		#		marines = 1
-		#		paratrooper = 1
-		#		mountaineer = 1
-		#	}
-		#}
-
 		path = {
 			leads_to_tech = advanced_special_forces
 			research_cost_coeff = 1
@@ -1874,7 +1866,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 
-			# All participants in this war will want to have this tech as early as possible
+
 
 			modifier = {
 				has_war = yes
@@ -2073,7 +2065,7 @@ technologies = {
 	bbm_1 = {
 
 		enable_subunits = {
-			
+
 		}
 
 		enable_equipments = {
@@ -2127,7 +2119,7 @@ technologies = {
 	bbm_2 = {
 
 		enable_subunits = {
-			
+
 		}
 
 		enable_equipments = {
@@ -2180,7 +2172,7 @@ technologies = {
 	bbm_3 = {
 
 		enable_subunits = {
-			
+
 		}
 
 		enable_equipments = {
@@ -2214,7 +2206,7 @@ technologies = {
 	bbm_4 = {
 
 		enable_subunits = {
-			
+
 		}
 
 		enable_equipments = {
@@ -2380,7 +2372,7 @@ technologies = {
 	tech_trucks_2 = {
 
 		enable_subunits = {
-			
+
 		}
 
 		enable_equipments = {
@@ -2410,7 +2402,7 @@ technologies = {
 	tech_trucks_3 = {
 
 		enable_subunits = {
-			
+
 		}
 
 		enable_equipments = {

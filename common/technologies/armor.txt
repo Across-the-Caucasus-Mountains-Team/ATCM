@@ -1,47 +1,27 @@
 technologies = {
-	modern_tank_1 = { #Leichttraktor
+	modern_tank_1 = {
 
 		enable_equipments = {
 			modern_tank_equipment_1
-
 		}
+
 		enable_subunits = {
 			modern_armor
+		}
 
-		}
 		on_research_complete_limit = {
-			
 		}
+
 		path = {
 			leads_to_tech = modern_tank_2
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 
 		research_cost = 2
-		start_year = 1955
+		start_year = 1945
 		folder = {
 			name = armour_folder
-			position = { x = -1 y = 0 }
+			position = { x = -2 y = 0 }
 		}
 
 		ai_will_do = {
@@ -58,29 +38,28 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	modern_tank_2 = { 
+	modern_tank_2 = {
 
 		enable_equipments = {
 			modern_tank_equipment_2
-
 		}
+
 		enable_subunits = {
-			
+		}
 
-		}
 		on_research_complete_limit = {
-			
 		}
+
 		path = {
 			leads_to_tech = modern_tank_3
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-		start_year = 1960
+		start_year = 1955
 		folder = {
 			name = armour_folder
-			position = { x = -1 y = 2 }
+			position = { x = -2 y = 2 }
 		}
 
 		ai_will_do = {
@@ -104,11 +83,10 @@ technologies = {
 
 		}
 		enable_subunits = {
-			
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = modern_tank_4
@@ -116,10 +94,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1975
+		start_year = 1970
 		folder = {
 			name = armour_folder
-			position = { x = -1 y = 4 }
+			position = { x = -2 y = 4 }
 		}
 
 		ai_will_do = {
@@ -143,11 +121,10 @@ technologies = {
 
 		}
 		enable_subunits = {
-			
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = modern_tank_5
@@ -158,7 +135,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = armour_folder
-			position = { x = -1 y = 6 }
+			position = { x = -2 y = 6 }
 		}
 
 		ai_will_do = {
@@ -182,11 +159,10 @@ technologies = {
 
 		}
 		enable_subunits = {
-			
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = modern_tank_3
@@ -197,7 +173,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = armour_folder
-			position = { x = -1 y = 8 }
+			position = { x = -2 y = 8 }
 		}
 
 		ai_will_do = {
@@ -214,7 +190,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	IFV_1 = { #Leichttraktor
+	IFV_1 = { 
 
 		enable_equipments = {
 			ifv_0_equipment
@@ -223,7 +199,7 @@ technologies = {
 			infantry_fighting_vehicle
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = IFV_2
@@ -231,7 +207,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1960
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 2 }
@@ -251,7 +227,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	IFV_2 = { #Leichttraktor
+	IFV_2 = { 
 
 		enable_equipments = {
 			ifv_1_equipment
@@ -260,35 +236,15 @@ technologies = {
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = IFV_3
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1970
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 4 }
@@ -308,7 +264,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	IFV_3 = { #Leichttraktor
+	IFV_3 = { 
 
 		enable_equipments = {
 			ifv_2_equipment
@@ -317,31 +273,11 @@ technologies = {
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = IFV_4
 			research_cost_coeff = 1
-		}
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
-
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		research_cost = 2
@@ -365,7 +301,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	IFV_4 = { #Leichttraktor
+	IFV_4 = {
 
 		enable_equipments = {
 			ifv_3_equipment
@@ -374,27 +310,7 @@ technologies = {
 
 		}
 		on_research_complete_limit = {
-			
-		}
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_tech = motorised_infantry
-					}
 
-					load_oob = "unlock_tanks_mot"
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = motorised_infantry }
-					}
-
-					load_oob = "unlock_tanks"
-				}
-			}
-
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		research_cost = 2
@@ -418,7 +334,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	APC_1 = { #Leichttraktor
+	APC_1 = { 
 
 		enable_equipments = {
 			apc_0_equipment
@@ -427,7 +343,7 @@ technologies = {
 			armoured_personnel_carrier
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = APC_2
@@ -447,7 +363,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1945
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 0 }
@@ -467,7 +383,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	APC_2 = { #Leichttraktor
+	APC_2 = { 
 
 		enable_equipments = {
 			apc_1_equipment
@@ -476,7 +392,7 @@ technologies = {
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = APC_3
@@ -487,7 +403,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1960
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 2 }
@@ -507,7 +423,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	APC_3 = { #Leichttraktor
+	APC_3 = { 
 
 		enable_equipments = {
 			apc_2_equipment
@@ -516,7 +432,7 @@ technologies = {
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		path = {
 			leads_to_tech = APC_4
@@ -527,7 +443,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1970
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 4 }
@@ -547,7 +463,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	APC_4 = { #Leichttraktor
+	APC_4 = { 
 
 		enable_equipments = {
 			apc_3_equipment
@@ -556,10 +472,10 @@ technologies = {
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		on_research_complete = {
-		
+
 		}
 		path = {
 			leads_to_tech = APC_5
@@ -585,7 +501,7 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	APC_5 = { #Leichttraktor
+	APC_5 = { 
 
 		enable_equipments = {
 			apc_4_equipment
@@ -594,14 +510,14 @@ technologies = {
 
 		}
 		on_research_complete_limit = {
-			
+
 		}
 		on_research_complete = {
-		
+
 		}
 
 		research_cost = 2
-		start_year = 1980
+		start_year = 1990
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 8 }
@@ -628,21 +544,21 @@ technologies = {
 
 		}
 		enable_subunits = {
-			
+
 		}
 
 		path = {
 			leads_to_tech = bmd_2
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
 		start_year = 1960
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 2 }
 		}
-		
+
 		categories = {
 			armor
 			mio_cat_tech_all_armor_and_modules
@@ -651,28 +567,28 @@ technologies = {
 		}
 	}
 
-	
+
 	bmd_2 = {
 
 		enable_equipments = {
 			airborne_combat_vehicle_1
 		}
 		enable_subunits = {
-			
+
 		}
 
 		path = {
 			leads_to_tech = bmd_3
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
-		start_year = 1960
+		start_year = 1970
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 4 }
 		}
-		
+
 		categories = {
 			armor
 			mio_cat_tech_all_armor_and_modules
@@ -681,28 +597,28 @@ technologies = {
 		}
 	}
 
-	
+
 	bmd_3 = {
 
 		enable_equipments = {
 			airborne_combat_vehicle_2
 		}
 		enable_subunits = {
-			
+
 		}
 
 		path = {
 			leads_to_tech = bmd_4
 			research_cost_coeff = 1
 		}
-		
+
 		research_cost = 2
-		start_year = 1960
+		start_year = 1980
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 6 }
 		}
-		
+
 		categories = {
 			armor
 			mio_cat_tech_all_armor_and_modules
@@ -711,56 +627,22 @@ technologies = {
 		}
 	}
 
-	
+
 	bmd_4 = {
 
 		enable_equipments = {
 			airborne_combat_vehicle_3
 		}
 		enable_subunits = {
-			
+
 		}
-		
+
 		research_cost = 2
-		start_year = 1960
+		start_year = 2000
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 8 }
 		}
-		
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-			cat_light_armor
-			mio_cat_tech_light_armor_and_modules
-		}
-	}
-	
-	MRAP_1 = { #Leichttraktor
-
-		enable_equipments = {
-			modern_tank_equipment_1
-		}
-		enable_subunits = {
-			modern_armor
-		}
-		on_research_complete_limit = {
-			
-		}
-		on_research_complete = {
-			
-		}
-
-		research_cost = 2
-		start_year = 1980
-		folder = {
-			name = armour_folder
-			position = { x = 13 y = 0 }
-		}
-
-		ai_will_do = {
-			base = 1
-		}
 
 		categories = {
 			armor
@@ -768,7 +650,5 @@ technologies = {
 			cat_light_armor
 			mio_cat_tech_light_armor_and_modules
 		}
-
-		special_project_specialization = { specialization_land }
 	}
 }

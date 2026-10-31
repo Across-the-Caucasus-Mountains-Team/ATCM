@@ -23,7 +23,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
+		start_year = 1960
 		folder = {
 			name = artillery_folder
 			position = { x = 0 y = 0 }
@@ -32,7 +32,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -56,16 +56,16 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
+		start_year = 1970
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 2 }
 		}
 
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -89,16 +89,16 @@ technologies = {
 		}
 
 		research_cost = 1.5
-
+		start_year = 1980
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 4 }
 		}
 
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -120,7 +120,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_anti_air_1
 		}
-
+		start_year = 2000
 		research_cost = 1.5
 
 		folder = {
@@ -131,7 +131,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -159,7 +159,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -167,11 +167,11 @@ technologies = {
 	sau_artillery = {
 
 		enable_equipments = {
-			
+
 		}
 
 		enable_equipment_modules = {
-			
+
 		}
 
 		path = {
@@ -189,7 +189,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -197,13 +197,13 @@ technologies = {
 	sau_artillery_1 = {
 
 		enable_equipments = {
-			
+
 		}
 
 		enable_equipment_modules = {
-			
+
 		}
-		
+
 		path = {
 			leads_to_tech = sau_artillery_2
 			research_cost_coeff = 1
@@ -219,7 +219,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -227,11 +227,11 @@ technologies = {
 	sau_artillery_2 = {
 
 		enable_equipments = {
-			
+
 		}
 
 		enable_equipment_modules = {
-			
+
 		}
 
 			path = {
@@ -249,7 +249,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -257,11 +257,11 @@ technologies = {
 	sau_artillery_3 = {
 
 		enable_equipments = {
-			
+
 		}
 
 		enable_equipment_modules = {
-			
+
 		}
 
 			path = {
@@ -279,7 +279,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -287,13 +287,12 @@ technologies = {
 	sau_artillery_4 = {
 
 		enable_equipments = {
-			
+
 		}
 
 		enable_equipment_modules = {
-			
-		}
 
+		}
 
 		research_cost = 1.5
 
@@ -305,7 +304,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -332,7 +331,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -353,7 +352,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			#secondary_turret_close_support_gun #MM: Has art and loc but no module definition
+
 		}
 
 		path = {
@@ -363,7 +362,7 @@ technologies = {
 
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 1955
 
 		folder = {
 			name = artillery_folder
@@ -373,7 +372,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 	}
@@ -418,7 +417,7 @@ technologies = {
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 
@@ -427,17 +426,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1938.1.9"
+				date > "1965.1.9"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1975.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1939.1.6"
+				date > "1990.1.6"
 			}
 		}
 	}
@@ -468,13 +467,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 5 }
 		}
 
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 
@@ -483,17 +482,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "1965.1.6"
 			}
 
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "1975.1.1"
 			}
 
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "1993.1.1"
 			}
 		}
 	}
@@ -526,13 +525,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 6 }
 		}
 
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 
@@ -575,13 +574,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 8 }
 		}
 
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 
@@ -634,13 +633,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 10 }
 		}
 
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 
@@ -676,13 +675,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 12 }
 		}
 
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			mio_cat_artillery
 		}
 		special_project_specialization = { specialization_land }
 
