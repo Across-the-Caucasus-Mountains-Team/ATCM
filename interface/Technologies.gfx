@@ -4060,6 +4060,46 @@ spriteTypes = {
 		name = "GFX_uniform_equipment4_medium"
 		texturefile = "gfx/interface/technologies/bulletproof_vests_equipment_0.png"
 	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/bronik1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/bronik1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/bronik1.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/bronik2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/bronik2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/bronik2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_6_medium"
+		texturefile = "gfx/interface/technologies/bronik2.png"
+	}
+
+	SpriteType = {
+		name = "GFX_bulletproof_vests_equipment_7_medium"
+		texturefile = "gfx/interface/technologies/bronik2.png"
+	}
     ###
 
 	SpriteType = {
@@ -4110,47 +4150,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_atgm_equipment4_medium"
 		texturefile = "gfx/interface/technologies/atgm3.png"
-	}
-
-    ###
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/bronik1.png"
-	}
-
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/bronik1.png"
-	}
-
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/bronik1.png"
-	}
-
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/bronik2.png"
-	}
-
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_4_medium"
-		texturefile = "gfx/interface/technologies/bronik2.png"
-	}
-
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_5_medium"
-		texturefile = "gfx/interface/technologies/bronik2.png"
-	}
-
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_6_medium"
-		texturefile = "gfx/interface/technologies/bronik2.png"
-	}
-
-	SpriteType = {
-		name = "GFX_bulletproof_vests_equipment_7_medium"
-		texturefile = "gfx/interface/technologies/bronik2.png"
 	}
 
 	SpriteType = {

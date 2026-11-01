@@ -16,7 +16,6 @@ set_technology = {
 	tech_mountaineers = 1
 	tech_trucks = 1
 	motorised_infantry = 1
-	paratroopers = 1
 	towed_artillery_1 = 1
 	interwar_antiair = 1
 	mass_assault = 1

@@ -115,7 +115,7 @@ focus = {
 focus = {
 	id = ING_rusia_side
 	icon = GFX_goal_generic_attack_allies
-	x = 4
+	x = 5
 	y = 0
 	cost = 1
 
@@ -134,10 +134,31 @@ focus = {
 			add_political_power = 100
 	}
 }
+
+focus = {
+	id = ING_humanitarian_aid
+	icon = GFX_goal_generic_attack_allies
+	x = 0
+	y = 1
+	cost = 10
+		relative_position_id = ING_rusia_side
+		prerequisite = { focus = ING_rusia_side }
+
+	available = {
+		has_war_with = CHE
+	}
+
+	completion_reward = {
+			add_stability = 0.2
+			add_political_power = 100
+			add_war_support = 0.1
+	}
+}
+
 focus = {
 	id = ING_weapons_from_rusia
 	icon = GFX_goal_generic_attack_allies
-	x = 1
+	x = 2
 	y = 1
 	cost = 10
 		relative_position_id = ING_rusia_side
@@ -153,7 +174,7 @@ focus = {
 						amount = 600
 					}
 					add_equipment_to_stockpile = { 
-						type = bulletproof_vests_equipment_1 
+						type = bulletproof_vests_equipment_0
 						amount = 600
 					}
 					add_equipment_to_stockpile = { 
@@ -165,7 +186,7 @@ focus = {
 focus = {
 	id = ING_green_people
 	icon = GFX_goal_generic_attack_allies
-	x = 1
+	x = 2
 	y = 2
 	cost = 10
 		relative_position_id = ING_rusia_side
