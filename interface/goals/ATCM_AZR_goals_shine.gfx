@@ -126,10 +126,10 @@ spriteType = {
 
 spriteType = {
     name = "GFX_AZR_Soviet_Loyalty_shine"
-    texturefile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+    texturefile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-        animationmaskfile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+        animationmaskfile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = -90.0
         animationlooping = no
@@ -141,7 +141,7 @@ spriteType = {
         animationtexturescale = { x = 1.0 y = 1.0 }
     }
     animation = {
-        animationmaskfile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+        animationmaskfile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = 90.0
         animationlooping = no
@@ -157,10 +157,10 @@ spriteType = {
 
 spriteType = {
     name = "GFX_AZR_Support_Coup_shine"
-    texturefile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+    texturefile = "gfx/interface/Goals/AZR/AZR_Soviet_State.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-        animationmaskfile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+        animationmaskfile = "gfx/interface/Goals/AZR/AZR_Soviet_State.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = -90.0
         animationlooping = no
@@ -172,7 +172,7 @@ spriteType = {
         animationtexturescale = { x = 1.0 y = 1.0 }
     }
     animation = {
-        animationmaskfile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+        animationmaskfile = "gfx/interface/Goals/AZR/AZR_Soviet_State.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = 90.0
         animationlooping = no
@@ -188,10 +188,10 @@ spriteType = {
 
 spriteType = {
     name = "GFX_AZR_Communist_Preservation_shine"
-    texturefile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+    texturefile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-        animationmaskfile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+        animationmaskfile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = -90.0
         animationlooping = no
@@ -203,7 +203,7 @@ spriteType = {
         animationtexturescale = { x = 1.0 y = 1.0 }
     }
     animation = {
-        animationmaskfile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+        animationmaskfile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = 90.0
         animationlooping = no

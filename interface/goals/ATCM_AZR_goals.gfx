@@ -22,17 +22,17 @@ SpriteType = {
 
 SpriteType = {
 		name = "GFX_AZR_Soviet_Loyalty"
-		texturefile = "gfx/interface/goals/AZR/AZR_Soviet_Loyalty.png"
+		texturefile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
 	}
 
 SpriteType = {
 		name = "GFX_AZR_Support_Coup"
-		texturefile = "gfx/interface/goals/AZR/AZR_Support_Coup.png"
+		texturefile = "gfx/interface/Goals/AZR/AZR_Soviet_State.png"
 	}
 
 SpriteType = {
 		name = "GFX_AZR_Communist_Preservation"
-		texturefile = "gfx/interface/goals/AZR/AZR_Communist_Preservation.png"
+		texturefile = "gfx/interface/Goals/AZR/AZR_Preservation_of_USSR.png"
 	}
 
 SpriteType = {

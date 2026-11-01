@@ -49,7 +49,7 @@ debug_decisions = {
 			}
 			set_country_flag = RUSTREELOADED_DEBUG
 			CHE = {
-				country_event = Chechnya.4
+				country_event = chechnya.4
 			}
 		}
 	}
@@ -62,7 +62,7 @@ debug_decisions = {
 			is_debug = yes
 			has_global_flag = show_debug_decisions_flag
 		}
-		allowed = {
+		available = {
 			has_country_flag = RUSTREELOADED_DEBUG
 		}
 		complete_effect = {

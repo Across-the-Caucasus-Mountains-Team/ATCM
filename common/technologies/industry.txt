@@ -1504,10 +1504,6 @@ technologies = {
 
 		local_resources_factor = 0.10
 
-		path = {
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 
 		categories = {
@@ -1590,10 +1586,6 @@ technologies = {
 	excavation2 = {
 
 		local_resources_factor = 0.10
-
-		path = {
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2
 		start_year = 1994
@@ -1691,10 +1683,6 @@ technologies = {
 
 		local_resources_factor = 0.10
 
-		path = {
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1997
 
@@ -1785,10 +1773,6 @@ technologies = {
 	excavation4 = {
 
 		local_resources_factor = 0.10
-
-		path = {
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2
 		start_year = 2000
@@ -1911,10 +1895,6 @@ technologies = {
 
 		local_resources_factor = 0.10
 
-		path = {
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 2008
 
@@ -1962,10 +1942,6 @@ technologies = {
 	excavation5 = {
 
 		local_resources_factor = 0.10
-
-		path = {
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2
 		start_year = 2005

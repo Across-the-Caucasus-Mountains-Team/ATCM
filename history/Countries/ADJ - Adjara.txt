@@ -15,9 +15,6 @@ set_technology = {
 	motorised_infantry = 1
 	uniform_equipment = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -43,7 +40,6 @@ add_ideas = {
 recruit_character = ADJ_Aslan_Abashidze
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	limited_conscription
@@ -54,3 +50,5 @@ add_ideas = {
 
 1996.1.1 = {
 }
+
+ATCM_economy_setup = yes

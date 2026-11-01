@@ -39,7 +39,6 @@ infantry_equipment_3_desc: "Модернизированный вариант А
 infantry_equipment_4: "АК-12"
 infantry_equipment_4_desc: "Современный автомат Калашникова под патрон 5,45×39 мм, оснащённый регулируемым складным прикладом, планками для установки прицелов и дополнительного оборудования, улучшенной эргономикой и повышенной универсальностью."
 #Uniforms
-uniform_equipment: "Униформа"
 uniform_equipment_desc: "Униформа"
 uniform_equipment_0: "Ранняя униформа"
 uniform_equipment_0_desc: "Ранняя униформа"
@@ -290,8 +289,6 @@ selfpropered_mortar_2_desc: "Самоходный миномёт III"
 selfmortar_equipment_0: "Самоходный миномёт I"
 selfmortar_equipment_0_desc: "Самоходный миномёт I"
 #Реактивные системы залпового огня
-motorized_rocket_equipment: "Реактивная система залпового огня"
-motorized_rocket_equipment: "РСЗО"
 motorized_rocket_equipment: "Реактивная система залпового огня"
 motorized_rocket_equipment_1: "РСЗО Град"
 motorized_rocket_equipment_1_short: "РСЗО Град"

@@ -3536,10 +3536,10 @@ spriteType = {
 
 spriteType = {
     name = "GFX_CHE_spread_mutsuraev_creative_work_shine"
-    texturefile = "gfx/interface/goals/CHE/GFX_CHE_spread_mutsuraev_creative_work.png"
+    texturefile = "gfx/interface/goals/CHE/CHE_spread_mutsuraev_creative_work.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/GFX_CHE_spread_mutsuraev_creative_work.png"
+        animationmaskfile = "gfx/interface/goals/CHE/CHE_spread_mutsuraev_creative_work.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = -90.0
         animationlooping = no
@@ -3551,7 +3551,7 @@ spriteType = {
         animationtexturescale = { x = 1.0 y = 1.0 }
     }
     animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/GFX_CHE_spread_mutsuraev_creative_work.png"
+        animationmaskfile = "gfx/interface/goals/CHE/CHE_spread_mutsuraev_creative_work.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = 90.0
         animationlooping = no
@@ -3567,10 +3567,10 @@ spriteType = {
 
 spriteType = {
     name = "GFX_CHE_Hit_and_run_shine"
-    texturefile = "gfx/interface/goals/CHE/GFX_CHE_Hit_and_run.png"
+    texturefile = "gfx/interface/goals/CHE/CHE_Hit_and_run.png"
     effectFile = "gfx/FX/buttonstate.lua"
     animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/GFX_CHE_Hit_and_run.png"
+        animationmaskfile = "gfx/interface/goals/CHE/CHE_Hit_and_run.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = -90.0
         animationlooping = no
@@ -3582,7 +3582,7 @@ spriteType = {
         animationtexturescale = { x = 1.0 y = 1.0 }
     }
     animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/GFX_CHE_Hit_and_run.png"
+        animationmaskfile = "gfx/interface/goals/CHE/CHE_Hit_and_run.png"
         animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
         animationrotation = 90.0
         animationlooping = no

@@ -30,10 +30,10 @@ mountaineers_1 = {
 
 	# EFFECTS
 	effect = {
-		unlock_subunit = rangers_support
+		unlock_subunit = special_forces_infantry
 	}
 	mountaineers_special_forces_contribution_factor = -0.25
-	rangers_support = {
+	special_forces_infantry = {
 		acclimatization_cold_climate_gain_factor = 0.25
 		snow = {
 			attack = 0.15

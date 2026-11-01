@@ -72,7 +72,7 @@ leader_traits = {
 		autonomy_gain = 0.1
 		ai_strategy = {
 			type = antagonize
-			id = "OVERLORD"
+			id = "RAS"
 			value = 5000
 		}
 	}

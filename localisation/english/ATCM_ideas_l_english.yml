@@ -75,8 +75,6 @@
  RAS_reorganize_our_frontline_idea:0 "Reorganize our frontline"
  RAS_emergency_redeployment_idea:0 "Emergency redeployment!"
  RAS_plundered_army:0 "Plundered army"
- RAS_big_criminality:0 "Criminality at large"
- RAS_awacs_reconnaissance:0 "Awacs reconnaissance"
  RAS_disrupted_supply_lines:0 "Disrupted supply lines"
  
  AZR_Black_January_idea:0 "Black January"
@@ -88,7 +86,6 @@
  ARM_The_Armenian_National_movement_desc:0 "\n\n\n\n£GFX_idea_Black_January_desc_photo\n\n\n\n\n\n\n"
  
  CHE_Unrecognized_Country:0 "Unrecognized Country"
- CHE_Unrecognized_Country_desc:0 "As it stands, the UN and most of the world view our country like its under Russia"
  CHE_Military_Training:0 "Military Training"
  CHE_Islamic_Conservatism_idea:0 "Islamic Conservatism Idea"
  CHE_Young_patriots_idea:0 "The Young Patriots"

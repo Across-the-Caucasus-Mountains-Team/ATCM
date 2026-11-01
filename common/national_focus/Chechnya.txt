@@ -610,6 +610,40 @@ focus_tree = {
 	}
 
 	focus = {
+		id = CHE_islamization_of_the_army
+		icon = GFX_CHE_islamization_of_the_army
+		x = 2
+		y = 2
+		prerequisite = { focus = CHE_secure_the_support_of_the_elites }
+		relative_position_id = CHE_build_islamic_state
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			add_popularity = {ideology = islam popularity = 0.05}
+			add_ideas = CHE_islamization_of_the_army_idea
+		}
+	}
+
+	focus = {
 		id = CHE_connections_with_islamists_around_the_world
 		icon = GFX_CHE_connections_with_islamists_around_the_world
 		x = 0
@@ -645,6 +679,88 @@ focus_tree = {
 					id = chechnya.27
 					days = 22
 				}
+			}
+		}
+	}
+
+	focus = {
+		id = CHE_establish_the_guard_of_allah
+		icon = GFX_CHE_establish_the_guard_of_allah
+		x = -1
+		y = 2
+		prerequisite = { focus = CHE_establish_a_sharia_police_force }
+		relative_position_id = CHE_sharia_laws
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = 14_CHE_tt
+			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
+			hidden_effect = {
+			load_oob = CHE_guard_of_allah
+			}
+			add_popularity = {ideology = islam popularity = 0.01}
+		}
+	}
+
+	focus = {
+		id = CHE_foreign_islamic_volunteers
+		icon = GFX_CHE_foreign_islamic_volunteers
+		x = 1
+		y = 2
+		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
+		relative_position_id = CHE_islamization_of_the_army
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			army_experience = 50
+			add_manpower = 3000
+			add_equipment_to_stockpile = {
+				type = uniform_equipment_1
+				amount = 3000
+			}
+			unlock_decision_tooltip = CHE_attract_addition_islamic_volunteer
+			add_timed_idea = {
+				idea = CHE_volunteers_from_muslim_world_idea
+				days = 440
 			}
 		}
 	}
@@ -725,122 +841,6 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
-			}
-		}
-	}
-
-	focus = {
-		id = CHE_islamization_of_the_army
-		icon = GFX_CHE_islamization_of_the_army
-		x = 2
-		y = 2
-		prerequisite = { focus = CHE_secure_the_support_of_the_elites }
-		relative_position_id = CHE_build_islamic_state
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { }
-
-		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			add_ideas = CHE_islamization_of_the_army_idea
-		}
-	}
-
-	focus = {
-		id = CHE_establish_the_guard_of_allah
-		icon = GFX_CHE_establish_the_guard_of_allah
-		x = -1
-		y = 2
-		prerequisite = { focus = CHE_establish_a_sharia_police_force }
-		relative_position_id = CHE_sharia_laws
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { }
-
-		completion_reward = {
-			custom_effect_tooltip = 13_CHE_tt
-			custom_effect_tooltip = 14_CHE_tt
-			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
-			hidden_effect = {
-			load_oob = CHE_guard_of_allah
-			}
-			add_popularity = {ideology = islam popularity = 0.01}
-		}
-	}
-
-	focus = {
-		id = CHE_foreign_islamic_volunteers
-		icon = GFX_CHE_foreign_islamic_volunteers
-		x = 1
-		y = 2
-		prerequisite = { focus = CHE_connections_with_islamists_around_the_world }
-		relative_position_id = CHE_islamization_of_the_army
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { }
-
-		completion_reward = {
-			army_experience = 50
-			add_manpower = 3000
-			add_equipment_to_stockpile = { 
-				type = uniform_equipment_1
-				amount = 3000
-			}
-			unlock_decision_tooltip = CHE_attract_addition_islamic_volunteer
-			add_timed_idea = {
-				idea = CHE_volunteers_from_muslim_world_idea
-				days = 440
 			}
 		}
 	}
@@ -1107,7 +1107,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_antirussian_propaganda
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 4
 		y = 1
 		prerequisite = { focus = CHE_ideas_of_caucasian_chaliphate }
@@ -1140,7 +1140,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_support_dagestan_rebels
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_antirussian_propaganda }
@@ -1173,7 +1173,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_support_cherkesky_rebels
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_antirussian_propaganda }
@@ -1206,7 +1206,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_spread_islam_on_north_caucasus
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 3
 		prerequisite = { focus = CHE_organize_raids }
@@ -1239,7 +1239,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_organize_raids
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		prerequisite = { focus = CHE_support_dagestan_rebels }
@@ -1273,7 +1273,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_holy_jihad_against_russia
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = -4
 		y = 4
 		prerequisite = { focus = CHE_capture_georgia }
@@ -1313,7 +1313,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_call_upon_all_muslims
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = -4
 		y = 5
 		prerequisite = { focus = CHE_holy_jihad_against_russia }
@@ -1492,7 +1492,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_recapture_armenia
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 3
 		prerequisite = { focus = CHE_islamic_uprising_in_azerbaijan }
@@ -2675,7 +2675,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_establish_engineer_squads
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		relative_position_id = CHE_General_Staff_of_Chechnya
@@ -2843,7 +2843,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_language_of_diplomacy
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = -8
 		y = 1
 		relative_position_id = CHE_Aftermath_of_First_wave
@@ -2881,7 +2881,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_organize_meetings_of_the_sides
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		relative_position_id = CHE_language_of_diplomacy
@@ -2916,7 +2916,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_sign_peace
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		relative_position_id = CHE_language_of_diplomacy
@@ -3515,7 +3515,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_handicraft_production
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 10
 		y = 1
 		relative_position_id = CHE_Aftermath_of_First_wave
@@ -3553,7 +3553,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_homemade_rifles
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		relative_position_id = CHE_handicraft_production
@@ -3590,7 +3590,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_homemade_mines
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		relative_position_id = CHE_handicraft_production
@@ -3627,7 +3627,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_workshops_in_the_mountains
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		relative_position_id = CHE_handicraft_production
@@ -5555,7 +5555,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_gain_experience_in_building_fortifications
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 6
 		relative_position_id = CHE_Weak_military
@@ -5609,7 +5609,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_hold_raids_on_soviet_millitary_bases
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 6
 		y = 1
 		prerequisite = { focus = CHE_build_secular_state focus = CHE_build_islamic_state }
@@ -5622,7 +5622,7 @@ completion_reward = {
 		}
 
 		available = {
-			has_ideas = SO
+			has_global_flag = USSR_Colapsed
 		}
 
 		offset = {
@@ -5861,39 +5861,6 @@ completion_reward = {
 	}
 
 	focus = {
-		id = CHE_Deport_Russians
-		icon = GFX_CHE_Deport_Russians
-		x = 0
-		y = 2
-		relative_position_id = CHE_centralize_power
-		prerequisite = { focus = CHE_disarm_pro_russian_soldiers }
-
-		cost = 25
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { }
-
-		completion_reward = {
-			country_event = chechnya.11
-		}
-	}
-
-	focus = {
 		id = CHE_centralize_power
 		icon = GFX_CHE_centralize_power
 		x = 0
@@ -5932,8 +5899,41 @@ completion_reward = {
 			}
 			activate_mission = CHE_weekly_power_of_opposition_value
 			hidden_effect = {
-				set_country_flag = CHE_dudayev_dicatorship	
+				set_country_flag = CHE_dudayev_dicatorship
 			}
+		}
+	}
+
+	focus = {
+		id = CHE_Deport_Russians
+		icon = GFX_CHE_Deport_Russians
+		x = 0
+		y = 2
+		relative_position_id = CHE_centralize_power
+		prerequisite = { focus = CHE_disarm_pro_russian_soldiers }
+
+		cost = 25
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			country_event = chechnya.11
 		}
 	}
 
@@ -6715,7 +6715,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_the_situation_is_getting_out_of_control
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		relative_position_id = CHE_Total_Control_has_achived
@@ -6757,7 +6757,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_declare_martial_law
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		relative_position_id = CHE_Total_Control_has_achived
@@ -6801,7 +6801,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_liquidation_of_constutional_court
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		relative_position_id = CHE_Total_Control_has_achived
@@ -6885,7 +6885,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_russian_threat
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		relative_position_id = CHE_the_situation_is_getting_out_of_control
@@ -7072,7 +7072,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_Close_look_at_them
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = 4
 		y = 3
 		relative_position_id = CHE_centralize_power
@@ -7151,7 +7151,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_Silent_opposition_media
-		icon = GFX_Goal_unknow
+		icon = GFX_goal_unknown
 		x = -3
 		y = 2
 		relative_position_id = CHE_centralize_power

@@ -706,9 +706,6 @@ technologies = {
 			SH_battleship_2
 		}
 
-		path = {
-
-		}
 		research_cost = 2
 
 		is_special_project_tech = yes
@@ -742,10 +739,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_multi_product_supply_ships
-			research_cost_coeff = 1
-		}
 		research_cost = 1.5
 		start_year = 1922
 

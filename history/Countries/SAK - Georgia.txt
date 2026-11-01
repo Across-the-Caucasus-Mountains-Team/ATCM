@@ -2,35 +2,35 @@ capital = 48
 
 set_research_slots = 3
 
-load_oob = SAK_1991
+oob = "SAK_1991"
 
 set_country_flag = StartguiOpen
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 
-	set_completed_focus = SAK_Our_Actions
-	set_completed_focus = SAK_integration_of_south_ossetia
-	set_completed_focus = SAK_equal_rights_to_ossetians
-	set_completed_focus = SAK_public_schools_for_everyone
-	set_completed_focus = SAK_more_autonomy
-	set_completed_focus = SAK_Little_fish
-	set_completed_focus = SAK_Our_eyes_In_Tbilisi
-	set_completed_focus = SAK_Arrest_Oppositions
-	set_completed_focus = SAK_Raid_their_offices
-	set_completed_focus = Sak_Arrest_bandits
-	set_completed_focus = SAK_Fortify_Political_Prisons
-	set_completed_focus = SAK_Crackdown_kitovani_national_guard
-	set_completed_focus = SAK_Our_National_Speechs
-	set_completed_focus = SAK_Interview_with_foreign_journalists
-	set_completed_focus = SAK_Ban_Communism
-	set_completed_focus = SAK_Send_National_Guard
-	set_completed_focus = SAK_Battle_of_tskhinvali
-	set_completed_focus = SAK_Close_Rock_mountain_pass
-	set_completed_focus = SAK_negotiate_with_Abkhazia
-	set_completed_focus = SAK_Crackdown_Abkhazians
-	set_completed_focus = SAK_Take_Sukhumi
-	set_completed_focus = SAK_Integrate_Abkhazia
+	unlock_national_focus = SAK_Our_Actions
+	unlock_national_focus = SAK_integration_of_south_ossetia
+	unlock_national_focus = SAK_equal_rights_to_ossetians
+	unlock_national_focus = SAK_public_schools_for_everyone
+	unlock_national_focus = SAK_more_autonomy
+	unlock_national_focus = SAK_Little_fish
+	unlock_national_focus = SAK_Our_eyes_In_Tbilisi
+	unlock_national_focus = SAK_Arrest_Oppositions
+	unlock_national_focus = SAK_Raid_their_offices
+	unlock_national_focus = Sak_Arrest_bandits
+	unlock_national_focus = SAK_Fortify_Political_Prisons
+	unlock_national_focus = SAK_Crackdown_kitovani_national_guard
+	unlock_national_focus = SAK_Our_National_Speechs
+	unlock_national_focus = SAK_Interview_with_foreign_journalists
+	unlock_national_focus = SAK_Ban_Communism
+	unlock_national_focus = SAK_Send_National_Guard
+	unlock_national_focus = SAK_Battle_of_tskhinvali
+	unlock_national_focus = SAK_Close_Rock_mountain_pass
+	unlock_national_focus = SAK_negotiate_with_Abkhazia
+	unlock_national_focus = SAK_Crackdown_Abkhazians
+	unlock_national_focus = SAK_Take_Sukhumi
+	unlock_national_focus = SAK_Integrate_Abkhazia
 
 	load_focus_tree = {
 		tree = Georgia_ethnicity_war
@@ -65,9 +65,6 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -145,10 +142,11 @@ recruit_character = SAK_Geno_Adamia
 recruit_character = SAK_Boris_Grigolashvili
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	limited_conscription
 	civilian_economy
 	limited_exports
 }
+
+ATCM_economy_setup = yes

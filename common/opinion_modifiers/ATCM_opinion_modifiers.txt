@@ -7,6 +7,10 @@
 
 opinion_modifiers = {
 
+	AZR_soviet_loyalty = {
+		value = 10
+	}
+
 	drove_out_the_russians = {
 		value = -50
 	}

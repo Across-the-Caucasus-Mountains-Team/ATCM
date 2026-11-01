@@ -2,7 +2,7 @@ capital = 33
 
 set_research_slots = 2
 
-load_oob = OST_1991
+oob = "OST_1991"
 
 # Starting tech
 set_technology = {
@@ -17,9 +17,6 @@ set_technology = {
 	motorised_infantry = 1
 	uniform_equipment = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -42,7 +39,6 @@ set_politics = {
 recruit_character = OST_provisional_government
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	volunteer_only
@@ -52,12 +48,14 @@ add_ideas = {
 
 
 1996.1.1 = {
-	set_completed_focus = OST_arrise_ossetia
-	set_completed_focus = OST_battle_for_tskhinvali
-	set_completed_focus = OST_rise_up_militia
-	set_completed_focus = OST_disrupte_enemy_supply
-	set_completed_focus = OST_fortify_java
-	set_completed_focus = OST_weapons
-	set_completed_focus = OST_forgein_volounteers
-	set_completed_focus = OST_general_staff_organization
+	unlock_national_focus = OST_arrise_ossetia
+	unlock_national_focus = OST_battle_for_tskhinvali
+	unlock_national_focus = OST_rise_up_militia
+	unlock_national_focus = OST_disrupte_enemy_supply
+	unlock_national_focus = OST_fortify_java
+	unlock_national_focus = OST_weapons
+	unlock_national_focus = OST_forgein_volounteers
+	unlock_national_focus = OST_general_staff_organization
 }
+
+ATCM_economy_setup = yes

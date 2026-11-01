@@ -21,9 +21,6 @@ set_cosmetic_tag = SOV_CHE
 	tech_trucks = 1
 	motorised_infantry = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -93,7 +90,6 @@ recruit_character = CHE_aslambek_abdulkhadzhiev
 recruit_character = CHE_isa_astamirov
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	limited_conscription
@@ -151,3 +147,5 @@ add_ideas = {
 	set_province_controller = 17415
 	set_province_controller = 17523
 }
+
+ATCM_economy_setup = yes

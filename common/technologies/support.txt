@@ -315,9 +315,9 @@ technologies = {
 
 		enable_subunits = {
 			recon
-			mot_recon
-			armored_car_recon
-			light_tank_recon
+
+
+
 		}
 
 		path = {
@@ -869,11 +869,6 @@ technologies = {
 			equipment_capture_factor = 0.05
 		}
 
-		armored_maintenance = {
-			reliability_factor = 0.02
-			recovery = 0.03
-			equipment_capture_factor = 0.1
-		}
 
 		enable_equipment_modules = {
 		}
@@ -929,18 +924,6 @@ technologies = {
 
 		}
 
-		armored_maintenance = {
-			reliability_factor = 0.02
-			recovery = 0.03
-
-			battalion_mult = {
-				category = category_all_armor
-				equipment_capture_factor = 0.02
-				add = yes
-				display_as_percentage = yes
-			}
-
-		}
 
 		path = {
 			leads_to_tech = tech_maintenance_company4
@@ -985,11 +968,6 @@ technologies = {
 			equipment_capture_factor = 0.05
 		}
 
-		armored_maintenance = {
-			reliability_factor = 0.02
-			recovery = 0.03
-			equipment_capture_factor = 0.1
-		}
 
 		research_cost = 2.0
 		start_year = 2008
@@ -1400,11 +1378,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_armored_signal_tech
-			research_cost_coeff = 1
-		}
-
 		dependencies = {
 			radio = 1
 			motorised_infantry = 1
@@ -1438,14 +1411,6 @@ technologies = {
 
 		signal_company = {
 			initiative = 0.12
-		}
-
-		armored_signal = {
-			initiative = 0.08
-			battalion_mult = {
-				category = category_all_armor
-				breakthrough = 0.01
-			}
 		}
 
 		path = {
@@ -1492,14 +1457,6 @@ technologies = {
 			initiative = 0.12
 		}
 
-		armored_signal = {
-			initiative = 0.08
-			battalion_mult = {
-				category = category_all_armor
-				breakthrough = 0.01
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_signal_company4
 			research_cost_coeff = 1
@@ -1541,14 +1498,6 @@ technologies = {
 
 		signal_company = {
 			initiative = 0.12
-		}
-
-		armored_signal = {
-			initiative = 0.08
-			battalion_mult = {
-				category = category_all_armor
-				breakthrough = 0.01
-			}
 		}
 
 		research_cost = 2.0

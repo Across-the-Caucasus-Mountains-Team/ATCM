@@ -1,0 +1,407 @@
+ABK_Art_01 = {
+	name = "Artilleron-divizion"
+	for_countries = { ABK }
+	can_use = { always = yes }
+	division_types = { artillery_brigade irregular_infantry }
+	fallback_name = "%d. Artilleron-divizion"
+}
+
+ABK_Inf_01 = {
+	name = "pekhota-divizion"
+	for_countries = { ABK }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. pekhota-divizion"
+}
+
+ABK_Inf_02 = {
+	name = "militia-divizion"
+	for_countries = { ABK }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. militia-divizion"
+}
+
+ABK_Mnt_01 = {
+	name = "Gory-pekhota-divizion"
+	for_countries = { ABK }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Gory-pekhota-divizion"
+}
+
+ABK_Vol_01 = {
+	name = "Volunteers"
+	for_countries = { ABK }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Volunteers"
+}
+
+ADJ_pol_01 = {
+	name = "Policia"
+	for_countries = { ADJ }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Policia"
+}
+
+ADJ_vol_01 = {
+	name = "Volunteers"
+	for_countries = { ADJ }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Volunteers"
+}
+
+ARM_Arm_01 = {
+	name = "Tank-Division"
+	for_countries = { ARM }
+	can_use = { always = yes }
+	division_types = { modern_armor }
+	fallback_name = "%d. Tank-Division"
+}
+
+ARM_Inf_01 = {
+	name = "Infantry-Division"
+	for_countries = { ARM }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. Infantry-Division"
+}
+
+ARM_Mnt_01 = {
+	name = "Mountaineers-Division"
+	for_countries = { ARM }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Mountaineers-Division"
+}
+
+ARM_Mot_01 = {
+	name = "Motorised-Division"
+	for_countries = { ARM }
+	can_use = { always = yes }
+	division_types = { motorized }
+	fallback_name = "%d. Motorised-Division"
+}
+
+CHE_Arm_01 = {
+	name = "Tankoviy-batalyon"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { armoured_personnel_carrier modern_armor }
+	fallback_name = "%d. Tankoviy-batalyon"
+}
+
+CHE_Art_01 = {
+	name = "Artillerin bataljon"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { artillery_brigade infantry }
+	fallback_name = "%d. Artillerin bataljon"
+}
+
+CHE_Elite_Divisions = {
+	name = "Elite Divisions"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { armoured_personnel_carrier }
+	fallback_name = "%d. Elite Divisions"
+}
+
+CHE_Inf_01 = {
+	name = "Pekhotniy-batalyon"
+	for_countries = { CHE CHI }
+	can_use = { always = yes }
+	division_types = { infantry special_forces_infantry }
+	fallback_name = "%d. Pekhotniy-batalyon"
+}
+
+CHE_Mnt_01 = {
+	name = "Gornostrelkoviy-batalyon"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Gornostrelkoviy-batalyon"
+}
+
+CHE_Mot_01 = {
+	name = "Motorizebuli-danakofi"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { armoured_personnel_carrier motorized }
+	fallback_name = "%d. Motorizebuli-danakofi"
+}
+
+CHE_guard_of_allah = {
+	name = "Guard of allah"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { special_forces_infantry }
+	fallback_name = "%d. Guard of allah"
+}
+
+CHE_inf_01 = {
+	name = "Ġaşloyn bataljon"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. Ġaşloyn bataljon"
+}
+
+CHE_inf_02 = {
+	name = "Nizam docu bataljon"
+	for_countries = { CHE CHI }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Nizam docu bataljon"
+}
+
+CHE_pol_01 = {
+	name = "Policia"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Policia"
+}
+
+CHE_vol_01 = {
+	name = "Volunteers"
+	for_countries = { CHE }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Volunteers"
+}
+
+GAM_Arm_01 = {
+	name = "Satanko-danakofi"
+	for_countries = { GOM }
+	can_use = { always = yes }
+	division_types = { modern_armor }
+	fallback_name = "%d. Satanko-danakofi"
+}
+
+GAM_Inf_01 = {
+	name = "Adjrauli-Zviadistebis-danakofi"
+	for_countries = { GOM }
+	can_use = { always = yes }
+	division_types = { infantry irregular_infantry }
+	fallback_name = "%d. Adjrauli-Zviadistebis-danakofi"
+}
+
+GAM_Mnt_01 = {
+	name = "Mtis-Kveiti-danakofi"
+	for_countries = { GOM }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Mtis-Kveiti-danakofi"
+}
+
+GAM_Mot_01 = {
+	name = "Motorizebuli-danakofi"
+	for_countries = { GOM }
+	can_use = { always = yes }
+	division_types = { motorized }
+	fallback_name = "%d. Motorizebuli-danakofi"
+}
+
+GAM_ngd_01 = {
+	name = "Nationaluri-gvardiis-danakofi"
+	for_countries = { GOM }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. Nationaluri-gvardiis-danakofi"
+}
+
+ING_Inf_01 = {
+	name = "pekhota-divizion"
+	for_countries = { ING CHE }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. pekhota-divizion"
+}
+
+ING_Inf_02 = {
+	name = "militia-divizion"
+	for_countries = { ING CHE }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. militia-divizion"
+}
+
+ING_Inf_03 = {
+	name = "Green-peoples"
+	for_countries = { ING CHE }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. Green-peoples"
+}
+
+ING_Mnt_01 = {
+	name = "Mountains"
+	for_countries = { ING CHE }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Mountains"
+}
+
+ING_Vol_01 = {
+	name = "Volunteers"
+	for_countries = { ING CHE }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Volunteers"
+}
+
+ING_Vol_02 = {
+	name = "Volunteers"
+	for_countries = { ING CHE }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. Volunteers"
+}
+
+OST_Art_01 = {
+	name = "Artilleron-divizion"
+	for_countries = { OST }
+	can_use = { always = yes }
+	division_types = { artillery_brigade irregular_infantry }
+	fallback_name = "%d. Artilleron-divizion"
+}
+
+OST_Inf_01 = {
+	name = "pekhota-divizion"
+	for_countries = { OST }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. pekhota-divizion"
+}
+
+OST_Inf_02 = {
+	name = "militia-divizion"
+	for_countries = { OST }
+	can_use = { always = yes }
+	division_types = { irregular_infantry }
+	fallback_name = "%d. militia-divizion"
+}
+
+OST_Mnt_01 = {
+	name = "Gory-pekhota-divizion"
+	for_countries = { OST }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Gory-pekhota-divizion"
+}
+
+Otryad-basayva = {
+	name = "Otryad-basayva"
+	for_countries = { ING CHE }
+	can_use = { always = yes }
+	division_types = { special_forces_infantry }
+	fallback_name = "%d. Otryad-basayva"
+}
+
+RAS_Arm_01 = {
+	name = "Tankovaya-diviziya"
+	for_countries = { ABK CHI OST RAS }
+	can_use = { always = yes }
+	division_types = { armoured_personnel_carrier infantry_fighting_vehicle modern_armor }
+	fallback_name = "%d. Tankovaya-diviziya"
+}
+
+RAS_Inf_01 = {
+	name = "Pekhotniy-batalyon"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { infantry motorized_rocket_brigade }
+	fallback_name = "%d. Pekhotniy-batalyon"
+}
+
+RAS_Mar_01 = {
+	name = "Marine-Divizia"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { marine }
+	fallback_name = "%d. Marine-Divizia"
+}
+
+RAS_Mnt_01 = {
+	name = "Gornostrelkoviy-batalyon"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Gornostrelkoviy-batalyon"
+}
+
+RAS_Mot_01 = {
+	name = "Motstelkovy-Batalyon"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { motorized }
+	fallback_name = "%d. Motstelkovy-Batalyon"
+}
+
+RAS_Omo_01 = {
+	name = "Podrazdelenie GRU"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { special_forces_infantry }
+	fallback_name = "%d. Podrazdelenie GRU"
+}
+
+RAS_Par_01 = {
+	name = "VDV"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { paratrooper }
+	fallback_name = "%d. VDV"
+}
+
+RAS_Par_02 = {
+	name = "VDV 3"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { paratrooper }
+	fallback_name = "%d. VDV 3"
+}
+
+RAS_Par_03 = {
+	name = "VDV 2"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { paratrooper }
+	fallback_name = "%d. VDV 2"
+}
+
+SAK_Arm_01 = {
+	name = "Satanko-danakofi"
+	for_countries = { SAK }
+	can_use = { always = yes }
+	division_types = { modern_armor }
+	fallback_name = "%d. Satanko-danakofi"
+}
+
+SAK_Mnt_01 = {
+	name = "Mtis-Kveiti-danakofi"
+	for_countries = { SAK }
+	can_use = { always = yes }
+	division_types = { mountaineers }
+	fallback_name = "%d. Mtis-Kveiti-danakofi"
+}
+
+SAK_mkh_01 = {
+	name = "Mkhedrioni-danakofi"
+	for_countries = { SAK }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. Mkhedrioni-danakofi"
+}
+
+SAK_ngd_01 = {
+	name = "Nationaluri-gvardiis-danakofi"
+	for_countries = { SAK }
+	can_use = { always = yes }
+	division_types = { infantry }
+	fallback_name = "%d. Nationaluri-gvardiis-danakofi"
+}

@@ -18,9 +18,6 @@ set_technology = {
 	motorised_infantry = 1
 	uniform_equipment = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -43,35 +40,35 @@ set_technology = {
 }
 
 1996.1.1 = {
-	set_completed_focus = ARM_Strengthen_our_national_identity
-	set_completed_focus = ARM_Fan_The_Flames
-	set_completed_focus = ARM_Reach_out_to_the_media
-	set_completed_focus = ARM_Gain_International_Support
-	set_completed_focus = ARM_Promote_Pro_Armenian_Propaganda
-	set_completed_focus = ARM_Industrialize_Gegharkunik
-	set_completed_focus = ARM_Begin_the_hunger_strike
-	set_completed_focus = ARM_Rally_the_people
-	set_completed_focus = ARM_Sieze_Soviet_Guns
-	set_completed_focus = ARM_Discredit_The_USSR
-	set_completed_focus = ARM_Armenia_first
-	set_completed_focus = ARM_Nagarno_karabakh_problem
-	set_completed_focus = ARM_Set_up_defence
-	set_completed_focus = ARM_Recruitment_effort
-	set_completed_focus = ARM_Appeal_to_the_world_Stage
-	set_completed_focus = ARM_Develop_for_the_War
-	set_completed_focus = ARM_Prepare_for_the_inevitable
-	set_completed_focus = ARM_tensions_in_karabakh
-	set_completed_focus = ARM_demand_referendum_in_karabakh
-	set_completed_focus = ARM_nintheen_days_preparations
-	set_completed_focus = ARM_Ground_force
-	set_completed_focus = ARM_search_for_old_guns
-	set_completed_focus = ARM_Rally_paramilitaries
-	set_completed_focus = ARM_calls_for_Armenians_in_karabakh
-	set_completed_focus = ARM_air_force
-	set_completed_focus = ARM_Soviet_Jets
-	set_completed_focus = ARM_steal_Azer_jets
-	set_completed_focus = ARM_Recruit_the_pilots
-	set_completed_focus = ARM_War_is_in_here
+	unlock_national_focus = ARM_Strengthen_our_national_identity
+	unlock_national_focus = ARM_Fan_The_Flames
+	unlock_national_focus = ARM_Reach_out_to_the_media
+	unlock_national_focus = ARM_Gain_International_Support
+	unlock_national_focus = ARM_Promote_Pro_Armenian_Propaganda
+	unlock_national_focus = ARM_Industrialize_Gegharkunik
+	unlock_national_focus = ARM_Begin_the_hunger_strike
+	unlock_national_focus = ARM_Rally_the_people
+	unlock_national_focus = ARM_Sieze_Soviet_Guns
+	unlock_national_focus = ARM_Discredit_The_USSR
+	unlock_national_focus = ARM_Armenia_first
+	unlock_national_focus = ARM_Nagarno_karabakh_problem
+	unlock_national_focus = ARM_Set_up_defence
+	unlock_national_focus = ARM_Recruitment_effort
+	unlock_national_focus = ARM_Appeal_to_the_world_Stage
+	unlock_national_focus = ARM_Develop_for_the_War
+	unlock_national_focus = ARM_Prepare_for_the_inevitable
+	unlock_national_focus = ARM_tensions_in_karabakh
+	unlock_national_focus = ARM_demand_referendum_in_karabakh
+	unlock_national_focus = ARM_nintheen_days_preparations
+	unlock_national_focus = ARM_Ground_force
+	unlock_national_focus = ARM_search_for_old_guns
+	unlock_national_focus = ARM_Rally_paramilitaries
+	unlock_national_focus = ARM_calls_for_Armenians_in_karabakh
+	unlock_national_focus = ARM_air_force
+	unlock_national_focus = ARM_Soviet_Jets
+	unlock_national_focus = ARM_steal_Azer_jets
+	unlock_national_focus = ARM_Recruit_the_pilots
+	unlock_national_focus = ARM_War_is_in_here
 	set_politics = {
 		ruling_party = liberalism
 		last_election = "1998.5.20"
@@ -100,7 +97,6 @@ add_ideas = {
 recruit_character = ARM_levon_ter_Petrosyan
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	limited_conscription
@@ -114,7 +110,9 @@ add_ideas = {
 
 	set_autonomy = {
 		target = ARS
-		autonomous_state = autonomy_collaboration_government
+		autonomy_state = autonomy_collaboration_government
 		freedom_level = 0.15
 	}
 }
+
+ATCM_economy_setup = yes

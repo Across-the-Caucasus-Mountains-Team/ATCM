@@ -160,10 +160,6 @@ technologies = {
 			leads_to_tech = improved_infantry_weapons_2
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = infantry_at
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2
 		start_year = 1990
@@ -2254,11 +2250,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = armored_car1
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.5
 		start_year = 1980
 		folder = {
@@ -2409,10 +2400,6 @@ technologies = {
 
 		enable_equipments = {
 			motorized_equipment_1
-		}
-
-		path = {
-
 		}
 
 		research_cost = 2

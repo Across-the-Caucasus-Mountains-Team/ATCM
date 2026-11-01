@@ -661,7 +661,7 @@ country_event = {
 		remove_ideas = SAK_National_Gurad_Split_in_two
 		hidden_effect = {
 			CHE = {
-				country_event = { id = Chechnya.5 }
+				country_event = { id = chechnya.5 }
 			}
 			country_event = { 
 			id = Georgia.16 

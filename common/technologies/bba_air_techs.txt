@@ -817,11 +817,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = reinforced_wings_mothership
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
 		start_year = 1940
 		folder = {
@@ -1740,11 +1735,6 @@ technologies = {
 		folder = {
 			name = bba_air_techs_folder
 			position = { x = 0 y = 8 }
-		}
-
-		path = {
-			leads_to_tech = sp_centrifugal_jet_tech
-			research_cost_coeff = 1
 		}
 
 		categories = {

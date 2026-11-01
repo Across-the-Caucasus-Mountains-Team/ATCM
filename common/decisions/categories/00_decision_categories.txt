@@ -113,9 +113,7 @@ governments_in_exile = {
 	}
 
 	visible = {
-		NOT = {
-			has_completed_focus = NOR_the_kings_no 
-		}
+		always = yes
 	}
 
 	priority = 7

@@ -2,6 +2,7 @@
 # 1.
 ##############################
 CHE_GROZNY_CONTROL = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = CHE
 	}
@@ -13,14 +14,12 @@ CHE_GROZNY_CONTROL = {
 		type = front_unit_request
 		area = grozny
 		value = 300
-		execute_order = yes	
 	}
 
 	ai_strategy = {
 		type  = force_concentration_front_factor
 		area = grozny
 		value = 30
-		execute_order = yes	
 	}
 
 	#ai_strategy = {
@@ -71,6 +70,7 @@ CHE_chechen_war_is_going = {
 }
 
 CHE_northern_chechnya = {
+	abort_when_not_enabled = yes
 	allowed = {
 		original_tag = CHE
 	}
@@ -82,7 +82,6 @@ CHE_northern_chechnya = {
 		type = front_unit_request
 		area = north_chechnya
 		value = -300
-		execute_order = yes	
 	}
 
 	#ai_strategy = {

@@ -58,9 +58,9 @@ bookmarks = {
 				AZR_Black_January_idea
 			}
 			focuses = {
-				AZR_Black_January
-				AZR_Internal_order
-				AZR_Karabakh_Campaign
+				AZR_Soviet_State
+				AZR_Pursuit_of_Independence
+				AZR_Declare_Independence
 			}
 		}
 

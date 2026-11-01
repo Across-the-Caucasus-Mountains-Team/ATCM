@@ -7,19 +7,19 @@ set_research_slots = 4
 }
 
 1996.1.1 = {
-	set_completed_focus = AZR_Soviet_State
-	set_completed_focus = AZR_Sovereignty_Question
-	set_completed_focus = AZR_Preservation_of_USSR
-	set_completed_focus = AZR_Soviet_Loyalty
-	set_completed_focus = AZR_Support_Coup
-	set_completed_focus = AZR_Communist_Preservation
-	set_completed_focus = AZR_Pursuit_of_Independence
-	set_completed_focus = AZR_Anti_Communist_Protests
-	set_completed_focus = AZR_Pro_Democratic_Speeches
-	set_completed_focus = AZR_New_Parties_Creation
-	set_completed_focus = AZR_Musavat_Revival
-	set_completed_focus = AZR_Founding_Democratic_Institutions
-	set_completed_focus = AZR_Declare_Independence
+	unlock_national_focus = AZR_Soviet_State
+	unlock_national_focus = AZR_Sovereignty_Question
+	unlock_national_focus = AZR_Preservation_of_USSR
+	unlock_national_focus = AZR_Soviet_Loyalty
+	unlock_national_focus = AZR_Support_Coup
+	unlock_national_focus = AZR_Communist_Preservation
+	unlock_national_focus = AZR_Pursuit_of_Independence
+	unlock_national_focus = AZR_Anti_Communist_Protests
+	unlock_national_focus = AZR_Pro_Democratic_Speeches
+	unlock_national_focus = AZR_New_Parties_Creation
+	unlock_national_focus = AZR_Musavat_Revival
+	unlock_national_focus = AZR_Founding_Democratic_Institutions
+	unlock_national_focus = AZR_Declare_Independence
 	drop_cosmetic_tag = yes
 }
 
@@ -37,9 +37,6 @@ set_technology = {
 	motorised_infantry = 1
 	uniform_equipment = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -91,10 +88,11 @@ recruit_character = AZR_heydar_aliyev
 recruit_character = AZR_ilham_aliyev
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	limited_conscription
 	low_economic_mobilisation
 	limited_exports
 }
+
+ATCM_economy_setup = yes

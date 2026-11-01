@@ -1363,9 +1363,9 @@
 
  NZL_gw_tank_equipment:1 "Mark V"
  NZL_gw_tank_equipment_short:1 "Mark V"
- NZL_light_tank_equipment_1:0 "Bob Semple "Tank""
+ NZL_light_tank_equipment_1:0 "Bob Semple \"Tank\""
  NZL_light_tank_equipment_1_short:0 "Bob Semple"
- NZL_light_tank_equipment_1_desc:0 "For a certain value of "tank"."
+ NZL_light_tank_equipment_1_desc:0 "For a certain value of \"tank\"."
  NZL_light_tank_equipment_2:0 "Schofield Tank"
  NZL_light_tank_equipment_2_short:0 "Schofield Tank"
  NZL_light_tank_equipment_3:0 "Valentine"
@@ -3199,9 +3199,9 @@
  GER_gw_armored_car_equipment_short:0 "Sdkfz 222"
  GER_armored_car_equipment_1:0 "Sonderkraftfahrzeug 231 8-rad"
  GER_armored_car_equipment_1_short:0 "Sdkfz 231"
- GER_armored_car_equipment_2:0 "Sonderkraftfahrzeug 234 "Puma""
+ GER_armored_car_equipment_2:0 "Sonderkraftfahrzeug 234 \"Puma\""
  GER_armored_car_equipment_2_short:0 "Puma"
- GER_armored_car_at_equipment:0 "Sdkfz 234/4 "Pakwagen""
+ GER_armored_car_at_equipment:0 "Sdkfz 234/4 \"Pakwagen\""
  GER_armored_car_at_equipment_short:0 "Pakwagen"
 
  USA_gw_armored_car_equipment:0 "M1 Armored Car"
@@ -4053,4 +4053,4 @@
 
  EQUIPMENT_DESCRIPTION: "$NAME$"
  
- 
+

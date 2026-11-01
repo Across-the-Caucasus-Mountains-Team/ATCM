@@ -6,7 +6,7 @@ SAK_Anarchy_in_Georgia = { #NATIONAL SPIRIT
 	war_support_factor = SAK_aig_war_support_factor #-0.5
 	stability_factor = SAK_aig_stability_factor #-0.5
 	consumer_goods_factor = SAK_aig_consumer_goods_factor #0.5
-	Anarchist_drift = SAK_aig_Anarchist_drift #0.1
+	anarchism_drift = SAK_aig_Anarchist_drift #0.1
 	drift_defence_factor = SAK_aig_drift_defence_factor #-0.4
 	political_power_gain = SAK_aig_political_power_gain #-0.1
 	Research_speed_factor = SAK_aig_Research_speed_factor #-0.35
@@ -62,7 +62,7 @@ RAS_Separatism = { #NATIONAL SPIRIT
 RAS_hyperinflation = { #NATIONAL SPIRIT
 	enable = { always = yes }
 
-	icon = RAS_hyperinflation
+	icon = GFX_idea_RAS_hyperinflation
 
     stability_factor = RAS_hyp_inf_stability_factor
     consumer_goods_factor = RAS_hyp_inf_consumer_goods_factor

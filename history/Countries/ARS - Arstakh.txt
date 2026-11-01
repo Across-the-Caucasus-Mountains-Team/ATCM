@@ -23,8 +23,6 @@ set_technology = {
 	motorised_infantry = 1
 	uniform_equipment = 1
 	towed_artillery_1 = 1
-	mass_assault = 1
-	fleet_in_being = 1
 }
 
 1991.1.1 = {
@@ -67,7 +65,6 @@ add_ideas = {
 }
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	volunteer_only
@@ -79,3 +76,5 @@ add_ideas = {
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 }
+
+ATCM_economy_setup = yes

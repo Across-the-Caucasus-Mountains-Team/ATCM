@@ -27,7 +27,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_war = Yes
+			has_war = yes
 		}
 
 		bypass = {

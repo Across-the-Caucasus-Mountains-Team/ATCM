@@ -82,6 +82,30 @@ ideas = {
 			}
 		}
 		
+		SAK_Clashes_in_south_ossetia_two = {
+			allowed = { original_tag = SAK }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = SAK_war_in_samachablo
+			modifier = {
+				stability_factor = -0.025
+				war_support_factor = -0.025
+				army_attack_factor = 0.05
+			}
+		}
+
+		SAK_Clashes_in_south_ossetia_three = {
+			allowed = { original_tag = SAK }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = SAK_war_in_samachablo
+			modifier = {
+				stability_factor = 0
+				war_support_factor = 0
+				army_attack_factor = 0.05
+			}
+		}
+
 		SAK_Gamsakhurdias_Speechs = {
 			
 			allowed = {
@@ -100,7 +124,7 @@ ideas = {
 				political_power_gain = 0.3
 				war_support_Factor = 0.15
 				nationalism_drift = 0.2
-				cnservatism_drift = 0.1
+				conservatism_drift = 0.1
 			}
 		}
 		

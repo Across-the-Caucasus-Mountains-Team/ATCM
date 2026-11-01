@@ -403,12 +403,7 @@ propaganda_efforts = {
 		cost = 100 
 
 		complete_effect = {
-			effect_tooltip = {
-				add_war_support = 0.10
-			}
-			hidden_effect = {
-				country_event = political.33
-			}
+			add_war_support = 0.10
 		}
 
 		ai_will_do = {

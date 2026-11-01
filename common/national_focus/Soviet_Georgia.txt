@@ -445,7 +445,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-			country_event = { id = georgia.10 hours = 6 }
+			country_event = { id = Georgia.10 hours = 6 }
 			remove_ideas = SAK_Gamsakhurdias_Speechs
 			custom_effect_tooltip = new_focus_tree_tt
 		}

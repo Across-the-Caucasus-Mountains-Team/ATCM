@@ -419,7 +419,7 @@ focus_tree = {
 
 	focus = {
 		id = SAK_reform_schools
-		icon = GFX_Goal_unknown
+		icon = GFX_goal_unknown
 		prerequisite = { focus = SAK_khalkhi }
 		x = -2
 		y = 1

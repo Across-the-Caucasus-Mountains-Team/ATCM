@@ -8,7 +8,7 @@ scripted_gui = {
 		triggers = {
 			cash_button_visible = {
 				check_variable = {
-					cash > 0
+					cash >= 0
 				}
 			}
 			debt_button_visible = {
@@ -20,24 +20,26 @@ scripted_gui = {
 
 		effects = {
 			cash_button_click = {
+				ATCM_economy_setup = yes
 				if = {
 					limit = {
-						has_global_flag = economy_tab_on
+						has_country_flag = economy_tab_on
 					}
-					clr_global_flag = economy_tab_on
+					clr_country_flag = economy_tab_on
 					else = {
-						set_global_flag = economy_tab_on
+						set_country_flag = economy_tab_on
 					}
 				}
 			}
 			debt_button_click = {
+				ATCM_economy_setup = yes
 				if = {
 					limit = {
-						has_global_flag = economy_tab_on
+						has_country_flag = economy_tab_on
 					}
-					clr_global_flag = economy_tab_on
+					clr_country_flag = economy_tab_on
 					else = {
-						set_global_flag = economy_tab_on
+						set_country_flag = economy_tab_on
 					}
 				}
 			}
@@ -49,23 +51,23 @@ scripted_gui = {
 		context_type = player_context
 
 		visible = {
-			has_global_flag = economy_tab_on
+			has_country_flag = economy_tab_on
 		}
 
 		triggers = {
 			cash_bg_visible = {
 				check_variable = {
-					cash > 0
+					cash >= 0
 				}
 			}
 			cash_icon_visible = {
 				check_variable = {
-					cash > 0
+					cash >= 0
 				}
 			}
 			cash_balance_value_visible = {
 				check_variable = {
-					cash > 0
+					cash >= 0
 				}
 			}
 			debt_bg_visible = {
@@ -87,16 +89,16 @@ scripted_gui = {
 
 		effects = {
 			close_button_click = {
-				clr_global_flag = economy_tab_on
+				clr_country_flag = economy_tab_on
 			}
 			economic_decisions_button_click = {
 				if = {
 					limit = {
-						has_global_flag = economy_decisions_tab_on
+						has_country_flag = economy_decisions_tab_on
 					}
-					clr_global_flag = economy_decisions_tab_on
+					clr_country_flag = economy_decisions_tab_on
 					else = {
-						set_global_flag = economy_decisions_tab_on
+						set_country_flag = economy_decisions_tab_on
 					}
 				}
 			}
@@ -108,7 +110,7 @@ scripted_gui = {
 		context_type = player_context
 
 		visible = {
-			has_global_flag = economy_decisions_tab_on
+			has_country_flag = economy_decisions_tab_on
 		}
 
 		triggers = {
@@ -117,7 +119,7 @@ scripted_gui = {
 
 		effects = {
 			close_button_click = {
-				clr_global_flag = economy_decisions_tab_on
+				clr_country_flag = economy_decisions_tab_on
 			}
 		}
 

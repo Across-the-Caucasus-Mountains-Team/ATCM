@@ -17,9 +17,6 @@ set_technology = {
 	motorised_infantry = 1
 	uniform_equipment = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -40,7 +37,6 @@ set_popularities = {
 }
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	limited_conscription
@@ -53,9 +49,9 @@ add_ideas = {
 	set_cosmetic_tag = DAG_communism
 }
 
-1991.25.12 = {
+1991.12.25 = {
 	set_cosmetic_tag = DAG_1991
-	end_cosmetic_tag = DAG_communism
+
 	
 	set_politics = {
 		ruling_party = liberalism
@@ -67,5 +63,7 @@ add_ideas = {
 
 1994.1.1 = {
 	set_cosmetic_tag = DAG_1994
-	end_cosmetic_tag = DAG_1991
+
 }
+
+ATCM_economy_setup = yes

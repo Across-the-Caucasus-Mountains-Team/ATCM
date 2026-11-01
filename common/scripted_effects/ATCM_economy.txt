@@ -1,488 +1,114 @@
-
+# Recalculate the monthly forecast only. Cash settlement happens in on_monthly.
 ATCM_economy_setup = {
-	set_variable = {
-		var = income
-		value = 0
-	}
-	set_variable = {
-		var = expense
-		value = 0
-	}
+	set_variable = { income = 0 }
+	set_variable = { expense = 0 }
+	set_variable = { mil_factories_income = THIS.num_of_military_factories }
+	multiply_variable = { mil_factories_income = 5 }
+	add_to_variable = { income = var:mil_factories_income }
+	set_variable = { doc_factories_income = THIS.num_of_naval_factories }
+	multiply_variable = { doc_factories_income = 10 }
+	add_to_variable = { income = var:doc_factories_income }
+	set_variable = { civ_factories_income = THIS.num_of_civilian_factories }
+	multiply_variable = { civ_factories_income = 25 }
+	add_to_variable = { income = var:civ_factories_income }
+
+	set_variable = { healthcare_expense_show = THIS.max_manpower_k }
+	divide_variable = { healthcare_expense_show = 144 }
+	round_variable = healthcare_expense_show
+	set_variable = { healthcare_expense = 0 }
+	set_variable = { healthcare_expense_universal_health_care = var:healthcare_expense_show }
+	multiply_variable = { healthcare_expense_universal_health_care = 6.5 }
+	set_variable = { healthcare_expense_free_checkups = var:healthcare_expense_show }
+	multiply_variable = { healthcare_expense_free_checkups = 4.5 }
+	set_variable = { healthcare_expense_free_emergencies_only = var:healthcare_expense_show }
+	multiply_variable = { healthcare_expense_free_emergencies_only = 1.85 }
 	if = {
-		limit = {
-			#check_variable = { #This prevents the integer limit being beaten
-			#	var = cash
-			#	value < 1800000000
-			#}
-		}
-		set_variable = {
-			var = mil_factories_income
-			value = ROOT.num_of_military_factories
-		}
-		multiply_variable = {
-			var = mil_factories_income
-			value = 5
-		}
-		if = {
-			limit = {
-				has_global_flag = add_remove_cash_flag
-			}
-			add_to_variable = {
-				var = cash
-				value = var:mil_factories_income
-			}
-		}
-		add_to_variable = {
-			var = income
-			value = var:mil_factories_income
-		}
-
-		set_variable = {
-			var = doc_factories_income
-			value = ROOT.num_of_naval_factories
-		}
-		multiply_variable = {
-			var = doc_factories_income
-			value = 10
-		}
-		if = {
-			limit = {
-				has_global_flag = add_remove_cash_flag
-			}
-			add_to_variable = {
-				var = cash
-				value = var:doc_factories_income
-			}
-		}
-		add_to_variable = {
-			var = income
-			value = var:doc_factories_income
-		}
-
-		set_variable = {
-			var = civ_factories_income
-			value = ROOT.num_of_civilian_factories
-		}
-		multiply_variable = {
-			var = civ_factories_income
-			value = 25
-		}
-		if = {
-			limit = {
-				has_global_flag = add_remove_cash_flag
-			}
-			add_to_variable = {
-				var = cash
-				value = var:civ_factories_income
-			}
-		}
-		add_to_variable = {
-			var = income
-			value = var:civ_factories_income
-		}
+		limit = { has_idea = universal_health_care }
+		set_variable = { healthcare_expense = var:healthcare_expense_universal_health_care }
 	}
+	else_if = {
+		limit = { has_idea = free_checkups }
+		set_variable = { healthcare_expense = var:healthcare_expense_free_checkups }
+	}
+	else_if = {
+		limit = { has_idea = free_emergencies_only }
+		set_variable = { healthcare_expense = var:healthcare_expense_free_emergencies_only }
+	}
+	round_variable = healthcare_expense
+	add_to_variable = { expense = var:healthcare_expense }
 
+	set_variable = { social_security_expense_show = THIS.max_manpower_k }
+	divide_variable = { social_security_expense_show = 85 }
+	round_variable = social_security_expense_show
+	set_variable = { social_security_expense = 0 }
+	set_variable = { social_security_expense_welfare_state = var:social_security_expense_show }
+	multiply_variable = { social_security_expense_welfare_state = 10.0 }
+	set_variable = { social_security_expense_old_age_benefits = var:social_security_expense_show }
+	multiply_variable = { social_security_expense_old_age_benefits = 7.0 }
+	set_variable = { social_security_expense_veteran_benefits = var:social_security_expense_show }
+	multiply_variable = { social_security_expense_veteran_benefits = 2.5 }
 	if = {
-		limit = {
-			#check_variable = { #This prevents the integer limit being beaten
-			#	var = cash
-			#	value > -1800000000
-			#}
-		}
-
-		###################
-		### HEALTH CARE ###
-		###################
-
-		set_variable = {
-			var = healthcare_expense_show
-			value = ROOT.max_manpower_k
-		}
-		divide_variable = {
-			var = healthcare_expense_show
-			value = 144
-		}
-		round_variable = healthcare_expense_show
-
-		set_variable = {
-			var = healthcare_expense_universal_health_care
-			value = var:healthcare_expense_show
-		}
-		multiply_variable = {
-			var = healthcare_expense_universal_health_care
-			value = 6.5
-		}
-
-		set_variable = {
-			var = healthcare_expense_free_checkups
-			value = var:healthcare_expense_show
-		}
-		multiply_variable = {
-			var = healthcare_expense_free_checkups
-			value = 4.5
-		}
-
-		set_variable = {
-			var = healthcare_expense_free_emergencies_only
-			value = var:healthcare_expense_show
-		}
-		multiply_variable = {
-			var = healthcare_expense_free_emergencies_only
-			value = 1.85
-		}
-
-		set_variable = {
-			var = healthcare_expense
-			value = var:healthcare_expense_show
-		}
-		if = {
-			limit = {
-				has_idea = universal_health_care
-			}
-			multiply_variable = {
-				var = healthcare_expense
-				value = 6.5
-			}
-			else_if = {
-				limit = {
-					has_idea = free_checkups
-				}
-				multiply_variable = {
-					var = healthcare_expense
-					value = 4.5
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = free_emergencies_only
-				}
-				multiply_variable = {
-					var = healthcare_expense
-					value = 1.85
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = private_healthcare
-				}
-				multiply_variable = {
-					var = healthcare_expense
-					value = 0
-				}
-			}
-		}
-		round_variable = healthcare_expense
-		if = {
-			limit = {
-				has_global_flag = add_remove_cash_flag
-			}
-			subtract_from_variable = {
-				var = cash
-				value = var:healthcare_expense
-			}
-		}
-		add_to_variable = {
-			var = expense
-			value = var:healthcare_expense
-		}
-
-		#######################
-		### SOCIAL SECURITY ###
-		#######################
-
-		set_variable = {
-			var = social_security_expense_show
-			value = ROOT.max_manpower_k
-		}
-		divide_variable = {
-			var = social_security_expense_show
-			value = 85
-		}
-		round_variable = social_security_expense_show
-
-		set_variable = {
-			var = social_security_expense_welfare_state
-			value = var:social_security_expense_show
-		}
-		multiply_variable = {
-			var = social_security_expense_welfare_state
-			value = 10.0
-		}
-
-		set_variable = {
-			var = social_security_expense_old_age_benefits
-			value = var:social_security_expense_show
-		}
-		multiply_variable = {
-			var = social_security_expense_old_age_benefits
-			value = 7.0
-		}
-
-		set_variable = {
-			var = social_security_expense_veteran_benefits
-			value = var:social_security_expense_show
-		}
-		multiply_variable = {
-			var = social_security_expense_veteran_benefits
-			value = 2.5
-		}
-
-		set_variable = {
-			var = social_security_expense
-			value = var:social_security_expense_show
-		}
-		if = {
-			limit = {
-				has_idea = welfare_state
-			}
-			multiply_variable = {
-				var = social_security_expense
-				value = 10.0
-			}
-			else_if = {
-				limit = {
-					has_idea = old_age_benefits
-				}
-				multiply_variable = {
-					var = social_security_expense
-					value = 7.0
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = veteran_benefits
-				}
-				multiply_variable = {
-					var = social_security_expense
-					value = 2.5
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = no_social_security
-				}
-				multiply_variable = {
-					var = social_security_expense
-					value = 0
-				}
-			}
-		}
-		round_variable = social_security_expense
-		if = {
-			limit = {
-				has_global_flag = add_remove_cash_flag
-			}
-			subtract_from_variable = {
-				var = cash
-				value = var:social_security_expense
-			}
-		}
-		add_to_variable = {
-			var = expense
-			value = var:social_security_expense
-		}
-
-		#################
-		### EDUCATION ###
-		#################
-
-		set_variable = {
-			var = education_expense_show
-			value = ROOT.max_manpower_k
-		}
-		divide_variable = {
-			var = education_expense_show
-			value = 500
-		}
-		round_variable = education_expense_show
-
-		set_variable = {
-			var = education_expense_free_universities
-			value = var:education_expense_show
-		}
-		multiply_variable = {
-			var = education_expense_free_universities
-			value = 5.0
-		}
-
-		set_variable = {
-			var = education_expense_free_high_schools
-			value = var:education_expense_show
-		}
-		multiply_variable = {
-			var = education_expense_free_high_schools
-			value = 4.5
-		}
-
-		set_variable = {
-			var = education_expense_free_elementary_and_middle_schools
-			value = var:education_expense_show
-		}
-		multiply_variable = {
-			var = education_expense_free_elementary_and_middle_schools
-			value = 3.0
-		}
-
-		set_variable = {
-			var = education_expense
-			value = var:education_expense_show
-		}
-		if = {
-			limit = {
-				has_idea = free_universities
-			}
-			multiply_variable = {
-				var = education_expense
-				value = 5.0
-			}
-			else_if = {
-				limit = {
-					has_idea = free_high_schools
-				}
-				multiply_variable = {
-					var = education_expense
-					value = 4.5
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = free_elementary_and_middle_schools
-				}
-				multiply_variable = {
-					var = education_expense
-					value = 3.0
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = private_education
-				}
-				multiply_variable = {
-					var = education_expense
-					value = 0
-				}
-			}
-		}
-		round_variable = education_expense
-		if = {
-			limit = {
-				has_global_flag = add_remove_cash_flag
-			}
-			subtract_from_variable = {
-				var = cash
-				value = var:education_expense
-			}
-		}
-		add_to_variable = {
-			var = expense
-			value = var:education_expense
-		}
-
-		################
-		### POLICING ###
-		################
-
-		set_variable = {
-			var = policing_expense_show
-			value = ROOT.max_manpower_k
-		}
-		divide_variable = {
-			var = policing_expense_show
-			value = 700
-		}
-		round_variable = policing_expense_show
-
-		set_variable = {
-			var = policing_expense_police_state
-			value = var:policing_expense_show
-		}
-		multiply_variable = {
-			var = policing_expense_police_state
-			value = 5.0
-		}
-
-		set_variable = {
-			var = policing_expense_militarized_police
-			value = var:policing_expense_show
-		}
-		multiply_variable = {
-			var = policing_expense_militarized_police
-			value = 2.5
-		}
-
-		set_variable = {
-			var = policing_expense_regular_policing
-			value = var:policing_expense_show
-		}
-		multiply_variable = {
-			var = policing_expense_regular_policing
-			value = 1.0
-		}
-
-		set_variable = {
-			var = policing_expense
-			value = var:policing_expense_show
-		}
-		if = {
-			limit = {
-				has_idea = police_state
-			}
-			multiply_variable = {
-				var = policing_expense
-				value = 5.0
-			}
-			else_if = {
-				limit = {
-					has_idea = militarized_police
-				}
-				multiply_variable = {
-					var = policing_expense
-					value = 2.5
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = regular_policing
-				}
-				multiply_variable = {
-					var = policing_expense
-					value = 1.0
-				}
-			}
-			else_if = {
-				limit = {
-					has_idea = fuck_tha_police
-				}
-				multiply_variable = {
-					var = policing_expense
-					value = 0
-				}
-			}
-		}
-		round_variable = policing_expense
-		if = {
-			limit = {
-				has_global_flag = add_remove_cash_flag
-			}
-			subtract_from_variable = {
-				var = cash
-				value = var:policing_expense
-			}
-		}
-		add_to_variable = {
-			var = expense
-			value = var:policing_expense
-		}
+		limit = { has_idea = welfare_state }
+		set_variable = { social_security_expense = var:social_security_expense_welfare_state }
 	}
-
-	multiply_variable = {
-		var = cash
-		value = 10
+	else_if = {
+		limit = { has_idea = old_age_benefits }
+		set_variable = { social_security_expense = var:social_security_expense_old_age_benefits }
 	}
-	round_variable = cash
-	divide_variable = {
-		var = cash
-		value = 10
+	else_if = {
+		limit = { has_idea = veteran_benefits }
+		set_variable = { social_security_expense = var:social_security_expense_veteran_benefits }
 	}
+	round_variable = social_security_expense
+	add_to_variable = { expense = var:social_security_expense }
 
+	set_variable = { education_expense_show = THIS.max_manpower_k }
+	divide_variable = { education_expense_show = 500 }
+	round_variable = education_expense_show
+	set_variable = { education_expense = 0 }
+	set_variable = { education_expense_free_universities = var:education_expense_show }
+	multiply_variable = { education_expense_free_universities = 5.0 }
+	set_variable = { education_expense_free_high_schools = var:education_expense_show }
+	multiply_variable = { education_expense_free_high_schools = 4.5 }
+	set_variable = { education_expense_free_elementary_and_middle_schools = var:education_expense_show }
+	multiply_variable = { education_expense_free_elementary_and_middle_schools = 3.0 }
+	if = {
+		limit = { has_idea = free_universities }
+		set_variable = { education_expense = var:education_expense_free_universities }
+	}
+	else_if = {
+		limit = { has_idea = free_high_schools }
+		set_variable = { education_expense = var:education_expense_free_high_schools }
+	}
+	else_if = {
+		limit = { has_idea = free_elementary_and_middle_schools }
+		set_variable = { education_expense = var:education_expense_free_elementary_and_middle_schools }
+	}
+	round_variable = education_expense
+	add_to_variable = { expense = var:education_expense }
+
+	set_variable = { policing_expense_show = THIS.max_manpower_k }
+	divide_variable = { policing_expense_show = 700 }
+	round_variable = policing_expense_show
+	set_variable = { policing_expense = 0 }
+	set_variable = { policing_expense_police_state = var:policing_expense_show }
+	multiply_variable = { policing_expense_police_state = 5.0 }
+	set_variable = { policing_expense_militarized_police = var:policing_expense_show }
+	multiply_variable = { policing_expense_militarized_police = 2.5 }
+	set_variable = { policing_expense_regular_policing = var:policing_expense_show }
+	multiply_variable = { policing_expense_regular_policing = 1.0 }
+	if = {
+		limit = { has_idea = police_state }
+		set_variable = { policing_expense = var:policing_expense_police_state }
+	}
+	else_if = {
+		limit = { has_idea = militarized_police }
+		set_variable = { policing_expense = var:policing_expense_militarized_police }
+	}
+	else_if = {
+		limit = { has_idea = regular_policing }
+		set_variable = { policing_expense = var:policing_expense_regular_policing }
+	}
+	round_variable = policing_expense
+	add_to_variable = { expense = var:policing_expense }
 }

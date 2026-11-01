@@ -5,9 +5,7 @@ special_forces_quantity = {
 	description = GRAND_DOCTRINE_SPECIAL_FORCES_QUANTITY_DESC
 	icon = GFX_doctrine_special_forces_1_medium
 	available = {
-		OR = {
-
-		}
+		has_tech = tech_special_forces
 	}
 
 	xp_cost = 60
@@ -76,9 +74,7 @@ special_forces_quality = {
 	description = GRAND_DOCTRINE_SPECIAL_FORCES_QUALITY_DESC
 	icon = GFX_doctrine_special_forces_2_medium
 	available = {
-		OR = {
-
-		}
+		has_tech = tech_special_forces
 	}
 
 	xp_cost = 60

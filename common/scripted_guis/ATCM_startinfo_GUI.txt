@@ -4,7 +4,7 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = top_bar
 		window_name = "Start_gui"
-		dirty = show_startgui
+		dirty = startgui_dirty
 
 		visible = {
 			has_country_flag = StartguiOpen
@@ -21,6 +21,7 @@ scripted_gui = {
 		
 		effects = {
 			close_startgui_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_variable = {
 					var = show_startgui
 					value = 1
@@ -28,6 +29,7 @@ scripted_gui = {
 			}
 
 			play_startgui_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_variable = {
 					var = show_startgui
 					value = 1
@@ -35,10 +37,12 @@ scripted_gui = {
 			}
 
 			startgui_infocountry_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_country_flag = open_country_info
 			}
 
 			startgui_modinfo_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_country_flag = open_information_mod
 			}
 		}
@@ -54,10 +58,9 @@ scripted_gui = {
 
 	Start_gui_country_info = {
 		context_type = player_context
-		parent_window_token = Start_gui
+		parent_window_token = top_bar
 		window_name = "Start_gui_country_info"
-		parent_window_name = Start_gui
-		dirty = show_startgui
+		dirty = startgui_dirty
 
 		visible = {
 			NOT = {
@@ -73,6 +76,7 @@ scripted_gui = {
 		
 		effects = {
 			close_startgui_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_variable = {
 					var = show_startgui
 					value = 1
@@ -80,6 +84,7 @@ scripted_gui = {
 			}
 
 			startgui_modinfo_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_country_flag = open_information_mod
 				clr_country_flag = open_country_info
 			}
@@ -103,8 +108,7 @@ scripted_gui = {
 		context_type = player_context
 		parent_window_token = top_bar
 		window_name = "Start_gui_mod_info"
-		parent_window_name = Start_gui
-		dirty = show_startgui
+		dirty = startgui_dirty
 
 		visible = {
 			NOT = {
@@ -120,6 +124,7 @@ scripted_gui = {
 		effects = {
 			
 			close_startgui_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_variable = {
 					var = show_startgui
 					value = 1
@@ -127,6 +132,7 @@ scripted_gui = {
 			}
 
 			startgui_infocountry_button_click = {
+				add_to_variable = { startgui_dirty = 1 }
 				set_country_flag = open_country_info
 				clr_country_flag = open_information_mod
 			}

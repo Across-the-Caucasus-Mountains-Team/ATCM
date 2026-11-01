@@ -1,6 +1,3 @@
-﻿# ATCM: vanilla-only historical geography, tags and political event triggers removed.
-# Reusable mechanics retained; dependencies from common checked.
-
 can_ROOT_get_wargoal_on_THIS = {
 	exists = yes
 	NOT = { is_in_faction_with = ROOT }
@@ -611,4 +608,8 @@ is_allied_seller_trigger = {
 		tooltip = subsidy_allied_nation_tt
 		FROM = { is_in_faction_with = ROOT }
 	}
+}
+
+can_unlock_second_track_of_sf_doctrine = {
+	has_dlc = "Arms Against Tyranny"
 }

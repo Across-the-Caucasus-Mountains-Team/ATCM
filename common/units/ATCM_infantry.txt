@@ -699,7 +699,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_infantry_and_bicycle
-		}
+		 category_rangers }
 
 		combat_width = 2
 		max_strength = 55

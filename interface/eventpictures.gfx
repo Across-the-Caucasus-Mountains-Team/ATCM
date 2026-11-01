@@ -484,10 +484,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Report_event_CHE_russian_troops_in_buddenovsk.png"
 	}
 
-	spriteType = {
-		name = "GFX_Report_event_CHE_russian_troops_in_buddenovsk"
-		texturefile = "gfx/event_pictures/Report_event_CHE_russian_troops_in_buddenovsk.png"
-	}
+
 
 	spriteType = {
 		name = "GFX_Report_event_CHE_russian_spetsnaz"

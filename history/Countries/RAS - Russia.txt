@@ -2,7 +2,7 @@ capital = 7
 
 set_research_slots = 3
 
-load_oob = RAS_1991
+oob = "RAS_1991"
 
 set_country_flag = StartguiOpen
 
@@ -47,9 +47,6 @@ add_to_variable = {
 	motorised_infantry = 1
 	paratroopers = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -108,7 +105,6 @@ add_to_variable = {
 		RAS_big_criminality
 		RAS_resources_beyond_caucasus
 		RAS_plundered_army
-		RAS_hyperinflation
 	}
 }
 
@@ -136,7 +132,6 @@ recruit_character = RAS_Alexander_Rutskoy
 recruit_character = RAS_Yegor_Gaidar
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	extensive_conscription
@@ -147,39 +142,39 @@ add_ideas = {
 1991.1.1 = {
 	set_autonomy = {
 		target = DAG
-		autonomous_state = soviet_republic
+		autonomy_state = soviet_republic
 	}
 	set_autonomy = {
 		target = SAK
-		autonomous_state = soviet_republic
+		autonomy_state = soviet_republic
 	}
 	set_autonomy = {
 		target = ARM
-		autonomous_state = soviet_republic
+		autonomy_state = soviet_republic
 	}
 	set_autonomy = {
 		target = AZR
-		autonomous_state = soviet_republic
+		autonomy_state = soviet_republic
 	}
 	set_autonomy = {
 		target = ARS
-		autonomous_state = soviet_republic
+		autonomy_state = soviet_republic
 	}
 	set_autonomy = {
 		target = CHE
-		autonomous_state = soviet_republic
+		autonomy_state = soviet_republic
 	}
 }
 
 
-1991.28.11 = {
+1991.11.28 = {
 	end_puppet = DAG
 }
 
-1991.29.11 = {
+1991.11.29 = {
 	set_autonomy = {
 		target = DAG
-		autonomous_state = autonomy_special_autonomous_republic
+		autonomy_state = autonomy_special_autonomous_republic
 	}
 }
 
@@ -195,98 +190,98 @@ add_ideas = {
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 	oob = "RAS_1996"
-	has_focus = RAS_second_presidency_of_eltsin
-	has_focus = RAS_continue_economic_reforms
-	has_focus = RAS_form_a_new_government
-	has_focus = RAS_series_of_military_reforms
-	has_focus = RAS_combat_military_disloyalty
-	has_focus = RAS_lessons_of_the_first_chechen_war
-	has_focus = RAS_measures_to_ensure_military_construction
-	has_focus = RAS_new_minister_of_defense
-	has_focus = RAS_optimization_of_expenses_in_the_armed_forces
-	has_focus = RAS_optimization_of_expenses_in_the_aviation
-	has_focus = RAS_optimization_of_expenses_in_the_navy_fleet
-	has_focus = RAS_sign_peace_agreement_with_chechnya
-	has_focus = RAS_presidency_of_eltsin
-	has_focus = RAS_intervantions
-	has_focus = RAS_failed_blitz
-	has_focus = RAS_attack_grozny
-	has_focus = RAS_move_south_chechnya
-	has_focus = RAS_conduct_mountain_cleanups
-	has_focus = RAS_the_war_dragged_on
-	has_focus = RAS_information_war
-	has_focus = RAS_demonization_of_chechen_soldiers
-	has_focus = RAS_conceal_war_crimes
-	has_focus = RAS_chehcnya_is_terrorist_state
-	has_focus = RAS_chehcnya_is_our_historical_state
-	has_focus = RAS_humanitarion_help
-	has_focus = RAS_start_negotiation_processes
-	has_focus = RAS_yes_to_peace
-	has_focus = RAS_operations_of_our_special_services
-	has_focus = RAS_fsb_and_gru_cooperation
-	has_focus = RAS_strengthen_awacs_reconnaissance
-	has_focus = RAS_strengthen_the_border_with_chechnya
-	has_focus = RAS_conduct_cleanups_against_insurgency
-	has_focus = RAS_liquidation_of_the_main_terrorist
-	has_focus = RAS_reorganize_our_frontline
-	has_focus = RAS_call_for_air_strikes
-	has_focus = RAS_call_for_reinforcements
-	has_focus = RAS_bring_in_new_armour
-	has_focus = RAS_additional_special_forces
-	has_focus = RAS_additional_infantry_battalions
-	has_focus = RAS_additional_shipments_to_the_cto_zone
-	has_focus = RAS_emergency_powers
-	has_focus = RAS_updated_federal_treaty
-	has_focus = RAS_the_seventh_congress_of_deputies
-	has_focus = RAS_resignation_of_gaidar
-	has_focus = RAS_maintain_yeltsins_image
-	has_focus = RAS_leave_gaidar
-	has_focus = RAS_discrediting_parliament
-	has_focus = RAS_the_eighth_congress_of_deputies
-	has_focus = RAS_black_october
-	has_focus = RAS_parliamentary_resistance
-	has_focus = RAS_eltsin_resignation
-	has_focus = RAS_purge_yeltsin_administration
-	has_focus = RAS_can_we_build_democracy
-	has_focus = RAS_supporty_eltcin
-	has_focus = RAS_declare_emergency_state
-	has_focus = RAS_accept_new_constitution
-	has_focus = RAS_new_elections
-	has_focus = RAS_dissolve_the_duma
-	has_focus = RAS_conduct_elections_fairly
-	has_focus = RAS_propaganda_against_opponents
-	has_focus = RAS_use_administrative_resource
-	has_focus = RAS_use_oligarchs_money_for_election_campaign
-	has_focus = RAS_sign_populist_decrees
-	has_focus = RAS_victory
-	has_focus = RAS_deal_with_debt
-	has_focus = RAS_new_forgein_politic
-	has_focus = RAS_sign_snv
-	has_focus = RAS_return_influence_on_postsoviet_area
-	has_focus = RAS_georgia_civil_war
-	has_focus = RAS_abkhazia_war
-	has_focus = RAS_south_ossetia_war
-	has_focus = RAS_crush_zviadists
-	has_focus = RAS_support_transnistria
-	has_focus = RAS_support_chechen_opposition
-	has_focus = RAS_transport_troops_to_the_chehcen_border
-	has_focus = RAS_additional_aviation
-	has_focus = RAS_send_an_ultimatum_to_dudayev
-	has_focus = RAS_shell_chechnya
-	has_focus = RAS_blitz_chechnya
-	has_focus = RAS_call_for_omon
-	has_focus = RAS_save_the_russian_economy
-	has_focus = RAS_shock_economic_reforms
-	has_focus = RAS_voucher_privatization
-	has_focus = RAS_decree_on_price_liberalization
-	has_focus = RAS_free_trade_decree
-	has_focus = RAS_reduction_of_government_spending
-	has_focus = RAS_on_the_progress_of_economic_reforms
-	has_focus = RAS_collateral_auction_program
-	has_focus = RAS_central_bank_tough_policy
-	has_focus = RAS_support_south_russian_economy
-	has_focus = RAS_expand_factories_in_krasondar
-	has_focus = RAS_support_dagestani_industry
+	unlock_national_focus = RAS_second_presidency_of_eltsin
+	unlock_national_focus = RAS_continue_economic_reforms
+	unlock_national_focus = RAS_form_a_new_government
+	unlock_national_focus = RAS_series_of_military_reforms
+	unlock_national_focus = RAS_combat_military_disloyalty
+	unlock_national_focus = RAS_lessons_of_the_first_chechen_war
+	unlock_national_focus = RAS_measures_to_ensure_military_construction
+	unlock_national_focus = RAS_new_minister_of_defense
+	unlock_national_focus = RAS_optimization_of_expenses_in_the_armed_forces
+	unlock_national_focus = RAS_optimization_of_expenses_in_the_aviation
+	unlock_national_focus = RAS_optimization_of_expenses_in_the_navy_fleet
+	unlock_national_focus = RAS_sign_peace_agreement_with_chechnya
+	unlock_national_focus = RAS_presidency_of_eltsin
+	unlock_national_focus = RAS_intervantions
+	unlock_national_focus = RAS_failed_blitz
+	unlock_national_focus = RAS_attack_grozny
+	unlock_national_focus = RAS_move_south_chechnya
+	unlock_national_focus = RAS_conduct_mountain_cleanups
+	unlock_national_focus = RAS_the_war_dragged_on
+	unlock_national_focus = RAS_information_war
+	unlock_national_focus = RAS_demonization_of_chechen_soldiers
+	unlock_national_focus = RAS_conceal_war_crimes
+	unlock_national_focus = RAS_chehcnya_is_terrorist_state
+	unlock_national_focus = RAS_chehcnya_is_our_historical_state
+	unlock_national_focus = RAS_humanitarion_help
+	unlock_national_focus = RAS_start_negotiation_processes
+	unlock_national_focus = RAS_yes_to_peace
+	unlock_national_focus = RAS_operations_of_our_special_services
+	unlock_national_focus = RAS_fsb_and_gru_cooperation
+	unlock_national_focus = RAS_strengthen_awacs_reconnaissance
+	unlock_national_focus = RAS_strengthen_the_border_with_chechnya
+	unlock_national_focus = RAS_conduct_cleanups_against_insurgency
+	unlock_national_focus = RAS_liquidation_of_the_main_terrorist
+	unlock_national_focus = RAS_reorganize_our_frontline
+	unlock_national_focus = RAS_call_for_air_strikes
+	unlock_national_focus = RAS_call_for_reinforcements
+	unlock_national_focus = RAS_bring_in_new_armour
+	unlock_national_focus = RAS_additional_special_forces
+	unlock_national_focus = RAS_additional_infantry_battalions
+	unlock_national_focus = RAS_additional_shipments_to_the_cto_zone
+	unlock_national_focus = RAS_emergency_powers
+	unlock_national_focus = RAS_updated_federal_treaty
+	unlock_national_focus = RAS_the_seventh_congress_of_deputies
+	unlock_national_focus = RAS_resignation_of_gaidar
+	unlock_national_focus = RAS_maintain_yeltsins_image
+	unlock_national_focus = RAS_leave_gaidar
+	unlock_national_focus = RAS_discrediting_parliament
+	unlock_national_focus = RAS_the_eighth_congress_of_deputies
+	unlock_national_focus = RAS_black_october
+	unlock_national_focus = RAS_parliamentary_resistance
+	unlock_national_focus = RAS_eltsin_resignation
+	unlock_national_focus = RAS_purge_yeltsin_administration
+	unlock_national_focus = RAS_can_we_build_democracy
+	unlock_national_focus = RAS_supporty_eltcin
+	unlock_national_focus = RAS_declare_emergency_state
+	unlock_national_focus = RAS_accept_new_constitution
+	unlock_national_focus = RAS_new_elections
+	unlock_national_focus = RAS_dissolve_the_duma
+	unlock_national_focus = RAS_conduct_elections_fairly
+	unlock_national_focus = RAS_propaganda_against_opponents
+	unlock_national_focus = RAS_use_administrative_resource
+	unlock_national_focus = RAS_use_oligarchs_money_for_election_campaign
+	unlock_national_focus = RAS_sign_populist_decrees
+	unlock_national_focus = RAS_victory
+	unlock_national_focus = RAS_deal_with_debt
+	unlock_national_focus = RAS_new_forgein_politic
+	unlock_national_focus = RAS_sign_snv
+	unlock_national_focus = RAS_return_influence_on_postsoviet_area
+	unlock_national_focus = RAS_georgia_civil_war
+	unlock_national_focus = RAS_abkhazia_war
+	unlock_national_focus = RAS_south_ossetia_war
+	unlock_national_focus = RAS_crush_zviadists
+	unlock_national_focus = RAS_support_transnistria
+	unlock_national_focus = RAS_support_chechen_opposition
+	unlock_national_focus = RAS_transport_troops_to_the_chehcen_border
+	unlock_national_focus = RAS_additional_aviation
+	unlock_national_focus = RAS_send_an_ultimatum_to_dudayev
+	unlock_national_focus = RAS_shell_chechnya
+	unlock_national_focus = RAS_blitz_chechnya
+	unlock_national_focus = RAS_call_for_omon
+	unlock_national_focus = RAS_save_the_russian_economy
+	unlock_national_focus = RAS_shock_economic_reforms
+	unlock_national_focus = RAS_voucher_privatization
+	unlock_national_focus = RAS_decree_on_price_liberalization
+	unlock_national_focus = RAS_free_trade_decree
+	unlock_national_focus = RAS_reduction_of_government_spending
+	unlock_national_focus = RAS_on_the_progress_of_economic_reforms
+	unlock_national_focus = RAS_collateral_auction_program
+	unlock_national_focus = RAS_central_bank_tough_policy
+	unlock_national_focus = RAS_support_south_russian_economy
+	unlock_national_focus = RAS_expand_factories_in_krasondar
+	unlock_national_focus = RAS_support_dagestani_industry
 	set_province_controller = 639
 	set_province_controller = 1224
 	set_province_controller = 1479
@@ -379,3 +374,4 @@ add_ideas = {
 	}
 }
 
+ATCM_economy_setup = yes

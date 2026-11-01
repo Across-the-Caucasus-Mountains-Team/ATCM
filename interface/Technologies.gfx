@@ -3979,10 +3979,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/uniform_equipment_0.png"
 	}
 
-	SpriteType = {
-		name = "GFX_archetype_uniform_equipment_medium"
-		texturefile = "gfx/interface/technologies/uniform_equipment_0.png"
-	}
+
 
 	SpriteType = {
 		name = "GFX_archetype_bulletproof_vests_equipment_medium"
@@ -4377,20 +4374,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_modern_tank2.png"
 	}
 
-	SpriteType = {
-		name = "GFX_modern_tank_3_medium"
-		texturefile = "gfx/interface/technologies/generic_modern_tank3.png"
-	}
 
-	SpriteType = {
-		name = "GFX_modern_tank_4_medium"
-		texturefile = "gfx/interface/technologies/generic_modern_tank4.png"
-	}
 
-	SpriteType = {
-		name = "GFX_modern_tank_5_medium"
-		texturefile = "gfx/interface/technologies/generic_modern_tank5.png"
-	}
+
+
+
 
 	SpriteType = {
 		name = "GFX_modern_tank_equipment_1_medium"

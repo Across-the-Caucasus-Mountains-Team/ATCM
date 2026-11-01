@@ -59,43 +59,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RAS_continue_economic_reforms
-		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { focus = RAS_sign_peace_agreement_with_chechnya }
-		x = -2
-		y = 1
-		relative_position_id = RAS_sign_peace_agreement_with_chechnya
-
-		cost = 25
-
-		ai_will_do = {
-			base = 5
-			factor = 100
-		}
-
-		available = {
-		
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_stability = 0.025
-			add_political_power = 25
-		}
-	}
-
-	focus = {
 		id = RAS_form_a_new_government
 		icon = GFX_focus_generic_modernize_industry
 		prerequisite = { focus = RAS_second_presidency_of_eltsin }
@@ -128,83 +91,6 @@ focus_tree = {
 
 		completion_reward = {
 		   add_political_power = 25
-		}
-	}
-
-	focus = {
-		id = RAS_series_of_military_reforms
-		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { focus = RAS_sign_peace_agreement_with_chechnya }
-		x = 2
-		y = 1
-		relative_position_id = RAS_sign_peace_agreement_with_chechnya
-
-		cost = 25
-
-		ai_will_do = {
-			base = 5
-			factor = 100
-		}
-
-		available = {
-		
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_war_support = 0.025
-			army_experience = 50
-			hidden_effect = {
-				mark_focus_tree_layout_dirty = yes
-			}
-		}
-	}
-
-	focus = {
-		id = RAS_combat_military_disloyalty
-		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { focus = RAS_continue_economic_reforms }
-		prerequisite = { focus = RAS_series_of_military_reforms }
-		x = 0
-		y = 2
-		relative_position_id = RAS_sign_peace_agreement_with_chechnya
-
-		cost = 25
-
-		ai_will_do = {
-			base = 5
-			factor = 100
-		}
-
-		available = {
-		
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			army_experience = 50
 		}
 	}
 
@@ -466,6 +352,120 @@ focus_tree = {
 			add_war_support = -0.075
 		}
 	}
+
+	focus = {
+		id = RAS_continue_economic_reforms
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_sign_peace_agreement_with_chechnya }
+		x = -2
+		y = 1
+		relative_position_id = RAS_sign_peace_agreement_with_chechnya
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.025
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = RAS_series_of_military_reforms
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_sign_peace_agreement_with_chechnya }
+		x = 2
+		y = 1
+		relative_position_id = RAS_sign_peace_agreement_with_chechnya
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.025
+			army_experience = 50
+			hidden_effect = {
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+
+	focus = {
+		id = RAS_combat_military_disloyalty
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_continue_economic_reforms }
+		prerequisite = { focus = RAS_series_of_military_reforms }
+		x = 0
+		y = 2
+		relative_position_id = RAS_sign_peace_agreement_with_chechnya
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+		
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 50
+		}
+	}
 	
 	focus = {
 		id = RAS_presidency_of_eltsin
@@ -516,44 +516,6 @@ focus_tree = {
 					days = 612
 				}
 			}
-		}
-	}
-
-	focus = { 
-		id = RAS_intervantions
-		icon = GFX_RAS_Intervantion
-		prerequisite = { focus = RAS_return_influence_on_postsoviet_area }
-		prerequisite = { focus = RAS_sign_snv }
-		relative_position_id = RAS_new_forgein_politic
-		x = 0
-		y = 2
-
-		cost = 15
-
-		ai_will_do = {
-			base = 5
-			factor = 100
-		}
-
-		available = {
-			has_completed_focus = RAS_emergency_powers
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_war_support = 0.05
-			add_political_power = 25
 		}
 	}
 
@@ -2931,44 +2893,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = RAS_deal_with_debt
-		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { focus = RAS_save_the_russian_economy }
-		x = 2
-		y = 1
-		relative_position_id = RAS_save_the_russian_economy
-
-		cost = 40
-
-		ai_will_do = {
-			base = 5
-			factor = 100
-		}
-
-		available = {
-		
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_stability = 0.075
-			add_political_power = -250
-			remove_ideas = RAS_large_external_debt
-		}
-	}
-
-	focus = {
 		id = RAS_new_forgein_politic
 		icon = GFX_RAS_new_forigne_policy
 		x = 23
@@ -3000,6 +2924,44 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.05
 			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = RAS_intervantions
+		icon = GFX_RAS_Intervantion
+		prerequisite = { focus = RAS_return_influence_on_postsoviet_area }
+		prerequisite = { focus = RAS_sign_snv }
+		relative_position_id = RAS_new_forgein_politic
+		x = 0
+		y = 2
+
+		cost = 15
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+			has_completed_focus = RAS_emergency_powers
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 25
 		}
 	}
 
@@ -3668,7 +3630,7 @@ focus_tree = {
 			hidden_effect = {
 				set_global_flag = FirstChechenWar
 				CHE = {
-					country_event = { id = Chechnya.6 }
+					country_event = { id = chechnya.6 }
 				}
 				country_event = superevent.4
 				if = {
@@ -3894,6 +3856,44 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = RAS_deal_with_debt
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = RAS_save_the_russian_economy }
+		x = 2
+		y = 1
+		relative_position_id = RAS_save_the_russian_economy
+
+		cost = 40
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.075
+			add_political_power = -250
+			remove_ideas = RAS_large_external_debt
 		}
 	}
 

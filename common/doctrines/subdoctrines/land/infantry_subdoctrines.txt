@@ -65,7 +65,7 @@ mobile_infantry = {
 				max_organisation = 10
 				maximum_speed = 0.2
 			}
-			mot_fire_support = {
+			mot_artillery_brigade = {
 				max_organisation = 5				
 				soft_attack = 0.1
 			}
@@ -102,7 +102,7 @@ defensive_postures = {
 	rewards = {
 		improvised_fighting_position = {
 			dig_in_speed_factor = 0.05
-			fire_support = {
+			artillery_brigade = {
 				supply_consumption = -0.01	
 				soft_attack = 0.2			
 			}

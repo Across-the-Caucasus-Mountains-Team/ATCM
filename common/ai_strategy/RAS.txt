@@ -54,7 +54,7 @@ RAS_inter_war = {
 	
 	ai_strategy = {
 		type = prepare_for_war
-		tag = CHE
+		id = CHE
 		value = 250
 	}
 }

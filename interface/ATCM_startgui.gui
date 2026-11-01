@@ -82,7 +82,7 @@ guiTypes = {
 		iconType = {
 			name = "startgui_developers_background"
 			position = { x = 455 y = 155 }
-			multiline = yes
+
 			spriteType = "GFX_Startgui_developers_background"
 			alwaystransparent = yes
 		}
@@ -152,7 +152,7 @@ guiTypes = {
 		iconType = {
 			name = "startgui_country_background"
 			position = { x = 455 y = 155 }
-			multiline = yes
+
 			spriteType = "GFX_Startgui_close_btn"
 			alwaystransparent = yes
 		}
@@ -162,7 +162,7 @@ guiTypes = {
 			spriteType = "GFX_Startgui_close_btn"
 			position = { x = 155 y = 311 }
 			scale = 1
-			multiline = yes
+
 		}
 
 		instantTextBoxType = {

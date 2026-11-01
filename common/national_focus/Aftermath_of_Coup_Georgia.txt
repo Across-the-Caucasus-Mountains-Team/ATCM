@@ -512,41 +512,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SAK_Start_military_Reform
-		icon = GFX_Goal_SAK_Reform_The_Military
-		x = -2
-		y = 3
-		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
-		prerequisite = { focus = SAK_Fight_back_Zviadists_Resistance }
-		prerequisite = { focus = SAK_Adjara_Autonomy_Question }
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { }
-
-		completion_reward = {
-			add_war_support = 0.025
-			army_experience = 25
-		}
-	}
-
-	focus = {
 		id = SAK_The_Large_Speech
 		icon = GFX_Goal_SAK_Large_Speech
 		x = 0
@@ -647,6 +612,41 @@ focus_tree = {
 			add_political_power = 95
 			add_stability = 0.1
 			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = SAK_Start_military_Reform
+		icon = GFX_Goal_SAK_Reform_The_Military
+		x = -2
+		y = 3
+		relative_position_id = SAK_Ensure_Full_Control_on_Parliament
+		prerequisite = { focus = SAK_Fight_back_Zviadists_Resistance }
+		prerequisite = { focus = SAK_Adjara_Autonomy_Question }
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			add_war_support = 0.025
+			army_experience = 25
 		}
 	}
 
@@ -1922,127 +1922,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SAK_Victory
-		icon = GFX_goal_unknown
-		x = -2
-		y = 1
-		relative_position_id = SAK_Total_Air_Supremacy
-		prerequisite = { focus = SAK_Restore_The_Order_once_for_all }
-		prerequisite = { focus = SAK_Total_Air_Supremacy }
-
-		cost = 5
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-			NOT = {
-				country_exists = GOM
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { }
-
-		completion_reward = {
-			add_stability = 0.15
-			add_political_power = 25
-			remove_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
-			hidden_effect = {
-				35 = {
-					set_building_level = {
-						type = bunker
-						level = 0
-						province = {
-							id = 11024
-							id = 2670
-							id = 11032
-							id = 11056
-							id = 11073
-							id = 11085
-							id = 8622
-						}
-						instant_build = yes
-					}
-				}
-				49 = {
-					set_building_level = {
-						type = bunker
-						level = 0
-						province = {
-							id = 5335
-							id = 5365
-							id = 11384
-							id = 7490
-							id = 11401
-							id = 9233
-						}
-						instant_build = yes
-					}
-				}
-				48 = {
-					set_building_level = {
-						type = bunker
-						level = 0
-						province = {
-							id = 2649
-							id = 4518
-							id = 5650
-							id = 5711
-							id = 7668
-							id = 8377
-							id = 11353
-							id = 11357
-							id = 11370
-						}
-						instant_build = yes
-					}
-				}
-				41 = {
-					set_building_level = {
-						type = bunker
-						level = 0
-						province = {
-							id = 7664
-							id = 4545
-							id = 3885
-							id = 6666
-							id = 1359
-							id = 3553
-						}
-						instant_build = yes
-					}
-				}
-				42 = {
-					add_building_construction = {
-						type = bunker
-						level = 0
-						province = {
-							id = 5464
-						}
-						instant_build = yes
-					}
-				}
-				set_country_flag = WonInCivilWar
-				SAK = {
-					delete_unit = {
-						division_template = "Bolo Khazis Militsia" 
-					}
-				}
-
-			}
-		}
-	}
-
-	focus = {
 		id = SAK_Bomb_them_from_Sky
 		icon = GFX_goal_unknown
 		x = 2
@@ -2292,6 +2171,127 @@ focus_tree = {
 		completion_reward = {
 			air_experience = 25
 			add_to_variable = { SAK_wdaf_army_attack_factor = 0.05 }
+		}
+	}
+
+	focus = {
+		id = SAK_Victory
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		relative_position_id = SAK_Total_Air_Supremacy
+		prerequisite = { focus = SAK_Restore_The_Order_once_for_all }
+		prerequisite = { focus = SAK_Total_Air_Supremacy }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			NOT = {
+				country_exists = GOM
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			add_stability = 0.15
+			add_political_power = 25
+			remove_dynamic_modifier = { modifier = SAK_Weak_Georgian_Armed_forces }
+			hidden_effect = {
+				35 = {
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 11024
+							id = 2670
+							id = 11032
+							id = 11056
+							id = 11073
+							id = 11085
+							id = 8622
+						}
+						instant_build = yes
+					}
+				}
+				49 = {
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 5335
+							id = 5365
+							id = 11384
+							id = 7490
+							id = 11401
+							id = 9233
+						}
+						instant_build = yes
+					}
+				}
+				48 = {
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 2649
+							id = 4518
+							id = 5650
+							id = 5711
+							id = 7668
+							id = 8377
+							id = 11353
+							id = 11357
+							id = 11370
+						}
+						instant_build = yes
+					}
+				}
+				41 = {
+					set_building_level = {
+						type = bunker
+						level = 0
+						province = {
+							id = 7664
+							id = 4545
+							id = 3885
+							id = 6666
+							id = 1359
+							id = 3553
+						}
+						instant_build = yes
+					}
+				}
+				42 = {
+					add_building_construction = {
+						type = bunker
+						level = 0
+						province = {
+							id = 5464
+						}
+						instant_build = yes
+					}
+				}
+				set_country_flag = WonInCivilWar
+				SAK = {
+					delete_unit = {
+						division_template = "Bolo Khazis Militsia"
+					}
+				}
+
+			}
 		}
 	}
 

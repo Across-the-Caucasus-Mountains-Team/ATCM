@@ -395,16 +395,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_artillery_rocket_assisted_projectiles_tech
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = sp_artillery_purpose_built_gun_motor_carriages_tech
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1
 
 		start_year = 1960

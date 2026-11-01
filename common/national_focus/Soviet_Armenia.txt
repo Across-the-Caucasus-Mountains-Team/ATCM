@@ -150,7 +150,7 @@ focus_tree = {
 
 	focus = {
 		id = ARM_Promote_Pro_Armenian_Propaganda
-		icon = GFX_Goal_Unknown
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		prerequisite = { focus = ARM_Reach_out_to_the_media }
@@ -186,7 +186,7 @@ focus_tree = {
 
 	focus = {
 		id = ARM_Industrialize_Gegharkunik
-		icon = GFX_Goal_Unknown
+		icon = GFX_goal_unknown
 		x = -1
 		y = 1
 		prerequisite = { focus = ARM_Promote_Pro_Armenian_Propaganda }
@@ -334,7 +334,7 @@ focus_tree = {
 
 	focus = {
 		id = ARM_Discredit_The_USSR
-		icon = GFX_Goal_Unknown
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		relative_position_id = ARM_Gain_International_Support

@@ -17,9 +17,6 @@ set_technology = {
 	motorised_infantry = 1
 	uniform_equipment = 1
 	towed_artillery_1 = 1
-	interwar_antiair = 1
-	mass_assault = 1
-	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
@@ -43,7 +40,6 @@ recruit_character = ABK_provisional_government
 recruit_character = ABK_shamil_basayev
 
 set_variable = { cash = 1 }
-ATCM_economy_setup = yes
 
 add_ideas = {
 	volunteer_only
@@ -53,13 +49,15 @@ add_ideas = {
 
 
 1996.1.1 = {
-	set_completed_focus = ABK_suprise_attack
-	set_completed_focus = ABK_chaotic_retreat_to_gumsta_river
-	set_completed_focus = ABK_militia_in_sukhumi
-	set_completed_focus = ABK_volunteers_from_north_caucasus
-	set_completed_focus = ABK_hold_the_line
-	set_completed_focus = ABK_march_offensive
-	set_completed_focus = ABK_finally_peace
-	set_completed_focus = ABK_international_relations
-	set_completed_focus = ABK_sign_with_baskhortastan_friendship_deal
+	unlock_national_focus = ABK_suprise_attack
+	unlock_national_focus = ABK_chaotic_retreat_to_gumsta_river
+	unlock_national_focus = ABK_militia_in_sukhumi
+	unlock_national_focus = ABK_volunteers_from_north_caucasus
+	unlock_national_focus = ABK_hold_the_line
+	unlock_national_focus = ABK_march_offensive
+	unlock_national_focus = ABK_finally_peace
+	unlock_national_focus = ABK_international_relations
+	unlock_national_focus = ABK_sign_with_baskhortastan_friendship_deal
 }
+
+ATCM_economy_setup = yes

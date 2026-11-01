@@ -1,12 +1,13 @@
 on_actions = {
 	on_monthly = {
 		effect = {
-			###################
-			### THE ECONOMY ###
-			###################
+			# on_monthly already runs in each country's scope. Settle only THIS country.
 			ATCM_economy_setup = yes
-			set_global_flag = add_remove_cash_flag
-
+			add_to_variable = { cash = var:income }
+			subtract_from_variable = { cash = var:expense }
+			multiply_variable = { cash = 10 }
+			round_variable = cash
+			divide_variable = { cash = 10 }
 		}
 	}
 }
