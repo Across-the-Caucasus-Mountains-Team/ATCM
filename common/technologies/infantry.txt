@@ -25,6 +25,8 @@ technologies = {
 		enable_subunits = {
 			infantry
 			special_forces_infantry
+			militia
+			irregular_infantry
 		}
 
 		path = {

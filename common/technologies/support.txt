@@ -500,11 +500,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_armored_motorized_military_police_tech
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.25
 		start_year = 1970
 		folder = {
@@ -799,11 +794,6 @@ technologies = {
 			name = support_folder
 			position = { x = 8 y = 18 }
 		}
-		path = {
-			leads_to_tech = sniper_company_4
-			research_cost_coeff = 1
-		}
-
 		categories = {
 			support_tech
 

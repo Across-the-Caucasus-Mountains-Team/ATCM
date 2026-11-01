@@ -1,7 +1,6 @@
 NDefines.NGame.START_DATE = "1991.1.1.12"
 NDefines.NGame.END_DATE = "2030.1.1.1"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 0.514
-NDefines.NGame.SAVE_VERSION = 24
 NDefines.NGame.HANDS_OFF_START_TAG = "TKM"		-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
 NDefines.NGame.TRADE_ROUTE_RECALCULATE_FREQUENCY_DAYS = 30 
 NDefines.NSupply.VP_TO_SUPPLY_BONUS_CONVERSION = 0.05			-- Bonus to supply local supplies from Victory Points multiplied by this aspect and rounded to closest integer
@@ -13,6 +12,7 @@ NDefines.NBuildings.RADAR_RANGE_MAX = 1000				-- Range is interpolated between b
 NDefines.NBuildings.MAX_BUILDING_LEVELS = 25			-- Max levels a building can have.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 25			-- Max slots shared by factories
 NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 5					-- days to transfer a unit to another nation
+NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 15				-- This many divisons are required for the country to be able to send volunteers.
 NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1991.1.1.12"	-- Starting at this date the tension values will be scaled down (will be equal to 1 before that)
 NDefines.NDiplomacy.PEACE_SCORE_SCALE_FACTOR = 1.40				-- Losers' total value times this factor becomes the default total peace conference score that is distributed to the winners.
 NDefines.NResistance.GARRISON_MANPOWER_LOST_BY_ATTACK = 0.012 	-- Ratio of manpower lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)
@@ -39,7 +39,7 @@ NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.45					-- vanila 0.5 basic speed cont
 NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 96 -- 96 vanilla default capacity if not specified	
 NDefines.NMilitary.ATTRITION_DAMAGE_ORG = 0.08					   -- vanila 0.08 damage from exhaustion of the Organization
 NDefines.NMilitary.ATTRITION_EQUIPMENT_LOSS_CHANCE = 0.025			-- #0.1 Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
-NDefines.NMilitary.ATTRITION_EQUIPMENT_PER_TYPE_LOSS_CHANCE = 0.025 -- #0.1  Chance for loosing equipment when suffer attrition. Scaled up the stronger attrition is. Then scaled down by equipment reliability.
+NDefines.NMilitary.DIVISION_SIZE_FOR_XP = 3                   -- how many battalions should a division have to count as a full divisions when calculating XP stuff
 NDefines.NSupply.CAPITAL_SUPPLY_BASE = 10.0 -- vanilla 5.0 base supply for capital
 NDefines.NSupply.CAPITAL_SUPPLY_CIVILIAN_FACTORIES = 0.5 -- vannila 0.3 supply from one civilian factory #
 NDefines.NSupply.CAPITAL_SUPPLY_MILITARY_FACTORIES = 0.8 -- vannila 0.6 supply from one military factory
@@ -59,16 +59,16 @@ NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 6.0 -- #was 3.3
 NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.55 -- #was 0.84
 NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.1 -- #was 1.1
 NDefines.NSupply.SUPPLY_FLOW_PENALTY_CROSSING_RIVERS = 0.40 -- #was 0.20 crossing rivers introduces additional penalty
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 3.2	 ---vanilla 2.2
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 3.0	 ---vanilla 2.2
 -- How many trucks does it cost to fully motorize a hub
-NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 180.0
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 150.0
 NDefines.NSupply.RAILWAY_BASE_FLOW = 15.0 		-- #was 10.0 how much base flow railway gives when a node connected to its capital/a naval node by a railway
 NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 10.0 	--  #was 10.0 how much additional flow a railway level gives
 NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 10.5  --   #was 5.0 penalty to flow per damaged railway
 NDefines.NSupply.RAILWAY_MIN_FLOW = 2.5 		-- #was 5.0 	minimum railway flow can be reduced to
 
 NDefines.NMilitary.MIN_DIVISION_BRIGADE_HEIGHT = 4		-- Min height of regiments in division designer.
-NDefines.NMilitary.DIVISIONAL_COMMANDER_TRAIT_XP_REQUIREMENT = 600.0	--Get a trait if any valid options & xp gained >= this
+NDefines.NMilitary.DIVISIONAL_COMMANDER_TRAIT_XP_REQUIREMENT = 400.0	--Get a trait if any valid options & xp gained >= this
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 5
 
@@ -81,3 +81,8 @@ NDefines.NAI.ORG_UNIT_WEAK = 0.15						-- Organization % for unit to be consider
 NDefines.NAI.STR_UNIT_WEAK = 0.4						-- Strength (equipment) % for unit to be considered weak
 NDefines.NAI.AT_WAR_THREAT_FACTOR = 2.0					-- How much increase in threat does AI feel for being in war against osmeone
 NDefines.NAI.HOURS_BETWEEN_ENCIRCLEMENT_DISCOVERY = 24
+NDefines.NCountry.MIN_MAJOR_COUNTRIES	= 7						-- MIN_MAJOR_COUNTRIES countries with most factories will be considered as major countries
+NDefines.NResistance.RESISTANCE_POP_LOW_CUTOFF = 3000
+NDefines.NResistance.RESISTANCE_POP_VERY_LOW_CUTOFF = 500
+NDefines.NAI.ASSIGN_MOUNTAINEERS_TO_MOUNTAINS = 15.0                    -- factor for assigning mountaineer divisions to fronts with mountains (proportional to how much of that terrain type)
+NDefines.NAI.ASSIGN_TANKS_TO_MOUNTAINS = -10.0                           -- factor for assigning tank divisions to fronts with mountains (proportional to how much of that terrain type)
