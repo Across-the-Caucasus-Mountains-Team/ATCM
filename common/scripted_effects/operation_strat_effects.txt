@@ -127,12 +127,10 @@ update_operation_ai = {
 			
 			# get token for boost resistance
 			var:generic_operation_target = {
-				# only do on fascist
 				if = {
 					limit = { 
 						PREV = {
-							NOT = { tag = ENG }# ENG already does it against GER
-							NOT = { has_government = fascism }
+							NOT = { ATCM_uses_authoritarian_ai = yes }
 							NOT = {
 								has_operation_token = {
 									tag = var:generic_operation_target
@@ -140,7 +138,7 @@ update_operation_ai = {
 								}
 							}
 						}
-						has_government = fascism
+						ATCM_uses_authoritarian_ai = yes
 						check_variable = { occupied_countries^num > 0 }
 						has_added_tension_amount > 20
 					}

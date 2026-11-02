@@ -36,8 +36,14 @@ set_politics = {
 	elections_allowed = yes
 }
 
-recruit_character = ABK_provisional_government
-recruit_character = ABK_shamil_basayev
+if = {
+	limit = { NOT = { has_character = ABK_provisional_government } }
+	recruit_character = ABK_provisional_government
+}
+if = {
+	limit = { NOT = { has_character = ABK_shamil_basayev } }
+	recruit_character = ABK_shamil_basayev
+}
 
 set_variable = { cash = 1 }
 

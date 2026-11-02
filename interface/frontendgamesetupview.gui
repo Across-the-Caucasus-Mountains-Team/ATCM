@@ -27,6 +27,15 @@ guiTypes = {
 			position = { x = 27 y = 28 }
 			alwaystransparent = yes
 		}
+		instantTextBoxType = {
+			name = "date"
+			position = { x = 27 y = 800 }
+			font = "hoi_20b"
+			maxWidth = 240
+			maxHeight = 24
+			format = left
+			alwaystransparent = yes
+		}
 	}
 
 	containerWindowType = {
@@ -112,44 +121,7 @@ guiTypes = {
 	}
 
 	### country entry
-	containerWindowType = {
-		name = "country_entry"
 
-		buttonType = {
-			name = "country_leader"
-			quadTextureSprite ="GFX_leader_unknown"
-			position = { x = 17 y = 22 }
-			scale=0.75
-			clicksound = click_checkbox
-		}
-
-		iconType = {
-			name = "country_flag"
-			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 34 y = 188 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-
-		buttonType = {
-			name = "country"
-			quadTextureSprite = "GFX_country_selection_entry"
-			position = { x=0 y =0 }
-			clicksound = click_checkbox
-		}
-
-		instantTextBoxType = {
-			name = "country_name"
-			position = { x = 8 y = 247 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 131
-			maxHeight = 20
-			fixedsize = yes
-			format = center
-			Orientation = "UPPER_LEFT"
-		}
-	}
 
 	### country entry
 	containerWindowType = {
@@ -169,6 +141,12 @@ guiTypes = {
 			quadTextureSprite = "GFX_country_selection_minor_entry"
 			position = { x=0 y =0 }
 			clicksound = click_checkbox
+		}
+		iconType = {
+			name = "new_content"
+			position = { x = 108 y = 22 }
+			spriteType = "GFX_unplayed_content_notification"
+			alwaystransparent = yes
 		}
 	}
 
@@ -209,6 +187,12 @@ guiTypes = {
 			fixedsize = yes
 			format = center
 			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "new_content"
+			position = { x = 167 y = 10 }
+			spriteType = "GFX_unplayed_content_notification"
+			alwaystransparent = yes
 		}
 	}
 
@@ -675,7 +659,6 @@ guiTypes = {
 				slotsize = { width = 53 height = 40 }
 				max_slots_horizontal = 22
 				add_horizontal = yes
-				max_slots_horizontal = 22
 				max_slots_vertical = 2
 				format = "UPPER_LEFT"
 			}
@@ -885,6 +868,48 @@ guiTypes = {
 			maxWidth = 380
 			maxHeight = 30
 			format = left
+		}
+		OverlappingElementsBoxType = {
+			name = "filters"
+			position = { x = 20 y = 292 }
+			size = { x = 1185 y = 32 }
+			format = center
+			spacing = 10
+		}
+
+		dropDownBoxType = {
+			name = "more_countries"
+			position = { x = 15 y = 412 }
+			expandButton = {
+				name = "expand_button"
+				position = { x = 1168 y = -4 }
+				quadTextureSprite = "GFX_peace_drop_down_button"
+				clicksound = click_default
+			}
+			expandedWindow = {
+				name = "expanded_window"
+				position = { x = 0 y = -300 }
+				show_position = { x = 0 y = 25 }
+				show_animation_type = decelerated
+				hide_animation_type = accelerated
+				animation_time = 300
+				size = { width = 1205 height = 76 }
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 40
+				background = {
+					name = "Background"
+					quadTextureSprite = "GFX_tiled_plain_bg_small"
+				}
+				gridBoxType = {
+					name = "countries_mini_expanded"
+					position = { x = 8 y = 0 }
+					size = { width = 1180 height = 100%% }
+					slotsize = { width = 52 height = 38 }
+					add_horizontal = yes
+					max_slots_horizontal = 22
+					format = "UPPER_LEFT"
+				}
+			}
 		}
 	}
 
@@ -1457,11 +1482,11 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_generic_bg_1"
 		}
 
-#		background = {
-#			name = "on_indicator"
-#			quadTextureSprite ="GFX_changed_slider_indicator"
-#			position = { x = 602 y = 10 }
-#		}
+		background = {
+			name = "on_indicator"
+			quadTextureSprite ="GFX_changed_slider_indicator"
+			position = { x = 602 y = 10 }
+		}
 
 		iconType = {
 			name = "custom_difficulty_icon"
@@ -2203,6 +2228,42 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 
+		}
+	}
+
+	containerWindowType = {
+		name = "country_filter"
+		size = { width = 149 height = 33 }
+		buttonType = {
+			name = "button"
+			quadTextureSprite = "GFX_country_filter_entry"
+			buttonFont = "hoi_16mbs"
+			clicksound = click_default
+			oversound = ui_menu_over
+			frame = 2
+		}
+	}
+
+	containerWindowType = {
+		name = "country_entry_mini"
+		size = { width = 52 height = 38 }
+		iconType = {
+			name = "country_flag"
+			quadTextureSprite = "GFX_shield_small"
+			position = { x = 3 y = 3 }
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "country"
+			quadTextureSprite = "GFX_mini_country_selector"
+			position = { x = 0 y = 0 }
+			clicksound = click_checkbox
+		}
+		iconType = {
+			name = "new_content"
+			spriteType = "GFX_unplayed_content_notification"
+			position = { x = 42 y = 0 }
+			alwaystransparent = yes
 		}
 	}
 }

@@ -32,7 +32,7 @@ set_popularities = {
 	liberalism = 7
 	authoritarianism = 9
 	nationalism = 17
-	conservatism = 71
+	conservatism = 61
 	junta = 6
 }
 

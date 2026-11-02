@@ -114,6 +114,22 @@ guiTypes = {
 			quadTextureSprite ="achievements"
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
+		buttonType = {
+			name = "homepage_button"
+			position = { x = 16 y = 389 }
+			quadTextureSprite = "homepage"
+			clicksound = click_default
+			pdx_tooltip = "MENU_HOMEPAGE"
+			hide = yes
+		}
+		buttonType = {
+			name = "privacy_policy_button"
+			position = { x = 268 y = 389 }
+			quadTextureSprite = "privacy"
+			clicksound = click_default
+			pdx_tooltip = "MENU_PRIVACY_POLICY"
+			hide = yes
+		}
 	}
 	
 	containerWindowType = {

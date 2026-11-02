@@ -1,0 +1,14 @@
+ATCM_uses_democratic_ai = {
+	OR = {
+		has_government = liberalism
+		has_government = conservatism
+	}
+}
+
+ATCM_uses_authoritarian_ai = {
+	OR = {
+		has_government = authoritarianism
+		has_government = junta
+		has_government = nationalism
+	}
+}

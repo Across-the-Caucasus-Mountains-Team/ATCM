@@ -553,6 +553,12 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 20	
 		}
+		iconType = {
+			name = "single_player_button_warn"
+			position = { x = 260 y = 22 }
+			spriteType = "GFX_missing_dlc_warning_sign"
+			alwaystransparent = yes
+		}
 	}
 	
 	containerWindowType = {
@@ -620,6 +626,22 @@ guiTypes = {
 				spriteType = "GFX_new_friend_icon"
 				pdx_tooltip = "SOCIAL_NEW_FRIEND"
 			}
+		}
+		buttonType = {
+			name = "homepage_button"
+			position = { x = -24 y = 0 }
+			quadTextureSprite = "homepage"
+			clicksound = click_default
+			pdx_tooltip = "MENU_HOMEPAGE"
+			hide = yes
+		}
+		buttonType = {
+			name = "privacy_policy_button"
+			position = { x = 228 y = 0 }
+			quadTextureSprite = "privacy"
+			clicksound = click_default
+			pdx_tooltip = "MENU_PRIVACY_POLICY"
+			hide = yes
 		}
 	}
 

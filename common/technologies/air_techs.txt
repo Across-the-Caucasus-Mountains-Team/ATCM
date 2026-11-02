@@ -513,11 +513,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_centrifugal_jet_tech
-			research_cost_coeff = 1
-		}
-
 		is_special_project_tech = yes
 		research_cost = 2
 		start_year = 1945
@@ -1652,11 +1647,6 @@ technologies = {
 
 		path = {
 			leads_to_tech = strategic_bomber3
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = reinforced_wings_mothership
 			research_cost_coeff = 1
 		}
 
