@@ -1,4 +1,9 @@
-spriteTypes = {	
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_porsche"
+		texturefile = "gfx/interface/ideas/GFX_idea_porsche.png"
+	}
+
 
 	SpriteType = {
 		name = "GFX_idea_traits_strip"

@@ -1,0 +1,37 @@
+spriteTypes = {
+	textSpriteType = {
+		name = "GFX_button_238x38"
+		texturefile = "gfx/interface/button_238x38.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	textSpriteType = {
+		name = "GFX_preset_button_open"
+		texturefile = "gfx/interface/equipmentdesigner/preset_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	textSpriteType = {
+		name = "GFX_preset_button_import"
+		texturefile = "gfx/interface/equipmentdesigner/preset_import_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	textSpriteType = {
+		name = "GFX_preset_button_export"
+		texturefile = "gfx/interface/equipmentdesigner/preset_export_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	textSpriteType = {
+		name = "GFX_preset_button_save"
+		texturefile = "gfx/interface/equipmentdesigner/save_preset_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_generic_circle_background"
+		texturefile = "gfx/interface/generic_text_circle.dds"
+		noOfFrames = 5
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

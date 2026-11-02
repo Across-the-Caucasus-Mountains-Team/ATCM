@@ -837,7 +837,7 @@ american_democratic_major_scorer = { # Finds biggest Democratic Nation in the Am
 				add = 100
 			}
 			modifier = {
-				NOT = { has_government = democratic }
+				NOT = { ATCM_uses_democratic_ai = yes }
 				factor = 0 
 			}
 			modifier = {

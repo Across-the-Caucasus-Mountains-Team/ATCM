@@ -1,6 +1,4 @@
 ﻿l_english:
- WHILE_FOCUSING: "While focusing on this, there will be the following effects:\n$EFF$"
- generic_focus: "National Focus"
  RAS_gkchp: "GKCHP"
  RAS_gkchp_desc: "The GKCHP is a group of hardliners who want to restore the USSR and overthrow Yeltsin. They are supported by the military and KGB, but they are not very popular among the people."
  RAS_hold_a_referendum: "Hold a Referendum"

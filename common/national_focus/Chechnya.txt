@@ -5656,7 +5656,7 @@ completion_reward = {
 				limit = {
 					has_completed_focus = CHE_build_secular_state
 				}
-				unlock_decision_tooltip = CHE_hold_raids_on_soviet_millitary_bases
+				unlock_decision_tooltip = CHE_hold_raids_on_millitary_bases_decision
 			}
 			if = {
 				limit = {
