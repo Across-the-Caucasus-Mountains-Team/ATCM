@@ -389,7 +389,7 @@ country_event = {
 
 	option = {
 		name = Georgia.20.a
-		add_political_power = -50	
+		add_political_power = -50
 		add_stability = -0.05		
 		country_event = { id = Georgia.21 }
 	}

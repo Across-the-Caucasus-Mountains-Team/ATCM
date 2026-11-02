@@ -1,13 +1,13 @@
 ﻿l_english:
- ATCM_MUSIC_STATION_MMCT_TITLE:0 "Across the Caucasus Mountains Radio"
- maintheme:0 "Bolaya Noch"
- Abkhazetis_mitsaze:0 "Abkhazetis Mitsaze" #Abkhaz nat. anthem
- Pocledni_geroi:0 "Pocledni Geroi" #Kino song (The Last Hero)
- Our_Fatherland:0 "Mer Hayrenik" #Armenian nat. Anthem
- Zartir_lao:0 "Zartir lao" #Armenian nationalist song
- Dideba:0 "Dideba" #Former Gerogian nat. Anthem
- Gandagana:0 "Gandagana" #Georgian Folk
+ ATCM_MUSIC_STATION_MMCT_TITLE: "Across the Caucasus Mountains Radio"
+ maintheme: "Bolaya Noch"
+ Abkhazetis_mitsaze: "Abkhazetis Mitsaze" #Abkhaz nat. anthem
+ Pocledni_geroi: "Pocledni Geroi" #Kino song (The Last Hero)
+ Our_Fatherland: "Mer Hayrenik" #Armenian nat. Anthem
+ Zartir_lao: "Zartir lao" #Armenian nationalist song
+ Dideba: "Dideba" #Former Gerogian nat. Anthem
+ Gandagana: "Gandagana" #Georgian Folk
 
- Russian_Music_Station:0 "Russian Radio"
- Russky_Mat:0 "Russkiy Mat" #Sektor Gaza song
- VDVSong:0 "Z neba Privet" #the meme VDV song
+ Russian_Music_Station: "Russian Radio"
+ Russky_Mat: "Russkiy Mat" #Sektor Gaza song
+ VDVSong: "Z neba Privet" #the meme VDV song

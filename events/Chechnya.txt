@@ -2038,7 +2038,6 @@ country_event = {
 					compare = greater_than_or_equals
 				}
 			}
-			country_event = chechnya.76
 		}
 		custom_effect_tooltip = 13_CHE_tt
 	}
@@ -2059,21 +2058,7 @@ country_event = {
 					compare = greater_than_or_equals
 				}
 			}
-			country_event = chechnya.76
 		}
 		custom_effect_tooltip = 13_CHE_tt
-	}
-}
-
-country_event = {
-	id = chechnya.76
-	title = chechnya.76.t
-	desc = chechnya.76.d
-	picture = GFX_Report_event_CHE_sufiskoe_duhovenstvo_question
-	is_triggered_only = yes
-	fire_only_once = yes
-	option = {
-		name = chechnya.76.a
-		set_country_flag = CHE_elite_compromise_reached
 	}
 }

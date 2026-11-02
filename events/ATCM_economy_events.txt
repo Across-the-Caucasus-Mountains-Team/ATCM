@@ -38,5 +38,6 @@ country_event = {
 
 	option = {
 		name = economy_event.1.a
+		add_political_power = -25
 	}
 }
