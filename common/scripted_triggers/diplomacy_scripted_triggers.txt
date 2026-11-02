@@ -24,7 +24,7 @@ DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
 				option = LIMITED
 			}
 		}
-		always = yes # Handled by game logic.
+		always = yes
 	}
 	if = {
 		limit = {

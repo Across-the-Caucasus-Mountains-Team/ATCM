@@ -3,12 +3,14 @@ scripted_gui = {
 	economy_button_window_sg = {
 		window_name = "economy_button_window"
 		context_type = player_context
-		parent_window_name = topbar
+		parent_window_token = top_bar
 
 		triggers = {
 			cash_button_visible = {
 				check_variable = {
-					cash >= 0
+					var = cash
+					value = 0
+					compare = greater_than_or_equals
 				}
 			}
 			debt_button_visible = {
@@ -26,9 +28,10 @@ scripted_gui = {
 						has_country_flag = economy_tab_on
 					}
 					clr_country_flag = economy_tab_on
-					else = {
-						set_country_flag = economy_tab_on
-					}
+					clr_country_flag = economy_decisions_tab_on
+				}
+				else = {
+					set_country_flag = economy_tab_on
 				}
 			}
 			debt_button_click = {
@@ -38,9 +41,10 @@ scripted_gui = {
 						has_country_flag = economy_tab_on
 					}
 					clr_country_flag = economy_tab_on
-					else = {
-						set_country_flag = economy_tab_on
-					}
+					clr_country_flag = economy_decisions_tab_on
+				}
+				else = {
+					set_country_flag = economy_tab_on
 				}
 			}
 		}
@@ -57,17 +61,23 @@ scripted_gui = {
 		triggers = {
 			cash_bg_visible = {
 				check_variable = {
-					cash >= 0
+					var = cash
+					value = 0
+					compare = greater_than_or_equals
 				}
 			}
 			cash_icon_visible = {
 				check_variable = {
-					cash >= 0
+					var = cash
+					value = 0
+					compare = greater_than_or_equals
 				}
 			}
 			cash_balance_value_visible = {
 				check_variable = {
-					cash >= 0
+					var = cash
+					value = 0
+					compare = greater_than_or_equals
 				}
 			}
 			debt_bg_visible = {
@@ -90,6 +100,7 @@ scripted_gui = {
 		effects = {
 			close_button_click = {
 				clr_country_flag = economy_tab_on
+				clr_country_flag = economy_decisions_tab_on
 			}
 			economic_decisions_button_click = {
 				if = {
@@ -97,9 +108,9 @@ scripted_gui = {
 						has_country_flag = economy_decisions_tab_on
 					}
 					clr_country_flag = economy_decisions_tab_on
-					else = {
-						set_country_flag = economy_decisions_tab_on
-					}
+				}
+				else = {
+					set_country_flag = economy_decisions_tab_on
 				}
 			}
 		}
@@ -110,6 +121,7 @@ scripted_gui = {
 		context_type = player_context
 
 		visible = {
+			has_country_flag = economy_tab_on
 			has_country_flag = economy_decisions_tab_on
 		}
 
@@ -121,9 +133,6 @@ scripted_gui = {
 			close_button_click = {
 				clr_country_flag = economy_decisions_tab_on
 			}
-		}
-
-		effects = {
 			invest_civil_industry_button_click = {
 				if = {
 					limit = {

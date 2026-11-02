@@ -395,7 +395,7 @@ state_has_any_resource = {
 	}
 }
 
-country_can_be_reasonable_target_of_wargoal = { #Expected scopes: Target country is THIS, country getting wargoal is PREV
+country_can_be_reasonable_target_of_wargoal = {
 	NOT = {
 		has_war_with = ROOT
 		is_in_faction_with = PREV
@@ -457,13 +457,13 @@ has_any_tanks = {
 	}
 }
 
-mio_original_country_exists_and_not_at_war_with_ROOT = { #Used for MIO decisions visibility - THIS is original country
+mio_original_country_exists_and_not_at_war_with_ROOT = {
 	exists = yes
 	has_capitulated = no
 	NOT = { has_war_with = ROOT }
 }
 
-mio_original_country_available_with_opinion_subject_and_war_requirements_fulfilled = { #Used for MIO decisions availability - THIS is original country
+mio_original_country_available_with_opinion_subject_and_war_requirements_fulfilled = {
 	has_opinion = {
 		target = ROOT
 		value > 49

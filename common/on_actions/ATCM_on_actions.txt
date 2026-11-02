@@ -1,7 +1,6 @@
 on_actions = {
 	on_monthly = {
 		effect = {
-			# on_monthly already runs in each country's scope. Settle only THIS country.
 			ATCM_economy_setup = yes
 			add_to_variable = { cash = var:income }
 			subtract_from_variable = { cash = var:expense }

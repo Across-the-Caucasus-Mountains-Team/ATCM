@@ -1,7 +1,5 @@
 spriteTypes = {	
 
-
-
 	SpriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
@@ -128,11 +126,7 @@ spriteTypes = {
 		name = "GFX_idea_SAK_Anti_communism"
 		textureFile = "/gfx/interface/ideas/SAK_Anti_communism.png"
 	}
-	
-	
 
-
-	
 	spriteType = {
 		name = "GFX_idea_SAK_war_in_samachablo"
 		textureFile = "/gfx/interface/ideas/SAK_war_in_samachablo.png"

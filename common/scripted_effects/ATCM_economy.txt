@@ -1,4 +1,3 @@
-# Recalculate the monthly forecast only. Cash settlement happens in on_monthly.
 ATCM_economy_setup = {
 	set_variable = { income = 0 }
 	set_variable = { expense = 0 }
