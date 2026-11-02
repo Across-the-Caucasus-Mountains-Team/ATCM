@@ -3,7 +3,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "sp_event_window"	
 		position = { x = 0 y = 0 }	
-		size = { width = 600 height = 510 }
+		size = { width = 667 height = 521 }
 		orientation = center
 		origo = center
 		moveable = no
@@ -31,9 +31,114 @@ guiTypes = {
 			position = {x = 0 y = 0}
 		}
 		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S01"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S01"
+			position = {x = 13 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S02"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S02"
+			position = {x = 45 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S03"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S03"
+			position = {x = 77 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S04"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S04"
+			position = {x = 109 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S05"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S05"
+			position = {x = 141 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S06"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S06"
+			position = {x = 173 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S07"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S07"
+			position = {x = 205 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S08"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S08"
+			position = {x = 237 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S09"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S09"
+			position = {x = 269 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S10"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S10"
+			position = {x = 301 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S11"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S11"
+			position = {x = 333 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S12"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S12"
+			position = {x = 365 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S13"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S13"
+			position = {x = 397 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S14"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S14"
+			position = {x = 429 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S15"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S15"
+			position = {x = 461 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S16"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S16"
+			position = {x = 493 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S17"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S17"
+			position = {x = 525 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S18"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S18"
+			position = {x = 557 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S19"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S19"
+			position = {x = 589 y = 40}
+		}
+		iconType = {
+			name = "Super_Event_Image_RAS_First_Chechen_War_S20"
+			spriteType = "GFX_sp_event_RAS_First_Chechen_War_S20"
+			position = {x = 621 y = 40}
+		}
+		iconType = {
 			name = "Super_Event_Image_RAS_First_Chechen_War"
 			spriteType = "GFX_sp_event_RAS_First_Chechen_War"
 			position = {x = 0 y = 0}
+		}
+		iconType = {
+			name = "Super_Event_Underlay_RAS_First_Chechen_War"
+			spriteType = "GFX_sp_event_underlay"
+			position = {x = 262 y = 312}
 		}
 
 		

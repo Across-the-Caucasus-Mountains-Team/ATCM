@@ -27,6 +27,69 @@ scripted_gui = {
 			Super_Event_Image_RAS_First_Chechen_War_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
+			Super_Event_Underlay_RAS_First_Chechen_War_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S01_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S02_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S03_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S04_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S05_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S06_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S07_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S08_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S09_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S10_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S11_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S12_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S13_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S14_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S15_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S16_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S17_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S18_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S19_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
+			Super_Event_Image_RAS_First_Chechen_War_S20_visible = {
+				has_global_flag = RAS_First_Chechen_War_supervent_flag
+			}
 		}
 		
 		############

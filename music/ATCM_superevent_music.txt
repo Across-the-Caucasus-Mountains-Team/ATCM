@@ -1,0 +1,10 @@
+﻿music_station = "atcm_superevents"
+
+music = {
+	song = "ATCM_V_Nashikh_Glazakh"
+	chance = {
+		modifier = {
+			factor = 1
+		}
+	}
+}

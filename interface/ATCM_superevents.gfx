@@ -37,4 +37,205 @@ spriteTypes = {
 		name = "GFX_sp_event_RAS_First_Chechen_War"
 		textureFile = "/gfx/sp_events/Super_Event_First_Chechen_War.dds"
 	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S01"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S01.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S02"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S02.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S03"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S03.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S04"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S04.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S05"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S05.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S06"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S06.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S07"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S07.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S08"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S08.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S09"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S09.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S10"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S10.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S11"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S11.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S12"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S12.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S13"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S13.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S14"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S14.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S15"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S15.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S16"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S16.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S17"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S17.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S18"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S18.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S19"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S19.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sp_event_RAS_First_Chechen_War_S20"
+		texturefile = "/gfx/sp_events/Super_Event_First_Chechen_War_S20.dds"
+		noOfFrames = 480
+		loadType = "INGAME"
+		transparencecheck = no
+		animation_rate_fps = 8
+		looping = no
+		play_on_show = yes
+	}
 }
