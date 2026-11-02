@@ -1150,6 +1150,8 @@ ideas = {
 				resistance_damage_to_garrison_on_our_occupied_states = 0.25 
 			}
 		}
+		# Retain vanilla treaty IDs for compatibility; ATCM has no matching treaty hulls.
+		# Removed hull-specific production caps are not valid generated modifiers here.
 		MTG_naval_treaty_adherent = {
 
 			allowed = {
@@ -1164,11 +1166,7 @@ ideas = {
 
 			picture = MTG_naval_treaty_adherent
 			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 5300
-				production_cost_max_ship_hull_heavy = 10000
-				production_cost_max_ship_hull_carrier = 9500
-			}
+			modifier = { }
 		}
 		MTG_naval_treaty_adherent_reduced = {
 
@@ -1184,11 +1182,7 @@ ideas = {
 
 			picture = MTG_naval_treaty_adherent_reduced
 			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 6000
-				production_cost_max_ship_hull_heavy = 12000
-				production_cost_max_ship_hull_carrier = 10500
-			}
+			modifier = { }
 		}
 		MTG_naval_treaty_cheating = {
 			name = MTG_naval_treaty_adherent
@@ -1204,11 +1198,7 @@ ideas = {
 
 			picture = MTG_naval_treaty_adherent
 			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 5700
-				production_cost_max_ship_hull_heavy = 11500
-				production_cost_max_ship_hull_carrier = 10250
-			}
+			modifier = { }
 		}
 		MTG_naval_treaty_cheating_reduced = {
 			name = MTG_naval_treaty_adherent_reduced
@@ -1224,11 +1214,7 @@ ideas = {
 
 			picture = MTG_naval_treaty_adherent_reduced
 			
-			modifier = {
-				production_cost_max_ship_hull_cruiser = 6500
-				production_cost_max_ship_hull_heavy = 14000
-				production_cost_max_ship_hull_carrier = 10750
-			}
+			modifier = { }
 		}
 
 		organization_of_african_unity_member_idea = { 

@@ -2,6 +2,13 @@ spriteTypes = {
 
 	# leaders we need to override in DLC go in this file
 
+	# The engine still requests this vanilla fallback for officers without a portrait.
+	# Use the same neutral silhouette as GFX_portrait_unknown in this total conversion.
+	spriteType = {
+		name = "GFX_portrait_GER_oswald_lutz"
+		texturefile = "gfx/leaders/leader_unknown.dds"
+	}
+
 	spriteType = {
 		name = "GFX_portrait_operative_unknown"
 		texturefile = "gfx/leaders/operative_unknown.dds"
@@ -19,4 +26,4 @@ spriteTypes = {
 
 
 	### SAK
-}	
+}
