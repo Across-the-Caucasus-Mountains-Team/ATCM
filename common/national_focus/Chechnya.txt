@@ -2857,6 +2857,7 @@ completion_reward = {
 		}
 
 		available = {
+			has_war_with = RAS
 			OR = {
 				date > 1996.01.05
 				has_global_flag = Dudayev_is_dead
@@ -2895,6 +2896,7 @@ completion_reward = {
 		}
 
 		available = {
+			has_war_with = RAS
 
 		}
 

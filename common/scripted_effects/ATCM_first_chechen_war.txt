@@ -1,0 +1,37 @@
+finish_first_chechen_war = {
+	clr_global_flag = FirstChechenWar
+	clr_global_flag = Fail_Blitz_First_ChechenWar
+	set_global_flag = AfterFirstChechenWar
+	RAS = {
+		clr_country_flag = VDVLandingInProgress
+		remove_mission = RAS_failed_blitzkrieg_decision
+		remove_mission = RAS_hold_airport
+		remove_mission = RAS_take_Grozny
+		remove_mission = RAS_take_Shali
+		remove_mission = RAS_take_Gudermes
+		remove_mission = RAS_take_UrusMartan
+		remove_mission = RAS_take_Argun
+		mark_focus_tree_layout_dirty = yes
+	}
+	CHE = {
+		clr_country_flag = FirstChechenWar
+		remove_mission = CHE_hold_Grozny
+		remove_mission = CHE_hold_Shali
+		remove_mission = CHE_hold_Gudermes
+		remove_mission = CHE_hold_UrusMartan
+		remove_mission = CHE_hold_Argun
+		remove_mission = CHE_monthly_weapon_supplies
+		remove_mission = CHE_return_Grozny
+		remove_ideas = {
+			CHE_first_chechen_war_idea
+			CHE_first_chechen_war_idea_2
+		}
+		mark_focus_tree_layout_dirty = yes
+	}
+	DAG = {
+		if = {
+			limit = { has_war_with = CHE }
+			white_peace = CHE
+		}
+	}
+}

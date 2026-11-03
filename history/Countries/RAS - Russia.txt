@@ -393,6 +393,9 @@ add_ideas = {
 }
 
 1996.1.1 = {
+	set_global_flag = USSR_Colapsed
+	set_global_flag = FirstChechenWar
+	remove_dynamic_modifier = { modifier = RAS_Separatism }
     declare_war_on = {
         target = CHE
         type = annex_everything
