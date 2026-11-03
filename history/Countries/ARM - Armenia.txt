@@ -25,8 +25,8 @@ set_technology = {
 
 1991.1.1 = {
 	set_politics = {
-		ruling_party = communism
-		last_election = "1990.9.17"
+		ruling_party = liberalism
+		last_election = "1990.5.20"
 		election_frequency = 48
 		elections_allowed = no
 	}

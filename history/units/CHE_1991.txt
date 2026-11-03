@@ -85,6 +85,8 @@ units = {
 		location = 10609
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -95,6 +97,8 @@ units = {
 		location = 10609
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -105,6 +109,8 @@ units = {
 		location = 10609
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -115,6 +121,8 @@ units = {
 		location = 10581
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -125,6 +133,8 @@ units = {
 		location = 8281
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -135,6 +145,8 @@ units = {
 		location = 6744
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -145,6 +157,8 @@ units = {
 		location = 7335
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -155,6 +169,8 @@ units = {
 		location = 6828
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -165,6 +181,8 @@ units = {
 		location = 6828
 		division_template = "Pekhotniy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -175,6 +193,8 @@ units = {
 		location = 2964
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -185,6 +205,8 @@ units = {
 		location = 2964
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -195,6 +217,8 @@ units = {
 		location = 8617
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -205,6 +229,8 @@ units = {
 		location = 5606
 		division_template = "Motorizebuli-danakofi"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -215,6 +241,8 @@ units = {
 		location = 5606
 		division_template = "Motorizebuli-danakofi"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -225,6 +253,8 @@ units = {
 		location = 5606
 		division_template = "Motorizebuli-danakofi"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -235,6 +265,8 @@ units = {
 		location = 5606
 		division_template = "Motorizebuli-danakofi"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 	}
 	
 	division = {	
@@ -245,6 +277,8 @@ units = {
 		location = 9308
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.5
+	    start_equipment_factor = 0.4
+		start_manpower_factor = 0.5
 		start_equipment_factor = 0.7
 	}
 }	

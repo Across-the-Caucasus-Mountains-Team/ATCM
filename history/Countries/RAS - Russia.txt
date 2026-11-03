@@ -83,6 +83,7 @@ add_to_variable = {
 	reactive_artillery = 1
 }
 
+
 1991.1.1 = {
 	set_politics = {
 		ruling_party = communism
@@ -97,14 +98,68 @@ add_to_variable = {
 		nationalism = 13
 		conservatism = 7 
 	}
+	
+	set_autonomy = {
+		target = DAG
+		autonomy_state = soviet_republic
+	}
+	set_autonomy = {
+		target = SAK
+		autonomy_state = soviet_republic
+	}
+	set_autonomy = {
+		target = ARM
+		autonomy_state = soviet_republic
+	}
+	set_autonomy = {
+		target = AZR
+		autonomy_state = soviet_republic
+	}
+	set_autonomy = {
+		target = ARS
+		autonomy_state = soviet_republic
+	}
+	set_autonomy = {
+		target = CHE
+		autonomy_state = soviet_republic
+	}
 }
 
 
+
+
 1991.1.1 = {
-	add_ideas = {
-		RAS_big_criminality
-		RAS_resources_beyond_caucasus
-		RAS_plundered_army
+    add_ideas = {
+	    universal_health_care
+	    welfare_state
+	    free_universities
+	    police_state
+
+	    RAS_Memories_of_afhganistan_war
+	    RAS_Failed_perestroika
+	    RAS_hardliners_protest
+	    RAS_Boris_Yeltsin_idea
+	    RAS_reformists_protest
+	    RAS_big_criminality
+	    RAS_resources_beyond_caucasus
+    }
+
+	SAK = {
+		set_politics = {
+		    ruling_party = nationalism
+		    last_election = "1999.9.17"
+		    election_frequency = 48
+		    elections_allowed = yes	
+	    }	
+	}
+
+	ARM = {
+		set_politics = {
+	        ruling_party = liberalism
+	        last_election = "1990.5.20"
+	        election_frequency = 48
+	        elections_allowed = no
+        }
 	}
 }
 
@@ -139,32 +194,6 @@ add_ideas = {
 	limited_exports
 }
 
-1991.1.1 = {
-	set_autonomy = {
-		target = DAG
-		autonomy_state = soviet_republic
-	}
-	set_autonomy = {
-		target = SAK
-		autonomy_state = soviet_republic
-	}
-	set_autonomy = {
-		target = ARM
-		autonomy_state = soviet_republic
-	}
-	set_autonomy = {
-		target = AZR
-		autonomy_state = soviet_republic
-	}
-	set_autonomy = {
-		target = ARS
-		autonomy_state = soviet_republic
-	}
-	set_autonomy = {
-		target = CHE
-		autonomy_state = soviet_republic
-	}
-}
 
 
 1991.11.28 = {
@@ -190,6 +219,12 @@ add_ideas = {
 1996.1.1 = {
 	drop_cosmetic_tag = yes
 	oob = "RAS_1996"
+	remove_ideas = {
+	    RAS_Failed_perestroika
+	    RAS_hardliners_protest
+	    RAS_Boris_Yeltsin_idea
+	    RAS_reformists_protest
+	}
 	unlock_national_focus = RAS_second_presidency_of_eltsin
 	unlock_national_focus = RAS_continue_economic_reforms
 	unlock_national_focus = RAS_form_a_new_government

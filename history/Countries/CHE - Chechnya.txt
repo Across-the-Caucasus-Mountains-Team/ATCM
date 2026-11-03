@@ -9,7 +9,7 @@ set_country_flag = StartguiOpen
 set_cosmetic_tag = SOV_CHE
 
 # Starting tech
-				set_technology = {
+set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
@@ -99,7 +99,65 @@ add_ideas = {
 
 
 1996.1.1 = {
+	set_global_flag = FirstChechenWar
+	set_country_flag = AftermatchOfFirstWave
+	mark_focus_tree_layout_dirty = yes
+	unlock_national_focus = CHE_The_Battle_is_in_here
+	unlock_national_focus = CHE_Battle_of_Grozny
+	unlock_national_focus = CHE_call_Everyone
+	unlock_national_focus = CHE_General_Staff_of_Chechnya
+	unlock_national_focus = CHE_establish_engineer_squads
+	unlock_national_focus = CHE_adapt_their_weapons
+	unlock_national_focus = CHE_Aftermath_of_First_wave
+	unlock_national_focus = CHE_Manpower_shortage
+	unlock_national_focus = CHE_recrut_prisoners
+	unlock_national_focus = CHE_recrut_youth
+	unlock_national_focus = CHE_recrut_elders
+	unlock_national_focus = CHE_Elite_Divisions
+	unlock_national_focus = CHE_call_for_help
+	unlock_national_focus = CHE_volunteers_from_ukraine
+	unlock_national_focus = CHE_volunteers_from_the_muslim_world
+	unlock_national_focus = CHE_use_khattab_influence
+	unlock_national_focus = CHE_guns_for_everyone
+	unlock_national_focus = CHE_quantity_over_quality
+	unlock_national_focus = CHE_Iron_ghosts
+	unlock_national_focus = CHE_Sleepless_Enemy_of_the_tanks
+	unlock_national_focus = CHE_Information_war
+	unlock_national_focus = CHE_relase_battle_footage
+	unlock_national_focus = CHE_Russia_is_still_communist
+	unlock_national_focus = CHE_show_Russian_pows
+	unlock_national_focus = CHE_appear_in_internet
+	unlock_national_focus = CHE_Hold_The_Line
+	unlock_national_focus = CHE_The_Fanatical_Resistance
+	unlock_national_focus = CHE_Operations
+	unlock_national_focus = CHE_hit_and_run
+	unlock_national_focus = CHE_inside_remaining_lands
+	unlock_national_focus = CHE_For_God
+	unlock_national_focus = CHE_For_Dudayev
+	unlock_national_focus = CHE_For_Chechnya
+	unlock_national_focus = CHE_State_of_Emergency
+	unlock_national_focus = CHE_operations_outside_of_chechnya
+	unlock_national_focus = CHE_preapare_operation_in_budenovsk
+    unlock_national_focus = CHE_disrupte_Supplies
+	unlock_national_focus = CHE_future_of_checheno_ingushetii
+	unlock_national_focus = CHE_propaganda_of_nationalism
+	unlock_national_focus = CHE_2nd_session_of_the_firs_chechen_national_congress
+	unlock_national_focus = CHE_start_chechen_revolution
+	unlock_national_focus = CHE_Aftermath_of_Chechen_revolution
+    unlock_national_focus = CHE_hold_elections
+
+
+	complete_national_focus = CHE_night_operations
+	complete_national_focus = CHE_Ghosts_of_the_mountains
 	drop_cosmetic_tag = yes
+	set_politics = {
+	    ruling_party = nationalism
+	    last_election = "1990.9.17"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+	retire_character = CHE_Dzhokhar_Dudaev
+	add_manpower = 20000
 	add_ideas = {
 		CHE_abandoned_MIC
 		CHE_destroyed_economy
@@ -109,6 +167,9 @@ add_ideas = {
 		CHE_Islamic_Conservatism_idea
 		CHE_general_staff
 		CHE_ne_pristypnaa_krenost
+	}
+	remove_ideas = {
+	    CHE_language_issue
 	}
 	set_variable = { CHE_wcaf_war_support_factor = 0.07 }
 	set_variable = { CHE_wcaf_Conscription = 0.0015 }
