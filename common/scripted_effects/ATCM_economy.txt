@@ -10,6 +10,17 @@ ATCM_economy_setup = {
 	set_variable = { civ_factories_income = THIS.num_of_civilian_factories }
 	multiply_variable = { civ_factories_income = 25 }
 	add_to_variable = { income = var:civ_factories_income }
+	set_variable = { refineries_income = 0 }
+	for_each_scope_loop = {
+		array = controlled_states
+		PREV = {
+			add_to_variable = {
+				refineries_income = PREV.building_level@synthetic_refinery
+			}
+		}
+	}
+	multiply_variable = { refineries_income = 25 }
+	add_to_variable = { income = var:refineries_income }
 
 	set_variable = { healthcare_expense_show = THIS.max_manpower_k }
 	divide_variable = { healthcare_expense_show = 144 }

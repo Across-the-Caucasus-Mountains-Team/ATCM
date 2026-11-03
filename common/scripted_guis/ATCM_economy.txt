@@ -126,7 +126,74 @@ scripted_gui = {
 		}
 
 		triggers = {
-
+			cash_bg_visible = {
+				check_variable = { var = cash value = 0 compare = greater_than_or_equals }
+			}
+			cash_icon_visible = {
+				check_variable = { var = cash value = 0 compare = greater_than_or_equals }
+			}
+			cash_balance_value_visible = {
+				check_variable = { var = cash value = 0 compare = greater_than_or_equals }
+			}
+			debt_bg_visible = {
+				check_variable = { cash < 0 }
+			}
+			debt_icon_visible = {
+				check_variable = { cash < 0 }
+			}
+			debt_balance_value_visible = {
+				check_variable = { cash < 0 }
+			}
+			invest_civil_industry_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_cost_2500_tt
+					check_variable = { var = cash value = 2500 compare = greater_than_or_equals }
+				}
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_not_active_tt
+					NOT = { has_idea = GEN_invest_into_factories_idea }
+				}
+			}
+			invest_infrastructure_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_cost_1500_tt
+					check_variable = { var = cash value = 1500 compare = greater_than_or_equals }
+				}
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_not_active_tt
+					NOT = { has_idea = GEN_invest_into_infrastructure_idea }
+				}
+			}
+			invest_ports_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_cost_1500_tt
+					check_variable = { var = cash value = 1500 compare = greater_than_or_equals }
+				}
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_not_active_tt
+					NOT = { has_idea = GEN_invest_into_ports_idea }
+				}
+			}
+			invest_education_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_cost_2000_tt
+					check_variable = { var = cash value = 2000 compare = greater_than_or_equals }
+				}
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_not_active_tt
+					NOT = { has_idea = GEN_invest_into_education_idea }
+				}
+			}
+			invest_millitray_factories_button_click_enabled = {
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_cost_3000_tt
+					check_variable = { var = cash value = 3000 compare = greater_than_or_equals }
+				}
+				custom_trigger_tooltip = {
+					tooltip = ATCM_investment_not_active_tt
+					NOT = { has_idea = GEN_invest_into_millitary_factories_idea }
+				}
+			}
 		}
 
 		effects = {
@@ -136,6 +203,7 @@ scripted_gui = {
 			invest_civil_industry_button_click = {
 				if = {
 					limit = {
+						check_variable = { var = cash value = 2500 compare = greater_than_or_equals }
 						NOT = {
 							has_idea = GEN_invest_into_factories_idea
 						}
@@ -153,6 +221,7 @@ scripted_gui = {
 			invest_infrastructure_button_click = {
 				if = {
 					limit = {
+						check_variable = { var = cash value = 1500 compare = greater_than_or_equals }
 						NOT = {
 							has_idea = GEN_invest_into_infrastructure_idea
 						}
@@ -170,6 +239,7 @@ scripted_gui = {
 			invest_ports_button_click = {
 				if = {
 					limit = {
+						check_variable = { var = cash value = 1500 compare = greater_than_or_equals }
 						NOT = {
 							has_idea = GEN_invest_into_ports_idea
 						}
@@ -187,6 +257,7 @@ scripted_gui = {
 			invest_education_button_click = {
 				if = {
 					limit = {
+						check_variable = { var = cash value = 2000 compare = greater_than_or_equals }
 						NOT = {
 							has_idea = GEN_invest_into_education_idea
 						}
@@ -204,6 +275,7 @@ scripted_gui = {
 			invest_millitray_factories_button_click = {
 				if = {
 					limit = {
+						check_variable = { var = cash value = 3000 compare = greater_than_or_equals }
 						NOT = {
 							has_idea = GEN_invest_into_millitary_factories_idea
 						}

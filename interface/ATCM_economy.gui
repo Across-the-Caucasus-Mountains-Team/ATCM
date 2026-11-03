@@ -221,6 +221,32 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
+			name = "income_refineries"
+			position = { x = 15 y = 270 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0 }
+			maxWidth = 225
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "income_refineries"
+			pdx_tooltip = "income_refineries_tt"
+		}
+
+		instantTextBoxType = {
+			name = "income_refineries_value"
+			position = { x = 280 y = 270 }
+			font = hoi_24header
+			borderSize = { x = 0 y = 0 }
+			maxWidth = 45
+			maxHeight = 24
+			format = left
+			Orientation = "UPPER_LEFT"
+			text = "[?refineries_income|0]"
+			pdx_tooltip = "income_refineries_tt"
+		}
+
+		instantTextBoxType = {
 			name = "expense_total"
 			position = { x = 320 y = 110 }
 			font = hoi_24header
@@ -449,6 +475,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invest_civil_industry_button"
+			pdx_tooltip = "ATCM_investment_civil_industry_tt"
 			spriteType = "GFX_invest_into_factories"
 			position = { x = 135 y = 325 }
 			clicksound = click_close
@@ -457,6 +484,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invest_infrastructure_button"
+			pdx_tooltip = "ATCM_investment_infrastructure_tt"
 			spriteType = "GFX_invest_into_roads"
 			position = { x = 205 y = 325 }
 			clicksound = click_close
@@ -465,6 +493,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "invest_ports_button"
+			pdx_tooltip = "ATCM_investment_ports_tt"
 			spriteType = "GFX_invest_into_ports"
 			position = { x = 275 y = 325 }
 			clicksound = click_close
@@ -473,6 +502,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invest_education_button"
+			pdx_tooltip = "ATCM_investment_education_tt"
 			spriteType = "GFX_invest_into_education"
 			position = { x = 345 y = 325 }
 			clicksound = click_close
@@ -481,6 +511,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invest_millitray_factories_button"
+			pdx_tooltip = "ATCM_investment_military_factories_tt"
 			spriteType = "GFX_invest_into_millitary"
 			position = { x = 415 y = 325 }
 			clicksound = click_close
