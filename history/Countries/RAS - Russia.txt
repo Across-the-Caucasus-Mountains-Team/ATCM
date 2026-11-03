@@ -30,6 +30,16 @@ add_to_variable = {
 	value = 30
 }
 
+create_equipment_variant = {
+    name = "Су-30"
+    type = CAS_equipment_2
+}
+create_equipment_variant = {
+    name = "Су-25"
+    type = CAS_equipment_1
+}
+
+
 # Starting tech
  set_technology = {
 	infantry_weapons = 1

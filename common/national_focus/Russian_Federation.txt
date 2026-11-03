@@ -524,7 +524,7 @@ focus_tree = {
 		icon = GFX_RAS_failed_blitz
 		prerequisite = { focus = RAS_blitz_chechnya }
 		x = 24
-		y = 8
+		y = 9
 
 		cost = 15
 
@@ -2479,6 +2479,7 @@ focus_tree = {
 			add_war_support = 0.05
 			add_political_power = 65
 			mark_focus_tree_layout_dirty = yes
+			custom_effect_tooltip = Historical_path_tt
 		}
 	}
 
@@ -3383,6 +3384,52 @@ focus_tree = {
 	}
 
 	focus = {
+		id = RAS_ground_operation
+		icon = GFX_RAS_ground_operation
+		prerequisite = { focus = RAS_support_chechen_opposition }
+		mutually_exclusive = { focus = RAS_vdv_operation }
+		relative_position_id = RAS_support_chechen_opposition
+		x = -1
+		y = 2
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+			has_completed_focus = RAS_accept_new_constitution
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = RAS_emergency_redeployment_idea
+				days = 25
+			}
+			add_war_support = 0.05
+			custom_effect_tooltip = 7_RAS_tt
+			custom_effect_tooltip = Historical_path_tt
+			hidden_effect = { 
+				load_oob = RAS_armour_reinforcements_first_chechen_war
+			}
+		}
+	}
+
+	focus = {
 		id = RAS_additional_aviation
 		icon = GFX_RAS_additonal_airforce
 		prerequisite = { focus = RAS_support_chechen_opposition }
@@ -3414,11 +3461,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_war_support = 0.05
-			add_political_power = 95
-			air_experience = 35
-			set_country_flag = VDVLandingInProgress
-			unlock_decision_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
+			air_experience = 15
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1
 				variant_name = "Су-25"
@@ -3435,13 +3478,64 @@ focus_tree = {
 	}
 
 	focus = {
+		id = RAS_vdv_operation
+		icon = GFX_RAS_vdv_operation
+		prerequisite = { focus = RAS_support_chechen_opposition }
+		mutually_exclusive = { focus = RAS_ground_operation }
+		relative_position_id = RAS_support_chechen_opposition
+		x = 1
+		y = 2
+
+		cost = 25
+
+		ai_will_do = {
+			base = 5
+			factor = 100
+		}
+
+		available = {
+			has_completed_focus = RAS_accept_new_constitution
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_political_power = 95
+			air_experience = 35
+			set_country_flag = VDVLandingInProgress
+			unlock_decision_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_1
+				variant_name = "Су-25"
+				amount = 55
+				producer = RAS
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2
+				variant_name = "Су-30"
+				amount = 25
+				producer = RAS
+			}
+		}
+	}
+
+	focus = {
 		id = RAS_send_an_ultimatum_to_dudayev
 		icon = GFX_RAS_ultimatum_to_chechnya
-		prerequisite = { focus = RAS_transport_troops_to_the_chehcen_border }
-		prerequisite = { focus = RAS_additional_aviation }
+		prerequisite = { focus = RAS_ground_operation focus = RAS_vdv_operation }
 		relative_position_id = RAS_support_chechen_opposition
 		x = 0
-		y = 2
+		y = 3
 
 		cost = 35
 
@@ -3488,7 +3582,7 @@ focus_tree = {
 		prerequisite = { focus = RAS_send_an_ultimatum_to_dudayev }
 		relative_position_id = RAS_support_chechen_opposition
 		x = 0
-		y = 3
+		y = 4
 
 		cost = 35
 
@@ -3579,7 +3673,7 @@ focus_tree = {
 		prerequisite = { focus = RAS_shell_chechnya }
 		relative_position_id = RAS_support_chechen_opposition
 		x = 0
-		y = 4
+		y = 5
 
 		cost = 10
 

@@ -1776,6 +1776,7 @@ focus_tree = {
 			add_war_support = 0.05
 			country_event = chechnya.4
 			unlock_decision_category_tooltip = CHE_stability_of_republic_decision
+			custom_effect_tooltip = Historical_path_tt
 			hidden_effect = {
 				clr_country_flag = DzohkharDudayevWon
 				mark_focus_tree_layout_dirty = yes		
