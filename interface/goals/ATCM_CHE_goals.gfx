@@ -582,3 +582,20 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/CHE/CHE_capture_georgia.png"
 	}
 }
+
+
+
+
+
+	
+#██████╗ ██╗   ██╗    ██╗   ██╗███████╗██╗  ██╗██╗  ██╗ ██████╗ 
+#██╔══██╗╚██╗ ██╔╝    ██║   ██║██╔════╝██║ ██╔╝██║ ██╔╝██╔═══██╗
+#██████╔╝ ╚████╔╝     ██║   ██║███████╗█████╔╝ █████╔╝ ██║   ██║
+#██╔══██╗  ╚██╔╝      ██║   ██║╚════██║██╔═██╗ ██╔═██╗ ██║   ██║
+#██████╔╝   ██║       ╚██████╔╝███████║██║  ██╗██║  ██╗╚██████╔╝
+#╚═════╝    ╚═╝        ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ 
+                                                      
+SpriteType = {
+		name = "GFX_CHE_expand_of_oil_industry"
+		texturefile = "gfx\interface\Goals\CHE_by_uskko\CHE_expand_of_oil_industry.png"
+	}

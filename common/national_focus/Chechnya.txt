@@ -6647,7 +6647,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_expand_of_oil_industry
-		icon = GFX_CHE_fund_north
+		icon = GFX_CHE_expand_of_oil_industry
 		x = 0
 		y = 3
 		relative_position_id = CHE_Economy_question
