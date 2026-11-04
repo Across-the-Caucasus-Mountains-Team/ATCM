@@ -3307,8 +3307,13 @@ focus_tree = {
 		}
 
 		available = {
-			has_completed_focus = RAS_accept_new_constitution
-			date > 1993.01.05
+			OR = {
+				AND = {
+					has_completed_focus = RAS_accept_new_constitution
+					date > 1993.01.05
+				}
+				RAS_early_chechen_war_allowed = yes
+			}
 		}
 
 		bypass = {
@@ -3355,7 +3360,10 @@ focus_tree = {
 		}
 
 		available = {
-			has_completed_focus = RAS_accept_new_constitution
+			OR = {
+				has_completed_focus = RAS_accept_new_constitution
+				RAS_early_chechen_war_allowed = yes
+			}
 		}
 
 		bypass = {
@@ -3402,7 +3410,10 @@ focus_tree = {
 		}
 
 		available = {
-			has_completed_focus = RAS_accept_new_constitution
+			OR = {
+				has_completed_focus = RAS_accept_new_constitution
+				RAS_early_chechen_war_allowed = yes
+			}
 		}
 
 		bypass = {
@@ -3447,7 +3458,10 @@ focus_tree = {
 		}
 
 		available = {
-			has_completed_focus = RAS_accept_new_constitution
+			OR = {
+				has_completed_focus = RAS_accept_new_constitution
+				RAS_early_chechen_war_allowed = yes
+			}
 		}
 
 		bypass = {
@@ -3496,7 +3510,10 @@ focus_tree = {
 		}
 
 		available = {
-			has_completed_focus = RAS_accept_new_constitution
+			OR = {
+				has_completed_focus = RAS_accept_new_constitution
+				RAS_early_chechen_war_allowed = yes
+			}
 		}
 
 		bypass = {
@@ -3547,7 +3564,10 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1994.10.01
+			OR = {
+				date > 1994.10.01
+				RAS_early_chechen_war_allowed = yes
+			}
 		}
 
 		bypass = {
@@ -3594,7 +3614,10 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1993.10.05
+			OR = {
+				date > 1993.10.05
+				RAS_early_chechen_war_allowed = yes
+			}
 		}
 
 		bypass = {
@@ -3685,7 +3708,15 @@ focus_tree = {
 		}
 
 		available = {
-			has_completed_focus = RAS_accept_new_constitution
+			OR = {
+				has_completed_focus = RAS_accept_new_constitution
+				RAS_early_chechen_war_allowed = yes
+			}
+			OR = {
+				is_ai = no
+				NOT = { has_country_flag = RAS_early_chechen_war_preparation }
+				date > 1994.10.01
+			}
 		}
 
 		bypass = {

@@ -21,24 +21,57 @@ country_event = {
 	title = russia.2.t
 	desc = russia.2.d
 	picture = GFX_Report_event_congress
-
 	is_triggered_only = yes
-
+	fire_only_once = yes
+	trigger = {
+		tag = RAS
+		exists = CHE
+		CHE = { has_country_flag = CHE_russian_deportation_applied }
+	}
+	immediate = {
+		CHE = { CHE_settle_russian_refugees_effect = yes }
+	}
 	option = {
 		name = russia.2.a
-		add_stability = -0.025
-		add_war_support = -0.05
+		ai_chance = { base = 75 }
+		if = {
+			limit = { NOT = { has_country_flag = RAS_deportation_response_resolved } }
+			set_country_flag = RAS_deportation_response_resolved
+			add_stability = -0.025
+			add_war_support = -0.05
+		}
 	}
-	
 	option = {
 		name = russia.2.b
-		add_war_support = 0.025
-		add_political_power = -75
-		custom_effect_tooltip = 15_RAS_tt
-		hidden_effect = {
-			CHE = { 
-				country_event = chechnya.25
+		ai_chance = { base = 25 }
+		if = {
+			limit = { NOT = { has_country_flag = RAS_deportation_response_resolved } }
+			set_country_flag = RAS_deportation_response_resolved
+			add_war_support = 0.025
+			add_political_power = -75
+			custom_effect_tooltip = 15_RAS_tt
+			hidden_effect = {
+				CHE = { country_event = chechnya.25 }
 			}
+		}
+	}
+	option = {
+		name = russia.2.c
+		trigger = { RAS_can_begin_early_chechen_preparations = yes }
+		ai_chance = { base = 0 }
+		if = {
+			limit = {
+				RAS_can_begin_early_chechen_preparations = yes
+				NOT = { has_country_flag = RAS_deportation_response_resolved }
+			}
+			set_country_flag = RAS_deportation_response_resolved
+			set_country_flag = RAS_early_chechen_war_preparation
+			custom_effect_tooltip = RAS_early_chechen_preparations_tt
+			if = {
+				limit = { NOT = { has_completed_focus = RAS_support_chechen_opposition } }
+				complete_national_focus = RAS_support_chechen_opposition
+			}
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 }

@@ -525,7 +525,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = state_of_emergency
+			picture = CHE_idea_sleepless_enemy_of_the_tanks_ideas
 
 			equipment_bonus = {
 				infantry_equipment = {
@@ -750,7 +750,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_disorganized_defense_idea
+			picture = GFX_idea_CHE_russian_troops_in_chechnya
 
 			modifier = {
 				political_power_cost = 0.15

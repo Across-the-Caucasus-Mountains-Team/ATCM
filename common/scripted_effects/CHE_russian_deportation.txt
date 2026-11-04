@@ -1,0 +1,116 @@
+CHE_deport_russians_from_state_effect = {
+	if = {
+		limit = {
+			is_owned_by = CHE
+			is_controlled_by = CHE
+			state_population > $AMOUNT$
+		}
+		add_manpower = -$AMOUNT$
+		CHE = {
+			add_to_variable = { CHE_deported_population = $AMOUNT$ }
+		}
+	}
+}
+
+CHE_settle_russian_refugees_effect = {
+	if = {
+		limit = {
+			NOT = { has_country_flag = CHE_refugees_settled_in_RAS }
+			check_variable = { var = CHE_refugees_on_map value = 0 compare = greater_than }
+			exists = RAS
+			RAS = {
+				any_owned_state = {
+					is_controlled_by = RAS
+					is_core_of = RAS
+					state_population > 1000
+				}
+			}
+		}
+		RAS = {
+			set_variable = { RAS_chechen_refugees_received = CHE.CHE_refugees_on_map }
+			if = {
+				limit = {
+					3 = { is_owned_by = RAS is_controlled_by = RAS is_core_of = RAS state_population > 1000 }
+				}
+				3 = { add_manpower = RAS.RAS_chechen_refugees_received }
+			}
+			else_if = {
+				limit = {
+					2 = { is_owned_by = RAS is_controlled_by = RAS is_core_of = RAS state_population > 1000 }
+				}
+				2 = { add_manpower = RAS.RAS_chechen_refugees_received }
+			}
+			else = {
+				random_owned_controlled_state = {
+					limit = { is_core_of = RAS state_population > 1000 }
+					add_manpower = RAS.RAS_chechen_refugees_received
+				}
+			}
+		}
+		set_country_flag = CHE_refugees_settled_in_RAS
+	}
+}
+
+CHE_finish_russian_deportation_effect = {
+	set_variable = { CHE_refugees_on_map = var:CHE_deported_population }
+	divide_variable = { CHE_refugees_on_map = 2 }
+	CHE_settle_russian_refugees_effect = yes
+	if = {
+		limit = {
+			exists = RAS
+			check_variable = { var = CHE_deported_population value = 0 compare = greater_than }
+		}
+		RAS = {
+			add_opinion_modifier = { target = CHE modifier = drove_out_the_russians }
+			country_event = { id = russia.2 days = 1 }
+		}
+	}
+}
+
+CHE_dudayev_russian_deportation_effect = {
+	if = {
+		limit = { NOT = { has_country_flag = CHE_russian_deportation_applied } }
+		set_country_flag = CHE_russian_question_resolved
+		set_country_flag = CHE_russian_deportation_applied
+		set_country_flag = CHE_dudayev_russian_deportation
+		add_popularity = { ideology = communism popularity = -0.025 }
+		add_war_support = 0.05
+		add_political_power = 50
+		add_stability = -0.1
+		custom_effect_tooltip = CHE_dudayev_russian_deportation_tt
+		hidden_effect = {
+			set_variable = { CHE_deported_population = 0 }
+			21 = { CHE_deport_russians_from_state_effect = { AMOUNT = 22000 } }
+			11 = { CHE_deport_russians_from_state_effect = { AMOUNT = 6000 } }
+			16 = { CHE_deport_russians_from_state_effect = { AMOUNT = 1500 } }
+			128 = { CHE_deport_russians_from_state_effect = { AMOUNT = 500 } }
+			CHE_finish_russian_deportation_effect = yes
+			if = {
+				limit = { exists = RAS }
+				RAS = { add_stability = -0.05 }
+			}
+		}
+	}
+}
+
+CHE_islamist_russian_deportation_effect = {
+	if = {
+		limit = { NOT = { has_country_flag = CHE_russian_deportation_applied } }
+		set_country_flag = CHE_russian_question_resolved
+		set_country_flag = CHE_russian_deportation_applied
+		set_country_flag = CHE_islamist_russian_deportation
+		add_popularity = { ideology = islam popularity = 0.065 }
+		add_war_support = 0.05
+		add_political_power = -50
+		add_stability = -0.175
+		custom_effect_tooltip = CHE_islamist_russian_deportation_tt
+		hidden_effect = {
+			set_variable = { CHE_deported_population = 0 }
+			21 = { CHE_deport_russians_from_state_effect = { AMOUNT = 44000 } }
+			11 = { CHE_deport_russians_from_state_effect = { AMOUNT = 12000 } }
+			16 = { CHE_deport_russians_from_state_effect = { AMOUNT = 3000 } }
+			128 = { CHE_deport_russians_from_state_effect = { AMOUNT = 1000 } }
+			CHE_finish_russian_deportation_effect = yes
+		}
+	}
+}

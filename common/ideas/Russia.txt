@@ -69,7 +69,7 @@ ideas = {
 			}
 		}
 
-		RAS_reorganize_our_frontline_idea = {
+		RAS_reorganize_our_frontline = {
 			
 			allowed = {
 				original_tag = RAS
@@ -81,7 +81,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = RAS_reorganize_our_frontline_idea
+			picture = GFX_idea_RAS_reorganize_our_frontline
 			
 			modifier = {
 				army_speed_factor = 0.075
@@ -90,7 +90,7 @@ ideas = {
 			}
 		}
 
-		RAS_emergency_redeployment_idea = {
+		RAS_emergency_redeployment = {
 			
 			allowed = {
 				original_tag = RAS
@@ -101,8 +101,8 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
-			picture = RAS_reorganize_our_frontline_idea
+
+			picture = GFX_idea_RAS_emergency_redeployment
 			
 			modifier = {
 				army_speed_factor = 0.35
@@ -190,7 +190,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = RAS_awacs_reconnaissance_idea
+			picture = GFX_idea_RAS_awacs_reconnaissance
 			
 			modifier = {
 				decryption_power_factor = 0.15
@@ -248,7 +248,7 @@ ideas = {
 			}
 		}
 
-		RAS_roadblock_idea = {
+		RAS_roadblock = {
 
 			allowed = {
 				original_tag = RAS
@@ -260,7 +260,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = state_of_emergency
+			picture = GFX_idea_RAS_roadblock
 
 			modifier = {
 				army_speed_factor = -0.025
@@ -285,7 +285,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = state_of_emergency
+			picture = GFX_idea_RAS_resources_beyond_caucasus
 
 			modifier = {
 				country_resource_oil = 240

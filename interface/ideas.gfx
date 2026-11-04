@@ -102,7 +102,7 @@ spriteTypes = {
 
     spriteType = {
         name = "GFX_idea_chechen_insurgency"
-        texturefile = "gfx/interface/ideas/chechen_insurgency.png"
+        texturefile = "gfx/interface/ideas/CHE/CHE/chechen_insurgency.png"
     }	
 
     spriteType = {
@@ -115,16 +115,24 @@ spriteTypes = {
 		textureFile = "/gfx/interface/ideas/state_of_emergency.png"
 	}
 
+	spriteType = {
+		name = "CHE_idea_sleepless_enemy_of_the_tanks_ideas"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_sleepless_enemy_of_the_tanks.png"
+	}
 
-	
+	spriteType = {
+		name = "GFX_idea_CHE_russian_troops_in_chechnya"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_russian_troops_in_chechnya.png"
+	}
+
 	spriteType = {
 		name = "GFX_idea_CHE_Young_patriots"
-		textureFile = "/gfx/interface/ideas/CHE_Young_patriots.png"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_Young_patriots.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_CHE_memories_of_deportation"
-		textureFile = "/gfx/interface/ideas/CHE_memories_of_deportation.png"
+		textureFile = "/gfx/interface/ideas/CHE/CHE_memories_of_deportation.png"
 	}
 	
 	spriteType = {
@@ -182,7 +190,7 @@ spriteTypes = {
 		name = "GFX_idea_CHE_Nationalist_Propaganda"
 		textureFile = "/gfx/interface/ideas/CHE_Nationalist_Propaganda.png"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_CHE_National_Guard"
 		textureFile = "/gfx/interface/ideas/CHE_National_Guard.png"
@@ -216,6 +224,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_RAS_Boris_yeltsin_idea"
 		textureFile = "/gfx/interface/ideas/RAS_Boris_yeltsin_idea.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RAS_resources_beyond_caucasus"
+		textureFile = "/gfx/interface/ideas/RAS/RAS_resources_beyond_caucasus.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RAS_emergency_redeployment"
+		textureFile = "/gfx/interface/ideas/RAS/RAS_emergency_redeployment.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RAS_reorganize_our_frontline_idea"
+		textureFile = "/gfx/interface/ideas/RAS/RAS_reorganize_our_frontline.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RAS_roadblock_idea"
+		textureFile = "/gfx/interface/ideas/RAS/RAS_roadblock.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RAS_awacs_reconnaissance"
+		textureFile = "/gfx/interface/ideas/RAS/RAS_awacs_reconnaissance.png"
 	}
 	
 	spriteType = {

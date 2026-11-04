@@ -1,6 +1,46 @@
 spriteTypes = {
 
 SpriteType = {
+		name = "GFX_CHE_homemade_rifles"
+		texturefile = "gfx/interface/goals/CHE/CHE_homemade_rifles.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_handicraft_production"
+		texturefile = "gfx/interface/goals/CHE/CHE_handicraft_production.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_homemade_mines"
+		texturefile = "gfx/interface/goals/CHE/CHE_homemade_mines.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_scale_oil_refining"
+		texturefile = "gfx/interface/goals/CHE/CHE_scale_oil_refining.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_repair_shops"
+		texturefile = "gfx/interface/goals/CHE/CHE_repair_shops.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_ingusetua_operation"
+		texturefile = "gfx/interface/goals/CHE/CHE_ingusetua_operation.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_Chechnya_Daghestan"
+		texturefile = "gfx/interface/goals/CHE/CHE_Chechnya_Daghestan.png"
+	}
+
+SpriteType = {
+		name = "GFX_CHE_establish_engineer_squads"
+		texturefile = "gfx/interface/goals/CHE/CHE_establish_engineer_squads.png"
+	}
+
+SpriteType = {
 		name = "GFX_CHE_include_mass_islam_into_education"
 		texturefile = "gfx/interface/goals/CHE/CHE_include_mass_islam_into_education.png"
 	}

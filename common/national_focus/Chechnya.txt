@@ -952,40 +952,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.065}
-			add_war_support = 0.05
-			add_political_power = -50
-			add_stability = -0.175
-			custom_effect_tooltip = 4_CHE_tt
-			128 = {
-				add_manpower = -5300
-			}
-			127 = {
-				add_manpower = -6000
-			}
-			126 = {
-				add_manpower = -5200
-			}
-			125 = {
-				add_manpower = -300
-			}
-			124 = {
-			   add_manpower = -200
-			}
-			21 = {
-				add_manpower = -9250
-			}
-			20 = {
-				add_manpower = -50
-			}
-			16 = {
-				add_manpower = -780
-			}
-			hidden_effect = { 
-				RAS = {
-					country_event = russia.2
-				}
-			}
+			CHE_islamist_russian_deportation_effect = yes
 		}
 	}
 
@@ -2676,7 +2643,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_establish_engineer_squads
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_establish_engineer_squads
 		x = 1
 		y = 1
 		relative_position_id = CHE_General_Staff_of_Chechnya
@@ -3087,7 +3054,7 @@ completion_reward = {
 	focus = {
 		id = CHE_operations_outside_of_chechnya
 		icon = GFX_CHE_operations_outside_of_chechnya
-		x = 4
+		x = 0
 		y = 3
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_disrupte_Supplies }
@@ -3131,9 +3098,9 @@ completion_reward = {
 	focus = {
 		id = CHE_preapare_operation_in_budenovsk
 		icon = GFX_CHE_preapare_operation_in_budenovsk
-		x = 6
-		y = 4
-		relative_position_id = CHE_Operations
+		x = 0
+		y = 2
+		relative_position_id = CHE_operations_outside_of_chechnya
 		prerequisite = { focus = CHE_operations_outside_of_chechnya }
 
 		cost = 1
@@ -3166,9 +3133,10 @@ completion_reward = {
 		id = CHE_counter_offensive
 		icon = GFX_CHE_counter_attack
 		x = 4
-		y = 4
+		y = 3
 		relative_position_id = CHE_Operations
-		prerequisite = { focus = CHE_operations_outside_of_chechnya }
+		prerequisite = { focus = CHE_disrupte_Supplies }
+		prerequisite = { focus = CHE_State_of_Emergency }
 
 		cost = 1
 
@@ -3202,7 +3170,7 @@ completion_reward = {
 		id = CHE_start_operation_of_jihad
 		icon = GFX_CHE_start_operation_of_jihad
 		x = 4
-		y = 5
+		y = 4
 		relative_position_id = CHE_Operations
 		prerequisite = { focus = CHE_counter_offensive }
 
@@ -3236,11 +3204,11 @@ completion_reward = {
 
 	focus = {
 		id = CHE_Chechnya_Daghestan
-		icon = GFX_CHE_Report
-		x = 2
+		icon = GFX_CHE_Chechnya_Daghestan
+		x = -1
 		y = 1
-		relative_position_id = CHE_start_operation_of_jihad
-		prerequisite = { focus = CHE_start_operation_of_jihad }
+		relative_position_id = CHE_operations_outside_of_chechnya
+		prerequisite = { focus = CHE_operations_outside_of_chechnya }
 
 		cost = 8
 
@@ -3272,9 +3240,46 @@ completion_reward = {
 	}
 
 	focus = {
+		id = CHE_ingusetua_operation
+		icon = GFX_CHE_ingusetua_operation
+		x = 1
+		y = 1
+		relative_position_id = CHE_operations_outside_of_chechnya
+		prerequisite = { focus = CHE_operations_outside_of_chechnya }
+
+		cost = 8
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			has_global_flag = Dudayev_is_dead
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			army_experience = 25
+			17 = {
+				add_dynamic_modifier = { modifier = CHE_planned_counterattack scope = CHE days = 20 }
+			}
+		}
+	}
+
+	focus = {
 		id = CHE_East_chechnya
 		icon = GFX_CHE_Report
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = CHE_start_operation_of_jihad
 		prerequisite = { focus = CHE_start_operation_of_jihad }
@@ -3317,7 +3322,7 @@ completion_reward = {
 	focus = {
 		id = CHE_Grozny
 		icon = GFX_CHE_Report
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = CHE_start_operation_of_jihad
 		prerequisite = { focus = CHE_start_operation_of_jihad }
@@ -3518,7 +3523,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_handicraft_production
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_handicraft_production
 		x = 10
 		y = 1
 		relative_position_id = CHE_Aftermath_of_First_wave
@@ -3549,18 +3554,17 @@ completion_reward = {
 		search_filters = { }
 
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 2 }
-			add_offsite_building = { type = industrial_complex level = 1 }
+			add_offsite_building = { type = industrial_complex level = 2 }
 		}
 	}
 
 	focus = {
 		id = CHE_homemade_rifles
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_homemade_rifles
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = CHE_handicraft_production
-		prerequisite = { focus = CHE_handicraft_production }
+		prerequisite = { focus = CHE_repair_shops }
 
 		cost = 10
 
@@ -3592,12 +3596,86 @@ completion_reward = {
 	}
 
 	focus = {
-		id = CHE_homemade_mines
-		icon = GFX_goal_unknown
-		x = -1
+		id = CHE_scale_oil_refining
+		icon = GFX_CHE_scale_oil_refining
+		x = -2
 		y = 1
 		relative_position_id = CHE_handicraft_production
 		prerequisite = { focus = CHE_handicraft_production }
+
+		cost = 10
+
+		ai_will_do = {
+			base = -1
+			modifier = {
+				factor = 3
+				date > 1996.01.05
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			add_offsite_building = { type = synthetic_refinery level = 1 }
+		}
+	}
+
+	focus = {
+		id = CHE_repair_shops
+		icon = GFX_CHE_repair_shops
+		x = 0
+		y = 1
+		relative_position_id = CHE_handicraft_production
+		prerequisite = { focus = CHE_handicraft_production }
+
+		cost = 15
+
+		ai_will_do = {
+			base = -1
+			modifier = {
+				factor = 3
+				date > 1996.01.05
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 2 }
+		}
+	}
+
+	focus = {
+		id = CHE_homemade_mines
+		icon = GFX_CHE_homemade_mines
+		x = -1
+		y = 2
+		relative_position_id = CHE_handicraft_production
+		prerequisite = { focus = CHE_repair_shops }
 
 		cost = 10
 
@@ -3632,7 +3710,7 @@ completion_reward = {
 		id = CHE_workshops_in_the_mountains
 		icon = GFX_goal_unknown
 		x = 0
-		y = 2
+		y = 3
 		relative_position_id = CHE_handicraft_production
 		prerequisite = { focus = CHE_homemade_mines }
 		prerequisite = { focus = CHE_homemade_rifles }
