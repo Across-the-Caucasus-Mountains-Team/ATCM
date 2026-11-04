@@ -3861,7 +3861,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_deal_with_debt
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_deal_with_debt
 		prerequisite = { focus = RAS_save_the_russian_economy }
 		x = 2
 		y = 1
@@ -3976,7 +3976,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_decree_on_price_liberalization
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_decree_on_price_liberalization
 		prerequisite = { focus = RAS_shock_economic_reforms }
 		x = 0
 		y = 1

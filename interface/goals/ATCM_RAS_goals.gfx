@@ -369,5 +369,22 @@ SpriteType = {
 	}
 
 
+	
+#██████╗ ██╗   ██╗    ██╗   ██╗███████╗██╗  ██╗██╗  ██╗ ██████╗ 
+#██╔══██╗╚██╗ ██╔╝    ██║   ██║██╔════╝██║ ██╔╝██║ ██╔╝██╔═══██╗
+#██████╔╝ ╚████╔╝     ██║   ██║███████╗█████╔╝ █████╔╝ ██║   ██║
+#██╔══██╗  ╚██╔╝      ██║   ██║╚════██║██╔═██╗ ██╔═██╗ ██║   ██║
+#██████╔╝   ██║       ╚██████╔╝███████║██║  ██╗██║  ██╗╚██████╔╝
+#╚═════╝    ╚═╝        ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ 
+                                                               
+SpriteType = {
+		name = "GFX_RAS_deal_with_debt"
+		texturefile = "gfx\interface\Goals\RAS_by_uskko\RAS_deal_with_debt.png"
+	}
+SpriteType = {
+		name = "GFX_RAS_decree_on_price_liberalization"
+		texturefile = "gfx\interface\Goals\RAS_by_uskko\RAS_decree_on_price_liberalization.png"
+	}
+
 
 }
