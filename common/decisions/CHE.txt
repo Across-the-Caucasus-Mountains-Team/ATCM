@@ -7,6 +7,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 35
+		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 
 		#Fail trigger
 		available = {
@@ -48,6 +49,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
+		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -83,6 +85,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
+		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 
 		#Fail trigger
 		available = {
@@ -118,6 +121,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
+		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -153,6 +157,7 @@ CHE_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
+		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -342,7 +347,7 @@ CHE_first_chechen_war_decision = {
 
 		complete_effect = {
 			add_equipment_to_stockpile = { 
-				type = modern_tank_equipment_1 
+				type = ifv_1_equipment
 				amount = 3
 			}
 		}
@@ -494,6 +499,7 @@ CHE_first_chechen_war_decision = {
 		}
 		
 		days_mission_timeout = 30
+		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		fire_only_once = no
 		is_good = yes
 		
@@ -619,6 +625,7 @@ CHE_general_staff_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 45
+		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {

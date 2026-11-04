@@ -2165,17 +2165,17 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CAS1_medium"
-		texturefile = "gfx/interface/technologies/CAS1.dds"
+		texturefile = "gfx/interface/technologies/su25.png"
 	}
 
 	SpriteType = {
 		name = "GFX_CAS2_medium"
-		texturefile = "gfx/interface/technologies/CAS2.dds"
+		texturefile = "gfx/interface/technologies/su24.png"
 	}
 
 	SpriteType = {
 		name = "GFX_CAS3_medium"
-		texturefile = "gfx/interface/technologies/CAS3.dds"
+		texturefile = "gfx/interface/technologies/su30.png"
 	}
 	
 	SpriteType = {

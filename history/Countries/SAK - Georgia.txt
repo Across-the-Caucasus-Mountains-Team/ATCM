@@ -3,8 +3,26 @@ capital = 48
 set_research_slots = 3
 
 oob = "SAK_1991"
+set_cosmetic_tag = SOV_SAK
 
 set_country_flag = StartguiOpen
+
+
+recruit_character = SAK_zviad_gamsakhurdia
+recruit_character = SAK_Giorgi_Karkarashvili
+recruit_character = SAK_Tengiz_Kitovani
+recruit_character = SAK_Jaba_Ioseliani
+recruit_character = SAK_Tamar_ckheidze
+recruit_character = SAK_Besarion_Gugushvili
+recruit_character = SAK_Military_council
+recruit_character = SAK_Eduard_Shevardnadze
+recruit_character = SAK_Akaki_Asatiani
+recruit_character = SAK_Tengiz_Sigua
+recruit_character = SAK_Giorgi_Chanturia
+recruit_character = SAK_Ilia_II
+recruit_character = SAK_Avtandil_Tskitishvili
+recruit_character = SAK_Geno_Adamia
+recruit_character = SAK_Boris_Grigolashvili
 
 1996.1.1 = {
 	drop_cosmetic_tag = yes
@@ -125,21 +143,6 @@ set_variable = { SAK_pac_production_factory_efficiency_gain_factor = -0.25 }
 set_variable = { SAK_pac_production_factory_max_efficiency_factor = -0.25 }
 set_variable = { SAK_pac_production_speed_industrial_complex_factor = -0.35 }
 
-recruit_character = SAK_zviad_gamsakhurdia
-recruit_character = SAK_Giorgi_Karkarashvili
-recruit_character = SAK_Tengiz_Kitovani
-recruit_character = SAK_Jaba_Ioseliani
-recruit_character = SAK_Tamar_ckheidze
-recruit_character = SAK_Besarion_Gugushvili
-recruit_character = SAK_Military_council
-recruit_character = SAK_Eduard_Shevardnadze
-recruit_character = SAK_Akaki_Asatiani
-recruit_character = SAK_Tengiz_Sigua
-recruit_character = SAK_Giorgi_Chanturia
-recruit_character = SAK_Ilia_II
-recruit_character = SAK_Avtandil_Tskitishvili
-recruit_character = SAK_Geno_Adamia
-recruit_character = SAK_Boris_Grigolashvili
 
 set_variable = { cash = 1 }
 

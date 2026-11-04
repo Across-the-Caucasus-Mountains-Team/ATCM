@@ -123,20 +123,24 @@ country_event = {
 	picture = GFX_Report_event_CHE_battle_is_in_here
 
 	is_triggered_only = yes
+	trigger = { has_war_with = RAS }
 
 	option = {
 		name = chechnya.6.a
-		add_timed_idea = {
-			idea = CHE_disorganized_defense_idea
-			days = 30
+		if = {
+			limit = { has_war_with = RAS }
+			add_timed_idea = {
+				idea = CHE_disorganized_defense_idea
+				days = 30
+			}
+			activate_mission = CHE_hold_Grozny
+			activate_mission = CHE_hold_Shali
+			activate_mission = CHE_hold_Gudermes
+			activate_mission = CHE_hold_UrusMartan
+			activate_mission = CHE_hold_Argun
+			set_country_flag = FirstChechenWar
+			mark_focus_tree_layout_dirty = yes
 		}
-		activate_mission = CHE_hold_Grozny
-		activate_mission = CHE_hold_Shali
-		activate_mission = CHE_hold_Gudermes
-		activate_mission = CHE_hold_UrusMartan
-		activate_mission = CHE_hold_Argun
-		set_country_flag = FirstChechenWar
-		mark_focus_tree_layout_dirty = yes
 	}
 }
 
@@ -178,15 +182,19 @@ country_event = {
 	picture = GFX_Report_event_RAS_failed_blitz
 
 	is_triggered_only = yes
+	trigger = { has_war_with = RAS }
 
 	option = {
 		name = chechnya.9.a
-		add_war_support = 0.075
-		add_political_power = 50
-		custom_effect_tooltip = 5_CHE_tt
-		hidden_effect = {
-			set_country_flag = AftermatchOfFirstWave
-			mark_focus_tree_layout_dirty = yes
+		if = {
+			limit = { has_war_with = RAS }
+			add_war_support = 0.075
+			add_political_power = 50
+			custom_effect_tooltip = 5_CHE_tt
+			hidden_effect = {
+				set_country_flag = AftermatchOfFirstWave
+				mark_focus_tree_layout_dirty = yes
+			}
 		}
 	}
 }
@@ -780,29 +788,36 @@ country_event = {
 	picture = GFX_Report_event_RAS_shooting_at_parliament
 
 	is_triggered_only = yes
+	trigger = { has_war_with = CHE }
 
 	option = {
 		name = chechnya.32.a
-		add_stability = 0.25
-		add_political_power = 50
-		white_peace = CHE
-		hidden_effect = {
-			news_event = {
-				id = news.21
-				days = 3
-			}
-			CHE = {
-				annex_country = {
-					target = CHI
-					transfer_troops = no
+		if = {
+			limit = { has_war_with = CHE }
+			add_stability = 0.25
+			add_political_power = 50
+			white_peace = CHE
+			hidden_effect = {
+				news_event = {
+					id = news.21
+					days = 3
+				}
+				CHE = {
+					if = {
+						limit = { exists = CHI }
+						annex_country = {
+							target = CHI
+							transfer_troops = no
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
 				}
 				mark_focus_tree_layout_dirty = yes
+				finish_first_chechen_war = yes
 			}
-			mark_focus_tree_layout_dirty = yes
-			set_global_flag = AfterFirstChechenWar
 		}
 		ai_chance = {
-			base = -5
+			base = 5
 			modifier = {
 				factor = 2
 				date > 1996.01.01
@@ -816,11 +831,11 @@ country_event = {
 				has_war_support < 0.25
 			}
 			modifier = {
-				factor = -3
+				factor = 0.3333333333
 				has_war_support > 0.55
 			}
 			modifier = {
-				factor = -16
+				factor = 0.0625
 				CHE = {
 					surrender_progress > 0.65
 				}
@@ -845,11 +860,14 @@ country_event = {
 
 	option = {
 		name = chechnya.32.b
-		add_stability = -0.175
-		add_political_power = -150
-		hidden_effect = {
-			CHE = { 
-				country_event = chechnya.33
+		if = {
+			limit = { has_war_with = CHE }
+			add_stability = -0.175
+			add_political_power = -150
+			hidden_effect = {
+				CHE = {
+					country_event = chechnya.33
+				}
 			}
 		}
 	}

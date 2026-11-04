@@ -111,20 +111,24 @@ country_event = {
 	picture = GFX_Report_event_RAS_failed_blitz
 
 	is_triggered_only = yes
+	trigger = { has_war_with = CHE }
 
 	option = {
 		name = russia.6.a
-		add_war_support = -0.05
-		add_popularity = {
-			ideology = liberalism
-			popularity = -0.05
-		}
-		custom_effect_tooltip = 6_RAS_tt
-		mark_focus_tree_layout_dirty = yes
-		set_global_flag = Fail_Blitz_First_ChechenWar
-		complete_national_focus = {
-			focus = RAS_failed_blitz
-			use_side_message = yes
+		if = {
+			limit = { has_war_with = CHE }
+			add_war_support = -0.05
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.05
+			}
+			custom_effect_tooltip = 6_RAS_tt
+			mark_focus_tree_layout_dirty = yes
+			set_global_flag = Fail_Blitz_First_ChechenWar
+			complete_national_focus = {
+				focus = RAS_failed_blitz
+				use_side_message = yes
+			}
 		}
 	}
 }
@@ -282,35 +286,45 @@ country_event = {
 	picture = GFX_Report_event_RAS_shooting_at_parliament
 
 	is_triggered_only = yes
+	trigger = { has_war_with = RAS }
 
 	option = {
 		name = russia.13.a
-		add_stability = 0.20
-		white_peace = RAS
-		hidden_effect = {
-			RAS = {
-				country_event = russia.18
+		if = {
+			limit = { has_war_with = RAS }
+			add_stability = 0.20
+			white_peace = RAS
+			hidden_effect = {
+				RAS = {
+					country_event = russia.18
+				}
+				news_event = {
+					id = news.21
+					days = 3
+				}
+				if = {
+					limit = { exists = CHI }
+					annex_country = {
+						target = CHI
+						transfer_troops = no
+					}
+				}
+				mark_focus_tree_layout_dirty = yes
+				finish_first_chechen_war = yes
 			}
-			news_event = {
-				id = news.21
-				days = 3
-			}
-			annex_country = {
-				target = CHI
-				transfer_troops = no
-			}
-			mark_focus_tree_layout_dirty = yes
-			set_global_flag = AfterFirstChechenWar
 		}
 	}
 
 	option = {
 		name = russia.13.b
-		add_stability = -0.175
-		add_political_power = -200
-		hidden_effect = {
-			RAS = { 
-				country_event = russia.19
+		if = {
+			limit = { has_war_with = RAS }
+			add_stability = -0.175
+			add_political_power = -200
+			hidden_effect = {
+				RAS = {
+					country_event = russia.19
+				}
 			}
 		}
 	}

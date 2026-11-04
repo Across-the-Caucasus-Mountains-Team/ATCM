@@ -367,6 +367,17 @@ SpriteType = {
 		name = "GFX_RAS_ultimatum_to_chechnya"
 		texturefile = "gfx/interface/goals/RAS/RAS_ultimatum_to_chechnya.png"
 	}
+    SpriteType = {
+		name = "GFX_RAS_ground_operation"
+		texturefile = "gfx/interface/goals/RAS/RAS_ground_operation.png"
+	}
+    SpriteType = {
+		name = "GFX_RAS_vdv_operation"
+		texturefile = "gfx/interface/goals/RAS/RAS_vdv_operation.png"
+	}
+
+
+
 
 
 	
