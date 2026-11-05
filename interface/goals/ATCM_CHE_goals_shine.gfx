@@ -1,600 +1,880 @@
 spriteTypes = {
-
 	spriteType = {
-    name = "GFX_CHE_start_operation_of_jihad_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_start_operation_of_jihad.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_start_operation_of_jihad.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_start_operation_of_jihad.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_include_mass_islam_into_education_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_include_mass_islam_into_education.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_include_mass_islam_into_education.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_include_mass_islam_into_education.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_ideas_of_caucasian_chaliphate_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_support_azerbajani_radicals_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_support_azerbajani_radicals.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_support_azerbajani_radicals.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_support_azerbajani_radicals.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_radical_islamism_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_radical_islamism.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_radical_islamism.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_radical_islamism.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_connections_with_islamists_around_the_world_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_connections_with_islamists_around_the_world.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_connections_with_islamists_around_the_world.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_connections_with_islamists_around_the_world.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_investments_of_islamic_countries_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_investments_of_islamic_countries.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_investments_of_islamic_countries.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_investments_of_islamic_countries.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_fight_with_moderate_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_fight_with_moderate.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_fight_with_moderate.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_fight_with_moderate.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_light_a_fire_in_georgia_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_light_a_fire_in_georgia.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_light_a_fire_in_georgia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_light_a_fire_in_georgia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_establish_a_sharia_police_force_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_establish_a_sharia_police_force.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_establish_a_sharia_police_force.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_establish_a_sharia_police_force.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_establish_military_training_center_caucasus_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_establish_military_training_center_caucasus.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_establish_military_training_center_caucasus.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_establish_military_training_center_caucasus.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_establish_the_guard_of_allah_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_establish_the_guard_of_allah.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_establish_the_guard_of_allah.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_establish_the_guard_of_allah.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_foreign_islamic_volunteers_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_foreign_islamic_volunteers.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_foreign_islamic_volunteers.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_foreign_islamic_volunteers.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_hold_ingushetia_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_hold_ingushetia.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_hold_ingushetia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_hold_ingushetia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_islamization_of_the_army_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_islamization_of_the_army.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_islamization_of_the_army.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_islamization_of_the_army.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_ismalist_propaganda_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_ismalist_propaganda.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_ismalist_propaganda.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_ismalist_propaganda.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_sharia_laws_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_sharia_laws.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_sharia_laws.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_sharia_laws.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_secure_the_support_of_the_elites_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_secure_the_support_of_the_elites.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_secure_the_support_of_the_elites.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_secure_the_support_of_the_elites.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_reorganization_of_courts_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_reorganization_of_courts.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_reorganization_of_courts.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_reorganization_of_courts.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-SpriteType = {
+		name = "GFX_CHE_homemade_rifles_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_homemade_rifles.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_homemade_rifles.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_homemade_rifles.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_handicraft_production_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_handicraft_production.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_handicraft_production.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_handicraft_production.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_homemade_mines_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_homemade_mines.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_homemade_mines.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_homemade_mines.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_scale_oil_refining_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_scale_oil_refining.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_scale_oil_refining.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_scale_oil_refining.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_repair_shops_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_repair_shops.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_repair_shops.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_repair_shops.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_ingusetua_operation_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_ingusetua_operation.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ingusetua_operation.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ingusetua_operation.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_Chechnya_Daghestan_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Chechnya_Daghestan.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Chechnya_Daghestan.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Chechnya_Daghestan.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_establish_engineer_squads_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_establish_engineer_squads.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_engineer_squads.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_engineer_squads.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_include_mass_islam_into_education_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_include_mass_islam_into_education.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_include_mass_islam_into_education.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_include_mass_islam_into_education.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_ideas_of_caucasian_chaliphate_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ideas_of_caucasian_chaliphate.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_support_azerbajani_radicals_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_support_azerbajani_radicals.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_support_azerbajani_radicals.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_support_azerbajani_radicals.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_radical_islamism_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_radical_islamism.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_radical_islamism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_radical_islamism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_connections_with_islamists_around_the_world_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_connections_with_islamists_around_the_world.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_connections_with_islamists_around_the_world.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_connections_with_islamists_around_the_world.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_spread_mutsuraev_creative_work_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_spread_mutsuraev_creative_work.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_spread_mutsuraev_creative_work.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_spread_mutsuraev_creative_work.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_start_operation_of_jihad_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_start_operation_of_jihad.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_start_operation_of_jihad.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_start_operation_of_jihad.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_Hit_and_run_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Hit_and_run.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Hit_and_run.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Hit_and_run.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_investments_of_islamic_countries_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_investments_of_islamic_countries.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_investments_of_islamic_countries.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_investments_of_islamic_countries.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_fight_with_moderate_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_fight_with_moderate.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fight_with_moderate.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fight_with_moderate.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_light_a_fire_in_georgia_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_light_a_fire_in_georgia.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_light_a_fire_in_georgia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_light_a_fire_in_georgia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_establish_a_sharia_police_force_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_establish_a_sharia_police_force.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_a_sharia_police_force.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_a_sharia_police_force.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_establish_military_training_center_caucasus_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_establish_military_training_center_caucasus.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_military_training_center_caucasus.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_military_training_center_caucasus.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_establish_the_guard_of_allah_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_establish_the_guard_of_allah.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_the_guard_of_allah.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_establish_the_guard_of_allah.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_foreign_islamic_volunteers_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_foreign_islamic_volunteers.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_foreign_islamic_volunteers.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_foreign_islamic_volunteers.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_hold_ingushetia_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_hold_ingushetia.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_hold_ingushetia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_hold_ingushetia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_islamization_of_the_army_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_islamization_of_the_army.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_islamization_of_the_army.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_islamization_of_the_army.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_ismalist_propaganda_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_ismalist_propaganda.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ismalist_propaganda.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ismalist_propaganda.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_sharia_laws_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_sharia_laws.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_sharia_laws.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_sharia_laws.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_secure_the_support_of_the_elites_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_secure_the_support_of_the_elites.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_secure_the_support_of_the_elites.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_secure_the_support_of_the_elites.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_reorganization_of_courts_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_reorganization_of_courts.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_reorganization_of_courts.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_reorganization_of_courts.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_CHE_Surrender_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Surrender.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Surrender.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Surrender.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Surrender.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -606,7 +886,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Surrender.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Surrender.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -619,13 +899,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_centralize_power_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_centralize_power.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_centralize_power.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_centralize_power.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_centralize_power.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -637,7 +916,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_centralize_power.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_centralize_power.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -650,44 +929,42 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-spriteType = {
-    name = "GFX_CHE_Total_Control_has_achived_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_Total_Control_has_achived.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_Total_Control_has_achived.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_Total_Control_has_achived.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-SpriteType = {
+	spriteType = {
+		name = "GFX_CHE_Total_Control_has_achived_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Total_Control_has_achived.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Total_Control_has_achived.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Total_Control_has_achived.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_CHE_small_sabotages_units_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_small_sabotages_units.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_small_sabotages_units.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_small_sabotages_units.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_small_sabotages_units.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -699,7 +976,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_small_sabotages_units.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_small_sabotages_units.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -712,13 +989,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_artillery_divisions_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Artilerian_divisions.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Artilerian_divisions.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Artilerian_divisions.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Artilerian_divisions.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -730,7 +1006,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Artilerian_divisions.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Artilerian_divisions.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -743,13 +1019,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_harsh_training_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_harsh_training.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_harsh_training.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_harsh_training.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_harsh_training.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -761,7 +1036,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_harsh_training.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_harsh_training.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -774,44 +1049,42 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-spriteType = {
-    name = "GFX_CHE_glory_of_ichkerian_army_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_glory_of_ichkerian_army.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_glory_of_ichkerian_army.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_glory_of_ichkerian_army.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-SpriteType = {
+	spriteType = {
+		name = "GFX_CHE_glory_of_ichkerian_army_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_glory_of_ichkerian_army.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_glory_of_ichkerian_army.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_glory_of_ichkerian_army.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_CHE_guerrilla_warfare_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_guerrilla_warfare.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_guerrilla_warfare.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_guerrilla_warfare.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_guerrilla_warfare.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -823,7 +1096,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_guerrilla_warfare.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_guerrilla_warfare.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -836,13 +1109,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_small_groups_tactics_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_small_groups_tactics.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_small_groups_tactics.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_small_groups_tactics.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_small_groups_tactics.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -854,7 +1126,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_small_groups_tactics.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_small_groups_tactics.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -867,13 +1139,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Fanatical_Resistance_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Fanatical_Resistance.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Fanatical_Resistance.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Fanatical_Resistance.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Fanatical_Resistance.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -885,7 +1156,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Fanatical_Resistance.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Fanatical_Resistance.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -898,13 +1169,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_adapt_their_weapon_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_adapt_their_weapon.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_adapt_their_weapon.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_adapt_their_weapon.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_adapt_their_weapon.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -916,7 +1186,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_adapt_their_weapon.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_adapt_their_weapon.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -929,13 +1199,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Disrupt_Supply_lines_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Disrupt_Supply_lines.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Disrupt_Supply_lines.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Disrupt_Supply_lines.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Disrupt_Supply_lines.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -947,7 +1216,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Disrupt_Supply_lines.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Disrupt_Supply_lines.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -960,13 +1229,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Elite_command_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Elite_command.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Elite_command.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_command.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_command.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -978,7 +1246,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_command.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_command.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -991,13 +1259,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_counter_attack_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_counter_attack.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_counter_attack.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_counter_attack.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_counter_attack.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1009,7 +1276,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_counter_attack.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_counter_attack.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1022,13 +1289,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_fight_back_disloyal_elements_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_fight_back_disloyal_elements.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_fight_back_disloyal_elements.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fight_back_disloyal_elements.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fight_back_disloyal_elements.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1040,7 +1306,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fight_back_disloyal_elements.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fight_back_disloyal_elements.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1053,13 +1319,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Guns_for_everyone_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Guns_for_everyone.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Guns_for_everyone.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Guns_for_everyone.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Guns_for_everyone.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1071,7 +1336,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Guns_for_everyone.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Guns_for_everyone.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1084,13 +1349,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_inside_remaining_lands_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_inside_remaining_lands.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_inside_remaining_lands.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_inside_remaining_lands.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_inside_remaining_lands.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1102,7 +1366,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_inside_remaining_lands.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_inside_remaining_lands.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1115,13 +1379,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Quantity_over_quality_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Quantity_over_quality.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Quantity_over_quality.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Quantity_over_quality.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Quantity_over_quality.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1133,7 +1396,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Quantity_over_quality.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Quantity_over_quality.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1146,13 +1409,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_homeland_above_all_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_homeland_above_all.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_homeland_above_all.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_homeland_above_all.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_homeland_above_all.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1164,7 +1426,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_homeland_above_all.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_homeland_above_all.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1177,13 +1439,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Death_or_freedom_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Death_or_freedom.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Death_or_freedom.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Death_or_freedom.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Death_or_freedom.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1195,7 +1456,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Death_or_freedom.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Death_or_freedom.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1208,13 +1469,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_khatab_influence_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_khatab_influence.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_khatab_influence.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_khatab_influence.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_khatab_influence.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1226,7 +1486,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_khatab_influence.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_khatab_influence.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1239,13 +1499,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_build_secular_state_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_build_secular_state.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_build_secular_state.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_build_secular_state.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_build_secular_state.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1257,7 +1516,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_build_secular_state.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_build_secular_state.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1270,13 +1529,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_2nd_session_of_the_firs_chechen_national_congress_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1288,7 +1546,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_2nd_session_of_the_firs_chechen_national_congress.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1301,13 +1559,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_propaganda_of_nationalism_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_propaganda_of_nationalism.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_propaganda_of_nationalism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_propaganda_of_nationalism.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_propaganda_of_nationalism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1319,7 +1576,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_propaganda_of_nationalism.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_propaganda_of_nationalism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1332,13 +1589,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_build_islamic_state_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_build_islamic_state.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_build_islamic_state.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_build_islamic_state.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_build_islamic_state.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1350,7 +1606,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_build_islamic_state.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_build_islamic_state.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1363,13 +1619,132 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
+		name = "GFX_CHE_secret_deliveries_to_azerbajani_radicals_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_secret_deliveries_to_azerbajani_radicals.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_secret_deliveries_to_azerbajani_radicals.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_secret_deliveries_to_azerbajani_radicals.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_send_basayev_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_send_basayev.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_send_basayev.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_send_basayev.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_support_akhazian_separatists_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_support_akhazian_separatists.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_support_akhazian_separatists.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_support_akhazian_separatists.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_support_osetian_separatists_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_support_osetian_separatists.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_support_osetian_separatists.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_support_osetian_separatists.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_CHE_hold_elections_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_hold_elections.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_hold_elections.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_hold_elections.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_hold_elections.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1381,7 +1756,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_hold_elections.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_hold_elections.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1394,13 +1769,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_operations_outside_of_chechnya_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_operations_outside_of_chechnya.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_operations_outside_of_chechnya.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_operations_outside_of_chechnya.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_operations_outside_of_chechnya.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1412,7 +1786,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_operations_outside_of_chechnya.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_operations_outside_of_chechnya.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1425,13 +1799,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_ukranians_volunters_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_ukranians_volunters.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_ukranians_volunters.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_ukranians_volunters.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ukranians_volunters.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1443,7 +1816,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_ukranians_volunters.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_ukranians_volunters.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1456,13 +1829,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_cry_for_help_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_cry_for_help.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_cry_for_help.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_cry_for_help.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_cry_for_help.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1474,7 +1846,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_cry_for_help.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_cry_for_help.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1487,13 +1859,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_muslim_volunteers_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_muslim_volunteers.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_muslim_volunteers.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_muslim_volunteers.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_muslim_volunteers.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1505,7 +1876,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_muslim_volunteers.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_muslim_volunteers.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1518,13 +1889,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_roads_in_mountains_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_roads_in_mountains.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_roads_in_mountains.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_roads_in_mountains.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_roads_in_mountains.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1536,7 +1906,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_roads_in_mountains.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_roads_in_mountains.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1549,13 +1919,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Economy_question_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Economy_question.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Economy_question.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Economy_question.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Economy_question.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1567,7 +1936,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Economy_question.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Economy_question.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1580,13 +1949,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_fund_north_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_fund_north.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_fund_north.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fund_north.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fund_north.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1598,7 +1966,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fund_north.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fund_north.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1611,13 +1979,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_factories_in_grozny_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_factories_in_grozny.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_factories_in_grozny.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_factories_in_grozny.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_factories_in_grozny.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1629,7 +1996,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_factories_in_grozny.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_factories_in_grozny.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1642,13 +2009,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_fight_back_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_fight_back.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_fight_back.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fight_back.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fight_back.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1660,7 +2026,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fight_back.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fight_back.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1673,13 +2039,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_War_correspondents_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_War_correspondents.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_War_correspondents.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_War_correspondents.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_War_correspondents.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1691,7 +2056,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_War_correspondents.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_War_correspondents.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1704,13 +2069,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_internet_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_internet.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_internet.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_internet.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_internet.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1722,7 +2086,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_internet.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_internet.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1735,13 +2099,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Deny_our_war_crimes_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Deny_our_war_crimes.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Deny_our_war_crimes.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Deny_our_war_crimes.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Deny_our_war_crimes.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1753,7 +2116,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Deny_our_war_crimes.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Deny_our_war_crimes.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1766,13 +2129,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Money_in_return_of_good_propaganda_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Money_in_return_of_good_propaganda.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Money_in_return_of_good_propaganda.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Money_in_return_of_good_propaganda.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Money_in_return_of_good_propaganda.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1784,7 +2146,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Money_in_return_of_good_propaganda.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Money_in_return_of_good_propaganda.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1797,13 +2159,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Hold_the_line_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Hold_the_line.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Hold_the_line.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Hold_the_line.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Hold_the_line.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1815,7 +2176,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Hold_the_line.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Hold_the_line.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1828,13 +2189,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_State_of_emergency_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_State_of_emergency.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_State_of_emergency.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_State_of_emergency.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_State_of_emergency.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1846,7 +2206,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_State_of_emergency.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_State_of_emergency.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1859,13 +2219,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Elite_Divisions_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Elite_Divisions.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Elite_Divisions.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_Divisions.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_Divisions.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1877,7 +2236,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_Divisions.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_Divisions.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1890,13 +2249,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Mountains_ghosts_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Mountains_ghosts.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Mountains_ghosts.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Mountains_ghosts.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Mountains_ghosts.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1908,7 +2266,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Mountains_ghosts.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Mountains_ghosts.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1921,13 +2279,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_for_Chechnya_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_for_Chechnya.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_for_Chechnya.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_for_Chechnya.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_for_Chechnya.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1939,7 +2296,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_for_Chechnya.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_for_Chechnya.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1952,13 +2309,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_propaganda_of_islam_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_propaganda_of_islam.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_propaganda_of_islam.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_propaganda_of_islam.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_propaganda_of_islam.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1970,7 +2326,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_propaganda_of_islam.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_propaganda_of_islam.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -1983,13 +2339,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Tanks_Nigthmare_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Tanks_Nigthmare.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Tanks_Nigthmare.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Tanks_Nigthmare.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Tanks_Nigthmare.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2001,7 +2356,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Tanks_Nigthmare.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Tanks_Nigthmare.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2014,13 +2369,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Iron_Ghosts_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Iron_Ghosts.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Iron_Ghosts.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Iron_Ghosts.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Iron_Ghosts.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2032,7 +2386,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Iron_Ghosts.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Iron_Ghosts.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2045,13 +2399,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_For_God_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_For_God.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_For_God.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_For_God.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_For_God.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2063,7 +2416,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_For_God.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_For_God.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2076,13 +2429,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_for_Dudayev_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_for_Dudayev.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_for_Dudayev.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_for_Dudayev.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_for_Dudayev.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2094,7 +2446,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_for_Dudayev.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_for_Dudayev.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2107,13 +2459,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Heavy_equiped_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Heavy_equiped.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Heavy_equiped.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Heavy_equiped.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Heavy_equiped.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2125,7 +2476,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Heavy_equiped.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Heavy_equiped.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2138,13 +2489,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Tank_Training_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Tank_Training.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Tank_Training.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Tank_Training.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Tank_Training.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2156,7 +2506,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Tank_Training.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Tank_Training.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2169,13 +2519,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Elite_armed_forces_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Elite_armed_forces.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Elite_armed_forces.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_armed_forces.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_armed_forces.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2187,7 +2536,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_armed_forces.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_armed_forces.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2200,13 +2549,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_fund_warlords_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_fund_warlords.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_fund_warlords.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fund_warlords.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fund_warlords.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2218,7 +2566,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_fund_warlords.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_fund_warlords.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2231,13 +2579,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Urban_training_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Urban_training.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Urban_training.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Urban_training.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Urban_training.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2249,7 +2596,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Urban_training.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Urban_training.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2262,13 +2609,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_irregular_forces_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_irregular_forces.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_irregular_forces.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_irregular_forces.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_irregular_forces.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2280,7 +2626,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_irregular_forces.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_irregular_forces.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2293,13 +2639,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Weak_army_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Weak_army.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Weak_army.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Weak_army.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Weak_army.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2311,7 +2656,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Weak_army.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Weak_army.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2324,13 +2669,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Operations_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Operations.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Operations.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Operations.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Operations.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2342,7 +2686,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Operations.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Operations.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2355,13 +2699,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Deport_Russians_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Deport_Russians.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Deport_Russians.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Deport_Russians.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Deport_Russians.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2373,7 +2716,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Deport_Russians.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Deport_Russians.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2386,13 +2729,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Future_of_the_Chechen_ingush_republic_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Future_of_the_Chechen_ingush_republic.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Future_of_the_Chechen_ingush_republic.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Future_of_the_Chechen_ingush_republic.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Future_of_the_Chechen_ingush_republic.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2404,7 +2746,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Future_of_the_Chechen_ingush_republic.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Future_of_the_Chechen_ingush_republic.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2417,13 +2759,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Start_the_revolution_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Start_the_revolution.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Start_the_revolution.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Start_the_revolution.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Start_the_revolution.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2435,7 +2776,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Start_the_revolution.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Start_the_revolution.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2448,13 +2789,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Russia_is_Still_Communist_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Russia_is_Still_Communist.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Russia_is_Still_Communist.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Russia_is_Still_Communist.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Russia_is_Still_Communist.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2466,7 +2806,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Russia_is_Still_Communist.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Russia_is_Still_Communist.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2479,13 +2819,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Russian_POWS_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Russian_POWS.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Russian_POWS.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Russian_POWS.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Russian_POWS.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2497,7 +2836,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Russian_POWS.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Russian_POWS.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2510,13 +2849,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Release_Battle_Footage_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Release_Battle_Footage.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Release_Battle_Footage.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Release_Battle_Footage.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Release_Battle_Footage.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2528,7 +2866,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Release_Battle_Footage.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Release_Battle_Footage.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2541,13 +2879,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_General_Staff_of_Chechnya_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_General_Staff_of_Chechnya.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_General_Staff_of_Chechnya.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_General_Staff_of_Chechnya.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_General_Staff_of_Chechnya.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2559,7 +2896,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_General_Staff_of_Chechnya.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_General_Staff_of_Chechnya.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2572,13 +2909,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Elite_Volunnters_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Elite_Volunnters.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Elite_Volunnters.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_Volunnters.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_Volunnters.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2590,7 +2926,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Elite_Volunnters.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Elite_Volunnters.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2603,13 +2939,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Recruit_Youth_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Recruit_Youth.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Recruit_Youth.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Recruit_Youth.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Recruit_Youth.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2621,7 +2956,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Recruit_Youth.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Recruit_Youth.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2634,13 +2969,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Recruit_Prisoners_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Recruit_Prisoners.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Recruit_Prisoners.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Recruit_Prisoners.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Recruit_Prisoners.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2652,7 +2986,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Recruit_Prisoners.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Recruit_Prisoners.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2665,13 +2999,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Recruit_Elderly_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Recruit_Elderly.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Recruit_Elderly.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Recruit_Elderly.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Recruit_Elderly.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2683,7 +3016,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Recruit_Elderly.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Recruit_Elderly.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2696,13 +3029,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Shortage_of_manpower_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Shortage_of_manpower.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Shortage_of_manpower.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Shortage_of_manpower.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Shortage_of_manpower.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2714,7 +3046,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Shortage_of_manpower.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Shortage_of_manpower.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2727,13 +3059,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Aftermath_of_First_Wave_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Aftermath_of_First_Wave.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Aftermath_of_First_Wave.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Aftermath_of_First_Wave.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Aftermath_of_First_Wave.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2745,7 +3076,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Aftermath_of_First_Wave.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Aftermath_of_First_Wave.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2758,13 +3089,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Information_war_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Information_war.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Information_war.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Information_war.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Information_war.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2776,7 +3106,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Information_war.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Information_war.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2789,13 +3119,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Call_Everyone_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Call_Everyone.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Call_Everyone.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Call_Everyone.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Call_Everyone.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2807,7 +3136,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Call_Everyone.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Call_Everyone.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2820,13 +3149,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Battle_of_Grozny_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Battle_of_Grozny.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Battle_of_Grozny.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Battle_of_Grozny.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Battle_of_Grozny.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2838,7 +3166,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Battle_of_Grozny.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Battle_of_Grozny.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2851,13 +3179,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Arrests_and_raids_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Arrests_and_raids.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Arrests_and_raids.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Arrests_and_raids.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Arrests_and_raids.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2869,7 +3196,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Arrests_and_raids.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Arrests_and_raids.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2882,13 +3209,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Control_over_media_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Control_over_media.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Control_over_media.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Control_over_media.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Control_over_media.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2900,7 +3226,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Control_over_media.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Control_over_media.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2913,13 +3239,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Crackdown_Opposition_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Crackdown_Opposition.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Crackdown_Opposition.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Crackdown_Opposition.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Crackdown_Opposition.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2931,7 +3256,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Crackdown_Opposition.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Crackdown_Opposition.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2944,13 +3269,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_national_speech_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_national_speech.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_national_speech.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_national_speech.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_national_speech.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2962,7 +3286,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_national_speech.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_national_speech.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -2975,13 +3299,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Silent_killing_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Silent_killing.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Silent_killing.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Silent_killing.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Silent_killing.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -2993,7 +3316,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Silent_killing.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Silent_killing.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3006,13 +3329,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Young_patriots_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Young_patriots.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Young_patriots.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Young_patriots.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Young_patriots.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3024,7 +3346,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Young_patriots.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Young_patriots.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3037,13 +3359,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Loyalists_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Loyalists.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Loyalists.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Loyalists.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Loyalists.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3055,7 +3376,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Loyalists.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Loyalists.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3068,13 +3389,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Disarm_pro_Russians_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Disarm_pro_Russians.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Disarm_pro_Russians.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Disarm_pro_Russians.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Disarm_pro_Russians.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3086,7 +3406,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Disarm_pro_Russians.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Disarm_pro_Russians.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3099,13 +3419,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Muslim_conservatism_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Muslim_conservatism.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Muslim_conservatism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Muslim_conservatism.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Muslim_conservatism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3117,7 +3436,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Muslim_conservatism.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Muslim_conservatism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3130,13 +3449,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_National_Guard_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_National_Guard.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_National_Guard.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_National_Guard.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_National_Guard.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3148,7 +3466,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_National_Guard.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_National_Guard.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3161,13 +3479,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_CHE_Report_shine"
-		texturefile = "gfx/interface/goals/CHE/CHE_Report.png"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Report.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Report.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Report.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -3179,7 +3496,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CHE/CHE_Report.png"
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_Report.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -3192,479 +3509,274 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-spriteType = {
-    name = "GFX_CHE_secret_deliveries_to_azerbajani_radicals_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_secret_deliveries_to_azerbajani_radicals.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_secret_deliveries_to_azerbajani_radicals.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_secret_deliveries_to_azerbajani_radicals.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_send_basayev_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_send_basayev.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_send_basayev.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_send_basayev.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_support_akhazian_separatists_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_support_akhazian_separatists.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_support_akhazian_separatists.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_support_akhazian_separatists.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_support_osetian_separatists_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_support_osetian_separatists.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_support_osetian_separatists.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_support_osetian_separatists.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_preapare_operation_in_budenovsk_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_preapare_operation_in_budenovsk.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_preapare_operation_in_budenovsk.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_preapare_operation_in_budenovsk.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_chechen_air_force_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_chechen_air_force.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_chechen_air_force.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_chechen_air_force.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_modernization_of_airfields_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_modernization_of_airfields.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_modernization_of_airfields.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_modernization_of_airfields.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_new_constitution_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_new_constitution.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_new_constitution.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_new_constitution.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_night_operations_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_night_operations.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_night_operations.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_night_operations.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_use_chechen_cells_in_georgia_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_use_chechen_cells_in_georgia.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_use_chechen_cells_in_georgia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_use_chechen_cells_in_georgia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_islamic_uprising_in_azerbaijan_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_islamic_uprising_in_azerbaijan.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_islamic_uprising_in_azerbaijan.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_islamic_uprising_in_azerbaijan.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_capture_georgia_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_capture_georgia.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_capture_georgia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_capture_georgia.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_spread_mutsuraev_creative_work_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_spread_mutsuraev_creative_work.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_spread_mutsuraev_creative_work.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_spread_mutsuraev_creative_work.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-spriteType = {
-    name = "GFX_CHE_Hit_and_run_shine"
-    texturefile = "gfx/interface/goals/CHE/CHE_Hit_and_run.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_Hit_and_run.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_Hit_and_run.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
-}
-
-
-
-
-
-#██████╗ ██╗   ██╗    ██╗   ██╗███████╗██╗  ██╗██╗  ██╗ ██████╗ 
-#██╔══██╗╚██╗ ██╔╝    ██║   ██║██╔════╝██║ ██╔╝██║ ██╔╝██╔═══██╗
-#██████╔╝ ╚████╔╝     ██║   ██║███████╗█████╔╝ █████╔╝ ██║   ██║
-#██╔══██╗  ╚██╔╝      ██║   ██║╚════██║██╔═██╗ ██╔═██╗ ██║   ██║
-#██████╔╝   ██║       ╚██████╔╝███████║██║  ██╗██║  ██╗╚██████╔╝
-#╚═════╝    ╚═╝        ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ 
-                                                               
-spriteType = {
-    name = "GFX_CHE_expand_of_oil_industry"
-    texturefile = "gfx/interface/goals/CHE/CHE_expand_of_oil_industry.png"
-    effectFile = "gfx/FX/buttonstate.lua"
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_expand_of_oil_industry.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = -90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    animation = {
-        animationmaskfile = "gfx/interface/goals/CHE/CHE_expand_of_oil_industry.png"
-        animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
-        animationrotation = 90.0
-        animationlooping = no
-        animationtime = 0.75
-        animationdelay = 0
-        animationblendmode = "add"
-        animationtype = "scrolling"
-        animationrotationoffset = { x = 0.0 y = 0.0 }
-        animationtexturescale = { x = 1.0 y = 1.0 }
-    }
-    legacy_lazy_load = no
+	spriteType = {
+		name = "GFX_CHE_preapare_operation_in_budenovsk_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_preapare_operation_in_budenovsk.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_preapare_operation_in_budenovsk.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_preapare_operation_in_budenovsk.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_chechen_air_force_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_chechen_air_force.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_chechen_air_force.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_chechen_air_force.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_modernization_of_airfields_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_modernization_of_airfields.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_modernization_of_airfields.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_modernization_of_airfields.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_new_constitution_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_new_constitution.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_new_constitution.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_new_constitution.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_night_operations_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_night_operations.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_night_operations.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_night_operations.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_use_chechen_cells_in_georgia_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_use_chechen_cells_in_georgia.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_use_chechen_cells_in_georgia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_use_chechen_cells_in_georgia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_islamic_uprising_in_azerbaijan_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_islamic_uprising_in_azerbaijan.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_islamic_uprising_in_azerbaijan.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_islamic_uprising_in_azerbaijan.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_capture_georgia_shine"
+		texturefile = "gfx/interface/Goals/CHE/CHE_capture_georgia.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_capture_georgia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE/CHE_capture_georgia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_CHE_expand_of_oil_industry_shine"
+		texturefile = "gfx/interface/Goals/CHE_by_uskko/CHE_expand_of_oil_industry.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE_by_uskko/CHE_expand_of_oil_industry.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/Goals/CHE_by_uskko/CHE_expand_of_oil_industry.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
 }

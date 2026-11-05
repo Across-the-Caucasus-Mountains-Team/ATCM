@@ -1,23 +1,9 @@
-CHE_deport_russians_from_state_effect = {
-	if = {
-		limit = {
-			is_owned_by = CHE
-			is_controlled_by = CHE
-			state_population > $AMOUNT$
-		}
-		add_manpower = -$AMOUNT$
-		CHE = {
-			add_to_variable = { CHE_deported_population = $AMOUNT$ }
-		}
-	}
-}
-
 CHE_settle_russian_refugees_effect = {
 	if = {
 		limit = {
 			NOT = { has_country_flag = CHE_refugees_settled_in_RAS }
 			check_variable = { var = CHE_refugees_on_map value = 0 compare = greater_than }
-			exists = RAS
+			country_exists = RAS
 			RAS = {
 				any_owned_state = {
 					is_controlled_by = RAS
@@ -57,7 +43,7 @@ CHE_finish_russian_deportation_effect = {
 	CHE_settle_russian_refugees_effect = yes
 	if = {
 		limit = {
-			exists = RAS
+			country_exists = RAS
 			check_variable = { var = CHE_deported_population value = 0 compare = greater_than }
 		}
 		RAS = {
@@ -75,18 +61,58 @@ CHE_dudayev_russian_deportation_effect = {
 		set_country_flag = CHE_dudayev_russian_deportation
 		add_popularity = { ideology = communism popularity = -0.025 }
 		add_war_support = 0.05
-		add_political_power = 50
+		add_political_power = 150
 		add_stability = -0.1
 		custom_effect_tooltip = CHE_dudayev_russian_deportation_tt
 		hidden_effect = {
 			set_variable = { CHE_deported_population = 0 }
-			21 = { CHE_deport_russians_from_state_effect = { AMOUNT = 22000 } }
-			11 = { CHE_deport_russians_from_state_effect = { AMOUNT = 6000 } }
-			16 = { CHE_deport_russians_from_state_effect = { AMOUNT = 1500 } }
-			128 = { CHE_deport_russians_from_state_effect = { AMOUNT = 500 } }
+			21 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 22000
+						}
+						add_manpower = -22000
+						CHE = { add_to_variable = { CHE_deported_population = 22000 } }
+					}
+				}
+			11 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 6000
+						}
+						add_manpower = -6000
+						CHE = { add_to_variable = { CHE_deported_population = 6000 } }
+					}
+				}
+			16 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 1500
+						}
+						add_manpower = -1500
+						CHE = { add_to_variable = { CHE_deported_population = 1500 } }
+					}
+				}
+			128 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 500
+						}
+						add_manpower = -500
+						CHE = { add_to_variable = { CHE_deported_population = 500 } }
+					}
+				}
 			CHE_finish_russian_deportation_effect = yes
 			if = {
-				limit = { exists = RAS }
+				limit = { country_exists = RAS }
 				RAS = { add_stability = -0.05 }
 			}
 		}
@@ -106,10 +132,50 @@ CHE_islamist_russian_deportation_effect = {
 		custom_effect_tooltip = CHE_islamist_russian_deportation_tt
 		hidden_effect = {
 			set_variable = { CHE_deported_population = 0 }
-			21 = { CHE_deport_russians_from_state_effect = { AMOUNT = 44000 } }
-			11 = { CHE_deport_russians_from_state_effect = { AMOUNT = 12000 } }
-			16 = { CHE_deport_russians_from_state_effect = { AMOUNT = 3000 } }
-			128 = { CHE_deport_russians_from_state_effect = { AMOUNT = 1000 } }
+			21 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 44000
+						}
+						add_manpower = -44000
+						CHE = { add_to_variable = { CHE_deported_population = 44000 } }
+					}
+				}
+			11 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 12000
+						}
+						add_manpower = -12000
+						CHE = { add_to_variable = { CHE_deported_population = 12000 } }
+					}
+				}
+			16 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 3000
+						}
+						add_manpower = -3000
+						CHE = { add_to_variable = { CHE_deported_population = 3000 } }
+					}
+				}
+			128 = {
+					if = {
+						limit = {
+							is_owned_by = CHE
+							is_controlled_by = CHE
+							state_population > 1000
+						}
+						add_manpower = -1000
+						CHE = { add_to_variable = { CHE_deported_population = 1000 } }
+					}
+				}
 			CHE_finish_russian_deportation_effect = yes
 		}
 	}

@@ -1,12 +1,10 @@
 spriteTypes = {
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_TUR_Shining_Example_of_liberalism"
-		texturefile = "gfx/interface/goals/TUR_Shining_Example_of_liberalism.png"
+		texturefile = "gfx/interface/Goals/TUR_Shining_Example_of_liberalism.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_TUR_Deport_Armenians"
-		texturefile = "gfx/interface/goals/TUR_Deport_Armenians.png"
+		texturefile = "gfx/interface/Goals/TUR_Deport_Armenians.png"
 	}
 }

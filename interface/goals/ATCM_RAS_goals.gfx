@@ -1,401 +1,314 @@
 spriteTypes = {
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_additonal_armor"
-		texturefile = "gfx/interface/goals/RAS_additonal_armor.png"
+		texturefile = "gfx/interface/Goals/RAS_additonal_armor.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_additonal_airforce"
-		texturefile = "gfx/interface/goals/RAS_additonal_airforce.png"
+		texturefile = "gfx/interface/Goals/RAS_additonal_airforce.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_emergency_state"
-		texturefile = "gfx/interface/goals/RAS_emergency_state.png"
+		texturefile = "gfx/interface/Goals/RAS_emergency_state.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Accept_new_constitution"
-		texturefile = "gfx/interface/goals/RAS_Accept_new_constitution.png"
+		texturefile = "gfx/interface/Goals/RAS_Accept_new_constitution.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_in_progress_of_economic_reforms"
-		texturefile = "gfx/interface/goals/RAS_in_progress_of_economic_reforms.png"
+		texturefile = "gfx/interface/Goals/RAS_in_progress_of_economic_reforms.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Free_trade_marketing"
-		texturefile = "gfx/interface/goals/RAS_Free_trade_marketing.png"
+		texturefile = "gfx/interface/Goals/RAS_Free_trade_marketing.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Reduction_of_government_Spending"
-		texturefile = "gfx/interface/goals/RAS_Reduction_of_government_Spending.png"
+		texturefile = "gfx/interface/Goals/RAS_Reduction_of_government_Spending.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Shock_economic_reforms"
-		texturefile = "gfx/interface/goals/RAS_Shock_economic_reforms.png"
+		texturefile = "gfx/interface/Goals/RAS_Shock_economic_reforms.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Vouchers"
-		texturefile = "gfx/interface/goals/RAS_Vouchers.png"
+		texturefile = "gfx/interface/Goals/RAS_Vouchers.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Save_economy"
-		texturefile = "gfx/interface/goals/RAS_Save_economy.png"
+		texturefile = "gfx/interface/Goals/RAS_Save_economy.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_New_Union_Treaty"
-		texturefile = "gfx/interface/goals/RAS_New_Union_Treaty.png"
+		texturefile = "gfx/interface/Goals/RAS_New_Union_Treaty.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Retreat_from_baltics"
-		texturefile = "gfx/interface/goals/RAS_Retreat_from_baltics.png"
+		texturefile = "gfx/interface/Goals/RAS_Retreat_from_baltics.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Intervantion"
-		texturefile = "gfx/interface/goals/RAS_Intervantion.png"
+		texturefile = "gfx/interface/Goals/RAS_Intervantion.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_end_of_the_Ussr"
-		texturefile = "gfx/interface/goals/RAS_end_of_the_Ussr.png"
+		texturefile = "gfx/interface/Goals/RAS_end_of_the_Ussr.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Support_Chechen_oppositon"
-		texturefile = "gfx/interface/goals/RAS_Support_Chechen_oppositon.png"
+		texturefile = "gfx/interface/Goals/RAS_Support_Chechen_oppositon.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Emergency"
-		texturefile = "gfx/interface/goals/RAS_Emergency.png"
+		texturefile = "gfx/interface/Goals/RAS_Emergency.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_RIP"
-		texturefile = "gfx/interface/goals/RAS_RIP.png"
+		texturefile = "gfx/interface/Goals/RAS_RIP.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_defeated"
-		texturefile = "gfx/interface/goals/RAS_defeated.png"
+		texturefile = "gfx/interface/Goals/RAS_defeated.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_like_this_mf"
-		texturefile = "gfx/interface/goals/RAS_like_this_mf.png"
+		texturefile = "gfx/interface/Goals/RAS_like_this_mf.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Held_Referendum"
-		texturefile = "gfx/interface/goals/RAS_Held_Referendum.png"
+		texturefile = "gfx/interface/Goals/RAS_Held_Referendum.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_GKCHP"
-		texturefile = "gfx/interface/goals/RAS_GKCHP.png"
+		texturefile = "gfx/interface/Goals/RAS_GKCHP.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Dislike_this_mf"
-		texturefile = "gfx/interface/goals/RAS_Dislike_this_mf.png"
+		texturefile = "gfx/interface/Goals/RAS_Dislike_this_mf.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_SO"
-		texturefile = "gfx/interface/goals/RAS_SO.png"
+		texturefile = "gfx/interface/Goals/RAS_SO.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_RIP_Communist_Georgia"
-		texturefile = "gfx/interface/goals/RAS_RIP_Communist_Georgia.png"
+		texturefile = "gfx/interface/Goals/RAS_RIP_Communist_Georgia.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Chechen_protest"
-		texturefile = "gfx/interface/goals/RAS_Chechen_protest.png"
+		texturefile = "gfx/interface/Goals/RAS_Chechen_protest.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_congress_two"
-		texturefile = "gfx/interface/goals/RAS_congress_two.png"
+		texturefile = "gfx/interface/Goals/RAS_congress_two.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Yeltsin_presidency"
-		texturefile = "gfx/interface/goals/RAS_Yeltsin_presidency.png"
+		texturefile = "gfx/interface/Goals/RAS_Yeltsin_presidency.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_additional_infantry_battalions"
-		texturefile = "gfx/interface/goals/RAS/RAS_additional_infantry_battalions.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_additional_infantry_battalions.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_bring_in_new_armor"
-		texturefile = "gfx/interface/goals/RAS/RAS_bring_in_new_armor.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_bring_in_new_armor.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_sing_the_snv_two"
-		texturefile = "gfx/interface/goals/RAS/RAS_sing_the_snv_two.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_sing_the_snv_two.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Strike_Chechnya"
-		texturefile = "gfx/interface/goals/RAS_Strike_Chechnya.png"
+		texturefile = "gfx/interface/Goals/RAS_Strike_Chechnya.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Support_transinistria"
-		texturefile = "gfx/interface/goals/RAS_Support_transinistria.png"
+		texturefile = "gfx/interface/Goals/RAS_Support_transinistria.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Peacekeeping_forces_in_Abkhazia"
-		texturefile = "gfx/interface/goals/RAS_Peacekeeping_forces_in_Abkhazia.png"
+		texturefile = "gfx/interface/Goals/RAS_Peacekeeping_forces_in_Abkhazia.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_new_forigne_policy"
-		texturefile = "gfx/interface/goals/RAS_new_forigne_policy.png"
+		texturefile = "gfx/interface/Goals/RAS_new_forigne_policy.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Influence_on_post_soviet_lands"
-		texturefile = "gfx/interface/goals/RAS_Influence_on_post_soviet_lands.png"
+		texturefile = "gfx/interface/Goals/RAS_Influence_on_post_soviet_lands.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Parliament_resistance"
-		texturefile = "gfx/interface/goals/RAS_Parliament_resistance.png"
+		texturefile = "gfx/interface/Goals/RAS_Parliament_resistance.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Yeltsin"
-		texturefile = "gfx/interface/goals/RAS_Yeltsin.png"
+		texturefile = "gfx/interface/Goals/RAS_Yeltsin.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_after_coup"
-		texturefile = "gfx/interface/goals/RAS_after_coup.png"
+		texturefile = "gfx/interface/Goals/RAS_after_coup.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Congress"
-		texturefile = "gfx/interface/goals/RAS_Congress.png"
+		texturefile = "gfx/interface/Goals/RAS_Congress.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Gayards_resign"
-		texturefile = "gfx/interface/goals/RAS_Gayards_resign.png"
+		texturefile = "gfx/interface/Goals/RAS_Gayards_resign.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Leave_gaidar"
-		texturefile = "gfx/interface/goals/RAS_Leave_gaidar.png"
+		texturefile = "gfx/interface/Goals/RAS_Leave_gaidar.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Black_october"
-		texturefile = "gfx/interface/goals/RAS_Black_october.png"
+		texturefile = "gfx/interface/Goals/RAS_Black_october.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_federal_law"
-		texturefile = "gfx/interface/goals/RAS_federal_law.png"
+		texturefile = "gfx/interface/Goals/RAS_federal_law.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_failed_blitz"
-		texturefile = "gfx/interface/goals/RAS/RAS_failed_blitz.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_failed_blitz.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_omon_to_chechnya"
-		texturefile = "gfx/interface/goals/RAS/RAS_omon_to_chechnya.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_omon_to_chechnya.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_organize_the_frontline"
-		texturefile = "gfx/interface/goals/RAS/RAS_organize_the_frontline.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_organize_the_frontline.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_call_reinforcements"
-		texturefile = "gfx/interface/goals/RAS/RAS_call_reinforcements.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_call_reinforcements.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_call_for_air_strikes"
-		texturefile = "gfx/interface/goals/RAS/RAS_call_for_air_strikes.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_call_for_air_strikes.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_OperationsOfOurSpecialServices"
-		texturefile = "gfx/interface/goals/RAS/OperationsOfOurSpecialServisec.png"
+		texturefile = "gfx/interface/Goals/RAS/OperationsOfOurSpecialServisec.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_fsb_and_gru_cooperation"
-		texturefile = "gfx/interface/goals/RAS/RAS_fsb_and_gru_cooperation.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_fsb_and_gru_cooperation.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_strengthen_chechen_blockposts"
-		texturefile = "gfx/interface/goals/RAS/RAS_strengthen_chechen_blockposts.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_strengthen_chechen_blockposts.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_strengthen_awacs_reconnaissance"
-		texturefile = "gfx/interface/goals/RAS/RAS_strengthen_awacs_reconnaissance.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_strengthen_awacs_reconnaissance.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_try_to_kill_dudayev"
-		texturefile = "gfx/interface/goals/RAS/RAS_try_to_kill_dudayev.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_try_to_kill_dudayev.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Information_war"
-		texturefile = "gfx/interface/goals/RAS/RAS_Information_war.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_Information_war.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_chehcnya_is_terrorist_state"
-		texturefile = "gfx/interface/goals/RAS/RAS_chehcnya_is_terrorist_state.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_chehcnya_is_terrorist_state.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_conceal_war_crimes"
-		texturefile = "gfx/interface/goals/RAS/RAS_conceal_war_crimes.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_conceal_war_crimes.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_demonization_of_chechen_soldiers"
-		texturefile = "gfx/interface/goals/RAS/RAS_demonization_of_chechen_soldiers.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_demonization_of_chechen_soldiers.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_humaniration_aid_to_checnya"
-		texturefile = "gfx/interface/goals/RAS/RAS_humaniration_aid_to_checnya.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_humaniration_aid_to_checnya.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_start_negotation"
-		texturefile = "gfx/interface/goals/RAS/RAS_start_negotation.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_start_negotation.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_yes_to_peace"
-		texturefile = "gfx/interface/goals/RAS/RAS_yes_to_peace.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_yes_to_peace.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Crush_Zviadists"
-		texturefile = "gfx/interface/goals/RAS_Crush_Zviadists.png"
+		texturefile = "gfx/interface/Goals/RAS_Crush_Zviadists.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Peacekeeping_forces_in_Ossetia"
-		texturefile = "gfx/interface/goals/RAS_Peacekeeping_forces_in_Ossetia.png"
+		texturefile = "gfx/interface/Goals/RAS_Peacekeeping_forces_in_Ossetia.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Georgian_civil_war"
-		texturefile = "gfx/interface/goals/RAS_Georgian_civil_war.png"
+		texturefile = "gfx/interface/Goals/RAS_Georgian_civil_war.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Karabakh_issue"
-		texturefile = "gfx/interface/goals/RAS_Karabakh_issue.png"
+		texturefile = "gfx/interface/Goals/RAS_Karabakh_issue.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_recognize_their_independence"
-		texturefile = "gfx/interface/goals/RAS_recognize_their_independence.png"
+		texturefile = "gfx/interface/Goals/RAS_recognize_their_independence.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_rise_of_Rukh"
-		texturefile = "gfx/interface/goals/RAS_rise_of_Rukh.png"
+		texturefile = "gfx/interface/Goals/RAS_rise_of_Rukh.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Slavic_unrest"
-		texturefile = "gfx/interface/goals/RAS_Slavic_unrest.png"
+		texturefile = "gfx/interface/Goals/RAS_Slavic_unrest.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Clashes"
-		texturefile = "gfx/interface/goals/RAS_Clashes.png"
+		texturefile = "gfx/interface/Goals/RAS_Clashes.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_problems_in_the_west"
-		texturefile = "gfx/interface/goals/RAS_problems_in_the_west.png"
+		texturefile = "gfx/interface/Goals/RAS_problems_in_the_west.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_problems_in_the_south"
-		texturefile = "gfx/interface/goals/RAS_problems_in_the_south.png"
+		texturefile = "gfx/interface/Goals/RAS_problems_in_the_south.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_continue_perestroika"
-		texturefile = "gfx/interface/goals/RAS_continue_perestroika.png"
+		texturefile = "gfx/interface/Goals/RAS_continue_perestroika.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_Seventh_years_of_the_Union"
-		texturefile = "gfx/interface/goals/RAS_Seventh_years_of_the_Union.png"
+		texturefile = "gfx/interface/Goals/RAS_Seventh_years_of_the_Union.png"
 	}
-    SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_shell_chechnya"
-		texturefile = "gfx/interface/goals/RAS/RAS_shell_chechnya.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_shell_chechnya.png"
 	}
-    SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_ultimatum_to_chechnya"
-		texturefile = "gfx/interface/goals/RAS/RAS_ultimatum_to_chechnya.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_ultimatum_to_chechnya.png"
 	}
-    SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_ground_operation"
-		texturefile = "gfx/interface/goals/RAS/RAS_ground_operation.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_ground_operation.png"
 	}
-    SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_vdv_operation"
-		texturefile = "gfx/interface/goals/RAS/RAS_vdv_operation.png"
+		texturefile = "gfx/interface/Goals/RAS/RAS_vdv_operation.png"
 	}
-
-
-
-
-
-	
-#██████╗ ██╗   ██╗    ██╗   ██╗███████╗██╗  ██╗██╗  ██╗ ██████╗ 
-#██╔══██╗╚██╗ ██╔╝    ██║   ██║██╔════╝██║ ██╔╝██║ ██╔╝██╔═══██╗
-#██████╔╝ ╚████╔╝     ██║   ██║███████╗█████╔╝ █████╔╝ ██║   ██║
-#██╔══██╗  ╚██╔╝      ██║   ██║╚════██║██╔═██╗ ██╔═██╗ ██║   ██║
-#██████╔╝   ██║       ╚██████╔╝███████║██║  ██╗██║  ██╗╚██████╔╝
-#╚═════╝    ╚═╝        ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ 
-                                                               
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_deal_with_debt"
-		texturefile = "gfx\interface\Goals\RAS_by_uskko\RAS_deal_with_debt.png"
+		texturefile = "gfx/interface/Goals/RAS_by_uskko/RAS_deal_with_debt.png"
 	}
-SpriteType = {
+	spriteType = {
 		name = "GFX_RAS_decree_on_price_liberalization"
-		texturefile = "gfx\interface\Goals\RAS_by_uskko\RAS_decree_on_price_liberalization.png"
+		texturefile = "gfx/interface/Goals/RAS_by_uskko/RAS_decree_on_price_liberalization.png"
 	}
-
-
 }

@@ -25,7 +25,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = RAS
-		exists = CHE
+		country_exists = CHE
 		CHE = { has_country_flag = CHE_russian_deportation_applied }
 	}
 	immediate = {
@@ -336,7 +336,7 @@ country_event = {
 					days = 3
 				}
 				if = {
-					limit = { exists = CHI }
+					limit = { country_exists = CHI }
 					annex_country = {
 						target = CHI
 						transfer_troops = no

@@ -14,7 +14,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_CHE_abandoned_MIC
+			picture = CHE_abandoned_MIC
 			
 			modifier = {
 				war_support_Factor = -0.15
@@ -35,7 +35,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_CHE_abandoned_MIC
+			picture = CHE_abandoned_MIC
 			
 			modifier = {
 				army_defence_factor = 0.75
@@ -57,7 +57,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_CHE_destroyed_economy
+			picture = CHE_destroyed_economy
 
 			modifier = {
 				consumer_goods_factor = 0.45
@@ -96,7 +96,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_disorganized_defense_idea
+			picture = CHE_disorganized_defense_idea
 
 			modifier = {
 				surrender_limit = 0.1
@@ -119,7 +119,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_disorganized_defense_idea
+			picture = CHE_disorganized_defense_idea
 
 			modifier = {
 				surrender_limit = 0.35
@@ -162,7 +162,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = unknow
+			picture = state_of_emergency
 
 			modifier = {
 				training_time_factor = -0.40
@@ -525,7 +525,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = CHE_idea_sleepless_enemy_of_the_tanks_ideas
+			picture = CHE_sleepless_enemy_of_the_tanks
 
 			equipment_bonus = {
 				infantry_equipment = {
@@ -547,7 +547,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = GFX_idea_CHE_disorganized_defense_idea
+			picture = CHE_disorganized_defense_idea
 
 			modifier = {
 				army_defence_factor = -0.15
@@ -679,7 +679,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_lack_of_experience_in_building_fortifications
+			picture = CHE_lack_of_experience_in_building_fortifications
 
 			modifier = {
 				land_bunker_effectiveness_factor = -0.5
@@ -699,7 +699,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_lack_of_experience_in_building_fortifications
+			picture = CHE_lack_of_experience_in_building_fortifications
 
 			modifier = {
 				land_bunker_effectiveness_factor = -0.25
@@ -750,7 +750,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_russian_troops_in_chechnya
+			picture = CHE_russian_troops_in_chechnya
 
 			modifier = {
 				political_power_cost = 0.15
@@ -778,7 +778,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_ban_opposition
+			picture = CHE_ban_opposition
 
 			modifier = {
 				drift_defence_factor = 0.1
@@ -800,7 +800,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_mountains_ghosts
+			picture = CHE_mountains_ghosts
 
 			modifier = {
 				surrender_limit = 0.15
@@ -820,7 +820,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = GFX_idea_CHE_freedom_or_death
+			picture = CHE_freedom_or_death
 
 			modifier = {
 				surrender_limit = 0.30
@@ -837,7 +837,7 @@ ideas = {
 			}
 
 			removal_cost = -1	
-			picture = GFX_idea_CHE_night
+			picture = CHE_night
 
 			modifier = {
 			land_night_attack = 0.25

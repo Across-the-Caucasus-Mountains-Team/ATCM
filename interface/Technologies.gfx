@@ -1808,10 +1808,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/early_heavy_cruiser.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_modern_battleship_medium"
-		texturefile = "gfx/interface/technologies/modern_battleship.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_semi_modern_battleship_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
@@ -1842,10 +1839,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/heavy_battleship2.dds"
 	}
 	
-	SpriteType = {
-		name = "GFX_modern_carrier_medium"
-		texturefile = "gfx/interface/technologies/modern_carrier.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_semi_modern_carrier_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_carrier.dds"
@@ -1973,31 +1967,31 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_subtech_td"
-		textureFile = "gfx//interface//technologies//subtech_td.dds"
+		textureFile = "gfx/interface/technologies/subtech_td.dds"
 	}
 
 	spriteType = {
 		name = "GFX_subtech_rocket"
-		textureFile = "gfx//interface//technologies//subtech_rocket.dds"
+		textureFile = "gfx/interface/technologies/subtech_rocket.dds"
 	}
 	spriteType = {
 		name = "GFX_subtech_heavy_battleship"
-		textureFile = "gfx//interface//subtech_heavy_battleship.dds"
+		textureFile = "gfx/interface/subtech_heavy_battleship.dds"
 	}
 
 	spriteType = {
 		name = "GFX_subtech_art"
-		textureFile = "gfx//interface//technologies//subtech_art.dds"
+		textureFile = "gfx/interface/technologies/subtech_art.dds"
 	}
 
 	spriteType = {
 		name = "GFX_subtech_aa"
-		textureFile = "gfx//interface//technologies//subtech_aa.dds"
+		textureFile = "gfx/interface/technologies/subtech_aa.dds"
 	}
 	
 	spriteType = {
 		name = "GFX_subtech_cag"
-		textureFile = "gfx//interface//subtech_carrier_plane.dds"
+		textureFile = "gfx/interface/subtech_carrier_plane.dds"
 	}	
 
 	SpriteType = {
@@ -2268,14 +2262,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_scout_plane_2_2.dds"
 	}		
 
-	SpriteType = {
-		name = "GFX_early_transport_plane_medium"
-		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
-	}	
-	SpriteType = {
-		name = "GFX_bba_early_transport_plane_medium"
-		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
-	}	
+
+
 
 	###	BBA
 	
@@ -3330,10 +3318,7 @@ spriteTypes = {
 		name = "GFX_light_plane_6_medium"
 		texturefile = "gfx/interface/technologies/light_plane_6.dds"
 	}
-	SpriteType = {
-		name = "GFX_transport_plane_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/transport_plane_1.dds"
-	}
+
 	SpriteType = {
 		name = "GFX_medium_plane_2_medium"
 		texturefile = "gfx/interface/technologies/su24.png"

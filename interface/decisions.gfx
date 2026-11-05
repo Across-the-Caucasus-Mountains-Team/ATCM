@@ -432,10 +432,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_picture_generic_border_conflicts.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_decision_cat_picture_government_in_exile"
-		texturefile = "gfx/interface/decisions/decision_cat_exiles.dds"
-	}
+
 	spriteType = {
 		name = "GFX_decision_cat_generic_mefo_bills"
 		texturefile = "gfx/interface/decisions/decision_cat_generic_mefo_bills.dds"

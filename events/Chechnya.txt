@@ -771,7 +771,7 @@ country_event = {
 				}
 				CHE = {
 					if = {
-						limit = { exists = CHI }
+						limit = { country_exists = CHI }
 						annex_country = {
 							target = CHI
 							transfer_troops = no

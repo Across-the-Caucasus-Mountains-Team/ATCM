@@ -102,8 +102,9 @@ country_event = {
         drop_cosmetic_tag = yes
         add_war_support = -0.075
 
-        RAS = {
-            puppet = DAG
+        if = {
+            limit = { DAG = { exists = yes is_subject = no } }
+            RAS = { puppet = DAG }
         }
 
         DAG = {

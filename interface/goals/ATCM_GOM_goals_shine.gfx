@@ -1,11 +1,10 @@
 spriteTypes = {
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Guria_shine"
-		texturefile = "gfx/interface/goals/GOM_Guria.png"
+		texturefile = "gfx/interface/Goals/GOM_Guria.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Guria.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Guria.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -17,7 +16,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Guria.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Guria.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -30,13 +29,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Svaneti_shine"
-		texturefile = "gfx/interface/goals/GOM_Svaneti.png"
+		texturefile = "gfx/interface/Goals/GOM_Svaneti.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Svaneti.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Svaneti.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -48,7 +46,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Svaneti.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Svaneti.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -61,13 +59,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Samegrelo_shine"
-		texturefile = "gfx/interface/goals/GOM_Samegrelo.png"
+		texturefile = "gfx/interface/Goals/GOM_Samegrelo.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Samegrelo.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Samegrelo.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -79,7 +76,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Samegrelo.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Samegrelo.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -92,13 +89,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Racha_shine"
-		texturefile = "gfx/interface/goals/GOM_Racha.png"
+		texturefile = "gfx/interface/Goals/GOM_Racha.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Racha.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Racha.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -110,7 +106,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Racha.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Racha.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -123,13 +119,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Imereti_shine"
-		texturefile = "gfx/interface/goals/GOM_Imereti.png"
+		texturefile = "gfx/interface/Goals/GOM_Imereti.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Imereti.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Imereti.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -141,7 +136,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Imereti.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Imereti.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -154,13 +149,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Adjara_shine"
-		texturefile = "gfx/interface/goals/GOM_Adjara.png"
+		texturefile = "gfx/interface/Goals/GOM_Adjara.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Adjara.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Adjara.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -172,7 +166,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Adjara.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Adjara.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -185,13 +179,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_The_Last_battle_shine"
-		texturefile = "gfx/interface/goals/GOM_The_Last_battle.png"
+		texturefile = "gfx/interface/Goals/GOM_The_Last_battle.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_The_Last_battle.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_The_Last_battle.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -203,7 +196,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_The_Last_battle.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_The_Last_battle.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -216,13 +209,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_To_East_shine"
-		texturefile = "gfx/interface/goals/GOM_To_East.png"
+		texturefile = "gfx/interface/Goals/GOM_To_East.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_To_East.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_To_East.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -234,7 +226,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_To_East.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_To_East.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -247,13 +239,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_To_Gori_shine"
-		texturefile = "gfx/interface/goals/GOM_To_Gori.png"
+		texturefile = "gfx/interface/Goals/GOM_To_Gori.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_To_Gori.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_To_Gori.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -265,7 +256,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_To_Gori.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_To_Gori.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -278,13 +269,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Uprising_in_Imereti_shine"
-		texturefile = "gfx/interface/goals/GOM_Uprising_in_Imereti.png"
+		texturefile = "gfx/interface/Goals/GOM_Uprising_in_Imereti.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Uprising_in_Imereti.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Uprising_in_Imereti.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -296,7 +286,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Uprising_in_Imereti.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Uprising_in_Imereti.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -309,13 +299,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Attack_Samachablo_shine"
-		texturefile = "gfx/interface/goals/GOM_Attack_Samachablo.png"
+		texturefile = "gfx/interface/Goals/GOM_Attack_Samachablo.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Attack_Samachablo.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Attack_Samachablo.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -327,7 +316,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Attack_Samachablo.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Attack_Samachablo.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -340,13 +329,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Attack_Abkhazia_shine"
-		texturefile = "gfx/interface/goals/GOM_Attack_Abkhazia.png"
+		texturefile = "gfx/interface/Goals/GOM_Attack_Abkhazia.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Attack_Abkhazia.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Attack_Abkhazia.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -358,7 +346,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Attack_Abkhazia.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Attack_Abkhazia.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -371,13 +359,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Lost_Lands_shine"
-		texturefile = "gfx/interface/goals/GOM_Lost_Lands.png"
+		texturefile = "gfx/interface/Goals/GOM_Lost_Lands.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Lost_Lands.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Lost_Lands.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -389,7 +376,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Lost_Lands.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Lost_Lands.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -402,13 +389,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Attack_South_shine"
-		texturefile = "gfx/interface/goals/GOM_Attack_South.png"
+		texturefile = "gfx/interface/Goals/GOM_Attack_South.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Attack_South.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Attack_South.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -420,7 +406,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Attack_South.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Attack_South.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -433,13 +419,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Cross_Mtkvari_shine"
-		texturefile = "gfx/interface/goals/GOM_Cross_Mtkvari.png"
+		texturefile = "gfx/interface/Goals/GOM_Cross_Mtkvari.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Cross_Mtkvari.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Cross_Mtkvari.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -451,7 +436,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Cross_Mtkvari.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Cross_Mtkvari.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -464,13 +449,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_To_Tbilisi_shine"
-		texturefile = "gfx/interface/goals/GOM_To_Tbilisi.png"
+		texturefile = "gfx/interface/Goals/GOM_To_Tbilisi.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_To_Tbilisi.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_To_Tbilisi.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -482,7 +466,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_To_Tbilisi.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_To_Tbilisi.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -495,13 +479,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Regroup_shine"
-		texturefile = "gfx/interface/goals/GOM_Regroup.png"
+		texturefile = "gfx/interface/Goals/GOM_Regroup.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Regroup.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Regroup.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -513,7 +496,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_Regroup.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_Regroup.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -526,13 +509,12 @@ SpriteType = {
 		}
 		legacy_lazy_load = no
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_now_or_never_shine"
-		texturefile = "gfx/interface/goals/GOM_now_or_never.png"
+		texturefile = "gfx/interface/Goals/GOM_now_or_never.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_now_or_never.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_now_or_never.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -544,7 +526,7 @@ SpriteType = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GOM_now_or_never.png"
+			animationmaskfile = "gfx/interface/Goals/GOM_now_or_never.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

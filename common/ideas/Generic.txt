@@ -19,7 +19,7 @@ ideas = {
 			modifier = {
 				army_defence_factor = 0.15
 				army_org_factor = 0.15				
-				supply_factor = 0.15
+				supply_consumption_factor = -0.15
 			}
 		}
 
@@ -42,7 +42,7 @@ ideas = {
 				army_org_factor = 0.15	
 				army_attack_speed_factor = 0.15
 				army_defence_factor = 0.075	
-				supply_factor = 0.25	
+				supply_consumption_factor = -0.25
 				ai_focus_aggressive_factor = 0.5					
 			}
 		}
@@ -66,7 +66,7 @@ ideas = {
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
 				army_org_factor = 0.075	
-				supply_factor = 0.25				
+				supply_consumption_factor = -0.25
 			}
 		}
 

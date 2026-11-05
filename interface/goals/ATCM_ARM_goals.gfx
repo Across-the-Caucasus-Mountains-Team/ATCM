@@ -1,112 +1,90 @@
 spriteTypes = {
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_War_is_in_here"
-		texturefile = "gfx/interface/goals/ARM_War_is_in_here.png"
+		texturefile = "gfx/interface/Goals/ARM_War_is_in_here.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Soviet_jets"
-		texturefile = "gfx/interface/goals/ARM_Soviet_jets.png"
+		texturefile = "gfx/interface/Goals/ARM_Soviet_jets.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_ARMENIANS"
-		texturefile = "gfx/interface/goals/ARM_ARMENIANS.png"
+		texturefile = "gfx/interface/Goals/ARM_ARMENIANS.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Recruit_pilots"
-		texturefile = "gfx/interface/goals/ARM_Recruit_pilots.png"
+		texturefile = "gfx/interface/Goals/ARM_Recruit_pilots.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Paramilitaries"
-		texturefile = "gfx/interface/goals/ARM_Paramilitaries.png"
+		texturefile = "gfx/interface/Goals/ARM_Paramilitaries.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Ground_Force"
-		texturefile = "gfx/interface/goals/ARM_Ground_Force.png"
+		texturefile = "gfx/interface/Goals/ARM_Ground_Force.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_air_force"
-		texturefile = "gfx/interface/goals/ARM_air_force.png"
+		texturefile = "gfx/interface/Goals/ARM_air_force.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_nintheen_days_deadblock"
-		texturefile = "gfx/interface/goals/ARM_nintheen_days_deadblock.png"
+		texturefile = "gfx/interface/Goals/ARM_nintheen_days_deadblock.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_referendum"
-		texturefile = "gfx/interface/goals/ARM_referendum.png"
+		texturefile = "gfx/interface/Goals/ARM_referendum.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Tenisions_in_karabakh"
-		texturefile = "gfx/interface/goals/ARM_Tenisions_in_karabakh.png"
+		texturefile = "gfx/interface/Goals/ARM_Tenisions_in_karabakh.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_prepare_for_inavitable"
-		texturefile = "gfx/interface/goals/ARM_prepare_for_inavitable.png"
+		texturefile = "gfx/interface/Goals/ARM_prepare_for_inavitable.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Develop_to_war"
-		texturefile = "gfx/interface/goals/ARM_Develop_to_war.png"
+		texturefile = "gfx/interface/Goals/ARM_Develop_to_war.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Nagarno_Karabakh_problem"
-		texturefile = "gfx/interface/goals/ARM_Nagarno_Karabakh_problem.png"
+		texturefile = "gfx/interface/Goals/ARM_Nagarno_Karabakh_problem.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Recruitment_Effort"
-		texturefile = "gfx/interface/goals/ARM_Recruitment_Effort.png"
+		texturefile = "gfx/interface/Goals/ARM_Recruitment_Effort.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Defencive_Line"
-		texturefile = "gfx/interface/goals/ARM_Defencive_Line.png"
+		texturefile = "gfx/interface/Goals/ARM_Defencive_Line.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Armenia_First"
-		texturefile = "gfx/interface/goals/ARM_Armenia_First.png"
+		texturefile = "gfx/interface/Goals/ARM_Armenia_First.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Reach_out_to_the_Media"
-		texturefile = "gfx/interface/goals/ARM_Reach_out_to_the_Media.png"
+		texturefile = "gfx/interface/Goals/ARM_Reach_out_to_the_Media.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Rally_The_People"
-		texturefile = "gfx/interface/goals/ARM_Rally_The_People.png"
+		texturefile = "gfx/interface/Goals/ARM_Rally_The_People.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_International"
-		texturefile = "gfx/interface/goals/ARM_International.png"
+		texturefile = "gfx/interface/Goals/ARM_International.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Start_Hunger_strikes"
-		texturefile = "gfx/interface/goals/ARM_Start_Hunger_strikes.png"
+		texturefile = "gfx/interface/Goals/ARM_Start_Hunger_strikes.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Fan_the_flames"
-		texturefile = "gfx/interface/goals/ARM_Fan_the_flames.png"
+		texturefile = "gfx/interface/Goals/ARM_Fan_the_flames.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_ARM_Strengthen_our_identity"
-		texturefile = "gfx/interface/goals/ARM_Strengthen_our_identity.png"
+		texturefile = "gfx/interface/Goals/ARM_Strengthen_our_identity.png"
 	}
 }

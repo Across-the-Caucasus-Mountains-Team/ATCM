@@ -1,92 +1,74 @@
 spriteTypes = {
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Guria"
-		texturefile = "gfx/interface/goals/GOM_Guria.png"
+		texturefile = "gfx/interface/Goals/GOM_Guria.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Svaneti"
-		texturefile = "gfx/interface/goals/GOM_Svaneti.png"
+		texturefile = "gfx/interface/Goals/GOM_Svaneti.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Samegrelo"
-		texturefile = "gfx/interface/goals/GOM_Samegrelo.png"
+		texturefile = "gfx/interface/Goals/GOM_Samegrelo.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Racha"
-		texturefile = "gfx/interface/goals/GOM_Racha.png"
+		texturefile = "gfx/interface/Goals/GOM_Racha.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Imereti"
-		texturefile = "gfx/interface/goals/GOM_Imereti.png"
+		texturefile = "gfx/interface/Goals/GOM_Imereti.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Adjara"
-		texturefile = "gfx/interface/goals/GOM_Adjara.png"
+		texturefile = "gfx/interface/Goals/GOM_Adjara.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_The_Last_battle"
-		texturefile = "gfx/interface/goals/GOM_The_Last_battle.png"
+		texturefile = "gfx/interface/Goals/GOM_The_Last_battle.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_To_East"
-		texturefile = "gfx/interface/goals/GOM_To_East.png"
+		texturefile = "gfx/interface/Goals/GOM_To_East.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_To_Gori"
-		texturefile = "gfx/interface/goals/GOM_To_Gori.png"
+		texturefile = "gfx/interface/Goals/GOM_To_Gori.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Uprising_in_Imereti"
-		texturefile = "gfx/interface/goals/GOM_Uprising_in_Imereti.png"
+		texturefile = "gfx/interface/Goals/GOM_Uprising_in_Imereti.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Attack_Samachablo"
-		texturefile = "gfx/interface/goals/GOM_Attack_Samachablo.png"
+		texturefile = "gfx/interface/Goals/GOM_Attack_Samachablo.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Attack_Abkhazia"
-		texturefile = "gfx/interface/goals/GOM_Attack_Abkhazia.png"
+		texturefile = "gfx/interface/Goals/GOM_Attack_Abkhazia.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Lost_Lands"
-		texturefile = "gfx/interface/goals/GOM_Lost_Lands.png"
+		texturefile = "gfx/interface/Goals/GOM_Lost_Lands.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Attack_South"
-		texturefile = "gfx/interface/goals/GOM_Attack_South.png"
+		texturefile = "gfx/interface/Goals/GOM_Attack_South.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Cross_Mtkvari"
-		texturefile = "gfx/interface/goals/GOM_Cross_Mtkvari.png"
+		texturefile = "gfx/interface/Goals/GOM_Cross_Mtkvari.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_To_Tbilisi"
-		texturefile = "gfx/interface/goals/GOM_To_Tbilisi.png"
+		texturefile = "gfx/interface/Goals/GOM_To_Tbilisi.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_Regroup"
-		texturefile = "gfx/interface/goals/GOM_Regroup.png"
+		texturefile = "gfx/interface/Goals/GOM_Regroup.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_GOM_now_or_never"
-		texturefile = "gfx/interface/goals/GOM_now_or_never.png"
+		texturefile = "gfx/interface/Goals/GOM_now_or_never.png"
 	}
 }

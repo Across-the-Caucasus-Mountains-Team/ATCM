@@ -128,7 +128,7 @@
  drove_out_the_russians: "Expulsion of Russian residents"
 
  CHE_peace_negotiations_first_chechen_war_decision: "Peace Negotiations"
- CHE_peace_negotiations_first_chechen_war_decision_desc: "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§"
+ CHE_peace_negotiations_first_chechen_war_decision_desc: "The war has dragged on. Despite the bravery of our fighters and popular support, we cannot ignore the devastation, hunger, and exhaustion it brings. Some commanders and political figures have begun to consider dialogue with Moscow. \n\nProgress of negotiations: §G[?RAS_negotiation_process_fcw_value|%%]§!"
  CHE_stability_of_republic_decision: "Stability of the Republic"
  CHE_stability_of_republic_decision_desc: "Following Dzhokhar Dudayev's victory in the presidential elections, the newly proclaimed Republic of Ichkeria is on a fragile path toward full independence. However, the country faces immense challenges, the collapse of Soviet institutions, economic uncertainty, and the existence of powerful internal opposition forces.\n\nLegitimacy of Dudayev: §Y[?CHE_legitimacy_of_dudayev_value|%%]§! \n\nPower of opposition: §Y[?CHE_power_of_opposition_value|%%]§!"
  CHE_hold_Grozny: "Hold Grozny"
@@ -194,3 +194,6 @@
  CHE_Deport_Russians_desc: "The position of Russian residents has divided the government. Dudayev can reject deportation or authorise a limited campaign. A separate event will determine the policy."
  CHE_deports_of_russians: "Deportation of Russians"
  CHE_deports_of_russians_desc: "The radical government intends to expel Russian residents on a larger scale. The displacement will be concentrated in Grozny and northern Chechnya, worsen relations with Russia and prompt a response from Moscow."
+ CHE_ingusetua_operation: "Operation in Ingushetia"
+ CHE_scale_oil_refining: "Expand Oil Refining"
+ CHE_repair_shops: "Repair Workshops"

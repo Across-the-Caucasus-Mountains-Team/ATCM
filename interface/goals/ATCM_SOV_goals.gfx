@@ -1,17 +1,14 @@
 spriteTypes = {
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_SOV_Daghenstani_Farmers"
-		texturefile = "gfx/interface/goals/SOV/SOV_Daghenstani_Farmers.png"
+		texturefile = "gfx/interface/Goals/SOV/SOV_Daghenstani_Farmers.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_SOV_Economic_Question"
-		texturefile = "gfx/interface/goals/SOV/SOV_Economic_Question.png"
+		texturefile = "gfx/interface/Goals/SOV/SOV_Economic_Question.png"
 	}
-
-SpriteType = {
+	spriteType = {
 		name = "GFX_SOV_Industralize_krasnodar"
-		texturefile = "gfx/interface/goals/SOV/SOV_Industralize_krasnodar.png"
+		texturefile = "gfx/interface/Goals/SOV/SOV_Industralize_krasnodar.png"
 	}
 }

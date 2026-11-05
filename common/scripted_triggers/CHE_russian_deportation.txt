@@ -11,7 +11,7 @@ RAS_can_begin_early_chechen_preparations = {
 	is_ai = no
 	has_global_flag = USSR_Colapsed
 	has_focus_tree = Russian_Federation_focus
-	exists = CHE
+	country_exists = CHE
 	NOT = { has_war_with = CHE }
 	NOT = { has_global_flag = FirstChechenWar }
 	NOT = { has_global_flag = AfterFirstChechenWar }

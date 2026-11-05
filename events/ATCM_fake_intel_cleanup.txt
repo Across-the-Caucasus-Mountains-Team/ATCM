@@ -1,0 +1,34 @@
+add_namespace = lar_fake_intel_units
+
+country_event = {
+	id = lar_fake_intel_units.1
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		set_temp_variable = { var = atcm_fake_expiry_cutoff value = global.num_days }
+		subtract_from_temp_variable = { var = atcm_fake_expiry_cutoff value = 90 }
+		clear_array = atcm_expired_fake_intel_ids
+		for_each_loop = {
+			array = fake_intel_ids_to_delete
+			value = atcm_fake_unit_id
+			if = {
+				limit = {
+					check_variable = {
+						var = num_days_for_fake_intel_id@var:atcm_fake_unit_id
+						value = var:atcm_fake_expiry_cutoff
+						compare = less_than_or_equals
+					}
+				}
+				delete_unit = { id = var:atcm_fake_unit_id division_template = "Fake Intel Division" disband = no }
+				add_to_array = { array = atcm_expired_fake_intel_ids value = var:atcm_fake_unit_id }
+				clear_variable = num_days_for_fake_intel_id@var:atcm_fake_unit_id
+			}
+		}
+		for_each_loop = {
+			array = atcm_expired_fake_intel_ids
+			value = atcm_fake_unit_id
+			remove_from_array = { array = fake_intel_ids_to_delete value = var:atcm_fake_unit_id }
+		}
+		clear_array = atcm_expired_fake_intel_ids
+	}
+}

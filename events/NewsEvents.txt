@@ -18,10 +18,7 @@ news_event = {
 	option = {
 		name = news.1.a
 		trigger = {
-			NOT = {
-				TAG = SAK
-				TAG = RAS
-			}
+		NOT = { OR = { tag = SAK tag = RAS } }
 		}
 	}
 	option = {
@@ -30,7 +27,7 @@ news_event = {
 	}
 	option = {
 		name = news.1.c
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 }
 
@@ -98,10 +95,7 @@ news_event = {
 	option = {
 		name = news.4.a
 		trigger = {
-			NOT = {
-				TAG = ARM
-				TAG = SAK
-			}
+		NOT = { OR = { tag = ARM tag = SAK } }
 		}
 	}
 	
@@ -146,10 +140,7 @@ news_event = {
 	option = {
 		name = news.6.a
 		trigger = {
-			NOT = {
-				TAG = AZR
-				TAG = RAS
-			}
+		NOT = { OR = { tag = AZR tag = RAS } }
 		}
 	}
 	
@@ -160,7 +151,7 @@ news_event = {
 	
 	option = {
 		name = news.6.g
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 }
 
@@ -178,11 +169,7 @@ news_event = {
 	option = {
 		name = news.7.a
 		trigger = {
-			NOT = {
-				TAG = SAK
-				TAG = RAS
-				TAG = ABK
-			}
+		NOT = { OR = { tag = SAK tag = RAS tag = ABK } }
 		}
 	}
 		
@@ -193,7 +180,7 @@ news_event = {
 	
 	option = {
 		name = news.7.g
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 	
 	option = {
@@ -216,21 +203,18 @@ news_event = {
 	option = {
 		name = news.8.a
 		trigger = {
-			NOT = {
-				TAG = CHE
-				TAG = RAS
-			}
+		NOT = { OR = { tag = CHE tag = RAS } }
 		}
 	}
 	
 	option = {
 		name = news.8.b
-		trigger = { TAG = CHE }
+		trigger = { tag = CHE }
 	}
 	
 	option = {
 		name = news.8.g
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 }
 
@@ -264,21 +248,18 @@ news_event = {
 	option = {
 		name = news.10.a
 		trigger = {
-			NOT = {
-				TAG = CHE
-				TAG = RAS
-			}
+		NOT = { OR = { tag = CHE tag = RAS } }
 		}
 	}
 	
 	option = {
 		name = news.10.b
-		trigger = { TAG = CHE }
+		trigger = { tag = CHE }
 	}
 	
 	option = {
 		name = news.10.g
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 }
 
@@ -320,7 +301,7 @@ news_event = {
 	
 	option = {
 		name = news.12.b
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 }
 
@@ -449,20 +430,17 @@ news_event = {
 	
 	option = {
 		name = news.20.a
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 	option = {
 		name = news.20.b
-		trigger = { TAG = CHE }
+		trigger = { tag = CHE }
 	}
 
 	option = {
 		name = news.20.c
 		trigger = {
-			NOT = { 
-				tag = RAS
-				tag = CHE
-			}
+		NOT = { OR = { tag = RAS tag = CHE } }
 		}
 	}
 }
@@ -525,7 +503,7 @@ news_event = {
 	
 	option = {
 		name = news.23.a
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 
 	option = {
@@ -647,20 +625,17 @@ news_event = {
 	
 	option = {
 		name = news.30.a
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 	option = {
 		name = news.30.b
-		trigger = { TAG = CHE }
+		trigger = { tag = CHE }
 	}
 
 	option = {
 		name = news.30.c
 		trigger = {
-			NOT = { 
-				tag = RAS
-				tag = CHE
-			}
+		NOT = { OR = { tag = RAS tag = CHE } }
 		}
 	}
 }
@@ -678,20 +653,17 @@ news_event = {
 	
 	option = {
 		name = news.31.a
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 	option = {
 		name = news.31.b
-		trigger = { TAG = CHE }
+		trigger = { tag = CHE }
 	}
 
 	option = {
 		name = news.31.c
 		trigger = {
-			NOT = { 
-				tag = RAS
-				tag = CHE
-			}
+		NOT = { OR = { tag = RAS tag = CHE } }
 		}
 	}
 }
@@ -709,20 +681,17 @@ news_event = {
 	
 	option = {
 		name = news.32.a
-		trigger = { TAG = RAS }
+		trigger = { tag = RAS }
 	}
 	option = {
 		name = news.32.b
-		trigger = { TAG = CHE }
+		trigger = { tag = CHE }
 	}
 
 	option = {
 		name = news.32.c
 		trigger = {
-			NOT = { 
-				tag = RAS
-				tag = CHE
-			}
+		NOT = { OR = { tag = RAS tag = CHE } }
 		}
 	}
 }
