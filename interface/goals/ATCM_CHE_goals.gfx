@@ -519,6 +519,10 @@ spriteTypes = {
 		name = "GFX_CHE_CHE_black_market"
 		texturefile = "gfx/interface/Goals/CHE/CHE_black_market.png"
 	}
+	spriteType = {
+		name = "GFX_CHE_workshops_in_the_mountains"
+		texturefile = "gfx/interface/Goals/CHE/CHE_workshops_in_the_mountains.png"
+	}
 
 	
 

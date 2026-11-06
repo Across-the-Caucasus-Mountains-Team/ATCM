@@ -3705,7 +3705,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_workshops_in_the_mountains
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_workshops_in_the_mountains
 		x = 0
 		y = 3
 		relative_position_id = CHE_handicraft_production
