@@ -42,7 +42,7 @@ guiTypes = {
 		buttonType = {
 			name = "button_caucasus_region"
 			spriteType = "GFX_Russian_Embleme"
-			position = { x = 385 y = 145 }
+			position = { x = 85 y = 465 }
 			buttonFont = "hoi_16mbs"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -52,11 +52,12 @@ guiTypes = {
 		buttonType = {
 			name = "button_moscow_region"
 			spriteType = "GFX_Russian_Embleme"
-			position = { x = 385 y = 545 }
+			position = { x = 165 y = 325 }
 			buttonFont = "hoi_16mbs"
 			clicksound = click_ok
 			oversound = ui_menu_over
 			multiline = yes
+			scale = 0.8
 		}
     }
 

@@ -2047,3 +2047,54 @@ country_event = {
 		custom_effect_tooltip = 13_CHE_tt
 	}
 }
+
+
+# Select new leader during First Chechen War
+country_event = {
+	id = chechnya.76
+	title = chechnya.76.t
+	desc = chechnya.76.d
+	picture = GFX_Report_event_CHE_dudayev_is_dead
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = chechnya.76.a
+		retire_country_leader = yes
+		add_country_leader_role = {
+			character = CHE_aslan_maskhadov
+			promote_leader = yes
+			country_leader = {
+				ideology = all_national_congress_of_the_chechen_people
+				expire = "2045.1.1.1"
+			}
+		}
+		hidden_effect = {
+			promote_character = {
+				character = CHE_aslan_maskhadov
+				ideology = all_national_congress_of_the_chechen_people
+			}
+		}        
+		add_political_power = 25
+	}
+
+	option = {
+		name = chechnya.76.b
+		add_country_leader_role = {
+			character = CHE_shamil_basayev
+			promote_leader = yes
+			country_leader = {
+				ideology = generic_islam
+				expire = "2045.1.1.1"
+			}
+		}
+		hidden_effect = {
+			promote_character = {
+				character = CHE_shamil_basayev
+				ideology = generic_islam
+			}
+		}  
+		add_political_power = 25
+	}
+}

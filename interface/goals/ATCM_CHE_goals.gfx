@@ -503,4 +503,25 @@ spriteTypes = {
 		name = "GFX_CHE_expand_of_oil_industry"
 		texturefile = "gfx/interface/Goals/CHE_by_uskko/CHE_expand_of_oil_industry.png"
 	}
+	spriteType = {
+		name = "GFX_CHE_Grozny"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Grozny.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_East_chechnya"
+		texturefile = "gfx/interface/Goals/CHE/CHE_East_chechnya.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_hold_raids_on_soviet_millitary_bases"
+		texturefile = "gfx/interface/Goals/CHE/CHE_hold_raids_on_soviet_millitary_bases.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_CHE_black_market"
+		texturefile = "gfx/interface/Goals/CHE/CHE_black_market.png"
+	}
+
+	
+
+
+
 }

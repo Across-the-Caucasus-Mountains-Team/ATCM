@@ -1635,10 +1635,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {ideology = islam popularity = 0.05}
-			declare_war_on = {
-				target = SAK
-				type = annex_everything
-			}
+			
 		}
 	}
 
@@ -3278,7 +3275,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_East_chechnya
-		icon = GFX_CHE_Report
+		icon = GFX_CHE_East_chechnya
 		x = -1
 		y = 1
 		relative_position_id = CHE_start_operation_of_jihad
@@ -3321,7 +3318,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_Grozny
-		icon = GFX_CHE_Report
+		icon = GFX_CHE_Grozny
 		x = 1
 		y = 1
 		relative_position_id = CHE_start_operation_of_jihad
@@ -4046,6 +4043,41 @@ completion_reward = {
 			add_popularity = { ideology = Nationalism popularity = 0.1}
 		}
 	}
+
+	focus = {
+		id = CHE_select_new_leader
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		relative_position_id = CHE_inside_remaining_lands
+		prerequisite = { focus = CHE_State_of_Emergency }
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+            date > 1998.1.1
+			has_global_flag = Dudayev_is_dead
+			has_war_with = RAS
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			country_event = Chechnya.76
+		}
+	}	
 
 	focus = {
 		id = CHE_quantity_over_quality
@@ -5691,7 +5723,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_hold_raids_on_soviet_millitary_bases
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_hold_raids_on_soviet_millitary_bases
 		x = 6
 		y = 1
 		prerequisite = { focus = CHE_build_secular_state focus = CHE_build_islamic_state }
@@ -5708,7 +5740,7 @@ completion_reward = {
 		}
 
 		offset = {
-			x = -2
+			x = -4
 			y = 0
 			trigger = {
 				has_completed_focus = CHE_build_islamic_state
@@ -5748,6 +5780,55 @@ completion_reward = {
 			}
 		}
 	}
+
+	focus = {
+		id = CHE_black_market
+		icon = GFX_CHE_CHE_black_market
+		x = 6
+		y = 2
+		prerequisite = { focus = CHE_hold_raids_on_soviet_millitary_bases }
+		relative_position_id = CHE_build_secular_state
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		offset = {
+			x = -4
+			y = 0
+			trigger = {
+				has_completed_focus = CHE_build_islamic_state
+			}
+		}
+
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+				has_completed_focus = CHE_build_secular_state
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { }
+
+		completion_reward = {
+			
+		}
+	}	
 
 	focus = {
 		id = CHE_introduce_the_Chechen_naxar
