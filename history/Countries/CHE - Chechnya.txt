@@ -42,6 +42,26 @@ set_technology = {
 	reactive_artillery = 1
 }
 
+create_equipment_variant = {
+    name = "Су-30"
+    type = CAS_equipment_2
+}
+create_equipment_variant = {
+    name = "Су-25"
+    type = CAS_equipment_1
+}
+
+create_equipment_variant = {
+    name = "L"
+    type = CAS_equipment_1
+}
+
+create_equipment_variant = {
+    name = "Mig"
+    type = jet_fighter_equipment_1
+}
+
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1990.9.17"

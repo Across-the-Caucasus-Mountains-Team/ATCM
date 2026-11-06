@@ -4892,6 +4892,7 @@ completion_reward = {
 
 		completion_reward = {
 			army_experience = 35
+			custom_effect_tooltip = 24_CHE_tt
 		}
 	}
 
@@ -6305,7 +6306,7 @@ completion_reward = {
 		ai_will_do = {
 			factor = 30
 			modifier = {
-				factor = 70
+				factor = 40
 				has_completed_focus = CHE_liquidation_of_constutional_court
 			}
 		}

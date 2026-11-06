@@ -1715,14 +1715,14 @@ country_event = {
 			type = jet_fighter_equipment_1
 			variant_name = "Mig"
 			amount = 3
-			producer = RAS
+			producer = CHE
 		}
 
 		add_equipment_to_stockpile = {
 			type = CAS_equipment_1
 			variant_name = "L"
 			amount = 10
-			producer = RAS
+			producer = CHE
 		}
 	}
 }
