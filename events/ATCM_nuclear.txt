@@ -1,0 +1,359 @@
+add_namespace = atcmnuke
+
+country_event = {
+	id = atcmnuke.1
+	title = atcmnuke.1.t
+	desc = atcmnuke.1.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.1.a
+		add_ideas = ATCM_world_sanctions
+		country_event = { id = atcmnuke.2 days = 4 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.2
+	title = atcmnuke.2.t
+	desc = atcmnuke.2.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.2.a
+		country_event = { id = atcmnuke.3 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.3
+	title = atcmnuke.3.t
+	desc = atcmnuke.3.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.3.a
+		country_event = { id = atcmnuke.4 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.4
+	title = atcmnuke.4.t
+	desc = atcmnuke.4.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.4.a
+		country_event = { id = atcmnuke.5 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.5
+	title = atcmnuke.5.t
+	desc = atcmnuke.5.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.5.a
+		country_event = { id = atcmnuke.6 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.6
+	title = atcmnuke.6.t
+	desc = atcmnuke.6.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.6.a
+		country_event = { id = atcmnuke.7 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.7
+	title = atcmnuke.7.t
+	desc = atcmnuke.7.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.7.a
+		country_event = { id = atcmnuke.8 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.8
+	title = atcmnuke.8.t
+	desc = atcmnuke.8.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.8.a
+		add_ideas = ATCM_high_alert
+		country_event = { id = atcmnuke.9 days = 3 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.9
+	title = atcmnuke.9.t
+	desc = atcmnuke.9.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.9.a
+		hidden_effect = {
+			end_puppet = SAK
+			end_puppet = ARM
+			TUR = {
+				create_faction = ATCM_NATO_faction
+				add_to_faction = SAK
+			}
+		}
+		country_event = { id = atcmnuke.10 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.10
+	title = atcmnuke.10.t
+	desc = atcmnuke.10.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.10.a
+		hidden_effect = {
+			TUR = {
+				add_to_faction = ARM
+			}
+		}
+		country_event = { id = atcmnuke.11 days = 2 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.11
+	title = atcmnuke.11.t
+	desc = atcmnuke.11.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.11.a
+		hidden_effect = {
+			TUR = {
+				declare_war_on = {
+					target = RAS
+					type = annex_everything
+				}
+			}
+			SAK = {
+				declare_war_on = {
+					target = RAS
+					type = annex_everything
+				}
+			}
+			ARM = {
+				declare_war_on = {
+					target = RAS
+					type = annex_everything
+				}
+			}
+		}
+		country_event = { id = atcmnuke.12 days = 15 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.12
+	title = atcmnuke.12.t
+	desc = atcmnuke.12.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.12.a
+		hidden_effect = {
+			TUR = {
+				launch_nuke = { province = 5258 use_nuke = no }
+			}
+		}
+		country_event = { id = atcmnuke.13 days = 1 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.13
+	title = atcmnuke.13.t
+	desc = atcmnuke.13.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.13.a
+		hidden_effect = {
+			RAS = {
+				launch_nuke = { province = 2471 use_nuke = no }
+				launch_nuke = { province = 5711 use_nuke = no }
+				launch_nuke = { province = 11370 use_nuke = no }
+				launch_nuke = { province = 11357 use_nuke = no }
+				launch_nuke = { province = 11353 use_nuke = no }
+				launch_nuke = { province = 8377 use_nuke = no }
+				launch_nuke = { province = 7668 use_nuke = no }
+				launch_nuke = { province = 12249 use_nuke = no }
+				launch_nuke = { province = 9526 use_nuke = no }
+				launch_nuke = { province = 5607 use_nuke = no }
+				launch_nuke = { province = 5250 use_nuke = no }
+				launch_nuke = { province = 4737 use_nuke = no }
+				launch_nuke = { province = 2140 use_nuke = no }
+			}
+		}
+		country_event = { id = atcmnuke.14 days = 1 }
+	}
+}
+
+country_event = {
+	id = atcmnuke.14
+	title = atcmnuke.14.t
+	desc = atcmnuke.14.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = atcmnuke.14.a
+		hidden_effect = {
+			WAL = {
+				annex_country = {
+					target = SAK
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = TUR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = AZR
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ARM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ABK
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = RAS
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = OST
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = GOM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = CHE
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = PER
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KAZ
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = TKM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ARS
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ADJ
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = DAG
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = CHI
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ING
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ADY
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KLM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KBK
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = KCC
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = ISC
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+}

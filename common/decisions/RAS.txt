@@ -642,7 +642,6 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 35
-		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -707,7 +706,6 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 7
-		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 
 		available = {
 			CHE = {
@@ -813,7 +811,6 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 35
-		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -858,7 +855,6 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -897,7 +893,6 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -936,7 +931,6 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -975,7 +969,6 @@ RAS_first_chechen_war_decision = {
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 20
-		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
 		#Fail trigger
 		available = {
@@ -1594,7 +1587,7 @@ RAS_first_chechen_war_decision = {
 		}
 	}
 
-	RAS_mvd_conduct_sharoy_district_cleanups = {
+	RAS_mvd_conduct_shatoy_district_cleanups = {
 
 		icon = GFX_decision_BTR
 		cost = 55
@@ -1714,6 +1707,10 @@ RAS_first_chechen_war_decision = {
 
 		complete_effect = {
 			custom_effect_tooltip = 18_RAS_tt
+			custom_effect_tooltip = ATCM_nuke_chechnya_tt
+			set_global_flag = ATCM_nuclear_war
+			ATCM_nuke_chechen_provinces = yes
+			country_event = { id = atcmnuke.1 days = 3 }
 		}
 
 		ai_will_do = {
@@ -1857,6 +1854,11 @@ RAS_special_services_decision = {
 					country_event = russia.14
 				}
 			}
+			hidden_effect = {
+				CHE = {
+					country_event = 1
+				}
+			}
 
 		}
 
@@ -1874,15 +1876,13 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		cost = 25
 		fire_only_once = yes
 		
-		available = {
-			has_war_with = CHE
+		available = {		
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
 		
 		visible = {
-			has_war_with = CHE
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
@@ -1928,15 +1928,13 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		cost = 25
 		fire_only_once = yes
 		
-		available = {
-			has_war_with = CHE
+		available = {		
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
 		
 		visible = {
-			has_war_with = CHE
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
@@ -1984,15 +1982,13 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		cost = 25
 		fire_only_once = yes
 		
-		available = {
-			has_war_with = CHE
+		available = {		
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
 		
 		visible = {
-			has_war_with = CHE
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
@@ -2040,15 +2036,13 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		cost = 25
 		fire_only_once = yes
 		
-		available = {
-			has_war_with = CHE
+		available = {		
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
 		}
 		
 		visible = {
-			has_war_with = CHE
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_start_negotiation_processes
@@ -2060,7 +2054,7 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 			add_to_variable = {
 				var = RAS_negotiation_process_fcw_value
 				value = 30
-				tooltip = add_30_to_negotation_progress_fcw_tt
+				tooltip = add_20_to_negotation_progress_fcw_tt
 			}
 			hidden_effect = {
 				clamp_variable = {
@@ -2095,15 +2089,13 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 		fire_only_once = no
 		days_re_enable = 50
 		
-		available = {
-			has_war_with = CHE
+		available = {		
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_yes_to_peace
 		}
 		
 		visible = {
-			has_war_with = CHE
 			tag = RAS
 			has_global_flag = FirstChechenWar
 			has_completed_focus = RAS_yes_to_peace

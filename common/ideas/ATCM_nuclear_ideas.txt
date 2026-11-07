@@ -1,0 +1,42 @@
+ideas = {
+
+	country = {
+
+		ATCM_world_sanctions = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = state_of_emergency
+
+			modifier = {
+				stability_factor = -0.5
+				consumer_goods_factor = 1.0
+			}
+		}
+
+		ATCM_high_alert = {
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = state_of_emergency
+
+			modifier = {
+				war_support_factor = 0.1
+				army_org_factor = 0.05
+				conscription_factor = 0.1
+			}
+		}
+	}
+}
