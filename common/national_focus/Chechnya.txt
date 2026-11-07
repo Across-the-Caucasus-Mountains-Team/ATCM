@@ -4075,7 +4075,7 @@ completion_reward = {
 		search_filters = { }
 
 		completion_reward = {
-			country_event = Chechnya.76
+			country_event = chechnya.76
 		}
 	}	
 
@@ -5736,7 +5736,7 @@ completion_reward = {
 		}
 
 		available = {
-			has_global_flag = USSR_Colapsed
+			CHE_base_raids_accessible = yes
 		}
 
 		offset = {
@@ -5756,7 +5756,7 @@ completion_reward = {
 		}
 
 		bypass = {
-
+			has_country_flag = CHE_base_handover_completed
 		}
 
 		cancel_if_invalid = yes
@@ -5766,18 +5766,12 @@ completion_reward = {
 		search_filters = { }
 
 		completion_reward = {
-			if = {
-				limit = {
-					has_completed_focus = CHE_build_secular_state
-				}
-				unlock_decision_tooltip = CHE_hold_raids_on_millitary_bases_decision
-			}
-			if = {
-				limit = {
-					has_completed_focus = CHE_build_islamic_state
-				}
-				unlock_decision_tooltip = CHE_hold_raids_on_soviet_millitary_bases_islam
-			}
+			hidden_effect = { CHE_initialize_base_raids_effect = yes }
+			unlock_decision_category_tooltip = CHE_base_raids
+			unlock_decision_tooltip = CHE_raid_base_military
+			unlock_decision_tooltip = CHE_raid_base_vehicles
+			unlock_decision_tooltip = CHE_raid_base_airfields
+			unlock_decision_tooltip = CHE_raid_base_heavy
 		}
 	}
 

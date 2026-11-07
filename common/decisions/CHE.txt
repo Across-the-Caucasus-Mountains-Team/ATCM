@@ -1206,30 +1206,7 @@ CHE_stability_of_republic_decision = {
 		}
 	}
 
-	CHE_hold_raids_on_millitary_bases_decision = {
-		allowed = {
-			original_tag = CHE
-		}
-		visible = {
-			has_completed_focus = CHE_hold_raids_on_soviet_millitary_bases
-			has_completed_focus = CHE_build_secular_state
-			has_idea = CHE_russian_troops_in_chechnya
-		}
-		available = {		
 
-		}
-		icon = GFX_decision_coat_of_arms_donetsk_oblast
-		
-		fire_only_once = no
-		cost = 35
-		days_re_enable = 30
-		complete_effect = {
-			
-		}
-		ai_will_do = {
-			factor = 120
-		}
-	}
 
 	CHE_prepare_defence_in_grozny = {
 
@@ -1477,30 +1454,7 @@ CHE_ingushetian_uprising = {
 		}
 	}
 
-	CHE_hold_raids_on_soviet_millitary_bases_islam = {
-		allowed = {
-			original_tag = CHE
-		}
-		visible = {
-			has_completed_focus = CHE_hold_raids_on_soviet_millitary_bases
-			has_completed_focus = CHE_build_islamic_state
-			has_idea = CHE_russian_troops_in_chechnya
-		}
-		available = {		
 
-		}
-		icon = GFX_decision_coat_of_arms_donetsk_oblast
-		
-		fire_only_once = no
-		cost = 35
-		days_re_enable = 30
-		complete_effect = {
-			
-		}
-		ai_will_do = {
-			factor = 120
-		}
-	}
 
 }
 

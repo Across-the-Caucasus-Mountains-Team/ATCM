@@ -145,6 +145,7 @@ create_equipment_variant = {
 	    free_universities
 	    police_state
 
+		RAS_inefficient_air_force
 	    RAS_Memories_of_afhganistan_war
 	    RAS_Failed_perestroika
 	    RAS_hardliners_protest

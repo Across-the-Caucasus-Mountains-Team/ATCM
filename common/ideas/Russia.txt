@@ -296,5 +296,25 @@ ideas = {
 				country_resource_chromium = 30
 			}
 		}
+
+		RAS_inefficient_air_force = {
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = state_of_emergency
+
+			modifier = {
+				air_accidents_factor = 0.25
+				air_cas_efficiency = -0.35
+				air_mission_efficiency = -0.15
+				air_training_xp_gain_factor = -0.15
+			}
+		}		
 	}
 }

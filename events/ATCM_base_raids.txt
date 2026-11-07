@@ -1,0 +1,25 @@
+add_namespace = atcm_base_raids
+
+country_event = {
+	id = atcm_base_raids.1
+	title = atcm_base_raids.1.t
+	desc = atcm_base_raids.1.d
+	picture = GFX_Report_event_RAS_fsb_report
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = RAS
+		has_country_flag = CHE_base_handover_received
+	}
+	option = { name = atcm_base_raids.1.a }
+}
+
+country_event = {
+	id = atcm_base_raids.2
+	title = atcm_base_raids.2.t
+	desc = atcm_base_raids.2.d
+	picture = GFX_Report_event_RAS_fsb_report
+	is_triggered_only = yes
+	trigger = { tag = CHE }
+	option = { name = atcm_base_raids.2.a }
+}
