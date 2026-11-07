@@ -689,7 +689,7 @@ technologies = {
 
 		sniper_company = {
 			soft_attack = 0.05
-			recon = 0.01
+			recon = 0.025
 		}
 
 		research_cost = 1.25
@@ -736,7 +736,7 @@ technologies = {
 
 		sniper_company = {
 			soft_attack = 0.05
-			recon = 0.01
+			recon = 0.025
 		}
 
 		research_cost = 1.25
@@ -783,7 +783,7 @@ technologies = {
 
 		sniper_company = {
 			soft_attack = 0.075
-			recon = 0.015
+			recon = 0.035
 		}
 
 		research_cost = 1.25

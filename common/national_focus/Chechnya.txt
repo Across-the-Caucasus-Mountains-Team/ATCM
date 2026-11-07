@@ -2296,8 +2296,32 @@ completion_reward = {
 
 		search_filters = { }
 
-		completion_reward = {
-				}
+			completion_reward = {
+		if = {
+			limit = { has_idea = disarmed_nation }
+			add_ideas = volunteer_only
+		}
+		else_if = {
+			limit = { has_idea = volunteer_only }
+			add_ideas = limited_conscription
+		}
+		else_if = {
+			limit = { has_idea = limited_conscription }
+			add_ideas = extensive_conscription
+		}
+		else_if = {
+			limit = { has_idea = extensive_conscription }
+			add_ideas = service_by_requirement
+		}
+		else_if = {
+			limit = { has_idea = service_by_requirement }
+			add_ideas = all_adults_serve
+		}
+		else_if = {
+			limit = { has_idea = all_adults_serve }
+			add_ideas = scraping_the_barrel
+		}
+}
 	}
 
 	focus = {
@@ -2563,6 +2587,12 @@ completion_reward = {
 		completion_reward = {
 			load_oob = CHE_ghost_of_mountains_first_chechen_war
 			add_ideas = CHE_mountains_ghosts
+			SAK = {
+				give_military_access = CHE
+			}
+			SAK = {
+				give_military_access = GOM
+			}
 		}
 	}
 
@@ -4963,7 +4993,7 @@ completion_reward = {
 			custom_effect_tooltip = 18_CHE_tt
 			army_experience = 25
 			add_war_support = 0.025
-			add_manpower = 5000
+			add_manpower = 3000
 			custom_effect_tooltip = 11_CHE_tt
 			hidden_effect = {
 				

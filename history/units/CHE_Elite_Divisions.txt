@@ -17,7 +17,7 @@ division_template = {
 		sniper_company = { x = 0 y = 3 }
 	}
 
-	is_locked = yes
+	is_locked = no
 }
 
 units = {
