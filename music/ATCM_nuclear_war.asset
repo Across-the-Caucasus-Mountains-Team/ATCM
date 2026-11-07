@@ -1,0 +1,5 @@
+music = {
+	name = "NuclearWar"
+	file = "nuclear_war_40s.ogg"
+	volume = 1.0
+}

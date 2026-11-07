@@ -216,7 +216,8 @@ country_event = {
 				launch_nuke = { province = 5258 use_nuke = no }
 			}
 		}
-		country_event = { id = atcmnuke.13 days = 1 }
+		country_event = { id = superevent.5 days = 1 }
+		country_event = { id = atcmnuke.13 days = 3 }
 	}
 }
 

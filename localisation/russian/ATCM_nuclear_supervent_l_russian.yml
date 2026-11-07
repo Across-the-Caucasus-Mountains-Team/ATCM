@@ -1,0 +1,7 @@
+﻿l_russian:
+ sp_event_RAS_Nuclear_War_title:0 "Ядерная война"
+ sp_event_RAS_Nuclear_War_quote:0 "Мир, каким мы его знали, перестал существовать."
+ sp_event_RAS_Nuclear_War_remark:0 "Закрыть"
+ superevent.5.t:0 "Ядерная война"
+ superevent.5.d:0 "Ядерный удар по Москве."
+ superevent.5.a:0 "Это конец."

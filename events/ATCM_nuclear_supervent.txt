@@ -1,0 +1,19 @@
+add_namespace = superevent
+
+country_event = {
+	id = superevent.5
+	title = superevent.5.t
+	desc = superevent.5.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+
+	option = {
+		name = superevent.5.a
+
+		set_global_flag = ATCM_Nuclear_War_supervent_flag
+		set_global_flag = Visbile_sp_events
+		play_song = "NuclearWar"
+	}
+}
