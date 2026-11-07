@@ -1,0 +1,14 @@
+CHE_base_raids_accessible = {
+	tag = CHE
+	has_idea = CHE_russian_troops_in_chechnya
+	has_capitulated = no
+	NOT = { has_country_flag = CHE_base_handover_completed }
+	NOT = { has_war_with = RAS }
+	21 = { is_owned_by = CHE is_controlled_by = CHE }
+}
+
+CHE_base_raid_can_run = {
+	CHE_base_raids_accessible = yes
+	has_completed_focus = CHE_hold_raids_on_soviet_millitary_bases
+	has_manpower > 24
+}

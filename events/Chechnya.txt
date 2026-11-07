@@ -1196,14 +1196,19 @@ country_event = {
 country_event = {
 	id = chechnya.48
 	title = chechnya.48.t
-	desc = chechnya.48.d
+	desc = CHE_base_handover_che_desc
 	picture = GFX_Report_event_RAS_fsb_report
 
 	is_triggered_only = yes
 
+	immediate = {
+		CHE_base_handover_effect = yes
+		remove_ideas = CHE_russian_troops_in_chechnya
+	}
+
 	option = {
 		name = chechnya.48.a
-		remove_ideas = CHE_russian_troops_in_chechnya
+		custom_effect_tooltip = CHE_base_handover_tt
 	}
 }
 

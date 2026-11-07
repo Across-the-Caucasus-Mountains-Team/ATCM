@@ -1,0 +1,294 @@
+CHE_initialize_base_raids_effect = {
+	if = {
+		limit = { NOT = { has_variable = CHE_base_taken_military } }
+		set_variable = { CHE_base_taken_military = 0 }
+	}
+	if = {
+		limit = { NOT = { has_variable = CHE_base_taken_vehicles } }
+		set_variable = { CHE_base_taken_vehicles = 0 }
+	}
+	if = {
+		limit = { NOT = { has_variable = CHE_base_taken_airfields } }
+		set_variable = { CHE_base_taken_airfields = 0 }
+	}
+	if = {
+		limit = { NOT = { has_variable = CHE_base_taken_heavy } }
+		set_variable = { CHE_base_taken_heavy = 0 }
+	}
+}
+
+CHE_base_item_amount_effect = {
+	set_temp_variable = { base_raid_item_amount = var:base_raid_new_share }
+	multiply_temp_variable = { base_raid_item_amount = var:base_raid_item_total }
+	round_temp_variable = base_raid_item_amount
+	set_temp_variable = { base_raid_previous_amount = var:base_raid_old_share }
+	multiply_temp_variable = { base_raid_previous_amount = var:base_raid_item_total }
+	round_temp_variable = base_raid_previous_amount
+	subtract_from_temp_variable = { base_raid_item_amount = var:base_raid_previous_amount }
+	if = {
+		limit = { has_country_flag = CHE_base_record_handover }
+		add_to_array = { array = base_raid_handover value = var:base_raid_item_amount }
+	}
+}
+
+CHE_base_raid_share_effect = {
+	if = {
+		limit = { check_variable = { var = base_raid_old_share value = 0 compare = equals } }
+		set_temp_variable = { base_raid_share = 0.4 }
+	}
+	else = { set_temp_variable = { base_raid_share = 0.2 } }
+	set_temp_variable = { base_raid_new_share = var:base_raid_old_share }
+	add_to_temp_variable = { base_raid_new_share = var:base_raid_share }
+	clamp_temp_variable = { var = base_raid_new_share min = 0 max = 1 }
+}
+
+CHE_cancel_base_raid_effect = {
+	if = {
+		limit = { has_country_flag = CHE_base_raid_active }
+		clr_country_flag = CHE_base_raid_active
+		add_political_power = 25
+	}
+}
+
+CHE_award_base_military_effect = {
+	set_temp_variable = { base_raid_item_total = 1600 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = infantry_equipment_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 2400 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = infantry_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 240 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = support_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 2000 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 40 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = mortar_equipment_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 60 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = grenade_launcher_equipment_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 30 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = grenade_launcher_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 800 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = bulletproof_vests_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+}
+
+CHE_raid_base_military_effect = {
+	if = {
+		limit = { check_variable = { var = CHE_base_taken_military value = 1 compare = less_than } }
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_military }
+		CHE_base_raid_share_effect = yes
+		CHE_award_base_military_effect = yes
+		set_variable = { CHE_base_taken_military = var:base_raid_new_share }
+		army_experience = 2
+	}
+}
+
+CHE_award_base_vehicles_effect = {
+	set_temp_variable = { base_raid_item_total = 160 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = support_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 25 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = bbm_chassis_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 80 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = motorized_equipment_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 5 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = train_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+}
+
+CHE_raid_base_vehicles_effect = {
+	if = {
+		limit = { check_variable = { var = CHE_base_taken_vehicles value = 1 compare = less_than } }
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_vehicles }
+		CHE_base_raid_share_effect = yes
+		CHE_award_base_vehicles_effect = yes
+		set_variable = { CHE_base_taken_vehicles = var:base_raid_new_share }
+		army_experience = 2
+	}
+}
+
+CHE_award_base_airfields_effect = {
+	set_temp_variable = { base_raid_item_total = 10 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = airborne_combat_vehicle_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 5 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = airborne_combat_vehicle_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 120 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = support_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 30 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = manpads_equipment_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 400 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = infantry_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 400 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 100 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = bulletproof_vests_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+}
+
+CHE_raid_base_airfields_effect = {
+	if = {
+		limit = { check_variable = { var = CHE_base_taken_airfields value = 1 compare = less_than } }
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_airfields }
+		CHE_base_raid_share_effect = yes
+		CHE_award_base_airfields_effect = yes
+		set_variable = { CHE_base_taken_airfields = var:base_raid_new_share }
+		army_experience = 2
+	}
+}
+
+CHE_award_base_heavy_effect = {
+	set_temp_variable = { base_raid_item_total = 10 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = modern_tank_equipment_2 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 10 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = modern_tank_equipment_3 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 20 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = ifv_0_equipment amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 10 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = ifv_1_equipment amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 10 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = apc_2_equipment amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 10 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = apc_3_equipment amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 10 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = motorized_rocket_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 30 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = towed_artillery_equipment_1 amount = var:base_raid_item_amount producer = RAS }
+}
+
+CHE_raid_base_heavy_effect = {
+	if = {
+		limit = { check_variable = { var = CHE_base_taken_heavy value = 1 compare = less_than } }
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_heavy }
+		CHE_base_raid_share_effect = yes
+		CHE_award_base_heavy_effect = yes
+		set_variable = { CHE_base_taken_heavy = var:base_raid_new_share }
+		army_experience = 2
+	}
+}
+
+CHE_base_raid_success_effect = {
+	if = {
+		limit = { check_variable = { var = base_raid_target value = 0 compare = equals } }
+		CHE_raid_base_military_effect = yes
+	}
+	if = {
+		limit = { check_variable = { var = base_raid_target value = 1 compare = equals } }
+		CHE_raid_base_vehicles_effect = yes
+	}
+	if = {
+		limit = { check_variable = { var = base_raid_target value = 2 compare = equals } }
+		CHE_raid_base_airfields_effect = yes
+	}
+	if = {
+		limit = { check_variable = { var = base_raid_target value = 3 compare = equals } }
+		CHE_raid_base_heavy_effect = yes
+	}
+}
+
+CHE_finish_base_raid_effect = {
+	if = {
+		limit = {
+			has_country_flag = CHE_base_raid_active
+			CHE_base_raid_can_run = yes
+		}
+		clr_country_flag = CHE_base_raid_active
+		random_list = {
+			90 = { CHE_base_raid_success_effect = yes }
+			10 = {
+				add_manpower = -25
+				country_event = atcm_base_raids.2
+			}
+		}
+	}
+	else = { CHE_cancel_base_raid_effect = yes }
+}
+
+CHE_base_handover_effect = {
+	if = {
+		limit = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_base_handover_completed }
+		}
+		CHE_initialize_base_raids_effect = yes
+		set_country_flag = CHE_base_handover_completed
+		CHE_cancel_base_raid_effect = yes
+		remove_decision = CHE_raid_base_military
+		remove_decision = CHE_raid_base_vehicles
+		remove_decision = CHE_raid_base_airfields
+		remove_decision = CHE_raid_base_heavy
+		clear_array = base_raid_handover
+		set_country_flag = CHE_base_record_handover
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_military }
+		set_temp_variable = { base_raid_new_share = 1 }
+		add_to_temp_variable = { base_raid_new_share = var:CHE_base_taken_military }
+		divide_temp_variable = { base_raid_new_share = 2 }
+		CHE_award_base_military_effect = yes
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_vehicles }
+		set_temp_variable = { base_raid_new_share = 1 }
+		add_to_temp_variable = { base_raid_new_share = var:CHE_base_taken_vehicles }
+		divide_temp_variable = { base_raid_new_share = 2 }
+		CHE_award_base_vehicles_effect = yes
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_airfields }
+		set_temp_variable = { base_raid_new_share = 1 }
+		add_to_temp_variable = { base_raid_new_share = var:CHE_base_taken_airfields }
+		divide_temp_variable = { base_raid_new_share = 2 }
+		CHE_award_base_airfields_effect = yes
+		set_temp_variable = { base_raid_old_share = var:CHE_base_taken_heavy }
+		set_temp_variable = { base_raid_new_share = 1 }
+		add_to_temp_variable = { base_raid_new_share = var:CHE_base_taken_heavy }
+		divide_temp_variable = { base_raid_new_share = 2 }
+		CHE_award_base_heavy_effect = yes
+		clr_country_flag = CHE_base_record_handover
+		if = {
+			limit = { country_exists = RAS }
+			RAS = {
+				clear_array = base_raid_handover
+				set_country_flag = CHE_base_record_handover
+				set_temp_variable = { base_raid_old_share = 1 }
+				add_to_temp_variable = { base_raid_old_share = CHE.CHE_base_taken_military }
+				divide_temp_variable = { base_raid_old_share = 2 }
+				set_temp_variable = { base_raid_new_share = 1 }
+				CHE_award_base_military_effect = yes
+				set_temp_variable = { base_raid_old_share = 1 }
+				add_to_temp_variable = { base_raid_old_share = CHE.CHE_base_taken_vehicles }
+				divide_temp_variable = { base_raid_old_share = 2 }
+				set_temp_variable = { base_raid_new_share = 1 }
+				CHE_award_base_vehicles_effect = yes
+				set_temp_variable = { base_raid_old_share = 1 }
+				add_to_temp_variable = { base_raid_old_share = CHE.CHE_base_taken_airfields }
+				divide_temp_variable = { base_raid_old_share = 2 }
+				set_temp_variable = { base_raid_new_share = 1 }
+				CHE_award_base_airfields_effect = yes
+				set_temp_variable = { base_raid_old_share = 1 }
+				add_to_temp_variable = { base_raid_old_share = CHE.CHE_base_taken_heavy }
+				divide_temp_variable = { base_raid_old_share = 2 }
+				set_temp_variable = { base_raid_new_share = 1 }
+				CHE_award_base_heavy_effect = yes
+				clr_country_flag = CHE_base_record_handover
+				set_country_flag = CHE_base_handover_received
+				country_event = { id = atcm_base_raids.1 hours = 1 }
+			}
+		}
+	}
+}

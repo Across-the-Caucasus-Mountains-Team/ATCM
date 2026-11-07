@@ -1,0 +1,126 @@
+CHE_base_raids = {
+	CHE_raid_base_military = {
+		icon = GFX_decision_generic_soldier
+		allowed = { original_tag = CHE }
+		visible = {
+			OR = {
+				NOT = { has_variable = CHE_base_taken_military }
+				check_variable = { var = CHE_base_taken_military value = 1 compare = less_than }
+			}
+		}
+		available = {
+			CHE_base_raid_can_run = yes
+			NOT = { has_country_flag = CHE_base_raid_active }
+		}
+		cost = 25
+		days_remove = 10
+		days_re_enable = 30
+		complete_effect = {
+			hidden_effect = {
+				CHE_initialize_base_raids_effect = yes
+				set_country_flag = CHE_base_raid_active
+			}
+			custom_effect_tooltip = CHE_base_raid_start_tt
+		}
+		cancel_trigger = { NOT = { CHE_base_raid_can_run = yes } }
+		cancel_effect = { CHE_cancel_base_raid_effect = yes }
+		remove_effect = {
+			set_temp_variable = { base_raid_target = 0 }
+			CHE_finish_base_raid_effect = yes
+		}
+		ai_will_do = { factor = 120 }
+	}
+	CHE_raid_base_vehicles = {
+		icon = GFX_decision_generic_motorized
+		allowed = { original_tag = CHE }
+		visible = {
+			OR = {
+				NOT = { has_variable = CHE_base_taken_vehicles }
+				check_variable = { var = CHE_base_taken_vehicles value = 1 compare = less_than }
+			}
+		}
+		available = {
+			CHE_base_raid_can_run = yes
+			NOT = { has_country_flag = CHE_base_raid_active }
+		}
+		cost = 25
+		days_remove = 10
+		days_re_enable = 30
+		complete_effect = {
+			hidden_effect = {
+				CHE_initialize_base_raids_effect = yes
+				set_country_flag = CHE_base_raid_active
+			}
+			custom_effect_tooltip = CHE_base_raid_start_tt
+		}
+		cancel_trigger = { NOT = { CHE_base_raid_can_run = yes } }
+		cancel_effect = { CHE_cancel_base_raid_effect = yes }
+		remove_effect = {
+			set_temp_variable = { base_raid_target = 1 }
+			CHE_finish_base_raid_effect = yes
+		}
+		ai_will_do = { factor = 120 }
+	}
+	CHE_raid_base_airfields = {
+		icon = GFX_decision_generic_motorized
+		allowed = { original_tag = CHE }
+		visible = {
+			OR = {
+				NOT = { has_variable = CHE_base_taken_airfields }
+				check_variable = { var = CHE_base_taken_airfields value = 1 compare = less_than }
+			}
+		}
+		available = {
+			CHE_base_raid_can_run = yes
+			NOT = { has_country_flag = CHE_base_raid_active }
+		}
+		cost = 35
+		days_remove = 10
+		days_re_enable = 30
+		complete_effect = {
+			hidden_effect = {
+				CHE_initialize_base_raids_effect = yes
+				set_country_flag = CHE_base_raid_active
+			}
+			custom_effect_tooltip = CHE_base_raid_start_tt
+		}
+		cancel_trigger = { NOT = { CHE_base_raid_can_run = yes } }
+		cancel_effect = { CHE_cancel_base_raid_effect = yes }
+		remove_effect = {
+			set_temp_variable = { base_raid_target = 2 }
+			CHE_finish_base_raid_effect = yes
+		}
+		ai_will_do = { factor = 120 }
+	}
+	CHE_raid_base_heavy = {
+		icon = GFX_decision_generic_tank
+		allowed = { original_tag = CHE }
+		visible = {
+			OR = {
+				NOT = { has_variable = CHE_base_taken_heavy }
+				check_variable = { var = CHE_base_taken_heavy value = 1 compare = less_than }
+			}
+		}
+		available = {
+			CHE_base_raid_can_run = yes
+			NOT = { has_country_flag = CHE_base_raid_active }
+		}
+		cost = 35
+		days_remove = 14
+		days_re_enable = 30
+		complete_effect = {
+			hidden_effect = {
+				CHE_initialize_base_raids_effect = yes
+				set_country_flag = CHE_base_raid_active
+			}
+			custom_effect_tooltip = CHE_base_raid_start_tt
+		}
+		cancel_trigger = { NOT = { CHE_base_raid_can_run = yes } }
+		cancel_effect = { CHE_cancel_base_raid_effect = yes }
+		remove_effect = {
+			set_temp_variable = { base_raid_target = 3 }
+			CHE_finish_base_raid_effect = yes
+		}
+		ai_will_do = { factor = 120 }
+	}
+}
