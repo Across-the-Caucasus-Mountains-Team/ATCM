@@ -12,7 +12,7 @@ focus_tree = {
 
 	default = no
 
-	continuous_focus_position = { x = 6000 y = 500 }
+	continuous_focus_position = { x = 8000 y = 500 }
 
 	focus = {
 		id = CHE_future_of_checheno_ingushetii
@@ -27,9 +27,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			NOT = {
-				has_global_flag = AfterFirstChechenWar
-			}
+
 		}
 
 		available = {
@@ -1074,7 +1072,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_antirussian_propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_antirussian_propaganda
 		x = 4
 		y = 1
 		prerequisite = { focus = CHE_ideas_of_caucasian_chaliphate }
@@ -1107,7 +1105,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_support_dagestan_rebels
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_support_dagestan_rebels
 		x = -1
 		y = 1
 		prerequisite = { focus = CHE_antirussian_propaganda }
@@ -1206,7 +1204,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_organize_raids
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_organize_raids
 		x = 0
 		y = 2
 		prerequisite = { focus = CHE_support_dagestan_rebels }
@@ -1790,10 +1788,8 @@ focus_tree = {
 		allow_branch = {
 			has_global_flag = FirstChechenWar
 			NOT = {
-				OR = { 
-					has_completed_focus = CHE_build_islamic_state
-					has_global_flag = AfterFirstChechenWar
-				}
+				has_completed_focus = CHE_build_islamic_state
+				
 			}
 		}
 
@@ -2593,6 +2589,12 @@ completion_reward = {
 			SAK = {
 				give_military_access = GOM
 			}
+			RAS = {
+				country_event = {
+					id = russia.42
+					hours = 24
+				}
+			}
 		}
 	}
 
@@ -2637,7 +2639,7 @@ completion_reward = {
 		id = CHE_General_Staff_of_Chechnya
 		icon = GFX_CHE_General_Staff_of_Chechnya
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = CHE_call_Everyone
 		prerequisite = { focus = CHE_call_Everyone }
 
@@ -2812,10 +2814,7 @@ completion_reward = {
 		allow_branch = {
 			has_country_flag = AftermathOfFirstWave
 			NOT = {
-				OR = { 
-					has_completed_focus = CHE_build_islamic_state
-					has_global_flag = AfterFirstChechenWar
-				}
+				has_completed_focus = CHE_build_islamic_state
 			}
 		}
 
@@ -3244,7 +3243,10 @@ completion_reward = {
 		}
 
 		available = {
-			has_global_flag = Dudayev_is_dead
+			OR = {
+				has_global_flag = Dudayev_is_dead
+				date > 1996.05.05
+			}
 
 		}
 
@@ -3281,7 +3283,10 @@ completion_reward = {
 		}
 
 		available = {
-			has_global_flag = Dudayev_is_dead
+			OR = {
+				has_global_flag = Dudayev_is_dead
+				date > 1996.05.05
+			}
 
 		}
 
@@ -3853,7 +3858,9 @@ completion_reward = {
 		}
 
 		available = {
-
+            NOT = {
+				has_global_flag = AfterFirstChechenWar
+			}
 		}
 
 		bypass = {
@@ -4100,11 +4107,11 @@ completion_reward = {
 
 	focus = {
 		id = CHE_select_new_leader
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_select_new_leader
 		x = 1
 		y = 4
 		relative_position_id = CHE_inside_remaining_lands
-		prerequisite = { focus = CHE_State_of_Emergency }
+		prerequisite = { focus = CHE_homeland_above_all }
 
 		cost = 10
 
@@ -7171,7 +7178,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_raids_on_the_opposition
-		icon = GFX_CHE_Arrests_and_raids
+		icon = GFX_CHE_raids_on_the_opposition
 		x = 3
 		y = 2
 		relative_position_id = CHE_centralize_power
@@ -7227,7 +7234,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_silent_liquidations
-		icon = GFX_CHE_Silent_killing
+		icon = GFX_CHE_silent_liquidations
 		x = 5
 		y = 2
 		relative_position_id = CHE_centralize_power
@@ -7283,7 +7290,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_Close_look_at_them
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_Close_look_at_them
 		x = 4
 		y = 3
 		relative_position_id = CHE_centralize_power
@@ -7515,8 +7522,8 @@ completion_reward = {
 
 	focus = {
 		id = CHE_after_first_chechen_war
-		icon = GFX_Goal_CHE_National_Propaganda
-		x = 5
+		icon = GFX_goal_unknown
+		x = 55
 		y = 0
 
 		cost = 15
@@ -7554,7 +7561,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_the_struggle_for_power_is_ignited
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		prerequisite = { focus = CHE_after_first_chechen_war }
@@ -7588,7 +7595,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_support_the_secular_line
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 1
 		y = 2
 		prerequisite = { focus = CHE_the_struggle_for_power_is_ignited }
@@ -7623,7 +7630,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_support_the_islamic_alternative
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = -1
 		y = 2
 		prerequisite = { focus = CHE_the_struggle_for_power_is_ignited }
@@ -7658,7 +7665,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_hold_new_elections
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 0
 		y = 3
 		prerequisite = { focus = CHE_support_the_islamic_alternative focus = CHE_support_the_secular_line }
@@ -7691,7 +7698,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_victory_of_mashadov
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 3
 		y = 1
 		prerequisite = { focus = CHE_hold_new_elections}
@@ -7733,7 +7740,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_rename_grozny_to_dzohar
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 4
 		y = 1
 		prerequisite = { focus = CHE_victory_of_mashadov}
@@ -7767,7 +7774,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_unite_yesterday_enemies
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_victory_of_mashadov}
@@ -7800,7 +7807,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_fulfill_their_demands
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 0
 		y = 2
 		prerequisite = { focus = CHE_unite_yesterday_enemies}
@@ -7834,7 +7841,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_fight_with_them
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 2
 		y = 2
 		prerequisite = { focus = CHE_unite_yesterday_enemies}
@@ -7868,7 +7875,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_rebuilidng_of_our_country
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = -2
 		y = 1
 		prerequisite = { focus = CHE_victory_of_mashadov}
@@ -7902,7 +7909,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_crime_issue
-		icon = GFX_Goal_CHE_National_Propaganda
+		icon = GFX_goal_unknown
 		x = 0
 		y = 1
 		prerequisite = { focus = CHE_rebuilidng_of_our_country}

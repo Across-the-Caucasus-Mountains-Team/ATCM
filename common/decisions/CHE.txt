@@ -381,7 +381,16 @@ CHE_first_chechen_war_decision = {
 		}
 
 		complete_effect = {
-			
+			21 = {
+                add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+			}
+			20 = {
+                add_dynamic_modifier = { modifier = general_staff_enemy_disrupt_logistics_modifier scope = RAS days = 30 }
+			}
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment_2
+				amount = 350
+			}			
 		}
 
 		ai_will_do = {
@@ -548,6 +557,41 @@ CHE_first_chechen_war_decision = {
 		}
 	}
 
+	CHE_attract_addition_foreign_volunteer = {
+
+		icon = GFX_decision_generic_soldie
+
+		cost = 35
+		fire_only_once = yes
+		
+		available = {		
+			tag = CHE
+		}
+		
+		visible = {
+			tag = CHE
+			has_global_flag = FirstChechenWar
+		}
+
+		complete_effect = {
+			random_list = {
+				40 = {
+					add_manpower = 195
+				}
+				30 = {
+					add_manpower = 295
+				}
+				20 = {
+					add_manpower = 325
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 40		
+		}
+	}
+
 	CHE_strengthen_dudayev_security = {
 
 		icon = GFX_decision_generic_soldie
@@ -611,6 +655,16 @@ CHE_general_staff_decision = {
 				amount = 500
 			}
 			activate_mission = CHE_return_Grozny
+			hidden_effect = {
+				if = {
+					limit = {
+					    21 = {
+						    resistance > 90
+					    }
+					}
+                    
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -630,9 +684,11 @@ CHE_general_staff_decision = {
 		#Fail trigger
 		available = {
 			NOT = { 
-				RAS = {
-					controls_state = 21
-					controls_state = 20
+				21 = {
+					is_fully_controlled_by = RAS
+				}
+				20 = {
+					is_fully_controlled_by = RAS
 				}
 			}
 		}
@@ -649,6 +705,9 @@ CHE_general_staff_decision = {
 		timeout_effect = {
 			add_stability = 0.035
 			add_war_support = 0.015
+			RAS = {
+				country_event = russia.43
+			}
 		}
 
 		highlight_states = {

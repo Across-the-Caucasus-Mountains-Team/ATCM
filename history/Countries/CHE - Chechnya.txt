@@ -176,6 +176,7 @@ add_ideas = {
 	    election_frequency = 48
 	    elections_allowed = no
     }
+	set_global_flag = Dudayev_is_dead
 	retire_character = CHE_Dzhokhar_Dudaev
 	add_manpower = 20000
 	add_ideas = {

@@ -922,3 +922,56 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = russia.42
+	title = russia.42.t
+	desc = russia.42.d
+	picture = GFX_Report_event_RAS_fsb_report
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = russia.42.a
+	}
+}
+
+# Гарнизоны в Грозном блокированы
+country_event = {
+	id = russia.43
+	title = russia.43.t
+	desc = russia.43.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = russia.43.a
+		add_political_power = -30
+		add_war_support = -0.075
+		20 = {
+            add_dynamic_modifier = { modifier = RAS_region_is_blocked scope = RAS days = 40 }
+		}
+		21 = {
+            add_dynamic_modifier = { modifier = RAS_region_is_blocked scope = RAS days = 40 }
+		}		
+	}
+}
+
+# Восстание в Грозном
+country_event = {
+	id = russia.44
+	title = russia.44.t
+	desc = russia.44.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = russia.44.a
+		add_war_support = -0.035		
+	}
+}
