@@ -1,0 +1,25 @@
+add_namespace = superevent
+
+#Nuclear strike on Chechnya
+country_event = {
+	id = superevent.6
+	title = superevent.6.t
+	desc = superevent.6.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+
+	option = {
+		name = superevent.6.a
+
+		clr_global_flag = SOV_august_coup_supervent_flag
+		clr_global_flag = SOV_end_of_ussr_supervent_flag
+		clr_global_flag = RAS_black_october_supervent_flag
+		clr_global_flag = RAS_First_Chechen_War_supervent_flag
+		clr_global_flag = ATCM_Nuclear_War_supervent_flag
+		set_global_flag = ATCM_Chechnya_Nuke_supervent_flag
+		set_global_flag = Visbile_sp_events
+		play_song = "ATCM_Chechnya_Nuke"
+	}
+}

@@ -12,6 +12,11 @@ country_event = {
 	option = {
 		name = superevent.5.a
 
+		clr_global_flag = SOV_august_coup_supervent_flag
+		clr_global_flag = SOV_end_of_ussr_supervent_flag
+		clr_global_flag = RAS_black_october_supervent_flag
+		clr_global_flag = RAS_First_Chechen_War_supervent_flag
+		clr_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 		set_global_flag = ATCM_Nuclear_War_supervent_flag
 		set_global_flag = Visbile_sp_events
 		play_song = "NuclearWar"

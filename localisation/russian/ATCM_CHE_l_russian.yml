@@ -108,6 +108,8 @@
   CHE_loyal_military_correspondent: "Лояльные корреспонденты"
   CHE_Surrender: "Сдаться"
   CHE_handicraft_production: "Кустарное производство"
+  kystanoe_nroizvodstvo_D: "§Yбудет добавлен модификатор кустарное производство§!"
+  kystanoe_nroizvodstvo_I: "§Yбудет изменен модификатор кустарное производство§!"
   CHE_homemade_mines: "Самодельные мины"
   CHE_homemade_rifles: "Самодельные винтовки"
   CHE_workshops_in_the_mountains: "Мастерские в холмах"
@@ -167,6 +169,7 @@
 
   drove_out_the_russians: "Выселение русских жителей"
   CHE_Khattab_Arrived: "Хаттаб прибыл"
+  kystanoe_nroizvodstvo: "кустарное производство"
 
   CHE_peace_negotiations_first_chechen_war_decision: "Мирные переговоры"
   CHE_peace_negotiations_first_chechen_war_decision_desc: "Война затянулась. Несмотря на храбрость наших бойцов и поддержку народа, мы не можем игнорировать разрушения, голод и истощение, которые она приносит. Некоторые командиры и политические деятели начали рассматривать возможность диалога с Москвой. \n\nХод переговоров: §G[?RAS_negotiation_process_fcw_value|%%]§!"

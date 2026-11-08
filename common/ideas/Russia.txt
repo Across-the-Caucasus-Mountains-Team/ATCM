@@ -42,6 +42,26 @@ ideas = {
 				army_attack_factor = -0.75
 			}
 		}
+		
+		RAS_muzika_mycuraeva = {
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = CHE_abandoned_MIC
+			
+			modifier = {
+				stability_factor = -0.1
+				non_core_manpower = -0.25
+				political_power_factor = -0.15
+			}
+		}
 
 		RAS_call_for_air_strikes_idea = {
 

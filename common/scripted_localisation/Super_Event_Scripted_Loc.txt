@@ -32,6 +32,12 @@ defined_text = {
 		}
 		localization_key = "sp_event_RAS_Nuclear_War_title"
 	}
+	text = {
+		trigger = {
+			has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
+		}
+		localization_key = "sp_event_RAS_Chechnya_Nuke_title"
+	}
 }
 
 #Quotes
@@ -68,6 +74,12 @@ defined_text = {
 		}
 		localization_key = "sp_event_RAS_Nuclear_War_quote"
 	}
+	text = {
+		trigger = {
+			has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
+		}
+		localization_key = "sp_event_RAS_Chechnya_Nuke_quote"
+	}
 }
 
 #Remarks
@@ -102,5 +114,11 @@ defined_text = {
 			has_global_flag = ATCM_Nuclear_War_supervent_flag
 		}
 		localization_key = "sp_event_RAS_Nuclear_War_remark"
+	}
+	text = {
+		trigger = {
+			has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
+		}
+		localization_key = "sp_event_RAS_Chechnya_Nuke_remark"
 	}
 }

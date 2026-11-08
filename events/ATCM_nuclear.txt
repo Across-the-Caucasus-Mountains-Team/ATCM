@@ -4,7 +4,7 @@ country_event = {
 	id = atcmnuke.1
 	title = atcmnuke.1.t
 	desc = atcmnuke.1.d
-	picture = GFX_Report_event_Grozny_captured
+	picture = GFX_Report_event_Chechnya_nuke
 
 	is_triggered_only = yes
 	fire_only_once = yes

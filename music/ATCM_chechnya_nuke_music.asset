@@ -1,0 +1,5 @@
+﻿music = {
+	name = "ATCM_Chechnya_Nuke"
+	file = "ATCM_Chechnya_Nuke.ogg"
+	volume = 0.9
+}

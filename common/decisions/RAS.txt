@@ -1709,6 +1709,7 @@ RAS_first_chechen_war_decision = {
 			custom_effect_tooltip = 18_RAS_tt
 			custom_effect_tooltip = ATCM_nuke_chechnya_tt
 			set_global_flag = ATCM_nuclear_war
+			country_event = { id = superevent.6 }
 			ATCM_nuke_chechen_provinces = yes
 			country_event = { id = atcmnuke.1 days = 3 }
 		}
