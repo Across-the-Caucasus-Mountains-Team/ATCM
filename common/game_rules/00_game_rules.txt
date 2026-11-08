@@ -474,10 +474,12 @@ obsolete_focus_branches_visibility = {
 		name = SHOW
 		text = ATCM_SHOW_BRANCHES
 		desc = ATCM_SHOW_BRANCHES_DESC
+		allow_achievements = yes
 	}
 	option = {
 		name = HIDE
 		text = ATCM_HIDE_BRANCHES
 		desc = ATCM_HIDE_BRANCHES_DESC
+		allow_achievements = yes
 	}
 }

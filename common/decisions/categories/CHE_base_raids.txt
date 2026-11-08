@@ -1,9 +1,0 @@
-CHE_base_raids = {
-	icon = SOV_propaganda
-	priority = 90
-	visible = {
-		CHE_base_raids_accessible = yes
-		has_completed_focus = CHE_hold_raids_on_soviet_millitary_bases
-	}
-	visible_when_empty = no
-}

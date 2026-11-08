@@ -3789,7 +3789,7 @@ focus_tree = {
 					}
 					add_timed_idea = {
 						idea = GEN_RAS_AI_BLITZ_buff_idea
-						days = 15
+						days = 45
 					}
 					add_ideas = GEN_AI_buff_idea
 				}
@@ -3880,6 +3880,15 @@ focus_tree = {
 					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
 				}
 				11 = {
+					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+				}
+				131 = {
+					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+				}
+				111 = {
+					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
+				}
+				110 = {
 					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
 				}
 

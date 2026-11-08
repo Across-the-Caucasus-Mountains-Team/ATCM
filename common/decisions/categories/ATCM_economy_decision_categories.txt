@@ -1,6 +1,3 @@
-################
-##### RAS ######
-################
 # kaja is good man
 
 RAS_external_default_decision = {

@@ -55,7 +55,7 @@ division_template = {
 		irregular_infantry = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 0 }
 	}
 }
 

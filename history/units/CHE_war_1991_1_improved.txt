@@ -72,7 +72,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 17366
+		location = 17505
 		division_template = "Ġaşloyn bataljon"
 		start_experience_factor = 0.4
 	}
@@ -82,7 +82,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 17366
+		location = 17506
 		division_template = "Ġaşloyn bataljon"
 		start_experience_factor = 0.45
 	}
@@ -102,7 +102,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 17366
+		location = 10609
 		division_template = "Ġaşloyn bataljon"
 		start_experience_factor = 0.5
 	}
@@ -132,7 +132,17 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 8281
+		location = 17400
+		division_template = "Ġaşloyn bataljon"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 17370
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.2
 	}
@@ -202,7 +212,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 10304
+		location = 10527
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.1
 	}
@@ -212,7 +222,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 147
+		location = 10483
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.05
 	}
@@ -222,7 +232,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 10862
+		location = 5622
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.05
 	}
@@ -232,17 +242,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 10788
-		division_template = "Nizam docu bataljon"
-		start_experience_factor = 0.05
-	}
-
-	division = {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 6457
+		location = 2481
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.05
 	}
@@ -262,7 +262,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 377
+		location = 6457
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.05
 	}
@@ -272,7 +272,17 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 377
+		location = 6342
+		division_template = "Nizam docu bataljon"
+		start_experience_factor = 0.05
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6342
 		division_template = "Nizam docu bataljon"
 		start_experience_factor = 0.05
 	}

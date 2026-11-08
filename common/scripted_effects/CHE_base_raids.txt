@@ -51,7 +51,7 @@ CHE_cancel_base_raid_effect = {
 }
 
 CHE_award_base_military_effect = {
-	set_temp_variable = { base_raid_item_total = 1600 }
+	set_temp_variable = { base_raid_item_total = 3200 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = infantry_equipment_0 amount = var:base_raid_item_amount producer = RAS }
 	set_temp_variable = { base_raid_item_total = 2400 }
@@ -60,19 +60,19 @@ CHE_award_base_military_effect = {
 	set_temp_variable = { base_raid_item_total = 240 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = support_equipment_1 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 2000 }
+	set_temp_variable = { base_raid_item_total = 10000 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = var:base_raid_item_amount producer = RAS }
 	set_temp_variable = { base_raid_item_total = 40 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = mortar_equipment_0 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 60 }
+	set_temp_variable = { base_raid_item_total = 100 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = grenade_launcher_equipment_0 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 30 }
+	set_temp_variable = { base_raid_item_total = 40 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = grenade_launcher_equipment_1 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 800 }
+	set_temp_variable = { base_raid_item_total = 7000 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = bulletproof_vests_equipment_1 amount = var:base_raid_item_amount producer = RAS }
 }
@@ -89,13 +89,16 @@ CHE_raid_base_military_effect = {
 }
 
 CHE_award_base_vehicles_effect = {
-	set_temp_variable = { base_raid_item_total = 160 }
+	set_temp_variable = { base_raid_item_total = 400 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = support_equipment_1 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 25 }
+	set_temp_variable = { base_raid_item_total = 100 }
+	CHE_base_item_amount_effect = yes
+	add_equipment_to_stockpile = { type = bbm_chassis_0 amount = var:base_raid_item_amount producer = RAS }
+	set_temp_variable = { base_raid_item_total = 50 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = bbm_chassis_1 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 80 }
+	set_temp_variable = { base_raid_item_total = 100 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = motorized_equipment_0 amount = var:base_raid_item_amount producer = RAS }
 	set_temp_variable = { base_raid_item_total = 5 }
@@ -115,25 +118,25 @@ CHE_raid_base_vehicles_effect = {
 }
 
 CHE_award_base_airfields_effect = {
-	set_temp_variable = { base_raid_item_total = 10 }
+	set_temp_variable = { base_raid_item_total = 20 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = airborne_combat_vehicle_0 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 5 }
+	set_temp_variable = { base_raid_item_total = 10 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = airborne_combat_vehicle_1 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 120 }
+	set_temp_variable = { base_raid_item_total = 200 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = support_equipment_1 amount = var:base_raid_item_amount producer = RAS }
 	set_temp_variable = { base_raid_item_total = 30 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = manpads_equipment_0 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 400 }
+	set_temp_variable = { base_raid_item_total = 500 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = infantry_equipment_1 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 400 }
+	set_temp_variable = { base_raid_item_total = 1000 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = uniform_equipment_0 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 100 }
+	set_temp_variable = { base_raid_item_total = 500 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = bulletproof_vests_equipment_1 amount = var:base_raid_item_amount producer = RAS }
 }
@@ -150,7 +153,7 @@ CHE_raid_base_airfields_effect = {
 }
 
 CHE_award_base_heavy_effect = {
-	set_temp_variable = { base_raid_item_total = 10 }
+	set_temp_variable = { base_raid_item_total = 20 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = modern_tank_equipment_2 amount = var:base_raid_item_amount producer = RAS }
 	set_temp_variable = { base_raid_item_total = 10 }
@@ -162,7 +165,7 @@ CHE_award_base_heavy_effect = {
 	set_temp_variable = { base_raid_item_total = 10 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = ifv_1_equipment amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 10 }
+	set_temp_variable = { base_raid_item_total = 30 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = apc_2_equipment amount = var:base_raid_item_amount producer = RAS }
 	set_temp_variable = { base_raid_item_total = 10 }
@@ -171,7 +174,7 @@ CHE_award_base_heavy_effect = {
 	set_temp_variable = { base_raid_item_total = 10 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = motorized_rocket_equipment_1 amount = var:base_raid_item_amount producer = RAS }
-	set_temp_variable = { base_raid_item_total = 30 }
+	set_temp_variable = { base_raid_item_total = 50 }
 	CHE_base_item_amount_effect = yes
 	add_equipment_to_stockpile = { type = towed_artillery_equipment_1 amount = var:base_raid_item_amount producer = RAS }
 }

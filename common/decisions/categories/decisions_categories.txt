@@ -1,8 +1,3 @@
-#####################################################################################################################
-# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
-# ID's must not include spaces!
-#####################################################################################################################
-
 SAK_fight_back_zviadists_category = {
 	priority = 9
 	icon = GFX_decision_cat_SAK_emergency

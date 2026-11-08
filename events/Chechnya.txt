@@ -2118,7 +2118,7 @@ country_event = {
 		name = chechnya.77.a
 		add_war_support = 0.02
 		hidden_effect = {
-			load_oob = Uprising_in_grozny
+			load_oob = CHE_Uprising_in_grozny
 			RAS = {
 				country_event = russia.44
 			}

@@ -1238,34 +1238,32 @@ CHE_stability_of_republic_decision = {
 	}
 
 	CHE_hold_millitary_training = {
-		allowed = {
-			original_tag = CHE
-		}
+		allowed = { original_tag = CHE }
 		visible = {
-			has_completed_focus = CHE_military_training
-		}
-		available = {		
-			NOT = {
-				has_idea = CHE_Military_Training
+			OR = {
+				has_completed_focus = CHE_Weak_military
+				has_completed_focus = CHE_military_training
 			}
 		}
-		icon = GFX_decision_coat_of_arms_donetsk_oblast
-		
-		fire_only_once = no
-		cost = 125
+		available = {
+			NOT = { has_idea = CHE_Military_Training }
+			has_capitulated = no
+		}
+		icon = GFX_decision_generic_soldier
+		cost = 100
+		days_remove = 50
 		complete_effect = {
-			army_experience = 35
-			add_timed_idea = {
-				idea = CHE_Military_Training
-				days = 45
-			}
+			subtract_from_variable = { var = cash value = 10 }
+			army_experience = 20
+			add_timed_idea = { idea = CHE_Military_Training days = 50 }
 		}
+		cancel_trigger = { has_capitulated = yes }
+
 		ai_will_do = {
-			factor = 120
+			factor = 10
+			modifier = { factor = 3 has_army_experience < 50 }
 		}
 	}
-
-
 
 	CHE_prepare_defence_in_grozny = {
 

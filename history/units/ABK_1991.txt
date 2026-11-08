@@ -50,12 +50,13 @@ division_template = {
 	division_names_group = ABK_Art_01
 
 	regiments = {
-		artillery_brigade  = { x = 0 y = 0 }
-	    artillery_brigade  = { x = 0 y = 1 }
-		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 0 y = 0 }
+		artillery_brigade  = { x = 1 y = 0 }
+	    artillery_brigade  = { x = 1 y = 1 }
+
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 0 }
 	}
 }
 

@@ -403,7 +403,7 @@ sub_units = {
 		same_support_type = engineer
 	}
 
-	recon = { #mounted cav
+	recon = {
 		abbreviation = "CREC"
 		sprite = infantry
 		map_icon_category = infantry

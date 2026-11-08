@@ -10,7 +10,7 @@ division_template = {
 		artillery_brigade  = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 0 }
 	}
 }
 
@@ -21,9 +21,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 17366
+		location = 17367
 		division_template = "Artillerin bataljon"
 		start_experience_factor = 0.15
+		start_equipment_factor = 0.5
 	}
 	
 	division = {	
@@ -31,9 +32,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 17366
+		location = 17367
 		division_template = "Artillerin bataljon"
 		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
 	}
 	
 	division = {	
@@ -41,9 +43,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 17366
+		location = 17367
 		division_template = "Artillerin bataljon"
 		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
 	}
 
 	division = {	
@@ -51,9 +54,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 17366
+		location = 17367
 		division_template = "Artillerin bataljon"
 		start_experience_factor = 0.125
+		start_equipment_factor = 0.5
 	}
 
 	division = {	
@@ -64,6 +68,7 @@ units = {
 		location = 10609
 		division_template = "Artillerin bataljon"
 		start_experience_factor = 0.125
+		start_equipment_factor = 0.5
 	}
 	
 }	

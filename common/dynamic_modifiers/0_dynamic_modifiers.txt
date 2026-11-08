@@ -145,9 +145,11 @@ RAS_road_to_grozny = {
 	enable = { always = yes }
 	icon = GFX_idea_Russian_attack
 	army_speed_factor = 0.2
+	org_loss_when_moving = -0.2
 	army_org_factor = 0.2
 	army_attack_factor = 0.15
 	breakthrough_factor = 0.1
+	ai_focus_aggressive_factor = 0.2
 }
 
 RAS_chechen_mountains = {

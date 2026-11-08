@@ -34,7 +34,6 @@ division_template = {
 		sniper_company = { x = 0 y = 2 }
 		recon = { x = 0 y = 3 }
 	}
-	is_locked = yes
 }
 
 division_template = {
@@ -193,8 +192,8 @@ units = {
 		location = 2964
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.5
-	    start_equipment_factor = 0.4
-		start_manpower_factor = 0.5
+	    start_equipment_factor = 0.6
+		start_manpower_factor = 0.6
 	}
 	
 	division = {	
@@ -205,8 +204,8 @@ units = {
 		location = 2964
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.5
-	    start_equipment_factor = 0.4
-		start_manpower_factor = 0.5
+	    start_equipment_factor = 0.6
+		start_manpower_factor = 0.6
 	}
 	
 	division = {	
@@ -217,8 +216,8 @@ units = {
 		location = 8617
 		division_template = "Gornostrelkoviy-batalyon"
 		start_experience_factor = 0.5
-	    start_equipment_factor = 0.4
-		start_manpower_factor = 0.5
+	    start_equipment_factor = 0.6
+		start_manpower_factor = 0.6
 	}
 	
 	division = {	
@@ -277,7 +276,6 @@ units = {
 		location = 9308
 		division_template = "Tankoviy-batalyon"
 		start_experience_factor = 0.5
-	    start_equipment_factor = 0.4
 		start_manpower_factor = 0.5
 		start_equipment_factor = 0.7
 	}

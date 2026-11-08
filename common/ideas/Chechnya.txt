@@ -168,7 +168,7 @@ ideas = {
 			picture = state_of_emergency
 
 			modifier = {
-				training_time_factor = -0.40
+				training_time_factor = -0.30
 				experience_gain_army_factor = 0.15
 			}
 		}
