@@ -951,6 +951,10 @@ country_event = {
 
 	is_triggered_only = yes
 	fire_only_once = yes
+	trigger = {
+		tag = RAS
+		has_war_with = CHE
+	}
 
 	option = {
 		name = russia.43.a
@@ -974,6 +978,10 @@ country_event = {
 
 	is_triggered_only = yes
 	fire_only_once = yes
+	trigger = {
+		tag = RAS
+		has_war_with = CHE
+	}
 
 	option = {
 		name = russia.44.a

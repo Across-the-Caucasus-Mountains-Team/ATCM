@@ -559,7 +559,7 @@ CHE_first_chechen_war_decision = {
 
 	CHE_attract_addition_foreign_volunteer = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_generic_soldier
 
 		cost = 35
 		fire_only_once = yes
@@ -662,7 +662,7 @@ CHE_general_staff_decision = {
 						    resistance > 90
 					    }
 					}
-                    
+					country_event = { id = chechnya.77 hours = 1 }
 				}
 			}
 		}
@@ -681,7 +681,6 @@ CHE_general_staff_decision = {
 		days_mission_timeout = 45
 		cancel_trigger = { has_global_flag = AfterFirstChechenWar }
 		
-		#Fail trigger
 		available = {
 			NOT = { 
 				21 = {
@@ -698,16 +697,17 @@ CHE_general_staff_decision = {
 		}
 
 		complete_effect = {
-			add_stability = -0.075
-			add_war_support = -0.15
+			add_stability = 0.035
+			add_war_support = 0.015
+			if = {
+				limit = { has_war_with = RAS }
+				RAS = { country_event = russia.43 }
+			}
 		}
 
 		timeout_effect = {
-			add_stability = 0.035
-			add_war_support = 0.015
-			RAS = {
-				country_event = russia.43
-			}
+			add_stability = -0.075
+			add_war_support = -0.15
 		}
 
 		highlight_states = {

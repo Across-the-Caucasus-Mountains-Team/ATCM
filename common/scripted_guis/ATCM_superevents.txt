@@ -12,356 +12,212 @@ scripted_gui = {
 			Super_Event_Image_SOV_August_Coup_visible = {
 				has_global_flag = SOV_august_coup_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_SOV_End_Of_The_Ussr_visible = {
 				has_global_flag = SOV_end_of_ussr_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Black_October_visible = {
 				has_global_flag = RAS_black_october_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S01_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S02_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S03_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S04_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S05_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S06_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S07_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S08_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S09_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S10_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S11_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S12_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S13_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S14_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S15_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S16_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S17_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S18_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S19_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_S20_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Nuclear_War_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Underlay_RAS_Nuclear_War_visible = {
 				has_global_flag = ATCM_Nuclear_War_supervent_flag
 			}
-		}
-		#### First Chechen War video (was missing -> shown for all super events)
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S01_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S02_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S03_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S04_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S05_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S06_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S07_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S08_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S09_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S10_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S11_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S12_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S13_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S14_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S15_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S16_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S17_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S18_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S19_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_First_Chechen_War_S20_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Underlay_RAS_First_Chechen_War_visible = {
 				has_global_flag = RAS_First_Chechen_War_supervent_flag
 			}
-		}
-
-		#### Chechnya nuclear strike
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S01_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S02_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S03_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S04_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S05_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S06_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S07_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S08_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S09_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S10_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S11_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S12_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S13_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S14_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S15_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S16_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S17_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S18_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S19_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_S20_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Image_RAS_Chechnya_Nuke_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
-		}
-		triggers = {
 			Super_Event_Underlay_RAS_Chechnya_Nuke_visible = {
 				has_global_flag = ATCM_Chechnya_Nuke_supervent_flag
 			}
 		}
 
-		############
-		###BUTTON###
-		############
-		
 		effects = {
 			sp_event_close_button_click = {
 				clr_global_flag = Visbile_sp_events

@@ -1,4 +1,4 @@
-﻿﻿l_russian:
+﻿l_russian:
  CHE_hold_raids_on_soviet_millitary_bases_desc: "На военных базах, автопарках и аэродромах остаются запасы бывшей Советской армии. Организованные рейды помогут вооружить нашу армию до вывода войск."
  CHE_base_raids: "Советские базы"
  CHE_base_raids_desc: "Четыре конечных запаса. Одновременно можно проводить один рейд. Уже изъято: военные базы — [?CHE_base_taken_military|%0], автопарки — [?CHE_base_taken_vehicles|%0], аэродромы — [?CHE_base_taken_airfields|%0], тяжёлая техника — [?CHE_base_taken_heavy|%0]."

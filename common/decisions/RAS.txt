@@ -1587,7 +1587,7 @@ RAS_first_chechen_war_decision = {
 		}
 	}
 
-	RAS_mvd_conduct_shatoy_district_cleanups = {
+	RAS_mvd_conduct_sharoy_district_cleanups = {
 
 		icon = GFX_decision_BTR
 		cost = 55
@@ -1853,11 +1853,6 @@ RAS_special_services_decision = {
 						country_event = chechnya.14
 					}
 					country_event = russia.14
-				}
-			}
-			hidden_effect = {
-				CHE = {
-					country_event = 1
 				}
 			}
 

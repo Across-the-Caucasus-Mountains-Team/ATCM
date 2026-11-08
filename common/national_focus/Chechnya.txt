@@ -2812,7 +2812,10 @@ completion_reward = {
 		}
 
 		allow_branch = {
-			has_country_flag = AftermathOfFirstWave
+			OR = {
+				has_country_flag = AftermatchOfFirstWave
+				has_country_flag = AftermathOfFirstWave
+			}
 			NOT = {
 				has_completed_focus = CHE_build_islamic_state
 			}
@@ -3587,6 +3590,17 @@ completion_reward = {
 
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 2 }
+			set_variable = { kystanoe_nroizvodstvo_production_factory_max_efficiency_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_production_factory_efficiency_gain_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_industrial_capacity_factory = 0 }
+			set_variable = { kystanoe_nroizvodstvo_local_resources_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_fuel_gain_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_max_fuel_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_dig_in_speed_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_equipment_capture_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_production_speed_buildings_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_fuel_consumption_factor = 0 }
+			set_variable = { kystanoe_nroizvodstvo_supply_consumption_factor = 0 }
 			add_dynamic_modifier = { modifier = kystanoe_nroizvodstvo }
 			custom_effect_tooltip = kystanoe_nroizvodstvo_D
 		}
@@ -3626,8 +3640,7 @@ completion_reward = {
 
 		completion_reward = {
 			add_offsite_building = { type = arms_factory level = 1 }
-			add_to_variable = { kystanoe_nroizvodstvo_infantry_equipment_production_reliability_factor = -0.25 }
-			add_to_variable = { kystanoe_nroizvodstvo_infantry_equipment_production_cost_factor = -0.20 }
+			add_ideas = CHE_handicraft_rifles_idea
 			add_to_variable = { kystanoe_nroizvodstvo_production_factory_max_efficiency_factor = 0.05 }
 			add_to_variable = { kystanoe_nroizvodstvo_industrial_capacity_factory = 0.05 }
 			custom_effect_tooltip = kystanoe_nroizvodstvo_I
@@ -3712,8 +3725,8 @@ completion_reward = {
 			add_offsite_building = { type = arms_factory level = 2 }
 			add_to_variable = { kystanoe_nroizvodstvo_equipment_capture_factor = 0.1 }
 			add_to_variable = { kystanoe_nroizvodstvo_dig_in_speed_factor = 0.15 }
-			add_to_variable = { supply_consumption_factor = -0.1 }
-			add_to_variable = { production_factory_efficiency_gain_factor = 0.25 }
+			add_to_variable = { kystanoe_nroizvodstvo_supply_consumption_factor = -0.1 }
+			add_to_variable = { kystanoe_nroizvodstvo_production_factory_efficiency_gain_factor = 0.25 }
 			custom_effect_tooltip = kystanoe_nroizvodstvo_I		
 		}
 	}
@@ -3752,8 +3765,7 @@ completion_reward = {
 
 		completion_reward = {
 			add_offsite_building = { type = arms_factory level = 1 }
-			add_to_variable = { kystanoe_nroizvodstvo_equipment_support_equipment_reliability_factor = -0.15 }
-			add_to_variable = { kystanoe_nroizvodstvo_equipment_support_equipment_build_cost_factor = -0.10 }
+			add_ideas = CHE_handicraft_support_idea
 			custom_effect_tooltip = kystanoe_nroizvodstvo_I
 		}
 	}
