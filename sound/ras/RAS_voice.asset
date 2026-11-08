@@ -1,0 +1,134 @@
+
+category = 
+{
+ name = "Voices"
+ soundeffects = {
+	RAS_infantry_idle
+	RAS_infantry_neutral_combat
+	RAS_infantry_positive_combat
+	RAS_infantry_move_out
+	RAS_infantry_retreat
+ }
+  compressor = {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+
+soundeffect = {
+    name = "RAS_infantry_idle"
+    sounds = {
+		sound = RAS_idle_001
+        sound = RAS_idle_002
+
+    }
+	max_audible = 5
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15 }
+}
+soundeffect = {
+    name = "RAS_infantry_neutral_combat"
+    sounds = {
+        sound = RAS_neutral_001
+		sound = RAS_neutral_002
+    }
+	max_audible = 4
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "RAS_infantry_positive_combat"
+    sounds = {
+        sound = RAS_positive_001
+		sound = RAS_positive_002
+    }
+	max_audible = 4
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "RAS_infantry_move_out"
+    sounds = {
+        sound = RAS_moving_001
+    }
+	max_audible = 4
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "RAS_infantry_retreat"
+    sounds = {
+        sound = COM_retreat_001
+        sound = COM_retreat_002
+    }
+	max_audible = 2
+	max_audible_behaviour = fail
+	volume = 0.60
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+############## AUDIO ASSETS
+
+################# SUD
+sound = {
+	name = "RAS_idle_001"
+	file = "RAS_idle_001.wav"
+}
+
+sound = {
+	name = "RAS_idle_002"
+	file = "RAS_idle_002.wav"
+}
+
+sound = {
+	name = "COM_retreat_001"
+	file = "COM_retreat_001.wav"
+}
+
+sound = {
+	name = "COM_retreat_002"
+	file = "COM_retreat_002.wav"
+}
+
+sound = {
+	name = "RAS_moving_001"
+	file = "RAS_moving_001.wav" 
+}
+
+sound = {
+	name = "RAS_neutral_001"
+	file = "RAS_neutral_001.wav"
+}
+
+sound = {
+	name = "RAS_neutral_002"
+	file = "RAS_neutral_002.wav"
+}
+
+
+sound = {
+	name = "RAS_positive_001"
+	file = "RAS_positive_001.wav"
+}
+
+sound = {
+	name = "RAS_positive_002"
+	file = "RAS_positive_002.wav"
+}

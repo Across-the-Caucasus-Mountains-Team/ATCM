@@ -523,8 +523,35 @@ spriteTypes = {
 		name = "GFX_CHE_workshops_in_the_mountains"
 		texturefile = "gfx/interface/Goals/CHE/CHE_workshops_in_the_mountains.png"
 	}
+	spriteType = {
+		name = "GFX_CHE_select_new_leader"
+		texturefile = "gfx/interface/Goals/CHE/CHE_select_new_leader.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_support_dagestan_rebels"
+		texturefile = "gfx/interface/Goals/CHE/CHE_support_dagestan_rebels.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_antirussian_propaganda"
+		texturefile = "gfx/interface/Goals/CHE/CHE_antirussian_propaganda.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_organize_raids"
+		texturefile = "gfx/interface/Goals/CHE/CHE_organize_raids.png"
+	}	
+	spriteType = {
+		name = "GFX_CHE_silent_liquidations"
+		texturefile = "gfx/interface/Goals/CHE/CHE_silent_liquidations.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_raids_on_the_opposition"
+		texturefile = "gfx/interface/Goals/CHE/CHE_raids_on_the_opposition.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_Close_look_at_them"
+		texturefile = "gfx/interface/Goals/CHE/CHE_Close_look_at_them.png"
+	}
 
-	
 
 
 
