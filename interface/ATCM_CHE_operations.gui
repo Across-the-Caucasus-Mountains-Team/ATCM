@@ -71,8 +71,117 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_CHE_operations_outside_chechnya_background"
+			quadTextureSprite = "GFX_CHE_operations_in_caucasus_background"
 		}
+
+		instantTextBoxType = {
+			name = "CHE_region_selected"
+			text = "[get_chechen_operation_state_name]"
+			font = "hoi_30header"
+			maxWidth = 315
+			maxHeight = 12
+			position = { x = 1180 y = 165 }
+			pdx_tooltip = "[CAT_OPENING]"
+		}
+
+		buttonType = {
+			name = "button_carry_out_an_act_of_intimidation"
+			spriteType = "GFX_event_option_entry"
+			position = { x = 1090 y = 425 }
+			buttonText = "chechen_operations_carry_out_an_act_of_intimidation"
+			buttonFont = "hoi_16mbs"
+			pdx_tooltip = "chechen_operations_carry_out_an_act_of_intimidation_tt"
+			clicksound = click_close
+			oversound = ui_menu_over
+		}
+
+		buttonType = {
+			name = "button_dagestan_region"
+			spriteType = "GFX_CHE_Coat_Of_Arms_Dagestan"
+			position = { x = 825 y = 515 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.30
+		}
+
+		buttonType = {
+			name = "button_ingushetia_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 675 y = 515 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.6
+		}	
+		
+		buttonType = {
+			name = "button_north_ossetia_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 605 y = 535 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.6
+		}	
+		
+		buttonType = {
+			name = "button_kabardino_balkaria_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 535 y = 505 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.6
+		}
+
+		buttonType = {
+			name = "button_karachevo_cherkessia_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 415 y = 475 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.8
+		}		
+		
+		buttonType = {
+			name = "button_starvopol_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 535 y = 325 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 1
+		}
+		
+		buttonType = {
+			name = "button_krasnodar_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 235 y = 225 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 1
+		}		
+
+		buttonType = {
+			name = "button_adygea_region"
+			spriteType = "GFX_Russian_Embleme"
+			position = { x = 285 y = 365 }
+			buttonFont = "hoi_16mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			multiline = yes
+			scale = 0.7
+		}		
 
 		buttonType = {
 			name = "close_operations_outside_button"

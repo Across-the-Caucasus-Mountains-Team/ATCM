@@ -17,6 +17,9 @@
   general_staff_strengthen_defense_tt: "§LНажмите, чтобы усилить оборону. Для начала выберите регион, где будет укрепляться оборона. Можно использовать только одно укрепление одновременно.\n§YДлительность: §t30 дней\n§YСтоимость: §R15£GFX_command_power\n§YЭффект: §7+15.00 к скорости строительства укреплений"
   general_staff_disrupt_logistics_tt: "§LНажмите, чтобы нарушить вражескую логистику. Для начала выберите регион, где будет проведена операция. Можно использовать только одну такую операцию одновременно.\n§YДлительность: §t30 дней\n§YСтоимость: §R15£GFX_command_power\n§YЭффект: §R-15.00 к эффективности снабжения противника"
 
+  AslanMaskhadovChiefoftheGeneralStaff_TEXT: "Аслан Масхадов"
+  NobodyChiefoftheGeneralStaff_TEXT: "Не назначен"
+
   general_staff_disrupt_logistics: "Нарушить логистику"
   general_staff_strengthening_the_defense: "Усилить оборону"
   general_staff_start_defensive_actions: "Начать оборонительные действия"

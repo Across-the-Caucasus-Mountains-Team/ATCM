@@ -4,4 +4,16 @@ spriteTypes = {
 		name = "GFX_CHE_operations_outside_chechnya_background"
 		textureFile = "gfx/interface/scripted_guis/CHE/Operations_Outside/OperationsOutsideChechnya.png"
 	}
+
+	spriteType = {
+		name = "GFX_CHE_operations_in_caucasus_background"
+		textureFile = "gfx/interface/scripted_guis/CHE/Operations_Outside/OperationsInCaucasus.png"
+	}
+
+	spriteType = {
+		name = "GFX_CHE_Coat_Of_Arms_Dagestan"
+		textureFile = "gfx/interface/scripted_guis/CHE/Operations_Outside/Coats_Of_Army/Coat_Of_Arms_Dagestan.png"
+	}
+
+
 }

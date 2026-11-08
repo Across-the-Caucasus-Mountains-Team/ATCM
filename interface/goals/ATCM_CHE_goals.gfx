@@ -551,6 +551,29 @@ spriteTypes = {
 		name = "GFX_CHE_Close_look_at_them"
 		texturefile = "gfx/interface/Goals/CHE/CHE_Close_look_at_them.png"
 	}
+	spriteType = {
+		name = "GFX_CHE_set_traps"
+		texturefile = "gfx/interface/Goals/CHE/CHE_set_traps.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_the_situation_is_getting_out_of_control"
+		texturefile = "gfx/interface/Goals/CHE/CHE_the_situation_is_getting_out_of_control.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_raise_the_national_guard"
+		texturefile = "gfx/interface/Goals/CHE/CHE_raise_the_national_guard.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_support_cherkesky_rebels"
+		texturefile = "gfx/interface/Goals/CHE/CHE_support_cherkesky_rebels.png"
+	}
+	spriteType = {
+		name = "GFX_CHE_spread_islam_on_north_caucasus"
+		texturefile = "gfx/interface/Goals/CHE/CHE_spread_islam_on_north_caucasus.png"
+	}
+
+
+
 
 
 

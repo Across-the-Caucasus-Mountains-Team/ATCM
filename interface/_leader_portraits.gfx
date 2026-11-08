@@ -22,6 +22,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
 
+	spriteType = {
+		name = "GFX_portrait_CHE_aslan_maskhadov"
+		texturefile = "gfx/leaders/CHE/portrait_CHE_aslan_maskhadov.png"
+	}
+
 
 	### SAK
 }

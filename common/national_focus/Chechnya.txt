@@ -1138,7 +1138,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_support_cherkesky_rebels
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_support_cherkesky_rebels
 		x = 1
 		y = 1
 		prerequisite = { focus = CHE_antirussian_propaganda }
@@ -1171,7 +1171,7 @@ focus_tree = {
 
 	focus = {
 		id = CHE_spread_islam_on_north_caucasus
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_spread_islam_on_north_caucasus
 		x = 0
 		y = 3
 		prerequisite = { focus = CHE_organize_raids }
@@ -3399,7 +3399,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_set_traps
-		icon = GFX_CHE_Report
+		icon = GFX_CHE_set_traps
 		x = -1
 		y = 1
 		relative_position_id = CHE_Operations
@@ -5805,6 +5805,7 @@ completion_reward = {
 			y = 0
 			trigger = {
 				has_completed_focus = CHE_build_islamic_state
+				has_country_flag = 12
 			}
 		}
 
@@ -5859,6 +5860,7 @@ completion_reward = {
 			y = 0
 			trigger = {
 				has_completed_focus = CHE_build_islamic_state
+				has_country_flag = 12
 			}
 		}
 
@@ -6932,7 +6934,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_the_situation_is_getting_out_of_control
-		icon = GFX_goal_unknown
+		icon = GFX_CHE_the_situation_is_getting_out_of_control
 		x = 0
 		y = 2
 		relative_position_id = CHE_Total_Control_has_achived
@@ -7064,7 +7066,7 @@ completion_reward = {
 
 	focus = {
 		id = CHE_raise_the_national_guard
-		icon = GFX_CHE_Elite_armed_forces
+		icon = GFX_CHE_raise_the_national_guard
 		x = 0
 		y = 1
 		relative_position_id = CHE_the_situation_is_getting_out_of_control

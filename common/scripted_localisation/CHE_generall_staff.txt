@@ -570,6 +570,28 @@ defined_text = {
 
 ## Names of states
 
+
+
+
+defined_text = {
+	name = general_staff_leader_name
+
+	text = {
+		trigger = {
+			has_country_flag = AslanMaskhadovChiefoftheGeneralStaff
+		}
+		localization_key = "AslanMaskhadovChiefoftheGeneralStaff_TEXT"
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = AslanMaskhadovChiefoftheGeneralStaff
+			}
+		}
+		localization_key = "NobodyChiefoftheGeneralStaff_TEXT"
+	}	
+}
+
 defined_text = {
 	name = get_state_name
 

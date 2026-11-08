@@ -7,13 +7,30 @@ guiTypes = {
 		buttonType = {
 			name = "general_staff_map_button"
 			spriteType = "GFX_CHE_Chechen_General_Staff_Button"
-			position = { x = 175 y = 25 }
+			position = { x = 75 y = 25 }
 			shortcut = "shift+c"
 			buttonText = "Open map"
 			buttonFont = "hoi_16mbs"
 			pdx_tooltip = "[CAT_OPENING]"
 			clicksound = click_ok
 			oversound = ui_menu_over
+		}
+
+		iconType = {
+		    name = "general_staff_country_leader"
+			spriteType = "GFX_portrait_CHE_aslan_maskhadov"
+			position = { x = 265 y = 1 }
+			scale = 0.8
+
+		}
+
+		instantTextBoxType = {
+			name ="general_staff_leader_name"
+			position = { x = -65 y = 175 }
+			font = "hoi_30header"
+			text = "[general_staff_leader_name]"
+			format = centre
+			maxWidth = 800
 		}
 
 
@@ -41,7 +58,7 @@ guiTypes = {
 			shortcut = "ESCAPE"
 		}
 
-		instantTextBoxType {
+		instantTextBoxType = {
 			name = "CHE_general_staff_title"
 			text = "General_Staff"
 			font = "hoi_30header"
@@ -50,7 +67,7 @@ guiTypes = {
 			pdx_tooltip = "[CAT_OPENING]"
 		}
 
-		instantTextBoxType {
+		instantTextBoxType = {
 			name = "CHE_region_selected"
 			text = "[get_state_name]"
 			font = "hoi_30header"

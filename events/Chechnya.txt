@@ -2125,3 +2125,19 @@ country_event = {
 		}
 	}
 }
+
+# Прибытие масхадова
+country_event = {
+	id = chechnya.78
+	title = chechnya.78.t
+	desc = chechnya.78.d
+	picture = GFX_Report_event_Grozny_captured
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = chechnya.78.a
+		set_country_flag = AslanMaskhadovChiefoftheGeneralStaff
+	}
+}
