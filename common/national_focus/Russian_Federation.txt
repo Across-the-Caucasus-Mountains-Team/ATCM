@@ -1326,7 +1326,7 @@ focus_tree = {
 				has_war_support > 0.55
 			}
 			modifier = {
-				factor = 0
+				factor = -2
 				CHE = {
 					surrender_progress > 0.65
 				}
@@ -1783,7 +1783,7 @@ focus_tree = {
 		x = 2
 		y = 3
 
-		cost = 25
+		cost = 20
 
 		ai_will_do = {
 			base = 5
@@ -1810,7 +1810,10 @@ focus_tree = {
 			add_war_support = 0.025
 			add_political_power = 25
 			army_experience = 35
-			load_oob = RAS_infantry_battalions_first_chechen_war
+			custom_effect_tooltip = 21_RAS_tt
+			hidden_effect = {
+				load_oob = RAS_gru_battalions
+			}
 		}
 	}
 
@@ -3396,7 +3399,7 @@ focus_tree = {
 	focus = {
 		id = RAS_ground_operation
 		icon = GFX_RAS_ground_operation
-		prerequisite = { focus = RAS_support_chechen_opposition }
+		prerequisite = { focus = RAS_transport_troops_to_the_chehcen_border }
 		mutually_exclusive = { focus = RAS_vdv_operation }
 		relative_position_id = RAS_support_chechen_opposition
 		x = -1
