@@ -2593,6 +2593,12 @@ completion_reward = {
 			SAK = {
 				give_military_access = GOM
 			}
+			RAS = {
+				country_event = {
+					id = russia.42
+					hours = 24
+				}
+			}
 		}
 	}
 
