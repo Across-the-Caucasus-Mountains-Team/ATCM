@@ -3965,7 +3965,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_save_the_russian_economy
-		icon = GFX_RAS_Save_economy
+		icon = GFX_RAS_save_the_russian_economy
 		x = -1
 		y = 0
 

@@ -311,4 +311,8 @@ spriteTypes = {
 		name = "GFX_RAS_decree_on_price_liberalization"
 		texturefile = "gfx/interface/Goals/RAS_by_uskko/RAS_decree_on_price_liberalization.png"
 	}
+		spriteType = {
+		name = "GFX_RAS_save_the_russian_economy"
+		texturefile = "gfx/interface/Goals/RAS_by_uskko/RAS_save_the_russian_economy.png"
+	}
 }
