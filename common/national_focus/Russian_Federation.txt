@@ -23,7 +23,7 @@ focus_tree = {
 	focus = {
 		id = RAS_second_presidency_of_eltsin
 		icon = GFX_RAS_Yeltsin_presidency
-		x = 10
+		x = 8
 		y = 0
 
 		cost = 5
@@ -42,7 +42,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			has_completed_focus = RAS_victory
+			has_country_flag = Eltsin_victory_1996_elections
 		}
 
 		cancel_if_invalid = yes
@@ -97,7 +97,7 @@ focus_tree = {
 	focus = {
 		id = RAS_lessons_of_the_first_chechen_war
 		icon = GFX_focus_generic_modernize_industry
-		x = 16
+		x = 14
 		y = 0
 
 		cost = 25
@@ -112,7 +112,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			has_completed_focus = RAS_victory
+			has_country_flag = Eltsin_victory_1996_elections
 		}
 
 		bypass = {
@@ -424,9 +424,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.025
 			army_experience = 50
-			hidden_effect = {
-				mark_focus_tree_layout_dirty = yes
-			}
+
 		}
 	}
 
@@ -490,7 +488,7 @@ focus_tree = {
 
 		allow_branch = {
 			NOT = {
-				has_completed_focus = RAS_victory
+				has_country_flag = Eltsin_victory_1996_elections
 			}
 		}
 
@@ -723,7 +721,7 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1996.01.02
+			date > 1996.08.08
 			casualties_k > 50
 		}
 
@@ -1233,7 +1231,7 @@ focus_tree = {
 		prerequisite = { focus = RAS_humanitarion_help }
 		relative_position_id = RAS_humanitarion_help
 		x = 0
-		y = 1
+		y = 2
 
 		cost = 15
 
@@ -1303,7 +1301,7 @@ focus_tree = {
 		prerequisite = { focus = RAS_start_negotiation_processes }
 		relative_position_id = RAS_humanitarion_help
 		x = 0
-		y = 2
+		y = 3
 
 		cost = 15
 
@@ -2289,7 +2287,7 @@ focus_tree = {
 			}
 			has_completed_focus = RAS_black_october
 			NOT = {
-				has_completed_focus = RAS_victory
+				has_country_flag = Eltsin_victory_1996_elections
 			}
 		}
 
@@ -2463,7 +2461,7 @@ focus_tree = {
 				}
 			}
 			NOT = {
-				has_completed_focus = RAS_victory
+				has_country_flag = Eltsin_victory_1996_elections
 			}
 			has_completed_focus = RAS_black_october
 		}
@@ -2588,7 +2586,7 @@ focus_tree = {
 		allow_branch = {
 			has_completed_focus = RAS_supporty_eltcin
 			NOT = {
-				has_completed_focus = RAS_victory
+				has_country_flag = Eltsin_victory_1996_elections
 			}
 		}
 
@@ -2634,7 +2632,7 @@ focus_tree = {
 		allow_branch = {
 			has_completed_focus = RAS_new_elections
 			NOT = {
-				has_completed_focus = RAS_victory
+				has_country_flag = Eltsin_victory_1996_elections
 			}
 		}
 
@@ -2678,7 +2676,7 @@ focus_tree = {
 		allow_branch = {
 			has_completed_focus = RAS_new_elections
 			NOT = {
-				has_completed_focus = RAS_victory
+				has_country_flag = Eltsin_victory_1996_elections
 			}
 		}
 
