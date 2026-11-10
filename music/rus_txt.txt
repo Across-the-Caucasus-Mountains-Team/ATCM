@@ -32,6 +32,8 @@ music = { song = "PolkovnikuNiktoNePishet" chance = { modifier = { factor = 1.0 
 music = { song = "DDTUmiraliPacani" chance = { modifier = { factor = 1.0 } } }
 music = { song = "MiVihodimNaRasvete" chance = { modifier = { factor = 1.0 } } }
 music = { song = "ChechnyaVOgne" chance = { modifier = { factor = 1.0 } } }
+music = { song = "GoodbyeForever" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Soldiersarenotborn" chance = { modifier = { factor = 1.0 } } }
 
 
 

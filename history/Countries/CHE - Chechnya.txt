@@ -176,8 +176,6 @@ add_ideas = {
 	    election_frequency = 48
 	    elections_allowed = no
     }
-	set_global_flag = Dudayev_is_dead
-	retire_character = CHE_Dzhokhar_Dudaev
 	add_manpower = 20000
 	add_ideas = {
 		CHE_abandoned_MIC
@@ -196,7 +194,7 @@ add_ideas = {
 	set_variable = { CHE_wcaf_Conscription = 0.0015 }
 	set_variable = { CHE_wcaf_army_attack_factor = 0 }
 	set_variable = { CHE_wcaf_army_defence_factor = -0.01 }
-	set_variable = { CHE_wcaf_army_org_factor = -0.25 }
+	set_variable = { CHE_wcaf_army_org_factor = -0.05 }
 	set_variable = { CHE_wcaf_army_speed_factor = 0.03 }
 	set_variable = { CHE_wcaf_war_stability_factor = -0.18 }
 	set_variable = { CHE_wcaf_army_org_regain = 0.02 }
