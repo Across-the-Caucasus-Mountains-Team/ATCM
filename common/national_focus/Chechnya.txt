@@ -467,7 +467,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = CHE_reorganization_of_courts_modifier_changes_tt
 			add_popularity = {ideology = islam popularity = 0.02}
 			add_to_variable = { CHE_IS_stability_factor = 0.10 }
 			add_to_variable = { CHE_IS_islam_drift = 0.01 }
@@ -509,7 +509,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = CHE_ismalist_propaganda_modifier_changes_tt
 			add_popularity = {ideology = islam popularity = 0.05}
 			add_to_variable = { CHE_IS_war_support_factor = 0.10 }
 			add_to_variable = { CHE_IS_stability_factor = 0.03 }
@@ -549,7 +549,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = CHE_sharia_laws_modifier_changes_tt
 			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
 			add_to_variable = { CHE_IS_stability_factor = 0.1 }
 			add_to_variable = { CHE_IS_recruitable_population_factor = 0.05 }
@@ -591,7 +591,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = CHE_establish_a_sharia_police_force_modifier_changes_tt
 			add_to_variable = { CHE_IS_stability_factor = 0.05 }
 			add_to_variable = { CHE_IS_recruitable_population_factor = 0.025 }
 			add_to_variable = { CHE_IS_drift_defence_factor = 0.125 }
@@ -710,7 +710,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = CHE_establish_the_guard_of_allah_modifier_changes_tt
 			custom_effect_tooltip = 14_CHE_tt
 			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
 			hidden_effect = {
@@ -873,7 +873,7 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = CHE_language_issue
-			custom_effect_tooltip = 13_CHE_tt
+			custom_effect_tooltip = CHE_include_mass_islam_into_education_modifier_changes_tt
 			add_to_variable = { CHE_IS_war_support_factor = 0.10 }
 			add_to_variable = { CHE_IS_stability_factor = 0.05 }
 			add_to_variable = { CHE_IS_research_speed_factor = -0.10 }
