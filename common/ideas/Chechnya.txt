@@ -2,6 +2,33 @@ ideas = {
 
 	country = {
 
+		CHE_handicraft_rifles_idea = {
+			allowed = { original_tag = CHE }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = SAK_Anarchism_in_Georgia
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.20
+					reliability = -0.25
+					instant = yes
+				}
+			}
+		}
+
+		CHE_handicraft_support_idea = {
+			allowed = { original_tag = CHE }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = SAK_Anarchism_in_Georgia
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.10
+					reliability = -0.15
+					instant = yes
+				}
+			}
+		}
 
 		CHE_abandoned_MIC = {
 			allowed = {
