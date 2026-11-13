@@ -28,7 +28,20 @@ characters={
 			id=-1
 		}
 	}
-	
+	RAS_Vladimir_Putin={ #Democratic and also authoritarian Leader
+		name="Vladimir Putin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/portrait_rus_vladimir_putin.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_russia
+			traits={ stout_defender }
+			expire="2030.8.30.1"
+			id=-1
+		}
+	}	
 	RAS_Filipp_Denisovich_Bobkov = {
 		name = "Filipp Denisovich Bobkov"
 		portraits = {

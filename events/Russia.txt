@@ -988,3 +988,33 @@ country_event = {
 		add_war_support = -0.035		
 	}
 }
+
+# Отставка ельцина
+country_event = {
+	id = russia.45
+	title = russia.45.t
+	desc = russia.45.d
+	picture = GFX_Report_event_RAS_elstin_resignation
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = russia.45.a
+		retire_country_leader = yes
+		add_country_leader_role = {
+			character = RAS_Vladimir_Putin
+			promote_leader = yes
+			country_leader = {
+				ideology = democratic_russia
+				expire = "2045.1.1.1"
+			}
+		}
+		hidden_effect = {
+			promote_character = {
+				character = RAS_Vladimir_Putin
+				ideology = democratic_russia
+			}
+		} 	
+	}
+}

@@ -587,6 +587,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_Report_event_RAS_elstin_resignation"
+		texturefile = "gfx/event_pictures/Report_event_RAS_elstin_resignation.png"
+	}
+
+	spriteType = {
 		name = "GFX_News_event_Gamsakhurdia"
 		texturefile = "gfx/event_pictures/news_event_Gamsakhurdia.png"
 	}

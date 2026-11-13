@@ -196,6 +196,7 @@ recruit_character = RAS_Boris_Yeltsin
 recruit_character = RAS_Gennady_Burbulis
 recruit_character = RAS_Alexander_Rutskoy
 recruit_character = RAS_Yegor_Gaidar
+recruit_character = RAS_Vladimir_Putin
 
 set_variable = { cash = 1 }
 
