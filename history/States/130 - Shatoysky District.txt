@@ -12,6 +12,10 @@ state={
 	    	infrastructure = 1
 	    }
 		victory_points = { 2481 7 }
+
+		1995.1.1 = {
+			add_dynamic_modifier = { modifier = RAS_chechen_mountains scope = RAS  }
+		}
 	}
 	manpower=13362
 	buildings_max_level_factor=1.000

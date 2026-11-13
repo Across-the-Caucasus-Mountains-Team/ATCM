@@ -677,39 +677,6 @@ units = {
 	division = {	
 		    division_name = {
 				is_name_ordered = yes
-				name_order = 6
-			}
-			location = 10520
-			division_template = "Tankoviy-batalyon"
-			start_experience_factor = 0.15
-			start_equipment_factor = 0.8
-		}
-
-	division = {	
-		    division_name = {
-				is_name_ordered = yes
-				name_order = 7
-			}
-			location = 8193
-			division_template = "Tankoviy-batalyon"
-			start_experience_factor = 0.15
-			start_equipment_factor = 0.8
-		}
-
-	division = {	
-		    division_name = {
-				is_name_ordered = yes
-				name_order = 8
-			}
-			location = 7023
-			division_template = "Tankoviy-batalyon"
-			start_experience_factor = 0.15
-			start_equipment_factor = 0.9
-		}
-
-	division = {	
-		    division_name = {
-				is_name_ordered = yes
 				name_order = 9
 			}
 			location = 8565
@@ -1224,35 +1191,6 @@ units = {
 			start_experience_factor = 0.2
 		}
 
-	division = {	
-			division_name = {
-				is_name_ordered = yes
-				name_order = 9
-			}
-			location = 4917
-			division_template = "Tankoviy-batalyon"
-			start_experience_factor = 0.2
-		}
-
-	division = {	
-			division_name = {
-				is_name_ordered = yes
-				name_order = 10
-			}
-			location = 10670
-			division_template = "Tankoviy-batalyon"
-			start_experience_factor = 0.2
-		}
-
-	division = {	
-			division_name = {
-				is_name_ordered = yes
-				name_order = 11
-			}
-			location = 6947
-			division_template = "Tankoviy-batalyon"
-			start_experience_factor = 0.2
-		}
 
 	division = {	
 			division_name = {
@@ -1672,8 +1610,8 @@ units = {
 			}
 			location = 8019
 			division_template = "Tankoviy-batalyon"
-			start_experience_factor = 0.3
-	        start_equipment_factor = 0.3
+			start_experience_factor = 0.2
+	        start_equipment_factor = 0.2
 		}
 
 	division = {	
@@ -1684,6 +1622,7 @@ units = {
 			location = 10706
 			division_template = "Motstelkovy-Batalyon 2"
 			start_experience_factor = 0.15
+			start_equipment_factor = 0.6
 		}
 
 	division = {	
@@ -1694,6 +1633,7 @@ units = {
 			location = 10724
 			division_template = "Motstelkovy-Batalyon 2"
 			start_experience_factor = 0.15
+			start_equipment_factor = 0.6
 		}
 
 	division = {	
@@ -1704,6 +1644,7 @@ units = {
 			location = 4000
 			division_template = "Motstelkovy-Batalyon 2"
 			start_experience_factor = 0.15
+			start_equipment_factor = 0.6
 		}
 
 	division = {	
@@ -1714,6 +1655,7 @@ units = {
 			location = 1533
 			division_template = "Motstelkovy-Batalyon 2"
 			start_experience_factor = 0.15
+			start_equipment_factor = 0.6
 		}
 
 	division = {	
@@ -1724,6 +1666,7 @@ units = {
 			location = 5622
 			division_template = "Motstelkovy-Batalyon 2"
 			start_experience_factor = 0.15
+			start_equipment_factor = 0.6
 		}
 
 	division = {	
@@ -1734,26 +1677,7 @@ units = {
 			location = 9191
 			division_template = "Motstelkovy-Batalyon 2"
 			start_experience_factor = 0.15
-		}
-
-	division = {	
-		    division_name = {
-				is_name_ordered = yes
-				name_order = 7
-			}
-			location = 2481
-			division_template = "Motstelkovy-Batalyon 2"
-			start_experience_factor = 0.15
-		}
-
-	division = {	
-		    division_name = {
-				is_name_ordered = yes
-				name_order = 8
-			}
-			location = 10779
-			division_template = "Motstelkovy-Batalyon 2"
-			start_experience_factor = 0.15
+			start_equipment_factor = 0.6
 		}
 }
 

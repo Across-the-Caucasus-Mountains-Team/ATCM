@@ -237,6 +237,10 @@ add_ideas = {
 	    RAS_Boris_Yeltsin_idea
 	    RAS_reformists_protest
 	}
+	add_ideas = {
+		RAS_plundered_army
+		RAS_zamorozenii_front
+	}
 	unlock_national_focus = RAS_second_presidency_of_eltsin
 	unlock_national_focus = RAS_continue_economic_reforms
 	unlock_national_focus = RAS_form_a_new_government

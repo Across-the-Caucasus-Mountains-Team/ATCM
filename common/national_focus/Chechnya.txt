@@ -7703,6 +7703,12 @@ completion_reward = {
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = 25
+			hidden_effect = {
+                country_event = {
+					id = chechnya.79
+					days = 3
+				}
+			}
 		}
 	}
 
@@ -7720,7 +7726,7 @@ completion_reward = {
 		}
 
 		available = {
-
+            always = no
 		}
 
 		offset = {
@@ -7779,6 +7785,10 @@ completion_reward = {
 			add_stability = 0.025
 			add_war_support = 0.025
 			add_political_power = 25
+			set_province_name = {
+                id = 10609
+                name = DZOKHAR_CITY_LOC
+            }
 		}
 	}
 

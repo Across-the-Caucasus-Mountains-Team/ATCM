@@ -87,6 +87,26 @@ characters={
 			}
 		}
 	}
+	CHE_khatab = {
+		name = "Ibn al-Khattab"
+		portraits = {
+			army = {
+				large="gfx/leaders/CHE/portrait_CHE_khatab.png"
+			}
+		}
+		field_marshal = {
+			traits = { guerilla_fighter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 1203
+			visible = {
+				has_country_flag = CHE_Khattab_Arrived
+			}
+		}
+	}	
 	CHE_akhmad_kadyrov = {
 		name = "Akhmad Kadyrov"
 		portraits = {
