@@ -5,9 +5,7 @@ objectTypes = {
 		file = "gfx/models/DNR_soldier_42.mesh"
 		scale = 1.0
 
-		# Test animation: static rest pose exported from the skeleton (see DNR_soldier_42.asset).
-		# For real movement replace "type" with a VANILLA infantry animation name
-		# (see README.md, step "Animations").
+		# Vanilla infantry animations (the mesh uses the vanilla infantry skeleton).
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
 		animation = { id = "attack"			type = "USA_infantry_rifle_attack_animation" }
 		animation = { id = "support_attack"	type = "USA_infantry_rifle_support_attack_animation" }

@@ -1,0 +1,20 @@
+on_actions = {
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					tag = RAS
+					date > 1999.12.30
+					NOT = {
+						has_global_flag = Eltsin_resignation
+					}
+				}
+				country_event = { id = russia.45 }
+				set_global_flag = Eltsin_resignation
+			}
+		}
+	}
+
+}
+

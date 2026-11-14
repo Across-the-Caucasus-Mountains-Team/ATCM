@@ -101,3 +101,7 @@ KCC = {
 	color = rgb { 205 128 20 }
 	color_ui = rgb { 204 128 128 }
 }
+ISC = {
+	color = rgb { 15 15 15 }
+	color_ui = rgb { 15 15 15 }
+}

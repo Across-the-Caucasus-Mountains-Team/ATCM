@@ -2178,3 +2178,21 @@ country_event = {
 		add_stability = 0.05
 	}
 }
+
+# Исламсисты берут под контроль некоторые территории
+country_event = {
+	id = chechnya.80
+	title = chechnya.80.t
+	desc = chechnya.80.d
+	picture = GFX_Report_event_RAS_failed_blitz
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = chechnya.80.a
+		127 = {
+			transfer_state_to = ISC
+		}
+	}
+}
