@@ -12,3 +12,7 @@ music = { song = "gazavat" chance = { modifier = { factor = 1.0 } } }
 music = { song = "Lezginka" chance = { modifier = { factor = 1.0 } } }
 music = { song = "ShamilBasayevMusic" chance = { modifier = { factor = 1.0 } } }
 music = { song = "The_Death_of_Russia" chance = { modifier = { factor = 1.0 } } }
+music = { song = "I_A_Bandit_By_Birth" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Disgraceful_Moscow" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Dzjokhar_Dudayev" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Freedom_or_death" chance = { modifier = { factor = 1.0 } } }

@@ -1370,6 +1370,372 @@ CHE_stability_of_republic_decision = {
 }
 
 CHE_islamic_republic_stability_decision = {
+	CHE_proclaim_caucasian_caliphate = {
+		icon = generic_political_address
+		cost = 0
+		fire_only_once = yes
+		allowed = { original_tag = CHE }
+		visible = {
+			has_completed_focus = CHE_ideas_of_caucasian_chaliphate
+			NOT = { has_country_flag = CHE_caucasian_caliphate_proclaimed }
+		}
+		available = {
+			count_triggers = {
+				amount = 2
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_CHE_tt
+					has_full_control_of_state = 11
+					has_full_control_of_state = 16
+					has_full_control_of_state = 17
+					has_full_control_of_state = 20
+					has_full_control_of_state = 21
+					has_full_control_of_state = 22
+					has_full_control_of_state = 34
+					has_full_control_of_state = 110
+					has_full_control_of_state = 111
+					has_full_control_of_state = 120
+					has_full_control_of_state = 124
+					has_full_control_of_state = 125
+					has_full_control_of_state = 126
+					has_full_control_of_state = 127
+					has_full_control_of_state = 128
+					has_full_control_of_state = 130
+					has_full_control_of_state = 131
+					has_full_control_of_state = 132
+					has_full_control_of_state = 133
+					has_full_control_of_state = 134
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_ING_tt
+					has_full_control_of_state = 17
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_DAG_tt
+					has_full_control_of_state = 8
+					has_full_control_of_state = 12
+					has_full_control_of_state = 13
+					has_full_control_of_state = 28
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_KBK_tt
+					has_full_control_of_state = 10
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_KCC_tt
+					has_full_control_of_state = 9
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_ADY_tt
+					has_full_control_of_state = 6
+					has_full_control_of_state = 123
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_AZR_tt
+					has_full_control_of_state = 44
+					has_full_control_of_state = 47
+					has_full_control_of_state = 53
+					has_full_control_of_state = 58
+					has_full_control_of_state = 64
+					has_full_control_of_state = 68
+					has_full_control_of_state = 75
+					has_full_control_of_state = 76
+					has_full_control_of_state = 79
+					has_full_control_of_state = 80
+					has_full_control_of_state = 81
+					has_full_control_of_state = 82
+					has_full_control_of_state = 83
+					has_full_control_of_state = 90
+					has_full_control_of_state = 96
+					has_full_control_of_state = 98
+					has_full_control_of_state = 104
+					has_full_control_of_state = 129
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHE_caliphate_control_ADJ_tt
+					has_full_control_of_state = 45
+					has_full_control_of_state = 49
+				}
+			}
+		}
+		complete_effect = {
+			set_country_flag = CHE_caucasian_caliphate_proclaimed
+			set_cosmetic_tag = CHE_CAUCASIAN_CALIPHATE
+			custom_effect_tooltip = CHE_caliphate_claims_tt
+			hidden_effect = {
+				add_state_claim = 6
+				add_state_claim = 8
+				add_state_claim = 9
+				add_state_claim = 10
+				add_state_claim = 11
+				add_state_claim = 12
+				add_state_claim = 13
+				add_state_claim = 16
+				add_state_claim = 17
+				add_state_claim = 20
+				add_state_claim = 21
+				add_state_claim = 22
+				add_state_claim = 28
+				add_state_claim = 34
+				add_state_claim = 44
+				add_state_claim = 45
+				add_state_claim = 47
+				add_state_claim = 49
+				add_state_claim = 53
+				add_state_claim = 58
+				add_state_claim = 64
+				add_state_claim = 68
+				add_state_claim = 75
+				add_state_claim = 76
+				add_state_claim = 79
+				add_state_claim = 80
+				add_state_claim = 81
+				add_state_claim = 82
+				add_state_claim = 83
+				add_state_claim = 90
+				add_state_claim = 96
+				add_state_claim = 98
+				add_state_claim = 104
+				add_state_claim = 110
+				add_state_claim = 111
+				add_state_claim = 120
+				add_state_claim = 123
+				add_state_claim = 124
+				add_state_claim = 125
+				add_state_claim = 126
+				add_state_claim = 127
+				add_state_claim = 128
+				add_state_claim = 129
+				add_state_claim = 130
+				add_state_claim = 131
+				add_state_claim = 132
+				add_state_claim = 133
+				add_state_claim = 134
+			}
+			news_event = { id = news.33 hours = 1 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	CHE_caliphate_choose_emirate_flag = {
+		icon = generic_political_address
+		cost = 0
+		allowed = { original_tag = CHE }
+		visible = {
+			has_country_flag = CHE_caucasian_caliphate_proclaimed
+			NOT = { has_country_flag = CHE_caliphate_uses_emirate_flag }
+			NOT = { has_country_flag = CHE_caliphate_flag_choice_pending }
+		}
+		complete_effect = {
+			set_country_flag = CHE_caliphate_flag_choice_pending
+			country_event = { id = chechnya.80 hours = 1 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	CHE_caliphate_restore_confederation_flag = {
+		icon = generic_political_address
+		cost = 0
+		allowed = { original_tag = CHE }
+		visible = {
+			has_country_flag = CHE_caucasian_caliphate_proclaimed
+			has_country_flag = CHE_caliphate_uses_emirate_flag
+		}
+		complete_effect = {
+			set_cosmetic_tag = CHE_CAUCASIAN_CALIPHATE
+			clr_country_flag = CHE_caliphate_uses_emirate_flag
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	CHE_caliphate_nationalize_state = {
+		icon = generic_political_discourse
+		cost = 25
+		state_target = yes
+		targets = { 6 8 9 10 11 12 13 16 17 20 21 22 28 34 44 45 47 49 53 58 64 68 75 76 79 80 81 82 83 90 96 98 104 110 111 120 123 124 125 126 127 128 129 130 131 132 133 134 }
+		allowed = { original_tag = CHE }
+		visible = { has_country_flag = CHE_caucasian_caliphate_proclaimed }
+		target_trigger = {
+			FROM = {
+				is_owned_by = ROOT
+				NOT = { is_core_of = ROOT }
+			}
+		}
+		available = {
+			has_full_control_of_state = FROM
+			FROM = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+		}
+		complete_effect = { FROM = { add_core_of = ROOT } }
+		ai_will_do = { factor = 1 }
+	}
+
+	CHE_caliphate_integrate_DAG = {
+		icon = generic_political_discourse
+		cost = 80
+		allowed = { original_tag = CHE }
+		visible = {
+			has_country_flag = CHE_caucasian_caliphate_proclaimed
+			OR = {
+				8 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				12 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				13 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				28 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+			}
+		}
+		available = {
+			owns_state = 8
+			has_full_control_of_state = 8
+			owns_state = 12
+			has_full_control_of_state = 12
+			owns_state = 13
+			has_full_control_of_state = 13
+			owns_state = 28
+			has_full_control_of_state = 28
+		}
+		complete_effect = {
+			8 = { add_core_of = ROOT }
+			12 = { add_core_of = ROOT }
+			13 = { add_core_of = ROOT }
+			28 = { add_core_of = ROOT }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_caliphate_integrate_ADY = {
+		icon = generic_political_discourse
+		cost = 40
+		allowed = { original_tag = CHE }
+		visible = {
+			has_country_flag = CHE_caucasian_caliphate_proclaimed
+			OR = {
+				6 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				123 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+			}
+		}
+		available = {
+			owns_state = 6
+			has_full_control_of_state = 6
+			owns_state = 123
+			has_full_control_of_state = 123
+		}
+		complete_effect = {
+			6 = { add_core_of = ROOT }
+			123 = { add_core_of = ROOT }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_caliphate_integrate_AZR = {
+		icon = generic_political_discourse
+		cost = 360
+		allowed = { original_tag = CHE }
+		visible = {
+			has_country_flag = CHE_caucasian_caliphate_proclaimed
+			OR = {
+				44 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				47 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				53 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				58 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				64 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				68 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				75 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				76 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				79 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				80 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				81 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				82 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				83 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				90 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				96 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				98 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				104 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				129 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+			}
+		}
+		available = {
+			owns_state = 44
+			has_full_control_of_state = 44
+			owns_state = 47
+			has_full_control_of_state = 47
+			owns_state = 53
+			has_full_control_of_state = 53
+			owns_state = 58
+			has_full_control_of_state = 58
+			owns_state = 64
+			has_full_control_of_state = 64
+			owns_state = 68
+			has_full_control_of_state = 68
+			owns_state = 75
+			has_full_control_of_state = 75
+			owns_state = 76
+			has_full_control_of_state = 76
+			owns_state = 79
+			has_full_control_of_state = 79
+			owns_state = 80
+			has_full_control_of_state = 80
+			owns_state = 81
+			has_full_control_of_state = 81
+			owns_state = 82
+			has_full_control_of_state = 82
+			owns_state = 83
+			has_full_control_of_state = 83
+			owns_state = 90
+			has_full_control_of_state = 90
+			owns_state = 96
+			has_full_control_of_state = 96
+			owns_state = 98
+			has_full_control_of_state = 98
+			owns_state = 104
+			has_full_control_of_state = 104
+			owns_state = 129
+			has_full_control_of_state = 129
+		}
+		complete_effect = {
+			44 = { add_core_of = ROOT }
+			47 = { add_core_of = ROOT }
+			53 = { add_core_of = ROOT }
+			58 = { add_core_of = ROOT }
+			64 = { add_core_of = ROOT }
+			68 = { add_core_of = ROOT }
+			75 = { add_core_of = ROOT }
+			76 = { add_core_of = ROOT }
+			79 = { add_core_of = ROOT }
+			80 = { add_core_of = ROOT }
+			81 = { add_core_of = ROOT }
+			82 = { add_core_of = ROOT }
+			83 = { add_core_of = ROOT }
+			90 = { add_core_of = ROOT }
+			96 = { add_core_of = ROOT }
+			98 = { add_core_of = ROOT }
+			104 = { add_core_of = ROOT }
+			129 = { add_core_of = ROOT }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_caliphate_integrate_ADJ = {
+		icon = generic_political_discourse
+		cost = 40
+		allowed = { original_tag = CHE }
+		visible = {
+			has_country_flag = CHE_caucasian_caliphate_proclaimed
+			OR = {
+				45 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+				49 = { is_owned_by = ROOT NOT = { is_core_of = ROOT } }
+			}
+		}
+		available = {
+			owns_state = 45
+			has_full_control_of_state = 45
+			owns_state = 49
+			has_full_control_of_state = 49
+		}
+		complete_effect = {
+			45 = { add_core_of = ROOT }
+			49 = { add_core_of = ROOT }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
 CHE_ingushetian_uprising = {
 	icon = GFX_decision_UKR_maidan_supress_the_protests
 	allowed = {

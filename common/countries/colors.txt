@@ -101,3 +101,13 @@ KCC = {
 	color = rgb { 205 128 20 }
 	color_ui = rgb { 204 128 128 }
 }
+
+CHE_CAUCASIAN_CALIPHATE = {
+	color = rgb { 33 87 65 }
+	color_ui = rgb { 33 87 65 }
+}
+
+CHE_CAUCASIAN_CALIPHATE_EMIRATE = {
+	color = rgb { 33 87 65 }
+	color_ui = rgb { 33 87 65 }
+}

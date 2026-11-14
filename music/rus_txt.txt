@@ -27,7 +27,7 @@ music = { song = "GruppaKrovi" chance = { modifier = { factor = 1.0 } } }
 music = { song = "SpokoynayaNoch" chance = { modifier = { factor = 1.0 } } }
 music = { song = "ZakroiDver" chance = { modifier = { factor = 1.0 } } }
 music = { song = "MolchatDomaToska" chance = { modifier = { factor = 1.0 } } }
-music = { song = "Fellini" chance = { modifier = { factor = 1.0 } } }
+#music = { song = "Fellini" chance = { modifier = { factor = 1.0 } } }
 music = { song = "PolkovnikuNiktoNePishet" chance = { modifier = { factor = 1.0 } } }
 music = { song = "DDTUmiraliPacani" chance = { modifier = { factor = 1.0 } } }
 music = { song = "MiVihodimNaRasvete" chance = { modifier = { factor = 1.0 } } }

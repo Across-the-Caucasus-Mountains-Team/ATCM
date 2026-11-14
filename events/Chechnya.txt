@@ -2178,3 +2178,23 @@ country_event = {
 		add_stability = 0.05
 	}
 }
+
+country_event = {
+	id = chechnya.80
+	title = chechnya.80.t
+	desc = chechnya.80.d
+	picture = GFX_news_event_Chechnya_Independence
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.80.a
+		set_cosmetic_tag = CHE_CAUCASIAN_CALIPHATE_EMIRATE
+		set_country_flag = CHE_caliphate_uses_emirate_flag
+		clr_country_flag = CHE_caliphate_flag_choice_pending
+	}
+
+	option = {
+		name = chechnya.80.b
+		clr_country_flag = CHE_caliphate_flag_choice_pending
+	}
+}
