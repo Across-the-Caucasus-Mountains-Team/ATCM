@@ -799,238 +799,165 @@ CHE_peace_negotiations_first_chechen_war_decision = {
 }
 
 CHE_elections_1991_decision = {
-
 	CHE_chechen_election_1991_mission = {
-
-		icon = GFX_decision_generic_soldier
+		icon = generic_political_address
 		is_good = yes
 		selectable_mission = no
 		fire_only_once = yes
 		days_mission_timeout = 25
-		
-		#Fail trigger
-		available = {
-			NOT = {
-				has_country_flag = CHE_Elections_1991
-			}
-		}
-
-		activation = {
-			always = no
-		}
-
+		available = { NOT = { has_country_flag = CHE_Elections_1991 } }
+		activation = { always = no }
 		timeout_effect = {
-			add_stability = 0.05
 			if = {
 				limit = {
-					has_country_flag = CHEIslamicRadicalismElections1991
-					check_variable = {
-						var = CHE_islamic_radicalism_value
-						value = CHE_dudayev_support_value
-						compare = greater_than_or_equals
+					has_country_flag = CHE_Elections_1991
+					NOT = { has_country_flag = CHE_election_1991_results_counted }
+				}
+				set_country_flag = CHE_election_1991_results_counted
+				clr_country_flag = CHE_Elections_1991
+				if = {
+					limit = { NOT = { has_variable = CHE_opposition_support_1991_value } }
+					set_variable = { CHE_opposition_support_1991_value = 0 }
+				}
+				add_stability = 0.05
+				if = {
+					limit = {
+						OR = {
+							check_variable = { var = CHE_islamic_radicalism_value value = CHE_dudayev_support_value compare = greater_than }
+							AND = {
+								check_variable = { var = CHE_islamic_radicalism_value value = CHE_dudayev_support_value compare = equals }
+								has_country_flag = CHEIslamicRadicalismElections1991
+								NOT = { has_country_flag = CHESupportDudayev }
+							}
+						}
 					}
+					set_country_flag = CHEWonOfIslamicRadicalismElections1991
+					clr_country_flag = DzohkharDudayevWon
+					set_politics = { ruling_party = islam elections_allowed = no }
+					add_popularity = { ideology = islam popularity = 0.05 }
+					country_event = chechnya.15
 				}
-				country_event = chechnya.15
-				set_politics = { 
-					ruling_party = islam
-					elections_allowed = no
+				else = {
+					set_country_flag = DzohkharDudayevWon
+					clr_country_flag = CHEWonOfIslamicRadicalismElections1991
+					set_politics = { ruling_party = nationalism elections_allowed = no }
+					add_popularity = { ideology = nationalism popularity = 0.05 }
+					country_event = chechnya.16
 				}
-				add_popularity = {
-					ideology = islam
-					popularity = 0.05
-				}
-			}
-			if = {
-				limit = {
-					has_country_flag = CHEIslamicRadicalismElections1991
-					check_variable = {
-						var = CHE_islamic_radicalism_value
-						value = CHE_dudayev_support_value
-						compare = less_than
-					}
-				}
-				country_event = chechnya.16
-				set_politics = { 
-					ruling_party = nationalism
-					elections_allowed = no
-				}
-				add_popularity = {
-					ideology = nationalism
-					popularity = 0.05
-				}
-			}
-			if = {
-				limit = {
-					has_country_flag = CHESupportDudayev
-					check_variable = {
-						var = CHE_dudayev_support_value
-						value = CHE_islamic_radicalism_value
-						compare = greater_than_or_equals
-					}
-				}
-				country_event = chechnya.16
-				set_politics = { 
-					ruling_party = nationalism
-					elections_allowed = no
-				}
-				add_popularity = {
-					ideology = nationalism
-					popularity = 0.05
-				}
-			}
-			if = {
-				limit = {
-					has_country_flag = CHESupportDudayev
-					check_variable = {
-						var = CHE_dudayev_support_value
-						value = CHE_islamic_radicalism_value
-						compare = less_than
-					}
-				}
-				country_event = chechnya.15
-				set_politics = { 
-					ruling_party = islam
-					elections_allowed = no
-				}
-				add_popularity = {
-					ideology = islam
-					popularity = 0.05
-				}
+				clr_country_flag = CHESupportDudayev
+				clr_country_flag = CHEIslamicRadicalismElections1991
 			}
 		}
 	}
 
 	CHE_support_dudayev_decision = {
-
-		icon = GFX_decision_generic_soldier
-
+		icon = generic_political_address
 		cost = 50
 		fire_only_once = yes
-		
-		available = {		
-			tag = CHE
-			has_country_flag = CHE_Elections_1991
-		}
-		
 		visible = {
 			tag = CHE
 			has_country_flag = CHE_Elections_1991
-			NOT = {
-				has_country_flag = CHEIslamicRadicalismElections1991
-			}
+			NOT = { has_country_flag = CHEIslamicRadicalismElections1991 }
 		}
-
+		available = {
+			tag = CHE
+			has_country_flag = CHE_Elections_1991
+			NOT = { has_country_flag = CHE_election_1991_results_counted }
+			check_variable = { var = CHE_islamic_radicalism_value value = 10 compare = greater_than_or_equals }
+		}
 		complete_effect = {
-			add_popularity = {ideology = Nationalism popularity = 0.075}
-			add_to_variable = {
-				var = CHE_dudayev_support_value
-				value = 10
-				tooltip = add_dudayev_support_to_var_tt
+			add_popularity = { ideology = nationalism popularity = 0.075 }
+			hidden_effect = {
+				add_to_variable = { CHE_dudayev_support_value = 10 }
+				subtract_from_variable = { CHE_islamic_radicalism_value = 10 }
 			}
 		}
-
 		ai_will_do = {
 			factor = 10
-			modifier = {
-				is_historical_focus_on = yes 
-				add = 45
-			}
+			modifier = { is_historical_focus_on = yes add = 45 }
 		}
 	}
 
 	CHE_support_islamic_radicalism_decision = {
-
-		icon = GFX_decision_generic_soldie
-
+		icon = generic_political_address
 		cost = 50
 		fire_only_once = yes
-		
-		available = {		
-			tag = CHE
-			has_country_flag = CHE_Elections_1991
-		}
-		
 		visible = {
 			tag = CHE
 			has_country_flag = CHE_Elections_1991
-			NOT = {
-				has_country_flag = CHESupportDudayev
-			}
+			NOT = { has_country_flag = CHESupportDudayev }
 		}
-
+		available = {
+			tag = CHE
+			has_country_flag = CHE_Elections_1991
+			NOT = { has_country_flag = CHE_election_1991_results_counted }
+			check_variable = { var = CHE_dudayev_support_value value = 20 compare = greater_than_or_equals }
+		}
 		complete_effect = {
-			add_popularity = {ideology = islam popularity = 0.15}
-			add_to_variable = {
-				var = CHE_islamic_radicalism_value
-				value = 20
-				tooltip = add_incersace_islamic_radicalism_to_var_tt
-			}
-			subtract_from_variable = {
-				var = CHE_dudayev_support_value
-				value = 20
-				tooltip = add_basayev_support_to_var_tt #TODO
+			add_popularity = { ideology = islam popularity = 0.15 }
+			hidden_effect = {
+				subtract_from_variable = { CHE_dudayev_support_value = 20 }
+				add_to_variable = { CHE_islamic_radicalism_value = 20 }
 			}
 		}
-
 		ai_will_do = {
 			factor = 0
-
-			modifier = {
-				is_historical_focus_on = yes 
-				add = -35
-			}
-			modifier = {
-				is_historical_focus_on = no 
-				add = 25
-			}
+			modifier = { is_historical_focus_on = no add = 25 }
 		}
 	}
 
 	CHE_discrediting_dudayev = {
-
-		icon = GFX_decision_generic_soldie
-
+		icon = generic_political_address
 		cost = 50
 		fire_only_once = yes
-		
-		available = {		
-			tag = CHE
-			has_country_flag = CHE_Elections_1991
-		}
-		
 		visible = {
 			tag = CHE
 			has_country_flag = CHE_Elections_1991
-			NOT = {
-				has_country_flag = CHESupportDudayev
-			}
 			has_country_flag = CHEIslamicRadicalismElections1991
+			NOT = { has_country_flag = CHESupportDudayev }
 		}
-
+		available = {
+			tag = CHE
+			has_country_flag = CHE_Elections_1991
+			NOT = { has_country_flag = CHE_election_1991_results_counted }
+			check_variable = { var = CHE_dudayev_support_value value = 20 compare = greater_than_or_equals }
+		}
 		complete_effect = {
-			add_popularity = {ideology = islam popularity = 0.15}
-			add_to_variable = {
-				var = CHE_islamic_radicalism_value
-				value = 20
-				tooltip = add_incersace_islamic_radicalism_to_var_tt
+			add_popularity = { ideology = islam popularity = 0.15 }
+			hidden_effect = {
+				subtract_from_variable = { CHE_dudayev_support_value = 20 }
+				add_to_variable = { CHE_islamic_radicalism_value = 20 }
 			}
-			set_country_flag = CHEIslamicRadicalismElections1991
 		}
-
 		ai_will_do = {
 			factor = 0
-
-			modifier = {
-				is_historical_focus_on = yes 
-				add = -35
-			}
-			modifier = {
-				is_historical_focus_on = no 
-				add = 25
-			}
+			modifier = { is_historical_focus_on = no add = 25 }
 		}
 	}
 
+	CHE_discredit_opposition_1991 = {
+		icon = generic_political_address
+		cost = 50
+		fire_only_once = yes
+		visible = {
+			tag = CHE
+			has_country_flag = CHE_Elections_1991
+		}
+		available = {
+			tag = CHE
+			has_country_flag = CHE_Elections_1991
+			NOT = { has_country_flag = CHE_election_1991_results_counted }
+			check_variable = { var = CHE_opposition_support_1991_value value = 10 compare = greater_than_or_equals }
+		}
+		complete_effect = {
+			hidden_effect = {
+				add_to_variable = { CHE_dudayev_support_value = 5 }
+				add_to_variable = { CHE_islamic_radicalism_value = 5 }
+				subtract_from_variable = { CHE_opposition_support_1991_value = 10 }
+			}
+		}
+		ai_will_do = { factor = 10 }
+	}
 }
 
 CHE_stability_of_republic_decision = {

@@ -210,8 +210,8 @@
   CHE_prepare_operation_in_budenovsk_decision: "Подготовить прорыв границы"
 
   CHE_elections_1991_decision: "Выборы 1991 года"
-  CHE_elections_1991_decision_desc: "Чеченская Республика находится в процессе первых в своей истории президентских выборов. Ситуация нестабильна: центральная советская власть рушится, и регион действует вне контроля Москвы. Хотя большая часть населения поддерживает независимость, другие опасаются изоляции или войны. \n\nПоддержка Дудаева: §Y[?CHE_dudayev_support_value|%%]§! \n\nИсламский радикализм: §Y[?CHE_islamic_radicalism_value|%%]§!"
-  CHE_support_islamic_radicalism_decision: "Поддержать исламский радикализм"
+  CHE_elections_1991_decision_desc: "Чеченская Республика находится в процессе первых в своей истории президентских выборов. Хотя большая часть населения поддерживает независимость, другие опасаются изоляции или войны.\n\nПоддержка Дудаева: §Y[?CHE_dudayev_support_value|%%]§!\nПоддержка исламистов: §Y[?CHE_islamic_radicalism_value|%%]§!\nПоддержка оппозиции: §Y[?CHE_opposition_support_1991_value|%%]§!"
+  CHE_support_islamic_radicalism_decision: "Поддержать исламистов"
 
   CHE_Unrecognized_Country_desc: "\n\n\n\n£GFX_idea_unrecognized_country_desc_photo\n\n\n\n\n\n\n  Никто не признаёт нашу независимость…"
   CHE_Islamic_state_idea: "Исламское государство"
@@ -346,3 +346,13 @@
  CHE_caliphate_restore_confederation_flag_desc: "Вернуть первоначальный флаг халифата. Это изменение государственной символики."
  CHE_caliphate_nationalize_state: "Национализировать регион [FROM.GetName]"
  CHE_caliphate_nationalize_state_desc: "Сделать регион [FROM.GetName] национальной территорией халифата. Регион должен принадлежать нам и полностью находиться под нашим контролем. Стоимость — 25 единиц политической власти."
+ 
+ CHE_chechen_election_1991_mission: "Выборы 1991 года: завершение голосования"
+ CHE_chechen_election_1991_mission_desc: "После завершения кампании будет определён победитель. До объявления результатов можно использовать доступные предвыборные решения."
+ CHE_support_dudayev_decision: "Поддержать Дудаева"
+ CHE_support_dudayev_decision_desc: "Провести агитацию в поддержку Дудаева."
+ CHE_support_islamic_radicalism_decision_desc: "Провести агитацию в поддержку исламистов."
+ CHE_discrediting_dudayev: "Дискредитировать Дудаева"
+ CHE_discrediting_dudayev_desc: "Ослабить позиции Дудаева."
+ CHE_discredit_opposition_1991: "Дискредитировать оппозицию"
+ CHE_discredit_opposition_1991_desc: "Снизить поддержку оппозиции."

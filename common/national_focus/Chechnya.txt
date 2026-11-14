@@ -275,34 +275,26 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			if = {
-				limit = {
-					has_country_flag = CHEIslamistsOnTheElections1991
-				}
-				country_event = chechnya.22
-			}
-			if = {
-				limit = {
-					NOT = { has_country_flag = CHEIslamistsOnTheElections1991 }
-				}
-				country_event = chechnya.18
-			}
 			add_political_power = 25
 			add_stability = 0.05
 			hidden_effect = {
-				set_country_flag = CHE_Elections_1991
-				set_variable = {
-					var = CHE_dudayev_support_value
-					value = 75
-				}
-				set_variable = {
-					var = CHE_islamic_radicalism_value
-					value = 25
-				}
-				country_event = {
-					id = chechnya.48
-					days = 196
-				}
+				clr_country_flag = CHE_Elections_1991
+				clr_country_flag = CHE_election_1991_results_counted
+				clr_country_flag = CHESupportDudayev
+				clr_country_flag = CHEIslamicRadicalismElections1991
+				clr_country_flag = DzohkharDudayevWon
+				clr_country_flag = CHEWonOfIslamicRadicalismElections1991
+				set_variable = { CHE_dudayev_support_value = 55 }
+				set_variable = { CHE_islamic_radicalism_value = 25 }
+				set_variable = { CHE_opposition_support_1991_value = 20 }
+				country_event = { id = chechnya.48 days = 196 }
+			}
+			if = {
+				limit = { has_country_flag = CHEIslamistsOnTheElections1991 }
+				country_event = chechnya.22
+			}
+			else = {
+				country_event = chechnya.18
 			}
 		}
 	}

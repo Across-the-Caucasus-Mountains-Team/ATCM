@@ -1002,7 +1002,7 @@ country_event = {
 	id = chechnya.40
 	title = chechnya.40.t
 	desc = chechnya.40.d
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_CHE_ingushetia_separating
 
 	is_triggered_only = yes
 
