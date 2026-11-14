@@ -10,3 +10,7 @@ music = { name = "Lezginka" file = "che/Lezginka.ogg" volume = 0.65 }
 music = { name = "ShamilBasayevMusic" file = "che/ShamilBasayevMusic.ogg" volume = 0.65 }
 music = { name = "The_Death_of_Russia" file = "che/The_Death_of_Russia.ogg" volume = 0.65 }
 music = { name = "Allаhu_Akbаr" file = "che/Allаhu_Akbаr.ogg" volume = 0.65 }
+music = { name = "I_A_Bandit_By_Birth" file = "che/I_A_Bandit_By_Birth.ogg" volume = 0.65 }
+music = { name = "Disgraceful_Moscow" file = "che/Disgraceful_Moscow.ogg" volume = 0.65 }
+music = { name = "Dzjokhar_Dudayev" file = "che/Dzjokhar_Dudayev.ogg" volume = 0.65 }
+music = { name = "Freedom_or_death" file = "che/Freedom_or_death.ogg" volume = 0.65 }

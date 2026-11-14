@@ -695,3 +695,23 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = news.33
+	title = news.33.t
+	desc = news.33.d
+	picture = GFX_news_event_caucasian_caliphate
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = news.33.a
+		trigger = { tag = CHE }
+	}
+
+	option = {
+		name = news.33.b
+		trigger = { NOT = { tag = CHE } }
+	}
+}

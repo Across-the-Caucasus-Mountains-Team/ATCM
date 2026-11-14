@@ -1066,6 +1066,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
+			unlock_decision_tooltip = CHE_proclaim_caucasian_caliphate
 			add_popularity = {ideology = islam popularity = 0.05}
 		}
 	}

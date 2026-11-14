@@ -105,3 +105,12 @@ ISC = {
 	color = rgb { 15 15 15 }
 	color_ui = rgb { 15 15 15 }
 }
+CHE_CAUCASIAN_CALIPHATE = {
+	color = rgb { 33 87 65 }
+	color_ui = rgb { 33 87 65 }
+}
+CHE_CAUCASIAN_CALIPHATE_EMIRATE = {
+	color = rgb { 33 87 65 }
+	color_ui = rgb { 33 87 65 }
+}
+

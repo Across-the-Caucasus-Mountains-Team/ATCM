@@ -2179,18 +2179,39 @@ country_event = {
 	}
 }
 
-# Исламсисты берут под контроль некоторые территории
 country_event = {
 	id = chechnya.80
 	title = chechnya.80.t
 	desc = chechnya.80.d
+	picture = GFX_news_event_Chechnya_Independence
+	is_triggered_only = yes
+
+	option = {
+		name = chechnya.80.a
+		set_cosmetic_tag = CHE_CAUCASIAN_CALIPHATE_EMIRATE
+		set_country_flag = CHE_caliphate_uses_emirate_flag
+		clr_country_flag = CHE_caliphate_flag_choice_pending
+	}
+
+	option = {
+		name = chechnya.80.b
+		clr_country_flag = CHE_caliphate_flag_choice_pending
+	}
+}
+
+
+# Исламсисты берут под контроль некоторые территории
+country_event = {
+	id = chechnya.81
+	title = chechnya.81.t
+	desc = chechnya.81.d
 	picture = GFX_Report_event_RAS_failed_blitz
 
 	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
-		name = chechnya.80.a
+		name = chechnya.81.a
 		127 = {
 			transfer_state_to = ISC
 		}
