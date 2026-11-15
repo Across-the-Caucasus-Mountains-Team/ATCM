@@ -58,3 +58,178 @@ CHE_moderate_opposition_clamp_and_update_ui_effect = {
 		max = 100
 	}
 }
+
+CHE_azerbaijan_victory_effect = {
+	set_country_flag = CHE_azerbaijan_campaign_finished
+	set_country_flag = CHE_azerbaijan_victory
+	if = { limit = { has_country_flag = CHE_azerbaijan_peace_offer_pending AZR = { exists = yes } } AZR = { country_event = { id = Azerbaijan.7 hours = 1 } } }
+	clr_country_flag = CHE_azerbaijan_peace_offer_pending
+	country_event = { id = chechnya.94 hours = 1 }
+	news_event = { id = news.37 hours = 1 }
+}
+
+CHE_start_azerbaijan_operation_effect = {
+	if = {
+		limit = { CHE_azerbaijan_operation_available = yes }
+		set_country_flag = CHE_azerbaijan_operation_started
+		set_variable = { CHE_azerbaijan_support_at_war = AZR.party_popularity@islam }
+		set_variable = { CHE_azerbaijan_underground_at_war = AZR.CHE_azerbaijan_underground }
+		AZR = { every_owned_state = { set_state_flag = CHE_azerbaijan_prewar_state } }
+		declare_war_on = { target = AZR type = annex_everything }
+		if = {
+			limit = { has_war_with = AZR }
+			news_event = { id = news.36 hours = 1 }
+			set_variable = { CHE_azerbaijan_army_share = CHE_azerbaijan_underground_at_war }
+			divide_variable = { CHE_azerbaijan_army_share = 250 }
+			AZR = {
+				transfer_units_fraction = {
+					target = CHE
+					size = 0
+					army_ratio = var:CHE.CHE_azerbaijan_army_share
+					navy_ratio = 0
+					air_ratio = 0
+					stockpile_ratio = 0
+					keep_unit_leaders_trigger = { always = yes }
+				}
+			}
+			division_template = {
+				name = "CHE_azerbaijan_underground_division"
+				regiments = {
+					irregular_infantry = { x = 0 y = 0 }
+					irregular_infantry = { x = 0 y = 1 }
+					irregular_infantry = { x = 0 y = 2 }
+				}
+			}
+			set_variable = { CHE_azerbaijan_underground_divisions = CHE_azerbaijan_underground_at_war }
+			divide_variable = { CHE_azerbaijan_underground_divisions = 10 }
+			round_variable = CHE_azerbaijan_underground_divisions
+			clamp_variable = { var = CHE_azerbaijan_underground_divisions min = 1 max = 10 }
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Азербайджанские добровольцы\" division_template = \"CHE_azerbaijan_underground_division\" start_experience_factor = 0.2 start_equipment_factor = 0.5"
+					owner = CHE
+					count = var:CHE.CHE_azerbaijan_underground_divisions
+				}
+			}
+			if = {
+				limit = { has_completed_focus = CHE_send_basayev NOT = { has_country_flag = SmailBasayevKilled } has_character = CHE_shamil_basayev }
+				load_oob = CHE_basayev_in_azerbaijan
+			}
+
+			if = {
+				limit = {
+					check_variable = { var = CHE_azerbaijan_support_at_war value = 0.8 compare = greater_than }
+					check_variable = { var = CHE_azerbaijan_underground_at_war value = 80 compare = greater_than }
+				}
+				AZR = {
+					transfer_units_fraction = { target = CHE size = 0 army_ratio = 1 navy_ratio = 1 air_ratio = 1 stockpile_ratio = 1 keep_unit_leaders_trigger = { always = yes } }
+					every_owned_state = {
+						if = {
+							limit = { is_fully_controlled_by = AZR }
+							CHE = { transfer_state = PREV }
+						}
+						else = { CHE = { set_state_owner = PREV } }
+					}
+				}
+				if = { limit = { AZR = { exists = yes } } annex_country = { target = AZR transfer_troops = yes } }
+				if = { limit = { has_war_with = AZR } white_peace = AZR }
+				CHE_azerbaijan_victory_effect = yes
+			}
+			else = {
+				AZR = {
+					every_owned_state = {
+						limit = {
+							is_fully_controlled_by = AZR
+							OR = {
+								OR = { state = 47 state = 44 }
+								AND = { state = 53 CHE = { check_variable = { var = CHE_azerbaijan_support_at_war value = 0.2 compare = greater_than_or_equals } } }
+								AND = { state = 58 CHE = { check_variable = { var = CHE_azerbaijan_support_at_war value = 0.3 compare = greater_than_or_equals } } }
+								AND = { state = 64 CHE = { check_variable = { var = CHE_azerbaijan_support_at_war value = 0.4 compare = greater_than_or_equals } } }
+								AND = { state = 68 CHE = { check_variable = { var = CHE_azerbaijan_support_at_war value = 0.5 compare = greater_than_or_equals } } }
+								AND = { OR = { state = 75 state = 80 state = 79 } CHE = { check_variable = { var = CHE_azerbaijan_support_at_war value = 0.6 compare = greater_than_or_equals } } }
+								AND = { OR = { state = 76 state = 90 state = 82 } CHE = { check_variable = { var = CHE_azerbaijan_support_at_war value = 0.7 compare = greater_than_or_equals } } }
+								AND = { OR = { state = 83 state = 104 } CHE = { check_variable = { var = CHE_azerbaijan_support_at_war value = 0.8 compare = greater_than_or_equals } } }
+							}
+						}
+						CHE = { set_state_controller = PREV }
+					}
+				}
+				if = { limit = { any_state = { has_state_flag = CHE_azerbaijan_prewar_state is_controlled_by = CHE } } set_country_flag = CHE_azerbaijan_had_foothold }
+				country_event = { id = chechnya.91 hours = 1 }
+				AZR = { country_event = { id = Azerbaijan.4 hours = 1 } }
+			}
+		}
+	}
+}
+
+CHE_basayev_azerbaijan_death_effect = {
+	set_country_flag = SmailBasayevKilled
+	clr_country_flag = BasayevInAbkhazia
+	retire_character = CHE_shamil_basayev
+	if = { limit = { has_character = ISC_shamil_basayev } retire_character = ISC_shamil_basayev }
+	if = { limit = { NOT = { has_character = CHE_Zelimkhan_Yandarbiev } } recruit_character = CHE_Zelimkhan_Yandarbiev }
+	add_country_leader_role = {
+		character = CHE_Zelimkhan_Yandarbiev
+		promote_leader = yes
+		country_leader = { ideology = generic_islam expire = "2045.1.1.1" }
+	}
+	promote_character = { character = CHE_Zelimkhan_Yandarbiev ideology = generic_islam }
+	add_stability = -0.05
+	add_war_support = -0.03
+	add_timed_idea = { idea = CHE_mourning_basayev days = 120 }
+	country_event = { id = chechnya.93 hours = 1 }
+	news_event = { id = news.39 hours = 1 }
+}
+
+CHE_check_azerbaijan_retreat_effect = {
+	if = {
+		limit = {
+			has_country_flag = CHE_azerbaijan_had_foothold
+			NOT = { has_country_flag = CHE_azerbaijan_retreat_checked }
+			NOT = { any_state = { has_state_flag = CHE_azerbaijan_prewar_state is_controlled_by = CHE } }
+		}
+		set_country_flag = CHE_azerbaijan_retreat_checked
+		if = {
+			limit = { has_completed_focus = CHE_send_basayev has_character = CHE_shamil_basayev NOT = { has_country_flag = SmailBasayevKilled } }
+			random_list = { 10 = { CHE_basayev_azerbaijan_death_effect = yes } 90 = { } }
+		}
+	}
+}
+
+CHE_finish_failed_azerbaijan_campaign_effect = {
+	if = {
+		limit = { NOT = { has_country_flag = CHE_azerbaijan_campaign_finished } }
+		CHE_check_azerbaijan_retreat_effect = yes
+		set_country_flag = CHE_azerbaijan_campaign_finished
+		if = { limit = { has_country_flag = CHE_azerbaijan_peace_offer_pending AZR = { exists = yes } } AZR = { country_event = { id = Azerbaijan.7 hours = 1 } } }
+		clr_country_flag = CHE_azerbaijan_peace_offer_pending
+		add_timed_idea = { idea = CHE_failed_azerbaijan_campaign days = 90 }
+		country_event = { id = chechnya.95 hours = 1 }
+		news_event = { id = news.38 hours = 1 }
+	}
+}
+
+CHE_update_azerbaijan_campaign_effect = {
+	if = {
+		limit = { has_country_flag = CHE_azerbaijan_peace_offer_pending has_country_flag = { flag = CHE_azerbaijan_peace_offer_pending days > 29 } }
+		clr_country_flag = CHE_azerbaijan_peace_offer_pending
+		AZR = { country_event = { id = Azerbaijan.7 hours = 1 } }
+	}
+	if = {
+		limit = { NOT = { has_country_flag = CHE_azerbaijan_campaign_finished } }
+		if = {
+			limit = { has_war_with = AZR }
+			CHE_check_azerbaijan_retreat_effect = yes
+		}
+		else = {
+			if = {
+				limit = {
+					any_state = { has_state_flag = CHE_azerbaijan_prewar_state }
+					NOT = { any_state = { has_state_flag = CHE_azerbaijan_prewar_state NOT = { is_owned_by = CHE } } }
+				}
+				CHE_azerbaijan_victory_effect = yes
+			}
+			else = { CHE_finish_failed_azerbaijan_campaign_effect = yes }
+		}
+	}
+}

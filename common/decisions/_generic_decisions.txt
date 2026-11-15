@@ -35,7 +35,7 @@ political_actions = {
 			modifier = {
 				add = 1
 				has_stability < 0.6
-				has_political_power > 155 #Spend on other things first
+				has_political_power > 155
 			}
 		}
 	}
@@ -43,7 +43,7 @@ political_actions = {
 
 economy_decisions = {
 
-	restructure_supply_system = { #one time boost to get a few cheap supply hubs
+	restructure_supply_system = {
 
 		icon = GFX_decision_generic_construction
 
@@ -52,7 +52,7 @@ economy_decisions = {
 				is_major = no
 				AND = {
 					is_faction_leader = yes
-					num_of_factories < 51 #would be a minor if it wasn't for faction leader status
+					num_of_factories < 51
 				}
 			}
 		}
@@ -415,4 +415,60 @@ propaganda_efforts = {
 		}
 	}
 	
+}
+
+AZR_counter_islamist_influence_decision = {
+	AZR_counter_islamist_propaganda = {
+		icon = generic_political_discourse
+		cost = 20
+		days_re_enable = 45
+		visible = { CHE = { NOT = { has_country_flag = CHE_azerbaijan_operation_started } } }
+		available = { islam > 0 }
+		complete_effect = { add_popularity = { ideology = islam popularity = -0.03 } }
+		ai_will_do = {
+			factor = 3
+			modifier = { factor = 3 islam > 0.08 }
+		}
+	}
+
+	AZR_disrupt_underground = {
+		icon = generic_political_discourse
+		cost = 20
+		days_re_enable = 45
+		visible = { CHE = { NOT = { has_country_flag = CHE_azerbaijan_operation_started } } }
+		available = { check_variable = { var = CHE_azerbaijan_underground value = 0 compare = greater_than } }
+		complete_effect = { subtract_from_variable = { CHE_azerbaijan_underground = 15 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
+		ai_will_do = {
+			factor = 3
+			modifier = { factor = 3 islam > 0.08 }
+		}
+	}
+
+	AZR_restrict_radical_organizations = {
+		icon = generic_political_discourse
+		cost = 50
+		days_re_enable = 60
+		visible = { CHE = { NOT = { has_country_flag = CHE_azerbaijan_operation_started } } }
+		available = { OR = { islam > 0 check_variable = { var = CHE_azerbaijan_underground value = 0 compare = greater_than } } }
+		complete_effect = { add_stability = -0.01 add_popularity = { ideology = islam popularity = -0.04 } subtract_from_variable = { CHE_azerbaijan_underground = 10 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
+		ai_will_do = {
+			factor = 3
+			modifier = { factor = 3 islam > 0.08 }
+		}
+	}
+
+	AZR_offer_peace_to_chechnya = {
+		icon = generic_political_discourse
+		cost = 100
+		days_re_enable = 60
+		visible = { CHE = { has_country_flag = CHE_azerbaijan_operation_started NOT = { has_country_flag = CHE_azerbaijan_campaign_finished } } has_war_with = CHE }
+		available = { CHE_azerbaijan_peace_offer_valid = yes CHE = { NOT = { has_country_flag = CHE_azerbaijan_peace_offer_pending } } }
+		complete_effect = {
+			CHE = {
+				set_country_flag = CHE_azerbaijan_peace_offer_pending
+				country_event = { id = chechnya.92 hours = 1 }
+			}
+		}
+		ai_will_do = { factor = 100 }
+	}
 }

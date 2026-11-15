@@ -1,0 +1,80 @@
+division_template = {
+	name = "Basayev-otryad"
+	
+	division_names_group = CHE_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
+	}
+	is_locked = yes
+}
+
+units = {
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8811
+		division_template = "Basayev-otryad"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 894
+		division_template = "Basayev-otryad"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 384
+		division_template = "Basayev-otryad"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 9292
+		division_template = "Basayev-otryad"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1069
+		division_template = "Basayev-otryad"
+		start_experience_factor = 0.5
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6394
+		division_template = "Basayev-otryad"
+		start_experience_factor = 0.5
+	}
+}	

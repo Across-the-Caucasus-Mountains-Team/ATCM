@@ -40,7 +40,7 @@
  SOV_spread_communist_propaganda_in_armenia: "Распространять коммунистическую пропаганду в Армении"
  SOV_spread_communist_propaganda_in_azerbaijan: "Распространять коммунистическую пропаганду в Азербайджане"
 
-CHE_georgia_activate_cells: "Активировать чеченское подполье"
+ CHE_georgia_activate_cells: "Активировать чеченское подполье"
  CHE_georgia_activate_cells_desc: "Вызвать кризис в Панкисском ущелье. Грузия потеряет национальный статус Тушетии и Панкиси и в обоих регионах начнётся сопротивление"
  CHE_panci_crisis_decision: "Огонь в Грузии"
  CHE_panci_crisis_decision_desc: "В грузии проживает более 600 тысяч мусульман, которых мы должны спасти от грузинских националистов. Большая их часть компактно проживает в Панкийском ущелье и Аджарии. Мы можем подержать Абхазию и южную осетию во время их войны с Тбилиси.\n\nСопротивление в Тушетии: §Y[?34.resistance|0]%§!; подчинение: §Y[?34.compliance|0]%§!.\nСопротивление в Панкиси: §Y[?120.resistance|0]%§!; подчинение: §Y[?120.compliance|0]%§!."
@@ -80,3 +80,8 @@ CHE_georgia_activate_cells: "Активировать чеченское под�
  SAK_georgia_restore_administration_desc: "Необходимо владеть обоими регионами и полностью их контролировать."
  SAK_georgia_restore_security: "Укрепить государственную границу"
  SAK_georgia_restore_security_desc: "Необходимо владеть обоими регионами и полностью их контролировать."
+
+ AZR_counter_islamist_propaganda: "Противодействовать исламистской пропаганде"
+ AZR_disrupt_underground: "Разгромить подпольные ячейки"
+ AZR_restrict_radical_organizations: "Ограничить радикальные организации"
+ AZR_offer_peace_to_chechnya: "Предложить Чечне мир"

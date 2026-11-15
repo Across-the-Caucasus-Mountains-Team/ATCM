@@ -125,6 +125,27 @@ on_actions = {
 					SAK = { country_event = { id = Georgia.58 hours = 1 } }
 				}
 			}
+			if = {
+				limit = {
+					tag = CHE
+					has_country_flag = CHE_azerbaijan_operation_started
+					OR = { NOT = { has_country_flag = CHE_azerbaijan_campaign_finished } has_country_flag = CHE_azerbaijan_peace_offer_pending }
+				}
+				CHE_update_azerbaijan_campaign_effect = yes
+			}
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = CHE }
+					FROM.FROM = { has_state_flag = CHE_azerbaijan_prewar_state }
+					CHE = { has_war_with = AZR has_country_flag = CHE_azerbaijan_operation_started NOT = { has_country_flag = CHE_azerbaijan_campaign_finished } }
+				}
+				CHE = { CHE_check_azerbaijan_retreat_effect = yes }
+			}
 		}
 	}
 }

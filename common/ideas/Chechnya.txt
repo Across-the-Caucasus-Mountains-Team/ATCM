@@ -885,5 +885,21 @@ ideas = {
 			   max_planning_factor = -0.10
 			}
 		}
+
+		CHE_failed_azerbaijan_campaign = {
+			allowed = { original_tag = CHE }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = CHE_mountains_ghosts
+			modifier = { stability_factor = -0.03 war_support_factor = -0.03 }
+		}
+
+		CHE_mourning_basayev = {
+			allowed = { original_tag = CHE }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = CHE_mountains_ghosts
+			modifier = { army_org_factor = -0.03 political_power_factor = -0.05 }
+		}
 	}
 }

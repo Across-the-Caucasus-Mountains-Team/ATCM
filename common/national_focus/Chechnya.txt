@@ -1124,7 +1124,7 @@ focus_tree = {
 	focus = {
 		id = CHE_antirussian_propaganda
 		icon = GFX_CHE_antirussian_propaganda
-		x = 4
+		x = 0
 		y = 1
 		prerequisite = { focus = CHE_ideas_of_caucasian_chaliphate }
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate
@@ -1291,7 +1291,7 @@ focus_tree = {
 	focus = {
 		id = CHE_holy_jihad_against_russia
 		icon = GFX_goal_unknown
-		x = -4
+		x = 0
 		y = 4
 		prerequisite = { focus = CHE_recapture_armenia  focus = CHE_capture_georgia }
 		prerequisite = { focus = CHE_spread_islam_on_north_caucasus }
@@ -1335,7 +1335,7 @@ focus_tree = {
 	focus = {
 		id = CHE_call_upon_all_muslims
 		icon = GFX_goal_unknown
-		x = -4
+		x = 0
 		y = 5
 		prerequisite = { focus = CHE_holy_jihad_against_russia }
 		relative_position_id = CHE_antirussian_propaganda
@@ -1384,7 +1384,9 @@ focus_tree = {
 		}
 
 		available = {
-			
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			NOT = { has_country_flag = CHE_azerbaijan_operation_started }
 		}
 
 		bypass = {
@@ -1398,18 +1400,14 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			add_to_variable = {
-				var = CHE_the_radicalism_of_islamists_value
-				value = 5
-				tooltip = add_CHE_the_radicalism_of_islamists
-			}
+			AZR = { add_popularity = { ideology = islam popularity = 0.05 } }
+			add_to_variable = { var = CHE_the_radicalism_of_islamists_value value = 5 tooltip = add_CHE_the_radicalism_of_islamists }
+			unlock_decision_category_tooltip = CHE_azerbaijan_influence_decision
 			hidden_effect = {
-				clamp_variable = {
-					var = CHE_the_radicalism_of_islamists_value
-					min = 0
-					max = 100
-				}				
+				clamp_variable = { var = CHE_the_radicalism_of_islamists_value min = 0 max = 100 }
+				AZR = { if = { limit = { NOT = { has_variable = CHE_azerbaijan_underground } } set_variable = { CHE_azerbaijan_underground = 0 } } }
+				AZR = { country_event = { id = Azerbaijan.3 hours = 1 } }
+				country_event = { id = chechnya.89 hours = 1 }
 			}
 		}
 	}
@@ -1429,7 +1427,9 @@ focus_tree = {
 		}
 
 		available = {
-			
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			NOT = { has_country_flag = CHE_azerbaijan_operation_started }
 		}
 
 		bypass = {
@@ -1443,10 +1443,8 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_war_support = 0.05
-			AZR = {
-				add_popularity = {ideology = islam popularity = 0.095}
-			}
+			unlock_decision_tooltip = CHE_azerbaijan_send_weapons
+			unlock_decision_tooltip = CHE_azerbaijan_train_underground
 		}
 	}
 
@@ -1465,7 +1463,13 @@ focus_tree = {
 		}
 
 		available = {
-			
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			NOT = { has_country_flag = CHE_azerbaijan_operation_started }
+
+			has_character = CHE_shamil_basayev
+			NOT = { has_country_flag = SmailBasayevKilled }
+			NOT = { has_country_flag = BasayevInAbkhazia }
 		}
 
 		bypass = {
@@ -1479,10 +1483,8 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			AZR = {
-				add_popularity = {ideology = islam popularity = 0.05}
-			}
+			add_popularity = { ideology = islam popularity = 0.05 }
+			country_event = { id = chechnya.90 hours = 1 }
 		}
 	}
 
@@ -1502,7 +1504,9 @@ focus_tree = {
 		}
 
 		available = {
-			
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			NOT = { has_country_flag = CHE_azerbaijan_operation_started }
 		}
 
 		bypass = {
@@ -1516,10 +1520,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			AZR = {
-				add_popularity = {ideology = islam popularity = 0.085}
-			}
+			unlock_decision_tooltip = CHE_azerbaijan_begin_operation
 		}
 	}
 
@@ -1538,7 +1539,12 @@ focus_tree = {
 		}
 
 		available = {
-			
+			has_country_flag = CHE_azerbaijan_victory
+			ARM = { exists = yes }
+			NOT = { has_war_with = ARM }
+			NOT = { is_in_faction_with = ARM }
+			NOT = { is_subject_of = ARM }
+			ARM = { NOT = { is_subject_of = CHE } }
 		}
 
 		bypass = {
@@ -1552,17 +1558,14 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			declare_war_on = {
-				target = ARM
-				type = annex_everything
-			}
+			declare_war_on = { target = ARM type = annex_everything }
 		}
 	}
 	
 	focus = {
 		id = CHE_light_a_fire_in_georgia
 		icon = GFX_CHE_light_a_fire_in_georgia
-		x = 0
+		x = 4
 		y = 1
 		prerequisite = { focus = CHE_ideas_of_caucasian_chaliphate }
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate
@@ -1593,7 +1596,7 @@ focus_tree = {
 	focus = {
 		id = CHE_support_akhazian_separatists
 		icon = GFX_CHE_support_akhazian_separatists
-		x = 1
+		x = 3
 		y = 2
 		prerequisite = { focus = CHE_light_a_fire_in_georgia }
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate
@@ -1628,7 +1631,7 @@ focus_tree = {
 	focus = {
 		id = CHE_support_osetian_separatists
 		icon = GFX_CHE_support_osetian_separatists
-		x = -1
+		x = 5
 		y = 2
 		prerequisite = { focus = CHE_light_a_fire_in_georgia }
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate
@@ -1663,7 +1666,7 @@ focus_tree = {
 	focus = {
 		id = CHE_use_chechen_cells_in_georgia
 		icon = GFX_CHE_use_chechen_cells_in_georgia
-		x = 0
+		x = 4
 		y = 3
 		prerequisite = {
 			focus = CHE_support_akhazian_separatists
@@ -1703,7 +1706,7 @@ focus_tree = {
 	focus = {
 		id = CHE_capture_georgia
 		icon = GFX_CHE_capture_georgia
-		x = 0
+		x = 4
 		y = 4
 		prerequisite = { focus = CHE_use_chechen_cells_in_georgia }
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate

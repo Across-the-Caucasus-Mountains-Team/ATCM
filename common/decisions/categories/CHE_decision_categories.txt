@@ -158,3 +158,15 @@ CHE_panci_crisis_decision = {
 	visible = { tag = CHE has_completed_focus = CHE_light_a_fire_in_georgia }
 	visible_when_empty = no
 }
+
+CHE_azerbaijan_influence_decision = {
+	icon = SOV_propaganda
+	priority = 86
+	visible = {
+		tag = CHE
+		has_completed_focus = CHE_support_azerbajani_radicals
+		NOT = { has_country_flag = CHE_azerbaijan_campaign_finished }
+		AZR = { exists = yes }
+	}
+	visible_when_empty = yes
+}

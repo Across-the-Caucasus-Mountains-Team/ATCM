@@ -48,3 +48,53 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = Azerbaijan.3
+	title = Azerbaijan.3.t
+	desc = Azerbaijan.3.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+	is_triggered_only = yes
+
+	option = { name = Azerbaijan.3.a  }
+}
+
+country_event = {
+	id = Azerbaijan.4
+	title = Azerbaijan.4.t
+	desc = Azerbaijan.4.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+	is_triggered_only = yes
+
+	option = { name = Azerbaijan.4.a  }
+}
+
+country_event = {
+	id = Azerbaijan.5
+	title = Azerbaijan.5.t
+	desc = Azerbaijan.5.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+	is_triggered_only = yes
+
+	option = { name = Azerbaijan.5.a  }
+}
+
+country_event = {
+	id = Azerbaijan.6
+	title = Azerbaijan.6.t
+	desc = Azerbaijan.6.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+	is_triggered_only = yes
+
+	option = { name = Azerbaijan.6.a  }
+}
+
+country_event = {
+	id = Azerbaijan.7
+	title = Azerbaijan.7.t
+	desc = Azerbaijan.7.d
+	picture = GFX_Report_event_CHE_shamil_basayev
+	is_triggered_only = yes
+
+	option = { name = Azerbaijan.7.a  }
+}

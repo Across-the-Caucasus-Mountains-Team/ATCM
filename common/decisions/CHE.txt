@@ -1900,7 +1900,7 @@ CHE_panci_crisis_decision = {
 
 	CHE_georgia_send_volunteers = {
 			icon = generic_political_address
-			cost = 50
+			cost = 40
 			days_re_enable = 60
 			targets = { ABK OST }
 			target_trigger = { CHE_georgia_support_target = yes }
@@ -1926,7 +1926,7 @@ CHE_panci_crisis_decision = {
 
 	CHE_georgia_send_instructors = {
 			icon = generic_political_address
-			cost = 35
+			cost = 30
 			days_re_enable = 60
 			targets = { ABK OST }
 			target_trigger = { CHE_georgia_support_target = yes }
@@ -1967,7 +1967,7 @@ CHE_panci_crisis_decision = {
 
 	CHE_georgia_expand_underground = {
 			icon = generic_political_address
-			cost = 35
+			cost = 30
 			days_re_enable = 30
 			visible = { tag = CHE has_completed_focus = CHE_use_chechen_cells_in_georgia }
 			available = {
@@ -2088,4 +2088,119 @@ CHE_panci_crisis_decision = {
 			}
 			ai_will_do = { factor = 8 }
 		}
+}
+
+CHE_azerbaijan_influence_decision = {
+	CHE_azerbaijan_support_preachers = {
+		icon = generic_political_discourse
+		cost = 25
+		days_re_enable = 30
+		visible = { has_completed_focus = CHE_support_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		available = {
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			AZR = { islam < 1 }
+		}
+		complete_effect = {
+			AZR = { add_popularity = { ideology = islam popularity = 0.025 } }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_azerbaijan_fund_propaganda = {
+		icon = generic_political_discourse
+		cost = 35
+		days_re_enable = 45
+		visible = { has_completed_focus = CHE_support_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		available = {
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			AZR = { islam < 1 }
+		}
+		complete_effect = {
+			AZR = { add_popularity = { ideology = islam popularity = 0.04 } }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_azerbaijan_fund_underground = {
+		icon = generic_political_discourse
+		cost = 35
+		days_re_enable = 30
+		visible = { has_completed_focus = CHE_support_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		available = {
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			AZR = { OR = { NOT = { has_variable = CHE_azerbaijan_underground } check_variable = { var = CHE_azerbaijan_underground value = 100 compare = less_than } } }
+		}
+		complete_effect = {
+			AZR = { add_to_variable = { CHE_azerbaijan_underground = 10 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_azerbaijan_send_weapons = {
+		icon = generic_political_discourse
+		cost = 15
+		days_re_enable = 45
+		visible = { has_completed_focus = CHE_secret_deliveries_to_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		available = {
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			AZR = { OR = { NOT = { has_variable = CHE_azerbaijan_underground } check_variable = { var = CHE_azerbaijan_underground value = 100 compare = less_than } } }
+			custom_trigger_tooltip = { tooltip = CHE_azerbaijan_send_weapons_equipment_tt
+				check_variable = { var = num_equipment@infantry_equipment_1 value = 200 compare = greater_than_or_equals }
+				check_variable = { var = num_equipment@uniform_equipment_0 value = 100 compare = greater_than_or_equals }
+				check_variable = { var = num_equipment@bulletproof_vests_equipment_0 value = 100 compare = greater_than_or_equals }
+				check_variable = { var = num_equipment@grenade_launcher_equipment_0 value = 20 compare = greater_than_or_equals }
+			}
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -200 }
+			add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -100 }
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment_0 amount = -100 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment_0 amount = -20 }
+			AZR = { add_to_variable = { CHE_azerbaijan_underground = 20 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_azerbaijan_train_underground = {
+		icon = generic_political_discourse
+		cost = 25
+		days_re_enable = 45
+		visible = { has_completed_focus = CHE_secret_deliveries_to_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		available = {
+			AZR = { exists = yes }
+			NOT = { has_war_with = AZR }
+			AZR = { OR = { NOT = { has_variable = CHE_azerbaijan_underground } check_variable = { var = CHE_azerbaijan_underground value = 100 compare = less_than } } }
+			custom_trigger_tooltip = { tooltip = CHE_azerbaijan_train_underground_equipment_tt
+				check_variable = { var = num_equipment@infantry_equipment_1 value = 100 compare = greater_than_or_equals }
+				check_variable = { var = num_equipment@uniform_equipment_0 value = 100 compare = greater_than_or_equals }
+				check_variable = { var = num_equipment@support_equipment_1 value = 20 compare = greater_than_or_equals }
+			}
+			has_manpower > 99
+		}
+		complete_effect = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -100 }
+			add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -100 }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = -20 }
+			add_manpower = -100
+			AZR = { add_to_variable = { CHE_azerbaijan_underground = 15 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	CHE_azerbaijan_begin_operation = {
+		icon = generic_prepare_civil_war
+		cost = 75
+		fire_only_once = yes
+		visible = { has_completed_focus = CHE_islamic_uprising_in_azerbaijan NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		available = { CHE_azerbaijan_operation_available = yes }
+		complete_effect = { hidden_effect = { CHE_start_azerbaijan_operation_effect = yes } }
+		ai_will_do = {
+			factor = 2
+			modifier = { factor = 0 has_war = yes }
+		}
+	}
 }

@@ -704,3 +704,31 @@ CHE_georgia_peace_offer_valid = {
 	}
 	CHE_georgia_pair_can_be_ceded = yes
 }
+
+CHE_azerbaijan_operation_available = {
+	tag = CHE
+	has_completed_focus = CHE_islamic_uprising_in_azerbaijan
+	NOT = { has_country_flag = CHE_azerbaijan_operation_started }
+	NOT = { has_war_with = AZR }
+	NOT = { is_in_faction_with = AZR }
+	is_subject = no
+	AZR = {
+		exists = yes
+		is_subject = no
+		custom_trigger_tooltip = { tooltip = CHE_azerbaijan_support_required_tt check_variable = { var = party_popularity@islam value = 0.1 compare = greater_than_or_equals } }
+		custom_trigger_tooltip = { tooltip = CHE_azerbaijan_underground_required_tt check_variable = { var = CHE_azerbaijan_underground value = 10 compare = greater_than_or_equals } }
+		hidden_trigger = { any_owned_state = { OR = { state = 47 state = 44 } is_fully_controlled_by = AZR } }
+	}
+}
+
+CHE_azerbaijan_peace_offer_valid = {
+	CHE = {
+		exists = yes
+		has_war_with = AZR
+		has_country_flag = CHE_azerbaijan_operation_started
+		NOT = { has_country_flag = CHE_azerbaijan_campaign_finished }
+	}
+	AZR = { exists = yes }
+	any_state = { has_state_flag = CHE_azerbaijan_prewar_state }
+	NOT = { any_state = { has_state_flag = CHE_azerbaijan_prewar_state NOT = { is_fully_controlled_by = AZR } } }
+}

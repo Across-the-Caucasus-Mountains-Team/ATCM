@@ -736,3 +736,47 @@ news_event = {
 	is_triggered_only = yes
 	option = { name = news.35.a }
 }
+
+news_event = {
+	id = news.36
+	title = news.36.t
+	desc = news.36.d
+	picture = GFX_news_event_basaev_in_mountain
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = news.36.a }
+}
+
+news_event = {
+	id = news.37
+	title = news.37.t
+	desc = news.37.d
+	picture = GFX_news_event_che_in_azr
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = news.37.a }
+}
+
+news_event = {
+	id = news.38
+	title = news.38.t
+	desc = news.38.d
+	picture = GFX_news_event_fall_war
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = news.38.a }
+}
+
+news_event = {
+	id = news.39
+	title = news.39.t
+	desc = news.39.d
+	picture = GFX_news_event_basaev_die_in_azerbaijan
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = { name = news.39.a }
+}

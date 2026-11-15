@@ -11,6 +11,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_news_event_basaev_in_mountain"
+		texturefile = "gfx/event_pictures/news_event_basaev_in_mountain.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_basaev_die_in_azerbaijan"
+		texturefile = "gfx/event_pictures/news_event_basaev_die_in_azerbaijan.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_fall_war"
+		texturefile = "gfx/event_pictures/news_event_fall_war.png"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_che_in_azr"
+		texturefile = "gfx/event_pictures/news_event_che_in_azr.png"
+	}
+
+	spriteType = {
 		name = "GFX_news_event_che_sak_panci_war"
 		texturefile = "gfx/event_pictures/news_event_che_sak_panci_war.png"
 	}

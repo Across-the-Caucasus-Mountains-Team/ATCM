@@ -76,3 +76,17 @@ SAK_panci_crisis_decision = {
 	visible = { tag = SAK CHE = { has_completed_focus = CHE_light_a_fire_in_georgia } }
 	visible_when_empty = no
 }
+
+AZR_counter_islamist_influence_decision = {
+	icon = SOV_propaganda
+	priority = 86
+	visible = {
+		tag = AZR
+		CHE = {
+			exists = yes
+			has_completed_focus = CHE_support_azerbajani_radicals
+			NOT = { has_country_flag = CHE_azerbaijan_campaign_finished }
+		}
+	}
+	visible_when_empty = yes
+}
