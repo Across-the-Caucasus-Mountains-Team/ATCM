@@ -69,3 +69,10 @@ ARM_Recruitment_category = {
 		zoom = 150
 	}
 }
+
+SAK_panci_crisis_decision = {
+	icon = SOV_propaganda
+	priority = 87
+	visible = { tag = SAK CHE = { has_completed_focus = CHE_light_a_fire_in_georgia } }
+	visible_when_empty = no
+}

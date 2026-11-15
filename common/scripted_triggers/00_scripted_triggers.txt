@@ -613,3 +613,94 @@ is_allied_seller_trigger = {
 can_unlock_second_track_of_sf_doctrine = {
 	has_dlc = "Arms Against Tyranny"
 }
+
+CHE_georgia_pair_controlled_by_SAK = {
+	34 = { is_owned_by = SAK is_fully_controlled_by = SAK }
+	120 = { is_owned_by = SAK is_fully_controlled_by = SAK }
+}
+
+CHE_georgia_cells_can_activate = {
+	country_exists = SAK
+	NOT = { has_war_with = SAK }
+	SAK = { NOT = { has_country_flag = CHE_georgia_pankisi_incident } }
+	CHE_georgia_pair_controlled_by_SAK = yes
+}
+
+CHE_georgia_unrest_state = {
+	has_state_flag = CHE_georgia_underground
+	is_owned_by = SAK
+	is_fully_controlled_by = SAK
+	NOT = { is_core_of = SAK }
+}
+
+CHE_georgia_pair_underground_active = {
+	34 = { CHE_georgia_unrest_state = yes }
+	120 = { CHE_georgia_unrest_state = yes }
+}
+
+CHE_georgia_pair_has_unrest = {
+	CHE_georgia_pair_controlled_by_SAK = yes
+	OR = {
+		34 = { has_state_flag = CHE_georgia_underground NOT = { is_core_of = SAK } }
+		120 = { has_state_flag = CHE_georgia_underground NOT = { is_core_of = SAK } }
+	}
+}
+
+CHE_georgia_pair_reintegration_ready = {
+	CHE_georgia_pair_has_unrest = yes
+	NOT = { has_war_with = CHE }
+	34 = {
+		OR = {
+			is_core_of = SAK
+			AND = { NOT = { compliance < 70 } resistance < 20 }
+		}
+	}
+	120 = {
+		OR = {
+			is_core_of = SAK
+			AND = { NOT = { compliance < 70 } resistance < 20 }
+		}
+	}
+}
+
+CHE_georgia_pair_can_be_ceded = {
+	34 = {
+		OR = { is_owned_by = SAK is_owned_by = CHE }
+		is_fully_controlled_by = CHE
+	}
+	120 = {
+		OR = { is_owned_by = SAK is_owned_by = CHE }
+		is_fully_controlled_by = CHE
+	}
+	OR = { 34 = { is_owned_by = SAK } 120 = { is_owned_by = SAK } }
+}
+
+CHE_georgia_support_target = {
+	FROM = {
+		exists = yes
+		has_capitulated = no
+		has_war_with = SAK
+		NOT = { has_war_with = ROOT }
+	}
+	OR = {
+		AND = {
+			FROM = { tag = ABK }
+			has_completed_focus = CHE_support_akhazian_separatists
+		}
+		AND = {
+			FROM = { tag = OST }
+			has_completed_focus = CHE_support_osetian_separatists
+		}
+	}
+}
+
+CHE_georgia_peace_offer_valid = {
+	tag = SAK
+	has_war_with = CHE
+	CHE = {
+		exists = yes
+		has_capitulated = no
+		has_country_flag = CHE_georgia_peace_offer_pending
+	}
+	CHE_georgia_pair_can_be_ceded = yes
+}

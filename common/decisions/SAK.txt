@@ -309,3 +309,85 @@ political_actions = {
 		}
 	}
 }
+
+SAK_panci_crisis_decision = {
+	SAK_georgia_counter_agitation = {
+			icon = generic_political_address
+			cost = 40
+			days_re_enable = 30
+			visible = {
+				tag = SAK
+				OR = { has_idea = SAK_chechen_agitation has_idea = SAK_chechen_political_pressure }
+			}
+			complete_effect = {
+				remove_ideas = SAK_chechen_agitation
+				remove_ideas = SAK_chechen_political_pressure
+			}
+			ai_will_do = { factor = 10 }
+		}
+
+	SAK_georgia_restore_security = {
+			icon = generic_political_address
+			cost = 35
+			days_re_enable = 30
+			visible = { tag = SAK }
+			available = {
+				CHE_georgia_pair_has_unrest = yes
+			}
+			complete_effect = {
+				34 = {
+					add_resistance = -8
+					add_compliance = 3
+				}
+				120 = {
+					add_resistance = -8
+					add_compliance = 3
+				}
+			}
+			ai_will_do = { factor = 10 }
+		}
+
+	SAK_georgia_restore_administration = {
+			icon = generic_political_address
+			cost = 50
+			days_re_enable = 60
+			visible = { tag = SAK }
+			available = {
+				CHE_georgia_pair_has_unrest = yes
+			}
+			complete_effect = {
+				34 = {
+					add_resistance = -3
+					add_compliance = 10
+				}
+				120 = {
+					add_resistance = -3
+					add_compliance = 10
+				}
+			}
+			ai_will_do = { factor = 10 }
+		}
+
+	SAK_georgia_reintegrate_region = {
+			icon = generic_political_address
+			cost = 75
+
+			visible = { tag = SAK }
+			available = {
+				CHE_georgia_pair_reintegration_ready = yes
+			}
+			complete_effect = {
+				34 = {
+					set_resistance = 0
+					add_core_of = SAK
+					clr_state_flag = CHE_georgia_underground
+				}
+				120 = {
+					set_resistance = 0
+					add_core_of = SAK
+					clr_state_flag = CHE_georgia_underground
+				}
+			}
+			ai_will_do = { factor = 20 }
+		}
+}

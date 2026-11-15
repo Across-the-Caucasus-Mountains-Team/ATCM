@@ -1498,13 +1498,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		available = {
-			
-		}
+		available = { country_exists = SAK }
 
-		bypass = {
-
-		}
+		bypass = { NOT = { country_exists = SAK } }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1513,10 +1509,9 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			SAK = {
-				add_stability = -0.05
-			}
+			add_popularity = { ideology = islam popularity = 0.05 }
+			unlock_decision_category_tooltip = CHE_panci_crisis_decision
+			SAK = { country_event = { id = Georgia.55 hours = 1 } }
 		}
 	}
 
@@ -1534,13 +1529,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		available = {
-			
-		}
+		available = { country_exists = SAK }
 
-		bypass = {
-
-		}
+		bypass = { NOT = { country_exists = ABK } }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1549,10 +1540,12 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			ABK = {
-				give_military_access = CHE
-				add_manpower = 1000
+			unlock_decision_tooltip = CHE_georgia_send_weapons
+			unlock_decision_tooltip = CHE_georgia_send_volunteers
+			unlock_decision_tooltip = CHE_georgia_send_instructors
+			if = {
+				limit = { country_exists = ABK }
+				ABK = { give_military_access = CHE }
 			}
 		}
 	}
@@ -1571,13 +1564,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		available = {
-			
-		}
+		available = { country_exists = SAK }
 
-		bypass = {
-
-		}
+		bypass = { NOT = { country_exists = OST } }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1586,12 +1575,13 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			OST = {
-				give_military_access = CHE
-				add_manpower = 1000
+			unlock_decision_tooltip = CHE_georgia_send_weapons
+			unlock_decision_tooltip = CHE_georgia_send_volunteers
+			unlock_decision_tooltip = CHE_georgia_send_instructors
+			if = {
+				limit = { country_exists = OST }
+				OST = { give_military_access = CHE }
 			}
-			add_manpower = -1000
 		}
 	}
 
@@ -1600,8 +1590,10 @@ focus_tree = {
 		icon = GFX_CHE_use_chechen_cells_in_georgia
 		x = 0
 		y = 3
-		prerequisite = { focus = CHE_support_akhazian_separatists }
-		prerequisite = { focus = CHE_support_osetian_separatists }
+		prerequisite = {
+			focus = CHE_support_akhazian_separatists
+			focus = CHE_support_osetian_separatists
+		}
 		relative_position_id = CHE_ideas_of_caucasian_chaliphate
 
 		cost = 10
@@ -1610,13 +1602,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		available = {
-			
-		}
+		available = { country_exists = SAK }
 
-		bypass = {
-
-		}
+		bypass = { NOT = { country_exists = SAK } }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1625,8 +1613,15 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			
+			unlock_decision_tooltip = CHE_georgia_activate_cells
+			unlock_decision_tooltip = CHE_georgia_expand_underground
+			unlock_decision_tooltip = CHE_georgia_send_gelayev
+			hidden_effect = {
+				if = {
+					limit = { CHE_georgia_cells_can_activate = yes }
+					SAK = { country_event = { id = Georgia.56 hours = 1 } }
+				}
+			}
 		}
 	}
 
@@ -1644,13 +1639,9 @@ focus_tree = {
 			factor = 100
 		}
 
-		available = {
-			
-		}
+		available = { country_exists = SAK }
 
-		bypass = {
-
-		}
+		bypass = { NOT = { country_exists = SAK } }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1659,11 +1650,8 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			add_popularity = {ideology = islam popularity = 0.05}
-			declare_war_on = {
-				target = SAK
-				type = annex_everything
-			}
+			unlock_decision_tooltip = CHE_georgia_launch_operation
+			unlock_decision_tooltip = CHE_georgia_offer_peace
 		}
 	}
 	

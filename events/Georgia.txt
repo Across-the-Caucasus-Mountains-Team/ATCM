@@ -1143,3 +1143,105 @@ country_event = {
 		add_stability = 0.05
 	}
 }
+
+country_event = {
+	id = Georgia.55
+	title = Georgia.55.t
+	desc = Georgia.55.d
+	picture = GFX_Report_event_SAK_Georgia_Protest
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = SAK }
+	option = { name = Georgia.55.a }
+}
+
+country_event = {
+	id = Georgia.56
+	title = Georgia.56.t
+	desc = Georgia.56.d
+	picture = GFX_Report_event_SAK_first_attack
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = SAK
+		NOT = { has_country_flag = CHE_georgia_pankisi_incident }
+		NOT = { has_war_with = CHE }
+		34 = { is_owned_by = SAK is_fully_controlled_by = SAK }
+		120 = { is_owned_by = SAK is_fully_controlled_by = SAK }
+	}
+	immediate = {
+		set_country_flag = CHE_georgia_pankisi_incident
+		34 = {
+			remove_core_of = SAK
+			set_state_flag = CHE_georgia_underground
+			start_resistance = CHE
+			set_resistance = 15
+			set_compliance = 10
+		}
+		120 = {
+			remove_core_of = SAK
+			set_state_flag = CHE_georgia_underground
+			start_resistance = CHE
+			set_resistance = 15
+			set_compliance = 10
+		}
+		add_stability = -0.025
+		CHE = { country_event = { id = chechnya.82 hours = 1 } }
+	}
+	option = { name = Georgia.56.a }
+}
+
+country_event = {
+	id = Georgia.57
+	title = Georgia.57.t
+	desc = Georgia.57.d
+	picture = GFX_Report_event_SAK_War
+	is_triggered_only = yes
+	trigger = { tag = SAK has_war_with = CHE }
+	option = { name = Georgia.57.a }
+}
+
+country_event = {
+	id = Georgia.58
+	title = Georgia.58.t
+	desc = Georgia.58.d
+	picture = GFX_Report_event_Negotations_in_ingushetia
+	is_triggered_only = yes
+	trigger = { CHE_georgia_peace_offer_valid = yes }
+	option = {
+		name = Georgia.58.a
+		trigger = { CHE_georgia_peace_offer_valid = yes }
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 4 surrender_progress > 0.2 }
+			modifier = { factor = 3 surrender_progress > 0.5 }
+			modifier = { factor = 2 has_war_support < 0.35 }
+			modifier = { factor = 2 any_enemy_country = { NOT = { tag = CHE } } }
+		}
+		if = {
+			limit = { CHE_georgia_peace_offer_valid = yes }
+			CHE = {
+				white_peace = SAK
+				transfer_state = 34
+				transfer_state = 120
+				clr_country_flag = CHE_georgia_peace_offer_pending
+				country_event = { id = chechnya.84 hours = 1 }
+			}
+		}
+	}
+	option = {
+		name = Georgia.58.b
+		trigger = { CHE_georgia_peace_offer_valid = yes }
+		ai_chance = { factor = 90 }
+		CHE = {
+			clr_country_flag = CHE_georgia_peace_offer_pending
+			country_event = { id = chechnya.85 hours = 1 }
+		}
+	}
+	option = {
+		name = Georgia.58.c
+		trigger = { NOT = { CHE_georgia_peace_offer_valid = yes } }
+		ai_chance = { factor = 100 }
+		CHE = { clr_country_flag = CHE_georgia_peace_offer_pending }
+	}
+}

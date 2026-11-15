@@ -9,4 +9,69 @@ on_actions = {
 			divide_variable = { cash = 10 }
 		}
 	}
+
+	on_war_relation_added = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = { tag = CHE FROM = { tag = SAK } }
+						AND = { tag = SAK FROM = { tag = CHE } }
+					}
+					CHE = {
+						has_completed_focus = CHE_light_a_fire_in_georgia
+						NOT = { has_country_flag = CHE_georgia_operation_resolved }
+						NOT = { has_country_flag = CHE_georgia_operation_pending }
+					}
+				}
+				CHE = {
+					if = {
+						limit = { NOT = { has_country_flag = CHE_georgia_resistance_snapshot } }
+						set_variable = { CHE_georgia_resistance_at_war = 0 }
+						if = {
+							limit = { 34 = { CHE_georgia_unrest_state = yes } }
+							add_to_variable = { CHE_georgia_resistance_at_war = 34.resistance }
+						}
+						if = {
+							limit = { 120 = { CHE_georgia_unrest_state = yes } }
+							add_to_variable = { CHE_georgia_resistance_at_war = 120.resistance }
+						}
+						divide_variable = { CHE_georgia_resistance_at_war = 2 }
+						set_country_flag = CHE_georgia_resistance_snapshot
+					}
+					set_country_flag = CHE_georgia_operation_pending
+					country_event = { id = chechnya.83 hours = 1 }
+				}
+			}
+		}
+	}
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					tag = CHE
+					NOT = { has_war_with = SAK }
+					OR = {
+						has_country_flag = CHE_GelayevInGeorgia
+						has_country_flag = CHE_georgia_operation_pending
+						has_country_flag = CHE_georgia_resistance_snapshot
+						has_country_flag = CHE_georgia_peace_offer_pending
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_country_flag = CHE_georgia_operation_resolved
+							has_country_flag = CHE_georgia_operation_pending
+							NOT = { country_exists = SAK }
+						}
+					}
+					clr_country_flag = CHE_GelayevInGeorgia
+					clr_country_flag = CHE_georgia_operation_pending
+					clr_country_flag = CHE_georgia_resistance_snapshot
+					clr_country_flag = CHE_georgia_peace_offer_pending
+				}
+			}
+		}
+	}
 }

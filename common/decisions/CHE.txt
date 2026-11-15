@@ -1809,3 +1809,254 @@ CHE_ingushetian_uprising = {
 }
 
 
+
+CHE_panci_crisis_decision = {
+	CHE_georgia_support_protests = {
+			icon = generic_political_address
+			cost = 35
+			days_re_enable = 90
+			visible = { tag = CHE country_exists = SAK }
+			available = {
+				NOT = { has_war_with = SAK }
+				SAK = { NOT = { has_idea = SAK_chechen_agitation } }
+			}
+			complete_effect = {
+				SAK = { add_timed_idea = { idea = SAK_chechen_agitation days = 90 } }
+			}
+			ai_will_do = { factor = 5 }
+		}
+
+	CHE_georgia_political_pressure = {
+			icon = generic_political_address
+			cost = 50
+			days_re_enable = 90
+			visible = { tag = CHE country_exists = SAK }
+			available = {
+				NOT = { has_war_with = SAK }
+				SAK = { NOT = { has_idea = SAK_chechen_political_pressure } }
+			}
+			complete_effect = {
+				SAK = { add_timed_idea = { idea = SAK_chechen_political_pressure days = 90 } }
+			}
+			ai_will_do = { factor = 3 }
+		}
+
+	CHE_georgia_send_weapons = {
+			icon = generic_political_address
+			cost = 40
+			days_re_enable = 60
+			targets = { ABK OST }
+			target_trigger = { CHE_georgia_support_target = yes }
+			visible = { tag = CHE }
+			available = {
+				CHE_georgia_support_target = yes
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_200_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 200 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_200_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 200 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_support_equipment_1_30_tt check_variable = { var = num_equipment@support_equipment_1 value = 30 compare = greater_than_or_equals } }
+
+			}
+			complete_effect = {
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -200 }
+				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -200 }
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = -30 }
+
+				FROM = {
+					add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 200 }
+					add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 200 }
+					add_equipment_to_stockpile = { type = support_equipment_1 amount = 30 }
+
+				}
+			}
+			ai_will_do = { factor = 5 }
+		}
+
+	CHE_georgia_send_volunteers = {
+			icon = generic_political_address
+			cost = 50
+			days_re_enable = 60
+			targets = { ABK OST }
+			target_trigger = { CHE_georgia_support_target = yes }
+			visible = { tag = CHE }
+			available = {
+				CHE_georgia_support_target = yes
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_200_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 200 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_200_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 200 compare = greater_than_or_equals } }
+				NOT = { has_manpower < 200 }
+			}
+			complete_effect = {
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -200 }
+				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -200 }
+				add_manpower = -200
+				FROM = {
+					add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 200 }
+					add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 200 }
+					add_manpower = 200
+				}
+			}
+			ai_will_do = { factor = 5 }
+		}
+
+	CHE_georgia_send_instructors = {
+			icon = generic_political_address
+			cost = 35
+			days_re_enable = 60
+			targets = { ABK OST }
+			target_trigger = { CHE_georgia_support_target = yes }
+			visible = { tag = CHE }
+			available = {
+				CHE_georgia_support_target = yes
+
+				NOT = { has_army_experience < 5 }
+			}
+			complete_effect = {
+
+				army_experience = -5
+				FROM = {
+
+					army_experience = 10
+				}
+			}
+			ai_will_do = { factor = 5 }
+		}
+
+	CHE_georgia_activate_cells = {
+			icon = generic_political_address
+			cost = 0
+			fire_only_once = yes
+			visible = {
+				tag = CHE
+				has_completed_focus = CHE_use_chechen_cells_in_georgia
+				SAK = { NOT = { has_country_flag = CHE_georgia_pankisi_incident } }
+			}
+			available = {
+				CHE_georgia_cells_can_activate = yes
+			}
+			complete_effect = {
+				SAK = { country_event = { id = Georgia.56 hours = 1 } }
+			}
+			ai_will_do = { factor = 10 }
+		}
+
+	CHE_georgia_expand_underground = {
+			icon = generic_political_address
+			cost = 35
+			days_re_enable = 30
+			visible = { tag = CHE has_completed_focus = CHE_use_chechen_cells_in_georgia }
+			available = {
+				NOT = { has_war_with = SAK }
+				CHE_georgia_pair_underground_active = yes
+				OR = { 34 = { resistance < 95 } 120 = { resistance < 95 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_50_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 50 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_50_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 50 compare = greater_than_or_equals } }
+			}
+			complete_effect = {
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -50 }
+				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -50 }
+				34 = {
+					add_resistance = 10
+					add_compliance = -3
+					add_resistance_target = { amount = 10 occupier = SAK occupied = CHE days = 60 }
+				}
+				120 = {
+					add_resistance = 10
+					add_compliance = -3
+					add_resistance_target = { amount = 10 occupier = SAK occupied = CHE days = 60 }
+				}
+			}
+			ai_will_do = { factor = 8 }
+		}
+
+	CHE_georgia_send_gelayev = {
+			icon = generic_political_address
+			cost = 50
+			fire_only_once = yes
+			visible = { tag = CHE has_completed_focus = CHE_use_chechen_cells_in_georgia }
+			available = {
+				NOT = { has_war_with = SAK }
+				NOT = { has_country_flag = CHE_georgia_operation_resolved }
+				NOT = { has_country_flag = CHE_GelayevInGeorgia }
+				has_character = CHE_ruslan_gelayev
+				NOT = { has_country_flag = RuslavGelayevKilled }
+				NOT = { has_manpower < 300 }
+				CHE_georgia_pair_underground_active = yes
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_300_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 300 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_300_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 300 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_bulletproof_vests_equipment_0_300_tt check_variable = { var = num_equipment@bulletproof_vests_equipment_0 value = 300 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_support_equipment_1_30_tt check_variable = { var = num_equipment@support_equipment_1 value = 30 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_grenade_launcher_equipment_0_30_tt check_variable = { var = num_equipment@grenade_launcher_equipment_0 value = 30 compare = greater_than_or_equals } }
+			}
+			complete_effect = {
+				add_manpower = -300
+				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -300 }
+				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -300 }
+				add_equipment_to_stockpile = { type = bulletproof_vests_equipment_0 amount = -300 }
+				add_equipment_to_stockpile = { type = support_equipment_1 amount = -30 }
+				add_equipment_to_stockpile = { type = grenade_launcher_equipment_0 amount = -30 }
+				set_country_flag = CHE_GelayevInGeorgia
+				34 = {
+					add_resistance = 15
+					add_compliance = -5
+					add_resistance_target = { amount = 10 occupier = SAK occupied = CHE days = 90 }
+				}
+				120 = {
+					add_resistance = 15
+					add_compliance = -5
+					add_resistance_target = { amount = 10 occupier = SAK occupied = CHE days = 90 }
+				}
+			}
+			ai_will_do = { factor = 8 }
+		}
+
+	CHE_georgia_launch_operation = {
+			icon = generic_political_address
+			cost = 75
+			fire_only_once = yes
+			visible = { tag = CHE has_completed_focus = CHE_capture_georgia }
+			available = {
+				country_exists = SAK
+				has_capitulated = no
+				is_subject = no
+				SAK = { has_capitulated = no is_subject = no }
+				NOT = { has_war_with = SAK }
+				NOT = { is_in_faction_with = SAK }
+				NOT = { has_country_flag = CHE_georgia_operation_resolved }
+				OR = { is_ai = no has_war = no }
+			}
+			complete_effect = {
+				set_variable = { CHE_georgia_resistance_at_war = 0 }
+				if = {
+					limit = { 34 = { CHE_georgia_unrest_state = yes } }
+					add_to_variable = { CHE_georgia_resistance_at_war = 34.resistance }
+				}
+				if = {
+					limit = { 120 = { CHE_georgia_unrest_state = yes } }
+					add_to_variable = { CHE_georgia_resistance_at_war = 120.resistance }
+				}
+				divide_variable = { CHE_georgia_resistance_at_war = 2 }
+				set_country_flag = CHE_georgia_resistance_snapshot
+				declare_war_on = { target = SAK type = annex_everything }
+			}
+			ai_will_do = {
+				factor = 5
+				modifier = { factor = 0 has_war = yes }
+			}
+		}
+
+	CHE_georgia_offer_peace = {
+			icon = generic_political_address
+			cost = 50
+			days_re_enable = 60
+			visible = { tag = CHE has_completed_focus = CHE_capture_georgia has_war_with = SAK }
+			available = {
+				NOT = { has_country_flag = CHE_georgia_peace_offer_pending }
+				has_capitulated = no
+				SAK = { exists = yes has_capitulated = no }
+				CHE_georgia_pair_can_be_ceded = yes
+			}
+			complete_effect = {
+				set_country_flag = { flag = CHE_georgia_peace_offer_pending days = 30 }
+				SAK = { country_event = { id = Georgia.58 days = 1 } }
+			}
+			ai_will_do = { factor = 8 }
+		}
+}
