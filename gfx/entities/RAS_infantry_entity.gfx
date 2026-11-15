@@ -1,7 +1,7 @@
 objectTypes = {
 
 	pdxmesh = {
-		name = "RAS_infantry_mesh"
+		name = "RAS_infantry123_mesh"
 		file = "gfx/models/DNR_soldier_42.mesh"
 		scale = 1.0
 
