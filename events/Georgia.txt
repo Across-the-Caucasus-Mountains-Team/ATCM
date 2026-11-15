@@ -1207,7 +1207,10 @@ country_event = {
 	desc = Georgia.58.d
 	picture = GFX_Report_event_Negotations_in_ingushetia
 	is_triggered_only = yes
-	trigger = { CHE_georgia_peace_offer_valid = yes }
+	trigger = {
+		tag = SAK
+		CHE = { exists = yes has_country_flag = CHE_georgia_peace_offer_pending }
+	}
 	option = {
 		name = Georgia.58.a
 		trigger = { CHE_georgia_peace_offer_valid = yes }
@@ -1221,10 +1224,13 @@ country_event = {
 		if = {
 			limit = { CHE_georgia_peace_offer_valid = yes }
 			CHE = {
+				clr_country_flag = CHE_georgia_peace_offer_pending
+				clr_country_flag = CHE_georgia_peace_offer_dispatched
 				white_peace = SAK
 				transfer_state = 34
 				transfer_state = 120
-				clr_country_flag = CHE_georgia_peace_offer_pending
+				clr_global_flag = CHE_georgia_war_news_active
+				news_event = { id = news.35 hours = 1 }
 				country_event = { id = chechnya.84 hours = 1 }
 			}
 		}
@@ -1233,15 +1239,26 @@ country_event = {
 		name = Georgia.58.b
 		trigger = { CHE_georgia_peace_offer_valid = yes }
 		ai_chance = { factor = 90 }
-		CHE = {
-			clr_country_flag = CHE_georgia_peace_offer_pending
-			country_event = { id = chechnya.85 hours = 1 }
+		if = {
+			limit = { CHE_georgia_peace_offer_valid = yes }
+			CHE = {
+				clr_country_flag = CHE_georgia_peace_offer_pending
+				clr_country_flag = CHE_georgia_peace_offer_dispatched
+				country_event = { id = chechnya.85 hours = 1 }
+			}
 		}
 	}
 	option = {
 		name = Georgia.58.c
 		trigger = { NOT = { CHE_georgia_peace_offer_valid = yes } }
 		ai_chance = { factor = 100 }
-		CHE = { clr_country_flag = CHE_georgia_peace_offer_pending }
+		if = {
+			limit = { CHE = { has_country_flag = CHE_georgia_peace_offer_pending } }
+			CHE = {
+				clr_country_flag = CHE_georgia_peace_offer_pending
+				clr_country_flag = CHE_georgia_peace_offer_dispatched
+				country_event = { id = chechnya.86 hours = 1 }
+			}
+		}
 	}
 }

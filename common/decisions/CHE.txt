@@ -2054,7 +2054,8 @@ CHE_panci_crisis_decision = {
 				CHE_georgia_pair_can_be_ceded = yes
 			}
 			complete_effect = {
-				set_country_flag = { flag = CHE_georgia_peace_offer_pending days = 30 }
+				set_country_flag = CHE_georgia_peace_offer_pending
+				set_country_flag = CHE_georgia_peace_offer_dispatched
 				SAK = { country_event = { id = Georgia.58 days = 1 } }
 			}
 			ai_will_do = { factor = 8 }

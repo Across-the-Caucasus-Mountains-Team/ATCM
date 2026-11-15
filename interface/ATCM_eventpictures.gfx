@@ -11,6 +11,15 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_news_event_che_sak_panci_war"
+		texturefile = "gfx/event_pictures/news_event_che_sak_panci_war.png"
+	}
+	spriteType = {
+		name = "GFX_news_event_che_sak_panci_peac"
+		texturefile = "gfx/event_pictures/news_event_che_sak_panci_peac.png"
+	}
+
+	spriteType = {
 		name = "GFX_Report_event_SAK_clashes_in_tbilisi"
 		texturefile = "gfx/event_pictures/Report_event_SAK_clashes_in_tbilisi.png"
 	}
