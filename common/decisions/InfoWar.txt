@@ -25,4 +25,33 @@ information_war_decision = {
 			factor = 10
 		}
 	}
+
+	CHE_anti_russian_propaganda = {
+
+		icon = GFX_decision_generic_soldie
+
+		cost = 75
+		fire_only_once = yes
+		
+		available = {		
+			tag = CHE
+		}
+		
+		visible = {
+			tag = CHE
+			has_completed_focus = CHE_antirussian_propaganda
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = CHE_moderate_opposition_value
+				value = 5
+				tooltip = sub_5_from_power_of_moderate_opposition_chechnya_tt
+			}
+		}
+
+		ai_will_do = {
+			factor = 40		
+		}
+	}
 }

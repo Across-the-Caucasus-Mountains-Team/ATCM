@@ -706,7 +706,7 @@ focus_tree = {
 			custom_effect_tooltip = 14_CHE_tt
 			add_to_variable = { CHE_IS_war_support_factor = 0.1 }
 			hidden_effect = {
-			load_oob = CHE_guard_of_allah
+			    load_oob = CHE_guard_of_allah
 			}
 			add_popularity = {ideology = islam popularity = 0.01}
 		}
@@ -908,6 +908,17 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = chechnya.66
+			hidden_effect = {
+				if = {
+					limit = {
+						has_country_flag = Sufi_clergy_union_with_basayev
+					}
+                    country_event = {
+						id = chechnya.86
+						days = 25
+					}
+				}
+			}
 		}
 	}
 
@@ -943,6 +954,18 @@ focus_tree = {
 
 		completion_reward = {
 			CHE_islamist_russian_deportation_effect = yes
+			add_to_variable = {
+				var = CHE_the_radicalism_of_islamists_value
+				value = 5
+				tooltip = add_CHE_the_radicalism_of_islamists
+			}
+			hidden_effect = {
+				clamp_variable = {
+					var = CHE_the_radicalism_of_islamists_value
+					min = 0
+					max = 100
+				}				
+			}
 		}
 	}
 
@@ -978,6 +1001,19 @@ focus_tree = {
 			add_popularity = {ideology = islam popularity = 0.15}
 			add_war_support = 0.15
 			add_political_power = 25
+			add_to_variable = {
+				var = CHE_the_radicalism_of_islamists_value
+				value = 15
+				tooltip = add_CHE_the_radicalism_of_islamists
+			}
+			add_stability = -0.05
+			hidden_effect = {
+				clamp_variable = {
+					var = CHE_the_radicalism_of_islamists_value
+					min = 0
+					max = 100
+				}				
+			}
 		}
 	}
 
@@ -1010,17 +1046,34 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
+			country_event = chechnya.86
 			add_popularity = {ideology = islam popularity = 0.15}
 			add_war_support = 0.15
 			add_political_power = 25
+			if = {
+				limit = {
+					has_country_flag = Sufi_clergy_union_with_basayev
+				}
+				unlock_decision_tooltip = CHE_replace_muftii
+			}
 			subtract_from_variable = {
 				var = CHE_moderate_opposition_value
 				value = 5
 				tooltip = sub_5_from_power_of_moderate_opposition_chechnya_tt
 			}
+			add_to_variable = {
+				var = CHE_the_radicalism_of_islamists_value
+				value = 5
+				tooltip = add_CHE_the_radicalism_of_islamists
+			}
 			hidden_effect = {
 				clamp_variable = {
 					var = CHE_moderate_opposition_value
+					min = 0
+					max = 100
+				}
+				clamp_variable = {
+					var = CHE_the_radicalism_of_islamists_value
 					min = 0
 					max = 100
 				}
@@ -1044,7 +1097,12 @@ focus_tree = {
 		}
 
 		available = {
-			
+            check_variable = {
+                var = CHE_moderate_opposition_value
+                value = 30
+                compare = less_than_or_equals
+				tooltip = CHE_moderate_opposition_value_30
+            }			
 		}
 
 		bypass = {
@@ -1093,6 +1151,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {ideology = islam popularity = 0.05}
+
 		}
 	}
 
@@ -1234,8 +1293,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = -4
 		y = 4
-		prerequisite = { focus = CHE_capture_georgia }
-		prerequisite = { focus = CHE_recapture_armenia }
+		prerequisite = { focus = CHE_recapture_armenia  focus = CHE_capture_georgia }
 		prerequisite = { focus = CHE_spread_islam_on_north_caucasus }
 		relative_position_id = CHE_antirussian_propaganda
 
@@ -1246,7 +1304,12 @@ focus_tree = {
 		}
 
 		available = {
-			
+            check_variable = {
+                var = CHE_the_radicalism_of_islamists_value
+                value = 90
+                compare = greater_than_or_equals
+				tooltip = CHE_the_radicalism_of_islamists_value_90
+            }
 		}
 
 		bypass = {
@@ -1336,6 +1399,18 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {ideology = islam popularity = 0.05}
+			add_to_variable = {
+				var = CHE_the_radicalism_of_islamists_value
+				value = 5
+				tooltip = add_CHE_the_radicalism_of_islamists
+			}
+			hidden_effect = {
+				clamp_variable = {
+					var = CHE_the_radicalism_of_islamists_value
+					min = 0
+					max = 100
+				}				
+			}
 		}
 	}
 

@@ -1802,10 +1802,38 @@ CHE_ingushetian_uprising = {
 		ai_will_do = {
 			factor = 40		
 		}
+	}	
+
+
+	CHE_replace_muftii = {
+
+		icon = GFX_decision_generic_soldie
+
+		cost = 75
+		fire_only_once = yes
+		
+		available = {		
+			tag = CHE
+		}
+		
+		visible = {
+			tag = CHE
+			has_completed_focus = CHE_fight_with_moderate
+			has_country_flag = Sufi_clergy_union_with_basayev
+		}
+
+		complete_effect = {
+			subtract_from_variable = {
+				var = CHE_moderate_opposition_value
+				value = 5
+				tooltip = sub_5_from_power_of_moderate_opposition_chechnya_tt
+			}
+		}
+
+		ai_will_do = {
+			factor = 40		
+		}
 	}
-
-
-
 }
 
 

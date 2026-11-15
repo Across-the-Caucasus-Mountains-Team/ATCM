@@ -2032,6 +2032,7 @@ country_event = {
 				}
 			}
 		}
+		set_country_flag = Sufi_clergy_union_with_basayev
 		custom_effect_tooltip = 13_CHE_tt
 	}
 
@@ -2392,4 +2393,46 @@ country_event = {
 	is_triggered_only = yes
 	trigger = { tag = CHE }
 	option = { name = chechnya.85.a }
+}
+
+
+# Судьба парламента
+country_event = {
+	id = chechnya.86
+	title = chechnya.86.t
+	desc = chechnya.86.d
+	picture = GFX_Report_event_RAS_failed_blitz
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Создать шуру
+	option = {
+		name = chechnya.86.a
+		
+	}
+	#Оставить парламент
+	option = {
+		name = chechnya.86.b
+		
+	}
+
+}
+
+# Муфтий против басаева
+country_event = {
+	id = chechnya.87
+	title = chechnya.87.t
+	desc = chechnya.87.d
+	picture = GFX_Report_event_CHE_sufiskoe_duhovenstvo_question
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	#Ужас
+	option = {
+		name = chechnya.87.a
+		
+	}
+
 }

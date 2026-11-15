@@ -19,6 +19,7 @@ information_war_decision = {
 		OR = {
 			has_global_flag = FirstChechenWar
 			has_global_flag = SecondChechenWar
+			has_completed_focus = CHE_antirussian_propaganda
 		}
 	}
 	visible_when_empty = yes
