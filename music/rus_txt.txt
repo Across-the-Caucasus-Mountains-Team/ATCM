@@ -22,6 +22,7 @@ music = { song = "sindrom" chance = { modifier = { factor = 1.0 } } }
 music = { song = "VKraiuMagnoli" chance = { modifier = { factor = 1.0 } } }
 music = { song = "RodinaSmert" chance = { modifier = { factor = 1.0 } } }
 music = { song = "VseIdetPoPlanu" chance = { modifier = { factor = 1.0 } } }
+music = { song = "Soldiersarenotborn" chance = { modifier = { factor = 1.0 } } }
 music = { song = "SummerWillEnd" chance = { modifier = { factor = 1.0 } } }
 music = { song = "GruppaKrovi" chance = { modifier = { factor = 1.0 } } }
 music = { song = "SpokoynayaNoch" chance = { modifier = { factor = 1.0 } } }
@@ -33,7 +34,8 @@ music = { song = "DDTUmiraliPacani" chance = { modifier = { factor = 1.0 } } }
 music = { song = "MiVihodimNaRasvete" chance = { modifier = { factor = 1.0 } } }
 music = { song = "ChechnyaVOgne" chance = { modifier = { factor = 1.0 } } }
 music = { song = "GoodbyeForever" chance = { modifier = { factor = 1.0 } } }
-music = { song = "Soldiersarenotborn" chance = { modifier = { factor = 1.0 } } }
+music = { song = "TolkoNeDomoy" chance = { modifier = { factor = 1.0 } } }
+
 
 
 

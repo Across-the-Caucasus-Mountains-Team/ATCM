@@ -621,9 +621,57 @@ spriteTypes = {
 		name = "GFX_Report_event_CHE_Communist_question"
 		texturefile = "gfx/event_pictures/Report_event_CHE_Communist_question.png"
 	}
-spriteType = {
+    spriteType = {
 		name = "GFX_Report_event_CHE_victory_of_dudayev"
 		texturefile = "gfx/event_pictures/Report_event_CHE_victory_of_dudayev.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_soldiers"
+		texturefile = "gfx/event_pictures/Report_event_soldiers.png"
+	}	
+    spriteType = {
+		name = "GFX_Report_event_soldier"
+		texturefile = "gfx/event_pictures/Report_event_soldier.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_politicians"
+		texturefile = "gfx/event_pictures/Report_event_politicians.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_Gamakshurdia_1"
+		texturefile = "gfx/event_pictures/Report_event_Gamakshurdia_1.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_eltsin_and_maskhadov_2"
+		texturefile = "gfx/event_pictures/Report_event_eltsin_and_maskhadov_2.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_eltsin_and_maskhadov"
+		texturefile = "gfx/event_pictures/Report_event_eltsin_and_maskhadov.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_destryoed_aviation"
+		texturefile = "gfx/event_pictures/Report_event_destryoed_aviation.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_chechen_aviation"
+		texturefile = "gfx/event_pictures/Report_event_chechen_aviation.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_chechen_and_russian_soldier"
+		texturefile = "gfx/event_pictures/Report_event_chechen_and_russian_soldier.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_btr"
+		texturefile = "gfx/event_pictures/Report_event_btr.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_che_1"
+		texturefile = "gfx/event_pictures/Report_event_che_1.png"
+	}
+    spriteType = {
+		name = "GFX_Report_event_che_2"
+		texturefile = "gfx/event_pictures/Report_event_che_2.png"
 	}
 
 	spriteType = {

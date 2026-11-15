@@ -32,3 +32,4 @@ music = { name = "MiVihodimNaRasvete" file = "rus/MiVihodimNaRasvete.ogg" volume
 music = { name = "ChechnyaVOgne" file = "rus/ChechnyaVOgne.ogg" volume = 0.65 }
 music = { name = "GoodbyeForever" file = "rus/GoodbyeForever.ogg" volume = 0.65 }
 music = { name = "Soldiersarenotborn" file = "rus/Soldiersarenotborn.ogg" volume = 0.65 }
+music = { name = "TolkoNeDomoy" file = "rus/TolkoNeDomoy.ogg" volume = 0.65 }
