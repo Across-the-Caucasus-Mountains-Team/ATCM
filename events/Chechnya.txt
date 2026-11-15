@@ -2246,113 +2246,57 @@ country_event = {
 		set_country_flag = CHE_georgia_operation_resolved
 		clr_country_flag = CHE_georgia_operation_pending
 		if = {
-			limit = { NOT = { has_template = "Повстанцы Панкиси" } }
-			division_template = {
-				name = "Повстанцы Панкиси"
-				regiments = {
-					irregular_infantry = { x = 0 y = 0 }
-					irregular_infantry = { x = 0 y = 1 }
-					irregular_infantry = { x = 1 y = 0 }
+			limit = { check_variable = { var = CHE_georgia_resistance_at_war value = 80 compare = greater_than } }
+			if = {
+				limit = { CHE_georgia_pair_controlled_by_SAK = yes }
+				set_state_controller = 34
+				set_state_controller = 120
+			}
+			if = {
+				limit = {
+					34 = { OR = { is_owned_by = SAK is_owned_by = CHE } }
+					120 = { OR = { is_owned_by = SAK is_owned_by = CHE } }
+					OR = { SAK = { controls_province = 2151 } CHE = { controls_province = 2151 } }
+					OR = { SAK = { controls_province = 2550 } CHE = { controls_province = 2550 } }
+					OR = { SAK = { controls_province = 5999 } CHE = { controls_province = 5999 } }
+					OR = { SAK = { controls_province = 122 } CHE = { controls_province = 122 } }
 				}
-				is_locked = yes
+				set_province_controller = 2151
+				set_province_controller = 2550
+				set_province_controller = 5999
+				set_province_controller = 122
+				load_oob = CHE_Uprising_in_panci_80
 			}
 		}
-		if = {
-			limit = { NOT = { has_template = "Горный отряд Гелаева" } }
-			division_template = {
-				name = "Горный отряд Гелаева"
-				regiments = {
-					mountaineers = { x = 0 y = 0 }
-					mountaineers = { x = 0 y = 1 }
-					mountaineers = { x = 1 y = 0 }
-				}
-				is_locked = yes
-			}
-		}
-		if = {
-			limit = {
-				check_variable = { var = CHE_georgia_resistance_at_war value = 80 compare = greater_than }
-				CHE_georgia_pair_controlled_by_SAK = yes
-			}
-			set_state_controller = 34
-			set_state_controller = 120
-		}
-		if = {
+		else_if = {
 			limit = { check_variable = { var = CHE_georgia_resistance_at_war value = 60 compare = greater_than } }
 			if = {
 				limit = {
-					120 = { is_owned_by = SAK }
+					34 = { OR = { is_owned_by = SAK is_owned_by = CHE } }
+					120 = { OR = { is_owned_by = SAK is_owned_by = CHE } }
 					OR = { SAK = { controls_province = 2151 } CHE = { controls_province = 2151 } }
-				}
-				set_province_controller = 2151
-				create_unit = {
-					division = "name = \"Панкисский отряд\" division_template = \"Повстанцы Панкиси\" location = 2151 start_experience_factor = 0.25 start_equipment_factor = 1 start_manpower_factor = 1"
-					owner = CHE
-					prioritize_location = 2151
-				}
-			}
-			if = {
-				limit = {
-					120 = { is_owned_by = SAK }
 					OR = { SAK = { controls_province = 2550 } CHE = { controls_province = 2550 } }
-				}
-				set_province_controller = 2550
-				create_unit = {
-					division = "name = \"Кистинский отряд\" division_template = \"Повстанцы Панкиси\" location = 2550 start_experience_factor = 0.25 start_equipment_factor = 1 start_manpower_factor = 1"
-					owner = CHE
-					prioritize_location = 2550
-				}
-			}
-			if = {
-				limit = {
-					120 = { is_owned_by = SAK }
 					OR = { SAK = { controls_province = 5999 } CHE = { controls_province = 5999 } }
-				}
-				set_province_controller = 5999
-				create_unit = {
-					division = "name = \"Горный отряд Панкиси\" division_template = \"Повстанцы Панкиси\" location = 5999 start_experience_factor = 0.25 start_equipment_factor = 1 start_manpower_factor = 1"
-					owner = CHE
-					prioritize_location = 5999
-				}
-			}
-			if = {
-				limit = {
-					34 = { is_owned_by = SAK }
 					OR = { SAK = { controls_province = 122 } CHE = { controls_province = 122 } }
 				}
+				set_province_controller = 2151
+				set_province_controller = 2550
+				set_province_controller = 5999
 				set_province_controller = 122
-				create_unit = {
-					division = "name = \"Тушетинский отряд\" division_template = \"Повстанцы Панкиси\" location = 122 start_experience_factor = 0.25 start_equipment_factor = 1 start_manpower_factor = 1"
-					owner = CHE
-					prioritize_location = 122
-				}
+				load_oob = CHE_Uprising_in_panci_60
 			}
 		}
 		else_if = {
 			limit = { check_variable = { var = CHE_georgia_resistance_at_war value = 40 compare = greater_than } }
 			if = {
 				limit = {
-					120 = { is_owned_by = SAK }
+					120 = { OR = { is_owned_by = SAK is_owned_by = CHE } }
 					OR = { SAK = { controls_province = 2151 } CHE = { controls_province = 2151 } }
-				}
-				set_province_controller = 2151
-				create_unit = {
-					division = "name = \"Панкисский отряд\" division_template = \"Повстанцы Панкиси\" location = 2151 start_experience_factor = 0.25 start_equipment_factor = 1 start_manpower_factor = 1"
-					owner = CHE
-					prioritize_location = 2151
-				}
-			}
-			if = {
-				limit = {
-					120 = { is_owned_by = SAK }
 					OR = { SAK = { controls_province = 2550 } CHE = { controls_province = 2550 } }
 				}
+				set_province_controller = 2151
 				set_province_controller = 2550
-				create_unit = {
-					division = "name = \"Кистинский отряд\" division_template = \"Повстанцы Панкиси\" location = 2550 start_experience_factor = 0.25 start_equipment_factor = 1 start_manpower_factor = 1"
-					owner = CHE
-					prioritize_location = 2550
-				}
+				load_oob = CHE_Uprising_in_panci_40
 			}
 		}
 		if = {
@@ -2364,11 +2308,7 @@ country_event = {
 				OR = { SAK = { controls_province = 1429 } CHE = { controls_province = 1429 } }
 			}
 			set_province_controller = 1429
-			create_unit = {
-				division = "name = \"Отряд Гелаева\" division_template = \"Горный отряд Гелаева\" location = 1429 start_experience_factor = 0.5 start_equipment_factor = 1 start_manpower_factor = 1"
-				owner = CHE
-				prioritize_location = 1429
-			}
+			load_oob = CHE_galaev_otryad_in_panci
 		}
 		clr_country_flag = CHE_GelayevInGeorgia
 		SAK = { country_event = { id = Georgia.57 hours = 1 } }
@@ -2396,11 +2336,25 @@ country_event = {
 }
 
 
-# Судьба парламента
+
+
 country_event = {
 	id = chechnya.86
 	title = chechnya.86.t
 	desc = chechnya.86.d
+
+	picture = GFX_Report_event_Negotations_in_ingushetia
+	is_triggered_only = yes
+	trigger = { tag = CHE }
+	option = { name = chechnya.86.a }
+}
+
+# Судьба парламента
+country_event = {
+	id = chechnya.87
+	title = chechnya.87.t
+	desc = chechnya.87.d
+
 	picture = GFX_Report_event_RAS_failed_blitz
 
 	is_triggered_only = yes
@@ -2408,12 +2362,12 @@ country_event = {
 
 	#Создать шуру
 	option = {
-		name = chechnya.86.a
+		name = chechnya.87.a
 		
 	}
 	#Оставить парламент
 	option = {
-		name = chechnya.86.b
+		name = chechnya.87.b
 		
 	}
 
@@ -2421,9 +2375,9 @@ country_event = {
 
 # Муфтий против басаева
 country_event = {
-	id = chechnya.87
-	title = chechnya.87.t
-	desc = chechnya.87.d
+	id = chechnya.88
+	title = chechnya.88.t
+	desc = chechnya.88.d
 	picture = GFX_Report_event_CHE_sufiskoe_duhovenstvo_question
 
 	is_triggered_only = yes
@@ -2431,7 +2385,7 @@ country_event = {
 
 	#Ужас
 	option = {
-		name = chechnya.87.a
+		name = chechnya.88.a
 		
 	}
 

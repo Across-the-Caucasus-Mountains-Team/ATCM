@@ -328,7 +328,7 @@ SAK_panci_crisis_decision = {
 
 	SAK_georgia_restore_security = {
 			icon = generic_political_address
-			cost = 35
+			cost = 25
 			days_re_enable = 30
 			visible = { tag = SAK }
 			available = {
@@ -336,11 +336,11 @@ SAK_panci_crisis_decision = {
 			}
 			complete_effect = {
 				34 = {
-					add_resistance = -8
+					add_resistance = -10
 					add_compliance = 3
 				}
 				120 = {
-					add_resistance = -8
+					add_resistance = -10
 					add_compliance = 3
 				}
 			}
@@ -349,7 +349,7 @@ SAK_panci_crisis_decision = {
 
 	SAK_georgia_restore_administration = {
 			icon = generic_political_address
-			cost = 50
+			cost = 25
 			days_re_enable = 60
 			visible = { tag = SAK }
 			available = {

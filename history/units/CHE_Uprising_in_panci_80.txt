@@ -1,0 +1,55 @@
+division_template = {
+	name = "Povstanzi"
+	division_names_group = CHE_inf_02
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+        irregular_infantry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2151
+		division_template = "Povstanzi"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2550
+		division_template = "Povstanzi"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5999
+		division_template = "Povstanzi"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 122
+		division_template = "Povstanzi"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+
+}

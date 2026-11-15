@@ -18,6 +18,17 @@ on_actions = {
 						AND = { tag = CHE FROM = { tag = SAK } }
 						AND = { tag = SAK FROM = { tag = CHE } }
 					}
+					NOT = { has_global_flag = CHE_georgia_war_news_active }
+				}
+				set_global_flag = CHE_georgia_war_news_active
+				news_event = { id = news.34 hours = 1 }
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = { tag = CHE FROM = { tag = SAK } }
+						AND = { tag = SAK FROM = { tag = CHE } }
+					}
 					CHE = {
 						has_completed_focus = CHE_light_a_fire_in_georgia
 						NOT = { has_country_flag = CHE_georgia_operation_resolved }
@@ -55,7 +66,6 @@ on_actions = {
 						has_country_flag = CHE_GelayevInGeorgia
 						has_country_flag = CHE_georgia_operation_pending
 						has_country_flag = CHE_georgia_resistance_snapshot
-						has_country_flag = CHE_georgia_peace_offer_pending
 					}
 				}
 				if = {
@@ -69,7 +79,50 @@ on_actions = {
 					clr_country_flag = CHE_GelayevInGeorgia
 					clr_country_flag = CHE_georgia_operation_pending
 					clr_country_flag = CHE_georgia_resistance_snapshot
+				}
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = CHE_georgia_war_news_active
+					NOT = { CHE = { has_war_with = SAK } }
+				}
+				clr_global_flag = CHE_georgia_war_news_active
+				news_event = { id = news.35 hours = 1 }
+			}
+			if = {
+				limit = {
+					OR = { tag = CHE tag = SAK }
+					CHE = { has_war_with = SAK }
+					NOT = { has_global_flag = CHE_georgia_war_news_active }
+				}
+				set_global_flag = CHE_georgia_war_news_active
+				news_event = { id = news.34 hours = 1 }
+			}
+			if = {
+				limit = { tag = CHE has_country_flag = CHE_georgia_peace_offer_pending }
+				if = {
+					limit = {
+						OR = {
+							NOT = { has_war_with = SAK }
+							NOT = { country_exists = SAK }
+							has_country_flag = { flag = CHE_georgia_peace_offer_pending days > 29 }
+						}
+					}
 					clr_country_flag = CHE_georgia_peace_offer_pending
+					clr_country_flag = CHE_georgia_peace_offer_dispatched
+					country_event = { id = chechnya.86 hours = 1 }
+				}
+				else_if = {
+					limit = { NOT = { has_country_flag = CHE_georgia_peace_offer_dispatched } }
+					clr_country_flag = CHE_georgia_peace_offer_pending
+					set_country_flag = CHE_georgia_peace_offer_pending
+					set_country_flag = CHE_georgia_peace_offer_dispatched
+					SAK = { country_event = { id = Georgia.58 hours = 1 } }
 				}
 			}
 		}
