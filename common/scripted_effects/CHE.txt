@@ -82,14 +82,17 @@ CHE_start_azerbaijan_operation_effect = {
 			set_variable = { CHE_azerbaijan_army_share = CHE_azerbaijan_underground_at_war }
 			divide_variable = { CHE_azerbaijan_army_share = 250 }
 			AZR = {
-				transfer_units_fraction = {
-					target = CHE
-					size = 0
-					army_ratio = var:CHE.CHE_azerbaijan_army_share
-					navy_ratio = 0
-					air_ratio = 0
-					stockpile_ratio = 0
-					keep_unit_leaders_trigger = { always = yes }
+				if = {
+					limit = { has_army_size = { size > 0 } }
+					transfer_units_fraction = {
+						target = CHE
+						size = 0
+						army_ratio = var:CHE.CHE_azerbaijan_army_share
+						navy_ratio = 0
+						air_ratio = 0
+						stockpile_ratio = 0
+						keep_unit_leaders_trigger = { always = yes }
+					}
 				}
 			}
 			division_template = {
@@ -104,17 +107,6 @@ CHE_start_azerbaijan_operation_effect = {
 			divide_variable = { CHE_azerbaijan_underground_divisions = 10 }
 			round_variable = CHE_azerbaijan_underground_divisions
 			clamp_variable = { var = CHE_azerbaijan_underground_divisions min = 1 max = 10 }
-			capital_scope = {
-				create_unit = {
-					division = "name = \"Азербайджанские добровольцы\" division_template = \"CHE_azerbaijan_underground_division\" start_experience_factor = 0.2 start_equipment_factor = 0.5"
-					owner = CHE
-					count = var:CHE.CHE_azerbaijan_underground_divisions
-				}
-			}
-			if = {
-				limit = { has_completed_focus = CHE_send_basayev NOT = { has_country_flag = SmailBasayevKilled } has_character = CHE_shamil_basayev }
-				load_oob = CHE_basayev_in_azerbaijan
-			}
 
 			if = {
 				limit = {
@@ -158,6 +150,19 @@ CHE_start_azerbaijan_operation_effect = {
 				country_event = { id = chechnya.91 hours = 1 }
 				AZR = { country_event = { id = Azerbaijan.4 hours = 1 } }
 			}
+			if = {
+				limit = { 47 = { has_state_flag = CHE_azerbaijan_prewar_state is_core_of = AZR is_fully_controlled_by = CHE } }
+				47 = { CHE_spawn_azerbaijan_volunteers_effect = { PROVINCE = 113 } }
+			}
+			else_if = {
+				limit = { 44 = { has_state_flag = CHE_azerbaijan_prewar_state is_core_of = AZR is_fully_controlled_by = CHE } }
+				44 = { CHE_spawn_azerbaijan_volunteers_effect = { PROVINCE = 8811 } }
+			}
+			if = {
+				limit = { has_completed_focus = CHE_send_basayev has_character = CHE_shamil_basayev NOT = { has_country_flag = SmailBasayevKilled } }
+				set_country_flag = CHE_azerbaijan_basayev_deployment_pending
+			}
+			CHE_deploy_azerbaijan_basayev_effect = yes
 		}
 	}
 }
@@ -219,6 +224,7 @@ CHE_update_azerbaijan_campaign_effect = {
 		limit = { NOT = { has_country_flag = CHE_azerbaijan_campaign_finished } }
 		if = {
 			limit = { has_war_with = AZR }
+			CHE_deploy_azerbaijan_basayev_effect = yes
 			CHE_check_azerbaijan_retreat_effect = yes
 		}
 		else = {
@@ -232,4 +238,104 @@ CHE_update_azerbaijan_campaign_effect = {
 			else = { CHE_finish_failed_azerbaijan_campaign_effect = yes }
 		}
 	}
+}
+
+CHE_deploy_azerbaijan_basayev_effect = {
+	if = {
+		limit = { has_country_flag = CHE_azerbaijan_basayev_deployment_pending has_country_flag = SmailBasayevKilled }
+		clr_country_flag = CHE_azerbaijan_basayev_deployment_pending
+	}
+	if = {
+		limit = {
+			has_country_flag = CHE_azerbaijan_basayev_deployment_pending
+			has_completed_focus = CHE_send_basayev
+			has_character = CHE_shamil_basayev
+			NOT = { has_country_flag = SmailBasayevKilled }
+			controls_province = 384
+			controls_province = 894
+			controls_province = 1069
+			controls_province = 6394
+			controls_province = 8811
+			controls_province = 9292
+		}
+		clr_country_flag = CHE_azerbaijan_basayev_deployment_pending
+		load_oob = CHE_basayev_in_azerbaijan
+	}
+}
+
+CHE_spawn_azerbaijan_volunteers_effect = {
+	create_unit = {
+		division = "name = \"Азербайджанские добровольцы\" division_template = \"CHE_azerbaijan_underground_division\" start_experience_factor = 0.2 start_equipment_factor = 0.5"
+		owner = CHE
+		prioritize_location = $PROVINCE$
+		allow_spawning_on_enemy_provs = no
+		count = var:CHE.CHE_azerbaijan_underground_divisions
+	}
+}
+
+CHE_use_equipment_model_effect = {
+	if = {
+		limit = { check_variable = { var = CHE_stockpile_remaining value = 0 compare = greater_than } }
+		set_temp_variable = { CHE_stockpile_take = num_equipment@$TYPE$ }
+		clamp_temp_variable = { var = CHE_stockpile_take min = 0 max = var:CHE_stockpile_remaining }
+		if = {
+			limit = { check_variable = { var = CHE_stockpile_take value = 0 compare = greater_than } }
+			subtract_from_temp_variable = { CHE_stockpile_remaining = var:CHE_stockpile_take }
+			if = {
+				limit = { tag = $RECIPIENT$ }
+				multiply_temp_variable = { CHE_stockpile_take = -1 }
+				add_equipment_to_stockpile = { type = $TYPE$ amount = var:CHE_stockpile_take }
+			}
+			else = {
+				send_equipment = { type = $TYPE$ amount = var:CHE_stockpile_take target = $RECIPIENT$ old_prioritised = yes }
+			}
+		}
+	}
+}
+
+CHE_use_infantry_equipment_effect = {
+	set_temp_variable = { CHE_stockpile_remaining = $AMOUNT$ }
+	CHE_use_equipment_model_effect = { TYPE = infantry_equipment_0 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = infantry_equipment_1 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = infantry_equipment_2 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = infantry_equipment_3 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = infantry_equipment_4 RECIPIENT = $RECIPIENT$ }
+}
+
+CHE_use_uniform_equipment_effect = {
+	set_temp_variable = { CHE_stockpile_remaining = $AMOUNT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_0 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_1 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_2 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_3 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_4 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_5 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_6 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = uniform_equipment_7 RECIPIENT = $RECIPIENT$ }
+}
+
+CHE_use_bulletproof_vests_equipment_effect = {
+	set_temp_variable = { CHE_stockpile_remaining = $AMOUNT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_0 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_1 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_2 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_3 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_4 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_5 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_6 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = bulletproof_vests_equipment_7 RECIPIENT = $RECIPIENT$ }
+}
+
+CHE_use_support_equipment_effect = {
+	set_temp_variable = { CHE_stockpile_remaining = $AMOUNT$ }
+	CHE_use_equipment_model_effect = { TYPE = support_equipment_1 RECIPIENT = $RECIPIENT$ }
+}
+
+CHE_use_grenade_launcher_equipment_effect = {
+	set_temp_variable = { CHE_stockpile_remaining = $AMOUNT$ }
+	CHE_use_equipment_model_effect = { TYPE = grenade_launcher_equipment_0 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = grenade_launcher_equipment_1 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = grenade_launcher_equipment_2 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = grenade_launcher_equipment_3 RECIPIENT = $RECIPIENT$ }
+	CHE_use_equipment_model_effect = { TYPE = grenade_launcher_equipment_4 RECIPIENT = $RECIPIENT$ }
 }

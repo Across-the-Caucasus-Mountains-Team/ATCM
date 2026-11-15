@@ -1878,22 +1878,18 @@ CHE_panci_crisis_decision = {
 			visible = { tag = CHE }
 			available = {
 				CHE_georgia_support_target = yes
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_200_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 200 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_200_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 200 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_support_equipment_1_30_tt check_variable = { var = num_equipment@support_equipment_1 value = 30 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_200_tt has_equipment = { infantry_equipment > 199 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_200_tt has_equipment = { uniform_equipment > 199 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_support_equipment_1_30_tt has_equipment = { support_equipment > 29 } }
 
 			}
 			complete_effect = {
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -200 }
-				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -200 }
-				add_equipment_to_stockpile = { type = support_equipment_1 amount = -30 }
-
-				FROM = {
-					add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 200 }
-					add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 200 }
-					add_equipment_to_stockpile = { type = support_equipment_1 amount = 30 }
-
-				}
+				effect_tooltip = { send_equipment = { type = infantry_equipment amount = 200 target = FROM old_prioritised = yes } }
+				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
+				effect_tooltip = { send_equipment = { type = uniform_equipment amount = 200 target = FROM old_prioritised = yes } }
+				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
+				effect_tooltip = { send_equipment = { type = support_equipment amount = 30 target = FROM old_prioritised = yes } }
+				hidden_effect = { CHE_use_support_equipment_effect = { AMOUNT = 30 RECIPIENT = FROM } }
 			}
 			ai_will_do = { factor = 5 }
 		}
@@ -1907,17 +1903,17 @@ CHE_panci_crisis_decision = {
 			visible = { tag = CHE }
 			available = {
 				CHE_georgia_support_target = yes
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_200_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 200 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_200_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 200 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_200_tt has_equipment = { infantry_equipment > 199 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_200_tt has_equipment = { uniform_equipment > 199 } }
 				NOT = { has_manpower < 200 }
 			}
 			complete_effect = {
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -200 }
-				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -200 }
+				effect_tooltip = { send_equipment = { type = infantry_equipment amount = 200 target = FROM old_prioritised = yes } }
+				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
+				effect_tooltip = { send_equipment = { type = uniform_equipment amount = 200 target = FROM old_prioritised = yes } }
+				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
 				add_manpower = -200
 				FROM = {
-					add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 200 }
-					add_equipment_to_stockpile = { type = uniform_equipment_0 amount = 200 }
 					add_manpower = 200
 				}
 			}
@@ -1974,12 +1970,14 @@ CHE_panci_crisis_decision = {
 				NOT = { has_war_with = SAK }
 				CHE_georgia_pair_underground_active = yes
 				OR = { 34 = { resistance < 95 } 120 = { resistance < 95 } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_50_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 50 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_50_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 50 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_50_tt has_equipment = { infantry_equipment > 49 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_50_tt has_equipment = { uniform_equipment > 49 } }
 			}
 			complete_effect = {
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -50 }
-				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -50 }
+				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -50 } }
+				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 50 RECIPIENT = CHE } }
+				effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -50 } }
+				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 50 RECIPIENT = CHE } }
 				34 = {
 					add_resistance = 10
 					add_compliance = -3
@@ -2007,19 +2005,24 @@ CHE_panci_crisis_decision = {
 				NOT = { has_country_flag = RuslavGelayevKilled }
 				NOT = { has_manpower < 300 }
 				CHE_georgia_pair_underground_active = yes
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_300_tt check_variable = { var = num_equipment@infantry_equipment_1 value = 300 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_300_tt check_variable = { var = num_equipment@uniform_equipment_0 value = 300 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_bulletproof_vests_equipment_0_300_tt check_variable = { var = num_equipment@bulletproof_vests_equipment_0 value = 300 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_support_equipment_1_30_tt check_variable = { var = num_equipment@support_equipment_1 value = 30 compare = greater_than_or_equals } }
-				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_grenade_launcher_equipment_0_30_tt check_variable = { var = num_equipment@grenade_launcher_equipment_0 value = 30 compare = greater_than_or_equals } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_infantry_equipment_1_300_tt has_equipment = { infantry_equipment > 299 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_uniform_equipment_0_300_tt has_equipment = { uniform_equipment > 299 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_bulletproof_vests_equipment_0_300_tt has_equipment = { bulletproof_vests_equipment > 299 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_support_equipment_1_30_tt has_equipment = { support_equipment > 29 } }
+				custom_trigger_tooltip = { tooltip = CHE_georgia_stock_grenade_launcher_equipment_0_30_tt has_equipment = { grenade_launcher_equipment > 29 } }
 			}
 			complete_effect = {
 				add_manpower = -300
-				add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -300 }
-				add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -300 }
-				add_equipment_to_stockpile = { type = bulletproof_vests_equipment_0 amount = -300 }
-				add_equipment_to_stockpile = { type = support_equipment_1 amount = -30 }
-				add_equipment_to_stockpile = { type = grenade_launcher_equipment_0 amount = -30 }
+				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -300 } }
+				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 300 RECIPIENT = CHE } }
+				effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -300 } }
+				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 300 RECIPIENT = CHE } }
+				effect_tooltip = { add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = -300 } }
+				hidden_effect = { CHE_use_bulletproof_vests_equipment_effect = { AMOUNT = 300 RECIPIENT = CHE } }
+				effect_tooltip = { add_equipment_to_stockpile = { type = support_equipment amount = -30 } }
+				hidden_effect = { CHE_use_support_equipment_effect = { AMOUNT = 30 RECIPIENT = CHE } }
+				effect_tooltip = { add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = -30 } }
+				hidden_effect = { CHE_use_grenade_launcher_equipment_effect = { AMOUNT = 30 RECIPIENT = CHE } }
 				set_country_flag = CHE_GelayevInGeorgia
 				34 = {
 					add_resistance = 15
@@ -2149,17 +2152,21 @@ CHE_azerbaijan_influence_decision = {
 			NOT = { has_war_with = AZR }
 			AZR = { OR = { NOT = { has_variable = CHE_azerbaijan_underground } check_variable = { var = CHE_azerbaijan_underground value = 100 compare = less_than } } }
 			custom_trigger_tooltip = { tooltip = CHE_azerbaijan_send_weapons_equipment_tt
-				check_variable = { var = num_equipment@infantry_equipment_1 value = 200 compare = greater_than_or_equals }
-				check_variable = { var = num_equipment@uniform_equipment_0 value = 100 compare = greater_than_or_equals }
-				check_variable = { var = num_equipment@bulletproof_vests_equipment_0 value = 100 compare = greater_than_or_equals }
-				check_variable = { var = num_equipment@grenade_launcher_equipment_0 value = 20 compare = greater_than_or_equals }
+				has_equipment = { infantry_equipment > 199 }
+				has_equipment = { uniform_equipment > 99 }
+				has_equipment = { bulletproof_vests_equipment > 99 }
+				has_equipment = { grenade_launcher_equipment > 19 }
 			}
 		}
 		complete_effect = {
-			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -200 }
-			add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -100 }
-			add_equipment_to_stockpile = { type = bulletproof_vests_equipment_0 amount = -100 }
-			add_equipment_to_stockpile = { type = grenade_launcher_equipment_0 amount = -20 }
+			effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -200 } }
+				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 200 RECIPIENT = CHE } }
+			effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -100 } }
+				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+			effect_tooltip = { add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = -100 } }
+				hidden_effect = { CHE_use_bulletproof_vests_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+			effect_tooltip = { add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = -20 } }
+				hidden_effect = { CHE_use_grenade_launcher_equipment_effect = { AMOUNT = 20 RECIPIENT = CHE } }
 			AZR = { add_to_variable = { CHE_azerbaijan_underground = 20 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
 		}
 		ai_will_do = { factor = 2 }
@@ -2175,16 +2182,19 @@ CHE_azerbaijan_influence_decision = {
 			NOT = { has_war_with = AZR }
 			AZR = { OR = { NOT = { has_variable = CHE_azerbaijan_underground } check_variable = { var = CHE_azerbaijan_underground value = 100 compare = less_than } } }
 			custom_trigger_tooltip = { tooltip = CHE_azerbaijan_train_underground_equipment_tt
-				check_variable = { var = num_equipment@infantry_equipment_1 value = 100 compare = greater_than_or_equals }
-				check_variable = { var = num_equipment@uniform_equipment_0 value = 100 compare = greater_than_or_equals }
-				check_variable = { var = num_equipment@support_equipment_1 value = 20 compare = greater_than_or_equals }
+				has_equipment = { infantry_equipment > 99 }
+				has_equipment = { uniform_equipment > 99 }
+				has_equipment = { support_equipment > 19 }
 			}
 			has_manpower > 99
 		}
 		complete_effect = {
-			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = -100 }
-			add_equipment_to_stockpile = { type = uniform_equipment_0 amount = -100 }
-			add_equipment_to_stockpile = { type = support_equipment_1 amount = -20 }
+			effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -100 } }
+				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+			effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -100 } }
+				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+			effect_tooltip = { add_equipment_to_stockpile = { type = support_equipment amount = -20 } }
+				hidden_effect = { CHE_use_support_equipment_effect = { AMOUNT = 20 RECIPIENT = CHE } }
 			add_manpower = -100
 			AZR = { add_to_variable = { CHE_azerbaijan_underground = 15 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
 		}
