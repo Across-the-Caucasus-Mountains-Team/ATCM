@@ -914,7 +914,7 @@ focus_tree = {
 						has_country_flag = Sufi_clergy_union_with_basayev
 					}
                     country_event = {
-						id = chechnya.86
+						id = chechnya.88
 						days = 25
 					}
 				}
@@ -1046,7 +1046,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			country_event = chechnya.86
+			country_event = chechnya.87
 			add_popularity = {ideology = islam popularity = 0.15}
 			add_war_support = 0.15
 			add_political_power = 25
