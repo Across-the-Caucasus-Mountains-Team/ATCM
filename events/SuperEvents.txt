@@ -24,7 +24,7 @@ country_event = {
 		
 		set_global_flag = SOV_august_coup_supervent_flag
 		set_global_flag = Visbile_sp_events
-		play_song = "ATCM_V_Nashikh_Glazakh" #was "SummerWillEnd"
+		play_song = "SummerWillEnd" #was "SummerWillEnd"
 	}
 }
 
@@ -49,7 +49,7 @@ country_event = {
 		
 		set_global_flag = SOV_end_of_ussr_supervent_flag
 		set_global_flag = Visbile_sp_events
-		play_song = "ATCM_V_Nashikh_Glazakh" #was "Pocledni_geroi"
+		play_song = "Pocledni_geroi" #was "Pocledni_geroi"
 	}
 }
 
@@ -74,7 +74,7 @@ country_event = {
 		
 		set_global_flag = RAS_black_october_supervent_flag
 		set_global_flag = Visbile_sp_events
-		play_song = "ATCM_V_Nashikh_Glazakh" #was "maintheme"
+		play_song = "maintheme" #was "maintheme"
 	}
 }
 
@@ -99,6 +99,6 @@ country_event = {
 		
 		set_global_flag = RAS_First_Chechen_War_supervent_flag
 		set_global_flag = Visbile_sp_events
-		play_song = "ATCM_V_Nashikh_Glazakh" #was "FirstChechenWar"			
+		play_song = "FirstChechenWar" #was "FirstChechenWar"			
 	}
 }

@@ -162,6 +162,11 @@ country_event = {
 				focus = RAS_failed_blitz
 				use_side_message = yes
 			}
+		    add_to_variable = { RAS_war_fatigue_stability_factor = -0.015 }
+		    add_to_variable = { RAS_war_fatigue_war_support_factor = -0.05 }
+		    add_to_variable = { RAS_war_fatigue_political_power_factor = -0.05 }
+			add_to_variable = { RAS_war_fatigue_army_morale_factor = -0.05 }
+			custom_effect_tooltip = 22_RAS_tt
 		}
 	}
 }
@@ -467,6 +472,7 @@ country_event = {
 		name = russia.18.a
 		add_stability = 0.15	
 		add_war_support = -0.05
+		remove_dynamic_modifier = { modifier = RAS_war_fatigue }
 	}
 }
 
@@ -530,8 +536,12 @@ country_event = {
 	option = {
 		name = russia.22.a
 		add_political_power = -15
-		add_war_support = -0.05
+		add_war_support = -0.02
 		add_stability = -0.025
+		set_variable = { RAS_war_fatigue_stability_factor = -0.05 }
+		set_variable = { RAS_war_fatigue_war_support_factor = -0.095 }
+		set_variable = { RAS_war_fatigue_political_power_factor = -0.05 }
+		add_dynamic_modifier = { modifier = RAS_war_fatigue }
 	}
 }
 
@@ -547,12 +557,12 @@ country_event = {
 	option = {
 		name = russia.23.a
 		add_stability = -0.05
-set_variable = { RAS_hyp_inf_stability_factor = -0.25 }
-set_variable = { RAS_hyp_inf_consumer_goods_factor = 0.50 }
-set_variable = { RAS_hyp_inf_production_factory_efficiency_gain_factor = -0.15 }
-set_variable = { RAS_hyp_inf_production_factory_max_efficiency_factor = -0.10 }
-set_variable = { RAS_hyp_inf_production_speed_industrial_complex_factor = -0.30 }
-set_variable = { RAS_hyp_inf_political_power_factor = -0.10 }
+		set_variable = { RAS_hyp_inf_stability_factor = -0.25 }
+		set_variable = { RAS_hyp_inf_consumer_goods_factor = 0.50 }
+		set_variable = { RAS_hyp_inf_production_factory_efficiency_gain_factor = -0.15 }
+		set_variable = { RAS_hyp_inf_production_factory_max_efficiency_factor = -0.10 }
+		set_variable = { RAS_hyp_inf_production_speed_industrial_complex_factor = -0.30 }
+		set_variable = { RAS_hyp_inf_political_power_factor = -0.10 }
 		add_dynamic_modifier = { modifier = RAS_hyperinflation }
 	}
 }
@@ -747,6 +757,10 @@ country_event = {
 			ideology = liberalism
 			popularity = -0.025
 		}
+		add_to_variable = { RAS_war_fatigue_stability_factor = -0.015 }
+		add_to_variable = { RAS_war_fatigue_war_support_factor = -0.015 }
+		add_to_variable = { RAS_war_fatigue_political_power_factor = -0.015 }
+		custom_effect_tooltip = 22_RAS_tt
 	}
 }
 
@@ -823,6 +837,10 @@ country_event = {
 		add_war_support = -0.01
 		add_stability = -0.02
 		add_manpower = -12
+		add_to_variable = { RAS_war_fatigue_stability_factor = -0.015 }
+		add_to_variable = { RAS_war_fatigue_war_support_factor = -0.015 }
+		add_to_variable = { RAS_war_fatigue_political_power_factor = -0.015 }
+		custom_effect_tooltip = 22_RAS_tt
 	}
 }
 
@@ -965,7 +983,10 @@ country_event = {
 		}
 		21 = {
             add_dynamic_modifier = { modifier = RAS_region_is_blocked scope = RAS days = 40 }
-		}		
+		}	
+		add_to_variable = { RAS_war_fatigue_political_power_factor = -0.015 }
+		add_to_variable = { RAS_war_fatigue_army_morale_factor = -0.085 }
+		custom_effect_tooltip = 22_RAS_tt	
 	}
 }
 

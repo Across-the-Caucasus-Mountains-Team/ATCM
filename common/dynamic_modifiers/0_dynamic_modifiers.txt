@@ -73,6 +73,18 @@ RAS_hyperinflation = { #NATIONAL SPIRIT
 
 }
 
+RAS_war_fatigue = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_RAS_hyperinflation
+
+    stability_factor = RAS_war_fatigue_stability_factor
+	war_support_factor = RAS_war_fatigue_war_support_factor
+    political_power_factor = RAS_war_fatigue_political_power_factor
+	army_org_factor = RAS_war_fatigue_army_org_factor
+	army_morale_factor = RAS_war_fatigue_army_morale_factor
+}
+
 CHE_Weak_Chechen_armed_forces = { #NATIONAL SPIRIT
 	enable = { always = yes }
 
