@@ -1775,7 +1775,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_additional_special_forces
-		icon = GFX_RAS_additional_infantry_battalions
+		icon = GFX_RAS_additional_special_forces
 		prerequisite = { focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = 2
@@ -1847,16 +1847,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_war_support = 0.025
-			add_political_power = 25
-			army_experience = 25
-			load_oob = RAS_infantry_battalions_first_chechen_war
+			add_stability = -0.05
+			add_war_support = -0.025
+			custom_effect_tooltip = 23_RAS_tt
+			hidden_effect = {
+                load_oob = RAS_infantry_battalions_first_chechen_war
+			}
 		}
 	}
 
 	focus = {
 		id = RAS_additional_shipments_to_the_cto_zone
-		icon = GFX_RAS_additional_infantry_battalions
+		icon = GFX_RAS_additional_shipments_to_the_cto_zone
 		prerequisite = { focus = RAS_bring_in_new_armour }
 		relative_position_id = RAS_reorganize_our_frontline
 		x = -2
@@ -3957,6 +3959,7 @@ focus_tree = {
 		completion_reward = {
 			add_war_support = 0.025
 			army_experience = 35
+			add_ideas = RAS_omon_idea
 			load_oob = RAS_omon_first_chechen_war
 		}
 	}

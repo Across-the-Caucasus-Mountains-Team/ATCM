@@ -16,7 +16,7 @@ CHE_first_chechen_war_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	##picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -31,7 +31,7 @@ CHE_peace_negotiations_first_chechen_war_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	##picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -46,7 +46,7 @@ CHE_general_staff_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -63,7 +63,7 @@ CHE_operations_outside_of_chechnya_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -80,7 +80,7 @@ CHE_elections_1991_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -95,7 +95,7 @@ CHE_stability_of_republic_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -113,7 +113,7 @@ CHE_islamic_republic_stability_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -128,7 +128,7 @@ CHE_battle_for_power_after_dudayev_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE
@@ -143,7 +143,7 @@ CHE_rebuilding_country = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = CHE

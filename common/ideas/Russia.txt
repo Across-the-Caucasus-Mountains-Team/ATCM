@@ -334,6 +334,24 @@ ideas = {
 				air_mission_efficiency = -0.15
 				air_training_xp_gain_factor = -0.15
 			}
+		}	
+		
+		RAS_omon_idea = {
+			allowed = {
+				original_tag = RAS
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = GFX_idea_RAS_omon_idea
+
+			modifier = {
+				resistance_activity = -0.1
+				resistance_target = -0.05
+			}
 		}		
 	}
 }

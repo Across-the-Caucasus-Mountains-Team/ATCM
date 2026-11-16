@@ -166,7 +166,12 @@ add_ideas = {
 	unlock_national_focus = CHE_Aftermath_of_Chechen_revolution
     unlock_national_focus = CHE_hold_elections
 
-
+	set_portraits = {
+		character = CHE_Dzhokhar_Dudaev
+		civilian={
+			large="gfx/leaders/CHE/portrait_che_dzhokhora_dudayev.png"
+		}
+	}
 	complete_national_focus = CHE_night_operations
 	complete_national_focus = CHE_Ghosts_of_the_mountains
 	drop_cosmetic_tag = yes

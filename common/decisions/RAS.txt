@@ -1004,7 +1004,7 @@ RAS_first_chechen_war_decision = {
 
 		icon = GFX_decision_generic_soldie
 
-		cost = 55
+		cost = 45
 		fire_only_once = no
 		days_re_enable = 30	
 		
@@ -1040,6 +1040,46 @@ RAS_first_chechen_war_decision = {
 		}
 	}
 
+	RAS_additional_tanks_to_the_front = {
+
+		icon = GFX_decision_generic_soldie
+
+		cost = 65
+		fire_only_once = no
+		days_re_enable = 50	
+		
+		available = {		
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_reorganize_our_frontline
+		}
+		
+		visible = {
+			tag = RAS
+			has_global_flag = FirstChechenWar
+			has_completed_focus = RAS_reorganize_our_frontline
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = { 
+				type = modern_tank_equipment_1 
+				amount = 30
+			}
+			add_equipment_to_stockpile = { 
+				type = modern_tank_equipment_3
+				amount = 30
+			}	
+			add_equipment_to_stockpile = { 
+				type = ifv_1_equipment 
+				amount = 18
+			}		
+		}
+
+		ai_will_do = {
+			factor = 50		
+		}
+	}	
+
 	RAS_additional_artillery_to_the_front = {
 
 		icon = GFX_decision_generic_soldie
@@ -1072,6 +1112,10 @@ RAS_first_chechen_war_decision = {
 			add_equipment_to_stockpile = { 
 				type = mortar_equipment_2
 				amount = 25 
+			}
+			add_equipment_to_stockpile = { 
+				type = motorized_rocket_equipment_1
+				amount = 3 
 			}
 		}
 

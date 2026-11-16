@@ -6,7 +6,7 @@ RAS_soviet_separatism_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -24,7 +24,7 @@ RAS_eltsin_support_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -39,7 +39,7 @@ RAS_influence_on_caucasus_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -55,7 +55,7 @@ RAS_preparing_for_war_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -72,7 +72,7 @@ RAS_first_chechen_war_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -88,7 +88,7 @@ RAS_special_services_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -103,7 +103,7 @@ RAS_peace_negotiations_first_chechen_war_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -118,7 +118,7 @@ RAS_second_chechen_war_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -133,7 +133,7 @@ RAS_third_chechen_war_decision = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS
@@ -148,7 +148,7 @@ RAS_elections_1996 = {
 	
 	icon = SOV_propaganda
 	
-	picture = GFX_decision_RAS_separatism
+	#picture = GFX_decision_RAS_separatism
 
 	visible = {
 		tag = RAS

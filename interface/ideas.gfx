@@ -342,6 +342,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/RAS/RAS_big_criminality.png"
 	}
 
+	spriteType = {
+		name = "GFX_idea_RAS_omon_idea"
+		textureFile = "gfx/interface/ideas/RAS/RAS_omon_idea.png"
+	}
 	###
 	
 	spriteType = {

@@ -311,8 +311,18 @@ spriteTypes = {
 		name = "GFX_RAS_decree_on_price_liberalization"
 		texturefile = "gfx/interface/Goals/RAS_by_uskko/RAS_decree_on_price_liberalization.png"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_RAS_save_the_russian_economy"
 		texturefile = "gfx/interface/Goals/RAS_by_uskko/RAS_save_the_russian_economy.png"
 	}
+	spriteType = {
+		name = "GFX_RAS_additional_special_forces"
+		texturefile = "gfx/interface/Goals/RAS/RAS_additional_special_forces.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_additional_shipments_to_the_cto_zone"
+		texturefile = "gfx/interface/Goals/RAS/RAS_additional_shipments_to_the_cto_zone.png"
+	}	
+
+	
 }
