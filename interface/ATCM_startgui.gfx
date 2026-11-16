@@ -47,7 +47,7 @@ spriteTypes = {
 
 	spriteType = { 
 		name = "GFX_Startgui_Zviad_Gamsakhurdia"
-		texturefile = "gfx/interface/startgui/portrait_sak_Zviad_Gamsakhurdia.png"
+		texturefile = "gfx/interface/startgui/portrait_sak_Zviad_Gamsakhurdia.dds"
 	}
 
 	spriteType = { 

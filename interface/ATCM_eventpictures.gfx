@@ -125,7 +125,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_RReport_event_CHE_Gamsakhurdia_in_chechnya"
+		name = "GFX_Report_event_CHE_Gamsakhurdia_in_chechnya"
 		texturefile = "gfx/event_pictures/Report_event_CHE_Gamsakhurdia_in_chechnya.png"
 	}
 

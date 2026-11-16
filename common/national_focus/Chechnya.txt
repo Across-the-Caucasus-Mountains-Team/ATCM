@@ -1691,9 +1691,9 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
-			unlock_decision_tooltip = CHE_georgia_activate_cells
-			unlock_decision_tooltip = CHE_georgia_expand_underground
-			unlock_decision_tooltip = CHE_georgia_send_gelayev
+			custom_effect_tooltip = CHE_georgia_activate_cells
+			custom_effect_tooltip = CHE_georgia_expand_underground
+			custom_effect_tooltip = CHE_georgia_send_gelayev
 			hidden_effect = {
 				if = {
 					limit = { CHE_georgia_cells_can_activate = yes }

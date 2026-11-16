@@ -1,4 +1,8 @@
 spriteTypes = {	
+	spriteType = {
+		name = "GFX_decision_RAS_separatism"
+		texturefile = "gfx/interface/ideas/Separatism_desc_photo.png"
+	}
 
 	### categories
 	
@@ -1919,7 +1923,7 @@ spriteTypes = {
 		
 	spriteType = {
 		name = "GFX_decision_generic_speech"
-		texturefile = "gfx/interface/decisions/decision_generic_speech.dds"
+		texturefile = "gfx/interface/decisions/decision_generic_speech.png"
 	}
 
 	# placeholder art TODO: Replace with correct

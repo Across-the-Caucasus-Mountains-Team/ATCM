@@ -626,17 +626,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/infantry_weapons.png"
 	}	
 
 	SpriteType = {
 		name = "GFX_improved_infantry_weapons_2_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.png"
 	}	
 	
 	SpriteType = {
 		name = "GFX_advanced_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.png"
 	}		
 	
 	### naval doctrines	###
@@ -4351,7 +4351,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_modern_tank_1_medium"
-		texturefile = "gfx/interface/technologies/generic_modern_tank.png"
+		texturefile = "gfx/interface/technologies/generic_modern_tank.dds"
 	}
 
 	SpriteType = {
@@ -4367,7 +4367,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_modern_tank_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/generic_modern_tank.png"
+		texturefile = "gfx/interface/technologies/generic_modern_tank.dds"
 	}
 
 	SpriteType = {

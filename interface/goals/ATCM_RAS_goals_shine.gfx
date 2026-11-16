@@ -2340,7 +2340,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_RAS_save_the_russian_economy"
+		name = "GFX_RAS_save_the_russian_economy_shine"
 		texturefile = "gfx/interface/Goals/RAS_by_uskko/RAS_save_the_russian_economy.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {

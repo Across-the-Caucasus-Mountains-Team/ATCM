@@ -258,7 +258,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_SAK_National_Guard_problems"
-		textureFile = "gfx/interface/ideas/SAK_National_Guard_problems.png"
+		textureFile = "gfx/interface/ideas/SAK_National_Guard_problems.dds"
 	}
 	
 	spriteType = {

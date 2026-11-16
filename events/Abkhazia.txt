@@ -12,15 +12,9 @@ country_event = {
 	option = {
 		name = abkhazia.1.a
 		add_war_support = 0.025
-		create_corps_commander = { 
-			name = "Shamil_Basayev"
-			gfx = GFX_CHE_shamil_basayev_portrait
-			traits = { infantry_leader }
-			skill = 3
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
+		if = {
+			limit = { NOT = { has_character = ABK_shamil_basayev } }
+			recruit_character = ABK_shamil_basayev
 		}
 		add_manpower = 75
 		add_equipment_to_stockpile = { 
@@ -41,7 +35,10 @@ country_event = {
 
 	option = {
 		name = abkhazia.2.a
-		retire_character = Shamil_Basayev
+		if = {
+			limit = { has_character = ABK_shamil_basayev }
+			retire_character = ABK_shamil_basayev
+		}
 		hidden_effect = {
 			CHE = {
 				country_event = chechnya.35
