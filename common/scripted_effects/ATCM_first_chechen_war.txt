@@ -5,7 +5,7 @@ finish_first_chechen_war = {
 	RAS = {
 		clr_country_flag = VDVLandingInProgress
 		remove_mission = RAS_failed_blitzkrieg_decision
-		remove_mission = RAS_hold_airport
+		RAS_finish_airborne_operation_effect = yes
 		remove_mission = RAS_take_Grozny
 		remove_mission = RAS_take_Shali
 		remove_mission = RAS_take_Gudermes
@@ -33,5 +33,77 @@ finish_first_chechen_war = {
 			limit = { has_war_with = CHE }
 			white_peace = CHE
 		}
+	}
+}
+
+
+RAS_start_airborne_operation_effect = {
+	if = {
+		limit = {
+			has_war_with = CHE
+			has_completed_focus = RAS_vdv_operation
+			NOT = { has_country_flag = RAS_airborne_operation_started }
+		}
+		set_country_flag = RAS_airborne_operation_started
+		set_country_flag = RAS_samashki_vdv_unlocked
+		if = {
+			limit = { has_country_flag = VDVLanding_at_Grozny_Airport_Prepared }
+			set_country_flag = RAS_airport_landing_pending
+			country_event = { id = russia.46 hours = 2 }
+		}
+		if = {
+			limit = { has_country_flag = RAS_terek_crossings_prepared }
+			country_event = { id = russia.48 hours = 3 }
+		}
+		if = {
+			limit = { has_country_flag = RAS_thunder_prepared }
+			country_event = { id = russia.49 hours = 24 }
+		}
+		clr_country_flag = VDVLandingInProgress
+	}
+}
+
+RAS_finish_airborne_operation_effect = {
+	if = {
+		limit = { has_country_flag = RAS_airborne_operation_started }
+		set_country_flag = RAS_airborne_operation_finished
+		clr_country_flag = VDVLandingInProgress
+		clr_country_flag = RAS_airport_landing_pending
+		clr_country_flag = RAS_airport_hold_pending
+		clr_country_flag = RAS_airport_reinforcements_unlocked
+		clr_country_flag = RAS_samashki_vdv_unlocked
+		clr_country_flag = RAS_khankala_flight_pending
+		clr_country_flag = RAS_terek_crossings_prepared
+		clr_country_flag = RAS_thunder_prepared
+	}
+}
+
+RAS_fail_grozny_airport_operation_effect = {
+	if = {
+		limit = {
+			has_country_flag = RAS_airport_hold_pending
+			NOT = { has_country_flag = RAS_airport_landing_failed }
+		}
+		clr_country_flag = RAS_airport_hold_pending
+		clr_country_flag = RAS_airport_reinforcements_unlocked
+		set_country_flag = RAS_airport_landing_failed
+		country_event = { id = russia.52 }
+	}
+}
+
+RAS_thunder_damage_state_effect = {
+	if = {
+		limit = { is_fully_controlled_by = CHE }
+		damage_building = { type = infrastructure damage = 20 }
+		damage_building = { type = industrial_complex damage = 20 }
+		damage_building = { type = arms_factory damage = 20 }
+		damage_building = { type = dockyard damage = 20 }
+		damage_building = { type = air_base damage = 20 }
+		damage_building = { type = anti_air_building damage = 20 }
+		damage_building = { type = radar_station damage = 20 }
+		damage_building = { type = synthetic_refinery damage = 20 }
+		damage_building = { type = fuel_silo damage = 20 }
+		damage_building = { type = nuclear_reactor damage = 20 }
+		damage_building = { type = rocket_site damage = 20 }
 	}
 }

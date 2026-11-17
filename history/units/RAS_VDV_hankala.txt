@@ -9,12 +9,12 @@ division_template = {
 	support = {
         engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		atgm_company = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 2 }
 	}
 }
 
 units = {
-	division = {	
+	division = {
 	    division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -32,4 +32,4 @@ units = {
 		division_template = "VDV"
 		start_experience_factor = 0.5
 	}
-}	
+}

@@ -780,3 +780,29 @@ news_event = {
 	fire_only_once = yes
 	option = { name = news.39.a }
 }
+
+
+news_event = {
+	id = news.40
+	title = news.40.t
+	desc = news.40.d
+	picture = GFX_news_news_event_grozny_groz
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { RAS = { has_country_flag = RAS_thunder_executed } }
+	option = { name = news.40.a }
+}
+
+
+news_event = {
+	id = news.41
+	title = news.41.t
+	desc = news.41.d
+	picture = GFX_news_news_event_vertuska_pada
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { RAS = { has_country_flag = RAS_khankala_transport_shot_down } }
+	option = { name = news.41.a }
+}

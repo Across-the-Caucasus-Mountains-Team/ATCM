@@ -711,16 +711,10 @@ country_event = {
 	picture = GFX_Report_event_CHE_battle_is_in_here
 
 	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = CHE RAS = { has_country_flag = RAS_airport_secured } }
 
-	immediate = {
-		RAS = {
-			load_oob = RAS_VDV_landing_in_grozny
-			country_event = {
-				id = russia.29
-				hours = 1
-			}
-		}
-	}
+
 
 	option = {
 		name = chechnya.30.a
@@ -2492,4 +2486,16 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { name = chechnya.95.a  }
+}
+
+
+country_event = {
+	id = chechnya.96
+	title = chechnya.96.t
+	desc = chechnya.96.d
+	picture = GFX_Report_event_chechen_aviation
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = CHE RAS = { has_country_flag = RAS_khankala_transport_shot_down } }
+	option = { name = chechnya.96.a }
 }

@@ -60,6 +60,8 @@ RAS_preparing_for_war_decision = {
 	visible = {
 		tag = RAS
 		has_country_flag = VDVLandingInProgress
+		NOT = { has_war_with = CHE }
+		NOT = { has_country_flag = RAS_airborne_operation_started }
 		NOT = {
 			has_global_flag = FirstChechenWar
 		}
@@ -76,7 +78,7 @@ RAS_first_chechen_war_decision = {
 
 	visible = {
 		tag = RAS
-		has_global_flag = FirstChechenWar
+		OR = { has_global_flag = FirstChechenWar RAS_airborne_operation_active = yes }
 	}
 	scripted_gui = RAS_general_staff_decision_window
 	visible_when_empty = yes

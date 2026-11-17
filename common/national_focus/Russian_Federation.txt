@@ -3513,6 +3513,7 @@ focus_tree = {
 		}
 
 		available = {
+			NOT = { has_war_with = CHE }
 			OR = {
 				has_completed_focus = RAS_accept_new_constitution
 				RAS_early_chechen_war_allowed = yes
@@ -3535,7 +3536,9 @@ focus_tree = {
 			add_political_power = 95
 			air_experience = 35
 			set_country_flag = VDVLandingInProgress
-			unlock_decision_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
+			custom_effect_tooltip = RAS_prepare_for_airborne_landing_at_grozny_airport
+			custom_effect_tooltip = RAS_capture_terek_crossings
+			custom_effect_tooltip = RAS_operation_thunder
 			add_equipment_to_stockpile = {
 				type = CAS_equipment_1
 				variant_name = "Су-25"
@@ -3892,17 +3895,7 @@ focus_tree = {
 					add_dynamic_modifier = { modifier = RAS_road_to_grozny scope = RAS days = 20 }
 				}
 
-				if = {
-					limit = {
-						has_country_flag = VDVLanding_at_Grozny_Airport_Prepared
-					}
-					CHE = {
-						country_event = {
-							id = chechnya.30
-							days = 5
-						}
-					}
-				}
+
 				if = {
 					limit = {
 						has_country_flag = VDVLandingInProgress
