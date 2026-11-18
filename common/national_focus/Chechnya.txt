@@ -7015,7 +7015,7 @@ completion_reward = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 100
+			factor = 130
 		}
 
 		available = {
@@ -7146,7 +7146,7 @@ completion_reward = {
 		cost = 15
 
 		ai_will_do = {
-			factor = 100
+			factor = 110
 		}
 
 		available = {
