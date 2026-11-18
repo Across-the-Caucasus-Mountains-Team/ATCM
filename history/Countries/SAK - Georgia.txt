@@ -7,6 +7,7 @@ set_cosmetic_tag = SOV_SAK
 
 set_country_flag = StartguiOpen
 
+set_convoys = 25
 
 recruit_character = SAK_zviad_gamsakhurdia
 recruit_character = SAK_Giorgi_Karkarashvili

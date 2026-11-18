@@ -4235,10 +4235,10 @@ focus_tree = {
 			add_stability = -0.05
 			add_to_variable = { RAS_hyp_inf_consumer_goods_factor = -0.10 }
 			custom_effect_tooltip = 21_RAS_tt
-			custom_effect_tooltip = cash_balance_plus_5_tt
+			custom_effect_tooltip = cash_balance_plus_25_tt
 			add_to_variable = {
 				var = cash
-				value = 5
+				value = 25
 			}
 			hidden_effect = {
 				

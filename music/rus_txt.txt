@@ -7,7 +7,6 @@ music = { song = "FromTheScrew" chance = { modifier = { factor = 1.0 } } }
 music = { song = "HelloMother" chance = { modifier = { factor = 1.0 } } }
 music = { song = "HelloMyDearBaby" chance = { modifier = { factor = 1.0 } } }
 music = { song = "LetsGoFor..." chance = { modifier = { factor = 1.0 } } }
-music = { song = "Soldier" chance = { modifier = { factor = 1.0 } } }
 music = { song = "LikeOnWar" chance = { modifier = { factor = 1.0 } } }
 music = { song = "angarski" chance = { modifier = { factor = 1.0 } } }
 music = { song = "grachi" chance = { modifier = { factor = 1.0 } } }
