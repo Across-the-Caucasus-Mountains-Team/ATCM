@@ -732,3 +732,17 @@ CHE_azerbaijan_peace_offer_valid = {
 	any_state = { has_state_flag = CHE_azerbaijan_prewar_state }
 	NOT = { any_state = { has_state_flag = CHE_azerbaijan_prewar_state NOT = { is_fully_controlled_by = AZR } } }
 }
+
+
+RAS_airborne_operation_active = {
+	tag = RAS
+	has_completed_focus = RAS_vdv_operation
+	has_country_flag = RAS_airborne_operation_started
+	NOT = { has_country_flag = RAS_airborne_operation_finished }
+	has_war_with = CHE
+}
+
+RAS_grozny_airborne_operation_active = {
+	RAS_airborne_operation_active = yes
+	NOT = { has_country_flag = RAS_airport_landing_failed }
+}

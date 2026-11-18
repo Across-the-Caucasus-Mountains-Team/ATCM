@@ -1,7 +1,44 @@
 on_actions = {
 
+	on_war_relation_added = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = { tag = RAS FROM = { tag = CHE } }
+						AND = { tag = CHE FROM = { tag = RAS } }
+					}
+				}
+				RAS = { RAS_start_airborne_operation_effect = yes }
+			}
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 111 }
+					NOT = { tag = RAS }
+					RAS = { RAS_airborne_operation_active = yes has_country_flag = RAS_airport_hold_pending }
+				}
+				RAS = { RAS_fail_grozny_airport_operation_effect = yes }
+			}
+		}
+	}
+
+
 	on_daily = {
 		effect = {
+			if = {
+				limit = {
+					tag = RAS
+					has_country_flag = RAS_airborne_operation_started
+					NOT = { has_country_flag = RAS_airborne_operation_finished }
+					NOT = { has_war_with = CHE }
+				}
+				RAS_finish_airborne_operation_effect = yes
+			}
 			if = {
 				limit = {
 					tag = RAS

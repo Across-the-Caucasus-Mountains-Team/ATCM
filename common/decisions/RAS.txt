@@ -583,6 +583,8 @@ RAS_preparing_for_war_decision = {
 		
 		available = {		
 			tag = RAS
+			NOT = { has_war_with = CHE }
+			NOT = { has_country_flag = RAS_airborne_operation_started }
 		}
 		
 		visible = {
@@ -630,6 +632,41 @@ RAS_preparing_for_war_decision = {
 		ai_will_do = {
 			factor = 20	
 		}
+	}
+
+	RAS_capture_terek_crossings = {
+		icon = GFX_decision_generic_soldier
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			tag = RAS
+			has_completed_focus = RAS_vdv_operation
+			NOT = { has_war_with = CHE }
+			NOT = { has_country_flag = RAS_airborne_operation_started }
+		}
+		available = { country_exists = CHE }
+		complete_effect = {
+			set_country_flag = RAS_terek_crossings_prepared
+		}
+		ai_will_do = { factor = 100 }
+	}
+
+	RAS_operation_thunder = {
+		icon = GFX_decision_generic_soldier
+		cost = 25
+		fire_only_once = yes
+		visible = {
+			tag = RAS
+			has_completed_focus = RAS_vdv_operation
+			NOT = { has_war_with = CHE }
+			NOT = { has_country_flag = RAS_airborne_operation_started }
+		}
+		available = { country_exists = CHE }
+		complete_effect = {
+			set_country_flag = RAS_thunder_prepared
+			custom_effect_tooltip = RAS_thunder_prepared_tt
+		}
+		ai_will_do = { factor = 100 }
 	}
 }
 
@@ -700,107 +737,49 @@ RAS_first_chechen_war_decision = {
 		}
 	}
 
-	RAS_hold_airport = {
-		icon = GFX_decision_generic_soldier
-		is_good = yes
-		selectable_mission = no
-		fire_only_once = yes
-		days_mission_timeout = 7
 
-		available = {
-			CHE = {
-				controls_state = 111
-			}
-		}
-
-		activation = {
-			always = no
-		}
-
-		complete_effect = {
-			RAS = {
-				add_war_support = -0.05
-				add_political_power = -50
-				}
-		}
-
-		timeout_effect = {
-			if = {
-				limit = {
-					RAS = {
-						controls_state = 111
-					}
-				}
-				RAS = {
-					country_event = {
-						id = russia.40
-						hours = 1
-					}
-				}
-			}
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 111
-			}
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2
-		}
-	}
 
 	RAS_send_airport_reinforcements = {
 		icon = GFX_decision_generic_soldier
-		cost = 15
+		cost = 0
 		fire_only_once = yes
-
+		custom_cost_trigger = { NOT = { command_power < 15 } }
+		custom_cost_text = RAS_airborne_cp_15_cost
+		ai_hint_pp_cost = 15
 		visible = {
+			RAS_grozny_airborne_operation_active = yes
 			has_country_flag = RAS_airport_reinforcements_unlocked
 		}
-
 		available = {
 			controls_state = 111
 		}
-
 		complete_effect = {
+			add_command_power = -15
 			clr_country_flag = RAS_airport_reinforcements_unlocked
+			set_country_flag = RAS_airport_second_wave_sent
 			load_oob = RAS_VDV_landing_in_grozny_2
 		}
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		highlight_states = {
-			highlight_state_targets = {
-				state = 111
-			}
-			highlight_color_while_active = 3
-			highlight_color_before_active = 2
-		}
+		ai_will_do = { factor = 20 }
+		highlight_states = { highlight_state_targets = { state = 111 } }
 	}
 
 	RAS_send_VDV_to_Samashki = {
 		icon = GFX_decision_generic_soldier
 		cost = 10
 		fire_only_once = yes
-
 		visible = {
+			RAS_airborne_operation_active = yes
 			has_country_flag = RAS_samashki_vdv_unlocked
 		}
-
-		available = {
-			controls_state = 111
-		}
-
+		available = { NOT = { has_country_flag = RAS_khankala_flight_pending } }
 		complete_effect = {
 			clr_country_flag = RAS_samashki_vdv_unlocked
-			load_oob = RAS_VDV_hankala
+			set_country_flag = RAS_khankala_flight_pending
+			country_event = { id = russia.50 hours = 1 }
+			country_event = { id = russia.51 hours = 3 }
 		}
-
-		ai_will_do = {
-			factor = 10
-		}
+		ai_will_do = { factor = 20 }
+		highlight_states = { highlight_state_targets = { state = 110 } }
 	}
 
 
@@ -1792,6 +1771,86 @@ RAS_first_chechen_war_decision = {
 		}
 	}
 
+
+
+	RAS_reinforce_khankala = {
+		icon = GFX_decision_generic_soldier
+		cost = 0
+		fire_only_once = yes
+		custom_cost_trigger = { NOT = { command_power < 15 } }
+		custom_cost_text = RAS_airborne_cp_15_cost
+		ai_hint_pp_cost = 15
+		visible = {
+			RAS_airborne_operation_active = yes
+			has_country_flag = RAS_khankala_landing_completed
+		}
+		available = {
+			controls_state = 110
+		}
+		complete_effect = {
+			add_command_power = -15
+			load_oob = RAS_VDV_khankala_reinforcements
+		}
+		ai_will_do = { factor = 20 }
+		highlight_states = { highlight_state_targets = { state = 110 } }
+	}
+
+	RAS_land_il76_at_grozny_airport = {
+		icon = GFX_decision_generic_soldier
+		cost = 0
+		fire_only_once = yes
+		custom_cost_trigger = { NOT = { command_power < 25 } }
+		custom_cost_text = RAS_airborne_cp_25_cost
+		ai_hint_pp_cost = 25
+		visible = {
+			RAS_grozny_airborne_operation_active = yes
+			has_country_flag = RAS_airport_second_wave_sent
+		}
+		available = {
+			controls_state = 111
+			controls_province = 17402
+			controls_province = 17404
+			controls_province = 17510
+			controls_province = 79
+			controls_province = 10551
+			controls_province = 8086
+		}
+		complete_effect = {
+			add_command_power = -25
+			load_oob = RAS_VDV_IL76_grozny_airport
+		}
+		ai_will_do = { factor = 20 }
+		highlight_states = { highlight_provinces = { 10569 17402 17404 17510 } }
+	}
+
+	RAS_airborne_mountain_operation = {
+		icon = GFX_decision_generic_soldier
+		cost = 0
+		fire_only_once = yes
+		custom_cost_trigger = { NOT = { command_power < 35 } }
+		custom_cost_text = RAS_airborne_cp_35_cost
+		ai_hint_pp_cost = 35
+		visible = {
+			RAS_airborne_operation_active = yes
+			controls_state = 20
+			controls_state = 21
+			controls_state = 110
+			controls_state = 111
+		}
+		available = {
+			NOT = { controls_province = 2481 }
+			NOT = { controls_province = 2964 }
+			NOT = { controls_province = 10883 }
+		}
+		complete_effect = {
+			add_command_power = -35
+			load_oob = RAS_VDV_shatoy
+			load_oob = RAS_VDV_sharoy
+			load_oob = RAS_VDV_veduchi
+		}
+		ai_will_do = { factor = 20 }
+		highlight_states = { highlight_provinces = { 2481 2964 10883 } }
+	}
 }
 
 RAS_special_services_decision = {

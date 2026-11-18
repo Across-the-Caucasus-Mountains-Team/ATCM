@@ -2,6 +2,8 @@ capital = 7
 
 set_research_slots = 3
 
+set_convoys = 100
+
 oob = "RAS_1991"
 
 set_country_flag = StartguiOpen
@@ -134,9 +136,6 @@ create_equipment_variant = {
 		autonomy_state = soviet_republic
 	}
 }
-
-
-
 
 1991.1.1 = {
     add_ideas = {

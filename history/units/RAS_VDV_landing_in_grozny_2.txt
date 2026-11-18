@@ -1,5 +1,5 @@
 division_template = {
-	name = "VDV"
+	name = "Spez_VDV"
 	division_names_group = RAS_Par_02
 
 	regiments = {
@@ -10,6 +10,7 @@ division_template = {
         engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
 		atgm_company = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 3 }
 	}
 }
 
@@ -20,8 +21,8 @@ units = {
 			name_order = 1
 		}
 		location = 10569
-		division_template = "VDV"
-		start_experience_factor = 0.35
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
 	}
 	division = {
 	    division_name = {
@@ -29,34 +30,61 @@ units = {
 			name_order = 2
 		}
 		location = 10569
-		division_template = "VDV"
-		start_experience_factor = 0.35
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
 	}
 	division = {
 	    division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 17510
-		division_template = "VDV"
-		start_experience_factor = 0.35
+		location = 8086
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
 	}
 	division = {
 	    division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 17402
-		division_template = "VDV"
-		start_experience_factor = 0.35
+		location = 10551
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
 	}
 	division = {
 	    division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 17404
-		division_template = "VDV"
-		start_experience_factor = 0.35
+		location = 79
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
+	}
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 17400
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
+	}
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4807
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
+	}
+	division = {
+	    division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 10569
+		division_template = "Spez_VDV"
+		start_experience_factor = 0.5
 	}
 }	

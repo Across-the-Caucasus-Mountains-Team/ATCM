@@ -653,13 +653,13 @@ country_event = {
 	picture = GFX_Report_event_CHE_battle_is_in_here
 
 	is_triggered_only = yes
+	trigger = { RAS_grozny_airborne_operation_active = yes has_country_flag = RAS_airport_secured }
+	fire_only_once = yes
 
 	option = {
 		name = russia.29.a
 		add_war_support = 0.025
-		RAS = {
-			activate_mission = RAS_hold_airport
-		}
+		custom_effect_tooltip = RAS_send_airport_reinforcements
 	}
 }
 
@@ -1038,4 +1038,148 @@ country_event = {
 			}
 		} 	
 	}
+}
+
+country_event = {
+	id = russia.46
+	hidden = yes
+	is_triggered_only = yes
+	trigger = { RAS_grozny_airborne_operation_active = yes has_country_flag = RAS_airport_landing_pending }
+	immediate = {
+		clr_country_flag = RAS_airport_landing_pending
+		set_province_controller = 17402
+		set_province_controller = 10569
+		load_oob = RAS_VDV_landing_in_grozny
+		set_country_flag = RAS_airport_hold_pending
+		country_event = { id = russia.47 hours = 6 }
+	}
+}
+
+country_event = {
+	id = russia.47
+	hidden = yes
+	is_triggered_only = yes
+	trigger = { RAS_airborne_operation_active = yes has_country_flag = RAS_airport_hold_pending }
+	immediate = {
+		if = {
+			limit = { controls_state = 111 NOT = { has_country_flag = RAS_airport_landing_failed } }
+			clr_country_flag = RAS_airport_hold_pending
+			set_country_flag = RAS_airport_secured
+			set_country_flag = RAS_airport_reinforcements_unlocked
+			country_event = { id = russia.29 }
+			CHE = { country_event = { id = chechnya.30 } }
+		}
+		else = { RAS_fail_grozny_airport_operation_effect = yes }
+	}
+}
+
+country_event = {
+	id = russia.48
+	hidden = yes
+	is_triggered_only = yes
+	trigger = { RAS_airborne_operation_active = yes has_country_flag = RAS_terek_crossings_prepared }
+	immediate = {
+		clr_country_flag = RAS_terek_crossings_prepared
+		set_country_flag = RAS_terek_crossings_operation_completed
+		load_oob = RAS_VDV_terek_crossings
+	}
+}
+
+country_event = {
+	id = russia.49
+	hidden = yes
+	is_triggered_only = yes
+	trigger = { RAS_airborne_operation_active = yes has_country_flag = RAS_thunder_prepared }
+	immediate = {
+		clr_country_flag = RAS_thunder_prepared
+		set_country_flag = RAS_thunder_executed
+		11 = { RAS_thunder_damage_state_effect = yes }
+		16 = { RAS_thunder_damage_state_effect = yes }
+		20 = { RAS_thunder_damage_state_effect = yes }
+		21 = { RAS_thunder_damage_state_effect = yes }
+		22 = { RAS_thunder_damage_state_effect = yes }
+		110 = { RAS_thunder_damage_state_effect = yes }
+		111 = { RAS_thunder_damage_state_effect = yes }
+		124 = { RAS_thunder_damage_state_effect = yes }
+		125 = { RAS_thunder_damage_state_effect = yes }
+		126 = { RAS_thunder_damage_state_effect = yes }
+		127 = { RAS_thunder_damage_state_effect = yes }
+		128 = { RAS_thunder_damage_state_effect = yes }
+		130 = { RAS_thunder_damage_state_effect = yes }
+		131 = { RAS_thunder_damage_state_effect = yes }
+		132 = { RAS_thunder_damage_state_effect = yes }
+		133 = { RAS_thunder_damage_state_effect = yes }
+		134 = { RAS_thunder_damage_state_effect = yes }
+		news_event = { id = news.40 }
+	}
+}
+
+country_event = {
+	id = russia.50
+	hidden = yes
+	is_triggered_only = yes
+	trigger = {
+		RAS_airborne_operation_active = yes
+		has_country_flag = RAS_khankala_flight_pending
+		NOT = { has_country_flag = RAS_khankala_interception_checked }
+	}
+	immediate = {
+		set_country_flag = RAS_khankala_interception_checked
+		if = {
+			limit = {
+				NOT = { has_country_flag = RAS_thunder_executed }
+				CHE = {
+					has_completed_focus = CHE_chechen_air_force
+					has_completed_focus = CHE_modernization_of_airfields
+				}
+			}
+			set_country_flag = RAS_khankala_transport_shot_down
+			country_event = { id = russia.53 }
+			CHE = { country_event = { id = chechnya.96 } }
+			news_event = { id = news.41 hours = 2 }
+		}
+	}
+}
+
+country_event = {
+	id = russia.51
+	hidden = yes
+	is_triggered_only = yes
+	trigger = { RAS_airborne_operation_active = yes has_country_flag = RAS_khankala_flight_pending }
+	immediate = {
+		clr_country_flag = RAS_khankala_flight_pending
+		set_country_flag = RAS_khankala_landing_completed
+		set_province_controller = 10612
+		if = {
+			limit = { has_country_flag = RAS_khankala_transport_shot_down }
+			load_oob = RAS_VDV_hankala_losses
+		}
+		else = { load_oob = RAS_VDV_hankala }
+	}
+}
+
+country_event = {
+	id = russia.52
+	title = russia.52.t
+	desc = russia.52.d
+	picture = GFX_Report_event_CHE_battle_is_in_here
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = RAS has_country_flag = RAS_airport_landing_failed }
+	option = {
+		name = russia.52.a
+		add_war_support = -0.05
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = russia.53
+	title = russia.53.t
+	desc = russia.53.d
+	picture = GFX_Report_event_destryoed_aviation
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = { tag = RAS has_country_flag = RAS_khankala_transport_shot_down }
+	option = { name = russia.53.a }
 }

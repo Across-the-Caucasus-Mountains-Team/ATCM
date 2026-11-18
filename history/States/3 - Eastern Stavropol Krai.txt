@@ -14,11 +14,11 @@ state={
 	    add_core_of = RAS
 	    victory_points = { 9792 25 }
 	    	    buildings = {
-	    	infrastructure = 3
-	    	industrial_complex = 2
-	    	fuel_silo = 1
-	    	air_base = 2
-	    	    	arms_factory = 3
+			infrastructure = 3
+			industrial_complex = 2
+			fuel_silo = 1
+			air_base = 2
+			arms_factory = 2
 }	
 	}
 	buildings_max_level_factor=1.000
