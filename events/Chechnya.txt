@@ -105,7 +105,7 @@ country_event = {
 	id = chechnya.5
 	title = chechnya.5.t
 	desc = chechnya.5.d
-	picture = GFX_Report_event_CHE_Gamsakhurdia_in_chechnya
+	picture = GFX_Report_event_Gamakshurdia_1
 
 	is_triggered_only = yes
 
@@ -478,7 +478,7 @@ country_event = {
 	id = chechnya.21
 	title = chechnya.21.t
 	desc = chechnya.21.d
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_opposition_takes_region
 
 	is_triggered_only = yes
 
@@ -539,7 +539,7 @@ country_event = {
 	id = chechnya.23
 	title = chechnya.23.t
 	desc = chechnya.23.d
-	picture = GFX_Report_event_CHE_election_1991
+	picture = GFX_Report_event_chechen_national_congress
 
 	is_triggered_only = yes
 
@@ -560,7 +560,7 @@ country_event = {
 	id = chechnya.24
 	title = chechnya.24.t
 	desc = chechnya.24.d
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_weapons
 
 	is_triggered_only = yes
 
@@ -727,7 +727,7 @@ country_event = {
 	id = chechnya.31
 	title = chechnya.31.t
 	desc = chechnya.31.d
-	picture = GFX_Report_event_CHE_battle_is_in_here
+	picture = GFX_Report_event_btr
 
 	is_triggered_only = yes
 
@@ -749,7 +749,7 @@ country_event = {
 	id = chechnya.32
 	title = chechnya.32.t
 	desc = chechnya.32.d
-	picture = GFX_Report_event_RAS_shooting_at_parliament
+	picture = GFX_Report_event_eltsin_and_maskhadov
 
 	is_triggered_only = yes
 	trigger = { has_war_with = CHE }
@@ -842,7 +842,7 @@ country_event = {
 	id = chechnya.33
 	title = chechnya.33.t
 	desc = chechnya.33.d
-	picture = GFX_Report_event_RAS_shooting_at_parliament
+	picture = GFX_Report_event_eltsin_and_maskhadov_2
 
 	is_triggered_only = yes
 
@@ -857,7 +857,7 @@ country_event = {
 	id = chechnya.34
 	title = chechnya.34.t
 	desc = chechnya.34.d
-	picture = GFX_Report_event_CHE_shamil_basayev
+	picture = GFX_Report_event_basayev_abchazia
 
 	is_triggered_only = yes
 
@@ -872,7 +872,7 @@ country_event = {
 	id = chechnya.35
 	title = chechnya.35.t
 	desc = chechnya.35.d
-	picture = GFX_Report_event_CHE_shamil_basayev
+	picture = GFX_Report_event_basayev_abchazia
 
 	is_triggered_only = yes
 
@@ -1159,7 +1159,7 @@ country_event = {
 	id = chechnya.46
 	title = chechnya.46.t
 	desc = chechnya.46.d
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_federativni_dogovor
 
 	is_triggered_only = yes
 
@@ -1194,7 +1194,7 @@ country_event = {
 	id = chechnya.48
 	title = chechnya.48.t
 	desc = CHE_base_handover_che_desc
-	picture = GFX_Report_event_RAS_fsb_report
+	picture = GFX_Report_event_chechen_and_russian_soldier
 
 	is_triggered_only = yes
 
@@ -1699,7 +1699,7 @@ country_event = {
 	id = chechnya.68
 	title = chechnya.68.t
 	desc = chechnya.68.d
-	picture = GFX_Report_event_RAS_failed_blitz
+	picture = GFX_Report_event_chechen_aviation
 
 	is_triggered_only = yes
 	fire_only_once = yes

@@ -636,16 +636,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Report_event_CHE_victory_of_dudayev.png"
 	}
     spriteType = {
-		name = "GFX_Report_event_soldiers"
-		texturefile = "gfx/event_pictures/Report_event_soldiers.png"
+		name = "GFX_Report_event_basayev_abchazia"
+		texturefile = "gfx/event_pictures/Report_event_basayev_abchazia.png"
 	}	
     spriteType = {
-		name = "GFX_Report_event_soldier"
-		texturefile = "gfx/event_pictures/Report_event_soldier.png"
+		name = "GFX_Report_event_opposition_takes_region"
+		texturefile = "gfx/event_pictures/Report_event_opposition_takes_region.png"
 	}
     spriteType = {
-		name = "GFX_Report_event_politicians"
-		texturefile = "gfx/event_pictures/Report_event_politicians.png"
+		name = "GFX_Report_event_federativni_dogovor"
+		texturefile = "gfx/event_pictures/Report_event_federativni_dogovor.png"
 	}
     spriteType = {
 		name = "GFX_Report_event_Gamakshurdia_1"
@@ -676,12 +676,12 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/Report_event_btr.png"
 	}
     spriteType = {
-		name = "GFX_Report_event_che_1"
-		texturefile = "gfx/event_pictures/Report_event_che_1.png"
+		name = "GFX_Report_event_chechen_national_congress"
+		texturefile = "gfx/event_pictures/Report_event_chechen_national_congress.png"
 	}
     spriteType = {
-		name = "GFX_Report_event_che_2"
-		texturefile = "gfx/event_pictures/Report_event_che_2.png"
+		name = "GFX_Report_event_weapons"
+		texturefile = "gfx/event_pictures/Report_event_weapons.png"
 	}
 
 	spriteType = {
