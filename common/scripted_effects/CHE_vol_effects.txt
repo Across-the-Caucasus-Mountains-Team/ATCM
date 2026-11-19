@@ -1,0 +1,182 @@
+CHE_vol_init_effect = {
+	if = {
+		limit = { NOT = { has_variable = CHE_fv_org } }
+		set_variable = { CHE_fv_org = 0.02 }
+	}
+	if = {
+		limit = { NOT = { has_variable = CHE_fv_mp } }
+		set_variable = { CHE_fv_mp = 5 }
+	}
+	if = {
+		limit = { NOT = { has_variable = CHE_fv_pp } }
+		set_variable = { CHE_fv_pp = -0.02 }
+	}
+	if = {
+		limit = { NOT = { has_variable = CHE_fv_plan } }
+		set_variable = { CHE_fv_plan = 0.05 }
+	}
+	if = {
+		limit = { NOT = { has_variable = CHE_unso_men } }
+		set_variable = { CHE_unso_men = 0 }
+	}
+	if = {
+		limit = { NOT = { has_dynamic_modifier = { modifier = CHE_foreign_volunteers_dm } } }
+		add_dynamic_modifier = { modifier = CHE_foreign_volunteers_dm }
+	}
+}
+
+CHE_vol_boost_effect = {
+	CHE_vol_init_effect = yes
+	add_to_variable = { CHE_fv_org = 0.02 }
+	add_to_variable = { CHE_fv_mp = 5 }
+	add_to_variable = { CHE_fv_pp = -0.02 }
+	add_to_variable = { CHE_fv_plan = 0.05 }
+}
+
+CHE_vol_templates_effect = {
+	if = {
+		limit = { NOT = { has_country_flag = CHE_vol_tpl_v23 } }
+		division_template = {
+			name = "Бригада Хаттаба"
+			template_counter = 101
+			regiments = {
+				CHE_br_hattab = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Арабский отряд"
+			template_counter = 102
+			regiments = {
+				CHE_br_arab = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Отряд инструкторов"
+			template_counter = 103
+			regiments = {
+				CHE_br_instr = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Отряд «Викинг»"
+			template_counter = 104
+			regiments = {
+				CHE_br_unso = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Джамаат Дагестана"
+			template_counter = 105
+			regiments = {
+				CHE_br_jamaat = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Турецкий отряд"
+			template_counter = 106
+			regiments = {
+				CHE_br_turk = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Азербайджанский отряд"
+			template_counter = 107
+			regiments = {
+				CHE_br_azerb = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Афганский отряд"
+			template_counter = 108
+			regiments = {
+				CHE_br_afghan = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Сирийско-палестинская группа"
+			template_counter = 109
+			regiments = {
+				CHE_br_palest = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Ингушский отряд"
+			template_counter = 110
+			regiments = {
+				CHE_br_ingush = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Прибалтийская группа"
+			template_counter = 111
+			regiments = {
+				CHE_br_baltic = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Грузинский отряд"
+			template_counter = 112
+			regiments = {
+				CHE_br_georgia = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Белые колготки"
+			template_counter = 116
+			is_locked = yes
+			regiments = {
+				white_stockings = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Корпус УНСО: пехота"
+			template_counter = 113
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 2 y = 0 }
+				infantry = { x = 3 y = 0 }
+				mortar = { x = 4 y = 0 }
+				sniper_company = { x = 0 y = 1 }
+			}
+			support = {
+				atgm_company = { x = 0 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Корпус УНСО: артиллерия"
+			template_counter = 114
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				artillery_brigade = { x = 1 y = 0 }
+				artillery_brigade = { x = 2 y = 0 }
+				mortar = { x = 3 y = 0 }
+			}
+			support = {
+				recon = { x = 0 y = 0 }
+				engineer = { x = 1 y = 0 }
+			}
+		}
+		division_template = {
+			name = "Корпус УНСО: бронетанковый"
+			template_counter = 115
+			regiments = {
+				modern_armor = { x = 0 y = 0 }
+				modern_armor = { x = 1 y = 0 }
+				armoured_personnel_carrier = { x = 2 y = 0 }
+				armoured_personnel_carrier = { x = 3 y = 0 }
+				armoured_personnel_carrier = { x = 4 y = 0 }
+				sniper_company = { x = 0 y = 1 }
+				cavalry = { x = 1 y = 1 }
+			}
+			support = {
+				atgm_company = { x = 0 y = 0 }
+			}
+		}
+		set_country_flag = CHE_vol_tpl_v23
+		set_division_template_lock = {
+			division_template = "Белые колготки"
+			is_locked = yes
+		}
+	}
+}

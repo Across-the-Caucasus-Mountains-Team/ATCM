@@ -1,0 +1,12 @@
+dynamic_modifiers = {
+
+	CHE_foreign_volunteers_dm = {
+		enable = { always = yes }
+		icon = GFX_idea_SOV_ato_operation
+
+		army_org_factor = CHE_fv_org
+		weekly_manpower = CHE_fv_mp
+		political_power_gain = CHE_fv_pp
+		max_planning = CHE_fv_plan
+	}
+}

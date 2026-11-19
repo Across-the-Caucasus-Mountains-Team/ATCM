@@ -1,0 +1,10 @@
+technology_folders = {
+
+	CHE_technical_folder = {
+		ledger = army
+	}
+}
+
+technology_categories = {
+	CHE_technical_category
+}
