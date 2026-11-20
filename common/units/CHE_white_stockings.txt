@@ -1,0 +1,58 @@
+sub_units = {
+
+	white_stockings = {
+		abbreviation = "WS"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 602
+		ai_priority = 200
+		active = yes
+
+		type = {
+			infantry
+		}
+
+		group = infantry
+
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_recon
+		}
+
+		combat_width = 2
+		max_strength = 5
+		max_organisation = 50
+		default_morale = 0.3
+		manpower = 15
+		training_time = 60
+		suppression = 1.0
+		weight = 0.5
+		supply_consumption = 0.01
+
+		recon = 5
+
+		need = {
+			infantry_equipment = 15
+			uniform_equipment = 15
+			bulletproof_vests_equipment = 15
+		}
+
+		forest = {
+			attack = 0.10
+			defence = 0.10
+			movement = 0.05
+		}
+		urban = {
+			attack = 0.10
+			defence = 0.15
+		}
+		hills = {
+			attack = 0.05
+			defence = 0.10
+			movement = 0.05
+		}
+	}
+}

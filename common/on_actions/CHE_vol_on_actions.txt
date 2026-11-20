@@ -1,0 +1,30 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { tag = CHE }
+				CHE_vol_init_effect = yes
+			}
+		}
+	}
+
+	on_daily_CHE = {
+		effect = {
+			if = {
+				limit = { NOT = { has_dynamic_modifier = { modifier = CHE_foreign_volunteers_dm } } }
+				CHE_vol_init_effect = yes
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			if = {
+				limit = { tag = CHE
+					NOT = { has_dynamic_modifier = { modifier = CHE_foreign_volunteers_dm } } }
+				CHE_vol_init_effect = yes
+			}
+		}
+	}
+}

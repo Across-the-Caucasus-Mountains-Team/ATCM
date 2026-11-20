@@ -1,0 +1,721 @@
+CHE_vol_cat = {
+
+	CHE_vol_baltic = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_baltic_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_call_for_help
+			date > 1994.11.1
+			NOT = { has_country_flag = CHE_vol_baltic_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_baltic_v23_done
+			add_manpower = 92
+			army_experience = 6
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 79 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 9 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 79 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 9 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 88 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Прибалтийская группа\" division_template = \"Прибалтийская группа\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_baltic\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_baltic_here_1
+			}
+			custom_effect_tooltip = CHE_vol_baltic_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_georgia = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_georgia_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_call_for_help
+			date > 1994.11.1
+			NOT = { has_country_flag = CHE_vol_georgia_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_georgia_v23_done
+			add_manpower = 230
+			army_experience = 7
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 198 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 22 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 198 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 22 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 220 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Грузинский отряд\" division_template = \"Грузинский отряд\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_georgia\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_georgia_here_1
+			}
+			custom_effect_tooltip = CHE_vol_georgia_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_unso = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_unso_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_ukraine
+			date > 1994.12.1
+			NOT = { has_country_flag = CHE_vol_unso_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_unso_v23_done
+			add_manpower = 172
+			army_experience = 8
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 148 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 16 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 148 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 16 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 165 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Отряд «Викинг»\" division_template = \"Отряд «Викинг»\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_unso\" portraits = { army = { large = \"GFX_portrait_CHE_unso\" small = \"GFX_idea_CHE_unso\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_unso_here_1
+			}
+			custom_effect_tooltip = CHE_vol_unso_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_jamaat = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_jamaat_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_the_muslim_world
+			date > 1998.7.1
+			NOT = { has_country_flag = CHE_vol_jamaat_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_jamaat_v23_done
+			add_manpower = 690
+			army_experience = 10
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 594 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 66 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 594 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 66 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 660 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Джамаат Дагестана\" division_template = \"Джамаат Дагестана\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_jamaat\" portraits = { army = { large = \"GFX_portrait_CHE_jamaat\" small = \"GFX_idea_CHE_jamaat\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_jamaat_here_1
+			}
+			custom_effect_tooltip = CHE_vol_jamaat_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_turk = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_turk_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_the_muslim_world
+			date > 1994.11.1
+			NOT = { has_country_flag = CHE_vol_turk_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_turk_v23_done
+			add_manpower = 230
+			army_experience = 8
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 198 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 22 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 198 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 22 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 220 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Турецкий отряд\" division_template = \"Турецкий отряд\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_turk\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_turk_here_1
+			}
+			custom_effect_tooltip = CHE_vol_turk_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_azerb = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_azerb_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_the_muslim_world
+			date > 1994.11.1
+			NOT = { has_country_flag = CHE_vol_azerb_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_azerb_v23_done
+			add_manpower = 172
+			army_experience = 6
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 148 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 16 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 148 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 16 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 165 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Азербайджанский отряд\" division_template = \"Азербайджанский отряд\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_azerb\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_azerb_here_1
+			}
+			custom_effect_tooltip = CHE_vol_azerb_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_afghan = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_afghan_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_the_muslim_world
+			date > 1998.12.1
+			NOT = { has_country_flag = CHE_vol_afghan_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_afghan_v23_done
+			add_manpower = 230
+			army_experience = 10
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 198 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 22 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 198 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 22 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 220 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Афганский отряд\" division_template = \"Афганский отряд\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_afghan\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_afghan_here_1
+			}
+			custom_effect_tooltip = CHE_vol_afghan_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_palest = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_palest_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_the_muslim_world
+			date > 1995.11.1
+			NOT = { has_country_flag = CHE_vol_palest_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_palest_v23_done
+			add_manpower = 172
+			army_experience = 6
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 148 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 16 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 148 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 16 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 165 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Сирийско-палестинская группа\" division_template = \"Сирийско-палестинская группа\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_palest\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_palest_here_1
+			}
+			custom_effect_tooltip = CHE_vol_palest_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_ingush = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_ingush_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_the_muslim_world
+			date > 1994.11.1
+			NOT = { has_country_flag = CHE_vol_ingush_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_ingush_v23_done
+			add_manpower = 345
+			army_experience = 6
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 297 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 33 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 297 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 33 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 330 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Ингушский отряд\" division_template = \"Ингушский отряд\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_ingush\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_ingush_here_1
+			}
+			custom_effect_tooltip = CHE_vol_ingush_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_hattab = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_hattab_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_use_khattab_influence
+			date > 1998.7.1
+			NOT = { has_country_flag = CHE_vol_hattab_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_hattab_v23_done
+			add_manpower = 1725
+			army_experience = 15
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 1485 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 165 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1485 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 165 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 1650 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Бригада Хаттаба № 1\" division_template = \"Бригада Хаттаба\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_hattab\" portraits = { army = { large = \"GFX_portrait_CHE_hattab\" small = \"GFX_idea_CHE_hattab\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_hattab_here_1
+			}
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Бригада Хаттаба № 2\" division_template = \"Бригада Хаттаба\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_hattab\" portraits = { army = { large = \"GFX_portrait_CHE_hattab\" small = \"GFX_idea_CHE_hattab\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_hattab_here_2
+			}
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Бригада Хаттаба № 3\" division_template = \"Бригада Хаттаба\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_hattab\" portraits = { army = { large = \"GFX_portrait_CHE_hattab\" small = \"GFX_idea_CHE_hattab\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_hattab_here_3
+			}
+			custom_effect_tooltip = CHE_vol_hattab_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_arab = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_arab_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_use_khattab_influence
+			date > 1998.12.1
+			NOT = { has_country_flag = CHE_vol_arab_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_arab_v23_done
+			add_manpower = 288
+			army_experience = 12
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 248 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 28 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 248 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 28 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 275 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Арабский отряд\" division_template = \"Арабский отряд\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_arab\" portraits = { army = { large = \"GFX_portrait_CHE_arab\" small = \"GFX_idea_CHE_arab\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_arab_here_1
+			}
+			custom_effect_tooltip = CHE_vol_arab_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_instr = {
+		icon = GFX_decision_generic_propaganda
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_vol_instr_v23_done }
+		}
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_completed_focus = CHE_use_khattab_influence
+			date > 1995.11.1
+			NOT = { has_country_flag = CHE_vol_instr_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_vol_instr_v23_done
+			add_manpower = 138
+			army_experience = 12
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 119 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 13 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 119 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 13 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 132 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Отряд инструкторов\" division_template = \"Отряд инструкторов\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_instr\" }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_instr_here_1
+			}
+			custom_effect_tooltip = CHE_vol_instr_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_ukraine_extended = {
+		icon = GFX_decision_generic_propaganda
+		allowed = {
+			tag = CHE
+		}
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_unso_corps_open }
+			NOT = { has_country_flag = CHE_unso_refused }
+		}
+		available = {
+			has_completed_focus = CHE_volunteers_from_ukraine
+			NOT = { has_country_flag = CHE_unso_corps_open }
+			NOT = { has_country_flag = CHE_unso_refused }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_init_effect = yes
+			if = {
+				limit = { is_historical_focus_on = yes }
+				set_country_flag = CHE_unso_refused
+				custom_effect_tooltip = CHE_vol_ukraine_extended_refused_tt
+			}
+			else = {
+				CHE_vol_boost_effect = yes
+				set_country_flag = CHE_unso_corps_open
+				add_manpower = 575
+				army_experience = 25
+				custom_effect_tooltip = CHE_vol_ukraine_extended_tt
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_white_stockings = {
+		icon = GFX_decision_generic_propaganda
+		allowed = {
+			tag = CHE
+		}
+		potential = {
+			tag = CHE
+			NOT = { has_country_flag = CHE_ws_v23_done }
+		}
+		available = {
+			has_completed_focus = CHE_call_for_help
+			date > 1994.11.1
+			NOT = { has_country_flag = CHE_ws_v23_done }
+		}
+		cost = 25
+		complete_effect = {
+			set_technology = { sniper_company = 1 }
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			set_country_flag = CHE_ws_v23_done
+			add_timed_idea = { idea = CHE_white_stockings_idea days = 365 }
+			add_manpower = 35
+			set_division_template_lock = {
+				division_template = "Белые колготки"
+				is_locked = yes
+			}
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 33 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 33 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 33 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Белые колготки № 1\" division_template = \"Белые колготки\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_white_stockings\" portraits = { army = { large = \"GFX_portrait_CHE_white_stockings\" small = \"GFX_idea_CHE_white_stockings\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_ws_here_1
+				}
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Белые колготки № 2\" division_template = \"Белые колготки\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = \"CHE_vol_off_white_stockings\" portraits = { army = { large = \"GFX_portrait_CHE_white_stockings\" small = \"GFX_idea_CHE_white_stockings\" } } }"
+					owner = CHE
+				}
+				set_state_flag = CHE_ws_here_2
+				}
+			custom_effect_tooltip = CHE_vol_white_stockings_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
+CHE_unso_corps_cat = {
+
+	CHE_vol_unso_inf = {
+		icon = GFX_decision_generic_propaganda
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_country_flag = CHE_unso_corps_open
+			check_variable = { var = CHE_unso_men value = 10000 compare = less_than }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			add_to_variable = { CHE_unso_men = 472 }
+			add_manpower = 543
+			army_experience = 10
+			add_equipment_to_stockpile = { type = atgm_equipment amount = 9 }
+			add_equipment_to_stockpile = { type = bbm_chassis amount = 6 }
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 449 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 44 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 422 }
+			add_equipment_to_stockpile = { type = mortar_equipment amount = 9 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 45 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 519 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Корпус УНСО: пехота\" division_template = \"Корпус УНСО: пехота\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = CHE_vol_off_unso_inf }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_unso_inf_here
+				}
+			custom_effect_tooltip = CHE_vol_unso_inf_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_unso_art = {
+		icon = GFX_decision_generic_propaganda
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_country_flag = CHE_unso_corps_open
+			check_variable = { var = CHE_unso_men value = 10000 compare = less_than }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			add_to_variable = { CHE_unso_men = 345 }
+			add_manpower = 397
+			army_experience = 10
+			add_equipment_to_stockpile = { type = bbm_chassis amount = 11 }
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 210 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 11 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 180 }
+			add_equipment_to_stockpile = { type = mortar_equipment amount = 9 }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 26 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 75 }
+			add_equipment_to_stockpile = { type = towed_artillery_equipment amount = 26 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 457 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Корпус УНСО: артиллерия\" division_template = \"Корпус УНСО: артиллерия\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = CHE_vol_off_unso_art }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_unso_art_here
+				}
+			custom_effect_tooltip = CHE_vol_unso_art_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	CHE_vol_unso_tank = {
+		icon = GFX_decision_generic_propaganda
+		allowed = {
+			tag = CHE
+		}
+		available = {
+			has_country_flag = CHE_unso_corps_open
+			check_variable = { var = CHE_unso_men value = 10000 compare = less_than }
+		}
+		cost = 25
+		complete_effect = {
+			CHE_vol_templates_effect = yes
+			CHE_vol_boost_effect = yes
+			add_to_variable = { CHE_unso_men = 457 }
+			add_manpower = 526
+			army_experience = 10
+			add_equipment_to_stockpile = { type = apc_equipment amount = 26 }
+			add_equipment_to_stockpile = { type = atgm_equipment amount = 9 }
+			add_equipment_to_stockpile = { type = bbm_chassis amount = 3 }
+			add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = 421 }
+			add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = 40 }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 382 }
+			add_equipment_to_stockpile = { type = modern_tank_equipment amount = 29 }
+			add_equipment_to_stockpile = { type = support_equipment amount = 61 }
+			add_equipment_to_stockpile = { type = uniform_equipment amount = 503 }
+			random_owned_state = {
+				limit = { is_core_of = CHE }
+				create_unit = {
+					division = "name = \"Корпус УНСО: бронетанковый\" division_template = \"Корпус УНСО: бронетанковый\" start_experience_factor = 0.9 start_equipment_factor = 1.0 officer = { name = CHE_vol_off_unso_tank }"
+					owner = CHE
+				}
+				set_state_flag = CHE_vol_unso_tank_here
+				}
+			custom_effect_tooltip = CHE_vol_unso_tank_tt
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+
+		CHE_white_stockings_idea = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			picture = generic_army_reform
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				modifier_army_sub_unit_white_stockings_attack_factor = 1.00
+				modifier_army_sub_unit_white_stockings_defence_factor = 2.00
+				army_org_factor = 0.10
+			}
+		}
+	}
+}

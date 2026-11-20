@@ -1,0 +1,357 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_unit_CHE_br_hattab_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/hattab_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_hattab_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/hattab_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_hattab_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/hattab_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_arab_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/arab_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_arab_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/arab_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_arab_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/arab_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_instr_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/instr_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_instr_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/instr_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_instr_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/instr_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_unso_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_unso_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_unso_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_jamaat_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/jamaat_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_jamaat_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/jamaat_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_jamaat_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/jamaat_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_turk_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/turk_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_turk_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/turk_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_turk_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/turk_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_azerb_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/azerb_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_azerb_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/azerb_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_azerb_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/azerb_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_afghan_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/afghan_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_afghan_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/afghan_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_afghan_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/afghan_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_palest_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/palest_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_palest_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/palest_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_palest_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/palest_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_ingush_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/ingush_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_ingush_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/ingush_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_ingush_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/ingush_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_baltic_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/baltic_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_baltic_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/baltic_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_baltic_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/baltic_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_georgia_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/georgia_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_georgia_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/georgia_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_CHE_br_georgia_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/georgia_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_white_stockings_icon_medium"
+		texturefile = "gfx/interface/divisions/CHE_vol/white_stockings_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_white_stockings_icon_medium_white"
+		texturefile = "gfx/interface/divisions/CHE_vol/white_stockings_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_unit_white_stockings_icon_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/white_stockings_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_101_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/hattab_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_101_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/hattab_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_102_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/arab_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_102_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/arab_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_103_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/instr_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_103_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/instr_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_104_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_104_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_105_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/jamaat_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_105_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/jamaat_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_106_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/turk_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_106_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/turk_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_107_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/azerb_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_107_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/azerb_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_108_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/afghan_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_108_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/afghan_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_109_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/palest_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_109_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/palest_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_110_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/ingush_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_110_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/ingush_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_111_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/baltic_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_111_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/baltic_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_112_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/georgia_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_112_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/georgia_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_116_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/white_stockings_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_116_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/white_stockings_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_113_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_inf_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_113_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_inf_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_114_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_art_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_114_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_art_small.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_115_large"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_tank_large.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_div_templ_115_small"
+		texturefile = "gfx/interface/divisions/CHE_vol/unso_tank_small.dds"
+		noOfFrames = 1
+	}
+}
