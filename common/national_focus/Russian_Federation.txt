@@ -1062,7 +1062,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_chehcnya_is_our_historical_state
-		icon = GFX_RAS_chehcnya_is_terrorist_state
+		icon = GFX_focus_generic_modernize_industry 
 		prerequisite = { focus = RAS_chehcnya_is_terrorist_state }
 		relative_position_id = RAS_information_war
 		x = 0
