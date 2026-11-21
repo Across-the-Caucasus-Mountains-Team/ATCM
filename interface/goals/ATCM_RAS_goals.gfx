@@ -323,6 +323,33 @@ spriteTypes = {
 		name = "GFX_RAS_additional_shipments_to_the_cto_zone"
 		texturefile = "gfx/interface/Goals/RAS/RAS_additional_shipments_to_the_cto_zone.png"
 	}	
+	spriteType = {
+		name = "GFX_RAS_move_south_chechnya"
+		texturefile = "gfx/interface/Goals/RAS/RAS_move_south_chechnya.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_attack_grozny"
+		texturefile = "gfx/interface/Goals/RAS/RAS_attack_grozny.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_conduct_mountain_cleanups"
+		texturefile = "gfx/interface/Goals/RAS/RAS_conduct_mountain_cleanups.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_chehcnya_is_our_historical_state"
+		texturefile = "gfx/interface/Goals/RAS/RAS_chehcnya_is_our_historical_state.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_conduct_cleanups_against_insurgency"
+		texturefile = "gfx/interface/Goals/RAS/RAS_conduct_cleanups_against_insurgency.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_the_war_dragged_on"
+		texturefile = "gfx/interface/Goals/RAS/RAS_the_war_dragged_on.png"
+	}
+
+
+
 
 	
 }
