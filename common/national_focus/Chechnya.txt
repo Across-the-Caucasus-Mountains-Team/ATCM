@@ -1400,6 +1400,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
+			set_country_flag = CHE_azerbaijan_decisions_unlocked
 			AZR = { add_popularity = { ideology = islam popularity = 0.05 } }
 			add_to_variable = { var = CHE_the_radicalism_of_islamists_value value = 5 tooltip = add_CHE_the_radicalism_of_islamists }
 			unlock_decision_category_tooltip = CHE_azerbaijan_influence_decision
@@ -1587,6 +1588,7 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = {
+			set_country_flag = CHE_georgia_decisions_unlocked
 			add_popularity = { ideology = islam popularity = 0.05 }
 			unlock_decision_category_tooltip = CHE_panci_crisis_decision
 			SAK = { country_event = { id = Georgia.55 hours = 1 } }

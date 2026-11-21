@@ -1840,6 +1840,7 @@ CHE_ingushetian_uprising = {
 
 CHE_panci_crisis_decision = {
 	CHE_georgia_support_protests = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 35
 			days_re_enable = 90
@@ -1855,6 +1856,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_political_pressure = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 50
 			days_re_enable = 90
@@ -1870,6 +1872,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_send_weapons = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 40
 			days_re_enable = 60
@@ -1895,6 +1898,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_send_volunteers = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 40
 			days_re_enable = 60
@@ -1921,6 +1925,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_send_instructors = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 30
 			days_re_enable = 60
@@ -1944,6 +1949,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_activate_cells = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 0
 			fire_only_once = yes
@@ -1962,6 +1968,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_expand_underground = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 30
 			days_re_enable = 30
@@ -1993,6 +2000,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_send_gelayev = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 50
 			fire_only_once = yes
@@ -2039,6 +2047,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_launch_operation = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 75
 			fire_only_once = yes
@@ -2074,6 +2083,7 @@ CHE_panci_crisis_decision = {
 		}
 
 	CHE_georgia_offer_peace = {
+			allowed = { original_tag = CHE }
 			icon = generic_political_address
 			cost = 50
 			days_re_enable = 60
@@ -2095,10 +2105,11 @@ CHE_panci_crisis_decision = {
 
 CHE_azerbaijan_influence_decision = {
 	CHE_azerbaijan_support_preachers = {
+		allowed = { original_tag = CHE }
 		icon = generic_political_discourse
 		cost = 25
 		days_re_enable = 30
-		visible = { has_completed_focus = CHE_support_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		visible = { OR = { has_country_flag = CHE_azerbaijan_decisions_unlocked has_completed_focus = CHE_support_azerbajani_radicals } NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
 		available = {
 			AZR = { exists = yes }
 			NOT = { has_war_with = AZR }
@@ -2111,10 +2122,11 @@ CHE_azerbaijan_influence_decision = {
 	}
 
 	CHE_azerbaijan_fund_propaganda = {
+		allowed = { original_tag = CHE }
 		icon = generic_political_discourse
 		cost = 35
 		days_re_enable = 45
-		visible = { has_completed_focus = CHE_support_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		visible = { OR = { has_country_flag = CHE_azerbaijan_decisions_unlocked has_completed_focus = CHE_support_azerbajani_radicals } NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
 		available = {
 			AZR = { exists = yes }
 			NOT = { has_war_with = AZR }
@@ -2127,10 +2139,11 @@ CHE_azerbaijan_influence_decision = {
 	}
 
 	CHE_azerbaijan_fund_underground = {
+		allowed = { original_tag = CHE }
 		icon = generic_political_discourse
 		cost = 35
 		days_re_enable = 30
-		visible = { has_completed_focus = CHE_support_azerbajani_radicals NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
+		visible = { OR = { has_country_flag = CHE_azerbaijan_decisions_unlocked has_completed_focus = CHE_support_azerbajani_radicals } NOT = { has_country_flag = CHE_azerbaijan_operation_started } }
 		available = {
 			AZR = { exists = yes }
 			NOT = { has_war_with = AZR }
@@ -2143,6 +2156,7 @@ CHE_azerbaijan_influence_decision = {
 	}
 
 	CHE_azerbaijan_send_weapons = {
+		allowed = { original_tag = CHE }
 		icon = generic_political_discourse
 		cost = 15
 		days_re_enable = 45
@@ -2173,6 +2187,7 @@ CHE_azerbaijan_influence_decision = {
 	}
 
 	CHE_azerbaijan_train_underground = {
+		allowed = { original_tag = CHE }
 		icon = generic_political_discourse
 		cost = 25
 		days_re_enable = 45
@@ -2202,6 +2217,7 @@ CHE_azerbaijan_influence_decision = {
 	}
 
 	CHE_azerbaijan_begin_operation = {
+		allowed = { original_tag = CHE }
 		icon = generic_prepare_civil_war
 		cost = 75
 		fire_only_once = yes

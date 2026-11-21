@@ -153,18 +153,29 @@ CHE_rebuilding_country = {
 }
 
 CHE_panci_crisis_decision = {
+	allowed = { original_tag = CHE }
 	icon = SOV_propaganda
 	priority = 87
-	visible = { tag = CHE has_completed_focus = CHE_light_a_fire_in_georgia }
+	visible = {
+		tag = CHE
+		OR = {
+			has_country_flag = CHE_georgia_decisions_unlocked
+			has_completed_focus = CHE_light_a_fire_in_georgia
+		}
+	}
 	visible_when_empty = no
 }
 
 CHE_azerbaijan_influence_decision = {
+	allowed = { original_tag = CHE }
 	icon = SOV_propaganda
 	priority = 86
 	visible = {
 		tag = CHE
-		has_completed_focus = CHE_support_azerbajani_radicals
+		OR = {
+			has_country_flag = CHE_azerbaijan_decisions_unlocked
+			has_completed_focus = CHE_support_azerbajani_radicals
+		}
 		NOT = { has_country_flag = CHE_azerbaijan_campaign_finished }
 		AZR = { exists = yes }
 	}
