@@ -560,7 +560,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_attack_grozny
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_attack_grozny
 		prerequisite = { focus = RAS_failed_blitz }
 		relative_position_id = RAS_failed_blitz
 		x = 0
@@ -609,7 +609,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_move_south_chechnya
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_move_south_chechnya
 		prerequisite = { focus = RAS_attack_grozny }
 		relative_position_id = RAS_attack_grozny
 		x = 0
@@ -659,8 +659,8 @@ focus_tree = {
 
 	focus = {
 		id = RAS_conduct_mountain_cleanups
-		icon = GFX_focus_generic_modernize_industry
-		prerequisite = { focus = RAS_move_south_chechnya }
+		icon = GFX_RAS_conduct_mountain_cleanups 
+		prerequisite = { focus = RAS_move_south_chechnya } 
 		relative_position_id = RAS_attack_grozny
 		x = 0
 		y = 3
@@ -703,7 +703,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_the_war_dragged_on
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_the_war_dragged_on
 		prerequisite = { focus = RAS_conduct_mountain_cleanups }
 		prerequisite = { focus = RAS_additional_infantry_battalions }
 		prerequisite = { focus = RAS_additional_shipments_to_the_cto_zone }
@@ -1062,7 +1062,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_chehcnya_is_our_historical_state
-		icon = GFX_focus_generic_modernize_industry 
+		icon = GFX_RAS_chehcnya_is_our_historical_state 
 		prerequisite = { focus = RAS_chehcnya_is_terrorist_state }
 		relative_position_id = RAS_information_war
 		x = 0
@@ -1524,7 +1524,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_conduct_cleanups_against_insurgency
-		icon = GFX_RAS_strengthen_chechen_blockposts
+		icon = GFX_RAS_conduct_cleanups_against_insurgency
 		prerequisite = { focus = RAS_strengthen_the_border_with_chechnya }
 		relative_position_id = RAS_operations_of_our_special_services
 		x = 2
