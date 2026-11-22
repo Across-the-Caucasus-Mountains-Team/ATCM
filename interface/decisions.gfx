@@ -80,6 +80,21 @@ spriteTypes = {
 		name = "GFX_decision_BTR"
 		texturefile = "gfx/interface/decisions/btr.png"
 	}
+
+	spriteType = {
+		name = "GFX_decision_vdv_helicopter"
+		texturefile = "gfx/interface/decisions/decision_vdv_helicopter.png"
+	}
+	spriteType = {
+		name = "GFX_decision_helmet"
+		texturefile = "gfx/interface/decisions/decision_helmet.png"
+	}
+	spriteType = {
+		name = "GFX_decision_btr_and_russian_flag"
+		texturefile = "gfx/interface/decisions/decision_btr_and_russian_flag.png"
+	}	
+
+	
 	
 	spriteType = {
 		name = "GFX_decision_SAK_mobilize_people"

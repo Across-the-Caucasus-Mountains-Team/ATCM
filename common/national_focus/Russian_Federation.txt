@@ -2697,7 +2697,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_propaganda_against_opponents
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_propaganda_against_opponents
 		prerequisite = { focus = RAS_conduct_elections_fairly }
 		relative_position_id = RAS_conduct_elections_fairly
 		x = -2
@@ -2783,7 +2783,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_use_oligarchs_money_for_election_campaign
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_use_oligarchs_money_for_election_campaign
 		prerequisite = { focus = RAS_conduct_elections_fairly }
 		relative_position_id = RAS_conduct_elections_fairly
 		x = 2
@@ -2819,7 +2819,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_sign_populist_decrees
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_sign_populist_decrees
 		prerequisite = { focus = RAS_use_administrative_resource }
 		prerequisite = { focus = RAS_propaganda_against_opponents }
 		prerequisite = { focus = RAS_use_oligarchs_money_for_election_campaign }
@@ -2863,7 +2863,7 @@ focus_tree = {
 
 	focus = {
 		id = RAS_victory
-		icon = GFX_focus_generic_modernize_industry
+		icon = GFX_RAS_victory
 		prerequisite = { focus = RAS_sign_populist_decrees }
 		relative_position_id = RAS_conduct_elections_fairly
 		x = 0

@@ -347,7 +347,23 @@ spriteTypes = {
 		name = "GFX_RAS_the_war_dragged_on"
 		texturefile = "gfx/interface/Goals/RAS/RAS_the_war_dragged_on.png"
 	}
+	spriteType = {
+		name = "GFX_RAS_victory"
+		texturefile = "gfx/interface/Goals/RAS/RAS_victory.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_sign_populist_decrees"
+		texturefile = "gfx/interface/Goals/RAS/RAS_sign_populist_decrees.png"
+	}
 
+	spriteType = {
+		name = "GFX_RAS_use_oligarchs_money_for_election_campaign"
+		texturefile = "gfx/interface/Goals/RAS/RAS_use_oligarchs_money_for_election_campaign.png"
+	}
+	spriteType = {
+		name = "GFX_RAS_propaganda_against_opponents"
+		texturefile = "gfx/interface/Goals/RAS/RAS_propaganda_against_opponents.png"
+	}
 
 
 

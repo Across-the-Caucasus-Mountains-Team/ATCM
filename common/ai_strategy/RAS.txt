@@ -31,7 +31,7 @@ RAS_chechen_war_is_going = {
 		type = front_control
 		tag = CHE
 		ordertype = front
-		execution_type = balanced
+		execution_type = rush
 		manual_attack = yes
 		execute_order = yes	
 	}

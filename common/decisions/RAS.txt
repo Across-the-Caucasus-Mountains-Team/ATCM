@@ -577,7 +577,7 @@ RAS_preparing_for_war_decision = {
 
 	RAS_prepare_for_airborne_landing_at_grozny_airport = {
 
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_vdv_helicopter
 		cost = 15
 		fire_only_once = yes
 		
@@ -635,7 +635,7 @@ RAS_preparing_for_war_decision = {
 	}
 
 	RAS_capture_terek_crossings = {
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_vdv_helicopter
 		cost = 25
 		fire_only_once = yes
 		visible = {
@@ -652,7 +652,7 @@ RAS_preparing_for_war_decision = {
 	}
 
 	RAS_operation_thunder = {
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_vdv_helicopter
 		cost = 25
 		fire_only_once = yes
 		visible = {
@@ -674,7 +674,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_failed_blitzkrieg_decision = {
 
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_btr_and_russian_flag
 		is_good = no
 		selectable_mission = no
 		fire_only_once = yes
@@ -740,7 +740,7 @@ RAS_first_chechen_war_decision = {
 
 
 	RAS_send_airport_reinforcements = {
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_vdv_helicopter
 		cost = 0
 		fire_only_once = yes
 		custom_cost_trigger = { NOT = { command_power < 15 } }
@@ -764,7 +764,7 @@ RAS_first_chechen_war_decision = {
 	}
 
 	RAS_send_VDV_to_Samashki = {
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_vdv_helicopter
 		cost = 10
 		fire_only_once = yes
 		visible = {
@@ -785,7 +785,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_take_Grozny = {
 
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_btr_and_russian_flag
 		is_good = yes
 		selectable_mission = no
 		fire_only_once = yes
@@ -829,7 +829,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_take_Shali = {
 
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_btr_and_russian_flag
 		is_good = yes
 		selectable_mission = no
 		fire_only_once = yes
@@ -867,7 +867,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_take_Gudermes = {
 
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_btr_and_russian_flag
 		is_good = yes
 		selectable_mission = no
 		fire_only_once = yes
@@ -905,7 +905,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_take_UrusMartan = {
 
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_btr_and_russian_flag
 		is_good = yes
 		selectable_mission = no
 		fire_only_once = yes
@@ -943,7 +943,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_take_Argun = {
 
-		icon = GFX_decision_generic_soldier
+		icon = GFX_decision_btr_and_russian_flag
 		is_good = yes
 		selectable_mission = no
 		fire_only_once = yes
@@ -981,7 +981,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_additional_supplies_to_the_front = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_helmet
 
 		cost = 45
 		fire_only_once = no
@@ -1021,7 +1021,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_additional_tanks_to_the_front = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_helmet
 
 		cost = 65
 		fire_only_once = no
@@ -1061,7 +1061,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_additional_artillery_to_the_front = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_helmet
 
 		cost = 45
 		fire_only_once = no
@@ -1106,7 +1106,7 @@ RAS_first_chechen_war_decision = {
 	
 	RAS_additional_manpower_in_the_kto = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_helmet
 
 		cost = 50
 		fire_only_once = no
@@ -1135,7 +1135,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_conduct_sharoi_cleanups = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_btr_and_russian_flag
 		cost = 185
 		fire_only_once = yes
 		
@@ -1172,7 +1172,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_conduct_itum_calinsky_cleanups = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_btr_and_russian_flag
 		cost = 195
 		fire_only_once = yes
 		
@@ -1209,7 +1209,7 @@ RAS_first_chechen_war_decision = {
 
 	RAS_conduct_shatoysky_cleanups = {
 
-		icon = GFX_decision_generic_soldie
+		icon = GFX_decision_btr_and_russian_flag
 		cost = 205
 		fire_only_once = yes
 		
