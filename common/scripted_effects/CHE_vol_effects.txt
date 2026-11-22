@@ -136,11 +136,13 @@ CHE_vol_templates_effect = {
 				infantry = { x = 1 y = 0 }
 				infantry = { x = 2 y = 0 }
 				infantry = { x = 3 y = 0 }
-				mortar = { x = 4 y = 0 }
-				sniper_company = { x = 0 y = 1 }
+
+
 			}
 			support = {
 				atgm_company = { x = 0 y = 0 }
+				mortar = { x = 1 y = 0 }
+				sniper_company = { x = 0 y = 1 }
 			}
 		}
 		division_template = {
@@ -150,11 +152,12 @@ CHE_vol_templates_effect = {
 				infantry = { x = 0 y = 0 }
 				artillery_brigade = { x = 1 y = 0 }
 				artillery_brigade = { x = 2 y = 0 }
-				mortar = { x = 3 y = 0 }
+
 			}
 			support = {
 				recon = { x = 0 y = 0 }
 				engineer = { x = 1 y = 0 }
+				mortar = { x = 0 y = 1 }
 			}
 		}
 		division_template = {
@@ -166,11 +169,12 @@ CHE_vol_templates_effect = {
 				armoured_personnel_carrier = { x = 2 y = 0 }
 				armoured_personnel_carrier = { x = 3 y = 0 }
 				armoured_personnel_carrier = { x = 4 y = 0 }
-				sniper_company = { x = 0 y = 1 }
+
 				cavalry = { x = 1 y = 1 }
 			}
 			support = {
 				atgm_company = { x = 0 y = 0 }
+				sniper_company = { x = 1 y = 0 }
 			}
 		}
 		set_country_flag = CHE_vol_tpl_v23

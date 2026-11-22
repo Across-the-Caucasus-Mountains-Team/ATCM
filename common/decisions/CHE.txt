@@ -1888,11 +1888,11 @@ CHE_panci_crisis_decision = {
 			}
 			complete_effect = {
 				effect_tooltip = { send_equipment = { type = infantry_equipment amount = 200 target = FROM old_prioritised = yes } }
-				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 200 } set_temp_variable = { CHE_stockpile_send = 1 } CHE_use_infantry_equipment_effect = yes }
 				effect_tooltip = { send_equipment = { type = uniform_equipment amount = 200 target = FROM old_prioritised = yes } }
-				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 200 } set_temp_variable = { CHE_stockpile_send = 1 } CHE_use_uniform_equipment_effect = yes }
 				effect_tooltip = { send_equipment = { type = support_equipment amount = 30 target = FROM old_prioritised = yes } }
-				hidden_effect = { CHE_use_support_equipment_effect = { AMOUNT = 30 RECIPIENT = FROM } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 30 } set_temp_variable = { CHE_stockpile_send = 1 } CHE_use_support_equipment_effect = yes }
 			}
 			ai_will_do = { factor = 5 }
 		}
@@ -1913,9 +1913,9 @@ CHE_panci_crisis_decision = {
 			}
 			complete_effect = {
 				effect_tooltip = { send_equipment = { type = infantry_equipment amount = 200 target = FROM old_prioritised = yes } }
-				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 200 } set_temp_variable = { CHE_stockpile_send = 1 } CHE_use_infantry_equipment_effect = yes }
 				effect_tooltip = { send_equipment = { type = uniform_equipment amount = 200 target = FROM old_prioritised = yes } }
-				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 200 RECIPIENT = FROM } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 200 } set_temp_variable = { CHE_stockpile_send = 1 } CHE_use_uniform_equipment_effect = yes }
 				add_manpower = -200
 				FROM = {
 					add_manpower = 200
@@ -1982,9 +1982,9 @@ CHE_panci_crisis_decision = {
 			}
 			complete_effect = {
 				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -50 } }
-				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 50 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 50 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_infantry_equipment_effect = yes }
 				effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -50 } }
-				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 50 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 50 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_uniform_equipment_effect = yes }
 				34 = {
 					add_resistance = 10
 					add_compliance = -3
@@ -2022,15 +2022,15 @@ CHE_panci_crisis_decision = {
 			complete_effect = {
 				add_manpower = -300
 				effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -300 } }
-				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 300 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 300 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_infantry_equipment_effect = yes }
 				effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -300 } }
-				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 300 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 300 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_uniform_equipment_effect = yes }
 				effect_tooltip = { add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = -300 } }
-				hidden_effect = { CHE_use_bulletproof_vests_equipment_effect = { AMOUNT = 300 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 300 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_bulletproof_vests_equipment_effect = yes }
 				effect_tooltip = { add_equipment_to_stockpile = { type = support_equipment amount = -30 } }
-				hidden_effect = { CHE_use_support_equipment_effect = { AMOUNT = 30 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 30 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_support_equipment_effect = yes }
 				effect_tooltip = { add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = -30 } }
-				hidden_effect = { CHE_use_grenade_launcher_equipment_effect = { AMOUNT = 30 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 30 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_grenade_launcher_equipment_effect = yes }
 				set_country_flag = CHE_GelayevInGeorgia
 				34 = {
 					add_resistance = 15
@@ -2174,13 +2174,13 @@ CHE_azerbaijan_influence_decision = {
 		}
 		complete_effect = {
 			effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -200 } }
-				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 200 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 200 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_infantry_equipment_effect = yes }
 			effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -100 } }
-				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 100 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_uniform_equipment_effect = yes }
 			effect_tooltip = { add_equipment_to_stockpile = { type = bulletproof_vests_equipment amount = -100 } }
-				hidden_effect = { CHE_use_bulletproof_vests_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 100 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_bulletproof_vests_equipment_effect = yes }
 			effect_tooltip = { add_equipment_to_stockpile = { type = grenade_launcher_equipment amount = -20 } }
-				hidden_effect = { CHE_use_grenade_launcher_equipment_effect = { AMOUNT = 20 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 20 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_grenade_launcher_equipment_effect = yes }
 			AZR = { add_to_variable = { CHE_azerbaijan_underground = 20 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
 		}
 		ai_will_do = { factor = 2 }
@@ -2205,11 +2205,11 @@ CHE_azerbaijan_influence_decision = {
 		}
 		complete_effect = {
 			effect_tooltip = { add_equipment_to_stockpile = { type = infantry_equipment amount = -100 } }
-				hidden_effect = { CHE_use_infantry_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 100 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_infantry_equipment_effect = yes }
 			effect_tooltip = { add_equipment_to_stockpile = { type = uniform_equipment amount = -100 } }
-				hidden_effect = { CHE_use_uniform_equipment_effect = { AMOUNT = 100 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 100 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_uniform_equipment_effect = yes }
 			effect_tooltip = { add_equipment_to_stockpile = { type = support_equipment amount = -20 } }
-				hidden_effect = { CHE_use_support_equipment_effect = { AMOUNT = 20 RECIPIENT = CHE } }
+				hidden_effect = { set_temp_variable = { CHE_stockpile_remaining = 20 } set_temp_variable = { CHE_stockpile_send = 0 } CHE_use_support_equipment_effect = yes }
 			add_manpower = -100
 			AZR = { add_to_variable = { CHE_azerbaijan_underground = 15 } clamp_variable = { var = CHE_azerbaijan_underground min = 0 max = 100 } }
 		}

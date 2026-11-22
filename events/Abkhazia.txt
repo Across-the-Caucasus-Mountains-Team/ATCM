@@ -12,10 +12,6 @@ country_event = {
 	option = {
 		name = abkhazia.1.a
 		add_war_support = 0.025
-		if = {
-			limit = { NOT = { has_character = ABK_shamil_basayev } }
-			recruit_character = ABK_shamil_basayev
-		}
 		add_manpower = 75
 		add_equipment_to_stockpile = { 
 			type = infantry_equipment_1 

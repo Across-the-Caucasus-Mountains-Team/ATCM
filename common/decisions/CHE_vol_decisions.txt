@@ -2,7 +2,7 @@ CHE_vol_cat = {
 
 	CHE_vol_baltic = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_baltic_v23_done }
 		}
@@ -43,7 +43,7 @@ CHE_vol_cat = {
 
 	CHE_vol_georgia = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_georgia_v23_done }
 		}
@@ -84,7 +84,7 @@ CHE_vol_cat = {
 
 	CHE_vol_unso = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_unso_v23_done }
 		}
@@ -125,7 +125,7 @@ CHE_vol_cat = {
 
 	CHE_vol_jamaat = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_jamaat_v23_done }
 		}
@@ -166,7 +166,7 @@ CHE_vol_cat = {
 
 	CHE_vol_turk = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_turk_v23_done }
 		}
@@ -207,7 +207,7 @@ CHE_vol_cat = {
 
 	CHE_vol_azerb = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_azerb_v23_done }
 		}
@@ -248,7 +248,7 @@ CHE_vol_cat = {
 
 	CHE_vol_afghan = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_afghan_v23_done }
 		}
@@ -289,7 +289,7 @@ CHE_vol_cat = {
 
 	CHE_vol_palest = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_palest_v23_done }
 		}
@@ -330,7 +330,7 @@ CHE_vol_cat = {
 
 	CHE_vol_ingush = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_ingush_v23_done }
 		}
@@ -371,7 +371,7 @@ CHE_vol_cat = {
 
 	CHE_vol_hattab = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_hattab_v23_done }
 		}
@@ -428,7 +428,7 @@ CHE_vol_cat = {
 
 	CHE_vol_arab = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_arab_v23_done }
 		}
@@ -469,7 +469,7 @@ CHE_vol_cat = {
 
 	CHE_vol_instr = {
 		icon = GFX_decision_generic_propaganda
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_vol_instr_v23_done }
 		}
@@ -513,7 +513,7 @@ CHE_vol_cat = {
 		allowed = {
 			tag = CHE
 		}
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_unso_corps_open }
 			NOT = { has_country_flag = CHE_unso_refused }
@@ -549,7 +549,7 @@ CHE_vol_cat = {
 		allowed = {
 			tag = CHE
 		}
-		potential = {
+		visible = {
 			tag = CHE
 			NOT = { has_country_flag = CHE_ws_v23_done }
 		}

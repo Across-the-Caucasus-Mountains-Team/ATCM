@@ -27,3 +27,13 @@ SOV_RAS = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 125 13 24 }
 }
+
+CHE_CAUCASIAN_CALIPHATE = {
+	color = rgb { 33 87 65 }
+	color_ui = rgb { 33 87 65 }
+}
+
+CHE_CAUCASIAN_CALIPHATE_EMIRATE = {
+	color = rgb { 33 87 65 }
+	color_ui = rgb { 33 87 65 }
+}

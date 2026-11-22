@@ -12,34 +12,10 @@ soundeffect = {
 	volume = 0.5
 }
 
-soundeffect = {
-	name = "sfx_ui_sd_module_turret"
-	volume = 0.5
-	sounds = {
-		sound = "sfx_ui_sd_module_turret_01"
-	}
-}
-soundeffect = {
-	name = "sfx_ui_sd_module_sonar"
-	volume = 0.5
-	sounds = {
-		sound = "sfx_ui_sd_module_sonar_01"
-	}
-}
-soundeffect = {
-	name = "sfx_ui_sd_module_default"
-	volume = 0.5
-	sounds = {
-		sound = "sfx_ui_sd_module_misc_01"
-	}
-}
-soundeffect = {
-	name = "sfx_ui_sd_module_engine"
-	volume = 0.27
-	sounds = {
-		sound = "sfx_ui_sd_module_engine_01"
-	}
-}
+
+
+
+
 
 #################################################################
 #####################IMPACT_EFFECTS##############################

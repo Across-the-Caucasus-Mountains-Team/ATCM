@@ -2450,7 +2450,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_mobile_warfare_medium"
-		texturefile = "gfx/interface/technologies/mobile_warfare.dds"
+		texturefile = "gfx/interface/techtree/icons/land_doctrine_folder_icon.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {

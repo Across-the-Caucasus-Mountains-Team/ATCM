@@ -1,8 +1,0 @@
-spriteTypes = {
-
-	spriteType = {
-		name = "GFX_CHE_technical_folder_tab"
-		texturefile = "gfx/interface/techtree/techtree_CHE_technical_tab.dds"
-		noOfFrames = 2
-	}
-}
