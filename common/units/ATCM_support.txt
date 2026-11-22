@@ -10,7 +10,6 @@ ags_platoon = {
 
 	type = { infantry support }
 	group = support
-	regimental = no
 
 	categories = {
 		category_support_battalions
@@ -46,6 +45,7 @@ ags_platoon = {
 		defence = 0.05
 	}
 
+	regimental = yes
 	can_be_parachuted = yes
 }
 
@@ -148,7 +148,6 @@ ags_platoon = {
 		}
 
 		can_be_parachuted = yes
-
 		supply_consumption = 0.01
 	}
 
