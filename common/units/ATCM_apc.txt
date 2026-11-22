@@ -29,7 +29,7 @@ sub_units = {
 			uniform_equipment = 85
 			bulletproof_vests_equipment = 85
 			support_equipment = 18
-			grenade_launcher_equipment = 12
+			grenade_launcher_equipment = 10
 		}
 		
 		manpower = 85

@@ -1,4 +1,54 @@
 sub_units = {
+ags_platoon = {
+	abbreviation = "AGS"
+	sprite = infantry
+	map_icon_category = infantry
+	priority = 0
+	ai_priority = 0
+	active = yes
+	affects_speed = no
+
+	type = { infantry support }
+	group = support
+	regimental = no
+
+	categories = {
+		category_support_battalions
+		category_army
+	}
+
+	combat_width = 0
+	max_strength = 1.5
+	max_organisation = 15
+	default_morale = 0.3
+	manpower = 12
+	training_time = 90
+	weight = 0.1
+	supply_consumption = 0.05
+	defense = 0.15
+
+	essential = {
+		grenade_launcher_equipment
+	}
+
+	need = {
+		grenade_launcher_equipment = 6
+		infantry_equipment = 10
+		uniform_equipment = 12
+		bulletproof_vests_equipment = 10
+		support_equipment = 1
+	}
+
+	urban = {
+		defence = 0.10
+	}
+	forest = {
+		defence = 0.05
+	}
+
+	can_be_parachuted = yes
+}
+
 	maintenance_company = {
 		abbreviation = "MNT"
 		sprite = infantry
@@ -123,7 +173,7 @@ sub_units = {
 			category_front_line
 			category_support_battalions
 			category_army
-		 category_regimental_support_battalions category_regimental_support_artillery }
+			category_regimental_support_battalions category_regimental_support_artillery }
 
 		combat_width = 0
 		max_strength = 2
