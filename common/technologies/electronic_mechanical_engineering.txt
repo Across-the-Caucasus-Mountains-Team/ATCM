@@ -31,9 +31,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			ship_fire_control_system_0
-		}
 
 		research_cost = 1
 		start_year = 1991
@@ -237,9 +234,6 @@ technologies = {
 		coordination_bonus = 0.01
 		research_cost = 1.25
 		start_year = 1994
-		enable_equipment_modules = {
-			ship_radar_2
-		}
 
 		folder = {
 			name = electronics_folder
@@ -337,9 +331,6 @@ technologies = {
 			level = 5
 		}
 		coordination_bonus = 0.01
-		enable_equipment_modules = {
-			ship_radar_3
-		}
 
 		special_project_specialization = { specialization_air specialization_nuclear }
 		static_anti_air_hit_chance_factor = 0.2
@@ -387,10 +378,6 @@ technologies = {
 			level = 6
 		}
 		coordination_bonus = 0.01
-		enable_equipment_modules = {
-			ship_radar_4
-
-		}
 		special_project_specialization = { specialization_air specialization_nuclear }
 		static_anti_air_hit_chance_factor = 0.2
 		research_cost = 1.25
@@ -424,10 +411,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = basic_fire_control_system
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2.5
 
@@ -463,10 +446,6 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = basic_decryption
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = improved_fire_control_system
 			research_cost_coeff = 1
 		}
 		research_cost = 2.5
@@ -517,10 +496,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = advanced_fire_control_system
-			research_cost_coeff = 1
-		}
 
 		research_cost = 2.5
 		start_year = 1996
@@ -819,96 +794,6 @@ technologies = {
 		}
 	}
 
-	basic_fire_control_system = {
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		enable_equipment_modules = {
-			ship_fire_control_system_1
-		}
-
-		research_cost = 1
-
-		folder = {
-			name = electronics_folder
-			position = { x = @firecontrol y = 4 }
-		}
-
-		ai_will_do = {
-			factor = 0.75
-			modifier = {
-				OR = {
-					can_research = improved_fire_control_system
-					has_tech = improved_fire_control_system
-				}
-				factor = 0
-			}
-		}
-
-		categories = {
-			electronics
-			computing_tech
-			naval_equipment
-		}
-	}
-
-	improved_fire_control_system = {
-
-		enable_equipment_modules = {
-			ship_fire_control_system_2
-		}
-
-		research_cost = 1
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-		folder = {
-			name = electronics_folder
-			position = { x = @firecontrol y = 8 }
-		}
-
-		ai_will_do = {
-			factor = 0.75
-			modifier = {
-				OR = {
-					can_research = advanced_fire_control_system
-					has_tech = advanced_fire_control_system
-				}
-				factor = 0
-			}
-		}
-
-		categories = {
-			electronics
-			computing_tech
-			naval_equipment
-		}
-	}
-
-	advanced_fire_control_system = {
-
-		enable_equipment_modules = {
-			ship_fire_control_system_3
-		}
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		research_cost = 1
-
-		folder = {
-			name = electronics_folder
-			position = { x = @firecontrol y = 12 }
-		}
-
-		categories = {
-			electronics
-			computing_tech
-			naval_equipment
-		}
-	}
 
 	basic_fortification_tech = {
 

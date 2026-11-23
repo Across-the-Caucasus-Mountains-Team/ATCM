@@ -99,31 +99,6 @@ update_operation_ai = {
 			add_to_temp_array = { operation_types = token:operation_infiltrate_armed_forces_airforce }
 			add_to_temp_array = { operation_types_scores = score }
 			
-			# navy infiltration
-			var:generic_operation_target = {
-				if = {
-					limit = { 
-						has_navy_size = { size > 0 }
-						PREV = {
-							has_navy_size = { size > 0 }
-						}
-					}
-					set_temp_variable = { score = num_ships }
-					
-					set_temp_variable = { t = num_ships_with_type@carrier }
-					multiply_temp_variable = { t = 20 }
-					add_to_temp_variable = { score = t }
-					
-					set_temp_variable = { t = num_ships_with_type@capital }
-					multiply_temp_variable = { t = 10 }
-					add_to_temp_variable = { score = t }
-					
-					clamp_temp_variable = { var = score max = 180 }
-					
-					add_to_temp_array = { operation_types = token:operation_infiltrate_armed_forces_navy }
-					add_to_temp_array = { operation_types_scores = score }
-				}
-			}
 			
 			# get token for boost resistance
 			var:generic_operation_target = {

@@ -12,7 +12,7 @@ land = {
 
 naval = {
 	allowed = {
-		always = yes
+		always = no
 	}
 	name = "naval_doctrine_folder"
 	ledger = navy

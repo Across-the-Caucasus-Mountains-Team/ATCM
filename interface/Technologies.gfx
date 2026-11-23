@@ -1721,22 +1721,6 @@ spriteTypes = {
 		name = "GFX_semi_modern_light_cruiser_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_light_cruiser.dds"
 	}
-	SpriteType = {
-		name = "GFX_advanced_light_cruiser_medium"
-		texturefile = "gfx/interface/technologies/advanced_light_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_light_cruiser_medium"
-		texturefile = "gfx/interface/technologies/improved_light_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_light_cruiser_medium"
-		texturefile = "gfx/interface/technologies/basic_light_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_light_cruiser_medium"
-		texturefile = "gfx/interface/technologies/early_light_cruiser.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_modern_light_cruiser_capital_medium"
@@ -1745,22 +1729,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_semi_modern_light_cruiser_capital_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_heavy_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_advanced_light_cruiser_capital_medium"
-		texturefile = "gfx/interface/technologies/advanced_heavy_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_light_cruiser_capital_medium"
-		texturefile = "gfx/interface/technologies/improved_heavy_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_light_cruiser_capital_medium"
-		texturefile = "gfx/interface/technologies/basic_heavy_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_light_cruiser_capital_medium"
-		texturefile = "gfx/interface/technologies/early_heavy_cruiser.dds"
 	}
 	SpriteType = {
 		name = "GFX_magnetic_detonator_medium"
@@ -1787,74 +1755,17 @@ spriteTypes = {
 		name = "GFX_semi_modern_heavy_cruiser_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_heavy_cruiser.dds"
 	}
-	SpriteType = {
-		name = "GFX_advanced_heavy_cruiser_medium"
-		texturefile = "gfx/interface/technologies/advanced_heavy_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_heavy_cruiser_medium"
-		texturefile = "gfx/interface/technologies/improved_heavy_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_heavy_cruiser_medium"
-		texturefile = "gfx/interface/technologies/basic_heavy_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_heavy_cruiser_medium"
-		texturefile = "gfx/interface/technologies/early_heavy_cruiser.dds"
-	}
 	
 
 	SpriteType = {
 		name = "GFX_semi_modern_battleship_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
 	}
-	SpriteType = {
-		name = "GFX_advanced_battleship_medium"
-		texturefile = "gfx/interface/technologies/advanced_battleship.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_battleship_medium"
-		texturefile = "gfx/interface/technologies/improved_battleship.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_battleship_medium"
-		texturefile = "gfx/interface/technologies/basic_battleship.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_battleship_medium"
-		texturefile = "gfx/interface/technologies/early_battleship.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_heavy_battleship_medium"
-		texturefile = "gfx/interface/technologies/heavy_battleship.dds"
-	}
-	SpriteType = {
-		name = "GFX_heavy_battleship2_medium"
-		texturefile = "gfx/interface/technologies/heavy_battleship2.dds"
-	}
-	
+
 
 	SpriteType = {
 		name = "GFX_semi_modern_carrier_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_carrier.dds"
-	}
-	SpriteType = {
-		name = "GFX_advanced_carrier_medium"
-		texturefile = "gfx/interface/technologies/advanced_carrier.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_carrier_medium"
-		texturefile = "gfx/interface/technologies/improved_carrier.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_carrier_medium"
-		texturefile = "gfx/interface/technologies/basic_carrier.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_carrier_medium"
-		texturefile = "gfx/interface/technologies/early_carrier.dds"
 	}
 	
 	SpriteType = {
@@ -1864,22 +1775,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_semi_modern_destroyer_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_advanced_destroyer_medium"
-		texturefile = "gfx/interface/technologies/advanced_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_destroyer_medium"
-		texturefile = "gfx/interface/technologies/improved_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_destroyer_medium"
-		texturefile = "gfx/interface/technologies/basic_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_destroyer_medium"
-		texturefile = "gfx/interface/technologies/early_destroyer.dds"
 	}
 
 	SpriteType = {
@@ -1898,14 +1793,6 @@ spriteTypes = {
 		name = "GFX_improved_battlecruiser_medium"
 		texturefile = "gfx/interface/technologies/improved_battlecruiser.dds"
 	}
-	SpriteType = {
-		name = "GFX_basic_battlecruiser_medium"
-		texturefile = "gfx/interface/technologies/basic_battlecruiser.dds"
-	}
-	SpriteType = {	
-		name = "GFX_early_battlecruiser_medium"
-		texturefile = "gfx/interface/technologies/early_battlecruiser.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_modern_submarine_medium"
@@ -1915,46 +1802,7 @@ spriteTypes = {
 		name = "GFX_semi_modern_submarine_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_submarine.dds"
 	}
-	SpriteType = {
-		name = "GFX_advanced_submarine_medium"
-		texturefile = "gfx/interface/technologies/advanced_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_submarine_medium"
-		texturefile = "gfx/interface/technologies/improved_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_submarine_medium"
-		texturefile = "gfx/interface/technologies/basic_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_submarine_medium"
-		texturefile = "gfx/interface/technologies/early_submarine.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_ship_hull_cruiser_panzerschiff_medium"
-		texturefile = "gfx/interface/technologies/ship_hull_panzerschiff.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_ship_hull_pre_dreadnought_medium"
-		texturefile = "gfx/interface/technologies/ship_hull_pre_dreadnought.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_ship_hull_cruiser_coastal_defense_ship_medium"
-		texturefile = "gfx/interface/technologies/ship_hull_cruiser_coastal_defense_ship.dds"
-	}
-	SpriteType = {
-		name = "GFX_coastal_defense_ships_medium" #Used for tech (tech researched pop-up)
-		texturefile = "gfx/interface/technologies/ship_hull_cruiser_coastal_defense_ship.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_ship_hull_carrier_conversion_ca_medium"
-		texturefile = "gfx/interface/technologies/ship_hull_carrier_conversion_ca.dds"
-	}
+
 
 	SpriteType = {
 		name = "GFX_fuel_medium"
@@ -2006,16 +1854,7 @@ spriteTypes = {
 		name = "GFX_train_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/train_equipment_3.dds"
 	}	
-	
 
-	SpriteType = {
-		name = "GFX_floating_harbor_equipment_medium"
-		texturefile = "gfx/interface/technologies/floating_harbor_equipment_1.dds"
-	}	
-	SpriteType = {
-		name = "GFX_floating_harbor_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/floating_harbor_equipment_1.dds"
-	}
 
 #	
 
@@ -2624,20 +2463,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/improved_heavy_armor_scheme.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_advanced_fire_control_system_medium"
-		texturefile = "gfx/interface/technologies/advanced_fire_control_system.dds"
-	}
 
-	SpriteType = {
-		name = "GFX_improved_fire_control_system_medium"
-		texturefile = "gfx/interface/technologies/improved_fire_control_system.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_basic_fire_control_system_medium"
-		texturefile = "gfx/interface/technologies/basic_fire_control_system.dds"
-	}
 	SpriteType = {
 		name = "GFX_advanced_heavy_battery_medium"
 		texturefile = "gfx/interface/technologies/advanced_heavy_battery.dds"
@@ -2898,44 +2724,12 @@ spriteTypes = {
 	#    #  #  # #  #  #        # #  #  #  #    
 	### ###  ##  #  #  #      ##  #  # ### #    
 
-	SpriteType = {
-		name = "GFX_advanced_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/advanced_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/improved_destroyer.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/basic_destroyer.dds"
-	}
-	SpriteType = {	
-		name = "GFX_early_ship_hull_light_medium"
-		texturefile = "gfx/interface/technologies/early_destroyer.dds"
-	}
 
 	 ##  ###  #  # ###  ## ### ###  
 	#  # #  # #  #  #  #   #   #  # 
 	#    ###  #  #  #   #  ##  ###  
 	#  # #  # #  #  #    # #   #  # 
 	 ##  #  #  ##  ### ##  ### #  # 
-	SpriteType = {
-		name = "GFX_advanced_ship_hull_cruiser_medium"
-		texturefile = "gfx/interface/technologies/advanced_light_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_ship_hull_cruiser_medium"
-		texturefile = "gfx/interface/technologies/improved_light_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_ship_hull_cruiser_medium"
-		texturefile = "gfx/interface/technologies/basic_light_cruiser.dds"
-	}
-	SpriteType = {	
-		name = "GFX_early_ship_hull_cruiser_medium"
-		texturefile = "gfx/interface/technologies/early_light_cruiser.dds"
-	}
 
 
 	 ## #  # ###  #   #  ##  ###  ### #  # ###  ## 
@@ -2943,69 +2737,17 @@ spriteTypes = {
 	 #  #  # ###  # # # #### ###   #  # ## ##   #  
 	  # #  # #  # #   # #  # #  #  #  #  # #     # 
 	##   ##  ###  #   # #  # #  # ### #  # ### ##  
-	SpriteType = {
-		name = "GFX_advanced_ship_hull_submarine_medium"
-		texturefile = "gfx/interface/technologies/advanced_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_ship_hull_submarine_medium"
-		texturefile = "gfx/interface/technologies/improved_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_ship_hull_submarine_medium"
-		texturefile = "gfx/interface/technologies/basic_submarine.dds"
-	}
-	SpriteType = {	
-		name = "GFX_early_ship_hull_submarine_medium"
-		texturefile = "gfx/interface/technologies/early_submarine.dds"
-	}
 	 ##   ##  ###  ###  ### ### ###  
 	#  # #  # #  # #  #  #  #   #  # 
 	#    #### ###  ###   #  ##  ###  
 	#  # #  # #  # #  #  #  #   #  # 
 	 ##  #  # #  # #  # ### ### #  # 
-	SpriteType = {
-		name = "GFX_advanced_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/advanced_carrier.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/improved_carrier.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/basic_carrier.dds"
-	}
-	SpriteType = {	
-		name = "GFX_early_ship_hull_carrier_medium"
-		texturefile = "gfx/interface/technologies/early_carrier.dds"
-	}
 	#  # ###  ##  #   # #   #      ## #  # ### ###   ## 
 	#  # #   #  # #   #  # #      #   #  #  #  #  # #   
 	#### ##  ####  # #    #        #  ####  #  ###   #  
 	#  # #   #  #  # #    #         # #  #  #  #      # 
 	#  # ### #  #   #     #       ##  #  # ### #    ##  
 
-	SpriteType = {
-		name = "GFX_advanced_ship_hull_heavy_medium"
-		texturefile = "gfx/interface/technologies/advanced_battleship.dds"
-	}
-	SpriteType = {
-		name = "GFX_ship_hull_super_heavy_medium"
-		texturefile = "gfx/interface/technologies/heavy_battleship.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_ship_hull_heavy_medium"
-		texturefile = "gfx/interface/technologies/improved_battleship.dds"
-	}
-	SpriteType = {
-		name = "GFX_basic_ship_hull_heavy_medium"
-		texturefile = "gfx/interface/technologies/basic_battleship.dds"
-	}
-	SpriteType = {	
-		name = "GFX_early_ship_hull_heavy_medium"
-		texturefile = "gfx/interface/technologies/early_battleship.dds"
-	}
 
 	### ###   ##  #  #  ## ###   ##  ###  ### 
 	 #  #  # #  # ## # #   #  # #  # #  #  #  
@@ -3617,80 +3359,21 @@ spriteTypes = {
 ## SPECIAL PROJECTS EQUIPMENT ICONS - SHIPS ##
 
 	# Midget Submarines
-	SpriteType = {
-		name = "GFX_ship_hull_midget_submarine_medium" #Used for MTG Version
-		texturefile = "gfx/interface/technologies/ship_hull_midget_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_midget_submarine_medium" #Used for non-MTG Version
-		texturefile = "gfx/interface/technologies/ship_hull_midget_submarine.dds"
-	}
-	SpriteType = { #MM: Should be obsolete now
-		name = "GFX_midget_submarines_medium" #Used for tech (tech researched pop-up)
-		texturefile = "gfx/interface/technologies/ship_hull_midget_submarine.dds"
-	}
 
 	# Cruiser Submarine GFXs
-	SpriteType = {
-		name = "GFX_ship_hull_cruiser_submarine_medium" #Used for MTG equipment
-		texturefile = "gfx/interface/technologies/generic_ship_hull_cruiser_submarine.dds" #Was ship_hull_cruiser_submarine, with GOT we got a new icon that matches the new 3D model
-	}
-	SpriteType = {
-		name = "GFX_cruiser_submarine_medium" #Used for non-MTG equipment
-			texturefile = "gfx/interface/technologies/generic_ship_hull_cruiser_submarine.dds" #Was ship_hull_cruiser_submarine, with GOT we got a new icon that matches the new 3D model
-	}
 	SpriteType = { #MM: Should be obsolete now
 		name = "GFX_cruiser_submarines_medium" #Used for tech (tech researched pop-up)
 		texturefile = "gfx/interface/technologies/generic_ship_hull_cruiser_submarine.dds" #Was ship_hull_cruiser_submarine, with GOT we got a new icon that matches the new 3D model
 	}
 
 	# Fleet Submarine
-	SpriteType = {
-		name = "GFX_ship_hull_fleet_submarine_medium" #Used for MTG Fleet Submarine (Equipment)
-		texturefile = "gfx/interface/technologies/ship_hull_fleet_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_fleet_submarine_medium" #Used for non-MTG Fleet Submarine (Equipment)
-		texturefile = "gfx/interface/technologies/ship_hull_fleet_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_rocket_submarine_medium" #Used for non-MTG Rocket Submarine (Equipment)
-		texturefile = "gfx/interface/technologies/ship_hull_fleet_submarine.dds"
-	}
 
 	# Nuclear Submarine
-	SpriteType = {
-		name = "GFX_ship_hull_nuclear_submarine_medium" #Used for MTG Nuclear Submarine
-		texturefile = "gfx/interface/technologies/generic_ship_hull_nuclear_powered_submarine.dds"
-	}
-	SpriteType = {
-		name = "GFX_nuclear_submarine_medium" #Used for non-MTG Nuclear Submarine
-		texturefile = "gfx/interface/technologies/generic_ship_hull_nuclear_powered_submarine.dds"
-	}	
-	SpriteType = {
-		name = "GFX_nuclear_missile_submarine_medium" #Used for non-MTG Nuclear Missile Submarine
-		texturefile = "gfx/interface/technologies/generic_ship_hull_nuclear_powered_submarine.dds"
-	}
+
 
 	# Torpedo Cruiser
-	SpriteType = {
-		name = "GFX_torpedo_cruiser_mtg_medium" #Used for MTG Torpedo Cruiser
-		texturefile = "gfx/interface/technologies/torpedo_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_ship_hull_torpedo_cruiser_medium" #Used for non-MTG Torpedo Cruiser
-		texturefile = "gfx/interface/technologies/torpedo_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_torpedo_cruiser_medium" #Used for Tech?
-		texturefile = "gfx/interface/technologies/torpedo_cruiser.dds"
-	}
 
 	# Habakkuk
-	SpriteType = {
-		name = "GFX_ship_hull_mega_carrier_medium" #MTG Mega Carrier
-		texturefile = "gfx/interface/technologies/ship_hull_ice_carrier.dds"
-	}
 	SpriteType = {
 		name = "GFX_mega_carrier_medium" #Non-MTG Mega Carrier
 		texturefile = "gfx/interface/technologies/ship_hull_ice_carrier.dds"
@@ -3698,24 +3381,12 @@ spriteTypes = {
 
 	# Modern Carrier
 	SpriteType = {
-		name = "GFX_ship_hull_carrier_modern_medium" #MTG Modern Carrier
-		texturefile = "gfx/interface/technologies/ship_hull_super_carrier.dds"
-	}
-	SpriteType = {
 		name = "GFX_modern_carrier_medium" #Non-MTG Modern Carrier
 		texturefile = "gfx/interface/technologies/ship_hull_super_carrier.dds"
 	}
 	
 	# Modern Battleship
-	SpriteType = {
-		name = "GFX_ship_hull_heavy_modern_medium" #Modern MTG Battleship
-		texturefile = "gfx/interface/technologies/ship_hull_modern_super_battleship.dds"
-	}	
-	SpriteType = {
-		name = "GFX_modern_battleship_medium" #Modern Non-MTG Battleship
-		texturefile = "gfx/interface/technologies/ship_hull_modern_super_battleship.dds"
-	}
-	
+
 
 	#Small Tech icons for Tech Tree
 	SpriteType = {

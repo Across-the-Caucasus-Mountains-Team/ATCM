@@ -1,5 +1,6 @@
 NDefines.NGame.START_DATE = "1991.1.1.12"
 NDefines.NGame.END_DATE = "2030.1.1.1"
+NDefines.NNavy.NAVAL_INVASION_SUPREMACY_RATIO = 0
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 0.514
 NDefines.NGame.HANDS_OFF_START_TAG = "TKM"		-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
 NDefines.NGame.TRADE_ROUTE_RECALCULATE_FREQUENCY_DAYS = 30 

@@ -18,9 +18,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			ship_anti_air_1
-		}
 
 		research_cost = 1.5
 		start_year = 1960
@@ -51,9 +48,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			ship_anti_air_1
-		}
 
 		research_cost = 1.5
 		start_year = 1970
@@ -84,9 +78,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			ship_anti_air_1
-		}
 
 		research_cost = 1.5
 		start_year = 1980
@@ -117,9 +108,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = {
-			ship_anti_air_1
-		}
 		start_year = 2000
 		research_cost = 1.5
 
@@ -145,9 +133,6 @@ technologies = {
 		enable_subunits = {
 		}
 
-		enable_equipment_modules = {
-			ship_anti_air_1
-		}
 
 		research_cost = 1.5
 
@@ -170,9 +155,6 @@ technologies = {
 
 		}
 
-		enable_equipment_modules = {
-
-		}
 
 		path = {
 			leads_to_tech = sau_artillery_1
@@ -200,9 +182,6 @@ technologies = {
 
 		}
 
-		enable_equipment_modules = {
-
-		}
 
 		path = {
 			leads_to_tech = sau_artillery_2
@@ -230,9 +209,6 @@ technologies = {
 
 		}
 
-		enable_equipment_modules = {
-
-		}
 
 			path = {
 			leads_to_tech = sau_artillery_3
@@ -260,9 +236,6 @@ technologies = {
 
 		}
 
-		enable_equipment_modules = {
-
-		}
 
 			path = {
 			leads_to_tech = sau_artillery_4
@@ -290,9 +263,6 @@ technologies = {
 
 		}
 
-		enable_equipment_modules = {
-
-		}
 
 		research_cost = 1.5
 
@@ -351,9 +321,6 @@ technologies = {
 			soft_attack = 0.15
 		}
 
-		enable_equipment_modules = {
-
-		}
 
 		path = {
 			leads_to_tech = towed_artillery_2
@@ -387,8 +354,6 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-		enable_equipment_modules = {
-		}
 
 		path = {
 			leads_to_tech = towed_artillery_3
@@ -502,8 +467,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		enable_equipment_modules = {
-		}
 		path = {
 			leads_to_tech = towed_artillery_5
 			research_cost_coeff = 1
@@ -550,8 +513,6 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-		enable_equipment_modules = {
-		}
 
 		path = {
 			leads_to_tech = towed_artillery_6
@@ -609,8 +570,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		enable_equipment_modules = {
-		}
 
 		path = {
 			leads_to_tech = towed_artillery_7

@@ -207,42 +207,7 @@ categories =  {
 		movement_cost = 1.0
 		is_water = yes
 		sound_type = sea
-		
-		battle_cruiser = {
-			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
-			}
-			navy_fuel_consumption_factor = 0.2
-		}
 
-		battleship = {
-			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
-			}
-			navy_fuel_consumption_factor = 0.2
-		}
-
-		heavy_cruiser = {
-			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
-			}
-			navy_fuel_consumption_factor = 0.2
-		}
-
-		carrier = {
-			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
-			}
-			navy_fuel_consumption_factor = 0.2
-		}
 
 		navy_visibility = -0.2
 		positioning = -0.15
@@ -255,9 +220,6 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 		
-		submarine = {
-			navy_visibility = 1.0
-		}
 
 		positioning = -0.05
 		naval_mine_hit_chance = -0.5
@@ -269,29 +231,7 @@ categories =  {
 		movement_cost = 1.0
 		is_water = yes
 		sound_type = sea
-		
-		destroyer = {
-			units = {
-				attack = -0.2
-				movement = -0.2
-				defence = -0.2
-			}
-		}
 
-		light_cruiser = {
-			units = {
-				attack = -0.1
-				movement = -0.1
-				defence = -0.1
-			}
-		}
-
-		submarine = {
-			navy_visibility = -0.15
-			units = {
-				movement = -0.25
-			}
-		}
 
 		naval_mine_hit_chance = -0.95
 	}

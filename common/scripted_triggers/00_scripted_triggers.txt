@@ -552,16 +552,7 @@ ai_has_completed_air_doctrine = {
 }
 
 ai_has_completed_naval_doctrine = {
-	is_ai = yes
-	OR = {
-		has_tech = grand_battlefleet
-		has_tech = submarine_offensive
-		has_tech = floating_airfield
-		has_tech = combined_operations_raiding
-		has_tech = integrated_convoy_defence
-		has_tech = submarine_offensive_bs
-		has_tech = carrier_battlegroups
-	}
+	always = no
 }
 
 trade_partner_not_at_war = {
