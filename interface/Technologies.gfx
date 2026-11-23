@@ -2120,22 +2120,22 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/early_fighter.dds"
+		texturefile = "gfx/interface/technologies/mig21.png"
 	}	
 
 	SpriteType = {
 		name = "GFX_fighter1_medium"
-		texturefile = "gfx/interface/technologies/fighter1.dds"
+		texturefile = "gfx/interface/technologies/mig23.png"
 	}	
 
 	SpriteType = {
 		name = "GFX_fighter2_medium"
-		texturefile = "gfx/interface/technologies/fighter2.dds"
+		texturefile = "gfx/interface/technologies/mig29.png"
 	}	
 
 	SpriteType = {
 		name = "GFX_fighter3_medium"
-		texturefile = "gfx/interface/technologies/fighter3.dds"
+		texturefile = "gfx/interface/technologies/su27.png"
 	}
 
 	SpriteType = {
@@ -2160,12 +2160,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CAS2_medium"
-		texturefile = "gfx/interface/technologies/su24.png"
+		texturefile = "gfx/interface/technologies/CAS2.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_CAS3_medium"
-		texturefile = "gfx/interface/technologies/su30.png"
+		texturefile = "gfx/interface/technologies/CAS3.dds"
 	}
 	
 	SpriteType = {
@@ -2210,7 +2210,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/tactical_bomber1.dds"
+		texturefile = "gfx/interface/technologies/su24.png"
 	}	
 
 	SpriteType = {
@@ -2220,7 +2220,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_jet_fighter1_medium"
-		texturefile = "gfx/interface/technologies/jet_fighter1.dds"
+		texturefile = "gfx/interface/technologies/su30.png"
 	}
 	
 	SpriteType = {
@@ -3220,15 +3220,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/light_plane_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_light_plane_2_medium"
+		name = "GFX_fighter_equipment_2_medium"
 		texturefile = "gfx/interface/technologies/mig29.png"
 	}
 	SpriteType = {
-		name = "GFX_light_plane_3_medium"
+		name = "GFX_fighter_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/mig23.png"
 	}
 	SpriteType = {
-		name = "GFX_light_plane_4_medium"
+		name = "GFX_fighter_equipment_0_medium"
 		texturefile = "gfx/interface/technologies/mig21.png"
 	}
 	SpriteType = {
@@ -3241,11 +3241,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_medium_plane_2_medium"
+		name = "GFX_tac_bomber_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/su24.png"
 	}
 	SpriteType = {
-		name = "GFX_medium_plane_1_medium"
+		name = "GFX_CAS_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/su25.png"
 	}
 	SpriteType = {
@@ -3254,7 +3254,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_heavy_plane_2_medium"
+		name = "GFX_fighter_equipment_3_medium"
 		texturefile = "gfx/interface/technologies/su27.png"
 	}
 	SpriteType = {
@@ -3262,7 +3262,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/medium_plane_4.dds"
 	}
 	SpriteType = {
-		name = "GFX_medium_plane_3_medium"
+		name = "GFX_jet_fighter_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/su30.png"
 	}
 	SpriteType = {
