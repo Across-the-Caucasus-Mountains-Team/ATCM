@@ -34,5 +34,4 @@ sub_unit_categories = {
 	category_regimental_support_battalions
 	category_regimental_support_artillery
 	category_rangers
-	category_divisional_support_battalions
 }
