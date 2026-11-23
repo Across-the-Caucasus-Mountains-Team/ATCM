@@ -429,10 +429,8 @@ category = {
 	cryptology_the_bombe_timer
 	operative_event_close
 
-	sfx_ui_sd_module_turret
-	sfx_ui_sd_module_sonar
- 	sfx_ui_sd_module_default
- 	sfx_ui_sd_module_engine
+
+
 
 	ui_doctrine_tab_air
 	ui_doctrine_tab_land

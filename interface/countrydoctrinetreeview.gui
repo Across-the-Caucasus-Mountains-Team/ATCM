@@ -907,6 +907,22 @@ guiTypes = {
 				}					
 				
 			}	 
+
+			gridboxtype = {
+				name = "special_forces_rangers_tree"
+				position = { x=1520 y=172 }
+				size = { width = 478 height = 1000 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=0 y=-150 }
+				}
+
+			}
+
 		}
 		
 		containerWindowType = {

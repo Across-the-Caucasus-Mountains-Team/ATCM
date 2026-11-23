@@ -284,11 +284,6 @@ ATCM_air_production = {
 		value = 1
 	}
 	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = large_plane_airframe
-		value = 0
-	}
-	ai_strategy = {
 		type = equipment_production_factor
 		id = heavy_fighter
 		value = 1
@@ -470,20 +465,6 @@ default_major_SF_marines = {
 	}
 }
 
-build_patrol_bombers = {
-	enable = {
-		has_dlc = "By Blood Alone"
-		has_navy_size = {
-			size > 1
-		}
-	}
-	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = unit_ratio
-		id = maritime_patrol_plane
-		value = 2
-	}
-}
 
 default_garrison_production = {
 	enable = {
@@ -974,10 +955,7 @@ put_garrisons_on_high_prio = {
 
 default_spyplanes_production = {
 	enable = {
-		OR = {
-			has_tech = scout_plane1
-			has_tech = photo_reconnaisance
-		}
+		has_tech = scout_plane1
 		is_major = yes
 	}
 	abort_when_not_enabled = yes
@@ -1000,10 +978,7 @@ default_spyplanes_production = {
 
 minors_dont_spy = {
 	enable = {
-		OR = {
-			has_tech = scout_plane1
-			has_tech = photo_reconnaisance
-		}
+		has_tech = scout_plane1
 		is_major = no
 	}
 	abort_when_not_enabled = yes
@@ -1063,9 +1038,9 @@ default_build_an_air_facility = {
 		is_major = yes
 		num_of_military_factories > 40
 		OR = {
-			has_tech = basic_small_airframe
-			has_tech = basic_medium_airframe
-			has_tech = basic_large_airframe
+			has_tech = fighter1
+			has_tech = tactical_bomber1
+			has_tech = strategic_bomber1
 		}
 		air_facility < 1
 	}

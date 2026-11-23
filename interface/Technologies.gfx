@@ -1296,10 +1296,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/nukes.dds"
 	}	
 	
-	SpriteType = {
-		name = "GFX_jet_engines_medium"
-		texturefile = "gfx/interface/technologies/jet_engines.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_electronic_mechanical_engineering_medium"
@@ -2263,80 +2259,6 @@ spriteTypes = {
 	}		
 
 
-
-
-	###	BBA
-	
-	SpriteType = {
-		name = "GFX_iw_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/mig21.png"
-	}
-
-	SpriteType = {
-		name = "GFX_basic_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/mig23.png"
-	}
-
-	SpriteType = {
-		name = "GFX_improved_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/mig29.png"
-	}
-
-	SpriteType = {
-		name = "GFX_advanced_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/light_plane_1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_modern_small_airframe_medium"
-		texturefile = "gfx/interface/technologies/jet_plane_1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_iw_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/su24.png"
-	}	
-	
-	SpriteType = {
-		name = "GFX_basic_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/su25.png"
-	}		
-	
-	SpriteType = {
-		name = "GFX_improved_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/su27.png"
-	}		
-	
-	SpriteType = {
-		name = "GFX_advanced_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/su30.png"
-	}	
-	SpriteType = {
-		name = "GFX_modern_medium_airframe_medium"
-		texturefile = "gfx/interface/technologies/medium_plane_4.dds"
-	}	
-
-	
-	SpriteType = {
-		name = "GFX_basic_large_airframe_medium"
-		texturefile = "gfx/interface/technologies/heavy_plane_1.dds"
-	}		
-
-	SpriteType = {
-		name = "GFX_improved_large_airframe_medium"
-		texturefile = "gfx/interface/technologies/heavy_plane_3.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_advanced_large_airframe_medium"
-		texturefile = "gfx/interface/technologies/heavy_plane_4.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_modern_large_airframe_medium"
-		texturefile = "gfx/interface/technologies/heavy_plane_2.dds"
-	}
-
 	### LAND DOCTRINES #############
 	SpriteType = {
 		name = "GFX_advanced_firebases_medium"
@@ -2450,7 +2372,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_mobile_warfare_medium"
-		texturefile = "gfx/interface/technologies/mobile_warfare.dds"
+		texturefile = "gfx/interface/techtree/icons/land_doctrine_folder_icon.dds"
 		alwaystransparent = yes
 	}
 	SpriteType = {
@@ -2877,7 +2799,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/secondary_battery.dds"
 	}
 
-	### BBA Naval Modules ###
 
 	SpriteType = {
 		name = "GFX_advanced_dp_light_battery_medium"
@@ -3350,93 +3271,6 @@ spriteTypes = {
 	}
 
 
-### Plane Designer Tech Tree Icons ###
-
-	SpriteType = {
-		name = "GFX_aa_lmg_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_aa_mg_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_aa_hmg_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_aa_mg_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_aa_cannon_1_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_aa_cannon_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_aa_cannon_2_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_aa_cannon_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_aa_cannon_3_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_aa_cannon_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_survivability_studies_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_survivability_studies.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_bombs_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_early_bombs.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_heavy_bombs_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_heavy_bombs.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_air_torpedoe_1_medium"
-		texturefile = "gfx/interface/technologies/basic_torpedo.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_air_torpedoe_2_medium"
-		texturefile = "gfx/interface/technologies/electric_torpedo.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_air_torpedoe_3_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_air_torpedoe_3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_armor_piercing_bombs_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_armor_piercing_bombs.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_photo_reconnaisance_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_photo_reconnaisance.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_engines_1_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_engines_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_engines_2_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_engines_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_engines_3_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_engines_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_engines_4_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_engines_4.dds"
-	}
-	SpriteType = {
-		name = "GFX_range_improvements_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_range_improvements.dds"
-	}
-	SpriteType = {
-		name = "GFX_aircraft_construction_medium"
-		texturefile = "gfx/interface/technologies/bba_tech_aircraft_construction.dds"
-	}
-
-
 	#####  ##    ##  #####
 	  #   #  #  #  #   #
 	  #   ####  ####   #
@@ -3469,11 +3303,6 @@ spriteTypes = {
 	##AIR##
 
 
-	### GENERIC PLANE ICONS (NON-BBA TECH TREE)
-
-	### GENERIC PLANE ICONS (BBA TECH TREE)
-
-
 	##INFANTRY##
 
 	##TANKS##
@@ -3497,8 +3326,6 @@ spriteTypes = {
 
 
 	## Vehickles / Other ##
-
-	## PLANE ICONS (BBA TECH TREE)
 
 
 	## Tanks ##
@@ -3592,14 +3419,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_sp_rockets_improved_guidance_medium"
 		texturefile = "gfx/interface/technologies/sp_rockets_improved_guidance.dds"
-	}
-	SpriteType = {
-		name = "GFX_sp_rockets_improved_rocket_bomber_medium"
-		texturefile = "gfx/interface/technologies/sp_rockets_improved_rocket_bomber.dds"
-	}
-	SpriteType = {
-		name = "GFX_sp_rockets_rocket_bomber_medium"
-		texturefile = "gfx/interface/technologies/sp_rockets_rocket_bomber.dds"
 	}
 	SpriteType = {
 		name = "GFX_sp_submarine_aip_diesel_combination_engines_medium"
@@ -3698,10 +3517,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_bba_early_transport_plane_medium"
-		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_1.dds"
-	}
-	SpriteType = {
 		name = "GFX_early_transport_plane_medium"
 		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_1.dds"
 	}
@@ -3710,19 +3525,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_bba_improved_transport_plane_medium"
-		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_2.dds"
-	}
-	SpriteType = {
 		name = "GFX_improved_transport_plane_medium"
 		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_transport_plane_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_bba_strategic_airlifter_medium"
 		texturefile = "gfx/interface/technologies/generic_transport_plane_equipment_3.dds"
 	}
 	SpriteType = {
@@ -3743,10 +3550,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_strat_bomber_intercontinental_equipment_medium"
 		texturefile = "gfx/interface/technologies/generic_strategic_bomber.dds"
-	}
-	SpriteType = {
-		name = "GFX_small_plane_airframe_5_medium"
-		texturefile = "gfx/interface/technologies/generic_supersonic_jet_plane.dds"
 	}
 	SpriteType = {
 		name = "GFX_supersonic_fighter1_medium"
@@ -3963,7 +3766,6 @@ spriteTypes = {
 		name = "GFX_archetype_uniform_equipment_medium"
 		texturefile = "gfx/interface/technologies/uniform_equipment_0.png"
 	}
-
 
 
 	SpriteType = {
@@ -4358,11 +4160,6 @@ spriteTypes = {
 		name = "GFX_modern_tank_2_medium"
 		texturefile = "gfx/interface/technologies/generic_modern_tank2.png"
 	}
-
-
-
-
-
 
 
 	SpriteType = {
