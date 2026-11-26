@@ -411,4 +411,6 @@ script_enum_equipment_bonus_type = {
 	uniform_equipment_5
 	uniform_equipment_6
 	uniform_equipment_7
+	uav_equipment
+	uav_equipment_1
 }

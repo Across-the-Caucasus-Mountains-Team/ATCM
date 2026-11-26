@@ -1751,4 +1751,27 @@ technologies = {
 			}
 		}
 	}
+
+	recon_uav1 = {
+		enable_equipments = { uav_equipment_1 }
+		enable_subunits = { uav_recon }
+		research_cost = 2
+		start_year = 1995
+		folder = {
+			name = air_techs_folder
+			position = { x = 12 y = 8 }
+		}
+		categories = {
+			air_equipment
+			cat_scout_plane
+			electronics
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 3
+				original_tag = RAS
+			}
+		}
+	}
 }

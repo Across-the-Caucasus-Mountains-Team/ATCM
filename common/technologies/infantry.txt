@@ -1248,6 +1248,7 @@ technologies = {
 	paratroopers = {
 
 		enable_subunits = {
+			light_paratrooper
 			paratrooper
 		}
 
@@ -1291,6 +1292,11 @@ technologies = {
 			soft_attack = 0.05
 		}
 
+		light_paratrooper = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+
 		path = {
 			leads_to_tech = paratroopers3
 			research_cost_coeff = 1
@@ -1321,6 +1327,10 @@ technologies = {
 	paratroopers3 = {
 
 		paratrooper = {
+			max_organisation = 5
+		}
+
+		light_paratrooper = {
 			max_organisation = 5
 		}
 

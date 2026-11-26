@@ -4099,4 +4099,21 @@ spriteTypes = {
 		name = "GFX_towed_artillery_equipment_4_small"
 		texturefile = "gfx/interface/technologies/2A65.png"
 	}
+
+	SpriteType = {
+		name = "GFX_recon_uav1_medium"
+		texturefile = "gfx/interface/technologies/uav1.png"
+	}
+	SpriteType = {
+		name = "GFX_archetype_uav_equipment_medium"
+		texturefile = "gfx/interface/technologies/uav1.png"
+	}
+	SpriteType = {
+		name = "GFX_uav_equipment_medium"
+		texturefile = "gfx/interface/technologies/uav1.png"
+	}
+	SpriteType = {
+		name = "GFX_uav_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/uav1.png"
+	}
 }

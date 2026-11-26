@@ -27,4 +27,29 @@ equipments = {
 		priority = 20	
 	}
 
+
+	uav_equipment = {
+		year = 1995
+		is_archetype = yes
+		is_buildable = no
+		type = support
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_uav_equipment
+		reliability = 0.8
+		lend_lease_cost = 1
+		build_cost_ic = 18
+		resources = {
+			steel = 1
+			aluminium = 2
+			rubber = 1
+		}
+	}
+
+	uav_equipment_1 = {
+		year = 1995
+		archetype = uav_equipment
+		priority = 10
+		visual_level = 0
+	}
 }
