@@ -88,7 +88,7 @@ equipments = {
 		year = 1960
 
 		is_archetype = yes
-		picture = archetype_motorized_rocket_equipment			
+		picture = ATCM_motorized_rocket_equipment
 		type = { 
 			artillery
 			motorized
@@ -118,6 +118,7 @@ equipments = {
 	}
 
 	motorized_rocket_equipment_1 = {
+		picture = ATCM_motorized_rocket_equipment_1
 		year = 1960
 
 		archetype = motorized_rocket_equipment
@@ -126,6 +127,7 @@ equipments = {
 	}
 	
 	motorized_rocket_equipment_2 = {
+		picture = ATCM_motorized_rocket_equipment_2
 		year = 1970
 
 		archetype = motorized_rocket_equipment
@@ -150,6 +152,7 @@ equipments = {
 	}
 
 	motorized_rocket_equipment_3 = {
+		picture = ATCM_motorized_rocket_equipment_3
 		year = 1980
 
 		archetype = motorized_rocket_equipment
@@ -175,6 +178,7 @@ equipments = {
 	}
 
 	motorized_rocket_equipment_4 = {
+		picture = ATCM_motorized_rocket_equipment_4
 		year = 2000
 
 		archetype = motorized_rocket_equipment
@@ -200,6 +204,7 @@ equipments = {
 	}
 
 	motorized_rocket_equipment_5 = {
+		picture = ATCM_motorized_rocket_equipment_5
 		year = 2010
 
 		archetype = motorized_rocket_equipment

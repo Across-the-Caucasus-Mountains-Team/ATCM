@@ -74,7 +74,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_archetype_motorized_rocket_equipment_medium"
-		texturefile = "gfx/interface/archetypes/archetype_motorized_rocket_equipment.dds"
+		texturefile = "gfx/interface/technologies/bm_21.png"
 	}	
 	
 	SpriteType = {
@@ -4115,5 +4115,35 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_uav_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/uav1.png"
+	}
+	SpriteType = {
+		name = "GFX_ATCM_motorized_rocket_equipment_medium"
+		texturefile = "gfx/interface/technologies/bm_21.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_ATCM_motorized_rocket_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/bm_21.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_ATCM_motorized_rocket_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/bm27_uragan.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_ATCM_motorized_rocket_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/Smerch.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_ATCM_motorized_rocket_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/TOS1.png"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_ATCM_motorized_rocket_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/Tornado.png"
+		legacy_lazy_load = no
 	}
 }

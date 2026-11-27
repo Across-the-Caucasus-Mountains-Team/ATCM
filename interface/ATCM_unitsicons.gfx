@@ -32,15 +32,6 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_artillery_icon_medium" textureFile = "gfx/interface/counters/divisions_large/support_unit_art_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_artillery_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/support_unit_art_icon_texticon_small.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_artillery_icon_small" textureFile = "gfx/interface/counters/divisions_small/support_unit_art_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_rocket_artillery_icon_medium" textureFile = "gfx/interface/counters/divisions_large/rszo.png" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_rocket_artillery_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/rszo_texticon_small.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_rocket_artillery_icon_small" textureFile = "gfx/interface/counters/divisions_small/rszo_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_medium" textureFile = "gfx/interface/counters/divisions_large/rszo.png" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/rszo_texticon_small.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_small" textureFile = "gfx/interface/counters/divisions_small/rszo_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_motorized_rocket_brigade_icon_medium" textureFile = "gfx/interface/counters/divisions_large/rszo.png" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_motorized_rocket_brigade_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/rszo_texticon_small.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_motorized_rocket_brigade_icon_small" textureFile = "gfx/interface/counters/divisions_small/rszo_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
 	spriteType = { name = "GFX_unit_motorized_icon_medium" textureFile = "gfx/interface/counters/divisions_large/unit_motorized_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_motorized_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/unit_motorized_icon_texticon_small.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_motorized_icon_small" textureFile = "gfx/interface/counters/divisions_small/unit_motorized_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
@@ -63,4 +54,13 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_paratrooper_icon_medium" textureFile = "gfx/interface/counters/divisions_large/unit_paratroop_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_paratrooper_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/unit_paratroop_icon_texticon_small.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_paratrooper_icon_small" textureFile = "gfx/interface/counters/divisions_small/unit_paratroop_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_rocket_artillery_icon_medium" textureFile = "gfx/interface/counters/divisions_large/reactive_artillery_icon.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_rocket_artillery_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/reactive_artillery_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_rocket_artillery_icon_small" textureFile = "gfx/interface/counters/divisions_small/reactive_artillery_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_medium" textureFile = "gfx/interface/counters/divisions_large/reactive_artillery_icon.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/reactive_artillery_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_rocket_artillery_brigade_icon_small" textureFile = "gfx/interface/counters/divisions_small/reactive_artillery_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_motorized_rocket_brigade_icon_medium" textureFile = "gfx/interface/counters/divisions_large/reactive_artillery_icon.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_motorized_rocket_brigade_icon_medium_white" textureFile = "gfx/interface/counters/divisions_small/reactive_artillery_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
+	spriteType = { name = "GFX_unit_motorized_rocket_brigade_icon_small" textureFile = "gfx/interface/counters/divisions_small/reactive_artillery_icon_texticon_small.dds" noOfFrames = 2 legacy_lazy_load = no }
 }

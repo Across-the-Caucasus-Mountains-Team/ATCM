@@ -3,6 +3,7 @@ technologies = {
 	@rocket_artillery = 3
 
 	reactive_artillery = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			motorized_rocket_equipment_1
@@ -35,6 +36,7 @@ technologies = {
 	}
 
 	reactive_artillery_1 = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			motorized_rocket_equipment_2
@@ -65,6 +67,7 @@ technologies = {
 	}
 
 	reactive_artillery_2 = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			motorized_rocket_equipment_3
@@ -95,6 +98,7 @@ technologies = {
 	}
 
 	reactive_artillery_3 = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			motorized_rocket_equipment_4
@@ -125,6 +129,7 @@ technologies = {
 	}
 
 	reactive_artillery_4 = {
+		show_equipment_icon = yes
 
 		enable_equipments = {
 			motorized_rocket_equipment_5

@@ -564,7 +564,6 @@ CHE_vol_cat = {
 			CHE_vol_templates_effect = yes
 			CHE_vol_boost_effect = yes
 			set_country_flag = CHE_ws_v23_done
-			add_timed_idea = { idea = CHE_white_stockings_idea days = 365 }
 			add_manpower = 35
 			set_division_template_lock = {
 				division_template = "Белые колготки"

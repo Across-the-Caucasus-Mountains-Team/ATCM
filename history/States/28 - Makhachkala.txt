@@ -7,6 +7,7 @@ state={
 	
 		
 	history={
+		add_extra_state_shared_building_slots = 3
 		owner = RAS
 		add_core_of = RAS
 		add_core_of = DAG

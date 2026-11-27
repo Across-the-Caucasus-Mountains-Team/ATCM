@@ -90,7 +90,6 @@ ideas = {
 				high_command_cost_factor = 0.05
 				air_chief_cost_factor = 0.05
 				army_chief_cost_factor = 0.05
-				navy_chief_cost_factor = 0.05
 				junta_drift = 0.01
 			}
 		}
@@ -116,7 +115,6 @@ ideas = {
 				high_command_cost_factor = 0.15
 				air_chief_cost_factor = 0.15
 				army_chief_cost_factor = 0.15
-				navy_chief_cost_factor = 0.15
 				junta_drift = 0.05
 			}
 		}

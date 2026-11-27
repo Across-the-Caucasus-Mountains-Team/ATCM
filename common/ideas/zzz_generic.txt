@@ -1241,11 +1241,6 @@ ideas = {
 		}
 	}
 	
-	naval_manufacturer = { 
-	
-		designer = yes
-	
-	}
 
 	aircraft_manufacturer = { 
 	

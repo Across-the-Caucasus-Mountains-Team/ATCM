@@ -8,6 +8,7 @@ state={
 		steel = 5
 	}
 	history={
+		add_extra_state_shared_building_slots = 2
 	owner = ARM
 	add_core_of = ARM
 	
