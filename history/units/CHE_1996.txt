@@ -11,9 +11,9 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
 		recon = { x = 0 y = 3 }
 	}
 }
@@ -29,10 +29,9 @@ division_template = {
 		armoured_personnel_carrier = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
 	}
 	is_locked = yes
 }
@@ -49,10 +48,11 @@ division_template = {
 		mountaineers = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
 		sniper_company = { x = 0 y = 2 }
 		recon = { x = 0 y = 3 }
+		ags_platoon = { x = 0 y = 4 }
 	}
 }
 
@@ -68,9 +68,9 @@ division_template = {
 		motorized = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
 		recon = { x = 0 y = 3 }
 	}
 }
@@ -88,10 +88,12 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		atgm_company = { x = 0 y = 2 }
-		sniper_company = { x = 0 y = 3 }
+		ags_platoon = { x = 0 y = 3 }
+		manpads_platoon = { x = 0 y = 4 }
+		maintenance_company = { x = 1 y = 0 }
 	}
 
 	is_locked = yes
@@ -109,7 +111,9 @@ division_template = {
 		artillery_brigade  = { x = 1 y = 1 }
 	}
 	support = {
-        recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		manpads_platoon = { x = 0 y = 2 }
 	}
 }
 
@@ -127,6 +131,7 @@ division_template = {
 	support = {
 		recon = { x = 0 y = 0 }
 		sniper_company = { x = 0 y = 1 }
+		ags_platoon = { x = 0 y = 2 }
 	}
 	is_locked = yes
 }
@@ -146,15 +151,12 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		atgm_company = { x = 0 y = 2 }
-		sniper_company = { x = 0 y = 3 }
-		mortar = { x = 0 y = 4 }
+		engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 3 }
+		manpads_platoon = { x = 0 y = 4 }
 		field_hospital = { x = 1 y = 0 }
-		artillery = { x = 1 y = 1 }
-		signal_company = { x = 1 y = 2 }
-		logistics_company = { x = 1 y = 3 }
 	}
 
 	is_locked = yes
@@ -173,12 +175,12 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
-		atgm_company = { x = 1 y = 0 }
-		field_hospital = { x = 1 y = 1 }
+		recon = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 3 }
+		manpads_platoon = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
 	}
 
 	is_locked = yes
@@ -197,16 +199,17 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		atgm_company = { x = 0 y = 2 }
-		sniper_company = { x = 0 y = 3 }
+		ags_platoon = { x = 0 y = 3 }
+		sniper_company = { x = 0 y = 4 }
 	}
 	is_locked = yes
 }
 
 division_template = {
-	name = "Ġaşloyn bataljon"
+	name = "Ġaşloyn bataljon (usilennyy)"
 	#Note: precursor to Gebirgs-Divisions
 	division_names_group = CHE_inf_01
 
@@ -217,15 +220,16 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
+		recon = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 3 }
+		sniper_company = { x = 0 y = 4 }
 	}
 }
 
 division_template = {
-	name = "Nizam docu bataljon"
+	name = "Nizam docu bataljon (usilennyy)"
 	#Note: precursor to Gebirgs-Divisions
 	division_names_group = CHE_inf_02
 
@@ -236,9 +240,10 @@ division_template = {
 		irregular_infantry = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 3 }
 	}
 }
 
@@ -254,10 +259,10 @@ division_template = {
 		artillery_brigade  = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		manpads_platoon = { x = 0 y = 3 }
 	}
 }
 
@@ -267,8 +272,8 @@ division_template = {
 	division_names_group = CHE_pol_01
 
 	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
 	}
 	
 	support = {
@@ -846,7 +851,7 @@ units = {
 				name_order = 1
 			}
 			location = 1857
-			division_template = "Ġaşloyn bataljon"
+			division_template = "Ġaşloyn bataljon (usilennyy)"
 			start_experience_factor = 0.4
 		}
 
@@ -856,7 +861,7 @@ units = {
 				name_order = 2
 			}
 			location = 6702
-			division_template = "Ġaşloyn bataljon"
+			division_template = "Ġaşloyn bataljon (usilennyy)"
 			start_experience_factor = 0.4
 		}
 
@@ -866,7 +871,7 @@ units = {
 				name_order = 1
 			}
 			location = 2300
-			division_template = "Ġaşloyn bataljon"
+			division_template = "Ġaşloyn bataljon (usilennyy)"
 			start_experience_factor = 0.45
 		}
 
@@ -876,7 +881,7 @@ units = {
 				name_order = 1
 			}
 			location = 10747
-			division_template = "Ġaşloyn bataljon"
+			division_template = "Ġaşloyn bataljon (usilennyy)"
 			start_experience_factor = 0.65
 		}
 
@@ -886,7 +891,7 @@ units = {
 				name_order = 1
 			}
 			location = 5611
-			division_template = "Ġaşloyn bataljon"
+			division_template = "Ġaşloyn bataljon (usilennyy)"
 			start_experience_factor = 0.5
 		}
 
@@ -896,7 +901,7 @@ units = {
 				name_order = 1
 			}
 			location = 6983
-			division_template = "Ġaşloyn bataljon"
+			division_template = "Ġaşloyn bataljon (usilennyy)"
 			start_experience_factor = 0.5
 		}
 
@@ -906,7 +911,7 @@ units = {
 				name_order = 1
 			}
 			location = 7872
-			division_template = "Ġaşloyn bataljon"
+			division_template = "Ġaşloyn bataljon (usilennyy)"
 			start_experience_factor = 0.5
 		}
 
@@ -916,7 +921,7 @@ units = {
 				name_order = 1
 			}
 			location = 7512
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.2
 		}
 
@@ -926,7 +931,7 @@ units = {
 				name_order = 1
 			}
 			location = 2753
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.2
 		}
 
@@ -936,7 +941,7 @@ units = {
 				name_order = 1
 			}
 			location = 9425
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.2
 		}
 
@@ -946,7 +951,7 @@ units = {
 				name_order = 1
 			}
 			location = 10764
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.2
 		}
 
@@ -956,7 +961,7 @@ units = {
 				name_order = 1
 			}
 			location = 10769
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.1
 		}
 
@@ -966,7 +971,7 @@ units = {
 				name_order = 1
 			}
 			location = 2902
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.1
 		}
 
@@ -976,7 +981,7 @@ units = {
 				name_order = 1
 			}
 			location = 10774
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.1
 		}
 
@@ -986,7 +991,7 @@ units = {
 				name_order = 1
 			}
 			location = 850
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.1
 		}
 
@@ -996,7 +1001,7 @@ units = {
 				name_order = 1
 			}
 			location = 9274
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.05
 		}
 
@@ -1006,7 +1011,7 @@ units = {
 				name_order = 1
 			}
 			location = 3731
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.05
 		}
 
@@ -1016,7 +1021,7 @@ units = {
 				name_order = 1
 			}
 			location = 3027
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.05
 		}
 
@@ -1026,7 +1031,7 @@ units = {
 				name_order = 1
 			}
 			location = 10789
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.05
 		}
 
@@ -1036,7 +1041,7 @@ units = {
 				name_order = 1
 			}
 			location = 5469
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.05
 		}
 
@@ -1046,7 +1051,7 @@ units = {
 				name_order = 1
 			}
 			location = 10794
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.05
 		}
 
@@ -1056,7 +1061,7 @@ units = {
 				name_order = 1
 			}
 			location = 6551
-			division_template = "Nizam docu bataljon"
+			division_template = "Nizam docu bataljon (usilennyy)"
 			start_experience_factor = 0.05
 		}
 

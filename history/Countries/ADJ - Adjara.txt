@@ -18,6 +18,7 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
+	anti_tank_infantry_weapon = 1
 }
 
 set_politics = {

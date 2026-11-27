@@ -1,6 +1,6 @@
 
 division_template = {
-	name = "Ġaşloyn bataljon"
+	name = "Ġaşloyn bataljon (usilennyy)"
 	#Note: precursor to Gebirgs-Divisions
 	division_names_group = CHE_inf_01
 
@@ -11,15 +11,16 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
+		recon = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 3 }
+		sniper_company = { x = 0 y = 4 }
 	}
 }
 
 division_template = {
-	name = "Nizam docu bataljon"
+	name = "Nizam docu bataljon (usilennyy)"
 	#Note: precursor to Gebirgs-Divisions
 	division_names_group = CHE_inf_02
 
@@ -30,14 +31,15 @@ division_template = {
 		irregular_infantry = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 3 }
 	}
 }
 
 division_template = {
-	name = "Artillerin bataljon"
+	name = "Artillerin bataljon 2"
 	#Note: precursor to Gebirgs-Divisions
 	division_names_group = CHE_Art_01
 
@@ -48,10 +50,10 @@ division_template = {
 		artillery_brigade  = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		manpads_platoon = { x = 0 y = 3 }
 	}
 }
 
@@ -63,7 +65,7 @@ units = {
 			name_order = 1
 		}
 		location = 17366
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.4
 	}
 
@@ -73,7 +75,7 @@ units = {
 			name_order = 2
 		}
 		location = 17505
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.4
 	}
 	
@@ -83,7 +85,7 @@ units = {
 			name_order = 1
 		}
 		location = 17506
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.45
 	}
 	
@@ -93,7 +95,7 @@ units = {
 			name_order = 1
 		}
 		location = 17366
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.65
 	}
 
@@ -103,7 +105,7 @@ units = {
 			name_order = 1
 		}
 		location = 10609
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.5
 	}
 
@@ -113,7 +115,7 @@ units = {
 			name_order = 1
 		}
 		location = 17385
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.5
 	}
 
@@ -123,7 +125,7 @@ units = {
 			name_order = 1
 		}
 		location = 17368
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.5
 	}
 
@@ -133,7 +135,7 @@ units = {
 			name_order = 1
 		}
 		location = 17400
-		division_template = "Ġaşloyn bataljon"
+		division_template = "Ġaşloyn bataljon (usilennyy)"
 		start_experience_factor = 0.5
 	}
 
@@ -143,7 +145,7 @@ units = {
 			name_order = 1
 		}
 		location = 17370
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.2
 	}
 
@@ -153,7 +155,7 @@ units = {
 			name_order = 1
 		}
 		location = 8281
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.2
 	}
 
@@ -163,7 +165,7 @@ units = {
 			name_order = 1
 		}
 		location = 10581
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.2
 	}
 
@@ -173,7 +175,7 @@ units = {
 			name_order = 1
 		}
 		location = 17367
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.2
 	}
 
@@ -183,7 +185,7 @@ units = {
 			name_order = 1
 		}
 		location = 17367
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.1
 	}
 
@@ -193,7 +195,7 @@ units = {
 			name_order = 1
 		}
 		location = 128
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.1
 	}
 
@@ -203,7 +205,7 @@ units = {
 			name_order = 1
 		}
 		location = 2854
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.1
 	}
 
@@ -213,7 +215,7 @@ units = {
 			name_order = 1
 		}
 		location = 10527
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.1
 	}
 
@@ -223,7 +225,7 @@ units = {
 			name_order = 1
 		}
 		location = 10483
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.05
 	}
 
@@ -233,7 +235,7 @@ units = {
 			name_order = 1
 		}
 		location = 5622
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.05
 	}
 
@@ -243,7 +245,7 @@ units = {
 			name_order = 1
 		}
 		location = 2481
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.05
 	}
 
@@ -253,7 +255,7 @@ units = {
 			name_order = 1
 		}
 		location = 6457
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.05
 	}
 
@@ -263,7 +265,7 @@ units = {
 			name_order = 1
 		}
 		location = 6457
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.05
 	}
 
@@ -273,7 +275,7 @@ units = {
 			name_order = 1
 		}
 		location = 6342
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.05
 	}
 
@@ -283,7 +285,7 @@ units = {
 			name_order = 1
 		}
 		location = 6342
-		division_template = "Nizam docu bataljon"
+		division_template = "Nizam docu bataljon (usilennyy)"
 		start_experience_factor = 0.05
 	}
 
@@ -293,7 +295,7 @@ units = {
 			name_order = 1
 		}
 		location = 2964
-		division_template = "Artillerin bataljon"
+		division_template = "Artillerin bataljon 2"
 		start_experience_factor = 0.1
 	}
 
@@ -303,7 +305,7 @@ units = {
 			name_order = 2
 		}
 		location = 10593
-		division_template = "Artillerin bataljon"
+		division_template = "Artillerin bataljon 2"
 		start_experience_factor = 0.1
 	}
 
@@ -313,7 +315,7 @@ units = {
 			name_order = 3
 		}
 		location = 10593
-		division_template = "Artillerin bataljon"
+		division_template = "Artillerin bataljon 2"
 		start_experience_factor = 0.3
 	}
 
@@ -323,7 +325,7 @@ units = {
 			name_order = 4
 		}
 		location = 10593
-		division_template = "Artillerin bataljon"
+		division_template = "Artillerin bataljon 2"
 		start_experience_factor = 0.2
 	}
 }	

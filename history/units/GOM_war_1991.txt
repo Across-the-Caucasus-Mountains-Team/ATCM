@@ -6,13 +6,16 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 0 y = 3 }
+		irregular_infantry = { x = 0 y = 4 }
+		irregular_infantry = { x = 1 y = 0 }
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		ags_platoon = { x = 0 y = 2 }
 	}
 }
 
@@ -25,12 +28,12 @@ division_template = {
 		modern_armor = { x = 0 y = 0 }
 		modern_armor = { x = 0 y = 1 }
 		modern_armor = { x = 0 y = 2 }
-        modern_armor = { x = 1 y = 0 }
-		modern_armor = { x = 1 y = 1 }
+		armoured_personnel_carrier = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
 	}
 }
 
@@ -46,8 +49,9 @@ division_template = {
 		mountaineers = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		ags_platoon = { x = 0 y = 2 }
 	}
 }
 
@@ -63,8 +67,9 @@ division_template = {
 		motorized = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		ags_platoon = { x = 0 y = 2 }
 	}
 }
 
@@ -76,13 +81,14 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+		irregular_infantry = { x = 0 y = 3 }
 	}
 	support = {
-	    engineer = { x = 0 y = 2 }
-	    recon = { x = 0 y = 0 }
-	    artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		mortar = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 3 }
 	}
 }
 

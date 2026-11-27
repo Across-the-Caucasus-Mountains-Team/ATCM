@@ -11,12 +11,12 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
-		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
-		atgm_company = { x = 1 y = 0 }
-		field_hospital = { x = 1 y = 1 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		mortar = { x = 0 y = 2 }
+		sniper_company = { x = 0 y = 3 }
+		ags_platoon = { x = 0 y = 4 }
+		signal_company = { x = 1 y = 0 }
 	}
 
 	is_locked = yes
@@ -35,30 +35,31 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		mortar = { x = 0 y = 2 }
-		atgm_company = { x = 0 y = 3 }
+		engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		ags_platoon = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
 	}
 }
 
 division_template = {
 	name = "Vzvod reaktivnoy artilleryy"
 
-	division_names_group = RAS_Inf_01
+	division_names_group = RAS_RArt_01
 
 	regiments = {
 		motorized_rocket_brigade = { x = 0 y = 0 }
 		motorized_rocket_brigade = { x = 0 y = 1 }
-        motorized_rocket_brigade = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		motorized_rocket_brigade = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		mortar = { x = 0 y = 2 }
-		atgm_company = { x = 0 y = 3 }
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		manpads_platoon = { x = 0 y = 4 }
 	}
 }
 
@@ -71,15 +72,13 @@ division_template = {
 		modern_armor = { x = 0 y = 0 }
 		modern_armor = { x = 0 y = 1 }
 		modern_armor = { x = 0 y = 2 }
-        infantry_fighting_vehicle = { x = 1 y = 0 }
-		infantry_fighting_vehicle = { x = 1 y = 1 }
+		infantry_fighting_vehicle = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-		mortar = { x = 0 y = 3 }
-		atgm_company = { x = 0 y = 4 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		manpads_platoon = { x = 0 y = 3 }
 	}
 
 	is_locked = no
@@ -88,20 +87,20 @@ division_template = {
 division_template = {
 	name = "Mekhanizirovanaya Rota"
 
-	division_names_group = RAS_Arm_01
+	division_names_group = RAS_Mech_01
 
 	regiments = {
-		armoured_personnel_carrier = { x = 0 y = 0 }
-		armoured_personnel_carrier = { x = 0 y = 1 }
-        infantry_fighting_vehicle = { x = 1 y = 0 }
-		infantry_fighting_vehicle = { x = 1 y = 1 }
+		infantry_fighting_vehicle = { x = 0 y = 0 }
+		infantry_fighting_vehicle = { x = 0 y = 1 }
+		infantry_fighting_vehicle = { x = 0 y = 2 }
+		infantry_fighting_vehicle = { x = 0 y = 3 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
 		recon = { x = 0 y = 2 }
-		mortar = { x = 0 y = 3 }
-		atgm_company = { x = 0 y = 4 }
+		atgm_company = { x = 0 y = 3 }
+		maintenance_company = { x = 0 y = 4 }
 	}
 
 	is_locked = no
@@ -117,16 +116,17 @@ division_template = {
 	    mountaineers = { x = 0 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		atgm_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
 	}
 }
 
 division_template = {
 	name = "Batalyon-OMON"
 
-	division_names_group = RAS_Omo_01
+	division_names_group = RAS_OMON_01
 
 	regiments = {
 		special_forces_infantry = { x = 0 y = 0 }
@@ -134,11 +134,8 @@ division_template = {
 		special_forces_infantry = { x = 0 y = 2 }
 	}
 	support = {
-	    recon = { x = 0 y = 0 }
-	    artillery = { x = 0 y = 1 }
-		engineer = { x = 0 y = 2 }
-		mortar = { x = 0 y = 3 }
-		atgm_company = { x = 0 y = 4 }
+		military_police = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
 	}
 }
 
@@ -148,15 +145,16 @@ division_template = {
 	division_names_group = RAS_Mot_01
 
 	regiments = {
-		motorized = { x = 0 y = 0 }
-	    motorized = { x = 0 y = 1 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
+		armoured_personnel_carrier = { x = 0 y = 0 }
+		armoured_personnel_carrier = { x = 0 y = 1 }
+		armoured_personnel_carrier = { x = 0 y = 2 }
+		armoured_personnel_carrier = { x = 0 y = 3 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
 		atgm_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 3 }
 	}
 }
 
@@ -170,9 +168,9 @@ division_template = {
 	    marine = { x = 0 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		atgm_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
 	}
 }
 
@@ -186,9 +184,9 @@ division_template = {
 	    paratrooper = { x = 0 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company  = { x = 0 y = 2 }
+		atgm_company = { x = 0 y = 2 }
 	}
 }
 

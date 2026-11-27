@@ -13,14 +13,12 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
-		atgm_company = { x = 0 y = 2 }
-		sniper_company = { x = 0 y = 3 }
-		maintenance_company = { x = 0 y = 4 }
-		artillery = { x = 1 y = 0 }
-		signal_company = { x = 1 y = 1 }
-		logistics_company = { x = 1 y = 2 }
+		engineer = { x = 0 y = 0 }
+		mortar = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 3 }
+		manpads_platoon = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
 	}
 
 	is_locked = yes

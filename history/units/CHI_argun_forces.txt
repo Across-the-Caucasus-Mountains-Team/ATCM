@@ -9,7 +9,8 @@ division_template = {
         irregular_infantry = { x = 0 y = 2 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
+		sniper_company = { x = 0 y = 1 }
 	}
 	is_locked = yes
 }

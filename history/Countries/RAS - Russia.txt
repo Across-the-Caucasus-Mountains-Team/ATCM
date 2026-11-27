@@ -93,6 +93,7 @@ create_equipment_variant = {
 	bbm_1 = 1
 	bbm_2 = 1
 	reactive_artillery = 1
+	marines = 1
 }
 
 
@@ -393,6 +394,7 @@ add_ideas = {
 	set_province_controller = 17528
 	set_province_controller = 17529
 	set_province_controller = 17530
+	set_technology = { recon_uav1 = 1 }
 }
 
 1996.1.1 = {

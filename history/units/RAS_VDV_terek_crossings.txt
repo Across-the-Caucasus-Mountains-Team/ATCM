@@ -3,11 +3,13 @@ division_template = {
 	division_names_group = RAS_Par_03
 
 	regiments = {
-		paratrooper = { x = 0 y = 0 }
-	    paratrooper = { x = 0 y = 1 }
+		light_paratrooper = { x = 0 y = 0 }
+		light_paratrooper = { x = 0 y = 1 }
 	}
 	support = {
-        sniper_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
+		ags_platoon = { x = 0 y = 1 }
+		sniper_company = { x = 0 y = 2 }
 	}
 }
 
@@ -18,7 +20,7 @@ units = {
 			name_order = 1
 		}
 		location = 6000
-		division_template = "VDV"
+		division_template = "light_VDV"
 		start_experience_factor = 0.5
 	}
 	division = {
@@ -27,7 +29,7 @@ units = {
 			name_order = 2
 		}
 		location = 10530
-		division_template = "VDV"
+		division_template = "light_VDV"
 		start_experience_factor = 0.5
 	}
 	division = {
@@ -36,7 +38,7 @@ units = {
 			name_order = 2
 		}
 		location = 17471
-		division_template = "VDV"
+		division_template = "light_VDV"
 		start_experience_factor = 0.5
 	}
 	division = {
@@ -45,7 +47,7 @@ units = {
 			name_order = 2
 		}
 		location = 885
-		division_template = "VDV"
+		division_template = "light_VDV"
 		start_experience_factor = 0.5
 	}
 }

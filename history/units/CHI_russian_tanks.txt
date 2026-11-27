@@ -8,11 +8,9 @@ division_template = {
         infantry_fighting_vehicle = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-		mortar = { x = 0 y = 3 }
-		atgm_company = { x = 0 y = 4 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
 	}
 
 	is_locked = yes

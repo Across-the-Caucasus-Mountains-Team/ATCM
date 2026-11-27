@@ -1,6 +1,5 @@
 division_template = {
 	name = "Artillerin bataljon"
-	#Note: precursor to Gebirgs-Divisions
 	division_names_group = CHE_Art_01
 
 	regiments = {
@@ -10,7 +9,9 @@ division_template = {
 		artillery_brigade  = { x = 1 y = 1 }
 	}
 	support = {
-        recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		manpads_platoon = { x = 0 y = 2 }
 	}
 }
 

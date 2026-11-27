@@ -338,7 +338,7 @@ RAS_Mot_01 = {
 	name = "Motstelkovy-Batalyon"
 	for_countries = { RAS }
 	can_use = { always = yes }
-	division_types = { motorized }
+	division_types = { motorized armoured_personnel_carrier }
 	fallback_name = "%d. Motstelkovy-Batalyon"
 }
 
@@ -354,7 +354,7 @@ RAS_Par_01 = {
 	name = "VDV"
 	for_countries = { RAS }
 	can_use = { always = yes }
-	division_types = { paratrooper }
+	division_types = { paratrooper light_paratrooper }
 	fallback_name = "%d. VDV"
 }
 
@@ -362,7 +362,7 @@ RAS_Par_02 = {
 	name = "VDV 3"
 	for_countries = { RAS }
 	can_use = { always = yes }
-	division_types = { paratrooper }
+	division_types = { paratrooper light_paratrooper }
 	fallback_name = "%d. VDV 3"
 }
 
@@ -370,7 +370,7 @@ RAS_Par_03 = {
 	name = "VDV 2"
 	for_countries = { RAS }
 	can_use = { always = yes }
-	division_types = { paratrooper }
+	division_types = { paratrooper light_paratrooper }
 	fallback_name = "%d. VDV 2"
 }
 
@@ -404,4 +404,28 @@ SAK_ngd_01 = {
 	can_use = { always = yes }
 	division_types = { infantry }
 	fallback_name = "%d. Nationaluri-gvardiis-danakofi"
+}
+
+RAS_Mech_01 = {
+	name = "Мотострелковый батальон на БМП"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { infantry_fighting_vehicle }
+	fallback_name = "%d. Мотострелковый батальон на БМП"
+}
+
+RAS_RArt_01 = {
+	name = "Реактивный артиллерийский дивизион"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { motorized_rocket_brigade }
+	fallback_name = "%d. Реактивный артиллерийский дивизион"
+}
+
+RAS_OMON_01 = {
+	name = "Отряд ОМОН"
+	for_countries = { RAS }
+	can_use = { always = yes }
+	division_types = { special_forces_infantry }
+	fallback_name = "%d. Отряд ОМОН"
 }

@@ -112,6 +112,7 @@ set_technology = {
 	bbm_1 = 1
 	bbm_2 = 1
 	reactive_artillery = 1
+	tech_maintenance_company = 1
 }
 
 add_ideas = {

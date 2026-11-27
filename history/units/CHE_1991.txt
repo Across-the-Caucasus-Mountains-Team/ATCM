@@ -11,9 +11,9 @@ division_template = {
 	}
 	
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
 		recon = { x = 0 y = 3 }
 	}
 }
@@ -29,10 +29,9 @@ division_template = {
 		armoured_personnel_carrier = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
-		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
-		recon = { x = 0 y = 3 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
 	}
 }
 
@@ -48,10 +47,11 @@ division_template = {
 		mountaineers = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
 		sniper_company = { x = 0 y = 2 }
 		recon = { x = 0 y = 3 }
+		ags_platoon = { x = 0 y = 4 }
 	}
 }
 
@@ -67,9 +67,9 @@ division_template = {
 		motorized = { x = 1 y = 1 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
 		mortar = { x = 0 y = 1 }
-		sniper_company = { x = 0 y = 2 }
+		ags_platoon = { x = 0 y = 2 }
 		recon = { x = 0 y = 3 }
 	}
 }

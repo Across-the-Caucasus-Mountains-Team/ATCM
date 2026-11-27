@@ -11,7 +11,8 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 	}
 	support = {
-        engineer = { x = 0 y = 0 }
+		engineer = { x = 0 y = 0 }
+		ags_platoon = { x = 0 y = 1 }
 	}
 }
 
@@ -31,7 +32,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Artillerin bataljon"
+	name = "Artillerin bataljon (rezerv)"
 	#Note: precursor to Gebirgs-Divisions
 	division_names_group = CHE_Art_01
 
@@ -41,7 +42,8 @@ division_template = {
 		artillery_brigade  = { x = 1 y = 1 }
 	}
 	support = {
-        recon = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }
+		ags_platoon = { x = 0 y = 1 }
 	}
 }
 
@@ -284,7 +286,7 @@ units = {
 			name_order = 1
 		}
 		location = 2964
-		division_template = "Artillerin bataljon"
+		division_template = "Artillerin bataljon (rezerv)"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -295,7 +297,7 @@ units = {
 			name_order = 1
 		}
 		location = 10593
-		division_template = "Artillerin bataljon"
+		division_template = "Artillerin bataljon (rezerv)"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
