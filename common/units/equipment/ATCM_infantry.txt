@@ -296,7 +296,7 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.01
-		build_cost_ic = 0.02
+		build_cost_ic = 0.03
 	}
 
 	uniform_equipment_0 = {
@@ -320,7 +320,7 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.01
-		build_cost_ic = 0.025
+		build_cost_ic = 0.035
 	}
 
 	uniform_equipment_2 = {
@@ -336,7 +336,7 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.02
-		build_cost_ic = 0.028
+		build_cost_ic = 0.038
 	}
 
 	uniform_equipment_3 = {
@@ -352,7 +352,7 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.02
-		build_cost_ic = 0.030
+		build_cost_ic = 0.040
 	}
 
 	uniform_equipment_4 = {
@@ -368,7 +368,7 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.02
-		build_cost_ic = 0.032
+		build_cost_ic = 0.042
 	}
 
 	uniform_equipment_5 = {
@@ -384,7 +384,7 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.02
-		build_cost_ic = 0.034
+		build_cost_ic = 0.044
 	}
 
 	uniform_equipment_6 = {
@@ -400,7 +400,7 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.02
-		build_cost_ic = 0.036
+		build_cost_ic = 0.046
 	}
 
 	uniform_equipment_7 = {
@@ -416,6 +416,6 @@ equipments = {
 		hardness = 0
 		armor_value = 0
 		lend_lease_cost = 0.02
-		build_cost_ic = 0.040
+		build_cost_ic = 0.05
 	}
 }

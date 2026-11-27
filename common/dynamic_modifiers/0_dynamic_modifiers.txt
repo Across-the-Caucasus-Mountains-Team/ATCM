@@ -165,10 +165,10 @@ RAS_chechen_mountains = {
 
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
-	army_attack_factor = -0.60
+	army_attack_factor = -0.80
 	army_speed_factor = -0.45
-	army_org_factor = -0.30
-	ai_focus_aggressive_factor = -0.6
+	army_org_factor = -0.25
+	ai_focus_aggressive_factor = -0.85
 }
 
 RAS_road_to_south_chechnya = {
@@ -223,7 +223,7 @@ RAS_protests_in_region = {
 	enable = { always = yes }
 	icon = GFX_idea_CHE_weak_army
 	army_speed_factor = -0.50
-	army_org_factor = -0.15
+	army_org_factor = -0.25
 }
 
 RAS_region_is_blocked = {
@@ -240,8 +240,8 @@ CHE_chechen_insurgency = {
 
 	enable = { always = yes }
 	icon = GFX_idea_chechen_insurgency
-	army_speed_factor = -0.15
-	army_org_factor = -0.05
+	army_speed_factor = -0.25
+	army_org_factor = -0.075
 	dig_in_speed_factor = -0.15
 	resistance_activity = 0.5	
 	compliance_growth = -0.3

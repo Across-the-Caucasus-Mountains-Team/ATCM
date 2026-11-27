@@ -85,8 +85,10 @@ set_popularities = {
 		free_universities
 		police_state
 
+
 		CHE_memories_of_deportations
 		CHE_language_issue
+		RAS_Failed_perestroika
 	}
 }
 
@@ -196,6 +198,7 @@ add_ideas = {
 	}
 	remove_ideas = {
 	    CHE_language_issue
+		RAS_Failed_perestroika
 	}
 	set_variable = { CHE_wcaf_war_support_factor = 0.07 }
 	set_variable = { CHE_wcaf_Conscription = 0.0015 }

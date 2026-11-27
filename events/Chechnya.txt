@@ -87,6 +87,7 @@ country_event = {
 		add_ideas = CHE_question_of_currency_idea
 		add_ideas = CHE_lack_of_experience_in_building_fortifications
 		hidden_effect = {
+			remove_ideas = RAS_Failed_perestroika
 			news_event = { id = news.10 }
 			hidden_effect = {
 				RAS = {
@@ -981,6 +982,7 @@ country_event = {
 		add_ideas = CHE_question_of_currency_idea
 		add_ideas = CHE_lack_of_experience_in_building_fortifications
 		hidden_effect = {
+			remove_ideas = RAS_Failed_perestroika
 			news_event = { id = news.10 }
 			hidden_effect = {
 				RAS = {
